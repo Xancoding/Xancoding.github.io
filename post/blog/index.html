@@ -7,7 +7,8 @@
 <meta name="robots" content="index, follow">
 <title>Blog | Xan&#39;s Blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="原码&amp;移码&amp;补码 原码 最高位放符号位，1 表示负 定点小数，用来表示浮点数的尾数 移码 真值加上一个偏置值 bias，$bias$ 常为 2n - 1 $or$ 2n - 1 - 1 (如 $IEEE 754$) 定点整数，用来表示浮点数的阶 移码的本意是为了方便两个数作比较 补码 假设补码有 $n$ 位，则： 补 = 2n &#43; x 数值为正数时，其值大小就是原码；为负时，其值的大小就是各位取反再加 1 补码表示带符号整数 补码的出现是为了解决计算机的减法运算问题 求补码的真值——简便求法 符号为 0 ，则为正数，数值部分相同 符号为 1，则为负数，数值各位取反，末位加 1 各位取反，末位加 1 简便做法：从后往前看，找到第一个 1 ，将它前面的所有位取反 浮点数——$IEEE754$标准 数符 &#43; 阶码 &#43; 尾数 Float $1 &#43; 8 &#43; 23$ $SP$：$(-1)$s $$ $(1 &#43; Significand)$ $$ $2$(Exponent - 127) Double $1 &#43; 11 &#43; 52$ $DP$：$(-1)$s $$ $(1 &#43; Significand)$ $$ $2$(Exponent - 1023) 数符 $Sign bit$ 1 表示负数 阶码 $Exponent$ 规格化阶码范围为 $0000 0001(-126) —— 1111 1110(127)$ $(single)$ $bias$ 为 $127(single)$ $1023(double)$ 规格化阶范围为 $1——254$$(single)$ 全 $0$ 和全 $1$ 用来表示特殊值 为避免混淆，用阶码表示阶的编码，用阶或指数表示阶码的值 尾数 $Significand$ 规格化尾数最高位总是 $1$，所以隐含表示，省 $1$ 位，小数点前总是 $1$ 特殊数的表示$(single)$ $0$ $阶码：all$ $zeros$ $尾数：all$ $zeros$ $&#43;0：0$ $00000000$ $00000000000000000000000$ $-0：1$ $00000000$ $00000000000000000000000$ $∞$ $阶码：all$ $ones$ $尾数：all$ $zeros$ $&#43;∞：0$ $11111111$ $00000000000000000000000$ $-∞：1$ $11111111$ $00000000000000000000000$ 浮点数除以 $0$ 的结果是 $∞$，而不是溢出异常(整数除以 $0$ 为异常) $NaN$ ($Not$ $a$ $Number$) $阶码：all$ $ones$ $尾数：nonzeros$ 可帮助调试程序 非规格化数 $Denorms$ $阶码：all$ $zeros$ $尾数：nonzeros$ 用于表示 $0$ 与规格化数间的$Gap$ $SP$：$(-1)$s $$ $(0.">
+<meta name="description" content="~ 排序
+插入排序 直接插入排序 稳定 将 a[i]插入前面已经排好序的 a[1]~a[i - 1]中 在 a[0] 处设置岗哨，使 a[0] == a[i] 避免查找插入位置时对下标越界的检查 将 a[i]依次与 a[i - 1]，a[i - 2]，&hellip; ，a[1]比较，直到 a[j] &lt;= a[i]，再将 a[i]插到 a[j]之后 希尔排序 不稳定 基本思想：先取一个正整数 d1 &lt; n，把所有相隔 d1 的记录放一组，组内进行直接插入排序；然后取 d2 &lt; d1，重复上述分组和排序操作；直至 di = 1，即所有记录放进一个组中进行一趟直接插入排序为止 具体做法： 取 d1 = ⌊n / 2⌋ 每一趟 d i = ⌊d i - 1 / 2⌋ 直至 d k = 1结束 void shell_pass(int a[], int step) { for (int i = step &#43; 1; i &lt;= n; i&#43;&#43;) { int tmp = a[i]; int j = i - step; while(j &gt;= 1 &amp;&amp; tmp &lt; a[j]) { a[j &#43; step] = a[j]; j = j - step; } a[j &#43; step] = tmp; } } void shell_sort(int a[], int d[]) {	//需t趟完成排序 for (int k = 0; k &lt; t; k&#43;&#43;) shell_pass (a, d[k]); } 交换排序 冒泡排序 稳定 沉底法 快速排序 不稳定">
 <meta name="author" content="">
 <link rel="canonical" href="https://zagxuy.github.io/post/blog/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
@@ -57,7 +58,8 @@
 
     </style>
 </noscript><meta property="og:title" content="Blog" />
-<meta property="og:description" content="原码&amp;移码&amp;补码 原码 最高位放符号位，1 表示负 定点小数，用来表示浮点数的尾数 移码 真值加上一个偏置值 bias，$bias$ 常为 2n - 1 $or$ 2n - 1 - 1 (如 $IEEE 754$) 定点整数，用来表示浮点数的阶 移码的本意是为了方便两个数作比较 补码 假设补码有 $n$ 位，则： 补 = 2n &#43; x 数值为正数时，其值大小就是原码；为负时，其值的大小就是各位取反再加 1 补码表示带符号整数 补码的出现是为了解决计算机的减法运算问题 求补码的真值——简便求法 符号为 0 ，则为正数，数值部分相同 符号为 1，则为负数，数值各位取反，末位加 1 各位取反，末位加 1 简便做法：从后往前看，找到第一个 1 ，将它前面的所有位取反 浮点数——$IEEE754$标准 数符 &#43; 阶码 &#43; 尾数 Float $1 &#43; 8 &#43; 23$ $SP$：$(-1)$s $$ $(1 &#43; Significand)$ $$ $2$(Exponent - 127) Double $1 &#43; 11 &#43; 52$ $DP$：$(-1)$s $$ $(1 &#43; Significand)$ $$ $2$(Exponent - 1023) 数符 $Sign bit$ 1 表示负数 阶码 $Exponent$ 规格化阶码范围为 $0000 0001(-126) —— 1111 1110(127)$ $(single)$ $bias$ 为 $127(single)$ $1023(double)$ 规格化阶范围为 $1——254$$(single)$ 全 $0$ 和全 $1$ 用来表示特殊值 为避免混淆，用阶码表示阶的编码，用阶或指数表示阶码的值 尾数 $Significand$ 规格化尾数最高位总是 $1$，所以隐含表示，省 $1$ 位，小数点前总是 $1$ 特殊数的表示$(single)$ $0$ $阶码：all$ $zeros$ $尾数：all$ $zeros$ $&#43;0：0$ $00000000$ $00000000000000000000000$ $-0：1$ $00000000$ $00000000000000000000000$ $∞$ $阶码：all$ $ones$ $尾数：all$ $zeros$ $&#43;∞：0$ $11111111$ $00000000000000000000000$ $-∞：1$ $11111111$ $00000000000000000000000$ 浮点数除以 $0$ 的结果是 $∞$，而不是溢出异常(整数除以 $0$ 为异常) $NaN$ ($Not$ $a$ $Number$) $阶码：all$ $ones$ $尾数：nonzeros$ 可帮助调试程序 非规格化数 $Denorms$ $阶码：all$ $zeros$ $尾数：nonzeros$ 用于表示 $0$ 与规格化数间的$Gap$ $SP$：$(-1)$s $$ $(0." />
+<meta property="og:description" content="~ 排序
+插入排序 直接插入排序 稳定 将 a[i]插入前面已经排好序的 a[1]~a[i - 1]中 在 a[0] 处设置岗哨，使 a[0] == a[i] 避免查找插入位置时对下标越界的检查 将 a[i]依次与 a[i - 1]，a[i - 2]，&hellip; ，a[1]比较，直到 a[j] &lt;= a[i]，再将 a[i]插到 a[j]之后 希尔排序 不稳定 基本思想：先取一个正整数 d1 &lt; n，把所有相隔 d1 的记录放一组，组内进行直接插入排序；然后取 d2 &lt; d1，重复上述分组和排序操作；直至 di = 1，即所有记录放进一个组中进行一趟直接插入排序为止 具体做法： 取 d1 = ⌊n / 2⌋ 每一趟 d i = ⌊d i - 1 / 2⌋ 直至 d k = 1结束 void shell_pass(int a[], int step) { for (int i = step &#43; 1; i &lt;= n; i&#43;&#43;) { int tmp = a[i]; int j = i - step; while(j &gt;= 1 &amp;&amp; tmp &lt; a[j]) { a[j &#43; step] = a[j]; j = j - step; } a[j &#43; step] = tmp; } } void shell_sort(int a[], int d[]) {	//需t趟完成排序 for (int k = 0; k &lt; t; k&#43;&#43;) shell_pass (a, d[k]); } 交换排序 冒泡排序 稳定 沉底法 快速排序 不稳定" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zagxuy.github.io/post/blog/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-10-09T12:11:31+08:00" />
@@ -65,7 +67,8 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Blog"/>
-<meta name="twitter:description" content="原码&amp;移码&amp;补码 原码 最高位放符号位，1 表示负 定点小数，用来表示浮点数的尾数 移码 真值加上一个偏置值 bias，$bias$ 常为 2n - 1 $or$ 2n - 1 - 1 (如 $IEEE 754$) 定点整数，用来表示浮点数的阶 移码的本意是为了方便两个数作比较 补码 假设补码有 $n$ 位，则： 补 = 2n &#43; x 数值为正数时，其值大小就是原码；为负时，其值的大小就是各位取反再加 1 补码表示带符号整数 补码的出现是为了解决计算机的减法运算问题 求补码的真值——简便求法 符号为 0 ，则为正数，数值部分相同 符号为 1，则为负数，数值各位取反，末位加 1 各位取反，末位加 1 简便做法：从后往前看，找到第一个 1 ，将它前面的所有位取反 浮点数——$IEEE754$标准 数符 &#43; 阶码 &#43; 尾数 Float $1 &#43; 8 &#43; 23$ $SP$：$(-1)$s $$ $(1 &#43; Significand)$ $$ $2$(Exponent - 127) Double $1 &#43; 11 &#43; 52$ $DP$：$(-1)$s $$ $(1 &#43; Significand)$ $$ $2$(Exponent - 1023) 数符 $Sign bit$ 1 表示负数 阶码 $Exponent$ 规格化阶码范围为 $0000 0001(-126) —— 1111 1110(127)$ $(single)$ $bias$ 为 $127(single)$ $1023(double)$ 规格化阶范围为 $1——254$$(single)$ 全 $0$ 和全 $1$ 用来表示特殊值 为避免混淆，用阶码表示阶的编码，用阶或指数表示阶码的值 尾数 $Significand$ 规格化尾数最高位总是 $1$，所以隐含表示，省 $1$ 位，小数点前总是 $1$ 特殊数的表示$(single)$ $0$ $阶码：all$ $zeros$ $尾数：all$ $zeros$ $&#43;0：0$ $00000000$ $00000000000000000000000$ $-0：1$ $00000000$ $00000000000000000000000$ $∞$ $阶码：all$ $ones$ $尾数：all$ $zeros$ $&#43;∞：0$ $11111111$ $00000000000000000000000$ $-∞：1$ $11111111$ $00000000000000000000000$ 浮点数除以 $0$ 的结果是 $∞$，而不是溢出异常(整数除以 $0$ 为异常) $NaN$ ($Not$ $a$ $Number$) $阶码：all$ $ones$ $尾数：nonzeros$ 可帮助调试程序 非规格化数 $Denorms$ $阶码：all$ $zeros$ $尾数：nonzeros$ 用于表示 $0$ 与规格化数间的$Gap$ $SP$：$(-1)$s $$ $(0."/>
+<meta name="twitter:description" content="~ 排序
+插入排序 直接插入排序 稳定 将 a[i]插入前面已经排好序的 a[1]~a[i - 1]中 在 a[0] 处设置岗哨，使 a[0] == a[i] 避免查找插入位置时对下标越界的检查 将 a[i]依次与 a[i - 1]，a[i - 2]，&hellip; ，a[1]比较，直到 a[j] &lt;= a[i]，再将 a[i]插到 a[j]之后 希尔排序 不稳定 基本思想：先取一个正整数 d1 &lt; n，把所有相隔 d1 的记录放一组，组内进行直接插入排序；然后取 d2 &lt; d1，重复上述分组和排序操作；直至 di = 1，即所有记录放进一个组中进行一趟直接插入排序为止 具体做法： 取 d1 = ⌊n / 2⌋ 每一趟 d i = ⌊d i - 1 / 2⌋ 直至 d k = 1结束 void shell_pass(int a[], int step) { for (int i = step &#43; 1; i &lt;= n; i&#43;&#43;) { int tmp = a[i]; int j = i - step; while(j &gt;= 1 &amp;&amp; tmp &lt; a[j]) { a[j &#43; step] = a[j]; j = j - step; } a[j &#43; step] = tmp; } } void shell_sort(int a[], int d[]) {	//需t趟完成排序 for (int k = 0; k &lt; t; k&#43;&#43;) shell_pass (a, d[k]); } 交换排序 冒泡排序 稳定 沉底法 快速排序 不稳定"/>
 
 
 <script type="application/ld+json">
@@ -94,12 +97,12 @@
   "@type": "BlogPosting",
   "headline": "Blog",
   "name": "Blog",
-  "description": "原码\u0026amp;移码\u0026amp;补码 原码 最高位放符号位，1 表示负 定点小数，用来表示浮点数的尾数 移码 真值加上一个偏置值 bias，$bias$ 常为 2n - 1 $or$ 2n - 1 - 1 (如 $IEEE 754$) 定点整数，用来表示浮点数的阶 移码的本意是为了方便两个数作比较 补码 假设补码有 $n$ 位，则： 补 = 2n + x 数值为正数时，其值大小就是原码；为负时，其值的大小就是各位取反再加 1 补码表示带符号整数 补码的出现是为了解决计算机的减法运算问题 求补码的真值——简便求法 符号为 0 ，则为正数，数值部分相同 符号为 1，则为负数，数值各位取反，末位加 1 各位取反，末位加 1 简便做法：从后往前看，找到第一个 1 ，将它前面的所有位取反 浮点数——$IEEE754$标准 数符 + 阶码 + 尾数 Float $1 + 8 + 23$ $SP$：$(-1)$s $$ $(1 + Significand)$ $$ $2$(Exponent - 127) Double $1 + 11 + 52$ $DP$：$(-1)$s $$ $(1 + Significand)$ $$ $2$(Exponent - 1023) 数符 $Sign bit$ 1 表示负数 阶码 $Exponent$ 规格化阶码范围为 $0000 0001(-126) —— 1111 1110(127)$ $(single)$ $bias$ 为 $127(single)$ $1023(double)$ 规格化阶范围为 $1——254$$(single)$ 全 $0$ 和全 $1$ 用来表示特殊值 为避免混淆，用阶码表示阶的编码，用阶或指数表示阶码的值 尾数 $Significand$ 规格化尾数最高位总是 $1$，所以隐含表示，省 $1$ 位，小数点前总是 $1$ 特殊数的表示$(single)$ $0$ $阶码：all$ $zeros$ $尾数：all$ $zeros$ $+0：0$ $00000000$ $00000000000000000000000$ $-0：1$ $00000000$ $00000000000000000000000$ $∞$ $阶码：all$ $ones$ $尾数：all$ $zeros$ $+∞：0$ $11111111$ $00000000000000000000000$ $-∞：1$ $11111111$ $00000000000000000000000$ 浮点数除以 $0$ 的结果是 $∞$，而不是溢出异常(整数除以 $0$ 为异常) $NaN$ ($Not$ $a$ $Number$) $阶码：all$ $ones$ $尾数：nonzeros$ 可帮助调试程序 非规格化数 $Denorms$ $阶码：all$ $zeros$ $尾数：nonzeros$ 用于表示 $0$ 与规格化数间的$Gap$ $SP$：$(-1)$s $$ $(0.",
+  "description": "~ 排序\n插入排序 直接插入排序 稳定 将 a[i]插入前面已经排好序的 a[1]~a[i - 1]中 在 a[0] 处设置岗哨，使 a[0] == a[i] 避免查找插入位置时对下标越界的检查 将 a[i]依次与 a[i - 1]，a[i - 2]，\u0026hellip; ，a[1]比较，直到 a[j] \u0026lt;= a[i]，再将 a[i]插到 a[j]之后 希尔排序 不稳定 基本思想：先取一个正整数 d1 \u0026lt; n，把所有相隔 d1 的记录放一组，组内进行直接插入排序；然后取 d2 \u0026lt; d1，重复上述分组和排序操作；直至 di = 1，即所有记录放进一个组中进行一趟直接插入排序为止 具体做法： 取 d1 = ⌊n / 2⌋ 每一趟 d i = ⌊d i - 1 / 2⌋ 直至 d k = 1结束 void shell_pass(int a[], int step) { for (int i = step + 1; i \u0026lt;= n; i++) { int tmp = a[i]; int j = i - step; while(j \u0026gt;= 1 \u0026amp;\u0026amp; tmp \u0026lt; a[j]) { a[j + step] = a[j]; j = j - step; } a[j + step] = tmp; } } void shell_sort(int a[], int d[]) {\t//需t趟完成排序 for (int k = 0; k \u0026lt; t; k++) shell_pass (a, d[k]); } 交换排序 冒泡排序 稳定 沉底法 快速排序 不稳定",
   "keywords": [
     
   ],
-  "articleBody": "原码\u0026移码\u0026补码 原码 最高位放符号位，1 表示负 定点小数，用来表示浮点数的尾数 移码 真值加上一个偏置值 bias，$bias$ 常为 2n - 1 $or$ 2n - 1 - 1 (如 $IEEE 754$) 定点整数，用来表示浮点数的阶 移码的本意是为了方便两个数作比较 补码 假设补码有 $n$ 位，则： 补 = 2n + x 数值为正数时，其值大小就是原码；为负时，其值的大小就是各位取反再加 1 补码表示带符号整数 补码的出现是为了解决计算机的减法运算问题 求补码的真值——简便求法 符号为 0 ，则为正数，数值部分相同 符号为 1，则为负数，数值各位取反，末位加 1 各位取反，末位加 1 简便做法：从后往前看，找到第一个 1 ，将它前面的所有位取反 浮点数——$IEEE754$标准 数符 + 阶码 + 尾数 Float $1 + 8 + 23$ $SP$：$(-1)$s $$ $(1 + Significand)$ $$ $2$(Exponent - 127) Double $1 + 11 + 52$ $DP$：$(-1)$s $$ $(1 + Significand)$ $$ $2$(Exponent - 1023) 数符 $Sign bit$ 1 表示负数 阶码 $Exponent$ 规格化阶码范围为 $0000 0001(-126) —— 1111 1110(127)$ $(single)$ $bias$ 为 $127(single)$ $1023(double)$ 规格化阶范围为 $1——254$$(single)$ 全 $0$ 和全 $1$ 用来表示特殊值 为避免混淆，用阶码表示阶的编码，用阶或指数表示阶码的值 尾数 $Significand$ 规格化尾数最高位总是 $1$，所以隐含表示，省 $1$ 位，小数点前总是 $1$ 特殊数的表示$(single)$ $0$ $阶码：all$ $zeros$ $尾数：all$ $zeros$ $+0：0$ $00000000$ $00000000000000000000000$ $-0：1$ $00000000$ $00000000000000000000000$ $∞$ $阶码：all$ $ones$ $尾数：all$ $zeros$ $+∞：0$ $11111111$ $00000000000000000000000$ $-∞：1$ $11111111$ $00000000000000000000000$ 浮点数除以 $0$ 的结果是 $∞$，而不是溢出异常(整数除以 $0$ 为异常) $NaN$ ($Not$ $a$ $Number$) $阶码：all$ $ones$ $尾数：nonzeros$ 可帮助调试程序 非规格化数 $Denorms$ $阶码：all$ $zeros$ $尾数：nonzeros$ 用于表示 $0$ 与规格化数间的$Gap$ $SP$：$(-1)$s $$ $(0.xxxx…xxx)$ $$ $2$-126 为了让非规格化单精度浮点数能够平缓过渡到规格化单精度浮点数，所以取 $2$-126 当输入数据为不可表示数时，机器将其转换为最邻近的可表示数 汉字内码\u0026ASCII码 ASCII码为 7 位编码 Ex：汉字 “$大$” 在码表中位于第 $20$ 行、第 $83$ 列。因此区位码为 $0010100$ $1010011$，在区、位码上各加 $32$ 得到两个字节编码（GB2312国标码），即 $00110100$ $01110011B$ $=$ $3473H$。前面的 $34 H$ 和 字符 $4$ 的 $ACSII$ 的最高位相同，后面的 $73H$ 和字符 $s$ 的 $ACSII$ 码相同。但是，将每个字节的最高位各设为 $1$ 后，就得到其内码： $B4F3H$ ($0110100$ $11110011B$)，因而不会和 $ASCII$ 码混淆ff 逻辑电路 异或：$n$ 个数做异或运算，若有奇数个 $1$ ，则输出 $1$ ",
-  "wordCount" : "216",
+  "articleBody": "~ 排序\n插入排序 直接插入排序 稳定 将 a[i]插入前面已经排好序的 a[1]~a[i - 1]中 在 a[0] 处设置岗哨，使 a[0] == a[i] 避免查找插入位置时对下标越界的检查 将 a[i]依次与 a[i - 1]，a[i - 2]，… ，a[1]比较，直到 a[j] \u003c= a[i]，再将 a[i]插到 a[j]之后 希尔排序 不稳定 基本思想：先取一个正整数 d1 \u003c n，把所有相隔 d1 的记录放一组，组内进行直接插入排序；然后取 d2 \u003c d1，重复上述分组和排序操作；直至 di = 1，即所有记录放进一个组中进行一趟直接插入排序为止 具体做法： 取 d1 = ⌊n / 2⌋ 每一趟 d i = ⌊d i - 1 / 2⌋ 直至 d k = 1结束 void shell_pass(int a[], int step) { for (int i = step + 1; i \u003c= n; i++) { int tmp = a[i]; int j = i - step; while(j \u003e= 1 \u0026\u0026 tmp \u003c a[j]) { a[j + step] = a[j]; j = j - step; } a[j + step] = tmp; } } void shell_sort(int a[], int d[]) {\t//需t趟完成排序 for (int k = 0; k \u003c t; k++) shell_pass (a, d[k]); } 交换排序 冒泡排序 稳定 沉底法 快速排序 不稳定\n时间性能\n最坏（基本有序时）：O ( n 2 ) 最好（每次划分恰好两个子序列长度相等）：O (nlogn) 空间性能\n递归调用，存储开销 最好：O (logn) 最坏：O ( n ) 将 a[0] 设为哨兵，存储每次选中的关键字\n基本思想：在待排序列中选一个关键字，按某一规律进行多次比较交换后，它移到某一位置，此元素将记录分割成独立的两部分，它左边的关键字都小于或等于它，右边的关键字都大于或等于它。之后对这两部分分别进行快速排序\nint partition(SqList L, int low, int high) { L.r[0] = L.r[low]; while (low \u003c high) { while (low \u003c high \u0026\u0026 L.r[0] \u003c= L.r[high]) high--; L.r[low] = L.r[high]; while (low \u003c high \u0026\u0026 L.r[0] \u003e= L.r[low]) low++; L.r[high] = L.r[low]; } L.r[low] = L.r[0]; return low; } void quick_sort (SqList L, int low, int high) { if (low \u003c high) { int pos = partition(L, low, high); quick_sort(L, low, pos - 1); quick_sort(L, pos + 1, high); } } 选择排序 简单选择排序 不稳定 第 i 趟排序从待排序记录里选出最小关键字值的记录与第 i 个记录交换（1 \u003c= i \u003c= n - 1） 堆排序 不稳定 初始建堆：将 n 个元素的序列看成是一个完全二叉树，则最后一个非叶子结点是第 ⌊n / 2⌋ 个元素. 从第 ⌊n / 2⌋ 个元素开始 down，一直 down 到第 1 个元素，就建立了堆 二路归并排序 稳定 时间性能：O (nlogn) 空间性能：O (n) 基本思想：设初始序列含有 n 个记录，归并排序把此序列看成是由 n 个只包含一个记录的有序表组成，然后进行两两归并，最后形成包含 n 个记录的有序表 开始时取 L = 1，第一趟归并排序后，L = L * 2，以此类推，直到排序结束 ",
+  "wordCount" : "299",
   "inLanguage": "en",
   "datePublished": "2022-10-09T12:11:31+08:00",
   "dateModified": "2022-10-09T12:11:31+08:00",
@@ -174,125 +177,133 @@
 
 </div>
   </header> 
-  <div class="post-content"><h2 id="原码移码补码">原码&amp;移码&amp;补码<a hidden class="anchor" aria-hidden="true" href="#原码移码补码">#</a></h2>
-<ol>
-<li>原码
+  <div class="post-content"><p>~
+<a href="https://git.acwing.com/ZagY/learn-data-structures/-/blob/main/Sort/README.md">排序</a></p>
+<h1 id="插入排序">插入排序<a hidden class="anchor" aria-hidden="true" href="#插入排序">#</a></h1>
+<h2 id="直接插入排序">直接插入排序<a hidden class="anchor" aria-hidden="true" href="#直接插入排序">#</a></h2>
 <ul>
-<li><!-- raw HTML omitted -->最高位放符号位，1 表示负<!-- raw HTML omitted --></li>
-<li><code>定点小数，用来表示浮点数的尾数</code></li>
+<li><strong>稳定</strong></li>
+<li>将 a[i]插入前面已经排好序的 a[1]~a[i - 1]中</li>
+<li>在  <code>a[0]</code> 处设置岗哨，使 a[0] == a[i]
+<ul>
+<li>避免查找插入位置时对下标越界的检查</li>
 </ul>
 </li>
-<li>移码
-<ul>
-<li><!-- raw HTML omitted -->真值加上一个偏置值 bias<!-- raw HTML omitted -->，$bias$ 常为 2<!-- raw HTML omitted -->n - 1<!-- raw HTML omitted --> $or$ 2<!-- raw HTML omitted -->n - 1<!-- raw HTML omitted --> - 1 (如 $IEEE 754$)</li>
-<li><code>定点整数，用来表示浮点数的阶</code></li>
-<li>移码的本意是为了方便两个数作比较</li>
+<li>将 a[i]依次与 a[i - 1]，a[i - 2]，&hellip; ，a[1]比较，直到 a[j] &lt;= a[i]，再将 a[i]插到 a[j]之后</li>
 </ul>
-</li>
-<li>补码
+<h2 id="希尔排序">希尔排序<a hidden class="anchor" aria-hidden="true" href="#希尔排序">#</a></h2>
 <ul>
-<li>假设补码有 $n$ 位，则：<strong><input checked="" disabled="" type="checkbox"> <!-- raw HTML omitted -->补<!-- raw HTML omitted --> = 2<!-- raw HTML omitted -->n<!-- raw HTML omitted --> + x</strong></li>
-<li><!-- raw HTML omitted -->数值为正数时，其值大小就是原码；为负时，其值的大小就是各位取反再加 1<!-- raw HTML omitted --></li>
-<li><code>补码表示带符号整数</code></li>
-<li>补码的出现是为了解决计算机的减法运算问题</li>
-<li>求补码的真值——简便求法
+<li><strong>不稳定</strong></li>
+<li>基本思想：先取一个正整数 d<!-- raw HTML omitted -->1<!-- raw HTML omitted --> &lt; n，把所有相隔 d<!-- raw HTML omitted -->1<!-- raw HTML omitted --> 的记录放一组，组内进行直接插入排序；然后取 d<!-- raw HTML omitted -->2 <!-- raw HTML omitted --> &lt; d<!-- raw HTML omitted -->1<!-- raw HTML omitted -->，重复上述分组和排序操作；直至 d<!-- raw HTML omitted -->i<!-- raw HTML omitted --> = 1，即所有记录放进一个组中进行一趟直接插入排序为止</li>
+<li>具体做法：
 <ul>
-<li>符号为 0 ，则为正数，数值部分相同</li>
-<li>符号为 1，则为负数，数值各位取反，末位加 1</li>
+<li>取 <strong>d<!-- raw HTML omitted -->1<!-- raw HTML omitted --> = ⌊n / 2⌋</strong></li>
+<li>每一趟 <strong>d <!-- raw HTML omitted --> i <!-- raw HTML omitted --> = ⌊d <!-- raw HTML omitted --> i - 1 <!-- raw HTML omitted --> / 2⌋</strong></li>
+<li>直至 <strong>d <!-- raw HTML omitted --> k <!-- raw HTML omitted --> = 1</strong>结束</li>
 </ul>
 </li>
 </ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">shell_pass</span>(<span style="color:#66d9ef">int</span> a[], <span style="color:#66d9ef">int</span> step)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> step <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> n; i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>	{
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">int</span> tmp <span style="color:#f92672">=</span> a[i];
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> i <span style="color:#f92672">-</span> step;
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">while</span>(j <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">&amp;&amp;</span> tmp <span style="color:#f92672">&lt;</span> a[j])
+</span></span><span style="display:flex;"><span>		{
+</span></span><span style="display:flex;"><span>			a[j <span style="color:#f92672">+</span> step] <span style="color:#f92672">=</span> a[j];
+</span></span><span style="display:flex;"><span>			j <span style="color:#f92672">=</span> j <span style="color:#f92672">-</span> step;
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>		a[j <span style="color:#f92672">+</span> step] <span style="color:#f92672">=</span> tmp;
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">shell_sort</span>(<span style="color:#66d9ef">int</span> a[], <span style="color:#66d9ef">int</span> d[])
+</span></span><span style="display:flex;"><span>{	
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">//需t趟完成排序
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; k <span style="color:#f92672">&lt;</span> t; k<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>		shell_pass (a, d[k]);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h1 id="交换排序">交换排序<a hidden class="anchor" aria-hidden="true" href="#交换排序">#</a></h1>
+<h2 id="冒泡排序">冒泡排序<a hidden class="anchor" aria-hidden="true" href="#冒泡排序">#</a></h2>
+<ul>
+<li><strong>稳定</strong></li>
+<li>沉底法</li>
+</ul>
+<h2 id="快速排序">快速排序<a hidden class="anchor" aria-hidden="true" href="#快速排序">#</a></h2>
+<ul>
+<li>
+<p><strong>不稳定</strong></p>
 </li>
-</ol>
+<li>
+<p>时间性能</p>
 <ul>
-<li><!-- raw HTML omitted -->各位取反，末位加 1 简便做法：从后往前看，找到第一个 1 ，将它前面的所有位取反<!-- raw HTML omitted --></li>
-</ul>
-<h2 id="浮点数ieee754标准">浮点数——$IEEE754$标准<a hidden class="anchor" aria-hidden="true" href="#浮点数ieee754标准">#</a></h2>
-<ul>
-<li><!-- raw HTML omitted -->数符 + 阶码 + 尾数<!-- raw HTML omitted -->
-<ul>
-<li>Float $1 + 8 + 23$
-<ul>
-<li>$SP$：$(-1)$<!-- raw HTML omitted -->s<!-- raw HTML omitted -->  $<em>$ $(1 + Significand)$ $</em>$ $2$<!-- raw HTML omitted -->(Exponent  - 127)<!-- raw HTML omitted --></li>
-</ul>
-</li>
-<li>Double $1 + 11 + 52$
-<ul>
-<li>$DP$：$(-1)$<!-- raw HTML omitted -->s<!-- raw HTML omitted -->  $<em>$ $(1 + Significand)$ $</em>$ $2$<!-- raw HTML omitted -->(Exponent  - 1023)<!-- raw HTML omitted --></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<ol>
-<li>数符 $Sign bit$
-<ul>
-<li>1 表示负数</li>
-</ul>
-</li>
-<li>阶码 $Exponent$
-<ul>
-<li>规格化阶码范围为 $0000 0001(-126) —— 1111 1110(127)$ $(single)$</li>
-<li>$bias$ 为 $127(single)$ $1023(double)$</li>
-<li>规格化阶范围为 $1——254$$(single)$</li>
-<li><strong>全 $0$ 和全 $1$ 用来表示特殊值</strong></li>
-<li>为避免混淆，用<!-- raw HTML omitted -->阶码表示阶的编码<!-- raw HTML omitted -->，用<!-- raw HTML omitted -->阶或指数表示阶码的值<!-- raw HTML omitted --></li>
-</ul>
-</li>
-<li>尾数 $Significand$
-<ul>
-<li><strong>规格化尾数最高位总是 $1$，所以隐含表示，省 $1$ 位，小数点前总是 $1$</strong></li>
+<li>最坏（基本有序时）：<strong>O ( n <!-- raw HTML omitted --> 2 <!-- raw HTML omitted --> )</strong></li>
+<li>最好（每次划分恰好两个子序列长度相等）：<strong>O (nlogn)</strong></li>
 </ul>
 </li>
-</ol>
+<li>
+<p>空间性能</p>
 <ul>
-<li>特殊数的表示$(single)$
-<ul>
-<li>$0$
-<ul>
-<li>$阶码：all$ $zeros$</li>
-<li>$尾数：all$ $zeros$</li>
-<li>$+0：0$ $00000000$ $00000000000000000000000$</li>
-<li>$-0：1$ $00000000$ $00000000000000000000000$</li>
+<li>递归调用，存储开销</li>
+<li>最好：<strong>O (logn)</strong></li>
+<li>最坏：<strong>O ( n )</strong></li>
 </ul>
 </li>
-<li>$∞$
-<ul>
-<li>$阶码：all$ $ones$</li>
-<li>$尾数：all$ $zeros$</li>
-<li>$+∞：0$ $11111111$ $00000000000000000000000$</li>
-<li>$-∞：1$ $11111111$ $00000000000000000000000$</li>
-<li>浮点数除以 $0$ 的结果是 $∞$，而不是溢出异常(整数除以 $0$ 为异常)</li>
-</ul>
+<li>
+<p>将  <code>a[0]</code> 设为哨兵，存储每次选中的关键字</p>
 </li>
-<li>$NaN$  ($Not$ $a$ $Number$)
-<ul>
-<li>$阶码：all$ $ones$</li>
-<li>$尾数：nonzeros$</li>
-<li><!-- raw HTML omitted -->可帮助调试程序<!-- raw HTML omitted --></li>
-</ul>
-</li>
-<li><strong>非规格化数 $Denorms$</strong>
-<ul>
-<li>$阶码：all$ $zeros$</li>
-<li>$尾数：nonzeros$</li>
-<li>用于表示 $0$ 与规格化数间的$Gap$</li>
-<li>$SP$：$(-1)$<!-- raw HTML omitted -->s<!-- raw HTML omitted -->  $<em>$ $(0.xxxx&hellip;xxx)$ $</em>$ $2$<!-- raw HTML omitted -->-126<!-- raw HTML omitted --></li>
-<li>为了让非规格化单精度浮点数能够平缓过渡到规格化单精度浮点数，所以取 $2$<!-- raw HTML omitted -->-126<!-- raw HTML omitted --></li>
-<li><!-- raw HTML omitted -->当输入数据为不可表示数时，机器将其转换为最邻近的可表示数<!-- raw HTML omitted --></li>
-</ul>
+<li>
+<p> 基本思想：在待排序列中选一个关键字，按某一规律进行多次比较交换后，它移到某一位置，此元素<strong>将记录分割成独立的两部分</strong>，它左边的关键字都小于或等于它，右边的关键字都大于或等于它。之后对这<strong>两部分分别进行快速排序</strong></p>
 </li>
 </ul>
-</li>
-</ul>
-<h2 id="汉字内码ascii码">汉字内码&amp;ASCII码<a hidden class="anchor" aria-hidden="true" href="#汉字内码ascii码">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">partition</span>(SqList L, <span style="color:#66d9ef">int</span> low, <span style="color:#66d9ef">int</span> high)  
+</span></span><span style="display:flex;"><span>{  
+</span></span><span style="display:flex;"><span>    L.r[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> L.r[low];  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (low <span style="color:#f92672">&lt;</span> high)  
+</span></span><span style="display:flex;"><span>    {  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (low <span style="color:#f92672">&lt;</span> high <span style="color:#f92672">&amp;&amp;</span> L.r[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&lt;=</span> L.r[high])  
+</span></span><span style="display:flex;"><span>            high<span style="color:#f92672">--</span>;  
+</span></span><span style="display:flex;"><span>        L.r[low] <span style="color:#f92672">=</span> L.r[high];  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (low <span style="color:#f92672">&lt;</span> high <span style="color:#f92672">&amp;&amp;</span> L.r[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;=</span> L.r[low])  
+</span></span><span style="display:flex;"><span>            low<span style="color:#f92672">++</span>;  
+</span></span><span style="display:flex;"><span>        L.r[high] <span style="color:#f92672">=</span> L.r[low];  
+</span></span><span style="display:flex;"><span>    }  
+</span></span><span style="display:flex;"><span>    L.r[low] <span style="color:#f92672">=</span> L.r[<span style="color:#ae81ff">0</span>];  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> low;  
+</span></span><span style="display:flex;"><span>}  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">quick_sort</span> (SqList L, <span style="color:#66d9ef">int</span> low, <span style="color:#66d9ef">int</span> high)  
+</span></span><span style="display:flex;"><span>{  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (low <span style="color:#f92672">&lt;</span> high)  
+</span></span><span style="display:flex;"><span>    {  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> pos <span style="color:#f92672">=</span> partition(L, low, high);  
+</span></span><span style="display:flex;"><span>        quick_sort(L, low, pos <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>);  
+</span></span><span style="display:flex;"><span>        quick_sort(L, pos <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, high);  
+</span></span><span style="display:flex;"><span>    }  
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h1 id="选择排序">选择排序<a hidden class="anchor" aria-hidden="true" href="#选择排序">#</a></h1>
+<h2 id="简单选择排序">简单选择排序<a hidden class="anchor" aria-hidden="true" href="#简单选择排序">#</a></h2>
 <ul>
-<li><!-- raw HTML omitted -->ASCII码为 7 位编码<!-- raw HTML omitted --></li>
-<li>Ex：汉字 &ldquo;$大$&rdquo; 在码表中位于第 $20$ 行、第 $83$ 列。因此<!-- raw HTML omitted -->区位码<!-- raw HTML omitted -->为 $0010100$ $1010011$，在区、位码上各加 $32$ 得到两个字节编码（<!-- raw HTML omitted -->GB2312国标码<!-- raw HTML omitted -->），即 $00110100$ $01110011B$ $=$ $3473H$。前面的 $34 H$ 和 字符 $4$ 的 $ACSII$ 的最高位相同，后面的 $73H$ 和字符 $s$ 的 $ACSII$ 码相同。但是，将每个字节的最高位各设为 $1$ 后，就得到其<!-- raw HTML omitted -->内码<!-- raw HTML omitted -->： $B4F3H$ ($0110100$ $11110011B$)，因而不会和 $ASCII$ 码混淆ff</li>
+<li><strong>不稳定</strong></li>
+<li>第 i 趟排序从待排序记录里选出最小关键字值的记录与第 i 个记录交换（1 &lt;= i &lt;= n - 1）</li>
 </ul>
-<h2 id="逻辑电路">逻辑电路<a hidden class="anchor" aria-hidden="true" href="#逻辑电路">#</a></h2>
+<h2 id="堆排序">堆排序<a hidden class="anchor" aria-hidden="true" href="#堆排序">#</a></h2>
 <ul>
-<li>异或：$n$ 个数做异或运算，若有奇数个 $1$ ，则输出 $1$</li>
+<li><strong>不稳定</strong></li>
+<li>初始建堆：将 <code>n</code> 个元素的序列看成是一个完全二叉树，则最后一个非叶子结点是第 <strong>⌊n / 2⌋</strong> 个元素. 从第 <strong>⌊n / 2⌋</strong> 个元素开始 <code>down</code>，一直 <code>down</code> 到第 <code>1</code> 个元素，就建立了堆</li>
+</ul>
+<h1 id="二路归并排序">二路归并排序<a hidden class="anchor" aria-hidden="true" href="#二路归并排序">#</a></h1>
+<ul>
+<li><strong>稳定</strong></li>
+<li>时间性能：<strong>O (nlogn)</strong></li>
+<li>空间性能：<strong>O (n)</strong></li>
+<li>基本思想：设初始序列含有 <code>n</code> 个记录，归并排序把此序列看成是由 <code>n</code> 个只包含<code>一个记录</code>的有序表组成，然后进行<code>两两归并</code>，最后形成包含 n 个记录的有序表</li>
+<li>开始时取 <code>L = 1</code>，第一趟归并排序后，<code>L = L * 2</code>，以此类推，直到排序结束</li>
 </ul>
 
 
