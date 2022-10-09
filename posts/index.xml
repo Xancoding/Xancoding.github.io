@@ -31,12 +31,12 @@
 <h2 id="希尔排序">希尔排序</h2>
 <ul>
 <li><strong>不稳定</strong></li>
-<li>基本思想：先取一个正整数 d<!-- raw HTML omitted -->1<!-- raw HTML omitted --> &lt; n，把所有相隔 d<!-- raw HTML omitted -->1<!-- raw HTML omitted --> 的记录放一组，组内进行直接插入排序；然后取 d<!-- raw HTML omitted -->2 <!-- raw HTML omitted --> &lt; d<!-- raw HTML omitted -->1<!-- raw HTML omitted -->，重复上述分组和排序操作；直至 d<!-- raw HTML omitted -->i<!-- raw HTML omitted --> = 1，即所有记录放进一个组中进行一趟直接插入排序为止</li>
+<li>基本思想：先取一个正整数 d<sub>1</sub> &lt; n，把所有相隔 d<sub>1</sub> 的记录放一组，组内进行直接插入排序；然后取 d<sub>2 </sub> &lt; d<sub>1</sub>，重复上述分组和排序操作；直至 d<sub>i</sub> = 1，即所有记录放进一个组中进行一趟直接插入排序为止</li>
 <li>具体做法：
 <ul>
-<li>取 <strong>d<!-- raw HTML omitted -->1<!-- raw HTML omitted --> = ⌊n / 2⌋</strong></li>
-<li>每一趟 <strong>d <!-- raw HTML omitted --> i <!-- raw HTML omitted --> = ⌊d <!-- raw HTML omitted --> i - 1 <!-- raw HTML omitted --> / 2⌋</strong></li>
-<li>直至 <strong>d <!-- raw HTML omitted --> k <!-- raw HTML omitted --> = 1</strong>结束</li>
+<li>取 <strong>d<sub>1</sub> = ⌊n / 2⌋</strong></li>
+<li>每一趟 <strong>d <sub> i </sub> = ⌊d <sub> i - 1 </sub> / 2⌋</strong></li>
+<li>直至 <strong>d <sub> k </sub> = 1</strong>结束</li>
 </ul>
 </li>
 </ul>
@@ -76,7 +76,7 @@
 <li>
 <p>时间性能</p>
 <ul>
-<li>最坏（基本有序时）：<strong>O ( n <!-- raw HTML omitted --> 2 <!-- raw HTML omitted --> )</strong></li>
+<li>最坏（基本有序时）：<strong>O ( n <sup> 2 </sup> )</strong></li>
 <li>最好（每次划分恰好两个子序列长度相等）：<strong>O (nlogn)</strong></li>
 </ul>
 </li>
