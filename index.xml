@@ -106,37 +106,36 @@ L 为头指针，当 L == NULL 时，链表为空 无头结点
       
       <guid>https://zagxuy.github.io/posts/search/</guid>
       <description>图
-邻接矩阵 typedef struct { char vexs[MAX][NUM];; //顶点信息 int arcs[MAX][MAX]; //边或弧上的权值 int vex; //顶点数 int arc; //弧数 }graph, *graphlink; 邻接表 #define MAX 20 //最大顶点数 #define NUM 20 //最大字符串长度 //边结点 typedef struct arcnode { int adjvex; //弧所指向顶点下标 struct arcnode *next; //指向下一条弧 int weight; //边结点类型（权重） }arcnode; //表头结点 typedef struct vexnode { char vertex[NUM]; //存放结点值 arcnode *head; //存放边链表头指针 }vexnode; //邻接表 typedef struct graph{ vexnode adjlist[MAX]; int vex; //顶点数 int arc; //边数 }graph, *graphlink; 最小生成树 Prim 稠密图 设 G = (V, {E}) 是连通图，最小生成树 T 的顶点集合为 U，边的集合是 TE 初始：U = { u0 } ( u0∈V ) ， TE = Ø 重复执行下述操作：在所有 u ∈U， v∈W 的边 (u，v) ∈E 中找一条代价最小的边 (ui ，v0) 并入集合 TE，同时 v0 并入 U，直到 U = V 为止 设置一个辅助数组 (最小代价数组)，对当前 V－U 集合 中的每个顶点，记录与顶点集 U 中顶点相连接的代价最小的边 void crt_graph(graphlink G) { printf(&amp;#34;输入顶点数和边数（空格隔开）\n&amp;#34;); scanf(&amp;#34;%d %d&amp;#34;, &amp;amp;G-&amp;gt;vex, &amp;amp;G-&amp;gt;arc); //顶点数和边数 printf(&amp;#34;输入顶点信息\n&amp;#34;); for (int i = 1; i &amp;lt;= G-&amp;gt;vex; i++) scanf(&amp;#34;%s&amp;#34;, G-&amp;gt;vexs[i]); //顶点信息 for (int i = 1; i &amp;lt;= G-&amp;gt;vex; i++) for (int j = 1; j &amp;lt;= G-&amp;gt;vex; j++) G-&amp;gt;arcs[i][j] = INF; //邻接矩阵初始化 printf(&amp;#34;输入边和权值（空格隔开）\n&amp;#34;); for (int k = 1; k &amp;lt;= G-&amp;gt;arc; k++) { //读入边 int i, j, w; scanf(&amp;#34;%d%d%d&amp;#34;, &amp;amp;i, &amp;amp;j, &amp;amp;w); G-&amp;gt;arcs[i][j] = w; G-&amp;gt;arcs[j][i] = w; } } void prim(graphlink G, int v, lowcost lc[]) { int total = 0; //边权总和 int st[MAX] = {0}; //存储每个点是否已经在生成树中 st[v] = 1; for (int i = 1; i &amp;lt;= G-&amp;gt;vex; i++) { //初始化 lc[i].</description>
+邻接矩阵 typedef struct { char vexs[MAX][NUM];; //顶点信息 int arcs[MAX][MAX]; //边或弧上的权值 int vex; //顶点数 int arc; //弧数 }graph, *graphlink; 邻接表 #define NUM 20 //最大字符串长度 //边结点 typedef struct arcnode { int adjvex; //弧所指向顶点下标 struct arcnode *next; //指向下一条弧 int weight; //边结点类型（权重） }arcnode; //表头结点 typedef struct vexnode { char vertex[NUM]; //存放结点值 arcnode *head; //存放边链表头指针 }vexnode; //邻接表 typedef struct graph{ vexnode adjlist[MAX]; int vex; //顶点数 int arc; //边数 }graph, *graphlink; 最小生成树 Prim 稠密图 设 G = (V, {E}) 是连通图，最小生成树 T 的顶点集合为 U，边的集合是 TE 初始：U = { u0 } ( u0∈V ) ， TE = Ø 重复执行下述操作：在所有 u ∈U， v∈W 的边 (u，v) ∈E 中找一条代价最小的边 (ui ，v0) 并入集合 TE，同时 v0 并入 U，直到 U = V 为止 设置一个辅助数组 (最小代价数组)，对当前 V－U 集合 中的每个顶点，记录与顶点集 U 中顶点相连接的代价最小的边 void crt_graph(graphlink G) { printf(&amp;#34;输入顶点数和边数（空格隔开）\n&amp;#34;); scanf(&amp;#34;%d %d&amp;#34;, &amp;amp;G-&amp;gt;vex, &amp;amp;G-&amp;gt;arc); //顶点数和边数 printf(&amp;#34;输入顶点信息\n&amp;#34;); for (int i = 1; i &amp;lt;= G-&amp;gt;vex; i++) scanf(&amp;#34;%s&amp;#34;, G-&amp;gt;vexs[i]); //顶点信息 for (int i = 1; i &amp;lt;= G-&amp;gt;vex; i++) for (int j = 1; j &amp;lt;= G-&amp;gt;vex; j++) G-&amp;gt;arcs[i][j] = INF; //邻接矩阵初始化 printf(&amp;#34;输入边和权值（空格隔开）\n&amp;#34;); for (int k = 1; k &amp;lt;= G-&amp;gt;arc; k++) { //读入边 int i, j, w; scanf(&amp;#34;%d%d%d&amp;#34;, &amp;amp;i, &amp;amp;j, &amp;amp;w); G-&amp;gt;arcs[i][j] = w; G-&amp;gt;arcs[j][i] = w; } } void prim(graphlink G, int v, lowcost lc[]) { int total = 0; //边权总和 int st[MAX] = {0}; //存储每个点是否已经在生成树中 st[v] = 1; for (int i = 1; i &amp;lt;= G-&amp;gt;vex; i++) { //初始化 lc[i].</description>
       <content:encoded><![CDATA[<p><a href="https://git.acwing.com/ZagY/learn-data-structures/-/blob/main/Graph/Algorithm/README.md">图</a></p>
 <h1 id="邻接矩阵">邻接矩阵</h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">typedef</span> <span style="color:#66d9ef">struct</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">char</span> vexs[MAX][NUM];;  <span style="color:#75715e">//顶点信息
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">int</span> arcs[MAX][MAX];  <span style="color:#75715e">//边或弧上的权值
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">int</span> vex;  <span style="color:#75715e">//顶点数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">int</span> arc;  <span style="color:#75715e">//弧数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}graph, <span style="color:#f92672">*</span>graphlink;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">typedef</span> <span style="color:#fff;font-weight:bold">struct</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">char</span> vexs[MAX][NUM];;  <span style="color:#007f7f">//顶点信息
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> arcs[MAX][MAX];  <span style="color:#007f7f">//边或弧上的权值
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> vex;  <span style="color:#007f7f">//顶点数
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> arc;  <span style="color:#007f7f">//弧数
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}graph, *graphlink;
 </span></span></code></pre></div><h1 id="邻接表">邻接表</h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#define MAX 20  </span><span style="color:#75715e">//最大顶点数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e">#define NUM 20  </span><span style="color:#75715e">//最大字符串长度
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//边结点
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">typedef</span> <span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">arcnode</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> adjvex;  <span style="color:#75715e">//弧所指向顶点下标
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">arcnode</span> <span style="color:#f92672">*</span>next;  <span style="color:#75715e">//指向下一条弧
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">int</span> weight;  <span style="color:#75715e">//边结点类型（权重）
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}arcnode;
-</span></span><span style="display:flex;"><span><span style="color:#75715e">//表头结点
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">typedef</span> <span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">vexnode</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">char</span> vertex[NUM];  <span style="color:#75715e">//存放结点值
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    arcnode <span style="color:#f92672">*</span>head;  <span style="color:#75715e">//存放边链表头指针
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}vexnode;
-</span></span><span style="display:flex;"><span><span style="color:#75715e">//邻接表
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">typedef</span> <span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">graph</span>{
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#define NUM 20  </span><span style="color:#007f7f">//最大字符串长度
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">//边结点
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#fff;font-weight:bold">typedef</span> <span style="color:#fff;font-weight:bold">struct</span> arcnode {
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">int</span> adjvex;  <span style="color:#007f7f">//弧所指向顶点下标
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">struct</span> arcnode *next;  <span style="color:#007f7f">//指向下一条弧
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> weight;  <span style="color:#007f7f">//边结点类型（权重）
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}arcnode;
+</span></span><span style="display:flex;"><span><span style="color:#007f7f">//表头结点
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#fff;font-weight:bold">typedef</span> <span style="color:#fff;font-weight:bold">struct</span> vexnode {
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">char</span> vertex[NUM];  <span style="color:#007f7f">//存放结点值
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    arcnode *head;  <span style="color:#007f7f">//存放边链表头指针
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}vexnode;
+</span></span><span style="display:flex;"><span><span style="color:#007f7f">//邻接表
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#fff;font-weight:bold">typedef</span> <span style="color:#fff;font-weight:bold">struct</span> graph{
 </span></span><span style="display:flex;"><span>    vexnode adjlist[MAX];
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> vex;  <span style="color:#75715e">//顶点数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">int</span> arc;  <span style="color:#75715e">//边数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}graph, <span style="color:#f92672">*</span>graphlink;
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">int</span> vex;  <span style="color:#007f7f">//顶点数
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> arc;  <span style="color:#007f7f">//边数
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}graph, *graphlink;
 </span></span></code></pre></div><h1 id="最小生成树">最小生成树</h1>
 <h2 id="prim">Prim</h2>
 <ul>
@@ -146,51 +145,51 @@ L 为头指针，当 L == NULL 时，链表为空 无头结点
 <li>重复执行下述操作：在所有 <code>u ∈U</code>， <code>v∈W</code> 的边 (u，v) ∈E 中找一条代价最小的边 (u<sub>i</sub> ，v<sub>0</sub>) 并入集合 TE，同时 v<sub>0</sub> 并入 U，直到 U = V 为止</li>
 <li>设置一个辅助数组 (<strong>最小代价数组</strong>)，对当前 <code>V－U 集合</code> 中的每个顶点，记录与顶点集 U 中顶点相连接的代价最小的边</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">crt_graph</span>(graphlink G) {
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#e6db74">&#34;输入顶点数和边数（空格隔开）</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
-</span></span><span style="display:flex;"><span>    scanf(<span style="color:#e6db74">&#34;%d %d&#34;</span>, <span style="color:#f92672">&amp;</span>G<span style="color:#f92672">-&gt;</span>vex, <span style="color:#f92672">&amp;</span>G<span style="color:#f92672">-&gt;</span>arc);  <span style="color:#75715e">//顶点数和边数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    printf(<span style="color:#e6db74">&#34;输入顶点信息</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; i<span style="color:#f92672">++</span>) scanf(<span style="color:#e6db74">&#34;%s&#34;</span>, G<span style="color:#f92672">-&gt;</span>vexs[i]);  <span style="color:#75715e">//顶点信息
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; i<span style="color:#f92672">++</span>)
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; j<span style="color:#f92672">++</span>)
-</span></span><span style="display:flex;"><span>            G<span style="color:#f92672">-&gt;</span>arcs[i][j] <span style="color:#f92672">=</span> INF;  <span style="color:#75715e">//邻接矩阵初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    printf(<span style="color:#e6db74">&#34;输入边和权值（空格隔开）</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; k <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>arc; k<span style="color:#f92672">++</span>) {  <span style="color:#75715e">//读入边
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">int</span> i, j, w;
-</span></span><span style="display:flex;"><span>        scanf(<span style="color:#e6db74">&#34;%d%d%d&#34;</span>, <span style="color:#f92672">&amp;</span>i, <span style="color:#f92672">&amp;</span>j, <span style="color:#f92672">&amp;</span>w);
-</span></span><span style="display:flex;"><span>        G<span style="color:#f92672">-&gt;</span>arcs[i][j] <span style="color:#f92672">=</span> w;
-</span></span><span style="display:flex;"><span>        G<span style="color:#f92672">-&gt;</span>arcs[j][i] <span style="color:#f92672">=</span> w;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> crt_graph(graphlink G) {
+</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点数和边数（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
+</span></span><span style="display:flex;"><span>    scanf(<span style="color:#0ff;font-weight:bold">&#34;%d %d&#34;</span>, &amp;G-&gt;vex, &amp;G-&gt;arc);  <span style="color:#007f7f">//顶点数和边数
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点信息</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++) scanf(<span style="color:#0ff;font-weight:bold">&#34;%s&#34;</span>, G-&gt;vexs[i]);  <span style="color:#007f7f">//顶点信息
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> j = <span style="color:#ff0;font-weight:bold">1</span>; j &lt;= G-&gt;vex; j++)
+</span></span><span style="display:flex;"><span>            G-&gt;arcs[i][j] = INF;  <span style="color:#007f7f">//邻接矩阵初始化
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入边和权值（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">1</span>; k &lt;= G-&gt;arc; k++) {  <span style="color:#007f7f">//读入边
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">int</span> i, j, w;
+</span></span><span style="display:flex;"><span>        scanf(<span style="color:#0ff;font-weight:bold">&#34;%d%d%d&#34;</span>, &amp;i, &amp;j, &amp;w);
+</span></span><span style="display:flex;"><span>        G-&gt;arcs[i][j] = w;
+</span></span><span style="display:flex;"><span>        G-&gt;arcs[j][i] = w;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">prim</span>(graphlink G, <span style="color:#66d9ef">int</span> v, lowcost lc[]) {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> total <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;  <span style="color:#75715e">//边权总和
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">int</span> st[MAX] <span style="color:#f92672">=</span> {<span style="color:#ae81ff">0</span>};  <span style="color:#75715e">//存储每个点是否已经在生成树中
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    st[v] <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; i<span style="color:#f92672">++</span>) {  <span style="color:#75715e">//初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        lc[i].weight <span style="color:#f92672">=</span> G<span style="color:#f92672">-&gt;</span>arcs[v][i];
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (lc[i].weight <span style="color:#f92672">==</span> INF) lc[i].adjnode <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span> lc[i].adjnode <span style="color:#f92672">=</span> v;
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> prim(graphlink G, <span style="color:#fff;font-weight:bold">int</span> v, lowcost lc[]) {
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">int</span> total = <span style="color:#ff0;font-weight:bold">0</span>;  <span style="color:#007f7f">//边权总和
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> st[MAX] = {<span style="color:#ff0;font-weight:bold">0</span>};  <span style="color:#007f7f">//存储每个点是否已经在生成树中
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    st[v] = <span style="color:#ff0;font-weight:bold">1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++) {  <span style="color:#007f7f">//初始化
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        lc[i].weight = G-&gt;arcs[v][i];
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> (lc[i].weight == INF) lc[i].adjnode = -<span style="color:#ff0;font-weight:bold">1</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">else</span> lc[i].adjnode = v;
 </span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>; i<span style="color:#f92672">++</span>) {  <span style="color:#75715e">//循环 G-&gt;vex - 1 次
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">int</span> min <span style="color:#f92672">=</span> INF;  <span style="color:#75715e">//其他点到当前最小生成树的最短距离
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">int</span> pos <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;  <span style="color:#75715e">//到当前最小生成树的最短距离的点
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; k <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; k<span style="color:#f92672">++</span>)  <span style="color:#75715e">//选出权值最小的边
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">if</span> (st[k] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> lc[k].weight <span style="color:#f92672">&lt;</span> min) {
-</span></span><span style="display:flex;"><span>                min <span style="color:#f92672">=</span> lc[k].weight;
-</span></span><span style="display:flex;"><span>                pos <span style="color:#f92672">=</span> k;
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex - <span style="color:#ff0;font-weight:bold">1</span>; i++) {  <span style="color:#007f7f">//循环 G-&gt;vex - 1 次
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">int</span> min = INF;  <span style="color:#007f7f">//其他点到当前最小生成树的最短距离
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">int</span> pos = -<span style="color:#ff0;font-weight:bold">1</span>;  <span style="color:#007f7f">//到当前最小生成树的最短距离的点
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">1</span>; k &lt;= G-&gt;vex; k++)  <span style="color:#007f7f">//选出权值最小的边
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            <span style="color:#fff;font-weight:bold">if</span> (st[k] == <span style="color:#ff0;font-weight:bold">0</span> &amp;&amp; lc[k].weight &lt; min) {
+</span></span><span style="display:flex;"><span>                min = lc[k].weight;
+</span></span><span style="display:flex;"><span>                pos = k;
 </span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        total <span style="color:#f92672">+=</span> min;
-</span></span><span style="display:flex;"><span>        st[pos] <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;  <span style="color:#75715e">//已在最小生成树中的点
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#75715e">//更新其他点到当前最小生成树的距离
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; k <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; k<span style="color:#f92672">++</span>)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (st[k] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> G<span style="color:#f92672">-&gt;</span>arcs[pos][k] <span style="color:#f92672">&lt;</span> lc[k].weight) {
-</span></span><span style="display:flex;"><span>                lc[k].weight <span style="color:#f92672">=</span> G<span style="color:#f92672">-&gt;</span>arcs[pos][k];
-</span></span><span style="display:flex;"><span>                lc[k].adjnode <span style="color:#f92672">=</span> pos;
+</span></span><span style="display:flex;"><span>        total += min;
+</span></span><span style="display:flex;"><span>        st[pos] = <span style="color:#ff0;font-weight:bold">1</span>;  <span style="color:#007f7f">//已在最小生成树中的点
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#007f7f">//更新其他点到当前最小生成树的距离
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">1</span>; k &lt;= G-&gt;vex; k++)
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">if</span> (st[k] == <span style="color:#ff0;font-weight:bold">0</span> &amp;&amp; G-&gt;arcs[pos][k] &lt; lc[k].weight) {
+</span></span><span style="display:flex;"><span>                lc[k].weight = G-&gt;arcs[pos][k];
+</span></span><span style="display:flex;"><span>                lc[k].adjnode = pos;
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#e6db74">&#34;边权总和为：%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, total);
+</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;边权总和为：%d</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>, total);
 </span></span><span style="display:flex;"><span>    print_MST(G, lc);
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h2 id="kruskal">Kruskal</h2>
@@ -198,39 +197,39 @@ L 为头指针，当 L == NULL 时，链表为空 无头结点
 <li><strong>稀疏图</strong></li>
 <li>先构造一个只含 <code>n</code> 个顶点的子图 <code>SG</code>，然后从<strong>权值最小</strong>的 <code>边 (u, v)</code> 开始 (u, v 不在同一个连通图)，若它的添加不使 <code>SG</code> 中产生回路，则在 <code>SG</code> 中加上这条边，如此重复，直至加上 <code>n-1</code> 条边为止</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">crt_graph</span>(graphlink G) {
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#e6db74">&#34;输入顶点数和边数（空格隔开）</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
-</span></span><span style="display:flex;"><span>    scanf(<span style="color:#e6db74">&#34;%d %d&#34;</span>, <span style="color:#f92672">&amp;</span>G<span style="color:#f92672">-&gt;</span>vex, <span style="color:#f92672">&amp;</span>G<span style="color:#f92672">-&gt;</span>arc);  <span style="color:#75715e">//顶点数和边数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    printf(<span style="color:#e6db74">&#34;输入顶点信息</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; i<span style="color:#f92672">++</span>) scanf(<span style="color:#e6db74">&#34;%s&#34;</span>, G<span style="color:#f92672">-&gt;</span>vexs[i]);  <span style="color:#75715e">//顶点信息
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; i<span style="color:#f92672">++</span>)
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; j<span style="color:#f92672">++</span>)
-</span></span><span style="display:flex;"><span>            G<span style="color:#f92672">-&gt;</span>arcs[i][j] <span style="color:#f92672">=</span> INF;  <span style="color:#75715e">//邻接矩阵初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    printf(<span style="color:#e6db74">&#34;输入边和权值（空格隔开）</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; k <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>arc; k<span style="color:#f92672">++</span>) {  <span style="color:#75715e">//读入边
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">int</span> i, j, w;
-</span></span><span style="display:flex;"><span>        scanf(<span style="color:#e6db74">&#34;%d%d%d&#34;</span>, <span style="color:#f92672">&amp;</span>i, <span style="color:#f92672">&amp;</span>j, <span style="color:#f92672">&amp;</span>w);
-</span></span><span style="display:flex;"><span>        G<span style="color:#f92672">-&gt;</span>arcs[i][j] <span style="color:#f92672">=</span> w;
-</span></span><span style="display:flex;"><span>        G<span style="color:#f92672">-&gt;</span>arcs[j][i] <span style="color:#f92672">=</span> w;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> crt_graph(graphlink G) {
+</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点数和边数（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
+</span></span><span style="display:flex;"><span>    scanf(<span style="color:#0ff;font-weight:bold">&#34;%d %d&#34;</span>, &amp;G-&gt;vex, &amp;G-&gt;arc);  <span style="color:#007f7f">//顶点数和边数
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点信息</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++) scanf(<span style="color:#0ff;font-weight:bold">&#34;%s&#34;</span>, G-&gt;vexs[i]);  <span style="color:#007f7f">//顶点信息
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> j = <span style="color:#ff0;font-weight:bold">1</span>; j &lt;= G-&gt;vex; j++)
+</span></span><span style="display:flex;"><span>            G-&gt;arcs[i][j] = INF;  <span style="color:#007f7f">//邻接矩阵初始化
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入边和权值（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">1</span>; k &lt;= G-&gt;arc; k++) {  <span style="color:#007f7f">//读入边
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">int</span> i, j, w;
+</span></span><span style="display:flex;"><span>        scanf(<span style="color:#0ff;font-weight:bold">&#34;%d%d%d&#34;</span>, &amp;i, &amp;j, &amp;w);
+</span></span><span style="display:flex;"><span>        G-&gt;arcs[i][j] = w;
+</span></span><span style="display:flex;"><span>        G-&gt;arcs[j][i] = w;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">Kruskal</span>(graphlink G, edge edges[], <span style="color:#66d9ef">int</span> fa[]) {
-</span></span><span style="display:flex;"><span>    init(G, edges, fa);  <span style="color:#75715e">//初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">int</span> cnt <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;  <span style="color:#75715e">//合并次数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;  <span style="color:#75715e">//边的下标
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">int</span> total <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;  <span style="color:#75715e">//边权总和
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">while</span> (cnt <span style="color:#f92672">&lt;</span> G<span style="color:#f92672">-&gt;</span>vex <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> get_father(edges[k].a, fa);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> y <span style="color:#f92672">=</span> get_father(edges[k].b, fa);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (x <span style="color:#f92672">!=</span> y) {
-</span></span><span style="display:flex;"><span>            fa[x] <span style="color:#f92672">=</span> y;  <span style="color:#75715e">//合并到一棵生成树
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            total <span style="color:#f92672">+=</span> edges[k].w;  edges[k].flag <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;  cnt<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> Kruskal(graphlink G, edge edges[], <span style="color:#fff;font-weight:bold">int</span> fa[]) {
+</span></span><span style="display:flex;"><span>    init(G, edges, fa);  <span style="color:#007f7f">//初始化
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> cnt = <span style="color:#ff0;font-weight:bold">0</span>;  <span style="color:#007f7f">//合并次数
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">0</span>;  <span style="color:#007f7f">//边的下标
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> total = <span style="color:#ff0;font-weight:bold">0</span>;  <span style="color:#007f7f">//边权总和
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">while</span> (cnt &lt; G-&gt;vex - <span style="color:#ff0;font-weight:bold">1</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">int</span> x = get_father(edges[k].a, fa);
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">int</span> y = get_father(edges[k].b, fa);
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> (x != y) {
+</span></span><span style="display:flex;"><span>            fa[x] = y;  <span style="color:#007f7f">//合并到一棵生成树
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            total += edges[k].w;  edges[k].flag = <span style="color:#ff0;font-weight:bold">1</span>;  cnt++;
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        k<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        k++;
 </span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#e6db74">&#34;边权总和为：%d</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, total);
+</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;边权总和为：%d</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>, total);
 </span></span><span style="display:flex;"><span>    print_MST(G, edges, k);
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h1 id="最短路径">最短路径</h1>
@@ -268,47 +267,47 @@ L 为头指针，当 L == NULL 时，链表为空 无头结点
 </ol>
 </li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">crt_graph</span>(graphlink G) {
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#e6db74">&#34;输入顶点数和边数（空格隔开）</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
-</span></span><span style="display:flex;"><span>    scanf(<span style="color:#e6db74">&#34;%d %d&#34;</span>, <span style="color:#f92672">&amp;</span>G<span style="color:#f92672">-&gt;</span>vex, <span style="color:#f92672">&amp;</span>G<span style="color:#f92672">-&gt;</span>arc);  <span style="color:#75715e">//顶点数和边数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    printf(<span style="color:#e6db74">&#34;输入顶点信息</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; i<span style="color:#f92672">++</span>) scanf(<span style="color:#e6db74">&#34;%s&#34;</span>, G<span style="color:#f92672">-&gt;</span>vexs[i]);  <span style="color:#75715e">//顶点信息
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; i<span style="color:#f92672">++</span>)
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; j<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            G<span style="color:#f92672">-&gt;</span>arcs[i][j] <span style="color:#f92672">=</span> INF;  <span style="color:#75715e">//邻接矩阵初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">==</span> j) G<span style="color:#f92672">-&gt;</span>arcs[i][j] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> crt_graph(graphlink G) {
+</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点数和边数（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
+</span></span><span style="display:flex;"><span>    scanf(<span style="color:#0ff;font-weight:bold">&#34;%d %d&#34;</span>, &amp;G-&gt;vex, &amp;G-&gt;arc);  <span style="color:#007f7f">//顶点数和边数
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点信息</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++) scanf(<span style="color:#0ff;font-weight:bold">&#34;%s&#34;</span>, G-&gt;vexs[i]);  <span style="color:#007f7f">//顶点信息
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> j = <span style="color:#ff0;font-weight:bold">1</span>; j &lt;= G-&gt;vex; j++) {
+</span></span><span style="display:flex;"><span>            G-&gt;arcs[i][j] = INF;  <span style="color:#007f7f">//邻接矩阵初始化
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            <span style="color:#fff;font-weight:bold">if</span> (i == j) G-&gt;arcs[i][j] = <span style="color:#ff0;font-weight:bold">0</span>;
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#e6db74">&#34;输入边和权值（空格隔开）</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; k <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>arc; k<span style="color:#f92672">++</span>) {  <span style="color:#75715e">//读入边
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">int</span> i, j, w;
-</span></span><span style="display:flex;"><span>        scanf(<span style="color:#e6db74">&#34;%d%d%d&#34;</span>, <span style="color:#f92672">&amp;</span>i, <span style="color:#f92672">&amp;</span>j, <span style="color:#f92672">&amp;</span>w);
-</span></span><span style="display:flex;"><span>        G<span style="color:#f92672">-&gt;</span>arcs[i][j] <span style="color:#f92672">=</span> w;
+</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入边和权值（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">1</span>; k &lt;= G-&gt;arc; k++) {  <span style="color:#007f7f">//读入边
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">int</span> i, j, w;
+</span></span><span style="display:flex;"><span>        scanf(<span style="color:#0ff;font-weight:bold">&#34;%d%d%d&#34;</span>, &amp;i, &amp;j, &amp;w);
+</span></span><span style="display:flex;"><span>        G-&gt;arcs[i][j] = w;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">dijkstra</span>(graphlink G, <span style="color:#66d9ef">int</span> v, shortdist dist[]) {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> flag[MAX] <span style="color:#f92672">=</span> {<span style="color:#ae81ff">0</span>};
-</span></span><span style="display:flex;"><span>    flag[v] <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; i<span style="color:#f92672">++</span>) {  <span style="color:#75715e">//dist数组初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        dist[i].distance <span style="color:#f92672">=</span> G<span style="color:#f92672">-&gt;</span>arcs[v][i];
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (G<span style="color:#f92672">-&gt;</span>arcs[v][i] <span style="color:#f92672">!=</span> INF) dist[i].path <span style="color:#f92672">=</span> v;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span> dist[i].path <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> dijkstra(graphlink G, <span style="color:#fff;font-weight:bold">int</span> v, shortdist dist[]) {
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">int</span> flag[MAX] = {<span style="color:#ff0;font-weight:bold">0</span>};
+</span></span><span style="display:flex;"><span>    flag[v] = <span style="color:#ff0;font-weight:bold">1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++) {  <span style="color:#007f7f">//dist数组初始化
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        dist[i].distance = G-&gt;arcs[v][i];
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> (G-&gt;arcs[v][i] != INF) dist[i].path = v;
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">else</span> dist[i].path = -<span style="color:#ff0;font-weight:bold">1</span>;
 </span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (<span style="color:#ae81ff">1</span>) {  <span style="color:#75715e">//按距离递增顺序找出从v出发到其余各顶点的最短路径
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">int</span> pos <span style="color:#f92672">=</span> v;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> min <span style="color:#f92672">=</span> INF;  <span style="color:#75715e">//距离最小值
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; i<span style="color:#f92672">++</span>)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span>(flag[i] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> dist[i].distance <span style="color:#f92672">&lt;</span> min) {
-</span></span><span style="display:flex;"><span>                min <span style="color:#f92672">=</span> dist[i].distance;
-</span></span><span style="display:flex;"><span>                pos <span style="color:#f92672">=</span> i;
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">while</span> (<span style="color:#ff0;font-weight:bold">1</span>) {  <span style="color:#007f7f">//按距离递增顺序找出从v出发到其余各顶点的最短路径
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">int</span> pos = v;
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">int</span> min = INF;  <span style="color:#007f7f">//距离最小值
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">if</span>(flag[i] == <span style="color:#ff0;font-weight:bold">0</span> &amp;&amp; dist[i].distance &lt; min) {
+</span></span><span style="display:flex;"><span>                min = dist[i].distance;
+</span></span><span style="display:flex;"><span>                pos = i;
 </span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (min <span style="color:#f92672">==</span> INF) <span style="color:#66d9ef">break</span>;  <span style="color:#75715e">//算法结束
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        flag[pos] <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;  <span style="color:#75715e">//对已完成的顶点做标记
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; i<span style="color:#f92672">++</span>)   <span style="color:#75715e">//更新dist
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">if</span> (flag[i] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> dist[pos].distance <span style="color:#f92672">+</span> G<span style="color:#f92672">-&gt;</span>arcs[pos][i] <span style="color:#f92672">&lt;</span> dist[i].distance) {
-</span></span><span style="display:flex;"><span>                dist[i].distance <span style="color:#f92672">=</span> dist[pos].distance <span style="color:#f92672">+</span> G<span style="color:#f92672">-&gt;</span>arcs[pos][i];
-</span></span><span style="display:flex;"><span>                dist[i].path <span style="color:#f92672">=</span> pos;
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> (min == INF) <span style="color:#fff;font-weight:bold">break</span>;  <span style="color:#007f7f">//算法结束
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        flag[pos] = <span style="color:#ff0;font-weight:bold">1</span>;  <span style="color:#007f7f">//对已完成的顶点做标记
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)   <span style="color:#007f7f">//更新dist
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            <span style="color:#fff;font-weight:bold">if</span> (flag[i] == <span style="color:#ff0;font-weight:bold">0</span> &amp;&amp; dist[pos].distance + G-&gt;arcs[pos][i] &lt; dist[i].distance) {
+</span></span><span style="display:flex;"><span>                dist[i].distance = dist[pos].distance + G-&gt;arcs[pos][i];
+</span></span><span style="display:flex;"><span>                dist[i].path = pos;
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    print_path(G ,dist, v);
@@ -319,38 +318,38 @@ L 为头指针，当 L == NULL 时，链表为空 无头结点
 <li>每一对顶点之间的最短路径</li>
 <li><code>dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])</code></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">crt_graph</span>(graphlink G) {
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#e6db74">&#34;输入顶点数和边数（空格隔开）</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
-</span></span><span style="display:flex;"><span>    scanf(<span style="color:#e6db74">&#34;%d %d&#34;</span>, <span style="color:#f92672">&amp;</span>G<span style="color:#f92672">-&gt;</span>vex, <span style="color:#f92672">&amp;</span>G<span style="color:#f92672">-&gt;</span>arc);  <span style="color:#75715e">//顶点数和边数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    printf(<span style="color:#e6db74">&#34;输入顶点信息</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; i<span style="color:#f92672">++</span>) scanf(<span style="color:#e6db74">&#34;%s&#34;</span>, G<span style="color:#f92672">-&gt;</span>vexs[i]);  <span style="color:#75715e">//顶点信息
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; i<span style="color:#f92672">++</span>)
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; j<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            G<span style="color:#f92672">-&gt;</span>arcs[i][j] <span style="color:#f92672">=</span> INF;  <span style="color:#75715e">//邻接矩阵初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">==</span> j) G<span style="color:#f92672">-&gt;</span>arcs[i][j] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> crt_graph(graphlink G) {
+</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点数和边数（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
+</span></span><span style="display:flex;"><span>    scanf(<span style="color:#0ff;font-weight:bold">&#34;%d %d&#34;</span>, &amp;G-&gt;vex, &amp;G-&gt;arc);  <span style="color:#007f7f">//顶点数和边数
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点信息</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++) scanf(<span style="color:#0ff;font-weight:bold">&#34;%s&#34;</span>, G-&gt;vexs[i]);  <span style="color:#007f7f">//顶点信息
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> j = <span style="color:#ff0;font-weight:bold">1</span>; j &lt;= G-&gt;vex; j++) {
+</span></span><span style="display:flex;"><span>            G-&gt;arcs[i][j] = INF;  <span style="color:#007f7f">//邻接矩阵初始化
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            <span style="color:#fff;font-weight:bold">if</span> (i == j) G-&gt;arcs[i][j] = <span style="color:#ff0;font-weight:bold">0</span>;
 </span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#e6db74">&#34;输入边和权值（空格隔开）</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; k <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>arc; k<span style="color:#f92672">++</span>) {  <span style="color:#75715e">//读入边
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">int</span> i, j, w;
-</span></span><span style="display:flex;"><span>        scanf(<span style="color:#e6db74">&#34;%d%d%d&#34;</span>, <span style="color:#f92672">&amp;</span>i, <span style="color:#f92672">&amp;</span>j, <span style="color:#f92672">&amp;</span>w);
-</span></span><span style="display:flex;"><span>        G<span style="color:#f92672">-&gt;</span>arcs[i][j] <span style="color:#f92672">=</span> w;
+</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入边和权值（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">1</span>; k &lt;= G-&gt;arc; k++) {  <span style="color:#007f7f">//读入边
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">int</span> i, j, w;
+</span></span><span style="display:flex;"><span>        scanf(<span style="color:#0ff;font-weight:bold">&#34;%d%d%d&#34;</span>, &amp;i, &amp;j, &amp;w);
+</span></span><span style="display:flex;"><span>        G-&gt;arcs[i][j] = w;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>[Ovoid floyd(graphlink G, <span style="color:#66d9ef">int</span> dist[][MAX], <span style="color:#66d9ef">int</span> path[][MAX]) {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; i<span style="color:#f92672">++</span>)  <span style="color:#75715e">//初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; j<span style="color:#f92672">++</span>) {
-</span></span><span style="display:flex;"><span>            dist[i][j] <span style="color:#f92672">=</span> G<span style="color:#f92672">-&gt;</span>arcs[i][j];
-</span></span><span style="display:flex;"><span>            path[i][j] <span style="color:#f92672">=</span> i;
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (dist[i][j] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">||</span> dist[i][j] <span style="color:#f92672">==</span> INF) path[i][j] <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>[I        }
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; k <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; k<span style="color:#f92672">++</span>)  <span style="color:#75715e">//对每一个顶点做一次迭代
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; i<span style="color:#f92672">++</span>)
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;=</span> G<span style="color:#f92672">-&gt;</span>vex; j<span style="color:#f92672">++</span>)
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (dist[i][k] <span style="color:#f92672">+</span> dist[k][j] <span style="color:#f92672">&lt;</span> dist[i][j]) {
-</span></span><span style="display:flex;"><span>                    dist[i][j] <span style="color:#f92672">=</span> dist[i][k] <span style="color:#f92672">+</span> dist[k][j];
-</span></span><span style="display:flex;"><span>                    path[i][j] <span style="color:#f92672">=</span> k;
+</span></span><span style="display:flex;"><span><span style="color:#f00"></span>[Ovoid floyd(graphlink G, <span style="color:#fff;font-weight:bold">int</span> dist[][MAX], <span style="color:#fff;font-weight:bold">int</span> path[][MAX]) {
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)  <span style="color:#007f7f">//初始化
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> j = <span style="color:#ff0;font-weight:bold">1</span>; j &lt;= G-&gt;vex; j++) {
+</span></span><span style="display:flex;"><span>            dist[i][j] = G-&gt;arcs[i][j];
+</span></span><span style="display:flex;"><span>            path[i][j] = i;
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">if</span> (dist[i][j] == <span style="color:#ff0;font-weight:bold">0</span> || dist[i][j] == INF) path[i][j] = -<span style="color:#ff0;font-weight:bold">1</span>;
+</span></span><span style="display:flex;"><span><span style="color:#f00"></span>[I        }
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">1</span>; k &lt;= G-&gt;vex; k++)  <span style="color:#007f7f">//对每一个顶点做一次迭代
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> j = <span style="color:#ff0;font-weight:bold">1</span>; j &lt;= G-&gt;vex; j++)
+</span></span><span style="display:flex;"><span>                <span style="color:#fff;font-weight:bold">if</span> (dist[i][k] + dist[k][j] &lt; dist[i][j]) {
+</span></span><span style="display:flex;"><span>                    dist[i][j] = dist[i][k] + dist[k][j];
+</span></span><span style="display:flex;"><span>                    path[i][j] = k;
 </span></span><span style="display:flex;"><span>                }
 </span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>    print_path(G, dist, path);
@@ -478,26 +477,26 @@ L 为头指针，当 L == NULL 时，链表为空 无头结点
 </ul>
 </li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">shell_pass</span>(<span style="color:#66d9ef">int</span> a[], <span style="color:#66d9ef">int</span> step)
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> shell_pass(<span style="color:#fff;font-weight:bold">int</span> a[], <span style="color:#fff;font-weight:bold">int</span> step)
 </span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> step <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> n; i<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = step + <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= n; i++)
 </span></span><span style="display:flex;"><span>	{
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">int</span> tmp <span style="color:#f92672">=</span> a[i];
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> i <span style="color:#f92672">-</span> step;
-</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">while</span>(j <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1</span> <span style="color:#f92672">&amp;&amp;</span> tmp <span style="color:#f92672">&lt;</span> a[j])
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">int</span> tmp = a[i];
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">int</span> j = i - step;
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">while</span>(j &gt;= <span style="color:#ff0;font-weight:bold">1</span> &amp;&amp; tmp &lt; a[j])
 </span></span><span style="display:flex;"><span>		{
-</span></span><span style="display:flex;"><span>			a[j <span style="color:#f92672">+</span> step] <span style="color:#f92672">=</span> a[j];
-</span></span><span style="display:flex;"><span>			j <span style="color:#f92672">=</span> j <span style="color:#f92672">-</span> step;
+</span></span><span style="display:flex;"><span>			a[j + step] = a[j];
+</span></span><span style="display:flex;"><span>			j = j - step;
 </span></span><span style="display:flex;"><span>		}
-</span></span><span style="display:flex;"><span>		a[j <span style="color:#f92672">+</span> step] <span style="color:#f92672">=</span> tmp;
+</span></span><span style="display:flex;"><span>		a[j + step] = tmp;
 </span></span><span style="display:flex;"><span>	}
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">shell_sort</span>(<span style="color:#66d9ef">int</span> a[], <span style="color:#66d9ef">int</span> d[])
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> shell_sort(<span style="color:#fff;font-weight:bold">int</span> a[], <span style="color:#fff;font-weight:bold">int</span> d[])
 </span></span><span style="display:flex;"><span>{	
-</span></span><span style="display:flex;"><span>	<span style="color:#75715e">//需t趟完成排序
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; k <span style="color:#f92672">&lt;</span> t; k<span style="color:#f92672">++</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#007f7f">//需t趟完成排序
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>	<span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">0</span>; k &lt; t; k++)
 </span></span><span style="display:flex;"><span>		shell_pass (a, d[k]);
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h1 id="交换排序">交换排序</h1>
@@ -533,32 +532,32 @@ L 为头指针，当 L == NULL 时，链表为空 无头结点
 <p> 基本思想：在待排序列中选一个关键字，按某一规律进行多次比较交换后，它移到某一位置，此元素<strong>将记录分割成独立的两部分</strong>，它左边的关键字都小于或等于它，右边的关键字都大于或等于它。之后对这<strong>两部分分别进行快速排序</strong></p>
 </li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">partition</span>(SqList L, <span style="color:#66d9ef">int</span> low, <span style="color:#66d9ef">int</span> high)  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">int</span> partition(SqList L, <span style="color:#fff;font-weight:bold">int</span> low, <span style="color:#fff;font-weight:bold">int</span> high)  
 </span></span><span style="display:flex;"><span>{  
-</span></span><span style="display:flex;"><span>    L.r[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> L.r[low];  
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (low <span style="color:#f92672">&lt;</span> high)  
+</span></span><span style="display:flex;"><span>    L.r[<span style="color:#ff0;font-weight:bold">0</span>] = L.r[low];  
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">while</span> (low &lt; high)  
 </span></span><span style="display:flex;"><span>    {  
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (low <span style="color:#f92672">&lt;</span> high <span style="color:#f92672">&amp;&amp;</span> L.r[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&lt;=</span> L.r[high])  
-</span></span><span style="display:flex;"><span>            high<span style="color:#f92672">--</span>;  
-</span></span><span style="display:flex;"><span>        L.r[low] <span style="color:#f92672">=</span> L.r[high];  
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> (low <span style="color:#f92672">&lt;</span> high <span style="color:#f92672">&amp;&amp;</span> L.r[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">&gt;=</span> L.r[low])  
-</span></span><span style="display:flex;"><span>            low<span style="color:#f92672">++</span>;  
-</span></span><span style="display:flex;"><span>        L.r[high] <span style="color:#f92672">=</span> L.r[low];  
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">while</span> (low &lt; high &amp;&amp; L.r[<span style="color:#ff0;font-weight:bold">0</span>] &lt;= L.r[high])  
+</span></span><span style="display:flex;"><span>            high--;  
+</span></span><span style="display:flex;"><span>        L.r[low] = L.r[high];  
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">while</span> (low &lt; high &amp;&amp; L.r[<span style="color:#ff0;font-weight:bold">0</span>] &gt;= L.r[low])  
+</span></span><span style="display:flex;"><span>            low++;  
+</span></span><span style="display:flex;"><span>        L.r[high] = L.r[low];  
 </span></span><span style="display:flex;"><span>    }  
-</span></span><span style="display:flex;"><span>    L.r[low] <span style="color:#f92672">=</span> L.r[<span style="color:#ae81ff">0</span>];  
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> low;  
+</span></span><span style="display:flex;"><span>    L.r[low] = L.r[<span style="color:#ff0;font-weight:bold">0</span>];  
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">return</span> low;  
 </span></span><span style="display:flex;"><span>}  
 </span></span><span style="display:flex;"><span>  
 </span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">quick_sort</span> (SqList L, <span style="color:#66d9ef">int</span> low, <span style="color:#66d9ef">int</span> high)  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> quick_sort (SqList L, <span style="color:#fff;font-weight:bold">int</span> low, <span style="color:#fff;font-weight:bold">int</span> high)  
 </span></span><span style="display:flex;"><span>{  
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (low <span style="color:#f92672">&lt;</span> high)  
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">if</span> (low &lt; high)  
 </span></span><span style="display:flex;"><span>    {  
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> pos <span style="color:#f92672">=</span> partition(L, low, high);  
-</span></span><span style="display:flex;"><span>        quick_sort(L, low, pos <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>);  
-</span></span><span style="display:flex;"><span>        quick_sort(L, pos <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, high);  
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">int</span> pos = partition(L, low, high);  
+</span></span><span style="display:flex;"><span>        quick_sort(L, low, pos - <span style="color:#ff0;font-weight:bold">1</span>);  
+</span></span><span style="display:flex;"><span>        quick_sort(L, pos + <span style="color:#ff0;font-weight:bold">1</span>, high);  
 </span></span><span style="display:flex;"><span>    }  
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h1 id="选择排序">选择排序</h1>
@@ -611,7 +610,7 @@ L 为头指针，当 L == NULL 时，链表为空 无头结点
 <h1 id="工具">工具</h1>
 <ul>
 <li><a href="https://obsidian.md/">Obsidian</a> 知识管理工具</li>
-<li><a href="https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad?hl=zh-CN">划词翻译</a> 浏览器翻译插件</li>
+<li><a href="https://hcfy.app/">划词翻译</a> 浏览器翻译插件</li>
 </ul>
 ]]></content:encoded>
     </item>
