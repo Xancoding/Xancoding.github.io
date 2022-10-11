@@ -17,25 +17,5 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     
-    <item>
-      <title>RSS</title>
-      <link>https://zagxuy.github.io/tags/rss/</link>
-      <pubDate>Tue, 11 Oct 2022 07:42:40 +0800</pubDate>
-      
-      <guid>https://zagxuy.github.io/tags/rss/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Tech</title>
-      <link>https://zagxuy.github.io/tags/tech/</link>
-      <pubDate>Tue, 11 Oct 2022 07:42:40 +0800</pubDate>
-      
-      <guid>https://zagxuy.github.io/tags/tech/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
   </channel>
 </rss>
