@@ -5,37 +5,6 @@
     <link>https://xancoding.github.io/tags/</link>
     <description>Recent content in Tags on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 11 Oct 2022 19:52:46 +0800</lastBuildDate><atom:link href="https://xancoding.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ACM</title>
-      <link>https://xancoding.github.io/tags/acm/</link>
-      <pubDate>Tue, 11 Oct 2022 19:52:46 +0800</pubDate>
-      
-      <guid>https://xancoding.github.io/tags/acm/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Tech</title>
-      <link>https://xancoding.github.io/tags/tech/</link>
-      <pubDate>Tue, 11 Oct 2022 19:52:46 +0800</pubDate>
-      
-      <guid>https://xancoding.github.io/tags/tech/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Django</title>
-      <link>https://xancoding.github.io/tags/django/</link>
-      <pubDate>Tue, 11 Oct 2022 19:43:26 +0800</pubDate>
-      
-      <guid>https://xancoding.github.io/tags/django/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
+    <language>zh-cn</language><atom:link href="https://xancoding.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
