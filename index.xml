@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Xan&#39;s Blog</title>
-    <link>https://zagxuy.github.io/</link>
+    <link>https://xancoding.github.io/</link>
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 11 Oct 2022 07:47:58 +0800</lastBuildDate><atom:link href="https://zagxuy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Oct 2022 07:47:58 +0800</lastBuildDate><atom:link href="https://xancoding.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何提高生产力？</title>
-      <link>https://zagxuy.github.io/posts/productive/</link>
+      <link>https://xancoding.github.io/posts/productive/</link>
       <pubDate>Tue, 11 Oct 2022 07:47:58 +0800</pubDate>
       
-      <guid>https://zagxuy.github.io/posts/productive/</guid>
+      <guid>https://xancoding.github.io/posts/productive/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/72/&#34;&gt;Django框架课&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;[[SSH]]
@@ -243,10 +243,10 @@ git push --set-upstream origin master
     
     <item>
       <title></title>
-      <link>https://zagxuy.github.io/about/</link>
+      <link>https://xancoding.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zagxuy.github.io/about/</guid>
+      <guid>https://xancoding.github.io/about/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -297,10 +297,10 @@ git push --set-upstream origin master
     
     <item>
       <title></title>
-      <link>https://zagxuy.github.io/links/</link>
+      <link>https://xancoding.github.io/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zagxuy.github.io/links/</guid>
+      <guid>https://xancoding.github.io/links/</guid>
       <description>&lt;h1 id=&#34;博客&#34;&gt;博客&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.owenyoung.com/&#34;&gt;Owen 的博客&lt;/a&gt;&lt;/li&gt;
