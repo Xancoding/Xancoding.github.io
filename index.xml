@@ -146,11 +146,11 @@
     </item>
     
     <item>
-      <title>RUN</title>
-      <link>https://xancoding.github.io/posts/run/</link>
+      <title>Django</title>
+      <link>https://xancoding.github.io/posts/django/</link>
       <pubDate>Tue, 11 Oct 2022 19:43:26 +0800</pubDate>
       
-      <guid>https://xancoding.github.io/posts/run/</guid>
+      <guid>https://xancoding.github.io/posts/django/</guid>
       <description>&lt;p&gt;[[Redis]]&lt;/p&gt;
 &lt;h1 id=&#34;django&#34;&gt;Django&lt;/h1&gt;
 &lt;h2 id=&#34;用户名密码登录&#34;&gt;用户名密码登录&lt;/h2&gt;
@@ -334,7 +334,7 @@ python3 manage.py migrate
     </item>
     
     <item>
-      <title>如何提高生产力？</title>
+      <title>账户系统</title>
       <link>https://xancoding.github.io/posts/productive/</link>
       <pubDate>Tue, 11 Oct 2022 07:47:58 +0800</pubDate>
       
