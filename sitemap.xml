@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://xancoding.github.io/tags/life/</loc>
+    <lastmod>2022-10-11T19:43:26+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.github.io/posts/</loc>
+    <lastmod>2022-10-11T19:43:26+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.github.io/tags/run/</loc>
+    <lastmod>2022-10-11T19:43:26+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.github.io/posts/run/</loc>
+    <lastmod>2022-10-11T19:43:26+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.github.io/tags/</loc>
+    <lastmod>2022-10-11T19:43:26+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.github.io/</loc>
+    <lastmod>2022-10-11T19:43:26+08:00</lastmod>
+  </url><url>
     <loc>https://xancoding.github.io/categories/</loc>
     <lastmod>2022-10-11T07:47:58+08:00</lastmod>
   </url><url>
-    <loc>https://xancoding.github.io/tags/life/</loc>
-    <lastmod>2022-10-11T07:47:58+08:00</lastmod>
-  </url><url>
-    <loc>https://xancoding.github.io/posts/</loc>
-    <lastmod>2022-10-11T07:47:58+08:00</lastmod>
-  </url><url>
-    <loc>https://xancoding.github.io/tags/</loc>
-    <lastmod>2022-10-11T07:47:58+08:00</lastmod>
-  </url><url>
     <loc>https://xancoding.github.io/categories/tech/</loc>
-    <lastmod>2022-10-11T07:47:58+08:00</lastmod>
-  </url><url>
-    <loc>https://xancoding.github.io/</loc>
     <lastmod>2022-10-11T07:47:58+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.github.io/posts/productive/</loc>
