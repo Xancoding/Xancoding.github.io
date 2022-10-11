@@ -6,580 +6,329 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 09 Oct 2022 20:21:25 +0800</lastBuildDate><atom:link href="https://zagxuy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Oct 2022 07:47:58 +0800</lastBuildDate><atom:link href="https://zagxuy.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Table</title>
-      <link>https://zagxuy.github.io/posts/table/</link>
-      <pubDate>Sun, 09 Oct 2022 20:21:25 +0800</pubDate>
+      <title>如何提高生产力？</title>
+      <link>https://zagxuy.github.io/posts/productive/</link>
+      <pubDate>Tue, 11 Oct 2022 07:47:58 +0800</pubDate>
       
-      <guid>https://zagxuy.github.io/posts/table/</guid>
-      <description>链表
-线性表的链式存储结构 单向链表
-有头结点
-L 为头指针，当 L == NULL 时，链表为空 无头结点
-头指针 L 指向的结点为头结点，头结点的直接后继是第一个结点 当 L-&amp;gt;next == NULL 时，链表为空 单向循环链表
-带头指针的单向循环链表
-有头结点 当 L-&amp;gt;next == L 时，链表为空 无头结点 当 L == NULL 时，链表为空 带尾指针的单向循环链表
-有头结点 R-&amp;gt;next 为头结点 当 R-&amp;gt;next == R 时，链表为空 无头结点 R-&amp;gt;next 为第一个结点 当 R == NULL 时，链表为空 双向循环链表
-有头结点 当 L-&amp;gt;next == L＆＆ L-&amp;gt;pre == L 时，链表为空 填空题 顺序表结构适宜于进行随机存取，而链表适宜于进行顺序存取 链队列删除操作时，如果删除的是最后一个元素，则需要将 Q.rear = Q.front </description>
-      <content:encoded><![CDATA[<p><a href="https://git.acwing.com/ZagY/learn-data-structures/-/blob/main/Linklist/Single_linklist/README.md">链表</a></p>
-<h1 id="线性表的链式存储结构">线性表的链式存储结构</h1>
+      <guid>https://zagxuy.github.io/posts/productive/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/72/&#34;&gt;Django框架课&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;[[SSH]]
+[[Docker]]
+[[SHELL]]
+[[Ngnix&amp;amp;uwsgi]]
+[[Redis]]
+[[WSS]]
+[[Django_channels]]
+[[账号系统]]
+[[JS简易游戏引擎实现]]
+[[JS模块引用]]
+&lt;a href=&#34;https://www.acwing.com/solution/content/114359/&#34;&gt;acapp 项目自动化运行&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;项目创建运行&#34;&gt;项目创建&amp;amp;运行&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.acwing.com/solution/content/72577/&#34;&gt;2.1. 创建 django 项目&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;ssh django&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;django-admin startproject acapp&lt;/code&gt;：在当前目录下创建名为&lt;code&gt;acapp&lt;/code&gt;的&lt;code&gt;django&lt;/code&gt;项目&lt;/li&gt;
+&lt;li&gt;将项目用&lt;code&gt;git&lt;/code&gt;维护起来
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;ssh-key-gen&lt;/code&gt;：在&lt;code&gt;服务器&lt;/code&gt;中生成密钥（&lt;code&gt;git&lt;/code&gt;通过&lt;code&gt;ssh&lt;/code&gt;传文件）&lt;/li&gt;
+&lt;li&gt;在&lt;code&gt;AcGit&lt;/code&gt;中&lt;code&gt;SSH密钥&lt;/code&gt;中添加&lt;code&gt;SSH公钥&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git init&lt;/code&gt;：创建&lt;code&gt;git&lt;/code&gt;仓库&lt;/li&gt;
+&lt;li&gt;在&lt;code&gt;AcGit&lt;/code&gt;上新建空白项目&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+git config --global user.name xxx
+git config --global user.email xxx@xxx.com
+git add .
+git commit -m &amp;#34;xxx&amp;#34;
+git remote add origin git@git.acwing.com:xxx/XXX.git #建立连接
+git push --set-upstream origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;在本地运行项目： &lt;code&gt;python3 manage.py runserver 0.0.0.0:8000&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;重点：每个 app 里面有这四个东西
+&lt;ul&gt;
+&lt;li&gt;Models：管理数据库数据&lt;/li&gt;
+&lt;li&gt;Views：管理 &lt;code&gt;http&lt;/code&gt; 函数（接收浏览器请求，返回字符串至浏览器）&lt;/li&gt;
+&lt;li&gt;Urls：管理路由，即链接与函数的对应关系 (接收链接，调用相对应的函数)&lt;/li&gt;
+&lt;li&gt;Templates：存储网页模板管理 &lt;code&gt;html&lt;/code&gt;  文件
+&lt;a href=&#34;https://www.acwing.com/solution/content/73097/&#34;&gt;2.1上课笔记&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;菜单界面项目架构设计&#34;&gt;菜单界面&amp;amp;项目架构设计&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.acwing.com/video/3519/&#34;&gt;创建菜单界面-Vedio&lt;/a&gt;
+&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/3199626/&#34;&gt;创建菜单界面-讲义&lt;/a&gt;
+&lt;a href=&#34;https://www.acwing.com/solution/content/73121/&#34;&gt;3.1 上课笔记&lt;/a&gt;
+将 &lt;code&gt;src&lt;/code&gt;文件夹下的 &lt;code&gt;JS&lt;/code&gt;源文件打包至 &lt;code&gt;dist&lt;/code&gt; 文件夹&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;#! /bin/bash&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;JS_PATH=/home/acs/acapp/game/static/js/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;JS_PATH_DIST=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;${&lt;/span&gt;JS_PATH&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;}&lt;/span&gt;dist/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;JS_PATH_SRC=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;${&lt;/span&gt;JS_PATH&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;}&lt;/span&gt;src/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;find $JS_PATH_SRC -type f -name &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;*.js&amp;#39;&lt;/span&gt; | sort | xargs cat &amp;gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;${&lt;/span&gt;JS_PATH_DIST&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;}&lt;/span&gt;game.js
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;网页渲染流程&lt;/strong&gt;：根据用户的链接，首先进入&lt;code&gt;acapp/urls.py&lt;/code&gt;，根据&lt;code&gt;path&lt;/code&gt;再进入&lt;code&gt;game/urls/index.py&lt;/code&gt;，再根据&lt;code&gt;path&lt;/code&gt;进入下一层&lt;code&gt;url&lt;/code&gt;或调用相对应的&lt;code&gt;views&lt;/code&gt;中的&lt;code&gt;index.py&lt;/code&gt;函数，函数接收参数，在网页端渲染&lt;code&gt;templates/multiends&lt;/code&gt;下的&lt;code&gt;web.html&lt;/code&gt;，&lt;code&gt;html&lt;/code&gt;中有&lt;code&gt;JS&lt;/code&gt;执行
+注意：本项目为前后端分离，即通过&lt;code&gt;JS&lt;/code&gt;在&lt;code&gt;client&lt;/code&gt;中渲染项目(动态生成页面)，而不是在&lt;code&gt;server&lt;/code&gt;渲染项目&lt;/p&gt;
+&lt;h1 id=&#34;游戏界面&#34;&gt;游戏界面&lt;/h1&gt;
+&lt;h3 id=&#34;单人游戏&#34;&gt;单人游戏&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.acwing.com/video/3520/&#34;&gt;4.1 创建游戏界面-Vedio&lt;/a&gt;
+&lt;a href=&#34;https://www.acwing.com/solution/content/79181/&#34;&gt;4.1 上课笔记&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;若修改&lt;code&gt;static文件夹&lt;/code&gt;下的相关文件，需在&lt;code&gt;~/acapp&lt;/code&gt;下执行&lt;code&gt;./scripts/compress_game_js.sh&lt;/code&gt;来打包文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;联机对战&#34;&gt;联机对战&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/3357332/&#34;&gt;实现联机对战——讲义&lt;/a&gt;
+&lt;a href=&#34;https://www.acwing.com/video/3581/&#34;&gt;7.1 实现联机对战（上）-Vedio&lt;/a&gt;
+&lt;a href=&#34;https://www.acwing.com/blog/content/12692/&#34;&gt;配置channelsredis&lt;/a&gt;
+统一长度单位：7m20s~38m
+创建的时候相对于窗口大小创建不同元素适应窗口，画的时候要在这个窗口绝对位置去画
+增加“联机对战”模式：40m10s~49m
+联机原理：50m~1h2m40s
+配置channelsredis：1h2m40s~1h09m11s
+&lt;a href=&#34;https://www.acwing.com/solution/content/89506/&#34;&gt;7.1 上课笔记&lt;/a&gt;
+&lt;a href=&#34;https://www.acwing.com/video/3582/&#34;&gt;7.2 实现联机对战（下）-Vedio&lt;/a&gt;
+&lt;a href=&#34;https://www.acwing.com/solution/content/88801/&#34;&gt;7.2 上课笔记&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;调试&#34;&gt;调试&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;~/acapp&lt;/code&gt; 文件夹下执行 &lt;code&gt;python3 manage.py shell&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Def clear ():
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	For key in cache. Keys (&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;*&amp;#39;&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		Cache. Delete(key)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;code&gt;from django.core.cache import cache&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;聊天系统&#34;&gt;聊天系统&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.acwing.com/video/3603/&#34;&gt;8.1 聊天功能的实现-Vedio&lt;/a&gt;
+&lt;a href=&#34;https://www.acwing.com/solution/content/89508/&#34;&gt;8.1 上课笔记&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;匹配系统&#34;&gt;匹配系统&lt;/h1&gt;
+&lt;p&gt;[[Thrift]]
+&lt;a href=&#34;https://www.acwing.com/video/3618/&#34;&gt;9.1 实现匹配系统——thrift服务-Vedio&lt;/a&gt;
+&lt;a href=&#34;https://www.acwing.com/activity/content/code/content/2360556/&#34;&gt;9.1 上课笔记&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;项目收尾&#34;&gt;项目收尾&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/3435229/&#34;&gt;讲义&lt;/a&gt;
+&lt;a href=&#34;https://www.acwing.com/video/3619/&#34;&gt;9.2 实现匹配系统——项目收尾-Vedio&lt;/a&gt;
+&lt;a href=&#34;https://www.acwing.com/activity/content/code/content/2360556/&#34;&gt;9.2 上课笔记&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;版本更新&#34;&gt;版本更新&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;在&lt;a href=&#34;https://www.acwing.com/user/myspace/application/update/2433/&#34;&gt;术士之战&lt;/a&gt;中将&lt;strong&gt;js地址&lt;/strong&gt;一栏更新为&lt;code&gt;https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;注：文件夹中对应的文件也需要更改名字&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<p><a href="https://www.acwing.com/activity/content/punch_the_clock/72/">Django框架课</a></p>
+<hr>
+<p>[[SSH]]
+[[Docker]]
+[[SHELL]]
+[[Ngnix&amp;uwsgi]]
+[[Redis]]
+[[WSS]]
+[[Django_channels]]
+[[账号系统]]
+[[JS简易游戏引擎实现]]
+[[JS模块引用]]
+<a href="https://www.acwing.com/solution/content/114359/">acapp 项目自动化运行</a></p>
+<hr>
+<h1 id="项目创建运行">项目创建&amp;运行</h1>
+<p><a href="https://www.acwing.com/solution/content/72577/">2.1. 创建 django 项目</a></p>
+<ol>
+<li><code>ssh django</code></li>
+<li><code>django-admin startproject acapp</code>：在当前目录下创建名为<code>acapp</code>的<code>django</code>项目</li>
+<li>将项目用<code>git</code>维护起来
+<ol>
+<li><code>ssh-key-gen</code>：在<code>服务器</code>中生成密钥（<code>git</code>通过<code>ssh</code>传文件）</li>
+<li>在<code>AcGit</code>中<code>SSH密钥</code>中添加<code>SSH公钥</code></li>
+<li><code>git init</code>：创建<code>git</code>仓库</li>
+<li>在<code>AcGit</code>上新建空白项目</li>
+</ol>
+</li>
+</ol>
+<pre tabindex="0"><code>
+git config --global user.name xxx
+git config --global user.email xxx@xxx.com
+git add .
+git commit -m &#34;xxx&#34;
+git remote add origin git@git.acwing.com:xxx/XXX.git #建立连接
+git push --set-upstream origin master
+</code></pre><ul>
+<li>在本地运行项目： <code>python3 manage.py runserver 0.0.0.0:8000</code></li>
+<li>重点：每个 app 里面有这四个东西
 <ul>
-<li>
-<p>单向链表</p>
-<ul>
-<li>
-<p>有头结点</p>
-<ul>
-<li>L 为头指针，当 L == NULL 时，链表为空</li>
+<li>Models：管理数据库数据</li>
+<li>Views：管理 <code>http</code> 函数（接收浏览器请求，返回字符串至浏览器）</li>
+<li>Urls：管理路由，即链接与函数的对应关系 (接收链接，调用相对应的函数)</li>
+<li>Templates：存储网页模板管理 <code>html</code>  文件
+<a href="https://www.acwing.com/solution/content/73097/">2.1上课笔记</a></li>
 </ul>
 </li>
-<li>
-<p>无头结点</p>
+</ul>
+<h1 id="菜单界面项目架构设计">菜单界面&amp;项目架构设计</h1>
+<p><a href="https://www.acwing.com/video/3519/">创建菜单界面-Vedio</a>
+<a href="https://www.acwing.com/file_system/file/content/whole/index/content/3199626/">创建菜单界面-讲义</a>
+<a href="https://www.acwing.com/solution/content/73121/">3.1 上课笔记</a>
+将 <code>src</code>文件夹下的 <code>JS</code>源文件打包至 <code>dist</code> 文件夹</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#007f7f">#! /bin/bash</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>JS_PATH=/home/acs/acapp/game/static/js/
+</span></span><span style="display:flex;"><span>JS_PATH_DIST=<span style="color:#0ff;font-weight:bold">${</span>JS_PATH<span style="color:#0ff;font-weight:bold">}</span>dist/
+</span></span><span style="display:flex;"><span>JS_PATH_SRC=<span style="color:#0ff;font-weight:bold">${</span>JS_PATH<span style="color:#0ff;font-weight:bold">}</span>src/
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>find $JS_PATH_SRC -type f -name <span style="color:#0ff;font-weight:bold">&#39;*.js&#39;</span> | sort | xargs cat &gt; <span style="color:#0ff;font-weight:bold">${</span>JS_PATH_DIST<span style="color:#0ff;font-weight:bold">}</span>game.js
+</span></span></code></pre></div><p><strong>网页渲染流程</strong>：根据用户的链接，首先进入<code>acapp/urls.py</code>，根据<code>path</code>再进入<code>game/urls/index.py</code>，再根据<code>path</code>进入下一层<code>url</code>或调用相对应的<code>views</code>中的<code>index.py</code>函数，函数接收参数，在网页端渲染<code>templates/multiends</code>下的<code>web.html</code>，<code>html</code>中有<code>JS</code>执行
+注意：本项目为前后端分离，即通过<code>JS</code>在<code>client</code>中渲染项目(动态生成页面)，而不是在<code>server</code>渲染项目</p>
+<h1 id="游戏界面">游戏界面</h1>
+<h3 id="单人游戏">单人游戏</h3>
+<p><a href="https://www.acwing.com/video/3520/">4.1 创建游戏界面-Vedio</a>
+<a href="https://www.acwing.com/solution/content/79181/">4.1 上课笔记</a></p>
 <ul>
-<li>头指针 L 指向的结点为头结点，头结点的直接后继是第一个结点</li>
-<li>当 L-&gt;next == NULL 时，链表为空</li>
+<li>若修改<code>static文件夹</code>下的相关文件，需在<code>~/acapp</code>下执行<code>./scripts/compress_game_js.sh</code>来打包文件</li>
+</ul>
+<h3 id="联机对战">联机对战</h3>
+<p><a href="https://www.acwing.com/file_system/file/content/whole/index/content/3357332/">实现联机对战——讲义</a>
+<a href="https://www.acwing.com/video/3581/">7.1 实现联机对战（上）-Vedio</a>
+<a href="https://www.acwing.com/blog/content/12692/">配置channelsredis</a>
+统一长度单位：7m20s~38m
+创建的时候相对于窗口大小创建不同元素适应窗口，画的时候要在这个窗口绝对位置去画
+增加“联机对战”模式：40m10s~49m
+联机原理：50m~1h2m40s
+配置channelsredis：1h2m40s~1h09m11s
+<a href="https://www.acwing.com/solution/content/89506/">7.1 上课笔记</a>
+<a href="https://www.acwing.com/video/3582/">7.2 实现联机对战（下）-Vedio</a>
+<a href="https://www.acwing.com/solution/content/88801/">7.2 上课笔记</a></p>
+<h4 id="调试">调试</h4>
+<ol>
+<li><code>~/acapp</code> 文件夹下执行 <code>python3 manage.py shell</code></li>
+<li></li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Def clear ():
+</span></span><span style="display:flex;"><span>	For key in cache. Keys (<span style="color:#0ff;font-weight:bold">&#39;*&#39;</span>):
+</span></span><span style="display:flex;"><span>		Cache. Delete(key)
+</span></span></code></pre></div><ol start="3">
+<li><code>from django.core.cache import cache</code></li>
+</ol>
+<h1 id="聊天系统">聊天系统</h1>
+<p><a href="https://www.acwing.com/video/3603/">8.1 聊天功能的实现-Vedio</a>
+<a href="https://www.acwing.com/solution/content/89508/">8.1 上课笔记</a></p>
+<h1 id="匹配系统">匹配系统</h1>
+<p>[[Thrift]]
+<a href="https://www.acwing.com/video/3618/">9.1 实现匹配系统——thrift服务-Vedio</a>
+<a href="https://www.acwing.com/activity/content/code/content/2360556/">9.1 上课笔记</a></p>
+<h1 id="项目收尾">项目收尾</h1>
+<p><a href="https://www.acwing.com/file_system/file/content/whole/index/content/3435229/">讲义</a>
+<a href="https://www.acwing.com/video/3619/">9.2 实现匹配系统——项目收尾-Vedio</a>
+<a href="https://www.acwing.com/activity/content/code/content/2360556/">9.2 上课笔记</a></p>
+<h1 id="版本更新">版本更新</h1>
+<ul>
+<li>在<a href="https://www.acwing.com/user/myspace/application/update/2433/">术士之战</a>中将<strong>js地址</strong>一栏更新为<code>https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js</code>
+<ul>
+<li>注：文件夹中对应的文件也需要更改名字</li>
 </ul>
 </li>
-</ul>
-</li>
-<li>
-<p>单向循环链表</p>
-<ul>
-<li>
-<p>带头指针的单向循环链表</p>
-<ul>
-<li>有头结点
-<ul>
-<li>当 L-&gt;next == L 时，链表为空</li>
-</ul>
-</li>
-<li>无头结点
-<ul>
-<li>当 L == NULL 时，链表为空</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>带尾指针的单向循环链表</p>
-<ul>
-<li>有头结点
-<ul>
-<li>R-&gt;next 为头结点</li>
-<li>当 R-&gt;next == R 时，链表为空</li>
-</ul>
-</li>
-<li>无头结点
-<ul>
-<li>R-&gt;next 为第一个结点</li>
-<li>当 R == NULL 时，链表为空</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>双向循环链表</p>
-<ul>
-<li>有头结点
-<ul>
-<li>当 L-&gt;next == L＆＆ L-&gt;pre == L 时，链表为空</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h1 id="填空题">填空题</h1>
-<ul>
-<li>顺序表结构适宜于进行<strong>随机</strong>存取，而链表适宜于进行<strong>顺序</strong>存取</li>
-<li>链队列删除操作时，如果删除的是最后一个元素，则需要将 <code>Q.rear = Q.front</code></li>
 </ul>
 ]]></content:encoded>
     </item>
     
     <item>
-      <title>Search</title>
-      <link>https://zagxuy.github.io/posts/search/</link>
-      <pubDate>Sun, 09 Oct 2022 20:00:23 +0800</pubDate>
+      <title>Rss</title>
+      <link>https://zagxuy.github.io/posts/rss/</link>
+      <pubDate>Tue, 11 Oct 2022 07:42:40 +0800</pubDate>
       
-      <guid>https://zagxuy.github.io/posts/search/</guid>
-      <description>图
-邻接矩阵 typedef struct { char vexs[MAX][NUM];; //顶点信息 int arcs[MAX][MAX]; //边或弧上的权值 int vex; //顶点数 int arc; //弧数 }graph, *graphlink; 邻接表 #define NUM 20 //最大字符串长度 //边结点 typedef struct arcnode { int adjvex; //弧所指向顶点下标 struct arcnode *next; //指向下一条弧 int weight; //边结点类型（权重） }arcnode; //表头结点 typedef struct vexnode { char vertex[NUM]; //存放结点值 arcnode *head; //存放边链表头指针 }vexnode; //邻接表 typedef struct graph{ vexnode adjlist[MAX]; int vex; //顶点数 int arc; //边数 }graph, *graphlink; 最小生成树 Prim 稠密图 设 G = (V, {E}) 是连通图，最小生成树 T 的顶点集合为 U，边的集合是 TE 初始：U = { u0 } ( u0∈V ) ， TE = Ø 重复执行下述操作：在所有 u ∈U， v∈W 的边 (u，v) ∈E 中找一条代价最小的边 (ui ，v0) 并入集合 TE，同时 v0 并入 U，直到 U = V 为止 设置一个辅助数组 (最小代价数组)，对当前 V－U 集合 中的每个顶点，记录与顶点集 U 中顶点相连接的代价最小的边 void crt_graph(graphlink G) { printf(&amp;#34;输入顶点数和边数（空格隔开）\n&amp;#34;); scanf(&amp;#34;%d %d&amp;#34;, &amp;amp;G-&amp;gt;vex, &amp;amp;G-&amp;gt;arc); //顶点数和边数 printf(&amp;#34;输入顶点信息\n&amp;#34;); for (int i = 1; i &amp;lt;= G-&amp;gt;vex; i++) scanf(&amp;#34;%s&amp;#34;, G-&amp;gt;vexs[i]); //顶点信息 for (int i = 1; i &amp;lt;= G-&amp;gt;vex; i++) for (int j = 1; j &amp;lt;= G-&amp;gt;vex; j++) G-&amp;gt;arcs[i][j] = INF; //邻接矩阵初始化 printf(&amp;#34;输入边和权值（空格隔开）\n&amp;#34;); for (int k = 1; k &amp;lt;= G-&amp;gt;arc; k++) { //读入边 int i, j, w; scanf(&amp;#34;%d%d%d&amp;#34;, &amp;amp;i, &amp;amp;j, &amp;amp;w); G-&amp;gt;arcs[i][j] = w; G-&amp;gt;arcs[j][i] = w; } } void prim(graphlink G, int v, lowcost lc[]) { int total = 0; //边权总和 int st[MAX] = {0}; //存储每个点是否已经在生成树中 st[v] = 1; for (int i = 1; i &amp;lt;= G-&amp;gt;vex; i++) { //初始化 lc[i].</description>
-      <content:encoded><![CDATA[<p><a href="https://git.acwing.com/ZagY/learn-data-structures/-/blob/main/Graph/Algorithm/README.md">图</a></p>
-<h1 id="邻接矩阵">邻接矩阵</h1>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">typedef</span> <span style="color:#fff;font-weight:bold">struct</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">char</span> vexs[MAX][NUM];;  <span style="color:#007f7f">//顶点信息
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> arcs[MAX][MAX];  <span style="color:#007f7f">//边或弧上的权值
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> vex;  <span style="color:#007f7f">//顶点数
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> arc;  <span style="color:#007f7f">//弧数
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}graph, *graphlink;
-</span></span></code></pre></div><h1 id="邻接表">邻接表</h1>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#define NUM 20  </span><span style="color:#007f7f">//最大字符串长度
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">//边结点
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#fff;font-weight:bold">typedef</span> <span style="color:#fff;font-weight:bold">struct</span> arcnode {
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">int</span> adjvex;  <span style="color:#007f7f">//弧所指向顶点下标
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">struct</span> arcnode *next;  <span style="color:#007f7f">//指向下一条弧
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> weight;  <span style="color:#007f7f">//边结点类型（权重）
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}arcnode;
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">//表头结点
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#fff;font-weight:bold">typedef</span> <span style="color:#fff;font-weight:bold">struct</span> vexnode {
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">char</span> vertex[NUM];  <span style="color:#007f7f">//存放结点值
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    arcnode *head;  <span style="color:#007f7f">//存放边链表头指针
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}vexnode;
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">//邻接表
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#fff;font-weight:bold">typedef</span> <span style="color:#fff;font-weight:bold">struct</span> graph{
-</span></span><span style="display:flex;"><span>    vexnode adjlist[MAX];
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">int</span> vex;  <span style="color:#007f7f">//顶点数
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> arc;  <span style="color:#007f7f">//边数
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}graph, *graphlink;
-</span></span></code></pre></div><h1 id="最小生成树">最小生成树</h1>
-<h2 id="prim">Prim</h2>
-<ul>
-<li><strong>稠密图</strong></li>
-<li>设 <code>G = (V, {E})</code> 是连通图，最小生成树 T 的<strong>顶点</strong>集合为 <code>U</code>，<strong>边</strong>的集合是 <code>TE</code></li>
-<li>初始：<strong>U = { u<sub>0</sub> }</strong>  ( u<sub>0</sub>∈V ) ， <code>TE = Ø</code></li>
-<li>重复执行下述操作：在所有 <code>u ∈U</code>， <code>v∈W</code> 的边 (u，v) ∈E 中找一条代价最小的边 (u<sub>i</sub> ，v<sub>0</sub>) 并入集合 TE，同时 v<sub>0</sub> 并入 U，直到 U = V 为止</li>
-<li>设置一个辅助数组 (<strong>最小代价数组</strong>)，对当前 <code>V－U 集合</code> 中的每个顶点，记录与顶点集 U 中顶点相连接的代价最小的边</li>
-</ul>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> crt_graph(graphlink G) {
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点数和边数（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
-</span></span><span style="display:flex;"><span>    scanf(<span style="color:#0ff;font-weight:bold">&#34;%d %d&#34;</span>, &amp;G-&gt;vex, &amp;G-&gt;arc);  <span style="color:#007f7f">//顶点数和边数
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点信息</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++) scanf(<span style="color:#0ff;font-weight:bold">&#34;%s&#34;</span>, G-&gt;vexs[i]);  <span style="color:#007f7f">//顶点信息
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> j = <span style="color:#ff0;font-weight:bold">1</span>; j &lt;= G-&gt;vex; j++)
-</span></span><span style="display:flex;"><span>            G-&gt;arcs[i][j] = INF;  <span style="color:#007f7f">//邻接矩阵初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入边和权值（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">1</span>; k &lt;= G-&gt;arc; k++) {  <span style="color:#007f7f">//读入边
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">int</span> i, j, w;
-</span></span><span style="display:flex;"><span>        scanf(<span style="color:#0ff;font-weight:bold">&#34;%d%d%d&#34;</span>, &amp;i, &amp;j, &amp;w);
-</span></span><span style="display:flex;"><span>        G-&gt;arcs[i][j] = w;
-</span></span><span style="display:flex;"><span>        G-&gt;arcs[j][i] = w;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
+      <guid>https://zagxuy.github.io/posts/rss/</guid>
+      <description>&lt;h1 id=&#34;js引用方式&#34;&gt;JS引用方式&lt;/h1&gt;
+&lt;p&gt;在&lt;code&gt;web.html&lt;/code&gt;修改&lt;code&gt;JS&lt;/code&gt;引入方式，采用模块的方式引用
+如果像&lt;code&gt;&amp;lt;script src=&amp;quot;{% static &#39;js/dist/game.js&#39; %}&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;这样引用，这样会导致这个引入的类是全局的&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{% load &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;static&lt;/span&gt; %}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;head&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;link rel=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; href=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;https://cdn.acwing.com/static/jquery-ui-dist/jquery-ui.min.css&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;script src=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;https://cdn.acwing.com/static/jquery/js/jquery-3.3.1.min.js&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;&lt;span style=&#34;color:#f00&#34;&gt;/script&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;link rel=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; href=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;{% static &amp;#39;css/game.css&amp;#39; %}&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;script src=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;{% static &amp;#39;js/dist/game.js&amp;#39; %}&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;&lt;span style=&#34;color:#f00&#34;&gt;/script&amp;gt; &amp;lt;!--看这里--&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f00&#34;&gt;/head&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;body style=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;margin: 0&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;div id=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;ac_game_01&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;&lt;span style=&#34;color:#f00&#34;&gt;/div&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;script&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    $(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;document&lt;/span&gt;).ready(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;function&lt;/span&gt;(){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;let&lt;/span&gt; ac_game = &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;new&lt;/span&gt; AcGame(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;ac_game_01&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    });
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f00&#34;&gt;/script&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f00&#34;&gt;/body&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{% load &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;static&lt;/span&gt; %}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;head&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;link rel=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; href=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;https://cdn.acwing.com/static/jquery-ui-dist/jquery-ui.min.css&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;script src=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;https://cdn.acwing.com/static/jquery/js/jquery-3.3.1.min.js&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;&lt;span style=&#34;color:#f00&#34;&gt;/script&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;link rel=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; href=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;{% static &amp;#39;css/game.css&amp;#39; %}&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#007f7f&#34;&gt;&amp;lt;!--&lt;/span&gt;看这里&lt;span style=&#34;color:#f00&#34;&gt;（&lt;/span&gt;删了&lt;span style=&#34;color:#f00&#34;&gt;）&lt;/span&gt;--&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f00&#34;&gt;/head&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;body style=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;margin: 0&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;div id=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;ac_game_01&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;&lt;span style=&#34;color:#f00&#34;&gt;/div&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;script&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;import&lt;/span&gt; {AcGame} from &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;{% static &amp;#39;js/dist/game.js&amp;#39; %}&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#007f7f&#34;&gt;&amp;lt;!--&lt;/span&gt;看这里--&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    $(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;document&lt;/span&gt;).ready(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;function&lt;/span&gt;(){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;let&lt;/span&gt; ac_game = &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;new&lt;/span&gt; AcGame(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;ac_game_01&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    });
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f00&#34;&gt;/script&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f00&#34;&gt;/body&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <content:encoded><![CDATA[<h1 id="js引用方式">JS引用方式</h1>
+<p>在<code>web.html</code>修改<code>JS</code>引入方式，采用模块的方式引用
+如果像<code>&lt;script src=&quot;{% static 'js/dist/game.js' %}&quot;&gt;&lt;/script&gt;</code>这样引用，这样会导致这个引入的类是全局的</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{% load <span style="color:#fff;font-weight:bold">static</span> %}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> prim(graphlink G, <span style="color:#fff;font-weight:bold">int</span> v, lowcost lc[]) {
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">int</span> total = <span style="color:#ff0;font-weight:bold">0</span>;  <span style="color:#007f7f">//边权总和
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> st[MAX] = {<span style="color:#ff0;font-weight:bold">0</span>};  <span style="color:#007f7f">//存储每个点是否已经在生成树中
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    st[v] = <span style="color:#ff0;font-weight:bold">1</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++) {  <span style="color:#007f7f">//初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        lc[i].weight = G-&gt;arcs[v][i];
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> (lc[i].weight == INF) lc[i].adjnode = -<span style="color:#ff0;font-weight:bold">1</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">else</span> lc[i].adjnode = v;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex - <span style="color:#ff0;font-weight:bold">1</span>; i++) {  <span style="color:#007f7f">//循环 G-&gt;vex - 1 次
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">int</span> min = INF;  <span style="color:#007f7f">//其他点到当前最小生成树的最短距离
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">int</span> pos = -<span style="color:#ff0;font-weight:bold">1</span>;  <span style="color:#007f7f">//到当前最小生成树的最短距离的点
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">1</span>; k &lt;= G-&gt;vex; k++)  <span style="color:#007f7f">//选出权值最小的边
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            <span style="color:#fff;font-weight:bold">if</span> (st[k] == <span style="color:#ff0;font-weight:bold">0</span> &amp;&amp; lc[k].weight &lt; min) {
-</span></span><span style="display:flex;"><span>                min = lc[k].weight;
-</span></span><span style="display:flex;"><span>                pos = k;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        total += min;
-</span></span><span style="display:flex;"><span>        st[pos] = <span style="color:#ff0;font-weight:bold">1</span>;  <span style="color:#007f7f">//已在最小生成树中的点
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#007f7f">//更新其他点到当前最小生成树的距离
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">1</span>; k &lt;= G-&gt;vex; k++)
-</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">if</span> (st[k] == <span style="color:#ff0;font-weight:bold">0</span> &amp;&amp; G-&gt;arcs[pos][k] &lt; lc[k].weight) {
-</span></span><span style="display:flex;"><span>                lc[k].weight = G-&gt;arcs[pos][k];
-</span></span><span style="display:flex;"><span>                lc[k].adjnode = pos;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;边权总和为：%d</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>, total);
-</span></span><span style="display:flex;"><span>    print_MST(G, lc);
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="kruskal">Kruskal</h2>
-<ul>
-<li><strong>稀疏图</strong></li>
-<li>先构造一个只含 <code>n</code> 个顶点的子图 <code>SG</code>，然后从<strong>权值最小</strong>的 <code>边 (u, v)</code> 开始 (u, v 不在同一个连通图)，若它的添加不使 <code>SG</code> 中产生回路，则在 <code>SG</code> 中加上这条边，如此重复，直至加上 <code>n-1</code> 条边为止</li>
-</ul>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> crt_graph(graphlink G) {
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点数和边数（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
-</span></span><span style="display:flex;"><span>    scanf(<span style="color:#0ff;font-weight:bold">&#34;%d %d&#34;</span>, &amp;G-&gt;vex, &amp;G-&gt;arc);  <span style="color:#007f7f">//顶点数和边数
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点信息</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++) scanf(<span style="color:#0ff;font-weight:bold">&#34;%s&#34;</span>, G-&gt;vexs[i]);  <span style="color:#007f7f">//顶点信息
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> j = <span style="color:#ff0;font-weight:bold">1</span>; j &lt;= G-&gt;vex; j++)
-</span></span><span style="display:flex;"><span>            G-&gt;arcs[i][j] = INF;  <span style="color:#007f7f">//邻接矩阵初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入边和权值（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">1</span>; k &lt;= G-&gt;arc; k++) {  <span style="color:#007f7f">//读入边
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">int</span> i, j, w;
-</span></span><span style="display:flex;"><span>        scanf(<span style="color:#0ff;font-weight:bold">&#34;%d%d%d&#34;</span>, &amp;i, &amp;j, &amp;w);
-</span></span><span style="display:flex;"><span>        G-&gt;arcs[i][j] = w;
-</span></span><span style="display:flex;"><span>        G-&gt;arcs[j][i] = w;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>&lt;head&gt;
+</span></span><span style="display:flex;"><span>  &lt;link rel=<span style="color:#0ff;font-weight:bold">&#34;stylesheet&#34;</span> href=<span style="color:#0ff;font-weight:bold">&#34;https://cdn.acwing.com/static/jquery-ui-dist/jquery-ui.min.css&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;script src=<span style="color:#0ff;font-weight:bold">&#34;https://cdn.acwing.com/static/jquery/js/jquery-3.3.1.min.js&#34;</span>&gt;&lt;<span style="color:#f00">/script&gt;</span>
+</span></span><span style="display:flex;"><span>  &lt;link rel=<span style="color:#0ff;font-weight:bold">&#34;stylesheet&#34;</span> href=<span style="color:#0ff;font-weight:bold">&#34;{% static &#39;css/game.css&#39; %}&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;script src=<span style="color:#0ff;font-weight:bold">&#34;{% static &#39;js/dist/game.js&#39; %}&#34;</span>&gt;&lt;<span style="color:#f00">/script&gt; &lt;!--看这里--&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f00">/head&gt;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> Kruskal(graphlink G, edge edges[], <span style="color:#fff;font-weight:bold">int</span> fa[]) {
-</span></span><span style="display:flex;"><span>    init(G, edges, fa);  <span style="color:#007f7f">//初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> cnt = <span style="color:#ff0;font-weight:bold">0</span>;  <span style="color:#007f7f">//合并次数
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">0</span>;  <span style="color:#007f7f">//边的下标
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">int</span> total = <span style="color:#ff0;font-weight:bold">0</span>;  <span style="color:#007f7f">//边权总和
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">while</span> (cnt &lt; G-&gt;vex - <span style="color:#ff0;font-weight:bold">1</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">int</span> x = get_father(edges[k].a, fa);
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">int</span> y = get_father(edges[k].b, fa);
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> (x != y) {
-</span></span><span style="display:flex;"><span>            fa[x] = y;  <span style="color:#007f7f">//合并到一棵生成树
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            total += edges[k].w;  edges[k].flag = <span style="color:#ff0;font-weight:bold">1</span>;  cnt++;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>        k++;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;边权总和为：%d</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>, total);
-</span></span><span style="display:flex;"><span>    print_MST(G, edges, k);
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h1 id="最短路径">最短路径</h1>
-<h2 id="dijkstra">Dijkstra</h2>
-<ul>
-<li>
-<p><strong>稠密图</strong></p>
-</li>
-<li>
-<p>从源点到其余各点的最短路径</p>
-</li>
-<li>
-<p>首先将网中的所有顶点分成两个集合<code>S</code>和<code>T</code>：</p>
-<ul>
-<li>
-<p>S：凡以v<sub>0</sub>为源点，已经确定了最短路径的终点并入集合S。S的<strong>初始状态</strong>只包含v<sub>0</sub>。</p>
-</li>
-<li>
-<p>T：尚未确定最短路径的顶点的集合。其<strong>初始状态</strong>包含除源点外的所有顶点</p>
-</li>
-</ul>
-</li>
-<li>
-<p>引进两个辅助数组来记源点 (设其编号为 v<sub>0</sub>) 到其它顶点的<strong>最短路径长度</strong>和<strong>路径集合</strong></p>
-<ul>
-<li>Dist[i]：表示 v<sub>0</sub> 到顶点 v<sub>i </sub> 的最短路径的长度</li>
-<li>Path[i]:  表示以上路径中所经过的顶点集合</li>
-</ul>
-</li>
-<li>
-<p>重复执行下述操作，直到选够 <code>n-1</code> 条路径：</p>
-<ol>
-<li>设下一条所选路径的终点为 v<sub>k</sub> ，则：<code>dist[k]= min{dist[i]︱i∈T}</code>，将 k 加入到 S 中</li>
-<li>修改 dist[i] {i∈T}， <code>dist[i]=min{dist[i]，dist[k] + arcs[k][i]︱k∈S，i∈T}</code></li>
-</ol>
-</li>
-</ul>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> crt_graph(graphlink G) {
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点数和边数（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
-</span></span><span style="display:flex;"><span>    scanf(<span style="color:#0ff;font-weight:bold">&#34;%d %d&#34;</span>, &amp;G-&gt;vex, &amp;G-&gt;arc);  <span style="color:#007f7f">//顶点数和边数
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点信息</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++) scanf(<span style="color:#0ff;font-weight:bold">&#34;%s&#34;</span>, G-&gt;vexs[i]);  <span style="color:#007f7f">//顶点信息
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> j = <span style="color:#ff0;font-weight:bold">1</span>; j &lt;= G-&gt;vex; j++) {
-</span></span><span style="display:flex;"><span>            G-&gt;arcs[i][j] = INF;  <span style="color:#007f7f">//邻接矩阵初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            <span style="color:#fff;font-weight:bold">if</span> (i == j) G-&gt;arcs[i][j] = <span style="color:#ff0;font-weight:bold">0</span>;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入边和权值（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">1</span>; k &lt;= G-&gt;arc; k++) {  <span style="color:#007f7f">//读入边
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">int</span> i, j, w;
-</span></span><span style="display:flex;"><span>        scanf(<span style="color:#0ff;font-weight:bold">&#34;%d%d%d&#34;</span>, &amp;i, &amp;j, &amp;w);
-</span></span><span style="display:flex;"><span>        G-&gt;arcs[i][j] = w;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>&lt;body style=<span style="color:#0ff;font-weight:bold">&#34;margin: 0&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;div id=<span style="color:#0ff;font-weight:bold">&#34;ac_game_01&#34;</span>&gt;&lt;<span style="color:#f00">/div&gt;</span>
+</span></span><span style="display:flex;"><span>  &lt;script&gt;
+</span></span><span style="display:flex;"><span>    $(<span style="color:#fff;font-weight:bold">document</span>).ready(<span style="color:#fff;font-weight:bold">function</span>(){
+</span></span><span style="display:flex;"><span>      <span style="color:#fff;font-weight:bold">let</span> ac_game = <span style="color:#fff;font-weight:bold">new</span> AcGame(<span style="color:#0ff;font-weight:bold">&#34;ac_game_01&#34;</span>);
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f00">/script&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f00">/body&gt;</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{% load <span style="color:#fff;font-weight:bold">static</span> %}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> dijkstra(graphlink G, <span style="color:#fff;font-weight:bold">int</span> v, shortdist dist[]) {
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">int</span> flag[MAX] = {<span style="color:#ff0;font-weight:bold">0</span>};
-</span></span><span style="display:flex;"><span>    flag[v] = <span style="color:#ff0;font-weight:bold">1</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++) {  <span style="color:#007f7f">//dist数组初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        dist[i].distance = G-&gt;arcs[v][i];
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> (G-&gt;arcs[v][i] != INF) dist[i].path = v;
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">else</span> dist[i].path = -<span style="color:#ff0;font-weight:bold">1</span>;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">while</span> (<span style="color:#ff0;font-weight:bold">1</span>) {  <span style="color:#007f7f">//按距离递增顺序找出从v出发到其余各顶点的最短路径
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">int</span> pos = v;
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">int</span> min = INF;  <span style="color:#007f7f">//距离最小值
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)
-</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">if</span>(flag[i] == <span style="color:#ff0;font-weight:bold">0</span> &amp;&amp; dist[i].distance &lt; min) {
-</span></span><span style="display:flex;"><span>                min = dist[i].distance;
-</span></span><span style="display:flex;"><span>                pos = i;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> (min == INF) <span style="color:#fff;font-weight:bold">break</span>;  <span style="color:#007f7f">//算法结束
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        flag[pos] = <span style="color:#ff0;font-weight:bold">1</span>;  <span style="color:#007f7f">//对已完成的顶点做标记
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)   <span style="color:#007f7f">//更新dist
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            <span style="color:#fff;font-weight:bold">if</span> (flag[i] == <span style="color:#ff0;font-weight:bold">0</span> &amp;&amp; dist[pos].distance + G-&gt;arcs[pos][i] &lt; dist[i].distance) {
-</span></span><span style="display:flex;"><span>                dist[i].distance = dist[pos].distance + G-&gt;arcs[pos][i];
-</span></span><span style="display:flex;"><span>                dist[i].path = pos;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    print_path(G ,dist, v);
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="floyd">Floyd</h2>
-<ul>
-<li><strong>稠密图</strong></li>
-<li>每一对顶点之间的最短路径</li>
-<li><code>dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])</code></li>
-</ul>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> crt_graph(graphlink G) {
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点数和边数（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
-</span></span><span style="display:flex;"><span>    scanf(<span style="color:#0ff;font-weight:bold">&#34;%d %d&#34;</span>, &amp;G-&gt;vex, &amp;G-&gt;arc);  <span style="color:#007f7f">//顶点数和边数
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入顶点信息</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++) scanf(<span style="color:#0ff;font-weight:bold">&#34;%s&#34;</span>, G-&gt;vexs[i]);  <span style="color:#007f7f">//顶点信息
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> j = <span style="color:#ff0;font-weight:bold">1</span>; j &lt;= G-&gt;vex; j++) {
-</span></span><span style="display:flex;"><span>            G-&gt;arcs[i][j] = INF;  <span style="color:#007f7f">//邻接矩阵初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            <span style="color:#fff;font-weight:bold">if</span> (i == j) G-&gt;arcs[i][j] = <span style="color:#ff0;font-weight:bold">0</span>;
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    printf(<span style="color:#0ff;font-weight:bold">&#34;输入边和权值（空格隔开）</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>);
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">1</span>; k &lt;= G-&gt;arc; k++) {  <span style="color:#007f7f">//读入边
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">int</span> i, j, w;
-</span></span><span style="display:flex;"><span>        scanf(<span style="color:#0ff;font-weight:bold">&#34;%d%d%d&#34;</span>, &amp;i, &amp;j, &amp;w);
-</span></span><span style="display:flex;"><span>        G-&gt;arcs[i][j] = w;
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>&lt;head&gt;
+</span></span><span style="display:flex;"><span>  &lt;link rel=<span style="color:#0ff;font-weight:bold">&#34;stylesheet&#34;</span> href=<span style="color:#0ff;font-weight:bold">&#34;https://cdn.acwing.com/static/jquery-ui-dist/jquery-ui.min.css&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;script src=<span style="color:#0ff;font-weight:bold">&#34;https://cdn.acwing.com/static/jquery/js/jquery-3.3.1.min.js&#34;</span>&gt;&lt;<span style="color:#f00">/script&gt;</span>
+</span></span><span style="display:flex;"><span>  &lt;link rel=<span style="color:#0ff;font-weight:bold">&#34;stylesheet&#34;</span> href=<span style="color:#0ff;font-weight:bold">&#34;{% static &#39;css/game.css&#39; %}&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  <span style="color:#007f7f">&lt;!--</span>看这里<span style="color:#f00">（</span>删了<span style="color:#f00">）</span>--&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f00">/head&gt;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f00"></span>[Ovoid floyd(graphlink G, <span style="color:#fff;font-weight:bold">int</span> dist[][MAX], <span style="color:#fff;font-weight:bold">int</span> path[][MAX]) {
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)  <span style="color:#007f7f">//初始化
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> j = <span style="color:#ff0;font-weight:bold">1</span>; j &lt;= G-&gt;vex; j++) {
-</span></span><span style="display:flex;"><span>            dist[i][j] = G-&gt;arcs[i][j];
-</span></span><span style="display:flex;"><span>            path[i][j] = i;
-</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">if</span> (dist[i][j] == <span style="color:#ff0;font-weight:bold">0</span> || dist[i][j] == INF) path[i][j] = -<span style="color:#ff0;font-weight:bold">1</span>;
-</span></span><span style="display:flex;"><span><span style="color:#f00"></span>[I        }
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">1</span>; k &lt;= G-&gt;vex; k++)  <span style="color:#007f7f">//对每一个顶点做一次迭代
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= G-&gt;vex; i++)
-</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> j = <span style="color:#ff0;font-weight:bold">1</span>; j &lt;= G-&gt;vex; j++)
-</span></span><span style="display:flex;"><span>                <span style="color:#fff;font-weight:bold">if</span> (dist[i][k] + dist[k][j] &lt; dist[i][j]) {
-</span></span><span style="display:flex;"><span>                    dist[i][j] = dist[i][k] + dist[k][j];
-</span></span><span style="display:flex;"><span>                    path[i][j] = k;
-</span></span><span style="display:flex;"><span>                }
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    print_path(G, dist, path);
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h1 id="拓扑排序">拓扑排序</h1>
-<h2 id="特点">特点</h2>
-<ol>
-<li>一个有向图的拓扑序列一般不唯一</li>
-<li>有向无环图一定存在拓扑序列</li>
-</ol>
-<h2 id="算法描述">算法描述</h2>
-<ul>
-<li><strong>如果顶点没有全部输出，则说明有向图中存在环</strong></li>
-</ul>
-<ol>
-<li>在有向图中选一个 <code>入度为零的顶点</code> 且输出</li>
-<li>将图中与该顶点有关的边的 <code>弧头顶点的入度减 1</code></li>
-<li>重复上述两步，直至所有满足条件的顶点均已输出</li>
-</ol>
-<h1 id="aoe-网络关键路径">AOE 网络关键路径</h1>
-<ul>
-<li>
-<p>AOE 网络：以<strong>顶点</strong>表示事件，<strong>弧</strong>表示活动，<strong>权</strong>表示活动持续的时间的<strong>带权有向无环图</strong></p>
-</li>
-<li>
-<p>只有在某顶点所代表的事件发生后，从该顶点出发的各有向边所代表的活动才能开始</p>
-</li>
-<li>
-<p>只有在指向某一顶点的各有向边所代表的活动都己经结束后，该顶点所代表的事件才能发生</p>
-</li>
-<li>
-<p>假设 AOE 网络表示<strong>施工流程图</strong>，弧上权值表示完成该子工程所需<strong>时间</strong></p>
-<ul>
-<li><strong>关键活动</strong>：关键路径上的所有活动</li>
-<li><strong>关键路径</strong>：整个工程完成的最短时间（从 AOE 网络的 <code>源点</code> 到 <code>汇点</code> 的最长路径长度）</li>
-</ul>
-</li>
-<li>
-<p>如何求关键活动</p>
-<ul>
-<li>假设活动 <code>a(i)</code> 是弧 <code>&lt;j,k&gt;</code> 上的活动，<code>j</code> 为弧尾顶点，<code>k</code> 为弧头</li>
-<li>事件（顶点）<u>最早发生时间</u>v<sub>e</sub>[j]：从 <code>源点</code> 开始到 <code>顶点 j</code> 的最大路径长度</li>
-<li>事件（顶点）<u>最迟发生时间</u>v<sub>l</sub>[k]：从 <code>顶点 k</code> 到 <code>汇点</code> 的最大路径长度</li>
-<li>活动 a<sub>i</sub>（弧）<u>最早开始时间</u>e<sub>e</sub>[i] ：<strong>e<sub>e</sub>[i] = v<sub>e</sub>[j]</strong></li>
-<li>活动 a<sub>i</sub>（弧）<u>最迟开始时间</u>e<sub>l</sub>[i] ：<strong>e<sub>l</sub>[i] = v<sub>l</sub>[k] - w (&lt;j, k&gt;)</strong></li>
-<li>e<sub>l</sub> [i] - e<sub>e</sub> [i]： 完成活动 <strong>a<sub>i</sub></strong> 的余量</li>
-<li>当 e<sub>l</sub> [i] = e<sub>e</sub> [i]时，<strong>a<sub>i</sub></strong> 为关键活动</li>
-</ul>
-</li>
-<li>
-<p>事件发生时间计算公式</p>
-<ul>
-<li>初始化每个点
-<ul>
-<li>V<sub>e</sub> (i) = 0  </li>
-<li>V<sub>l</sub> (i) = V<sub>e</sub> (汇点)</li>
-</ul>
-</li>
-<li>求 V<sub>e</sub> (j) 和 V<sub>l </sub>(j) 需分两步进行
-<ol>
-<li>
-<p>从 V<sub>e</sub>(i) = 0 开始向前递推: <strong>V<sub>e</sub>(j) = max{V<sub>e</sub>(i) + weight (&lt;i，j&gt;)}</strong> i∈P (j)</p>
-<ul>
-<li>其中：<code>P(j)</code> 是以 <code>j</code> 为弧头的弧尾顶点的集合，计算时按<strong>拓扑顺序</strong>进行</li>
-</ul>
-</li>
-<li>
-<p>从 V<sub>l</sub> (i) = V<sub>e</sub> (汇点) 起向后递推: **V<sub>l</sub> (j) = min{V<sub>l</sub> (k) - weight (&lt;j，k&gt;}**k∈S (j)</p>
-<ul>
-<li>其中：<code>S (j)</code> 是以 <code>j</code> 为弧尾的弧头顶点的集合，计算时按<strong>逆拓扑顺序</strong>进行</li>
-</ul>
-</li>
-</ol>
-</li>
-</ul>
-</li>
-</ul>
-<h1 id="填空题">填空题</h1>
-<ul>
-<li>n 个顶点 e 条边的图，若采用<code>邻接矩阵</code>存储，则空间复杂度为 <strong>O (n<sup>2</sup>)</strong></li>
-<li>n 个顶点 e 条边的图，若采用 <code>邻接表</code> 存储，则空间复杂度为 <strong>O (n + e)</strong></li>
-<li> n 个顶点 e 条边的图采用 <code>邻接矩阵</code> 存储，<u>深度优先遍历算法</u>和<u>广度优先遍历算法</u>的时间复杂度都为 <strong>O (n<sup>2</sup>)</strong>；若采用 <code>邻接表</code> 存储时，算法的时间复杂度为  <strong>O (n + e)</strong></li>
-<li> 用 <code>普里姆 (Prim)</code> 算法求具有 n 个顶点 e 条边的图的最小生成树的时间复杂度为  <strong>O (n<sup>2</sup>)</strong>     ；用 <code>克鲁斯卡尔 (Kruskal)</code> 算法的时间复杂度是   <strong>O (elog<sub>2</sub>e)</strong></li>
-<li> 若要求一个<strong>稀疏图 G</strong> 的最小生成树，最好用 <code>克鲁斯卡尔 (Kruskal)</code>  算法来求解</li>
-<li> 若要求一个<strong>稠密图 G</strong> 的最小生成树，最好用 <code>普里姆 (Prim)</code>   算法来求解</li>
-<li> 图的深度优先等价于树的<strong>先序</strong>遍历</li>
-<li> AOV 网中, 结点表示<strong>活动</strong>，边表示<strong>活动间的优先关系</strong>。AOE 网中, 结点表示<strong>事件</strong>，边表示<strong>活动</strong></li>
-</ul>
-<p><a href="https://www.nowcoder.com/questionTerminal/77072bd4872e46df80f2203c2f0eb260">下列 AOE 网表示一项包含 8 个活动的工程。通过同时加快若干活动的进度可以缩短整个工程的工期。下列选项中，加快其进度就可以缩短工程工期的是（ ）</a>
-<a href="https://www.nowcoder.com/questionTerminal/bdd3941ff3a8400d86651d32c6bcf1b9?source=relative">用有向无环图描述表达式 (A+B)*((A+B)/A), 至少需要顶点的数目为 ( )</a>
-<a href="https://www.nowcoder.com/questionTerminal/f71a61d49690436fade01028428c7a9c">若无向图 G = (V, E) 中含 7 个顶点，则保证图 G 在任何连边方式下都是连通的，则需要的边数最少是（ ）</a></p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Sort</title>
-      <link>https://zagxuy.github.io/posts/sort/</link>
-      <pubDate>Sun, 09 Oct 2022 18:42:06 +0800</pubDate>
-      
-      <guid>https://zagxuy.github.io/posts/sort/</guid>
-      <description>排序
-插入排序 直接插入排序 稳定 将 a[i]插入前面已经排好序的 a[1]~a[i - 1]中 在 a[0] 处设置岗哨，使 a[0] == a[i] 避免查找插入位置时对下标越界的检查 将 a[i]依次与 a[i - 1]，a[i - 2]，&amp;hellip; ，a[1]比较，直到 a[j] &amp;lt;= a[i]，再将 a[i]插到 a[j]之后 希尔排序 不稳定 基本思想：先取一个正整数 d1 &amp;lt; n，把所有相隔 d1 的记录放一组，组内进行直接插入排序；然后取 d2 &amp;lt; d1，重复上述分组和排序操作；直至 di = 1，即所有记录放进一个组中进行一趟直接插入排序为止 具体做法： 取 d1 = ⌊n / 2⌋ 每一趟 d i = ⌊d i - 1 / 2⌋ 直至 d k = 1结束 void shell_pass(int a[], int step) { for (int i = step + 1; i &amp;lt;= n; i++) { int tmp = a[i]; int j = i - step; while(j &amp;gt;= 1 &amp;amp;&amp;amp; tmp &amp;lt; a[j]) { a[j + step] = a[j]; j = j - step; } a[j + step] = tmp; } } void shell_sort(int a[], int d[]) {	//需t趟完成排序 for (int k = 0; k &amp;lt; t; k++) shell_pass (a, d[k]); } 交换排序 冒泡排序 稳定 沉底法 快速排序 不稳定</description>
-      <content:encoded><![CDATA[<p><a href="https://git.acwing.com/ZagY/learn-data-structures/-/blob/main/Sort/README.md">排序</a></p>
-<h1 id="插入排序">插入排序</h1>
-<h2 id="直接插入排序">直接插入排序</h2>
-<ul>
-<li><strong>稳定</strong></li>
-<li>将 a[i]插入前面已经排好序的 a[1]~a[i - 1]中</li>
-<li>在  <code>a[0]</code> 处设置岗哨，使 a[0] == a[i]
-<ul>
-<li>避免查找插入位置时对下标越界的检查</li>
-</ul>
-</li>
-<li>将 a[i]依次与 a[i - 1]，a[i - 2]，&hellip; ，a[1]比较，直到 a[j] &lt;= a[i]，再将 a[i]插到 a[j]之后</li>
-</ul>
-<h2 id="希尔排序">希尔排序</h2>
-<ul>
-<li><strong>不稳定</strong></li>
-<li>基本思想：先取一个正整数 d<sub>1</sub> &lt; n，把所有相隔 d<sub>1</sub> 的记录放一组，组内进行直接插入排序；然后取 d<sub>2 </sub> &lt; d<sub>1</sub>，重复上述分组和排序操作；直至 d<sub>i</sub> = 1，即所有记录放进一个组中进行一趟直接插入排序为止</li>
-<li>具体做法：
-<ul>
-<li>取 <strong>d<sub>1</sub> = ⌊n / 2⌋</strong></li>
-<li>每一趟 <strong>d <sub> i </sub> = ⌊d <sub> i - 1 </sub> / 2⌋</strong></li>
-<li>直至 <strong>d <sub> k </sub> = 1</strong>结束</li>
-</ul>
-</li>
-</ul>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> shell_pass(<span style="color:#fff;font-weight:bold">int</span> a[], <span style="color:#fff;font-weight:bold">int</span> step)
-</span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> i = step + <span style="color:#ff0;font-weight:bold">1</span>; i &lt;= n; i++)
-</span></span><span style="display:flex;"><span>	{
-</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">int</span> tmp = a[i];
-</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">int</span> j = i - step;
-</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">while</span>(j &gt;= <span style="color:#ff0;font-weight:bold">1</span> &amp;&amp; tmp &lt; a[j])
-</span></span><span style="display:flex;"><span>		{
-</span></span><span style="display:flex;"><span>			a[j + step] = a[j];
-</span></span><span style="display:flex;"><span>			j = j - step;
-</span></span><span style="display:flex;"><span>		}
-</span></span><span style="display:flex;"><span>		a[j + step] = tmp;
-</span></span><span style="display:flex;"><span>	}
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> shell_sort(<span style="color:#fff;font-weight:bold">int</span> a[], <span style="color:#fff;font-weight:bold">int</span> d[])
-</span></span><span style="display:flex;"><span>{	
-</span></span><span style="display:flex;"><span>	<span style="color:#007f7f">//需t趟完成排序
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>	<span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">int</span> k = <span style="color:#ff0;font-weight:bold">0</span>; k &lt; t; k++)
-</span></span><span style="display:flex;"><span>		shell_pass (a, d[k]);
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h1 id="交换排序">交换排序</h1>
-<h2 id="冒泡排序">冒泡排序</h2>
-<ul>
-<li><strong>稳定</strong></li>
-<li>沉底法</li>
-</ul>
-<h2 id="快速排序">快速排序</h2>
-<ul>
-<li>
-<p><strong>不稳定</strong></p>
-</li>
-<li>
-<p>时间性能</p>
-<ul>
-<li>最坏（基本有序时）：<strong>O ( n <sup> 2 </sup> )</strong></li>
-<li>最好（每次划分恰好两个子序列长度相等）：<strong>O (nlogn)</strong></li>
-</ul>
-</li>
-<li>
-<p>空间性能</p>
-<ul>
-<li>递归调用，存储开销</li>
-<li>最好：<strong>O (logn)</strong></li>
-<li>最坏：<strong>O ( n )</strong></li>
-</ul>
-</li>
-<li>
-<p>将  <code>a[0]</code> 设为哨兵，存储每次选中的关键字</p>
-</li>
-<li>
-<p> 基本思想：在待排序列中选一个关键字，按某一规律进行多次比较交换后，它移到某一位置，此元素<strong>将记录分割成独立的两部分</strong>，它左边的关键字都小于或等于它，右边的关键字都大于或等于它。之后对这<strong>两部分分别进行快速排序</strong></p>
-</li>
-</ul>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">int</span> partition(SqList L, <span style="color:#fff;font-weight:bold">int</span> low, <span style="color:#fff;font-weight:bold">int</span> high)  
-</span></span><span style="display:flex;"><span>{  
-</span></span><span style="display:flex;"><span>    L.r[<span style="color:#ff0;font-weight:bold">0</span>] = L.r[low];  
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">while</span> (low &lt; high)  
-</span></span><span style="display:flex;"><span>    {  
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">while</span> (low &lt; high &amp;&amp; L.r[<span style="color:#ff0;font-weight:bold">0</span>] &lt;= L.r[high])  
-</span></span><span style="display:flex;"><span>            high--;  
-</span></span><span style="display:flex;"><span>        L.r[low] = L.r[high];  
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">while</span> (low &lt; high &amp;&amp; L.r[<span style="color:#ff0;font-weight:bold">0</span>] &gt;= L.r[low])  
-</span></span><span style="display:flex;"><span>            low++;  
-</span></span><span style="display:flex;"><span>        L.r[high] = L.r[low];  
-</span></span><span style="display:flex;"><span>    }  
-</span></span><span style="display:flex;"><span>    L.r[low] = L.r[<span style="color:#ff0;font-weight:bold">0</span>];  
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">return</span> low;  
-</span></span><span style="display:flex;"><span>}  
-</span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">void</span> quick_sort (SqList L, <span style="color:#fff;font-weight:bold">int</span> low, <span style="color:#fff;font-weight:bold">int</span> high)  
-</span></span><span style="display:flex;"><span>{  
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">if</span> (low &lt; high)  
-</span></span><span style="display:flex;"><span>    {  
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">int</span> pos = partition(L, low, high);  
-</span></span><span style="display:flex;"><span>        quick_sort(L, low, pos - <span style="color:#ff0;font-weight:bold">1</span>);  
-</span></span><span style="display:flex;"><span>        quick_sort(L, pos + <span style="color:#ff0;font-weight:bold">1</span>, high);  
-</span></span><span style="display:flex;"><span>    }  
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h1 id="选择排序">选择排序</h1>
-<h2 id="简单选择排序">简单选择排序</h2>
-<ul>
-<li><strong>不稳定</strong></li>
-<li>第 i 趟排序从待排序记录里选出最小关键字值的记录与第 i 个记录交换（1 &lt;= i &lt;= n - 1）</li>
-</ul>
-<h2 id="堆排序">堆排序</h2>
-<ul>
-<li><strong>不稳定</strong></li>
-<li>初始建堆：将 <code>n</code> 个元素的序列看成是一个完全二叉树，则最后一个非叶子结点是第 <strong>⌊n / 2⌋</strong> 个元素. 从第 <strong>⌊n / 2⌋</strong> 个元素开始 <code>down</code>，一直 <code>down</code> 到第 <code>1</code> 个元素，就建立了堆</li>
-</ul>
-<h1 id="二路归并排序">二路归并排序</h1>
-<ul>
-<li><strong>稳定</strong></li>
-<li>时间性能：<strong>O (nlogn)</strong></li>
-<li>空间性能：<strong>O (n)</strong></li>
-<li>基本思想：设初始序列含有 <code>n</code> 个记录，归并排序把此序列看成是由 <code>n</code> 个只包含<code>一个记录</code>的有序表组成，然后进行<code>两两归并</code>，最后形成包含 n 个记录的有序表</li>
-<li>开始时取 <code>L = 1</code>，第一趟归并排序后，<code>L = L * 2</code>，以此类推，直到排序结束</li>
-</ul>
-]]></content:encoded>
+</span></span><span style="display:flex;"><span>&lt;body style=<span style="color:#0ff;font-weight:bold">&#34;margin: 0&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;div id=<span style="color:#0ff;font-weight:bold">&#34;ac_game_01&#34;</span>&gt;&lt;<span style="color:#f00">/div&gt;</span>
+</span></span><span style="display:flex;"><span>  &lt;script&gt;
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">import</span> {AcGame} from <span style="color:#0ff;font-weight:bold">&#34;{% static &#39;js/dist/game.js&#39; %}&#34;</span> <span style="color:#007f7f">&lt;!--</span>看这里--&gt;
+</span></span><span style="display:flex;"><span>    $(<span style="color:#fff;font-weight:bold">document</span>).ready(<span style="color:#fff;font-weight:bold">function</span>(){
+</span></span><span style="display:flex;"><span>      <span style="color:#fff;font-weight:bold">let</span> ac_game = <span style="color:#fff;font-weight:bold">new</span> AcGame(<span style="color:#0ff;font-weight:bold">&#34;ac_game_01&#34;</span>);
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f00">/script&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f00">/body&gt;</span>
+</span></span></code></pre></div>]]></content:encoded>
     </item>
     
     <item>
@@ -588,9 +337,51 @@ L 为头指针，当 L == NULL 时，链表为空 无头结点
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zagxuy.github.io/about/</guid>
-      <description>Xan 一名 NCEPU CS 大二在读学生，喜欢跑步、徒步</description>
-      <content:encoded><![CDATA[<h1 id="xan">Xan</h1>
-<p>一名 NCEPU CS 大二在读学生，喜欢跑步、徒步</p>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;英文名:&lt;/td&gt;
+&lt;td&gt;Xan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;职业:&lt;/td&gt;
+&lt;td&gt;学生&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;运动:&lt;/td&gt;
+&lt;td&gt;跑步、徒步&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+      <content:encoded><![CDATA[<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>英文名:</td>
+<td>Xan</td>
+</tr>
+<tr>
+<td>职业:</td>
+<td>学生</td>
+</tr>
+<tr>
+<td>运动:</td>
+<td>跑步、徒步</td>
+</tr>
+</tbody>
+</table>
 ]]></content:encoded>
     </item>
     
@@ -600,7 +391,18 @@ L 为头指针，当 L == NULL 时，链表为空 无头结点
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zagxuy.github.io/links/</guid>
-      <description>博客 Owen 的博客 程序员的喵 阮一峰的网络日志 工具 Obsidian 知识管理工具 划词翻译 浏览器翻译插件 </description>
+      <description>&lt;h1 id=&#34;博客&#34;&gt;博客&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.owenyoung.com/&#34;&gt;Owen 的博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://catcoding.me/&#34;&gt;程序员的喵&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ruanyifeng.com/blog/&#34;&gt;阮一峰的网络日志&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;工具&#34;&gt;工具&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; 知识管理工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hcfy.app/&#34;&gt;划词翻译&lt;/a&gt; 浏览器翻译插件&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <content:encoded><![CDATA[<h1 id="博客">博客</h1>
 <ul>
 <li><a href="https://www.owenyoung.com/">Owen 的博客</a></li>
