@@ -8,7 +8,7 @@
     <language>zh-cn</language>
     <lastBuildDate>Wed, 12 Oct 2022 07:27:58 +0800</lastBuildDate><atom:link href="https://xancoding.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>我的第一篇博客</title>
+      <title>Hello World</title>
       <link>https://xancoding.github.io/posts/helloworld/</link>
       <pubDate>Wed, 12 Oct 2022 07:27:58 +0800</pubDate>
       
@@ -124,6 +124,21 @@
 &lt;li&gt;&lt;a href=&#34;https://www.jingyeqian.com/&#34;&gt;敬业签&lt;/a&gt; 支持多平台同步的备忘录&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://url.cloud.huawei.com/iSTDS2zoWc&#34;&gt;番茄钟&lt;/a&gt; 一款结合番茄工作法和任务清单的手机端app&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;学习&#34;&gt;学习&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/&#34;&gt;CS自学指南&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://xiaolincoding.com/&#34;&gt;小林 x 图解计算机基础&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.programmercarl.com/&#34;&gt;代码随想录 x 数据结构与算法&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;社区&#34;&gt;社区&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://meta.appinn.net/&#34;&gt;小众软件论坛&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;guide&#34;&gt;Guide&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://addyosmani.com/blog/software-engineering-soft-parts/&#34;&gt;Software Engineering - The Soft Parts&lt;/a&gt; 软件开发中的软技能&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sideproject.guide/&#34;&gt;Side Project 指南&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="博客">博客</h1>
 <ul>
@@ -137,6 +152,21 @@
 <li><a href="https://hcfy.app/">划词翻译</a> 浏览器翻译插件</li>
 <li><a href="https://www.jingyeqian.com/">敬业签</a> 支持多平台同步的备忘录</li>
 <li><a href="https://url.cloud.huawei.com/iSTDS2zoWc">番茄钟</a> 一款结合番茄工作法和任务清单的手机端app</li>
+</ul>
+<h1 id="学习">学习</h1>
+<ul>
+<li><a href="https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/">CS自学指南</a></li>
+<li><a href="https://xiaolincoding.com/">小林 x 图解计算机基础</a></li>
+<li><a href="https://www.programmercarl.com/">代码随想录 x 数据结构与算法</a></li>
+</ul>
+<h1 id="社区">社区</h1>
+<ul>
+<li><a href="https://meta.appinn.net/">小众软件论坛</a></li>
+</ul>
+<h1 id="guide">Guide</h1>
+<ul>
+<li><a href="https://addyosmani.com/blog/software-engineering-soft-parts/">Software Engineering - The Soft Parts</a> 软件开发中的软技能</li>
+<li><a href="https://sideproject.guide/">Side Project 指南</a></li>
 </ul>
 ]]></content:encoded>
     </item>
