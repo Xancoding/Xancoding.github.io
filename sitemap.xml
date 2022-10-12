@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xancoding.github.io/posts/helloworld/</loc>
-    <lastmod>2022-10-12T07:27:58+08:00</lastmod>
+    <loc>https://xancoding.github.io/tags/account/</loc>
+    <lastmod>2022-10-12T22:09:45+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.github.io/posts/account/</loc>
+    <lastmod>2022-10-12T22:09:45+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.github.io/posts/</loc>
-    <lastmod>2022-10-12T07:27:58+08:00</lastmod>
+    <lastmod>2022-10-12T22:09:45+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.github.io/tags/</loc>
+    <lastmod>2022-10-12T22:09:45+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.github.io/tags/tech/</loc>
+    <lastmod>2022-10-12T22:09:45+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.github.io/</loc>
+    <lastmod>2022-10-12T22:09:45+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.github.io/tags/django/</loc>
+    <lastmod>2022-10-12T22:08:28+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.github.io/posts/django/</loc>
+    <lastmod>2022-10-12T22:08:28+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.github.io/tags/javascript/</loc>
+    <lastmod>2022-10-12T22:06:12+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.github.io/posts/acgameproject/</loc>
+    <lastmod>2022-10-12T22:06:12+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.github.io/posts/helloworld/</loc>
     <lastmod>2022-10-12T07:27:58+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.github.io/about/</loc>
@@ -24,7 +48,5 @@
     <loc>https://xancoding.github.io/search/</loc>
   </url><url>
     <loc>https://xancoding.github.io/series/</loc>
-  </url><url>
-    <loc>https://xancoding.github.io/tags/</loc>
   </url>
 </urlset>

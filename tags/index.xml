@@ -5,6 +5,47 @@
     <link>https://xancoding.github.io/tags/</link>
     <description>Recent content in Tags on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="https://xancoding.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 12 Oct 2022 22:09:45 +0800</lastBuildDate><atom:link href="https://xancoding.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>account</title>
+      <link>https://xancoding.github.io/tags/account/</link>
+      <pubDate>Wed, 12 Oct 2022 22:09:45 +0800</pubDate>
+      
+      <guid>https://xancoding.github.io/tags/account/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://xancoding.github.io/tags/tech/</link>
+      <pubDate>Wed, 12 Oct 2022 22:09:45 +0800</pubDate>
+      
+      <guid>https://xancoding.github.io/tags/tech/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Django</title>
+      <link>https://xancoding.github.io/tags/django/</link>
+      <pubDate>Wed, 12 Oct 2022 22:08:28 +0800</pubDate>
+      
+      <guid>https://xancoding.github.io/tags/django/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://xancoding.github.io/tags/javascript/</link>
+      <pubDate>Wed, 12 Oct 2022 22:06:12 +0800</pubDate>
+      
+      <guid>https://xancoding.github.io/tags/javascript/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
   </channel>
 </rss>
