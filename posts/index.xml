@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Xan&#39;s Blog</title>
-    <link>https://xancoding.github.io/posts/</link>
+    <link>https://xancoding.cn/posts/</link>
     <description>Recent content in Posts on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 12 Oct 2022 22:42:04 +0800</lastBuildDate><atom:link href="https://xancoding.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 22:42:04 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我获取信息的方式</title>
-      <link>https://xancoding.github.io/posts/getinfo/</link>
+      <link>https://xancoding.cn/posts/getinfo/</link>
       <pubDate>Wed, 12 Oct 2022 22:42:04 +0800</pubDate>
       
-      <guid>https://xancoding.github.io/posts/getinfo/</guid>
+      <guid>https://xancoding.cn/posts/getinfo/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;这个时代不缺信息，因为信息太多了，缺的是时间&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子&lt;/strong&gt;&lt;/p&gt;
@@ -141,10 +141,10 @@
     
     <item>
       <title>Hello World</title>
-      <link>https://xancoding.github.io/posts/helloworld/</link>
+      <link>https://xancoding.cn/posts/helloworld/</link>
       <pubDate>Wed, 12 Oct 2022 07:27:58 +0800</pubDate>
       
-      <guid>https://xancoding.github.io/posts/helloworld/</guid>
+      <guid>https://xancoding.cn/posts/helloworld/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;int&lt;/span&gt; main() {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    printf(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;Hello, World&amp;#34;&lt;/span&gt;);
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt;(&lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;0&lt;/span&gt;);
