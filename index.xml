@@ -293,7 +293,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://meta.appinn.net/&#34;&gt;小众软件论坛&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.v2ex.com/&#34;&gt;V2EX&lt;/a&gt; 面向程序员、极客人群的分享交流社区&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/&#34;&gt;Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/&#34;&gt;Medium&lt;/a&gt; 网络文章发布平台，文章质量高&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/&#34;&gt;HackerNews&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;工具&#34;&gt;工具&lt;/h1&gt;
@@ -315,6 +315,23 @@
 &lt;li&gt;&lt;a href=&#34;https://addyosmani.com/blog/software-engineering-soft-parts/&#34;&gt;Software Engineering - The Soft Parts&lt;/a&gt; 软件开发中的软技能&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sideproject.guide/&#34;&gt;Side Project 指南&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;资源&#34;&gt;资源&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://resource.1kbtool.com/&#34;&gt;&lt;strong&gt;Source&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;edit&#34;&gt;Edit&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://exercism.org/tracks&#34;&gt;&lt;strong&gt;Exercism&lt;/strong&gt;&lt;/a&gt; 在线练习编程语言&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.overleaf.com/project&#34;&gt;Overleaf&lt;/a&gt; 在线 &lt;code&gt;LaTeX&lt;/code&gt; 编辑器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;art&#34;&gt;Art&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://excalidraw.com/&#34;&gt;&lt;strong&gt;Excalidraw&lt;/strong&gt;&lt;/a&gt; 在线白板画图工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gallerix.asia/&#34;&gt;Gallerix&lt;/a&gt; 绘画和画家&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mani-unsplash-clone.netlify.app/&#34;&gt;Unsplash&lt;/a&gt; 无版权图片&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colorhunt.co/&#34;&gt;Color Hunt&lt;/a&gt; 设计师和艺术家的调色板&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://game-icons.net/&#34;&gt;Game-icons&lt;/a&gt; 游戏图标在线存储库&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="博客">博客</h1>
 <ul>
@@ -326,7 +343,7 @@
 <ul>
 <li><a href="https://meta.appinn.net/">小众软件论坛</a></li>
 <li><a href="https://www.v2ex.com/">V2EX</a> 面向程序员、极客人群的分享交流社区</li>
-<li><a href="https://medium.com/">Medium</a></li>
+<li><a href="https://medium.com/">Medium</a> 网络文章发布平台，文章质量高</li>
 <li><a href="https://news.ycombinator.com/">HackerNews</a></li>
 </ul>
 <h1 id="工具">工具</h1>
@@ -347,6 +364,23 @@
 <ul>
 <li><a href="https://addyosmani.com/blog/software-engineering-soft-parts/">Software Engineering - The Soft Parts</a> 软件开发中的软技能</li>
 <li><a href="https://sideproject.guide/">Side Project 指南</a></li>
+</ul>
+<h1 id="资源">资源</h1>
+<ul>
+<li><a href="https://resource.1kbtool.com/"><strong>Source</strong></a></li>
+</ul>
+<h2 id="edit">Edit</h2>
+<ul>
+<li><a href="https://exercism.org/tracks"><strong>Exercism</strong></a> 在线练习编程语言</li>
+<li><a href="https://www.overleaf.com/project">Overleaf</a> 在线 <code>LaTeX</code> 编辑器</li>
+</ul>
+<h2 id="art">Art</h2>
+<ul>
+<li><a href="https://excalidraw.com/"><strong>Excalidraw</strong></a> 在线白板画图工具</li>
+<li><a href="https://gallerix.asia/">Gallerix</a> 绘画和画家</li>
+<li><a href="https://mani-unsplash-clone.netlify.app/">Unsplash</a> 无版权图片</li>
+<li><a href="https://colorhunt.co/">Color Hunt</a> 设计师和艺术家的调色板</li>
+<li><a href="https://game-icons.net/">Game-icons</a> 游戏图标在线存储库</li>
 </ul>
 ]]></content:encoded>
     </item>
