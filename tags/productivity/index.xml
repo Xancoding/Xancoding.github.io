@@ -44,7 +44,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Google &amp;amp; AdblockPlus &amp;amp; uBlacklist&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;Chrome&lt;/code&gt; 浏览器是我目前体验感最好的搜索引擎，&lt;code&gt;Microsoft Edge&lt;/code&gt; 浏览器提供的 &lt;code&gt;Bing 搜索&lt;/code&gt; 体验感也还不错。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Chrome&lt;/code&gt; 浏览器提供的&lt;code&gt;Google 搜索&lt;/code&gt;是我目前体验感最好的搜索引擎，&lt;code&gt;Microsoft Edge&lt;/code&gt; 浏览器提供的 &lt;code&gt;Bing 搜索&lt;/code&gt; 体验感也还不错。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;AdblockPlus 浏览器插件&lt;/code&gt; 由用户主动设置拦截网页上不想看到的内容，下图是我对知乎页面的屏蔽后的结果，我使用这个插件把知乎和B站的推荐内容屏蔽，以获得更为简洁的体验&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/Xancoding/Blog/main/static/img/getInfo/AdblockPlus.png&#34; alt=&#34;AdblockPlus&#34;  /&gt;
 &lt;/p&gt;
@@ -69,7 +69,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Neat Reader &amp;amp; Z-Library &amp;amp; 学校图书馆&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;** 读书，是治愈迷茫最好的良药。**&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;读书，是治愈迷茫最好的良药。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.neat-reader.com/&#34;&gt;Neat Reader&lt;/a&gt; 是一款&lt;code&gt;EPUB&lt;/code&gt;阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 &lt;a href=&#34;https://zh.z-lib.org/&#34;&gt;Z-Library&lt;/a&gt; 搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 &lt;code&gt;Neat Reader&lt;/code&gt; 阅读。&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/Xancoding/Blog/main/static/img/getInfo/neatReader.png&#34; alt=&#34;neatReader&#34;  /&gt;
 &lt;/p&gt;
@@ -106,7 +106,7 @@
 <ul>
 <li><code>Google &amp; AdblockPlus &amp; uBlacklist</code></li>
 </ul>
-<p><code>Chrome</code> 浏览器是我目前体验感最好的搜索引擎，<code>Microsoft Edge</code> 浏览器提供的 <code>Bing 搜索</code> 体验感也还不错。</p>
+<p><code>Chrome</code> 浏览器提供的<code>Google 搜索</code>是我目前体验感最好的搜索引擎，<code>Microsoft Edge</code> 浏览器提供的 <code>Bing 搜索</code> 体验感也还不错。</p>
 <p><code>AdblockPlus 浏览器插件</code> 由用户主动设置拦截网页上不想看到的内容，下图是我对知乎页面的屏蔽后的结果，我使用这个插件把知乎和B站的推荐内容屏蔽，以获得更为简洁的体验</p>
 <p><img loading="lazy" src="https://raw.githubusercontent.com/Xancoding/Blog/main/static/img/getInfo/AdblockPlus.png" alt="AdblockPlus"  />
 </p>
@@ -131,7 +131,7 @@
 <ul>
 <li><code>Neat Reader &amp; Z-Library &amp; 学校图书馆</code></li>
 </ul>
-<p>** 读书，是治愈迷茫最好的良药。**</p>
+<p><strong>读书，是治愈迷茫最好的良药。</strong></p>
 <p><a href="https://www.neat-reader.com/">Neat Reader</a> 是一款<code>EPUB</code>阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 <a href="https://zh.z-lib.org/">Z-Library</a> 搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 <code>Neat Reader</code> 阅读。</p>
 <p><img loading="lazy" src="https://raw.githubusercontent.com/Xancoding/Blog/main/static/img/getInfo/neatReader.png" alt="neatReader"  />
 </p>
