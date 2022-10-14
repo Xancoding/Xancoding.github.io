@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://xancoding.cn/tags/life/</loc>
+    <lastmod>2022-10-14T16:07:09+08:00</lastmod>
+  </url><url>
     <loc>https://xancoding.cn/posts/</loc>
-    <lastmod>2022-10-12T22:42:04+08:00</lastmod>
+    <lastmod>2022-10-14T16:07:09+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.cn/tags/productivity/</loc>
-    <lastmod>2022-10-12T22:42:04+08:00</lastmod>
+    <lastmod>2022-10-14T16:07:09+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/tags/</loc>
+    <lastmod>2022-10-14T16:07:09+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/</loc>
+    <lastmod>2022-10-14T16:07:09+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/posts/timemanagement/</loc>
+    <lastmod>2022-10-14T16:07:09+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2022-10-14T16:07:09+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.cn/tags/rss/</loc>
     <lastmod>2022-10-12T22:42:04+08:00</lastmod>
   </url><url>
-    <loc>https://xancoding.cn/tags/</loc>
-    <lastmod>2022-10-12T22:42:04+08:00</lastmod>
-  </url><url>
     <loc>https://xancoding.cn/tags/tech/</loc>
-    <lastmod>2022-10-12T22:42:04+08:00</lastmod>
-  </url><url>
-    <loc>https://xancoding.cn/</loc>
     <lastmod>2022-10-12T22:42:04+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.cn/posts/getinfo/</loc>

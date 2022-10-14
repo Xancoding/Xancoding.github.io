@@ -48,7 +48,7 @@
 &lt;p&gt;&lt;code&gt;AdblockPlus 浏览器插件&lt;/code&gt; 由用户主动设置拦截网页上不想看到的内容，下图是我对知乎页面的屏蔽后的结果，我使用这个插件把知乎和B站的推荐内容屏蔽，以获得更为简洁的体验&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/Xancoding/Blog/main/static/img/getInfo/AdblockPlus.png&#34; alt=&#34;AdblockPlus&#34;  /&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;code&gt;uBlacklist 浏览器插件&lt;/code&gt; 在搜索时屏蔽特定网站，我屏蔽了CSDN和百度知道&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;uBlacklist 浏览器插件&lt;/code&gt; 在搜索时屏蔽特定网站，做到对低质内容的过滤，我屏蔽了CSDN和百度知道&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;*://www.csdn.net/*
 *://bbs.csdn.net/*
 *://blog.csdn.net/*
@@ -110,7 +110,7 @@
 <p><code>AdblockPlus 浏览器插件</code> 由用户主动设置拦截网页上不想看到的内容，下图是我对知乎页面的屏蔽后的结果，我使用这个插件把知乎和B站的推荐内容屏蔽，以获得更为简洁的体验</p>
 <p><img loading="lazy" src="https://raw.githubusercontent.com/Xancoding/Blog/main/static/img/getInfo/AdblockPlus.png" alt="AdblockPlus"  />
 </p>
-<p><code>uBlacklist 浏览器插件</code> 在搜索时屏蔽特定网站，我屏蔽了CSDN和百度知道</p>
+<p><code>uBlacklist 浏览器插件</code> 在搜索时屏蔽特定网站，做到对低质内容的过滤，我屏蔽了CSDN和百度知道</p>
 <pre tabindex="0"><code>*://www.csdn.net/*
 *://bbs.csdn.net/*
 *://blog.csdn.net/*
