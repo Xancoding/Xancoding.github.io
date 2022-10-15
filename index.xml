@@ -401,6 +401,11 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://catcoding.me/&#34;&gt;程序员的喵&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.ruanyifeng.com/blog/&#34;&gt;阮一峰的网络日志&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://program-think.blogspot.com/&#34;&gt;编程随想的博客&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://program-think.blogspot.com/2020/11/Game-Theory.html&#34;&gt;博弈论入门教程——从基本概念到具体案例&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;社区&#34;&gt;社区&lt;/h1&gt;
 &lt;ul&gt;
@@ -500,6 +505,11 @@
 </li>
 <li><a href="https://catcoding.me/">程序员的喵</a></li>
 <li><a href="https://www.ruanyifeng.com/blog/">阮一峰的网络日志</a></li>
+<li><a href="https://program-think.blogspot.com/">编程随想的博客</a>
+<ul>
+<li><a href="https://program-think.blogspot.com/2020/11/Game-Theory.html">博弈论入门教程——从基本概念到具体案例</a></li>
+</ul>
+</li>
 </ul>
 <h1 id="社区">社区</h1>
 <ul>
