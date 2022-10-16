@@ -6,7 +6,505 @@
     <description>Recent content in Posts on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 14 Oct 2022 17:02:41 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Oct 2022 14:23:58 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AcWing Linux 基础课</title>
+      <link>https://xancoding.cn/posts/acwlinux/</link>
+      <pubDate>Sun, 16 Oct 2022 14:23:58 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/acwlinux/</guid>
+      <description>&lt;h1 id=&#34;acwing-linux-基础课&#34;&gt;AcWing Linux 基础课&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_linux/&#34;&gt;AcWing Linux 基础课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/57/&#34;&gt;AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md&#34;&gt;命令行的艺术 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://missing-semester-cn.github.io/&#34;&gt;The Missing Semester of Your CS Education&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;shell&#34;&gt;Shell&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/2855530/&#34;&gt;常用文件管理命令 | AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/2855883/&#34;&gt;Shell 语法 | AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/3030391/&#34;&gt;管道、环境变量与常用命令  | AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://missing-semester-cn.github.io/2020/course-shell/&#34;&gt;第 1 讲 - 课程概览与 Shell | The missing semester of your CS education&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://missing-semester-cn.github.io/2020/shell-tools/&#34;&gt;第 2 讲 - Shell 工具和脚本 | The missing semester of your CS education&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/19556676&#34;&gt;终极 Shell——ZSH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ohmyzsh/ohmyzsh&#34;&gt;快速入门 zsh&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;shell是什么&#34;&gt;Shell是什么？&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Shell&lt;/code&gt; 是我们通过命令行与操作系统沟通的 &lt;code&gt;程序&lt;/code&gt;，是个 &lt;code&gt;解释器&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Shell&lt;/code&gt; 脚本可以直接在命令行中执行，也可以将一套逻辑组织成一个文件，方便复用&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Shell&lt;/code&gt; 负责外界与 &lt;code&gt;Linux 内核&lt;/code&gt; 的交互，接收用户或其他应用程序的命令，然后把这些命令转化成内核能理解的语言，传给内核，内核是真正干活的，干完之后再把结果返回用户或应用程序&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bash&lt;/code&gt; 是 &lt;code&gt;shell&lt;/code&gt; 的一种&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;shell常用命令&#34;&gt;Shell常用命令&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;ag console.log&lt;/code&gt; ：全文搜索含 &lt;code&gt;console.log&lt;/code&gt; 的程序段&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;|&lt;/code&gt;：将左侧程序输出流作为右侧程序输入流&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tee&lt;/code&gt;：读取输入流，然后写入文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;xdg-open&lt;/code&gt;：用合适的程序打开文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;history&lt;/code&gt; ：打印命令历史记录&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;find&lt;/code&gt; ：查找文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;grep&lt;/code&gt; ：查找文件里符合条件的字符串 &lt;a href=&#34;https://www.runoob.com/linux/linux-comm-grep.html&#34;&gt;grep&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;tmux--vim&#34;&gt;Tmux &amp;amp;&amp;amp; Vim&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/2855620/&#34;&gt;tmux和vim | AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ruanyifeng.com/blog/2019/10/tmux.html&#34;&gt;Tmux 使用教程 | 阮一峰的网络日志&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://kuanghy.github.io/2016/09/29/tmux&#34;&gt;Tmux 简介与使用 | Huoty&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://coolshell.cn/articles/5426.html#comments&#34;&gt;简明 VIM 练级攻略 | 酷壳&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://missing-semester-cn.github.io/2020/editors/&#34;&gt;第 3 讲 - 编辑器 (Vim) | The missing semester of your CS education&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vim-adventures.com/&#34;&gt;VIM 大冒险 - Game&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tmux-是什么&#34;&gt;Tmux 是什么？&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;Tmux&lt;/code&gt; 是一个用于在终端窗口中运行多个终端会话的工具，即终端复用软件（terminal multiplexer）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;远程 &lt;code&gt;SSH&lt;/code&gt; 访问服务器进行工作时。即使非正常掉线，它能保存当前工作状态，并保证当前任务继续运行。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;vim-是什么&#34;&gt;Vim 是什么？&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;VIM 是 Linux 系统上一款文本编辑器，它是操作 Linux 的一款利器。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;ssh&#34;&gt;SSH&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/2898263/&#34;&gt;SSH | AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.github.com/cn/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account&#34;&gt;Adding a new SSH key to your GitHub account&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;ssh是什么&#34;&gt;SSH是什么？&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;SSH是一种网络协议，用于计算机之间的加密登录&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;ssh-免密登录&#34;&gt;SSH 免密登录&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;ssh-key-gen&lt;/code&gt; ：在本地服务器生成密钥&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd .ssh/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;vim config&lt;/code&gt; ：定义服务器别名&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-config&#34; data-lang=&#34;config&#34;&gt;Host server
+	HostName 服务器IP地址  
+	User     登录用户名
+	port     远程主机端口号，默认为 22
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;code&gt;ssh-copy-id server&lt;/code&gt;：在本地服务器配置免密登录至云服务器&lt;/li&gt;
+&lt;li&gt;免密登录至&lt;code&gt;docker 容器&lt;/code&gt;步骤同上&lt;/li&gt;
+&lt;li&gt;配置完成后，就可以直接使用 &lt;code&gt;ssh server&lt;/code&gt; 免密登录啦&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;scp&#34;&gt;SCP&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/2898266/&#34;&gt;SCP | AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;scp是什么&#34;&gt;SCP是什么？&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;SCP是一个命令行程序，可让您在计算机之间安全地复制文件和目录&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;scp-传文件&#34;&gt;SCP 传文件&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;复制多个文件：&lt;code&gt;scp source1 source2 LOCAL_PATH SERVER:SERVER_PATH&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;复制文件夹 ：
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;scp -r ~/tmp SERVER:/home/acs/&lt;/code&gt;：将本地家目录中的&lt;code&gt;tmp&lt;/code&gt;文件夹复制到服务器中的&lt;code&gt;/home/acs/&lt;/code&gt;目录下&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;scp -r SERVER:homework .&lt;/code&gt;：将服务器中的&lt;code&gt;~/homework/&lt;/code&gt;文件夹复制到本地的当前路径下&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/2932078/&#34;&gt;git | AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ruanyifeng.com/blog/2018/10/git-internals.html&#34;&gt;Git 原理入门&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learngitbranching.js.org/?locale=zh_CN&#34;&gt;Learn Git Braching - Game&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;git是什么&#34;&gt;Git是什么？&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Git是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;git常用命令&#34;&gt;Git常用命令&lt;/h3&gt;
+&lt;h4 id=&#34;常用命令&#34;&gt;常用命令&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git add XX&lt;/code&gt;：将&lt;code&gt;XX&lt;/code&gt;文件添加到暂存区&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git commit -m &amp;quot;给自己看的备注信息&amp;quot;&lt;/code&gt;：将暂存区的内容提交到当前分支&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push -u (第一次需要 -u 以后不需要)&lt;/code&gt; ：将当前分支推送到远程仓库&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git clone git@git.acwing.com:xxx/XXX.git&lt;/code&gt;：将远程仓库&lt;code&gt;XXX&lt;/code&gt;下载到当前目录下&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git log&lt;/code&gt;：查看当前分支的所有版本&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;git status&lt;/code&gt;：查看仓库状态&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;git restore --staged xx&lt;/code&gt;：将&lt;code&gt;xx&lt;/code&gt;从暂存区里移除&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;git checkout — XX&lt;/code&gt;或&lt;code&gt;git restore XX&lt;/code&gt;：将&lt;code&gt;XX&lt;/code&gt;文件尚未加入暂存区的修改全部撤销&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;git-全局设置&#34;&gt;Git 全局设置&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git config --global user.name xxx&lt;/code&gt;：设置全局用户名，信息记录在&lt;code&gt;~/.gitconfig&lt;/code&gt;文件中&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git config --global user.email xxx@xxx.com&lt;/code&gt;：设置全局邮箱地址，信息记录在&lt;code&gt;~/.gitconfig&lt;/code&gt;文件中&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git init&lt;/code&gt;：将当前目录配置成&lt;code&gt;git&lt;/code&gt;仓库，信息记录在隐藏的&lt;code&gt;.git&lt;/code&gt;文件夹中&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;git-查看命令&#34;&gt;Git 查看命令&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git diff XX&lt;/code&gt;：查看&lt;code&gt;XX&lt;/code&gt;文件相对于暂存区修改了哪些内容&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git status&lt;/code&gt;：查看仓库状态&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git log&lt;/code&gt;：查看当前分支的所有版本&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git log --pretty=oneline&lt;/code&gt;：用一行来显示&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git reflog&lt;/code&gt;：查看&lt;code&gt;HEAD&lt;/code&gt;指针的移动历史（包括被回滚的版本）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git branch&lt;/code&gt;：查看所有分支和当前所处分支&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git pull&lt;/code&gt; ：将远程仓库的当前分支与本地仓库的当前分支合并&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;git-删除命令&#34;&gt;Git 删除命令&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git rm --cached XX&lt;/code&gt;：将文件从仓库索引目录中删掉，不希望管理这个文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git restore --staged xx&lt;/code&gt;：将&lt;code&gt;xx&lt;/code&gt;从暂存区里移除&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git checkout — XX&lt;/code&gt;或&lt;code&gt;git restore XX&lt;/code&gt;：将&lt;code&gt;XX&lt;/code&gt;文件尚未加入暂存区的修改全部撤销&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;git-代码回滚&#34;&gt;Git 代码回滚&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git reset --hard HEAD^&lt;/code&gt;或&lt;code&gt;git reset --hard HEAD~ &lt;/code&gt;：将代码库回滚到上一个版本&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git reset --hard HEAD^^&lt;/code&gt;：往上回滚两次，以此类推&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git reset --hard HEAD~100&lt;/code&gt;：往上回滚100个版本&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git reset --hard 版本号&lt;/code&gt;：回滚到某一特定版本&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;git-远程仓库&#34;&gt;Git 远程仓库&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git remote add origin git@git.acwing.com:xxx/XXX.git&lt;/code&gt;：将本地仓库关联到远程仓库&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push -u (第一次需要-u以后不需要)&lt;/code&gt; ：将当前分支推送到远程仓库&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push origin branch_name&lt;/code&gt;：将本地的某个分支推送到远程仓库&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git clone git@git.acwing.com:xxx/XXX.git&lt;/code&gt;：将远程仓库XXX下载到当前目录下&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push --set-upstream origin branch_name&lt;/code&gt;：设置本地的&lt;code&gt;branch_name&lt;/code&gt;分支对应远程仓库的&lt;code&gt;branch_name&lt;/code&gt;分支&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push -d origin branch_name&lt;/code&gt;：删除远程仓库的&lt;code&gt;branch_name&lt;/code&gt;分支&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git checkout -t origin/branch_name&lt;/code&gt;：将远程的&lt;code&gt;branch_name&lt;/code&gt;分支拉取到本地&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git pull&lt;/code&gt;：将远程仓库的当前分支与本地仓库的当前分支合并&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git pull origin branch_name&lt;/code&gt;：将远程仓库的&lt;code&gt;branch_name&lt;/code&gt;分支与本地仓库的当前分支合并&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git branch --set-upstream-to=origin/branch_name1 branch_name2&lt;/code&gt;：将远程的&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;branch_name1&lt;/code&gt;分支与本地的&lt;code&gt;branch_name2&lt;/code&gt;分支对应&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;git-分支命令&#34;&gt;Git 分支命令&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git branch branch_name&lt;/code&gt;：创建新分支&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git branch&lt;/code&gt;：查看所有分支和当前所处分支&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git checkout -b branch_name&lt;/code&gt;：创建并切换到&lt;code&gt;branch_name&lt;/code&gt;这个分支&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git checkout branch_name&lt;/code&gt;：切换到&lt;code&gt;branch_name&lt;/code&gt;这个分支&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git merge branch_name&lt;/code&gt;：将分支&lt;code&gt;branch_name&lt;/code&gt;合并到当前分支上&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git branch -d branch_name&lt;/code&gt;：删除本地仓库的&lt;code&gt;branch_name&lt;/code&gt;分支&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push --set-upstream origin branch_name&lt;/code&gt;：设置本地的&lt;code&gt;branch_name&lt;/code&gt;分支对应远程仓库的&lt;code&gt;branch_name&lt;/code&gt;分支&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push -d origin branch_name&lt;/code&gt;：删除远程仓库的&lt;code&gt;branch_name&lt;/code&gt;分支&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git checkout -t origin/branch_name&lt;/code&gt;：将远程的&lt;code&gt;branch_name&lt;/code&gt;分支拉取到本地&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git pull&lt;/code&gt; ：将远程仓库的当前分支与本地仓库的当前分支合并&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git pull origin branch_name&lt;/code&gt;：将远程仓库的&lt;code&gt;branch_name&lt;/code&gt;分支与本地仓库的当前分支合并&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git branch --set-upstream-to=origin/branch_name1 branch_name2&lt;/code&gt;：将远程的&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;branch_name1&lt;/code&gt;分支与本地的&lt;code&gt;branch_name2&lt;/code&gt;分支对应&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;git-stash-暂存&#34;&gt;Git stash 暂存&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git stash&lt;/code&gt;：将工作区和暂存区中尚未提交的修改存入栈中&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git stash apply&lt;/code&gt;：将栈顶存储的修改恢复到当前分支，但不删除栈顶元素&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git stash drop&lt;/code&gt;：删除栈顶存储的修改&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git stash pop&lt;/code&gt;：将栈顶存储的修改恢复到当前分支，同时删除栈顶元素&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git stash list&lt;/code&gt;：查看栈中所有元素&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;thrift&#34;&gt;Thrift&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://git.acwing.com/fashen/thrift_learning/-/blob/master/readme.md&#34;&gt;Thrift_learning - AcGit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thrift.apache.org/&#34;&gt;thrift 官网&lt;/a&gt; -&amp;gt; &lt;a href=&#34;https://thrift.apache.org/tutorial/&#34;&gt;Tutorial&lt;/a&gt; -&amp;gt; &lt;a href=&#34;https://git-wip-us.apache.org/repos/asf?p=thrift.git;a=blob_plain;f=tutorial/tutorial.thrift&#34;&gt;tutorial.thrift&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;thrift是什么&#34;&gt;Thrift是什么？&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Thrift是一个轻量级、跨语言的远程过程服务调用（RPC）框架&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;用于跨语言服务开发，它将软件栈和代码生成引擎结合在一起，以构建在 C++、Java、Python、PHP、Ruby、Erlang、Perl、Haskell、C#、Cocoa、JavaScript、Node. Js、Smalltalk、OCaml 和 Delphi 等语言之间高效、无缝地工作的服务&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;实现过程&#34;&gt;实现过程&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;定义接口 (存放接口的文件夹就是 thrift 文件)&lt;/li&gt;
+&lt;li&gt;完成 &lt;code&gt;Server&lt;/code&gt; 端&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;通过接口生成 C++版本的服务端&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;//通过这个命令就可以实现，不过在此之前需要做一些准备工作
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;//tutorial.thrift表示从当前目录到定义接口的路径
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;thrift -r --gen cpp tutorial.thrift
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;好习惯: 写 thrift 服务的时候，先编译成功，然后再逐步向文件中添加模块&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;编译：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;g++ -c&lt;/code&gt; 后接待编译的 &lt;code&gt;cpp&lt;/code&gt; 文件&lt;/li&gt;
+&lt;li&gt;注意： &lt;code&gt;H&lt;/code&gt; 文件不需要编译&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.O&lt;/code&gt; 文件即编译完成的文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;链接：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;g++ *.o -o main.cpp -lthrift&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-lthrift&lt;/code&gt; 意为加上 &lt;code&gt;thrift&lt;/code&gt; 动态链接库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;持久化到云端&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;可执行文件和编译好的文件最好不要存到云端
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git restore --stage *.o&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git restore --stage main&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;完成 &lt;code&gt;Client&lt;/code&gt; 端&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="acwing-linux-基础课">AcWing Linux 基础课</h1>
+<ul>
+<li><a href="https://www.colopen-blog.com/Engineer/acw_linux/">AcWing Linux 基础课 | Colopen&rsquo;s blog</a></li>
+<li><a href="https://www.acwing.com/activity/content/57/">AcWing Linux 基础课</a></li>
+<li><a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md">命令行的艺术 </a></li>
+<li><a href="https://missing-semester-cn.github.io/">The Missing Semester of Your CS Education</a></li>
+</ul>
+<hr>
+<h2 id="shell">Shell</h2>
+<ul>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/2855530/">常用文件管理命令 | AcWing Linux 基础课</a></li>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/2855883/">Shell 语法 | AcWing Linux 基础课</a></li>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/3030391/">管道、环境变量与常用命令  | AcWing Linux 基础课</a></li>
+<li><a href="https://missing-semester-cn.github.io/2020/course-shell/">第 1 讲 - 课程概览与 Shell | The missing semester of your CS education</a></li>
+<li><a href="https://missing-semester-cn.github.io/2020/shell-tools/">第 2 讲 - Shell 工具和脚本 | The missing semester of your CS education</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/19556676">终极 Shell——ZSH</a></li>
+<li><a href="https://github.com/ohmyzsh/ohmyzsh">快速入门 zsh</a></li>
+</ul>
+<hr>
+<h3 id="shell是什么">Shell是什么？</h3>
+<ul>
+<li><code>Shell</code> 是我们通过命令行与操作系统沟通的 <code>程序</code>，是个 <code>解释器</code></li>
+<li><code>Shell</code> 脚本可以直接在命令行中执行，也可以将一套逻辑组织成一个文件，方便复用</li>
+<li><code>Shell</code> 负责外界与 <code>Linux 内核</code> 的交互，接收用户或其他应用程序的命令，然后把这些命令转化成内核能理解的语言，传给内核，内核是真正干活的，干完之后再把结果返回用户或应用程序</li>
+<li><code>bash</code> 是 <code>shell</code> 的一种</li>
+</ul>
+<h3 id="shell常用命令">Shell常用命令</h3>
+<ol>
+<li><code>ag console.log</code> ：全文搜索含 <code>console.log</code> 的程序段</li>
+<li><code>|</code>：将左侧程序输出流作为右侧程序输入流</li>
+<li><code>tee</code>：读取输入流，然后写入文件</li>
+<li><code>xdg-open</code>：用合适的程序打开文件</li>
+<li><code>history</code> ：打印命令历史记录</li>
+<li><code>find</code> ：查找文件</li>
+<li><code>grep</code> ：查找文件里符合条件的字符串 <a href="https://www.runoob.com/linux/linux-comm-grep.html">grep</a></li>
+</ol>
+<h2 id="tmux--vim">Tmux &amp;&amp; Vim</h2>
+<ul>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/2855620/">tmux和vim | AcWing Linux 基础课</a></li>
+<li><a href="https://www.ruanyifeng.com/blog/2019/10/tmux.html">Tmux 使用教程 | 阮一峰的网络日志</a></li>
+<li><a href="http://kuanghy.github.io/2016/09/29/tmux">Tmux 简介与使用 | Huoty&rsquo;s Blog</a></li>
+<li><a href="https://coolshell.cn/articles/5426.html#comments">简明 VIM 练级攻略 | 酷壳</a></li>
+<li><a href="https://missing-semester-cn.github.io/2020/editors/">第 3 讲 - 编辑器 (Vim) | The missing semester of your CS education</a></li>
+<li><a href="https://vim-adventures.com/">VIM 大冒险 - Game</a></li>
+</ul>
+<hr>
+<h3 id="tmux-是什么">Tmux 是什么？</h3>
+<blockquote>
+<p><strong><code>Tmux</code> 是一个用于在终端窗口中运行多个终端会话的工具，即终端复用软件（terminal multiplexer）</strong></p>
+<p><strong>远程 <code>SSH</code> 访问服务器进行工作时。即使非正常掉线，它能保存当前工作状态，并保证当前任务继续运行。</strong></p>
+</blockquote>
+<h3 id="vim-是什么">Vim 是什么？</h3>
+<blockquote>
+<p><strong>VIM 是 Linux 系统上一款文本编辑器，它是操作 Linux 的一款利器。</strong></p>
+</blockquote>
+<h2 id="ssh">SSH</h2>
+<ul>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/2898263/">SSH | AcWing Linux 基础课</a></li>
+<li><a href="https://docs.github.com/cn/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account">Adding a new SSH key to your GitHub account</a></li>
+</ul>
+<hr>
+<h3 id="ssh是什么">SSH是什么？</h3>
+<blockquote>
+<p><strong>SSH是一种网络协议，用于计算机之间的加密登录</strong></p>
+</blockquote>
+<h3 id="ssh-免密登录">SSH 免密登录</h3>
+<ol>
+<li><code>ssh-key-gen</code> ：在本地服务器生成密钥</li>
+<li><code>cd .ssh/</code></li>
+<li><code>vim config</code> ：定义服务器别名</li>
+</ol>
+<pre tabindex="0"><code class="language-config" data-lang="config">Host server
+	HostName 服务器IP地址  
+	User     登录用户名
+	port     远程主机端口号，默认为 22
+</code></pre><ol start="4">
+<li><code>ssh-copy-id server</code>：在本地服务器配置免密登录至云服务器</li>
+<li>免密登录至<code>docker 容器</code>步骤同上</li>
+<li>配置完成后，就可以直接使用 <code>ssh server</code> 免密登录啦</li>
+</ol>
+<h2 id="scp">SCP</h2>
+<ul>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/2898266/">SCP | AcWing Linux 基础课</a></li>
+</ul>
+<hr>
+<h3 id="scp是什么">SCP是什么？</h3>
+<blockquote>
+<p><strong>SCP是一个命令行程序，可让您在计算机之间安全地复制文件和目录</strong></p>
+</blockquote>
+<h3 id="scp-传文件">SCP 传文件</h3>
+<ul>
+<li>复制多个文件：<code>scp source1 source2 LOCAL_PATH SERVER:SERVER_PATH</code></li>
+<li>复制文件夹 ：
+<ul>
+<li><code>scp -r ~/tmp SERVER:/home/acs/</code>：将本地家目录中的<code>tmp</code>文件夹复制到服务器中的<code>/home/acs/</code>目录下</li>
+<li><code>scp -r SERVER:homework .</code>：将服务器中的<code>~/homework/</code>文件夹复制到本地的当前路径下</li>
+</ul>
+</li>
+</ul>
+<h2 id="git">Git</h2>
+<ul>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/2932078/">git | AcWing Linux 基础课</a></li>
+<li><a href="https://www.ruanyifeng.com/blog/2018/10/git-internals.html">Git 原理入门</a></li>
+<li><a href="https://learngitbranching.js.org/?locale=zh_CN">Learn Git Braching - Game</a></li>
+</ul>
+<hr>
+<h3 id="git是什么">Git是什么？</h3>
+<blockquote>
+<p><strong>Git是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理</strong></p>
+</blockquote>
+<h3 id="git常用命令">Git常用命令</h3>
+<h4 id="常用命令">常用命令</h4>
+<ol>
+<li><code>git add XX</code>：将<code>XX</code>文件添加到暂存区</li>
+<li><code>git commit -m &quot;给自己看的备注信息&quot;</code>：将暂存区的内容提交到当前分支</li>
+<li><code>git push -u (第一次需要 -u 以后不需要)</code> ：将当前分支推送到远程仓库</li>
+<li><code>git clone git@git.acwing.com:xxx/XXX.git</code>：将远程仓库<code>XXX</code>下载到当前目录下</li>
+<li><code>git log</code>：查看当前分支的所有版本</li>
+<li><strong><code>git status</code>：查看仓库状态</strong></li>
+<li><strong><code>git restore --staged xx</code>：将<code>xx</code>从暂存区里移除</strong></li>
+<li><strong><code>git checkout — XX</code>或<code>git restore XX</code>：将<code>XX</code>文件尚未加入暂存区的修改全部撤销</strong></li>
+</ol>
+<h4 id="git-全局设置">Git 全局设置</h4>
+<ol>
+<li><code>git config --global user.name xxx</code>：设置全局用户名，信息记录在<code>~/.gitconfig</code>文件中</li>
+<li><code>git config --global user.email xxx@xxx.com</code>：设置全局邮箱地址，信息记录在<code>~/.gitconfig</code>文件中</li>
+<li><code>git init</code>：将当前目录配置成<code>git</code>仓库，信息记录在隐藏的<code>.git</code>文件夹中</li>
+</ol>
+<h4 id="git-查看命令">Git 查看命令</h4>
+<ol>
+<li><code>git diff XX</code>：查看<code>XX</code>文件相对于暂存区修改了哪些内容</li>
+<li><code>git status</code>：查看仓库状态</li>
+<li><code>git log</code>：查看当前分支的所有版本</li>
+<li><code>git log --pretty=oneline</code>：用一行来显示</li>
+<li><code>git reflog</code>：查看<code>HEAD</code>指针的移动历史（包括被回滚的版本）</li>
+<li><code>git branch</code>：查看所有分支和当前所处分支</li>
+<li><code>git pull</code> ：将远程仓库的当前分支与本地仓库的当前分支合并</li>
+</ol>
+<h4 id="git-删除命令">Git 删除命令</h4>
+<ol>
+<li><code>git rm --cached XX</code>：将文件从仓库索引目录中删掉，不希望管理这个文件</li>
+<li><code>git restore --staged xx</code>：将<code>xx</code>从暂存区里移除</li>
+<li><code>git checkout — XX</code>或<code>git restore XX</code>：将<code>XX</code>文件尚未加入暂存区的修改全部撤销</li>
+</ol>
+<h4 id="git-代码回滚">Git 代码回滚</h4>
+<ol>
+<li><code>git reset --hard HEAD^</code>或<code>git reset --hard HEAD~ </code>：将代码库回滚到上一个版本</li>
+<li><code>git reset --hard HEAD^^</code>：往上回滚两次，以此类推</li>
+<li><code>git reset --hard HEAD~100</code>：往上回滚100个版本</li>
+<li><code>git reset --hard 版本号</code>：回滚到某一特定版本</li>
+</ol>
+<h4 id="git-远程仓库">Git 远程仓库</h4>
+<ol>
+<li><code>git remote add origin git@git.acwing.com:xxx/XXX.git</code>：将本地仓库关联到远程仓库</li>
+<li><code>git push -u (第一次需要-u以后不需要)</code> ：将当前分支推送到远程仓库</li>
+<li><code>git push origin branch_name</code>：将本地的某个分支推送到远程仓库</li>
+<li><code>git clone git@git.acwing.com:xxx/XXX.git</code>：将远程仓库XXX下载到当前目录下</li>
+<li><code>git push --set-upstream origin branch_name</code>：设置本地的<code>branch_name</code>分支对应远程仓库的<code>branch_name</code>分支</li>
+<li><code>git push -d origin branch_name</code>：删除远程仓库的<code>branch_name</code>分支</li>
+<li><code>git checkout -t origin/branch_name</code>：将远程的<code>branch_name</code>分支拉取到本地</li>
+<li><code>git pull</code>：将远程仓库的当前分支与本地仓库的当前分支合并</li>
+<li><code>git pull origin branch_name</code>：将远程仓库的<code>branch_name</code>分支与本地仓库的当前分支合并</li>
+<li><code>git branch --set-upstream-to=origin/branch_name1 branch_name2</code>：将远程的</li>
+<li><code>branch_name1</code>分支与本地的<code>branch_name2</code>分支对应</li>
+</ol>
+<h4 id="git-分支命令">Git 分支命令</h4>
+<ol>
+<li><code>git branch branch_name</code>：创建新分支</li>
+<li><code>git branch</code>：查看所有分支和当前所处分支</li>
+<li><code>git checkout -b branch_name</code>：创建并切换到<code>branch_name</code>这个分支</li>
+<li><code>git checkout branch_name</code>：切换到<code>branch_name</code>这个分支</li>
+<li><code>git merge branch_name</code>：将分支<code>branch_name</code>合并到当前分支上</li>
+<li><code>git branch -d branch_name</code>：删除本地仓库的<code>branch_name</code>分支</li>
+<li><code>git push --set-upstream origin branch_name</code>：设置本地的<code>branch_name</code>分支对应远程仓库的<code>branch_name</code>分支</li>
+<li><code>git push -d origin branch_name</code>：删除远程仓库的<code>branch_name</code>分支</li>
+<li><code>git checkout -t origin/branch_name</code>：将远程的<code>branch_name</code>分支拉取到本地</li>
+<li><code>git pull</code> ：将远程仓库的当前分支与本地仓库的当前分支合并</li>
+<li><code>git pull origin branch_name</code>：将远程仓库的<code>branch_name</code>分支与本地仓库的当前分支合并</li>
+<li><code>git branch --set-upstream-to=origin/branch_name1 branch_name2</code>：将远程的</li>
+<li><code>branch_name1</code>分支与本地的<code>branch_name2</code>分支对应</li>
+</ol>
+<h4 id="git-stash-暂存">Git stash 暂存</h4>
+<ol>
+<li><code>git stash</code>：将工作区和暂存区中尚未提交的修改存入栈中</li>
+<li><code>git stash apply</code>：将栈顶存储的修改恢复到当前分支，但不删除栈顶元素</li>
+<li><code>git stash drop</code>：删除栈顶存储的修改</li>
+<li><code>git stash pop</code>：将栈顶存储的修改恢复到当前分支，同时删除栈顶元素</li>
+<li><code>git stash list</code>：查看栈中所有元素</li>
+</ol>
+<h2 id="thrift">Thrift</h2>
+<ul>
+<li><a href="https://git.acwing.com/fashen/thrift_learning/-/blob/master/readme.md">Thrift_learning - AcGit</a></li>
+<li><a href="https://thrift.apache.org/">thrift 官网</a> -&gt; <a href="https://thrift.apache.org/tutorial/">Tutorial</a> -&gt; <a href="https://git-wip-us.apache.org/repos/asf?p=thrift.git;a=blob_plain;f=tutorial/tutorial.thrift">tutorial.thrift</a></li>
+</ul>
+<h3 id="thrift是什么">Thrift是什么？</h3>
+<blockquote>
+<p><strong>Thrift是一个轻量级、跨语言的远程过程服务调用（RPC）框架</strong></p>
+<p><strong>用于跨语言服务开发，它将软件栈和代码生成引擎结合在一起，以构建在 C++、Java、Python、PHP、Ruby、Erlang、Perl、Haskell、C#、Cocoa、JavaScript、Node. Js、Smalltalk、OCaml 和 Delphi 等语言之间高效、无缝地工作的服务</strong></p>
+</blockquote>
+<h3 id="实现过程">实现过程</h3>
+<ol>
+<li>定义接口 (存放接口的文件夹就是 thrift 文件)</li>
+<li>完成 <code>Server</code> 端</li>
+</ol>
+<ul>
+<li>通过接口生成 C++版本的服务端</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#007f7f">//通过这个命令就可以实现，不过在此之前需要做一些准备工作
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">//tutorial.thrift表示从当前目录到定义接口的路径
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>thrift -r --gen cpp tutorial.thrift
+</span></span></code></pre></div><ul>
+<li>
+<p>好习惯: 写 thrift 服务的时候，先编译成功，然后再逐步向文件中添加模块</p>
+</li>
+<li>
+<p>编译：</p>
+<ul>
+<li><code>g++ -c</code> 后接待编译的 <code>cpp</code> 文件</li>
+<li>注意： <code>H</code> 文件不需要编译</li>
+<li><code>.O</code> 文件即编译完成的文件</li>
+</ul>
+</li>
+<li>
+<p>链接：</p>
+<ul>
+<li><code>g++ *.o -o main.cpp -lthrift</code></li>
+<li><code>-lthrift</code> 意为加上 <code>thrift</code> 动态链接库</li>
+</ul>
+</li>
+<li>
+<p>持久化到云端</p>
+<ul>
+<li>可执行文件和编译好的文件最好不要存到云端
+<ul>
+<li><code>git restore --stage *.o</code></li>
+<li><code>git restore --stage main</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li>完成 <code>Client</code> 端</li>
+</ol>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>双拼学习记</title>
       <link>https://xancoding.cn/posts/doublespell/</link>

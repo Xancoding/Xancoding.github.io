@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>新技能 on Xan&#39;s Blog</title>
-    <link>https://xancoding.cn/tags/%E6%96%B0%E6%8A%80%E8%83%BD/</link>
-    <description>Recent content in 新技能 on Xan&#39;s Blog</description>
+    <title>AcWing on Xan&#39;s Blog</title>
+    <link>https://xancoding.cn/tags/acwing/</link>
+    <description>Recent content in AcWing on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 16 Oct 2022 14:23:58 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/%E6%96%B0%E6%8A%80%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Oct 2022 14:23:58 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/acwing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AcWing Linux 基础课</title>
       <link>https://xancoding.cn/posts/acwlinux/</link>
@@ -502,42 +502,6 @@
 <ol start="3">
 <li>完成 <code>Client</code> 端</li>
 </ol>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>双拼学习记</title>
-      <link>https://xancoding.cn/posts/doublespell/</link>
-      <pubDate>Fri, 14 Oct 2022 17:02:41 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/doublespell/</guid>
-      <description>&lt;h1 id=&#34;双拼学习记&#34;&gt;双拼学习记&lt;/h1&gt;
-&lt;p&gt;前段时间了解了双拼输入法，只是一直没有时间去学。这段时间事情慢慢少点了，准备着手开始学习。双拼只需要按键两次便可以输入一个汉字，我感觉这样的设计更为合理，要是熟练掌握，会很有节奏感，打字速度也可以得到提升。&lt;/p&gt;
-&lt;p&gt;更换一个新的输入法，刚开始时肯定会很别扭。使用双拼进行输入，需要对要打的字的音形熟悉，不然是打不出来的。刚好重新学习一下拼音，纠正纠正我自己一些错误的发音认知。&lt;/p&gt;
-&lt;p&gt;我准备学习小鹤双拼，找了张小鹤双拼的键位图，用作电脑桌面，打字想不起来的时候瞄一眼。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/Xancoding/Blog/main/static/img/doubleSpell/doubleSpell.png&#34; alt=&#34;doubleSpell&#34;  /&gt;
-&lt;/p&gt;
-&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://geekplux.com/posts/learn_shuangpin&#34;&gt;双拼学习记&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV16J411G7YT?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;双拼这点东西，up居然讲了十分钟——十分钟了解双拼到底是啥&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://flypy.com/&#34;&gt;小鹤双拼&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://help.flypy.com/#/xh&#34;&gt;小鹤入门&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      <content:encoded><![CDATA[<h1 id="双拼学习记">双拼学习记</h1>
-<p>前段时间了解了双拼输入法，只是一直没有时间去学。这段时间事情慢慢少点了，准备着手开始学习。双拼只需要按键两次便可以输入一个汉字，我感觉这样的设计更为合理，要是熟练掌握，会很有节奏感，打字速度也可以得到提升。</p>
-<p>更换一个新的输入法，刚开始时肯定会很别扭。使用双拼进行输入，需要对要打的字的音形熟悉，不然是打不出来的。刚好重新学习一下拼音，纠正纠正我自己一些错误的发音认知。</p>
-<p>我准备学习小鹤双拼，找了张小鹤双拼的键位图，用作电脑桌面，打字想不起来的时候瞄一眼。</p>
-<p><img loading="lazy" src="https://raw.githubusercontent.com/Xancoding/Blog/main/static/img/doubleSpell/doubleSpell.png" alt="doubleSpell"  />
-</p>
-<h1 id="推荐阅读">推荐阅读</h1>
-<ul>
-<li><a href="https://geekplux.com/posts/learn_shuangpin">双拼学习记</a></li>
-<li><a href="https://www.bilibili.com/video/BV16J411G7YT?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">双拼这点东西，up居然讲了十分钟——十分钟了解双拼到底是啥</a></li>
-<li><a href="https://flypy.com/">小鹤双拼</a></li>
-<li><a href="https://help.flypy.com/#/xh">小鹤入门</a></li>
-</ul>
 ]]></content:encoded>
     </item>
     
