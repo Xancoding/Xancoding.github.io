@@ -241,7 +241,27 @@
 &lt;p&gt;&lt;strong&gt;RPC（远程过程调用）是一个计算机通信协议，该协议允许运行于一台计算机的程序调用另一台计算机的子程序，而程序员无需额外地为这个交互作用编程&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Thrift用于跨语言服务开发，它将软件栈和代码生成引擎结合在一起，以构建在 C++、Java、Python、PHP、Ruby、Erlang、Perl、Haskell、C#、Cocoa、JavaScript、Node. Js、Smalltalk、OCaml 和 Delphi 等语言之间高效、无缝地工作的服务&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;文件结构&#34;&gt;文件结构&lt;/h3&gt;
+&lt;h3 id=&#34;例实现一个游戏的匹配服务&#34;&gt;例：实现一个游戏的匹配服务&lt;/h3&gt;
+&lt;h4 id=&#34;基本框架&#34;&gt;基本框架&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;游戏应用端（Python3）
+&lt;ol&gt;
+&lt;li&gt;客户端：与 匹配系统服务器 的服务端交互&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;匹配系统服务器（C++）
+&lt;ol&gt;
+&lt;li&gt;服务端：与 游戏应用端 的客户端交互&lt;/li&gt;
+&lt;li&gt;客户端：与 数据存储服务器 的服务端交互&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;数据存储服务器（已经实现）
+&lt;ol&gt;
+&lt;li&gt;服务端：与 匹配系统服务器 的客户端交互&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;文件结构&#34;&gt;文件结构&lt;/h4&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;|-- README.md
 |-- game
 |   `-- src
@@ -279,7 +299,7 @@
 `-- thrift
     |-- match.thrift
     `-- save.thrift
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;实现过程&#34;&gt;实现过程&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;实现过程部分&#34;&gt;实现过程（部分）&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;定义接口 (存放接口的文件夹就是 &lt;code&gt;thrift&lt;/code&gt; 文件)&lt;/li&gt;
 &lt;li&gt;完成 &lt;code&gt;Server&lt;/code&gt; 端
@@ -330,6 +350,10 @@
 &lt;/ol&gt;
 &lt;ul&gt;
 &lt;li&gt;注意：先运行服务器后，客户端才能正常运行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;项目地址&#34;&gt;项目地址&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://git.acwing.com/ZagY/thrift_lesson&#34;&gt;Thrift_lesson&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="acwing-linux-基础课">AcWing Linux 基础课</h1>
@@ -560,7 +584,27 @@
 <p><strong>RPC（远程过程调用）是一个计算机通信协议，该协议允许运行于一台计算机的程序调用另一台计算机的子程序，而程序员无需额外地为这个交互作用编程</strong></p>
 <p><strong>Thrift用于跨语言服务开发，它将软件栈和代码生成引擎结合在一起，以构建在 C++、Java、Python、PHP、Ruby、Erlang、Perl、Haskell、C#、Cocoa、JavaScript、Node. Js、Smalltalk、OCaml 和 Delphi 等语言之间高效、无缝地工作的服务</strong></p>
 </blockquote>
-<h3 id="文件结构">文件结构</h3>
+<h3 id="例实现一个游戏的匹配服务">例：实现一个游戏的匹配服务</h3>
+<h4 id="基本框架">基本框架</h4>
+<ol>
+<li>游戏应用端（Python3）
+<ol>
+<li>客户端：与 匹配系统服务器 的服务端交互</li>
+</ol>
+</li>
+<li>匹配系统服务器（C++）
+<ol>
+<li>服务端：与 游戏应用端 的客户端交互</li>
+<li>客户端：与 数据存储服务器 的服务端交互</li>
+</ol>
+</li>
+<li>数据存储服务器（已经实现）
+<ol>
+<li>服务端：与 匹配系统服务器 的客户端交互</li>
+</ol>
+</li>
+</ol>
+<h4 id="文件结构">文件结构</h4>
 <pre tabindex="0"><code>|-- README.md
 |-- game
 |   `-- src
@@ -598,7 +642,7 @@
 `-- thrift
     |-- match.thrift
     `-- save.thrift
-</code></pre><h3 id="实现过程">实现过程</h3>
+</code></pre><h4 id="实现过程部分">实现过程（部分）</h4>
 <ol>
 <li>定义接口 (存放接口的文件夹就是 <code>thrift</code> 文件)</li>
 <li>完成 <code>Server</code> 端
@@ -649,6 +693,10 @@
 </ol>
 <ul>
 <li>注意：先运行服务器后，客户端才能正常运行</li>
+</ul>
+<h4 id="项目地址">项目地址</h4>
+<ul>
+<li><a href="https://git.acwing.com/ZagY/thrift_lesson">Thrift_lesson</a></li>
 </ul>
 ]]></content:encoded>
     </item>
