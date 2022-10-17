@@ -308,7 +308,7 @@
 &lt;/ol&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;thrift -r --gen cpp tutorial.thrift
 &lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;将&lt;code&gt;gen cpp&lt;/code&gt; 文件夹重命名，如：&lt;code&gt;match_server&lt;/code&gt;（区别于之后要此处生成的&lt;code&gt;client_server&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;将&lt;code&gt;gen cpp&lt;/code&gt; 文件夹重命名，如：&lt;code&gt;match_server&lt;/code&gt;（区别于之后要在此处生成的&lt;code&gt;client_server&lt;/code&gt;）&lt;/li&gt;
 &lt;li&gt;把 &lt;code&gt;Match_server.skeleton.cpp&lt;/code&gt; 移动到当前 &lt;code&gt;src&lt;/code&gt; 目录下并重命名为 &lt;code&gt;main.cpp&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;由于移动了 &lt;code&gt;main.cpp&lt;/code&gt; 故需要修改一下&lt;code&gt; main.cpp&lt;/code&gt; 中头文件里关于 &lt;code&gt;Match.h&lt;/code&gt; 的引用路径：&lt;code&gt;#include &amp;quot;Match.h&amp;quot;&lt;/code&gt; -&amp;gt; &lt;code&gt;#include &amp;quot;match_server/Match.h&amp;quot;&lt;/code&gt;&lt;/li&gt;
@@ -340,7 +340,7 @@
 &lt;li&gt;&lt;code&gt;Python&lt;/code&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;git restore --stage *.pyc   # .pyc文件是编译文件，不加入暂存区里&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git restore --stage *.swp   # .swp文件是缓存文件，不加入暂存区里（vim没关时会生成）&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git restore --stage *.swp   # .swp文件是缓存文件，不加入暂存区里&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -651,7 +651,7 @@
 </ol>
 <pre tabindex="0"><code>thrift -r --gen cpp tutorial.thrift
 </code></pre><ol start="2">
-<li>将<code>gen cpp</code> 文件夹重命名，如：<code>match_server</code>（区别于之后要此处生成的<code>client_server</code>）</li>
+<li>将<code>gen cpp</code> 文件夹重命名，如：<code>match_server</code>（区别于之后要在此处生成的<code>client_server</code>）</li>
 <li>把 <code>Match_server.skeleton.cpp</code> 移动到当前 <code>src</code> 目录下并重命名为 <code>main.cpp</code>
 <ul>
 <li>由于移动了 <code>main.cpp</code> 故需要修改一下<code> main.cpp</code> 中头文件里关于 <code>Match.h</code> 的引用路径：<code>#include &quot;Match.h&quot;</code> -&gt; <code>#include &quot;match_server/Match.h&quot;</code></li>
@@ -683,7 +683,7 @@
 <li><code>Python</code>
 <ul>
 <li><code>git restore --stage *.pyc   # .pyc文件是编译文件，不加入暂存区里</code></li>
-<li><code>git restore --stage *.swp   # .swp文件是缓存文件，不加入暂存区里（vim没关时会生成）</code></li>
+<li><code>git restore --stage *.swp   # .swp文件是缓存文件，不加入暂存区里</code></li>
 </ul>
 </li>
 </ul>
