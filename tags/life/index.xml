@@ -6,7 +6,131 @@
     <description>Recent content in Life on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 14 Oct 2022 17:02:41 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Oct 2022 12:55:47 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>正则表达式学习记</title>
+      <link>https://xancoding.cn/posts/regularexpression/</link>
+      <pubDate>Mon, 17 Oct 2022 12:55:47 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/regularexpression/</guid>
+      <description>&lt;h1 id=&#34;正则表达式是什么&#34;&gt;正则表达式是什么？&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;正则表达式，又称规则表达式，通常被用来检索、替换那些符合某个规则的文本&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;正则表达式是对字符串操作的一种逻辑公式，就是用事先定义好的一些特定字符、及这些特定字符的组合，组成一个“规则字符串”，这个“规则字符串”用来表达对字符串的一种过滤逻辑&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;为什么要学习正则表达式&#34;&gt;为什么要学习正则表达式？&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;在需要「批量处理文本」的时候，方便「查找」&amp;amp;&amp;amp;「替换」
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Linux grep&lt;/code&gt; 命令&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Python&lt;/code&gt; 爬虫&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Everthing&lt;/code&gt; 搜索文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://deerchao.cn/tutorials/regex/regex.htm&#34;&gt;正则表达式30分钟入门教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://regexper.com/&#34;&gt;JS 正则可视化 - 工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://deerchao.cn/&#34;&gt;超越代码 - 工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sspai.com/post/60650&#34;&gt;多种实际使用场景，正则表达式带来丰富可能性&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26285406/&#34;&gt;《正则表达式必知必会》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/2154713/&#34;&gt;《精通正则表达式》&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="正则表达式是什么">正则表达式是什么？</h1>
+<blockquote>
+<p><strong>正则表达式，又称规则表达式，通常被用来检索、替换那些符合某个规则的文本</strong></p>
+<p><strong>正则表达式是对字符串操作的一种逻辑公式，就是用事先定义好的一些特定字符、及这些特定字符的组合，组成一个“规则字符串”，这个“规则字符串”用来表达对字符串的一种过滤逻辑</strong></p>
+</blockquote>
+<h1 id="为什么要学习正则表达式">为什么要学习正则表达式？</h1>
+<ul>
+<li>在需要「批量处理文本」的时候，方便「查找」&amp;&amp;「替换」
+<ul>
+<li><code>Linux grep</code> 命令</li>
+<li><code>Python</code> 爬虫</li>
+<li><code>Everthing</code> 搜索文件</li>
+</ul>
+</li>
+</ul>
+<h1 id="推荐阅读">推荐阅读</h1>
+<ul>
+<li><a href="https://deerchao.cn/tutorials/regex/regex.htm">正则表达式30分钟入门教程</a></li>
+<li><a href="https://regexper.com/">JS 正则可视化 - 工具</a></li>
+<li><a href="https://deerchao.cn/">超越代码 - 工具</a></li>
+<li><a href="https://sspai.com/post/60650">多种实际使用场景，正则表达式带来丰富可能性</a></li>
+<li><a href="https://book.douban.com/subject/26285406/">《正则表达式必知必会》</a></li>
+<li><a href="https://book.douban.com/subject/2154713/">《精通正则表达式》</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>LaTex学习记</title>
+      <link>https://xancoding.cn/posts/latex/</link>
+      <pubDate>Mon, 17 Oct 2022 12:55:19 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/latex/</guid>
+      <description>&lt;h1 id=&#34;latex是什么&#34;&gt;LaTex是什么？&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;LaTeX&lt;/code&gt;是一种基于&lt;code&gt;ΤΕΧ&lt;/code&gt;的排版系统，常被用于排版期刊文章、书籍、学位论文&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/433710726&#34;&gt;LaTeX 新手上路指南&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1T7411G7RV?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;TeX Live 安装与 LaTeX 基础知识普及&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/456055339&#34;&gt;【LaTeX】新手教程：从入门到日常使用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/521649367&#34;&gt;【LaTeX】针对萌新自学者的入门教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ptep-online.com/ctan/lshort_chinese.pdf&#34;&gt;一份不太简短的 LATEX 介绍&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/24703731/&#34;&gt;《Latex入门》&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="latex是什么">LaTex是什么？</h1>
+<blockquote>
+<p><code>LaTeX</code>是一种基于<code>ΤΕΧ</code>的排版系统，常被用于排版期刊文章、书籍、学位论文</p>
+</blockquote>
+<h1 id="推荐阅读">推荐阅读</h1>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/433710726">LaTeX 新手上路指南</a></li>
+<li><a href="https://www.bilibili.com/video/BV1T7411G7RV?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">TeX Live 安装与 LaTeX 基础知识普及</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/456055339">【LaTeX】新手教程：从入门到日常使用</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/521649367">【LaTeX】针对萌新自学者的入门教程</a></li>
+<li><a href="http://www.ptep-online.com/ctan/lshort_chinese.pdf">一份不太简短的 LATEX 介绍</a></li>
+<li><a href="https://book.douban.com/subject/24703731/">《Latex入门》</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Markdown学习记</title>
+      <link>https://xancoding.cn/posts/markdown/</link>
+      <pubDate>Mon, 17 Oct 2022 12:54:56 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/markdown/</guid>
+      <description>&lt;h1 id=&#34;markdown是什么&#34;&gt;Markdown是什么？&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://markdown.com.cn/&#34;&gt;Markdown 官方教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.markdown.xyz/&#34;&gt;Markdown 指南中文版&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/34613706/&#34;&gt;《了不起的Markdown》&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="markdown是什么">Markdown是什么？</h1>
+<blockquote>
+<p><strong>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等</strong></p>
+</blockquote>
+<h1 id="推荐阅读">推荐阅读</h1>
+<ul>
+<li><a href="https://markdown.com.cn/">Markdown 官方教程</a></li>
+<li><a href="https://www.markdown.xyz/">Markdown 指南中文版</a></li>
+<li><a href="https://book.douban.com/subject/34613706/">《了不起的Markdown》</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>双拼学习记</title>
       <link>https://xancoding.cn/posts/doublespell/</link>

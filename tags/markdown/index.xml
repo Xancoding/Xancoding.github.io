@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Markdown on Xan&#39;s Blog</title>
+    <link>https://xancoding.cn/tags/markdown/</link>
+    <description>Recent content in Markdown on Xan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 17 Oct 2022 12:54:56 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown学习记</title>
+      <link>https://xancoding.cn/posts/markdown/</link>
+      <pubDate>Mon, 17 Oct 2022 12:54:56 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/markdown/</guid>
+      <description>&lt;h1 id=&#34;markdown是什么&#34;&gt;Markdown是什么？&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://markdown.com.cn/&#34;&gt;Markdown 官方教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.markdown.xyz/&#34;&gt;Markdown 指南中文版&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/34613706/&#34;&gt;《了不起的Markdown》&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="markdown是什么">Markdown是什么？</h1>
+<blockquote>
+<p><strong>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等</strong></p>
+</blockquote>
+<h1 id="推荐阅读">推荐阅读</h1>
+<ul>
+<li><a href="https://markdown.com.cn/">Markdown 官方教程</a></li>
+<li><a href="https://www.markdown.xyz/">Markdown 指南中文版</a></li>
+<li><a href="https://book.douban.com/subject/34613706/">《了不起的Markdown》</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

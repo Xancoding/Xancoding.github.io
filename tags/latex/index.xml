@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LaTex on Xan&#39;s Blog</title>
+    <link>https://xancoding.cn/tags/latex/</link>
+    <description>Recent content in LaTex on Xan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 17 Oct 2022 12:55:19 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LaTex学习记</title>
+      <link>https://xancoding.cn/posts/latex/</link>
+      <pubDate>Mon, 17 Oct 2022 12:55:19 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/latex/</guid>
+      <description>&lt;h1 id=&#34;latex是什么&#34;&gt;LaTex是什么？&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;LaTeX&lt;/code&gt;是一种基于&lt;code&gt;ΤΕΧ&lt;/code&gt;的排版系统，常被用于排版期刊文章、书籍、学位论文&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/433710726&#34;&gt;LaTeX 新手上路指南&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1T7411G7RV?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;TeX Live 安装与 LaTeX 基础知识普及&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/456055339&#34;&gt;【LaTeX】新手教程：从入门到日常使用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/521649367&#34;&gt;【LaTeX】针对萌新自学者的入门教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ptep-online.com/ctan/lshort_chinese.pdf&#34;&gt;一份不太简短的 LATEX 介绍&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/24703731/&#34;&gt;《Latex入门》&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="latex是什么">LaTex是什么？</h1>
+<blockquote>
+<p><code>LaTeX</code>是一种基于<code>ΤΕΧ</code>的排版系统，常被用于排版期刊文章、书籍、学位论文</p>
+</blockquote>
+<h1 id="推荐阅读">推荐阅读</h1>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/433710726">LaTeX 新手上路指南</a></li>
+<li><a href="https://www.bilibili.com/video/BV1T7411G7RV?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">TeX Live 安装与 LaTeX 基础知识普及</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/456055339">【LaTeX】新手教程：从入门到日常使用</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/521649367">【LaTeX】针对萌新自学者的入门教程</a></li>
+<li><a href="http://www.ptep-online.com/ctan/lshort_chinese.pdf">一份不太简短的 LATEX 介绍</a></li>
+<li><a href="https://book.douban.com/subject/24703731/">《Latex入门》</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
