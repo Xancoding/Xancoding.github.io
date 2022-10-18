@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>数据结构与算法 on Xan&#39;s Blog</title>
+    <link>https://xancoding.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</link>
+    <description>Recent content in 数据结构与算法 on Xan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 18 Oct 2022 17:16:53 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数据结构与算法</title>
+      <link>https://xancoding.cn/posts/datastructuresandalgorithms/</link>
+      <pubDate>Tue, 18 Oct 2022 17:16:53 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/datastructuresandalgorithms/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Xancoding/Data-Structures-and-Algorithms&#34;&gt;数据结构与算法 | 我的笔记&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/6424904/&#34;&gt;《大话数据结构》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/35252621/&#34;&gt;《labuladong的算法小抄》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/30136932/&#34;&gt;《算法竞赛进阶指南》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/19952400/&#34;&gt;《算法（第4版）》&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/11/&#34;&gt;AcWing 算法基础课&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/16/&#34;&gt;AcWing 算法提高课&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/32/&#34;&gt;AcWing 算法进阶课&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oi-wiki.org/&#34;&gt;OI Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cp-wiki.vercel.app/&#34;&gt;CP Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://leetcode.cn/&#34;&gt;LeetCode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/&#34;&gt;AcWing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.luogu.com.cn/&#34;&gt;Luogo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codeforces.com/&#34;&gt;Codeforces&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://github.com/Xancoding/Data-Structures-and-Algorithms">数据结构与算法 | 我的笔记</a></li>
+<li><a href="https://book.douban.com/subject/6424904/">《大话数据结构》</a></li>
+<li><a href="https://book.douban.com/subject/35252621/">《labuladong的算法小抄》</a></li>
+<li><a href="https://book.douban.com/subject/30136932/">《算法竞赛进阶指南》</a></li>
+<li><a href="https://book.douban.com/subject/19952400/">《算法（第4版）》</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://www.acwing.com/activity/content/11/">AcWing 算法基础课</a></li>
+<li><a href="https://www.acwing.com/activity/content/16/">AcWing 算法提高课</a></li>
+<li><a href="https://www.acwing.com/activity/content/32/">AcWing 算法进阶课</a></li>
+<li><a href="https://oi-wiki.org/">OI Wiki</a></li>
+<li><a href="https://cp-wiki.vercel.app/">CP Wiki</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://leetcode.cn/">LeetCode</a></li>
+<li><a href="https://www.acwing.com/">AcWing</a></li>
+<li><a href="https://www.luogu.com.cn/">Luogo</a></li>
+<li><a href="https://codeforces.com/">Codeforces</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

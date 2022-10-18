@@ -2,19 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://xancoding.cn/posts/</loc>
+    <lastmod>2022-10-18T18:34:30+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/tags/</loc>
+    <lastmod>2022-10-18T18:34:30+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/tags/tech/</loc>
+    <lastmod>2022-10-18T18:34:30+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/</loc>
+    <lastmod>2022-10-18T18:34:30+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2022-10-18T18:34:30+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2022-10-18T18:34:30+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/posts/computernetwork/</loc>
+    <lastmod>2022-10-18T18:34:30+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2022-10-18T17:16:53+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/posts/datastructuresandalgorithms/</loc>
+    <lastmod>2022-10-18T17:16:53+08:00</lastmod>
+  </url><url>
     <loc>https://xancoding.cn/tags/life/</loc>
     <lastmod>2022-10-17T12:55:47+08:00</lastmod>
   </url><url>
-    <loc>https://xancoding.cn/posts/</loc>
-    <lastmod>2022-10-17T12:55:47+08:00</lastmod>
-  </url><url>
     <loc>https://xancoding.cn/tags/productivity/</loc>
-    <lastmod>2022-10-17T12:55:47+08:00</lastmod>
-  </url><url>
-    <loc>https://xancoding.cn/tags/</loc>
-    <lastmod>2022-10-17T12:55:47+08:00</lastmod>
-  </url><url>
-    <loc>https://xancoding.cn/</loc>
     <lastmod>2022-10-17T12:55:47+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.cn/tags/%E5%B7%A5%E5%85%B7/</loc>
@@ -48,9 +66,6 @@
     <lastmod>2022-10-16T14:23:58+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.cn/tags/linux/</loc>
-    <lastmod>2022-10-16T14:23:58+08:00</lastmod>
-  </url><url>
-    <loc>https://xancoding.cn/tags/tech/</loc>
     <lastmod>2022-10-16T14:23:58+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.cn/tags/%E5%8F%8C%E6%8B%BC/</loc>

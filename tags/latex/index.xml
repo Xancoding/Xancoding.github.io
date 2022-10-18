@@ -25,6 +25,8 @@
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/521649367&#34;&gt;【LaTeX】针对萌新自学者的入门教程&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.ptep-online.com/ctan/lshort_chinese.pdf&#34;&gt;一份不太简短的 LATEX 介绍&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/24703731/&#34;&gt;《Latex入门》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.latexlive.com/&#34;&gt;在线LaTex公式编辑器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.overleaf.com/project&#34;&gt;Overleaf&lt;/a&gt; 在线 &lt;code&gt;LaTeX&lt;/code&gt; 编辑器&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="latex是什么">LaTex是什么？</h1>
@@ -39,6 +41,8 @@
 <li><a href="https://zhuanlan.zhihu.com/p/521649367">【LaTeX】针对萌新自学者的入门教程</a></li>
 <li><a href="http://www.ptep-online.com/ctan/lshort_chinese.pdf">一份不太简短的 LATEX 介绍</a></li>
 <li><a href="https://book.douban.com/subject/24703731/">《Latex入门》</a></li>
+<li><a href="https://www.latexlive.com/">在线LaTex公式编辑器</a></li>
+<li><a href="https://www.overleaf.com/project">Overleaf</a> 在线 <code>LaTeX</code> 编辑器</li>
 </ul>
 ]]></content:encoded>
     </item>

@@ -6,7 +6,47 @@
     <description>Recent content in Tags on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 17 Oct 2022 12:55:47 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Oct 2022 18:34:30 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech</title>
+      <link>https://xancoding.cn/tags/tech/</link>
+      <pubDate>Tue, 18 Oct 2022 18:34:30 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/tech/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>计算机基础</title>
+      <link>https://xancoding.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Tue, 18 Oct 2022 18:34:30 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>计算机网络</title>
+      <link>https://xancoding.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Tue, 18 Oct 2022 18:34:30 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>数据结构与算法</title>
+      <link>https://xancoding.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Tue, 18 Oct 2022 17:16:53 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>Life</title>
       <link>https://xancoding.cn/tags/life/</link>
@@ -93,16 +133,6 @@
       <pubDate>Sun, 16 Oct 2022 14:23:58 +0800</pubDate>
       
       <guid>https://xancoding.cn/tags/linux/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Tech</title>
-      <link>https://xancoding.cn/tags/tech/</link>
-      <pubDate>Sun, 16 Oct 2022 14:23:58 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/tags/tech/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

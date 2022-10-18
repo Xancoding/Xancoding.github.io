@@ -6,7 +6,115 @@
     <description>Recent content in Posts on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 17 Oct 2022 12:55:47 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Oct 2022 18:34:30 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>计算机网络</title>
+      <link>https://xancoding.cn/posts/computernetwork/</link>
+      <pubDate>Tue, 18 Oct 2022 18:34:30 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/computernetwork/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26941639/&#34;&gt;《网络是怎样连接的》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/25863515/&#34;&gt;《图解 HTTP》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/24737674/&#34;&gt;《图解TCP/IP（第5版）》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/35498120/&#34;&gt;《计算机网络（第8版）》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/30280001/&#34;&gt;《计算机网络：自顶向下方法》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/1088054/&#34;&gt;《TCP/IP详解 卷1：协议》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26268767/&#34;&gt;《Wireshark网络分析就这么简单》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26710788/&#34;&gt;《Wireshark网络分析的艺术》&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1FS4y1Y7Qe?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【哈工大】计算机网络 李全龙（全59讲）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1JV411t7ow/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【中科大】郑烇、杨坚《计算机网络（自顶向下方法 第7版，James F.Kurose，Keith W.Ross）》&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/386387918&#34;&gt;计算机网络（谢希仁版）第七版答案&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/bHZ2_hgNQTKFZpWMCfUH9A&#34;&gt;实战！我用“大白鲨”让你看见 TCP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Jdroida/free_learning/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md&#34;&gt;计算机网络知识梳理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://vixbob.moe/25.html&#34;&gt;Stanford CS144 Lab Assignment 学习笔记 | ViXbob的博客&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://book.douban.com/subject/26941639/">《网络是怎样连接的》</a></li>
+<li><a href="https://book.douban.com/subject/25863515/">《图解 HTTP》</a></li>
+<li><a href="https://book.douban.com/subject/24737674/">《图解TCP/IP（第5版）》</a></li>
+<li><a href="https://book.douban.com/subject/35498120/">《计算机网络（第8版）》</a></li>
+<li><a href="https://book.douban.com/subject/30280001/">《计算机网络：自顶向下方法》</a></li>
+<li><a href="https://book.douban.com/subject/1088054/">《TCP/IP详解 卷1：协议》</a></li>
+<li><a href="https://book.douban.com/subject/26268767/">《Wireshark网络分析就这么简单》</a></li>
+<li><a href="https://book.douban.com/subject/26710788/">《Wireshark网络分析的艺术》</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1FS4y1Y7Qe?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b">【哈工大】计算机网络 李全龙（全59讲）</a></li>
+<li><a href="https://www.bilibili.com/video/BV1JV411t7ow/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">【中科大】郑烇、杨坚《计算机网络（自顶向下方法 第7版，James F.Kurose，Keith W.Ross）》</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/386387918">计算机网络（谢希仁版）第七版答案</a></li>
+<li><a href="https://mp.weixin.qq.com/s/bHZ2_hgNQTKFZpWMCfUH9A">实战！我用“大白鲨”让你看见 TCP</a></li>
+<li><a href="https://github.com/Jdroida/free_learning/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md">计算机网络知识梳理</a></li>
+<li><strong><a href="https://vixbob.moe/25.html">Stanford CS144 Lab Assignment 学习笔记 | ViXbob的博客</a></strong></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>数据结构与算法</title>
+      <link>https://xancoding.cn/posts/datastructuresandalgorithms/</link>
+      <pubDate>Tue, 18 Oct 2022 17:16:53 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/datastructuresandalgorithms/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Xancoding/Data-Structures-and-Algorithms&#34;&gt;数据结构与算法 | 我的笔记&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/6424904/&#34;&gt;《大话数据结构》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/35252621/&#34;&gt;《labuladong的算法小抄》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/30136932/&#34;&gt;《算法竞赛进阶指南》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/19952400/&#34;&gt;《算法（第4版）》&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/11/&#34;&gt;AcWing 算法基础课&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/16/&#34;&gt;AcWing 算法提高课&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/32/&#34;&gt;AcWing 算法进阶课&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oi-wiki.org/&#34;&gt;OI Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cp-wiki.vercel.app/&#34;&gt;CP Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://leetcode.cn/&#34;&gt;LeetCode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/&#34;&gt;AcWing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.luogu.com.cn/&#34;&gt;Luogo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codeforces.com/&#34;&gt;Codeforces&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://github.com/Xancoding/Data-Structures-and-Algorithms">数据结构与算法 | 我的笔记</a></li>
+<li><a href="https://book.douban.com/subject/6424904/">《大话数据结构》</a></li>
+<li><a href="https://book.douban.com/subject/35252621/">《labuladong的算法小抄》</a></li>
+<li><a href="https://book.douban.com/subject/30136932/">《算法竞赛进阶指南》</a></li>
+<li><a href="https://book.douban.com/subject/19952400/">《算法（第4版）》</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://www.acwing.com/activity/content/11/">AcWing 算法基础课</a></li>
+<li><a href="https://www.acwing.com/activity/content/16/">AcWing 算法提高课</a></li>
+<li><a href="https://www.acwing.com/activity/content/32/">AcWing 算法进阶课</a></li>
+<li><a href="https://oi-wiki.org/">OI Wiki</a></li>
+<li><a href="https://cp-wiki.vercel.app/">CP Wiki</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://leetcode.cn/">LeetCode</a></li>
+<li><a href="https://www.acwing.com/">AcWing</a></li>
+<li><a href="https://www.luogu.com.cn/">Luogo</a></li>
+<li><a href="https://codeforces.com/">Codeforces</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>正则表达式学习记</title>
       <link>https://xancoding.cn/posts/regularexpression/</link>
@@ -83,6 +191,8 @@
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/521649367&#34;&gt;【LaTeX】针对萌新自学者的入门教程&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.ptep-online.com/ctan/lshort_chinese.pdf&#34;&gt;一份不太简短的 LATEX 介绍&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/24703731/&#34;&gt;《Latex入门》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.latexlive.com/&#34;&gt;在线LaTex公式编辑器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.overleaf.com/project&#34;&gt;Overleaf&lt;/a&gt; 在线 &lt;code&gt;LaTeX&lt;/code&gt; 编辑器&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="latex是什么">LaTex是什么？</h1>
@@ -97,6 +207,8 @@
 <li><a href="https://zhuanlan.zhihu.com/p/521649367">【LaTeX】针对萌新自学者的入门教程</a></li>
 <li><a href="http://www.ptep-online.com/ctan/lshort_chinese.pdf">一份不太简短的 LATEX 介绍</a></li>
 <li><a href="https://book.douban.com/subject/24703731/">《Latex入门》</a></li>
+<li><a href="https://www.latexlive.com/">在线LaTex公式编辑器</a></li>
+<li><a href="https://www.overleaf.com/project">Overleaf</a> 在线 <code>LaTeX</code> 编辑器</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -993,12 +1105,13 @@
 &lt;/p&gt;
 &lt;h1 id=&#34;书籍&#34;&gt;书籍&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Neat Reader &amp;amp; Z-Library &amp;amp; 学校图书馆&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Neat Reader &amp;amp; Sumatra PDF &amp;amp; Z-Library &amp;amp; LoreFree &amp;amp; 学校图书馆&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;读书，是治愈迷茫最好的良药。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.neat-reader.com/&#34;&gt;Neat Reader&lt;/a&gt; 是一款&lt;code&gt;EPUB&lt;/code&gt;阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 &lt;a href=&#34;https://zh.z-lib.org/&#34;&gt;Z-Library&lt;/a&gt; 搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 &lt;code&gt;Neat Reader&lt;/code&gt; 阅读。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Neat Reader&lt;/code&gt; 是一款&lt;code&gt;EPUB&lt;/code&gt;阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 &lt;a href=&#34;https://zh.z-lib.org/&#34;&gt;Z-Library&lt;/a&gt; or &lt;a href=&#34;https://lorefree.com/&#34;&gt;LoreFree&lt;/a&gt; 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 &lt;a href=&#34;https://www.neat-reader.com/&#34;&gt;Neat Reader&lt;/a&gt; 阅读。&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/Xancoding/Blog/main/static/img/getInfo/neatReader.png&#34; alt=&#34;neatReader&#34;  /&gt;
 &lt;/p&gt;
+&lt;p&gt;如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 &lt;a href=&#34;https://www.sumatrapdfreader.org/free-pdf-reader&#34;&gt;Sumatra PDF&lt;/a&gt; 上阅读&lt;/p&gt;
 &lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看。&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<blockquote>
@@ -1055,12 +1168,13 @@
 </p>
 <h1 id="书籍">书籍</h1>
 <ul>
-<li><code>Neat Reader &amp; Z-Library &amp; 学校图书馆</code></li>
+<li><code>Neat Reader &amp; Sumatra PDF &amp; Z-Library &amp; LoreFree &amp; 学校图书馆</code></li>
 </ul>
 <p><strong>读书，是治愈迷茫最好的良药。</strong></p>
-<p><a href="https://www.neat-reader.com/">Neat Reader</a> 是一款<code>EPUB</code>阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 <a href="https://zh.z-lib.org/">Z-Library</a> 搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 <code>Neat Reader</code> 阅读。</p>
+<p><code>Neat Reader</code> 是一款<code>EPUB</code>阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 <a href="https://zh.z-lib.org/">Z-Library</a> or <a href="https://lorefree.com/">LoreFree</a> 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 <a href="https://www.neat-reader.com/">Neat Reader</a> 阅读。</p>
 <p><img loading="lazy" src="https://raw.githubusercontent.com/Xancoding/Blog/main/static/img/getInfo/neatReader.png" alt="neatReader"  />
 </p>
+<p>如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 <a href="https://www.sumatrapdfreader.org/free-pdf-reader">Sumatra PDF</a> 上阅读</p>
 <p>不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看。</p>
 ]]></content:encoded>
     </item>
