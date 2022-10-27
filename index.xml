@@ -3072,7 +3072,7 @@ success
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;图片来自于知乎博主@阿甘跑步，版权归原作者所有&lt;/em&gt;&lt;/p&gt;
+&lt;div style=&#34;font-size:14px;color:#C0C0C0;text-decoration:underline&#34;&gt;图片来自于知乎博主@阿甘跑步，版权归原作者所有&lt;/div&gt; 
 &lt;h2 id=&#34;配速表&#34;&gt;配速表&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -3200,7 +3200,7 @@ success
 </div>
 
 </p>
-<p><em>图片来自于知乎博主@阿甘跑步，版权归原作者所有</em></p>
+<div style="font-size:14px;color:#C0C0C0;text-decoration:underline">图片来自于知乎博主@阿甘跑步，版权归原作者所有</div> 
 <h2 id="配速表">配速表</h2>
 <p>
 <div class="post-img-view">
