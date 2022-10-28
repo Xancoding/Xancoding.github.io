@@ -115,6 +115,39 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h1 id=&#34;markdown常用语法&#34;&gt;Markdown常用语法&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;在markdown中将链接地址或邮箱地址用&lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;包围，则会被自动转换成可点击的链接。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;u&gt;书写格式如下：&lt;/u&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;https://xancoding.cn&amp;gt;
+
+&amp;lt;zag.zj.cn@gmail.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;u&gt;解析效果如下：&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://xancoding.cn&#34;&gt;https://xancoding.cn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:zag.zj.cn@gmail.com&#34;&gt;zag.zj.cn@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;如果需要避免文本中的符号被当做markdown标识符而发生不必要的格式转化，可以在符号前加&lt;code&gt;\&lt;/code&gt;来避免。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;u&gt;书写格式如下&lt;/u&gt;：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\*不是斜体\*
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;u&gt;解析效果如下&lt;/u&gt;：&lt;/p&gt;
+&lt;p&gt;*不是斜体*&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;角标&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;不同于链接，这里的角标内容会被放在文末，点击可以实现跳转。&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;书写格式如下&lt;/u&gt;：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;请参阅脚注1. [^1]
+
+[^1]: 脚注1内容。
+
+请参阅脚注2. [^2]
+
+[^2]: 脚注2内容。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;u&gt;解析效果如下&lt;/u&gt;：&lt;/p&gt;
+&lt;p&gt;请参阅脚注1. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;请参阅脚注2. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://haoeric.github.io/markdown-grammar/#fnref:1&#34;&gt;Markdown - All You Need to Know&lt;/a&gt;&lt;/li&gt;
@@ -122,11 +155,55 @@
 &lt;li&gt;&lt;a href=&#34;https://www.markdown.xyz/&#34;&gt;Markdown 指南中文版&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/34613706/&#34;&gt;《了不起的Markdown》&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;脚注1内容。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;脚注2内容。&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="markdown是什么">Markdown是什么？</h1>
 <blockquote>
 <p><strong>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等</strong></p>
 </blockquote>
+<h1 id="markdown常用语法">Markdown常用语法</h1>
+<ol>
+<li>在markdown中将链接地址或邮箱地址用<code>&lt;&gt;</code>包围，则会被自动转换成可点击的链接。</li>
+</ol>
+<p><u>书写格式如下：</u></p>
+<pre tabindex="0"><code>&lt;https://xancoding.cn&gt;
+
+&lt;zag.zj.cn@gmail.com&gt;
+</code></pre><p><u>解析效果如下：</u></p>
+<p><a href="https://xancoding.cn">https://xancoding.cn</a></p>
+<p><a href="mailto:zag.zj.cn@gmail.com">zag.zj.cn@gmail.com</a></p>
+<ol start="2">
+<li>如果需要避免文本中的符号被当做markdown标识符而发生不必要的格式转化，可以在符号前加<code>\</code>来避免。</li>
+</ol>
+<p><u>书写格式如下</u>：</p>
+<pre tabindex="0"><code>\*不是斜体\*
+</code></pre><p><u>解析效果如下</u>：</p>
+<p>*不是斜体*</p>
+<ol start="3">
+<li>角标</li>
+</ol>
+<p>不同于链接，这里的角标内容会被放在文末，点击可以实现跳转。</p>
+<p><u>书写格式如下</u>：</p>
+<pre tabindex="0"><code>请参阅脚注1. [^1]
+
+[^1]: 脚注1内容。
+
+请参阅脚注2. [^2]
+
+[^2]: 脚注2内容。
+</code></pre><p><u>解析效果如下</u>：</p>
+<p>请参阅脚注1. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>请参阅脚注2. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="http://haoeric.github.io/markdown-grammar/#fnref:1">Markdown - All You Need to Know</a></li>
@@ -134,6 +211,17 @@
 <li><a href="https://www.markdown.xyz/">Markdown 指南中文版</a></li>
 <li><a href="https://book.douban.com/subject/34613706/">《了不起的Markdown》</a></li>
 </ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>脚注1内容。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>脚注2内容。&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 ]]></content:encoded>
     </item>
     
@@ -220,13 +308,13 @@
 &lt;/p&gt;
 &lt;p&gt;当你在一天中为自己设置了&lt;strong&gt;x&lt;/strong&gt;个番茄钟的工作目标（这一目标你完全可控）并且达成的时候，你就可以知道自己一天到底可以完成多少工作，这会让自己感觉良好，更重要的是，还能让自己放松身心。它不仅能帮你完成更多的工作，还能让你尽情享受业余时间——因为你已经通过番茄钟完成了一天的任务，在剩下的时间里，你完全可以自由安排消磨时间，而不会再有任何的心理负担。&lt;/p&gt;
 &lt;p&gt;最后的最后，一定记得要&lt;strong&gt;对自己的能力做一个合理的预期&lt;/strong&gt;，你每周工作40小时并不意味着你能完成80个番茄钟。找到适合你的番茄钟数量，过度的加量会适得其反。&lt;/p&gt;
-&lt;h1 id=&#34;推荐文章&#34;&gt;推荐文章&lt;/h1&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/468627225?utm_campaign=shareopn&amp;amp;utm_medium=social&amp;amp;utm_oi=1205113084614000640&amp;amp;utm_psn=1564268556828737536&amp;amp;utm_source=wechat_session&#34;&gt;如何用Todo清单度过余生的每一天？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://geekplux.com/posts/farewell_social_network&#34;&gt;告别社交网络有多难&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://geekplux.com/newsletters/28&#34;&gt;社交网络名存实亡&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.axios.com/2022/07/25/sunset-social-network-facebook-tiktok&#34;&gt;Sunset of the social network&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26835090/&#34;&gt;软技能&lt;/a&gt; 生产力篇&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26835090/&#34;&gt;《软技能》&lt;/a&gt; 生产力篇&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="安排好你的待办清单">安排好你的待办清单</h1>
@@ -258,13 +346,13 @@
 </p>
 <p>当你在一天中为自己设置了<strong>x</strong>个番茄钟的工作目标（这一目标你完全可控）并且达成的时候，你就可以知道自己一天到底可以完成多少工作，这会让自己感觉良好，更重要的是，还能让自己放松身心。它不仅能帮你完成更多的工作，还能让你尽情享受业余时间——因为你已经通过番茄钟完成了一天的任务，在剩下的时间里，你完全可以自由安排消磨时间，而不会再有任何的心理负担。</p>
 <p>最后的最后，一定记得要<strong>对自己的能力做一个合理的预期</strong>，你每周工作40小时并不意味着你能完成80个番茄钟。找到适合你的番茄钟数量，过度的加量会适得其反。</p>
-<h1 id="推荐文章">推荐文章</h1>
+<h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/468627225?utm_campaign=shareopn&amp;utm_medium=social&amp;utm_oi=1205113084614000640&amp;utm_psn=1564268556828737536&amp;utm_source=wechat_session">如何用Todo清单度过余生的每一天？</a></li>
 <li><a href="https://geekplux.com/posts/farewell_social_network">告别社交网络有多难</a></li>
 <li><a href="https://geekplux.com/newsletters/28">社交网络名存实亡</a></li>
 <li><a href="https://www.axios.com/2022/07/25/sunset-social-network-facebook-tiktok">Sunset of the social network</a></li>
-<li><a href="https://book.douban.com/subject/26835090/">软技能</a> 生产力篇</li>
+<li><a href="https://book.douban.com/subject/26835090/">《软技能》</a> 生产力篇</li>
 </ul>
 ]]></content:encoded>
     </item>
