@@ -117,6 +117,7 @@
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://haoeric.github.io/markdown-grammar/#fnref:1&#34;&gt;Markdown - All You Need to Know&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://markdown.com.cn/&#34;&gt;Markdown 官方教程&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.markdown.xyz/&#34;&gt;Markdown 指南中文版&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/34613706/&#34;&gt;《了不起的Markdown》&lt;/a&gt;&lt;/li&gt;
@@ -128,6 +129,7 @@
 </blockquote>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
+<li><a href="http://haoeric.github.io/markdown-grammar/#fnref:1">Markdown - All You Need to Know</a></li>
 <li><a href="https://markdown.com.cn/">Markdown 官方教程</a></li>
 <li><a href="https://www.markdown.xyz/">Markdown 指南中文版</a></li>
 <li><a href="https://book.douban.com/subject/34613706/">《了不起的Markdown》</a></li>
@@ -273,7 +275,31 @@
       <pubDate>Wed, 12 Oct 2022 22:42:04 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/getinfo/</guid>
-      <description>&lt;blockquote&gt;
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://catcoding.me/p/get-better-info/&#34;&gt;优化自己的信息源&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/49684783/answer/2305132342&#34;&gt;中文互联网的产出在渐渐枯萎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/349349861&#34;&gt;知道RSS的人越少，我就越希望它能被人知道！&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/VUhz2Tg08UqYSAZB6nU9MQ&#34;&gt;RSS 二十年&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://coolshell.cn/articles/11928.html&#34;&gt;互联网之子&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://rss-source.com/&#34;&gt;RSS Source | RSS订阅源推荐&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://haoeric.github.io/Google-search-grammar/&#34;&gt;Practical Google Search Tips&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;这个时代不缺信息，因为信息太多了，缺的是时间&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息&lt;/strong&gt;&lt;/p&gt;
@@ -299,13 +325,6 @@
 
 &lt;/p&gt;
 &lt;p&gt;我使用RSS主要用来订阅我感兴趣的个人博客，我订阅的博客网站在 &lt;code&gt;Links&lt;/code&gt; 页面下的 &lt;strong&gt;博客&lt;/strong&gt; 那一栏。&lt;/p&gt;
-&lt;h2 id=&#34;推荐文章&#34;&gt;推荐文章&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://catcoding.me/p/get-better-info/&#34;&gt;优化自己的信息源&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/question/49684783/answer/2305132342&#34;&gt;中文互联网的产出在渐渐枯萎&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/349349861&#34;&gt;知道RSS的人越少，我就越希望它能被人知道！&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/VUhz2Tg08UqYSAZB6nU9MQ&#34;&gt;RSS 二十年&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://coolshell.cn/articles/11928.html&#34;&gt;互联网之子&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://rss-source.com/&#34;&gt;RSS Source | RSS订阅源推荐&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;搜索引擎&#34;&gt;搜索引擎&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Google &amp;amp; AdblockPlus &amp;amp; uBlacklist&lt;/code&gt;&lt;/li&gt;
@@ -378,7 +397,31 @@
 &lt;p&gt;如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 &lt;a href=&#34;https://www.sumatrapdfreader.org/free-pdf-reader&#34;&gt;Sumatra PDF&lt;/a&gt; 上阅读&lt;/p&gt;
 &lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看。&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<blockquote>
+      <content:encoded><![CDATA[<ul>
+<li>
+<p><a href="https://catcoding.me/p/get-better-info/">优化自己的信息源</a></p>
+</li>
+<li>
+<p><a href="https://www.zhihu.com/question/49684783/answer/2305132342">中文互联网的产出在渐渐枯萎</a></p>
+</li>
+<li>
+<p><a href="https://zhuanlan.zhihu.com/p/349349861">知道RSS的人越少，我就越希望它能被人知道！</a></p>
+</li>
+<li>
+<p><a href="https://mp.weixin.qq.com/s/VUhz2Tg08UqYSAZB6nU9MQ">RSS 二十年</a></p>
+</li>
+<li>
+<p><a href="https://coolshell.cn/articles/11928.html">互联网之子</a></p>
+</li>
+<li>
+<p><a href="https://rss-source.com/">RSS Source | RSS订阅源推荐</a></p>
+</li>
+<li>
+<p><a href="http://haoeric.github.io/Google-search-grammar/">Practical Google Search Tips</a></p>
+</li>
+</ul>
+<hr>
+<blockquote>
 <p><strong>这个时代不缺信息，因为信息太多了，缺的是时间</strong></p>
 <p><strong>整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子</strong></p>
 <p><strong>获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息</strong></p>
@@ -404,13 +447,6 @@
 
 </p>
 <p>我使用RSS主要用来订阅我感兴趣的个人博客，我订阅的博客网站在 <code>Links</code> 页面下的 <strong>博客</strong> 那一栏。</p>
-<h2 id="推荐文章">推荐文章</h2>
-<p><a href="https://catcoding.me/p/get-better-info/">优化自己的信息源</a></p>
-<p><a href="https://www.zhihu.com/question/49684783/answer/2305132342">中文互联网的产出在渐渐枯萎</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/349349861">知道RSS的人越少，我就越希望它能被人知道！</a></p>
-<p><a href="https://mp.weixin.qq.com/s/VUhz2Tg08UqYSAZB6nU9MQ">RSS 二十年</a></p>
-<p><a href="https://coolshell.cn/articles/11928.html">互联网之子</a></p>
-<p><a href="https://rss-source.com/">RSS Source | RSS订阅源推荐</a></p>
 <h1 id="搜索引擎">搜索引擎</h1>
 <ul>
 <li><code>Google &amp; AdblockPlus &amp; uBlacklist</code></li>
