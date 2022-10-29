@@ -314,6 +314,30 @@
 &lt;li&gt;&lt;code&gt;git stash pop&lt;/code&gt;：将栈顶存储的修改恢复到当前分支，同时删除栈顶元素&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;git stash list&lt;/code&gt;：查看栈中所有元素&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h3 id=&#34;本地项目上传到github&#34;&gt;本地项目上传到GitHub&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;配置&lt;code&gt;ssh-key&lt;/code&gt;实现本地与&lt;code&gt;Git&lt;/code&gt;服务器免密交互&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh-keygen  # 生成密钥
+cat .ssh/id_rsa.pub
+# 复制密钥，提交到 git 服务器的 ssh 密钥中
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;按照下面的操作在本地文件夹配置一下&lt;code&gt;Git&lt;/code&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global user.name xxx  # 设置用户名
+git config --global user.email xxx@xxx.com  # 设置用户邮箱
+
+git init
+git add .
+git commit -m &amp;#34;xxx&amp;#34;
+git remote add origin https://github.com/xxx/XXX.git  # 建立连接
+git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;gitignore的作用&#34;&gt;.gitignore的作用&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;工程常识：缓存文件，可执行文件，编译文件 不要传到自己的 git 项目里&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;.gitignore的作用就是帮助我们在git add时将我们指定的一些文件自动排除在外，不提交到git当中&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;在Git工作区的根目录下创建一个特殊的&lt;code&gt;.gitignore&lt;/code&gt;文件，然后把要忽略的文件名填进去，Git就会自动忽略这些文件&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;thrift&#34;&gt;&lt;strong&gt;Thrift&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/video/3479/&#34;&gt;Thrift | AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;
@@ -1158,19 +1182,34 @@ success
 &lt;li&gt;&lt;code&gt;scp django_lesson_1_0.tar server&lt;/code&gt;：将&lt;code&gt;docker压缩包&lt;/code&gt;传至云服务器&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ssh server&lt;/code&gt;：免密登录至云服务器&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;docker load -i django_lesson_1_0.tar&lt;/code&gt;：将&lt;code&gt;docker压缩包&lt;/code&gt;解压缩成&lt;code&gt;docker镜像&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;docker run -p 20000:22 8000:8000 --name django -itd django_lesson:1.0&lt;/code&gt; ：利用 &lt;code&gt;镜像django_lesson:1.0&lt;/code&gt; 创建一个命名为 &lt;code&gt;django&lt;/code&gt; 的 &lt;code&gt;docker容器&lt;/code&gt;（&lt;code&gt;20000端口&lt;/code&gt; 登录）（&lt;code&gt;8000端口&lt;/code&gt; 调试）并启动&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;docker run -p 20000:22 8000:8000 --name django -itd django_lesson:1.0&lt;/code&gt; ：利用 &lt;code&gt;镜像django_lesson:1.0&lt;/code&gt; 创建一个命名为 &lt;code&gt;django&lt;/code&gt; 的 &lt;code&gt;docker容器&lt;/code&gt;并启动&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;docker attach my_docker_server&lt;/code&gt;：进入创建的&lt;code&gt;docker容器&lt;/code&gt;（服务器）&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;adduser acs&lt;/code&gt;：创建&lt;code&gt;acs&lt;/code&gt;用户&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;usermod -aG sudo acs&lt;/code&gt;：为&lt;code&gt;acs&lt;/code&gt;用户分配&lt;code&gt;sudo&lt;/code&gt;权限&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;scp .bashrc .vimrc .tmux.conf django&lt;/code&gt;：将本地服务器的&lt;code&gt;bash&lt;/code&gt;&amp;amp;&lt;code&gt;vim&lt;/code&gt;&amp;amp;&lt;code&gt;tmux&lt;/code&gt;配置文件传至&lt;code&gt;docker 容器&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;docker项目迁移&#34;&gt;Docker项目迁移&lt;/h3&gt;
-&lt;p&gt;第一步，登录容器，关闭所有运行中的任务。&lt;/br&gt;
-第二步，登录运行容器的服务器，然后执行：&lt;/p&gt;
+&lt;p&gt;第一步，登录容器，关闭所有运行中的任务&lt;/p&gt;
+&lt;p&gt;第二步，登录运行容器的服务器，然后执行：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker commit CONTAINER_NAME django_lesson:1.1  # 将容器保存成镜像，将CONTAINER_NAME替换成容器名称
 docker stop CONTAINER_NAME # 关闭容器
 docker rm CONTAINER_NAME # 删除容器
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;增加容器的映射端口--80-与-443&#34;&gt;增加容器的映射端口 : 80 与 443&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;给运行中的容器，开通端口，是一件非常麻烦的事情&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一个比较好的解决方案 : 先把容器保存成镜像，再删掉容器，然后用镜像生成新的容器，同时打开需要的端口&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;第一步，登录容器，关闭所有运行中的任务&lt;/p&gt;
+&lt;p&gt;第二步，登录运行容器的服务器，然后执行 :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker commit CONTAINER_NAME django_lesson:1.1  &lt;span style=&#34;color:#007f7f&#34;&gt;# 将容器保存成镜像，将CONTAINER_NAME替换成容器名称&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker stop CONTAINER_NAME  &lt;span style=&#34;color:#007f7f&#34;&gt;# 关闭容器&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker rm CONTAINER_NAME &lt;span style=&#34;color:#007f7f&#34;&gt;# 删除容器&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;# 使用保存的镜像重新创建容器&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run -p 20000:22 -p 8000:8000 -p 80:80 -p 443:443 --name CONTAINER_NAME -itd django_lesson:1.1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;第三步，去云服务器控制台，在安全组配置中开放80和443端口&lt;/p&gt;
+</description>
       <content:encoded><![CDATA[<h1 id="acwing-linux-基础课">AcWing Linux 基础课</h1>
 <ul>
 <li><a href="https://www.colopen-blog.com/Engineer/acw_linux/">AcWing Linux 基础课 | Colopen&rsquo;s blog</a></li>
@@ -1472,6 +1511,30 @@ docker rm CONTAINER_NAME # 删除容器
 <li><code>git stash pop</code>：将栈顶存储的修改恢复到当前分支，同时删除栈顶元素</li>
 <li><code>git stash list</code>：查看栈中所有元素</li>
 </ol>
+<h3 id="本地项目上传到github">本地项目上传到GitHub</h3>
+<ol>
+<li>配置<code>ssh-key</code>实现本地与<code>Git</code>服务器免密交互</li>
+</ol>
+<pre tabindex="0"><code>ssh-keygen  # 生成密钥
+cat .ssh/id_rsa.pub
+# 复制密钥，提交到 git 服务器的 ssh 密钥中
+</code></pre><ol start="2">
+<li>按照下面的操作在本地文件夹配置一下<code>Git</code>：</li>
+</ol>
+<pre tabindex="0"><code>git config --global user.name xxx  # 设置用户名
+git config --global user.email xxx@xxx.com  # 设置用户邮箱
+
+git init
+git add .
+git commit -m &#34;xxx&#34;
+git remote add origin https://github.com/xxx/XXX.git  # 建立连接
+git push -u origin master
+</code></pre><h3 id="gitignore的作用">.gitignore的作用</h3>
+<blockquote>
+<p><strong>工程常识：缓存文件，可执行文件，编译文件 不要传到自己的 git 项目里</strong></p>
+<p><strong>.gitignore的作用就是帮助我们在git add时将我们指定的一些文件自动排除在外，不提交到git当中</strong></p>
+<p><strong>在Git工作区的根目录下创建一个特殊的<code>.gitignore</code>文件，然后把要忽略的文件名填进去，Git就会自动忽略这些文件</strong></p>
+</blockquote>
 <h2 id="thrift"><strong>Thrift</strong></h2>
 <ul>
 <li><a href="https://www.acwing.com/video/3479/">Thrift | AcWing Linux 基础课</a></li>
@@ -2316,19 +2379,34 @@ success
 <li><code>scp django_lesson_1_0.tar server</code>：将<code>docker压缩包</code>传至云服务器</li>
 <li><code>ssh server</code>：免密登录至云服务器</li>
 <li><code>docker load -i django_lesson_1_0.tar</code>：将<code>docker压缩包</code>解压缩成<code>docker镜像</code></li>
-<li><code>docker run -p 20000:22 8000:8000 --name django -itd django_lesson:1.0</code> ：利用 <code>镜像django_lesson:1.0</code> 创建一个命名为 <code>django</code> 的 <code>docker容器</code>（<code>20000端口</code> 登录）（<code>8000端口</code> 调试）并启动</li>
+<li><code>docker run -p 20000:22 8000:8000 --name django -itd django_lesson:1.0</code> ：利用 <code>镜像django_lesson:1.0</code> 创建一个命名为 <code>django</code> 的 <code>docker容器</code>并启动</li>
 <li><code>docker attach my_docker_server</code>：进入创建的<code>docker容器</code>（服务器）</li>
 <li><code>adduser acs</code>：创建<code>acs</code>用户</li>
 <li><code>usermod -aG sudo acs</code>：为<code>acs</code>用户分配<code>sudo</code>权限</li>
 <li><code>scp .bashrc .vimrc .tmux.conf django</code>：将本地服务器的<code>bash</code>&amp;<code>vim</code>&amp;<code>tmux</code>配置文件传至<code>docker 容器</code></li>
 </ol>
 <h3 id="docker项目迁移">Docker项目迁移</h3>
-<p>第一步，登录容器，关闭所有运行中的任务。</br>
-第二步，登录运行容器的服务器，然后执行：</p>
+<p>第一步，登录容器，关闭所有运行中的任务</p>
+<p>第二步，登录运行容器的服务器，然后执行：</p>
 <pre tabindex="0"><code>docker commit CONTAINER_NAME django_lesson:1.1  # 将容器保存成镜像，将CONTAINER_NAME替换成容器名称
 docker stop CONTAINER_NAME # 关闭容器
 docker rm CONTAINER_NAME # 删除容器
-</code></pre>]]></content:encoded>
+</code></pre><h3 id="增加容器的映射端口--80-与-443">增加容器的映射端口 : 80 与 443</h3>
+<blockquote>
+<p><strong>给运行中的容器，开通端口，是一件非常麻烦的事情</strong></p>
+<p><strong>一个比较好的解决方案 : 先把容器保存成镜像，再删掉容器，然后用镜像生成新的容器，同时打开需要的端口</strong></p>
+</blockquote>
+<p>第一步，登录容器，关闭所有运行中的任务</p>
+<p>第二步，登录运行容器的服务器，然后执行 :</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker commit CONTAINER_NAME django_lesson:1.1  <span style="color:#007f7f"># 将容器保存成镜像，将CONTAINER_NAME替换成容器名称</span>
+</span></span><span style="display:flex;"><span>docker stop CONTAINER_NAME  <span style="color:#007f7f"># 关闭容器</span>
+</span></span><span style="display:flex;"><span>docker rm CONTAINER_NAME <span style="color:#007f7f"># 删除容器</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#007f7f"># 使用保存的镜像重新创建容器</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>docker run -p 20000:22 -p 8000:8000 -p 80:80 -p 443:443 --name CONTAINER_NAME -itd django_lesson:1.1
+</span></span></code></pre></div><p>第三步，去云服务器控制台，在安全组配置中开放80和443端口</p>
+]]></content:encoded>
     </item>
     
   </channel>
