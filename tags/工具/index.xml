@@ -6,7 +6,39 @@
     <description>Recent content in 工具 on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 17 Oct 2022 12:55:47 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Oct 2022 15:28:22 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>构建你的数字花园</title>
+      <link>https://xancoding.cn/posts/digitalgarden/</link>
+      <pubDate>Sun, 30 Oct 2022 15:28:22 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/digitalgarden/</guid>
+      <description>&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.yuque.com/&#34;&gt;语雀&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/384309878/answer/2713962647&#34;&gt;什么是 Zettelkasten 卡片盒笔记法？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA5MzUzODA1OA==&amp;amp;mid=2247483947&amp;amp;idx=1&amp;amp;sn=2cccb76ee58ddd11541d91c4b283b594&amp;amp;chksm=905d104ea72a9958d71c70313d5a4799641aa903e62f32ac1038ec5fb8c903fc7db36c261d26&amp;amp;scene=178&amp;amp;cur_album_id=1477367917246726144#rd&#34;&gt;卢曼：与卡片盒交流&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/my-notes-taking-tools-and-experience/&#34;&gt;我的知识管理工具和经验&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/obsidian-for-programmer/&#34;&gt;我的 Obsidian 使用经验&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/477825203/channel/collectiondetail?sid=365656&#34;&gt;程序员的喵喵 | Obsidian 使用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Di4y1y7df/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=03fea8b80d1864616f56adac92aa2617&#34;&gt;【中文字幕】Zettelkasten笔记系统的搭建 | 手把手教学 | Zettelkasten in Obsidian&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="推荐阅读">推荐阅读</h1>
+<ul>
+<li><a href="https://obsidian.md/">Obsidian</a> </li>
+<li><a href="https://www.yuque.com/">语雀</a></li>
+<li><a href="https://www.zhihu.com/question/384309878/answer/2713962647">什么是 Zettelkasten 卡片盒笔记法？</a></li>
+<li><a href="https://mp.weixin.qq.com/s?__biz=MzA5MzUzODA1OA==&amp;mid=2247483947&amp;idx=1&amp;sn=2cccb76ee58ddd11541d91c4b283b594&amp;chksm=905d104ea72a9958d71c70313d5a4799641aa903e62f32ac1038ec5fb8c903fc7db36c261d26&amp;scene=178&amp;cur_album_id=1477367917246726144#rd">卢曼：与卡片盒交流</a></li>
+<li><a href="https://catcoding.me/p/my-notes-taking-tools-and-experience/">我的知识管理工具和经验</a></li>
+<li><a href="https://catcoding.me/p/obsidian-for-programmer/">我的 Obsidian 使用经验</a></li>
+<li><a href="https://space.bilibili.com/477825203/channel/collectiondetail?sid=365656">程序员的喵喵 | Obsidian 使用</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Di4y1y7df/?spm_id_from=333.337.search-card.all.click&amp;vd_source=03fea8b80d1864616f56adac92aa2617">【中文字幕】Zettelkasten笔记系统的搭建 | 手把手教学 | Zettelkasten in Obsidian</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>正则表达式学习记</title>
       <link>https://xancoding.cn/posts/regularexpression/</link>

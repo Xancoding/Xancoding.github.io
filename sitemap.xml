@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://xancoding.cn/tags/life/</loc>
+    <lastmod>2022-10-30T15:28:22+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/posts/</loc>
+    <lastmod>2022-10-30T15:28:22+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/tags/</loc>
+    <lastmod>2022-10-30T15:28:22+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/</loc>
+    <lastmod>2022-10-30T15:28:22+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2022-10-30T15:28:22+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/posts/digitalgarden/</loc>
+    <lastmod>2022-10-30T15:28:22+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2022-10-30T15:28:22+08:00</lastmod>
+  </url><url>
     <loc>https://xancoding.cn/tags/acwing/</loc>
     <lastmod>2022-10-29T18:23:59+08:00</lastmod>
   </url><url>
@@ -11,16 +32,7 @@
     <loc>https://xancoding.cn/tags/django/</loc>
     <lastmod>2022-10-29T18:23:59+08:00</lastmod>
   </url><url>
-    <loc>https://xancoding.cn/posts/</loc>
-    <lastmod>2022-10-29T18:23:59+08:00</lastmod>
-  </url><url>
-    <loc>https://xancoding.cn/tags/</loc>
-    <lastmod>2022-10-29T18:23:59+08:00</lastmod>
-  </url><url>
     <loc>https://xancoding.cn/tags/tech/</loc>
-    <lastmod>2022-10-29T18:23:59+08:00</lastmod>
-  </url><url>
-    <loc>https://xancoding.cn/</loc>
     <lastmod>2022-10-29T18:23:59+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.cn/tags/%E6%96%B0%E6%8A%80%E8%83%BD/</loc>
@@ -41,13 +53,7 @@
     <loc>https://xancoding.cn/posts/datastructuresandalgorithms/</loc>
     <lastmod>2022-10-18T17:16:53+08:00</lastmod>
   </url><url>
-    <loc>https://xancoding.cn/tags/life/</loc>
-    <lastmod>2022-10-17T12:55:47+08:00</lastmod>
-  </url><url>
     <loc>https://xancoding.cn/tags/productivity/</loc>
-    <lastmod>2022-10-17T12:55:47+08:00</lastmod>
-  </url><url>
-    <loc>https://xancoding.cn/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-10-17T12:55:47+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.cn/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</loc>
