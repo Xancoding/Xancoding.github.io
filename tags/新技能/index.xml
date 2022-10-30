@@ -1185,8 +1185,13 @@ echo &amp;#34;yes&amp;#34; | python3 manage.py collectstatic
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/blog/content/12373/&#34;&gt;6.1 用户名密码登录 | 讲义&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/solution/content/79314/&#34;&gt;6.1 上课笔记 | Andrew1729&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/solution/content/75831/&#34;&gt;6.1 上课笔记 | 吃饱喝足不学习&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+&lt;h3 id=&#34;客户端请求与django响应流程&#34;&gt;客户端请求与Django响应流程&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;用户在客户端通过&lt;code&gt;$.ajax&lt;/code&gt;发送请求，根据&lt;code&gt;urls&lt;/code&gt;路由到对应的&lt;code&gt;views&lt;/code&gt;中的函数，处理&lt;code&gt;request&lt;/code&gt;后返回&lt;code&gt;JsonResponse&lt;/code&gt; 至客户端&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;前期准备工作&#34;&gt;前期准备工作&lt;/h3&gt;
 &lt;p&gt;做开发，先开启调试模式，如果不开启，服务器一旦运行错误，就只返回 &lt;code&gt;Error&lt;/code&gt; 报错
 &lt;code&gt;settings.py&lt;/code&gt;&lt;/p&gt;
@@ -1985,12 +1990,32 @@ In [13]:
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/blog/content/12466/&#34;&gt;6.2 Web端AcWing一键登录 | 讲义&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/solution/content/79354/&#34;&gt;6.2 上课笔记 | Andrew1729&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/video/3565/&#34;&gt;6.2 Web端AcWing一键登录 | Vedio&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Oauth2一键授权登录的基本原理&lt;/strong&gt;：$17m30s——29m15s——32m51s$&lt;/li&gt;
+&lt;li&gt;数据表添加&lt;code&gt;openid&lt;/code&gt;信息：$33m20s——34m47s$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Oauth2一键授权登录的代码实现&lt;/strong&gt;：$35m20s——1h25s——1h27m20s$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;用户点击&lt;code&gt;AcWing一键登录&lt;/code&gt;，通过&lt;code&gt;urls &amp;amp; views&lt;/code&gt;调用&lt;code&gt;apply_code&lt;/code&gt;函数，将&lt;code&gt;state&lt;/code&gt;放到&lt;code&gt;redis&lt;/code&gt;中，将&lt;code&gt;appid &amp;amp; redirect_uri &amp;amp; scope &amp;amp; state&lt;/code&gt; 传入&lt;code&gt;apply_code_url&lt;/code&gt;链接，返回并重定向至&lt;code&gt;apply_code_url&lt;/code&gt;向用户询问是否授权&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;用户点击&lt;code&gt;同意&lt;/code&gt;后，重定向至&lt;code&gt;redirect_uri&lt;/code&gt;链接，返回参数为&lt;code&gt;code&lt;/code&gt;和&lt;code&gt;state&lt;/code&gt;，通过&lt;code&gt;urls &amp;amp; views&lt;/code&gt;调用&lt;code&gt;receive_code&lt;/code&gt;函数&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;若验证&lt;code&gt;state&lt;/code&gt;失败，直接重定向至初始界面&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;若验证&lt;code&gt;state&lt;/code&gt;成功，将&lt;code&gt;appid &amp;amp; code &amp;amp; secret&lt;/code&gt;发送至&lt;code&gt;AcWing服务器&lt;/code&gt;，申请授权令牌&lt;code&gt;access_token&lt;/code&gt;和用户的&lt;code&gt;openid&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;若申请令牌成功，将&lt;code&gt;access_token &amp;amp; openid&lt;/code&gt;发送至&lt;code&gt;AcWing服务器&lt;/code&gt;，得到用户信息，创建并登录用户，最后重定向至初始界面&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;acapp端acwing一键登录ஐ&#34;&gt;AcApp端AcWing一键登录ஐ&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/blog/content/12467/&#34;&gt;6.3 AcApp端AcWing一键登录 | 讲义&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/solution/content/79365/&#34;&gt;6.3 上课笔记 | Andrew1729&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/video/3566/&#34;&gt;6.3 Acapp端AcWing一键登录 | Vedio&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Oauth2一键授权登录的基本原理&lt;/strong&gt;：$10m——12m20s——16m35s——18m$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Oauth2一键授权登录的代码实现&lt;/strong&gt;：$19m25s——21m——23m25s——34m29s——42m10s$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;实现联机对战ஐ&#34;&gt;实现联机对战ஐ&lt;/h1&gt;
@@ -5065,8 +5090,13 @@ echo &#34;yes&#34; | python3 manage.py collectstatic
 <ul>
 <li><a href="https://www.acwing.com/blog/content/12373/">6.1 用户名密码登录 | 讲义</a></li>
 <li><a href="https://www.acwing.com/solution/content/79314/">6.1 上课笔记 | Andrew1729</a></li>
+<li><a href="https://www.acwing.com/solution/content/75831/">6.1 上课笔记 | 吃饱喝足不学习</a></li>
 </ul>
 <hr>
+<h3 id="客户端请求与django响应流程">客户端请求与Django响应流程</h3>
+<blockquote>
+<p><strong>用户在客户端通过<code>$.ajax</code>发送请求，根据<code>urls</code>路由到对应的<code>views</code>中的函数，处理<code>request</code>后返回<code>JsonResponse</code> 至客户端</strong></p>
+</blockquote>
 <h3 id="前期准备工作">前期准备工作</h3>
 <p>做开发，先开启调试模式，如果不开启，服务器一旦运行错误，就只返回 <code>Error</code> 报错
 <code>settings.py</code></p>
@@ -5865,12 +5895,32 @@ In [13]:
 <ul>
 <li><a href="https://www.acwing.com/blog/content/12466/">6.2 Web端AcWing一键登录 | 讲义</a></li>
 <li><a href="https://www.acwing.com/solution/content/79354/">6.2 上课笔记 | Andrew1729</a></li>
+<li><a href="https://www.acwing.com/video/3565/">6.2 Web端AcWing一键登录 | Vedio</a>
+<ol>
+<li><strong>Oauth2一键授权登录的基本原理</strong>：$17m30s——29m15s——32m51s$</li>
+<li>数据表添加<code>openid</code>信息：$33m20s——34m47s$</li>
+<li><strong>Oauth2一键授权登录的代码实现</strong>：$35m20s——1h25s——1h27m20s$</li>
+</ol>
+</li>
 </ul>
 <hr>
+<blockquote>
+<p><strong>用户点击<code>AcWing一键登录</code>，通过<code>urls &amp; views</code>调用<code>apply_code</code>函数，将<code>state</code>放到<code>redis</code>中，将<code>appid &amp; redirect_uri &amp; scope &amp; state</code> 传入<code>apply_code_url</code>链接，返回并重定向至<code>apply_code_url</code>向用户询问是否授权</strong></p>
+<p><strong>用户点击<code>同意</code>后，重定向至<code>redirect_uri</code>链接，返回参数为<code>code</code>和<code>state</code>，通过<code>urls &amp; views</code>调用<code>receive_code</code>函数</strong></p>
+<p><strong>若验证<code>state</code>失败，直接重定向至初始界面</strong></p>
+<p><strong>若验证<code>state</code>成功，将<code>appid &amp; code &amp; secret</code>发送至<code>AcWing服务器</code>，申请授权令牌<code>access_token</code>和用户的<code>openid</code></strong></p>
+<p><strong>若申请令牌成功，将<code>access_token &amp; openid</code>发送至<code>AcWing服务器</code>，得到用户信息，创建并登录用户，最后重定向至初始界面</strong></p>
+</blockquote>
 <h2 id="acapp端acwing一键登录ஐ">AcApp端AcWing一键登录ஐ</h2>
 <ul>
 <li><a href="https://www.acwing.com/blog/content/12467/">6.3 AcApp端AcWing一键登录 | 讲义</a></li>
 <li><a href="https://www.acwing.com/solution/content/79365/">6.3 上课笔记 | Andrew1729</a></li>
+<li><a href="https://www.acwing.com/video/3566/">6.3 Acapp端AcWing一键登录 | Vedio</a>
+<ol>
+<li><strong>Oauth2一键授权登录的基本原理</strong>：$10m——12m20s——16m35s——18m$</li>
+<li><strong>Oauth2一键授权登录的代码实现</strong>：$19m25s——21m——23m25s——34m29s——42m10s$</li>
+</ol>
+</li>
 </ul>
 <hr>
 <h1 id="实现联机对战ஐ">实现联机对战ஐ</h1>
