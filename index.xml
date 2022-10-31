@@ -7990,10 +7990,14 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;/ul&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://deerchao.cn/tutorials/regex/regex.htm&#34;&gt;正则表达式30分钟入门教程&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://regexper.com/&#34;&gt;JS 正则可视化 - 工具&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://deerchao.cn/&#34;&gt;超越代码 - 工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jex.im/regulex/#!flags=&amp;amp;re=%5E(a%7Cb)*%3F%24&#34;&gt;Regulex&lt;/a&gt; 正则可视化工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://regexper.com/&#34;&gt;Regexper&lt;/a&gt; 正则可视化工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wangwl.net/r/vr&#34;&gt;正则可视化&lt;/a&gt; 正则可视化工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://regex101.com/&#34;&gt;regex101&lt;/a&gt; 在线正则测试工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://npm.runkit.com/regexgen&#34;&gt;regexgen&lt;/a&gt; 生成与一组字符串匹配的正则表达式&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://any86.github.io/any-rule&#34;&gt;any-rule&lt;/a&gt; 正则大全&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sspai.com/post/60650&#34;&gt;多种实际使用场景，正则表达式带来丰富可能性&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://deerchao.cn/tutorials/regex/regex.htm&#34;&gt;正则表达式30分钟入门教程&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26285406/&#34;&gt;《正则表达式必知必会》&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/2154713/&#34;&gt;《精通正则表达式》&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -8015,10 +8019,14 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 </ul>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
-<li><a href="https://deerchao.cn/tutorials/regex/regex.htm">正则表达式30分钟入门教程</a></li>
-<li><a href="https://regexper.com/">JS 正则可视化 - 工具</a></li>
-<li><a href="https://deerchao.cn/">超越代码 - 工具</a></li>
+<li><a href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">Regulex</a> 正则可视化工具</li>
+<li><a href="https://regexper.com/">Regexper</a> 正则可视化工具</li>
+<li><a href="https://wangwl.net/r/vr">正则可视化</a> 正则可视化工具</li>
+<li><a href="https://regex101.com/">regex101</a> 在线正则测试工具</li>
+<li><a href="https://npm.runkit.com/regexgen">regexgen</a> 生成与一组字符串匹配的正则表达式</li>
+<li><a href="https://any86.github.io/any-rule">any-rule</a> 正则大全</li>
 <li><a href="https://sspai.com/post/60650">多种实际使用场景，正则表达式带来丰富可能性</a></li>
+<li><a href="https://deerchao.cn/tutorials/regex/regex.htm">正则表达式30分钟入门教程</a></li>
 <li><a href="https://book.douban.com/subject/26285406/">《正则表达式必知必会》</a></li>
 <li><a href="https://book.douban.com/subject/2154713/">《精通正则表达式》</a></li>
 </ul>
@@ -10672,6 +10680,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;p&gt;最后的最后，一定记得要&lt;strong&gt;对自己的能力做一个合理的预期&lt;/strong&gt;，你每周工作40小时并不意味着你能完成80个番茄钟。找到适合你的番茄钟数量，过度的加量会适得其反。&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://todo.evestudio.cn/&#34;&gt;Todo清单&lt;/a&gt; 一款跨平台待办事项与时间管理应用&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/468627225?utm_campaign=shareopn&amp;amp;utm_medium=social&amp;amp;utm_oi=1205113084614000640&amp;amp;utm_psn=1564268556828737536&amp;amp;utm_source=wechat_session&#34;&gt;如何用Todo清单度过余生的每一天？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://geekplux.com/posts/farewell_social_network&#34;&gt;告别社交网络有多难&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://geekplux.com/newsletters/28&#34;&gt;社交网络名存实亡&lt;/a&gt;&lt;/li&gt;
@@ -10710,6 +10719,7 @@ docker rm CONTAINER_NAME # 删除容器
 <p>最后的最后，一定记得要<strong>对自己的能力做一个合理的预期</strong>，你每周工作40小时并不意味着你能完成80个番茄钟。找到适合你的番茄钟数量，过度的加量会适得其反。</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
+<li><a href="https://todo.evestudio.cn/">Todo清单</a> 一款跨平台待办事项与时间管理应用</li>
 <li><a href="https://zhuanlan.zhihu.com/p/468627225?utm_campaign=shareopn&amp;utm_medium=social&amp;utm_oi=1205113084614000640&amp;utm_psn=1564268556828737536&amp;utm_source=wechat_session">如何用Todo清单度过余生的每一天？</a></li>
 <li><a href="https://geekplux.com/posts/farewell_social_network">告别社交网络有多难</a></li>
 <li><a href="https://geekplux.com/newsletters/28">社交网络名存实亡</a></li>
@@ -10751,6 +10761,27 @@ docker rm CONTAINER_NAME # 删除容器
 
 &lt;/p&gt;
 &lt;p&gt;我使用RSS主要用来订阅我感兴趣的个人博客，我订阅的博客网站在 &lt;code&gt;Links&lt;/code&gt; 页面下的 &lt;strong&gt;博客&lt;/strong&gt; 那一栏。&lt;/p&gt;
+&lt;h1 id=&#34;播客&#34;&gt;播客&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;小宇宙&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;播客也是一个很好的信息源，可以在做一些不用🧠的事时听。我的使用场景通常是在吃饭或是上下课的路上。我使用的播客软件是&lt;a href=&#34;https://www.xiaoyuzhoufm.com/&#34;&gt;小宇宙&lt;/a&gt;，体验不错。&lt;/p&gt;
+&lt;h1 id=&#34;书籍&#34;&gt;书籍&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Neat Reader &amp;amp; Sumatra PDF &amp;amp; Z-Library &amp;amp; LoreFree &amp;amp; 学校图书馆&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;读书，是治愈迷茫最好的良药。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Neat Reader&lt;/code&gt; 是一款&lt;code&gt;EPUB&lt;/code&gt;阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 &lt;a href=&#34;https://zh.z-lib.org/&#34;&gt;Z-Library&lt;/a&gt; or &lt;a href=&#34;https://lorefree.com/&#34;&gt;LoreFree&lt;/a&gt; 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 &lt;a href=&#34;https://www.neat-reader.com/&#34;&gt;Neat Reader&lt;/a&gt; 阅读。&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1cf8284ec.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/10/30/635e1cf8284ec.png&#34; alt=&#34;neatReader&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 &lt;a href=&#34;https://www.sumatrapdfreader.org/free-pdf-reader&#34;&gt;Sumatra PDF&lt;/a&gt; 上阅读&lt;/p&gt;
+&lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看。&lt;/p&gt;
 &lt;h1 id=&#34;搜索引擎&#34;&gt;搜索引擎&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Google &amp;amp; AdblockPlus &amp;amp; uBlacklist&lt;/code&gt;&lt;/li&gt;
@@ -10806,22 +10837,6 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h1 id=&#34;书籍&#34;&gt;书籍&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Neat Reader &amp;amp; Sumatra PDF &amp;amp; Z-Library &amp;amp; LoreFree &amp;amp; 学校图书馆&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;读书，是治愈迷茫最好的良药。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Neat Reader&lt;/code&gt; 是一款&lt;code&gt;EPUB&lt;/code&gt;阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 &lt;a href=&#34;https://zh.z-lib.org/&#34;&gt;Z-Library&lt;/a&gt; or &lt;a href=&#34;https://lorefree.com/&#34;&gt;LoreFree&lt;/a&gt; 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 &lt;a href=&#34;https://www.neat-reader.com/&#34;&gt;Neat Reader&lt;/a&gt; 阅读。&lt;/p&gt;
-&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1cf8284ec.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2022/10/30/635e1cf8284ec.png&#34; alt=&#34;neatReader&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;p&gt;如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 &lt;a href=&#34;https://www.sumatrapdfreader.org/free-pdf-reader&#34;&gt;Sumatra PDF&lt;/a&gt; 上阅读&lt;/p&gt;
-&lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看。&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -10873,6 +10888,27 @@ docker rm CONTAINER_NAME # 删除容器
 
 </p>
 <p>我使用RSS主要用来订阅我感兴趣的个人博客，我订阅的博客网站在 <code>Links</code> 页面下的 <strong>博客</strong> 那一栏。</p>
+<h1 id="播客">播客</h1>
+<ul>
+<li><code>小宇宙</code></li>
+</ul>
+<p>播客也是一个很好的信息源，可以在做一些不用🧠的事时听。我的使用场景通常是在吃饭或是上下课的路上。我使用的播客软件是<a href="https://www.xiaoyuzhoufm.com/">小宇宙</a>，体验不错。</p>
+<h1 id="书籍">书籍</h1>
+<ul>
+<li><code>Neat Reader &amp; Sumatra PDF &amp; Z-Library &amp; LoreFree &amp; 学校图书馆</code></li>
+</ul>
+<p><strong>读书，是治愈迷茫最好的良药。</strong></p>
+<p><code>Neat Reader</code> 是一款<code>EPUB</code>阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 <a href="https://zh.z-lib.org/">Z-Library</a> or <a href="https://lorefree.com/">LoreFree</a> 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 <a href="https://www.neat-reader.com/">Neat Reader</a> 阅读。</p>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1cf8284ec.png">
+<img src="https://bu.dusays.com/2022/10/30/635e1cf8284ec.png" alt="neatReader"  />
+</a>
+</div>
+
+</p>
+<p>如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 <a href="https://www.sumatrapdfreader.org/free-pdf-reader">Sumatra PDF</a> 上阅读</p>
+<p>不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看。</p>
 <h1 id="搜索引擎">搜索引擎</h1>
 <ul>
 <li><code>Google &amp; AdblockPlus &amp; uBlacklist</code></li>
@@ -10928,22 +10964,6 @@ docker rm CONTAINER_NAME # 删除容器
 </div>
 
 </p>
-<h1 id="书籍">书籍</h1>
-<ul>
-<li><code>Neat Reader &amp; Sumatra PDF &amp; Z-Library &amp; LoreFree &amp; 学校图书馆</code></li>
-</ul>
-<p><strong>读书，是治愈迷茫最好的良药。</strong></p>
-<p><code>Neat Reader</code> 是一款<code>EPUB</code>阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 <a href="https://zh.z-lib.org/">Z-Library</a> or <a href="https://lorefree.com/">LoreFree</a> 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 <a href="https://www.neat-reader.com/">Neat Reader</a> 阅读。</p>
-<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1cf8284ec.png">
-<img src="https://bu.dusays.com/2022/10/30/635e1cf8284ec.png" alt="neatReader"  />
-</a>
-</div>
-
-</p>
-<p>如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 <a href="https://www.sumatrapdfreader.org/free-pdf-reader">Sumatra PDF</a> 上阅读</p>
-<p>不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看。</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li>
@@ -11023,7 +11043,7 @@ docker rm CONTAINER_NAME # 删除容器
       <guid>https://xancoding.cn/about/</guid>
       <description>&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
 &lt;p&gt;𝑯𝒊, 𝑰&amp;rsquo;𝒎 ✨ &lt;a href=&#34;https://xancoding.cn/&#34;&gt;𝐗𝐚𝐧&lt;/a&gt; ✨,𝐚 𝐂𝐒 𝐬𝐭𝐮𝐝𝐞𝐧𝐭 𝐟𝐫𝐨𝐦 𝐍𝐂𝐄𝐏𝐔.&lt;/br&gt;&lt;/br&gt;
-𝐌𝐲 ❤ 𝐡𝐨𝐛𝐛𝐢𝐞𝐬 ❤ 𝐚𝐫𝐞 𝐑𝐮𝐧𝐧𝐢𝐧𝐠, 𝐇𝐢𝐤𝐢𝐧𝐠 𝐚𝐧𝐝 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲.&lt;/p&gt;
+𝐌𝐲 ❤ 𝐡𝐨𝐛𝐛𝐢𝐞𝐬 ❤ 𝐚𝐫𝐞 𝐑𝐮𝐧𝐧𝐢𝐧𝐠, 𝐇𝐢𝐤𝐢𝐧𝐠, 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲, 𝐇𝐢𝐬𝐭𝐨𝐫𝐲 𝐚𝐧𝐝 𝐏𝐬𝐲𝐜𝐡𝐨𝐥𝐨𝐠𝐲.&lt;/p&gt;
 &lt;h1 id=&#34;projects&#34;&gt;Projects&lt;/h1&gt;
 &lt;h2 id=&#34;bloghttpsgithubcomxancodingblog&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/Blog&#34;&gt;Blog&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;搭建工具&#34;&gt;搭建工具&lt;/h3&gt;
@@ -11058,7 +11078,7 @@ docker rm CONTAINER_NAME # 删除容器
 </description>
       <content:encoded><![CDATA[<h1 id="about-me">About me</h1>
 <p>𝑯𝒊, 𝑰&rsquo;𝒎 ✨ <a href="https://xancoding.cn/">𝐗𝐚𝐧</a> ✨,𝐚 𝐂𝐒 𝐬𝐭𝐮𝐝𝐞𝐧𝐭 𝐟𝐫𝐨𝐦 𝐍𝐂𝐄𝐏𝐔.</br></br>
-𝐌𝐲 ❤ 𝐡𝐨𝐛𝐛𝐢𝐞𝐬 ❤ 𝐚𝐫𝐞 𝐑𝐮𝐧𝐧𝐢𝐧𝐠, 𝐇𝐢𝐤𝐢𝐧𝐠 𝐚𝐧𝐝 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲.</p>
+𝐌𝐲 ❤ 𝐡𝐨𝐛𝐛𝐢𝐞𝐬 ❤ 𝐚𝐫𝐞 𝐑𝐮𝐧𝐧𝐢𝐧𝐠, 𝐇𝐢𝐤𝐢𝐧𝐠, 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲, 𝐇𝐢𝐬𝐭𝐨𝐫𝐲 𝐚𝐧𝐝 𝐏𝐬𝐲𝐜𝐡𝐨𝐥𝐨𝐠𝐲.</p>
 <h1 id="projects">Projects</h1>
 <h2 id="bloghttpsgithubcomxancodingblog"><a href="https://github.com/Xancoding/Blog">Blog</a></h2>
 <h3 id="搭建工具">搭建工具</h3>
@@ -11099,7 +11119,7 @@ docker rm CONTAINER_NAME # 删除容器
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://xancoding.cn/links/</guid>
-      <description>&lt;h1 id=&#34;博客&#34;&gt;博客&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;blogs&#34;&gt;Blogs&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.owenyoung.com/&#34;&gt;Owen 的博客&lt;/a&gt;
 &lt;ul&gt;
@@ -11121,45 +11141,20 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;社区&#34;&gt;社区&lt;/h1&gt;
+&lt;h1 id=&#34;community&#34;&gt;Community&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://meta.appinn.net/&#34;&gt;小众软件论坛&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.v2ex.com/&#34;&gt;V2EX&lt;/a&gt; 面向程序员、极客人群的分享交流社区&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.com/&#34;&gt;Medium&lt;/a&gt; 网络文章发布平台 文章质量高&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.buzzing.cc/&#34;&gt;Buzzing&lt;/a&gt; 国外社交媒体聚合热榜 中文标题&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/&#34;&gt;HackerNews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/&#34;&gt;HackerNews&lt;/a&gt; 技术热点话题 新闻社区&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://meta.appinn.net/&#34;&gt;小众软件论坛&lt;/a&gt; 分享免费、小巧、有趣、实用软件&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;工具&#34;&gt;工具&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://todo.evestudio.cn/&#34;&gt;Todo清单&lt;/a&gt; 一款跨平台待办事项与时间管理应用&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; 知识管理工具&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://hcfy.app/&#34;&gt;划词翻译&lt;/a&gt; 浏览器翻译插件&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/&#34;&gt;Spotify&lt;/a&gt; 流媒体音乐服务平台&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://notes.fe-mm.com/software/cross-platform.html&#34;&gt;软件推荐 | 茂茂物语 (fe-mm.com)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;学习&#34;&gt;学习&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/&#34;&gt;CS自学指南&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://xiaolincoding.com/&#34;&gt;小林 x 图解计算机基础&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;文章&#34;&gt;文章&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://addyosmani.com/blog/software-engineering-soft-parts/&#34;&gt;Software Engineering - The Soft Parts&lt;/a&gt; 软件开发中的软技能&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sideproject.guide/&#34;&gt;Side Project 指南&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;资源&#34;&gt;资源&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://resource.1kbtool.com/&#34;&gt;&lt;strong&gt;Source&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;edit&#34;&gt;Edit&lt;/h2&gt;
+&lt;h1 id=&#34;tools&#34;&gt;Tools&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://exercism.org/tracks&#34;&gt;&lt;strong&gt;Exercism&lt;/strong&gt;&lt;/a&gt; 在线练习编程语言&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;art&#34;&gt;Art&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://excalidraw.com/&#34;&gt;&lt;strong&gt;Excalidraw&lt;/strong&gt;&lt;/a&gt; 在线白板画图工具&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gallerix.asia/&#34;&gt;Gallerix&lt;/a&gt; 绘画和画家&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://mani-unsplash-clone.netlify.app/&#34;&gt;Unsplash&lt;/a&gt; 无版权图片&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dute.org/weird-fonts&#34;&gt;怪异英文生成器&lt;/a&gt; 生成比较好看的英文字体，支持复制粘贴&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.processon.com/&#34;&gt;ProcessOn&lt;/a&gt; 免费在线流程图思维导图&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://excalidraw.com/&#34;&gt;Excalidraw&lt;/a&gt; 手绘风格流程图&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://colorhunt.co/&#34;&gt;Color Hunt&lt;/a&gt; 设计师和艺术家的调色板&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://game-icons.net/&#34;&gt;Game-icons&lt;/a&gt; 游戏图标在线存储库&lt;/li&gt;
 &lt;/ul&gt;
@@ -11185,17 +11180,14 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Mi4y117Zc/?spm_id_from=333.999.0.0&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;两步路使用教学｜烛逢&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;两步路路网&#34;&gt;两步路路网&lt;/h2&gt;
+&lt;li&gt;
+&lt;p&gt;两步路路网&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;下载豌豆荚&lt;/li&gt;
 &lt;li&gt;在豌豆荚中搜索两步路，下载 v6.7.2版本&lt;/li&gt;
 &lt;li&gt;在应用商店中关闭自动更新&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;沉浸式登山&#34;&gt;沉浸式登山&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/480567097/?spm_id_from=333.999.0.0&#34;&gt;Mew_喵喵&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/441981477/?spm_id_from=333.999.0.0&#34;&gt;秘密仙人掌&lt;/a&gt;&lt;/li&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;登山装备清单&#34;&gt;登山装备清单&lt;/h2&gt;
 &lt;p&gt;
@@ -11206,28 +11198,29 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h1 id=&#34;run&#34;&gt;Run&lt;/h1&gt;
-&lt;h2 id=&#34;衣物穿脱&#34;&gt;衣物穿脱&lt;/h2&gt;
-&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1c526b4a9.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2022/10/30/635e1c526b4a9.jpg&#34; alt=&#34;RunningOnAndOff&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;div style=&#34;font-size:14px;color:#C0C0C0;text-decoration:underline&#34;&gt;图片来自于知乎博主@阿甘跑步，版权归原作者所有&lt;/div&gt; 
-&lt;h2 id=&#34;配速表&#34;&gt;配速表&lt;/h2&gt;
-&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1c54eebbc.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2022/10/30/635e1c54eebbc.jpg&#34; alt=&#34;speedTable&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
+&lt;h1 id=&#34;b站up主&#34;&gt;B站UP主&lt;/h1&gt;
+&lt;h2 id=&#34;history&#34;&gt;History&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/1103935173?spm_id_from=333.337.0.0&#34;&gt;集思屋&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/7481602?spm_id_from=333.337.0.0&#34;&gt;安州牧&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/10698584?spm_id_from=333.337.0.0&#34;&gt;唠点历史&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/23947287/?spm_id_from=333.999.0.0&#34;&gt;小约翰可汗&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/519872016/?spm_id_from=333.999.0.0&#34;&gt;历史调研室&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;outdoor-1&#34;&gt;Outdoor&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/5682935&#34;&gt;登山者Black&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/480567097/?spm_id_from=333.999.0.0&#34;&gt;Mew_喵喵&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/441981477/?spm_id_from=333.999.0.0&#34;&gt;秘密仙人掌&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;cartoon&#34;&gt;Cartoon&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/357261525?spm_id_from=333.337.0.0&#34;&gt;安迪视频&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/488779255?spm_id_from=333.337.search-card.all.click&#34;&gt;动漫作业本&lt;/a&gt; 海贼王&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/19258940/?spm_id_from=333.999.0.0&#34;&gt;chissy&lt;/a&gt; 探险活宝&lt;/li&gt;
+&lt;/ol&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="博客">博客</h1>
+      <content:encoded><![CDATA[<h1 id="blogs">Blogs</h1>
 <ul>
 <li><a href="https://www.owenyoung.com/">Owen 的博客</a>
 <ul>
@@ -11249,45 +11242,20 @@ docker rm CONTAINER_NAME # 删除容器
 </ul>
 </li>
 </ul>
-<h1 id="社区">社区</h1>
+<h1 id="community">Community</h1>
 <ul>
-<li><a href="https://meta.appinn.net/">小众软件论坛</a></li>
 <li><a href="https://www.v2ex.com/">V2EX</a> 面向程序员、极客人群的分享交流社区</li>
 <li><a href="https://medium.com/">Medium</a> 网络文章发布平台 文章质量高</li>
 <li><a href="https://www.buzzing.cc/">Buzzing</a> 国外社交媒体聚合热榜 中文标题</li>
-<li><a href="https://news.ycombinator.com/">HackerNews</a></li>
+<li><a href="https://news.ycombinator.com/">HackerNews</a> 技术热点话题 新闻社区</li>
+<li><a href="https://meta.appinn.net/">小众软件论坛</a> 分享免费、小巧、有趣、实用软件</li>
 </ul>
-<h1 id="工具">工具</h1>
-<ul>
-<li><a href="https://todo.evestudio.cn/">Todo清单</a> 一款跨平台待办事项与时间管理应用</li>
-<li><a href="https://obsidian.md/">Obsidian</a> 知识管理工具</li>
-<li><a href="https://hcfy.app/">划词翻译</a> 浏览器翻译插件</li>
-<li><a href="https://open.spotify.com/">Spotify</a> 流媒体音乐服务平台</li>
-<li><a href="https://notes.fe-mm.com/software/cross-platform.html">软件推荐 | 茂茂物语 (fe-mm.com)</a></li>
-</ul>
-<h1 id="学习">学习</h1>
-<ul>
-<li><a href="https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/">CS自学指南</a></li>
-<li><a href="https://xiaolincoding.com/">小林 x 图解计算机基础</a></li>
-</ul>
-<h1 id="文章">文章</h1>
-<ul>
-<li><a href="https://addyosmani.com/blog/software-engineering-soft-parts/">Software Engineering - The Soft Parts</a> 软件开发中的软技能</li>
-<li><a href="https://sideproject.guide/">Side Project 指南</a></li>
-</ul>
-<h1 id="资源">资源</h1>
-<ul>
-<li><a href="https://resource.1kbtool.com/"><strong>Source</strong></a></li>
-</ul>
-<h2 id="edit">Edit</h2>
+<h1 id="tools">Tools</h1>
 <ul>
 <li><a href="https://exercism.org/tracks"><strong>Exercism</strong></a> 在线练习编程语言</li>
-</ul>
-<h2 id="art">Art</h2>
-<ul>
-<li><a href="https://excalidraw.com/"><strong>Excalidraw</strong></a> 在线白板画图工具</li>
-<li><a href="https://gallerix.asia/">Gallerix</a> 绘画和画家</li>
-<li><a href="https://mani-unsplash-clone.netlify.app/">Unsplash</a> 无版权图片</li>
+<li><a href="https://www.dute.org/weird-fonts">怪异英文生成器</a> 生成比较好看的英文字体，支持复制粘贴</li>
+<li><a href="https://www.processon.com/">ProcessOn</a> 免费在线流程图思维导图</li>
+<li><a href="https://excalidraw.com/">Excalidraw</a> 手绘风格流程图</li>
 <li><a href="https://colorhunt.co/">Color Hunt</a> 设计师和艺术家的调色板</li>
 <li><a href="https://game-icons.net/">Game-icons</a> 游戏图标在线存储库</li>
 </ul>
@@ -11313,17 +11281,14 @@ docker rm CONTAINER_NAME # 删除容器
 <li><a href="https://www.bilibili.com/video/BV1Mi4y117Zc/?spm_id_from=333.999.0.0&amp;vd_source=ae16ff6478eb15c1b87880540263910b">两步路使用教学｜烛逢</a></li>
 </ul>
 </li>
-</ul>
-<h2 id="两步路路网">两步路路网</h2>
+<li>
+<p>两步路路网</p>
 <ol>
 <li>下载豌豆荚</li>
 <li>在豌豆荚中搜索两步路，下载 v6.7.2版本</li>
 <li>在应用商店中关闭自动更新</li>
 </ol>
-<h2 id="沉浸式登山">沉浸式登山</h2>
-<ul>
-<li><a href="https://space.bilibili.com/480567097/?spm_id_from=333.999.0.0">Mew_喵喵</a></li>
-<li><a href="https://space.bilibili.com/441981477/?spm_id_from=333.999.0.0">秘密仙人掌</a></li>
+</li>
 </ul>
 <h2 id="登山装备清单">登山装备清单</h2>
 <p>
@@ -11334,26 +11299,27 @@ docker rm CONTAINER_NAME # 删除容器
 </div>
 
 </p>
-<h1 id="run">Run</h1>
-<h2 id="衣物穿脱">衣物穿脱</h2>
-<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1c526b4a9.jpg">
-<img src="https://bu.dusays.com/2022/10/30/635e1c526b4a9.jpg" alt="RunningOnAndOff"  />
-</a>
-</div>
-
-</p>
-<div style="font-size:14px;color:#C0C0C0;text-decoration:underline">图片来自于知乎博主@阿甘跑步，版权归原作者所有</div> 
-<h2 id="配速表">配速表</h2>
-<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1c54eebbc.jpg">
-<img src="https://bu.dusays.com/2022/10/30/635e1c54eebbc.jpg" alt="speedTable"  />
-</a>
-</div>
-
-</p>
+<h1 id="b站up主">B站UP主</h1>
+<h2 id="history">History</h2>
+<ol>
+<li><a href="https://space.bilibili.com/1103935173?spm_id_from=333.337.0.0">集思屋</a></li>
+<li><a href="https://space.bilibili.com/7481602?spm_id_from=333.337.0.0">安州牧</a></li>
+<li><a href="https://space.bilibili.com/10698584?spm_id_from=333.337.0.0">唠点历史</a></li>
+<li><a href="https://space.bilibili.com/23947287/?spm_id_from=333.999.0.0">小约翰可汗</a></li>
+<li><a href="https://space.bilibili.com/519872016/?spm_id_from=333.999.0.0">历史调研室</a></li>
+</ol>
+<h2 id="outdoor-1">Outdoor</h2>
+<ol>
+<li><a href="https://space.bilibili.com/5682935">登山者Black</a></li>
+<li><a href="https://space.bilibili.com/480567097/?spm_id_from=333.999.0.0">Mew_喵喵</a></li>
+<li><a href="https://space.bilibili.com/441981477/?spm_id_from=333.999.0.0">秘密仙人掌</a></li>
+</ol>
+<h2 id="cartoon">Cartoon</h2>
+<ol>
+<li><a href="https://space.bilibili.com/357261525?spm_id_from=333.337.0.0">安迪视频</a></li>
+<li><a href="https://space.bilibili.com/488779255?spm_id_from=333.337.search-card.all.click">动漫作业本</a> 海贼王</li>
+<li><a href="https://space.bilibili.com/19258940/?spm_id_from=333.999.0.0">chissy</a> 探险活宝</li>
+</ol>
 ]]></content:encoded>
     </item>
     

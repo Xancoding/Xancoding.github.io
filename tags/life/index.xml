@@ -62,10 +62,14 @@
 &lt;/ul&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://deerchao.cn/tutorials/regex/regex.htm&#34;&gt;正则表达式30分钟入门教程&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://regexper.com/&#34;&gt;JS 正则可视化 - 工具&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://deerchao.cn/&#34;&gt;超越代码 - 工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jex.im/regulex/#!flags=&amp;amp;re=%5E(a%7Cb)*%3F%24&#34;&gt;Regulex&lt;/a&gt; 正则可视化工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://regexper.com/&#34;&gt;Regexper&lt;/a&gt; 正则可视化工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wangwl.net/r/vr&#34;&gt;正则可视化&lt;/a&gt; 正则可视化工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://regex101.com/&#34;&gt;regex101&lt;/a&gt; 在线正则测试工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://npm.runkit.com/regexgen&#34;&gt;regexgen&lt;/a&gt; 生成与一组字符串匹配的正则表达式&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://any86.github.io/any-rule&#34;&gt;any-rule&lt;/a&gt; 正则大全&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sspai.com/post/60650&#34;&gt;多种实际使用场景，正则表达式带来丰富可能性&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://deerchao.cn/tutorials/regex/regex.htm&#34;&gt;正则表达式30分钟入门教程&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26285406/&#34;&gt;《正则表达式必知必会》&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/2154713/&#34;&gt;《精通正则表达式》&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -87,10 +91,14 @@
 </ul>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
-<li><a href="https://deerchao.cn/tutorials/regex/regex.htm">正则表达式30分钟入门教程</a></li>
-<li><a href="https://regexper.com/">JS 正则可视化 - 工具</a></li>
-<li><a href="https://deerchao.cn/">超越代码 - 工具</a></li>
+<li><a href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">Regulex</a> 正则可视化工具</li>
+<li><a href="https://regexper.com/">Regexper</a> 正则可视化工具</li>
+<li><a href="https://wangwl.net/r/vr">正则可视化</a> 正则可视化工具</li>
+<li><a href="https://regex101.com/">regex101</a> 在线正则测试工具</li>
+<li><a href="https://npm.runkit.com/regexgen">regexgen</a> 生成与一组字符串匹配的正则表达式</li>
+<li><a href="https://any86.github.io/any-rule">any-rule</a> 正则大全</li>
 <li><a href="https://sspai.com/post/60650">多种实际使用场景，正则表达式带来丰富可能性</a></li>
+<li><a href="https://deerchao.cn/tutorials/regex/regex.htm">正则表达式30分钟入门教程</a></li>
 <li><a href="https://book.douban.com/subject/26285406/">《正则表达式必知必会》</a></li>
 <li><a href="https://book.douban.com/subject/2154713/">《精通正则表达式》</a></li>
 </ul>
@@ -342,6 +350,7 @@
 &lt;p&gt;最后的最后，一定记得要&lt;strong&gt;对自己的能力做一个合理的预期&lt;/strong&gt;，你每周工作40小时并不意味着你能完成80个番茄钟。找到适合你的番茄钟数量，过度的加量会适得其反。&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://todo.evestudio.cn/&#34;&gt;Todo清单&lt;/a&gt; 一款跨平台待办事项与时间管理应用&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/468627225?utm_campaign=shareopn&amp;amp;utm_medium=social&amp;amp;utm_oi=1205113084614000640&amp;amp;utm_psn=1564268556828737536&amp;amp;utm_source=wechat_session&#34;&gt;如何用Todo清单度过余生的每一天？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://geekplux.com/posts/farewell_social_network&#34;&gt;告别社交网络有多难&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://geekplux.com/newsletters/28&#34;&gt;社交网络名存实亡&lt;/a&gt;&lt;/li&gt;
@@ -380,6 +389,7 @@
 <p>最后的最后，一定记得要<strong>对自己的能力做一个合理的预期</strong>，你每周工作40小时并不意味着你能完成80个番茄钟。找到适合你的番茄钟数量，过度的加量会适得其反。</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
+<li><a href="https://todo.evestudio.cn/">Todo清单</a> 一款跨平台待办事项与时间管理应用</li>
 <li><a href="https://zhuanlan.zhihu.com/p/468627225?utm_campaign=shareopn&amp;utm_medium=social&amp;utm_oi=1205113084614000640&amp;utm_psn=1564268556828737536&amp;utm_source=wechat_session">如何用Todo清单度过余生的每一天？</a></li>
 <li><a href="https://geekplux.com/posts/farewell_social_network">告别社交网络有多难</a></li>
 <li><a href="https://geekplux.com/newsletters/28">社交网络名存实亡</a></li>

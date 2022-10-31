@@ -7990,10 +7990,14 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;/ul&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://deerchao.cn/tutorials/regex/regex.htm&#34;&gt;正则表达式30分钟入门教程&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://regexper.com/&#34;&gt;JS 正则可视化 - 工具&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://deerchao.cn/&#34;&gt;超越代码 - 工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jex.im/regulex/#!flags=&amp;amp;re=%5E(a%7Cb)*%3F%24&#34;&gt;Regulex&lt;/a&gt; 正则可视化工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://regexper.com/&#34;&gt;Regexper&lt;/a&gt; 正则可视化工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wangwl.net/r/vr&#34;&gt;正则可视化&lt;/a&gt; 正则可视化工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://regex101.com/&#34;&gt;regex101&lt;/a&gt; 在线正则测试工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://npm.runkit.com/regexgen&#34;&gt;regexgen&lt;/a&gt; 生成与一组字符串匹配的正则表达式&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://any86.github.io/any-rule&#34;&gt;any-rule&lt;/a&gt; 正则大全&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://sspai.com/post/60650&#34;&gt;多种实际使用场景，正则表达式带来丰富可能性&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://deerchao.cn/tutorials/regex/regex.htm&#34;&gt;正则表达式30分钟入门教程&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26285406/&#34;&gt;《正则表达式必知必会》&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/2154713/&#34;&gt;《精通正则表达式》&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -8015,10 +8019,14 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 </ul>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
-<li><a href="https://deerchao.cn/tutorials/regex/regex.htm">正则表达式30分钟入门教程</a></li>
-<li><a href="https://regexper.com/">JS 正则可视化 - 工具</a></li>
-<li><a href="https://deerchao.cn/">超越代码 - 工具</a></li>
+<li><a href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">Regulex</a> 正则可视化工具</li>
+<li><a href="https://regexper.com/">Regexper</a> 正则可视化工具</li>
+<li><a href="https://wangwl.net/r/vr">正则可视化</a> 正则可视化工具</li>
+<li><a href="https://regex101.com/">regex101</a> 在线正则测试工具</li>
+<li><a href="https://npm.runkit.com/regexgen">regexgen</a> 生成与一组字符串匹配的正则表达式</li>
+<li><a href="https://any86.github.io/any-rule">any-rule</a> 正则大全</li>
 <li><a href="https://sspai.com/post/60650">多种实际使用场景，正则表达式带来丰富可能性</a></li>
+<li><a href="https://deerchao.cn/tutorials/regex/regex.htm">正则表达式30分钟入门教程</a></li>
 <li><a href="https://book.douban.com/subject/26285406/">《正则表达式必知必会》</a></li>
 <li><a href="https://book.douban.com/subject/2154713/">《精通正则表达式》</a></li>
 </ul>
@@ -10672,6 +10680,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;p&gt;最后的最后，一定记得要&lt;strong&gt;对自己的能力做一个合理的预期&lt;/strong&gt;，你每周工作40小时并不意味着你能完成80个番茄钟。找到适合你的番茄钟数量，过度的加量会适得其反。&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://todo.evestudio.cn/&#34;&gt;Todo清单&lt;/a&gt; 一款跨平台待办事项与时间管理应用&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/468627225?utm_campaign=shareopn&amp;amp;utm_medium=social&amp;amp;utm_oi=1205113084614000640&amp;amp;utm_psn=1564268556828737536&amp;amp;utm_source=wechat_session&#34;&gt;如何用Todo清单度过余生的每一天？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://geekplux.com/posts/farewell_social_network&#34;&gt;告别社交网络有多难&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://geekplux.com/newsletters/28&#34;&gt;社交网络名存实亡&lt;/a&gt;&lt;/li&gt;
@@ -10710,6 +10719,7 @@ docker rm CONTAINER_NAME # 删除容器
 <p>最后的最后，一定记得要<strong>对自己的能力做一个合理的预期</strong>，你每周工作40小时并不意味着你能完成80个番茄钟。找到适合你的番茄钟数量，过度的加量会适得其反。</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
+<li><a href="https://todo.evestudio.cn/">Todo清单</a> 一款跨平台待办事项与时间管理应用</li>
 <li><a href="https://zhuanlan.zhihu.com/p/468627225?utm_campaign=shareopn&amp;utm_medium=social&amp;utm_oi=1205113084614000640&amp;utm_psn=1564268556828737536&amp;utm_source=wechat_session">如何用Todo清单度过余生的每一天？</a></li>
 <li><a href="https://geekplux.com/posts/farewell_social_network">告别社交网络有多难</a></li>
 <li><a href="https://geekplux.com/newsletters/28">社交网络名存实亡</a></li>
@@ -10751,6 +10761,27 @@ docker rm CONTAINER_NAME # 删除容器
 
 &lt;/p&gt;
 &lt;p&gt;我使用RSS主要用来订阅我感兴趣的个人博客，我订阅的博客网站在 &lt;code&gt;Links&lt;/code&gt; 页面下的 &lt;strong&gt;博客&lt;/strong&gt; 那一栏。&lt;/p&gt;
+&lt;h1 id=&#34;播客&#34;&gt;播客&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;小宇宙&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;播客也是一个很好的信息源，可以在做一些不用🧠的事时听。我的使用场景通常是在吃饭或是上下课的路上。我使用的播客软件是&lt;a href=&#34;https://www.xiaoyuzhoufm.com/&#34;&gt;小宇宙&lt;/a&gt;，体验不错。&lt;/p&gt;
+&lt;h1 id=&#34;书籍&#34;&gt;书籍&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Neat Reader &amp;amp; Sumatra PDF &amp;amp; Z-Library &amp;amp; LoreFree &amp;amp; 学校图书馆&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;读书，是治愈迷茫最好的良药。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Neat Reader&lt;/code&gt; 是一款&lt;code&gt;EPUB&lt;/code&gt;阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 &lt;a href=&#34;https://zh.z-lib.org/&#34;&gt;Z-Library&lt;/a&gt; or &lt;a href=&#34;https://lorefree.com/&#34;&gt;LoreFree&lt;/a&gt; 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 &lt;a href=&#34;https://www.neat-reader.com/&#34;&gt;Neat Reader&lt;/a&gt; 阅读。&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1cf8284ec.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/10/30/635e1cf8284ec.png&#34; alt=&#34;neatReader&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 &lt;a href=&#34;https://www.sumatrapdfreader.org/free-pdf-reader&#34;&gt;Sumatra PDF&lt;/a&gt; 上阅读&lt;/p&gt;
+&lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看。&lt;/p&gt;
 &lt;h1 id=&#34;搜索引擎&#34;&gt;搜索引擎&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Google &amp;amp; AdblockPlus &amp;amp; uBlacklist&lt;/code&gt;&lt;/li&gt;
@@ -10806,22 +10837,6 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h1 id=&#34;书籍&#34;&gt;书籍&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Neat Reader &amp;amp; Sumatra PDF &amp;amp; Z-Library &amp;amp; LoreFree &amp;amp; 学校图书馆&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;读书，是治愈迷茫最好的良药。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Neat Reader&lt;/code&gt; 是一款&lt;code&gt;EPUB&lt;/code&gt;阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 &lt;a href=&#34;https://zh.z-lib.org/&#34;&gt;Z-Library&lt;/a&gt; or &lt;a href=&#34;https://lorefree.com/&#34;&gt;LoreFree&lt;/a&gt; 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 &lt;a href=&#34;https://www.neat-reader.com/&#34;&gt;Neat Reader&lt;/a&gt; 阅读。&lt;/p&gt;
-&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1cf8284ec.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2022/10/30/635e1cf8284ec.png&#34; alt=&#34;neatReader&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;p&gt;如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 &lt;a href=&#34;https://www.sumatrapdfreader.org/free-pdf-reader&#34;&gt;Sumatra PDF&lt;/a&gt; 上阅读&lt;/p&gt;
-&lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看。&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -10873,6 +10888,27 @@ docker rm CONTAINER_NAME # 删除容器
 
 </p>
 <p>我使用RSS主要用来订阅我感兴趣的个人博客，我订阅的博客网站在 <code>Links</code> 页面下的 <strong>博客</strong> 那一栏。</p>
+<h1 id="播客">播客</h1>
+<ul>
+<li><code>小宇宙</code></li>
+</ul>
+<p>播客也是一个很好的信息源，可以在做一些不用🧠的事时听。我的使用场景通常是在吃饭或是上下课的路上。我使用的播客软件是<a href="https://www.xiaoyuzhoufm.com/">小宇宙</a>，体验不错。</p>
+<h1 id="书籍">书籍</h1>
+<ul>
+<li><code>Neat Reader &amp; Sumatra PDF &amp; Z-Library &amp; LoreFree &amp; 学校图书馆</code></li>
+</ul>
+<p><strong>读书，是治愈迷茫最好的良药。</strong></p>
+<p><code>Neat Reader</code> 是一款<code>EPUB</code>阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 <a href="https://zh.z-lib.org/">Z-Library</a> or <a href="https://lorefree.com/">LoreFree</a> 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 <a href="https://www.neat-reader.com/">Neat Reader</a> 阅读。</p>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1cf8284ec.png">
+<img src="https://bu.dusays.com/2022/10/30/635e1cf8284ec.png" alt="neatReader"  />
+</a>
+</div>
+
+</p>
+<p>如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 <a href="https://www.sumatrapdfreader.org/free-pdf-reader">Sumatra PDF</a> 上阅读</p>
+<p>不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看。</p>
 <h1 id="搜索引擎">搜索引擎</h1>
 <ul>
 <li><code>Google &amp; AdblockPlus &amp; uBlacklist</code></li>
@@ -10928,22 +10964,6 @@ docker rm CONTAINER_NAME # 删除容器
 </div>
 
 </p>
-<h1 id="书籍">书籍</h1>
-<ul>
-<li><code>Neat Reader &amp; Sumatra PDF &amp; Z-Library &amp; LoreFree &amp; 学校图书馆</code></li>
-</ul>
-<p><strong>读书，是治愈迷茫最好的良药。</strong></p>
-<p><code>Neat Reader</code> 是一款<code>EPUB</code>阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 <a href="https://zh.z-lib.org/">Z-Library</a> or <a href="https://lorefree.com/">LoreFree</a> 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 <a href="https://www.neat-reader.com/">Neat Reader</a> 阅读。</p>
-<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1cf8284ec.png">
-<img src="https://bu.dusays.com/2022/10/30/635e1cf8284ec.png" alt="neatReader"  />
-</a>
-</div>
-
-</p>
-<p>如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 <a href="https://www.sumatrapdfreader.org/free-pdf-reader">Sumatra PDF</a> 上阅读</p>
-<p>不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看。</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li>
