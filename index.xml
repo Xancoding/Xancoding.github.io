@@ -6,7 +6,75 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 30 Oct 2022 15:28:22 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Oct 2022 18:01:02 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何为你的文章配图？</title>
+      <link>https://xancoding.cn/posts/blogdrawing/</link>
+      <pubDate>Mon, 31 Oct 2022 18:01:02 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/blogdrawing/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;画图的工具并不重要，重要的其实是你应该如何形成自己的规则体系，想要为博客配图并不是一件困难的事情，比较困难的是长期坚持并且经常思考，对自己形成的规则不断改善，最终就一定能够做好。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lucidchart.com/pages/&#34;&gt;Sketch&lt;/a&gt; UI 设计工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lucidchart.com/pages/&#34;&gt;LucidChart&lt;/a&gt; 绘制 UML 图、流程图的商业软件&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://excalidraw.com/&#34;&gt;Excalidraw&lt;/a&gt; 手绘风格图表工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://plantuml.com/&#34;&gt;Plantuml&lt;/a&gt; 快速编写UML图的组件&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://app.diagrams.net/&#34;&gt;Drawio&lt;/a&gt; 一款开源免费的流程图绘制软件&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.midjourney.com/home/&#34;&gt;Midjourney&lt;/a&gt; AI绘画&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/180534102&#34;&gt;Drawio —— 一款开源免费的流程图绘制软件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://397987634.notion.site/397987634/AI-764e6a50fbf04327945a12a07ce9654f&#34;&gt;AI绘画的关键词&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://draveness.me/sketch-and-sketch/&#34;&gt;技术文章配图指南&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://catcoding.me/p/weekly-15/&#34;&gt;编程和绘画；AI 从文本绘画；技术文章中的插图&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://sspai.com/post/75629&#34;&gt;在 AI 绘画的世界里，怎样才算一名合格的「甲方」？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<blockquote>
+<p><strong>画图的工具并不重要，重要的其实是你应该如何形成自己的规则体系，想要为博客配图并不是一件困难的事情，比较困难的是长期坚持并且经常思考，对自己形成的规则不断改善，最终就一定能够做好。</strong></p>
+</blockquote>
+<h1 id="推荐阅读">推荐阅读</h1>
+<ul>
+<li><a href="https://www.lucidchart.com/pages/">Sketch</a> UI 设计工具</li>
+<li><a href="https://www.lucidchart.com/pages/">LucidChart</a> 绘制 UML 图、流程图的商业软件</li>
+<li><a href="https://excalidraw.com/">Excalidraw</a> 手绘风格图表工具</li>
+<li><a href="https://plantuml.com/">Plantuml</a> 快速编写UML图的组件</li>
+<li><a href="https://app.diagrams.net/">Drawio</a> 一款开源免费的流程图绘制软件</li>
+<li><a href="https://www.midjourney.com/home/">Midjourney</a> AI绘画</li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/180534102">Drawio —— 一款开源免费的流程图绘制软件</a></li>
+<li><a href="https://397987634.notion.site/397987634/AI-764e6a50fbf04327945a12a07ce9654f">AI绘画的关键词</a></li>
+</ul>
+<hr>
+<ul>
+<li>
+<p><a href="https://draveness.me/sketch-and-sketch/">技术文章配图指南</a></p>
+</li>
+<li>
+<p><a href="https://catcoding.me/p/weekly-15/">编程和绘画；AI 从文本绘画；技术文章中的插图</a></p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/75629">在 AI 绘画的世界里，怎样才算一名合格的「甲方」？</a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>构建你的数字花园</title>
       <link>https://xancoding.cn/posts/digitalgarden/</link>
@@ -11167,7 +11235,12 @@ docker rm CONTAINER_NAME # 删除容器
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://xancoding.cn/links/</guid>
-      <description>&lt;h1 id=&#34;blogs&#34;&gt;Blogs&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;cs&#34;&gt;CS&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/&#34;&gt;CS自学指南&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://xiaolincoding.com/&#34;&gt;小林 x 图解计算机基础&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;blogs&#34;&gt;Blogs&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://draveness.me/&#34;&gt;面向信仰编程&lt;/a&gt;
 &lt;ul&gt;
@@ -11194,14 +11267,6 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;&lt;a href=&#34;https://program-think.blogspot.com/2013/04/how-to-read-book.html&#34;&gt;《如何阅读一本书》——书评及内容纲要&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;community&#34;&gt;Community&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.v2ex.com/&#34;&gt;V2EX&lt;/a&gt; 面向程序员、极客人群的分享交流社区&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/&#34;&gt;Medium&lt;/a&gt; 网络文章发布平台 文章质量高&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.buzzing.cc/&#34;&gt;Buzzing&lt;/a&gt; 国外社交媒体聚合热榜 中文标题&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/&#34;&gt;HackerNews&lt;/a&gt; 技术热点话题 新闻社区&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://meta.appinn.net/&#34;&gt;小众软件论坛&lt;/a&gt; 分享免费、小巧、有趣、实用软件&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;tools&#34;&gt;Tools&lt;/h1&gt;
 &lt;ul&gt;
@@ -11271,8 +11336,21 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/488779255?spm_id_from=333.337.search-card.all.click&#34;&gt;动漫作业本&lt;/a&gt; 海贼王&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/19258940/?spm_id_from=333.999.0.0&#34;&gt;chissy&lt;/a&gt; 探险活宝&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h1 id=&#34;community&#34;&gt;Community&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.v2ex.com/&#34;&gt;V2EX&lt;/a&gt; 面向程序员、极客人群的分享交流社区&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/&#34;&gt;Medium&lt;/a&gt; 网络文章发布平台 文章质量高&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.buzzing.cc/&#34;&gt;Buzzing&lt;/a&gt; 国外社交媒体聚合热榜 中文标题&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/&#34;&gt;HackerNews&lt;/a&gt; 技术热点话题 新闻社区&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://meta.appinn.net/&#34;&gt;小众软件论坛&lt;/a&gt; 分享免费、小巧、有趣、实用软件&lt;/li&gt;
+&lt;/ul&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="blogs">Blogs</h1>
+      <content:encoded><![CDATA[<h1 id="cs">CS</h1>
+<ul>
+<li><a href="https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/">CS自学指南</a></li>
+<li><a href="https://xiaolincoding.com/">小林 x 图解计算机基础</a></li>
+</ul>
+<h1 id="blogs">Blogs</h1>
 <ul>
 <li><a href="https://draveness.me/">面向信仰编程</a>
 <ul>
@@ -11299,14 +11377,6 @@ docker rm CONTAINER_NAME # 删除容器
 <li><a href="https://program-think.blogspot.com/2013/04/how-to-read-book.html">《如何阅读一本书》——书评及内容纲要</a></li>
 </ul>
 </li>
-</ul>
-<h1 id="community">Community</h1>
-<ul>
-<li><a href="https://www.v2ex.com/">V2EX</a> 面向程序员、极客人群的分享交流社区</li>
-<li><a href="https://medium.com/">Medium</a> 网络文章发布平台 文章质量高</li>
-<li><a href="https://www.buzzing.cc/">Buzzing</a> 国外社交媒体聚合热榜 中文标题</li>
-<li><a href="https://news.ycombinator.com/">HackerNews</a> 技术热点话题 新闻社区</li>
-<li><a href="https://meta.appinn.net/">小众软件论坛</a> 分享免费、小巧、有趣、实用软件</li>
 </ul>
 <h1 id="tools">Tools</h1>
 <ul>
@@ -11376,6 +11446,14 @@ docker rm CONTAINER_NAME # 删除容器
 <li><a href="https://space.bilibili.com/488779255?spm_id_from=333.337.search-card.all.click">动漫作业本</a> 海贼王</li>
 <li><a href="https://space.bilibili.com/19258940/?spm_id_from=333.999.0.0">chissy</a> 探险活宝</li>
 </ol>
+<h1 id="community">Community</h1>
+<ul>
+<li><a href="https://www.v2ex.com/">V2EX</a> 面向程序员、极客人群的分享交流社区</li>
+<li><a href="https://medium.com/">Medium</a> 网络文章发布平台 文章质量高</li>
+<li><a href="https://www.buzzing.cc/">Buzzing</a> 国外社交媒体聚合热榜 中文标题</li>
+<li><a href="https://news.ycombinator.com/">HackerNews</a> 技术热点话题 新闻社区</li>
+<li><a href="https://meta.appinn.net/">小众软件论坛</a> 分享免费、小巧、有趣、实用软件</li>
+</ul>
 ]]></content:encoded>
     </item>
     

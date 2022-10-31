@@ -6,7 +6,75 @@
     <description>Recent content in Posts on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 30 Oct 2022 15:28:22 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Oct 2022 18:01:02 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何为你的文章配图？</title>
+      <link>https://xancoding.cn/posts/blogdrawing/</link>
+      <pubDate>Mon, 31 Oct 2022 18:01:02 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/blogdrawing/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;画图的工具并不重要，重要的其实是你应该如何形成自己的规则体系，想要为博客配图并不是一件困难的事情，比较困难的是长期坚持并且经常思考，对自己形成的规则不断改善，最终就一定能够做好。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lucidchart.com/pages/&#34;&gt;Sketch&lt;/a&gt; UI 设计工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lucidchart.com/pages/&#34;&gt;LucidChart&lt;/a&gt; 绘制 UML 图、流程图的商业软件&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://excalidraw.com/&#34;&gt;Excalidraw&lt;/a&gt; 手绘风格图表工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://plantuml.com/&#34;&gt;Plantuml&lt;/a&gt; 快速编写UML图的组件&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://app.diagrams.net/&#34;&gt;Drawio&lt;/a&gt; 一款开源免费的流程图绘制软件&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.midjourney.com/home/&#34;&gt;Midjourney&lt;/a&gt; AI绘画&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/180534102&#34;&gt;Drawio —— 一款开源免费的流程图绘制软件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://397987634.notion.site/397987634/AI-764e6a50fbf04327945a12a07ce9654f&#34;&gt;AI绘画的关键词&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://draveness.me/sketch-and-sketch/&#34;&gt;技术文章配图指南&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://catcoding.me/p/weekly-15/&#34;&gt;编程和绘画；AI 从文本绘画；技术文章中的插图&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://sspai.com/post/75629&#34;&gt;在 AI 绘画的世界里，怎样才算一名合格的「甲方」？&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<blockquote>
+<p><strong>画图的工具并不重要，重要的其实是你应该如何形成自己的规则体系，想要为博客配图并不是一件困难的事情，比较困难的是长期坚持并且经常思考，对自己形成的规则不断改善，最终就一定能够做好。</strong></p>
+</blockquote>
+<h1 id="推荐阅读">推荐阅读</h1>
+<ul>
+<li><a href="https://www.lucidchart.com/pages/">Sketch</a> UI 设计工具</li>
+<li><a href="https://www.lucidchart.com/pages/">LucidChart</a> 绘制 UML 图、流程图的商业软件</li>
+<li><a href="https://excalidraw.com/">Excalidraw</a> 手绘风格图表工具</li>
+<li><a href="https://plantuml.com/">Plantuml</a> 快速编写UML图的组件</li>
+<li><a href="https://app.diagrams.net/">Drawio</a> 一款开源免费的流程图绘制软件</li>
+<li><a href="https://www.midjourney.com/home/">Midjourney</a> AI绘画</li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/180534102">Drawio —— 一款开源免费的流程图绘制软件</a></li>
+<li><a href="https://397987634.notion.site/397987634/AI-764e6a50fbf04327945a12a07ce9654f">AI绘画的关键词</a></li>
+</ul>
+<hr>
+<ul>
+<li>
+<p><a href="https://draveness.me/sketch-and-sketch/">技术文章配图指南</a></p>
+</li>
+<li>
+<p><a href="https://catcoding.me/p/weekly-15/">编程和绘画；AI 从文本绘画；技术文章中的插图</a></p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/75629">在 AI 绘画的世界里，怎样才算一名合格的「甲方」？</a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>构建你的数字花园</title>
       <link>https://xancoding.cn/posts/digitalgarden/</link>
