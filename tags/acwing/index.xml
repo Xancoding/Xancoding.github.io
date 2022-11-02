@@ -8190,7 +8190,13 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;li&gt;&lt;code&gt;git stash pop&lt;/code&gt;：将栈顶存储的修改恢复到当前分支，同时删除栈顶元素&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;git stash list&lt;/code&gt;：查看栈中所有元素&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;本地项目上传到github&#34;&gt;本地项目上传到GitHub&lt;/h3&gt;
+&lt;h3 id=&#34;git更换远程仓库地址&#34;&gt;Git更换远程仓库地址&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote -v  &lt;span style=&#34;color:#f00&#34;&gt;#&lt;/span&gt; &lt;span style=&#34;color:#f00&#34;&gt;查看远端地址&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote &lt;span style=&#34;color:#f00&#34;&gt;#&lt;/span&gt; &lt;span style=&#34;color:#f00&#34;&gt;查看远端仓库名&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote rm origin &lt;span style=&#34;color:#f00&#34;&gt;#&lt;/span&gt; &lt;span style=&#34;color:#f00&#34;&gt;删除远程的仓库&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;add&lt;/span&gt; origin https:&lt;span style=&#34;color:#007f7f&#34;&gt;//github.com/xx/xx.git （新地址） # 重新添加远程仓库&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push --&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;set&lt;/span&gt;-upstream origin master
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;本地项目上传到github&#34;&gt;本地项目上传到GitHub&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;配置&lt;code&gt;ssh-key&lt;/code&gt;实现本地与&lt;code&gt;Git&lt;/code&gt;服务器免密交互&lt;/li&gt;
 &lt;/ol&gt;
@@ -9387,7 +9393,13 @@ docker rm CONTAINER_NAME # 删除容器
 <li><code>git stash pop</code>：将栈顶存储的修改恢复到当前分支，同时删除栈顶元素</li>
 <li><code>git stash list</code>：查看栈中所有元素</li>
 </ol>
-<h3 id="本地项目上传到github">本地项目上传到GitHub</h3>
+<h3 id="git更换远程仓库地址">Git更换远程仓库地址</h3>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span>git remote -v  <span style="color:#f00">#</span> <span style="color:#f00">查看远端地址</span>
+</span></span><span style="display:flex;"><span>git remote <span style="color:#f00">#</span> <span style="color:#f00">查看远端仓库名</span>
+</span></span><span style="display:flex;"><span>git remote rm origin <span style="color:#f00">#</span> <span style="color:#f00">删除远程的仓库</span>
+</span></span><span style="display:flex;"><span>git remote <span style="color:#fff;font-weight:bold">add</span> origin https:<span style="color:#007f7f">//github.com/xx/xx.git （新地址） # 重新添加远程仓库</span>
+</span></span><span style="display:flex;"><span>git push --<span style="color:#fff;font-weight:bold">set</span>-upstream origin master
+</span></span></code></pre></div><h3 id="本地项目上传到github">本地项目上传到GitHub</h3>
 <ol>
 <li>配置<code>ssh-key</code>实现本地与<code>Git</code>服务器免密交互</li>
 </ol>
