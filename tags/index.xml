@@ -6,13 +6,43 @@
     <description>Recent content in Tags on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 31 Oct 2022 18:01:02 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Nov 2022 15:49:03 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AcWing</title>
+      <link>https://xancoding.cn/tags/acwing/</link>
+      <pubDate>Wed, 02 Nov 2022 15:49:03 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/acwing/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>Tech</title>
       <link>https://xancoding.cn/tags/tech/</link>
-      <pubDate>Mon, 31 Oct 2022 18:01:02 +0800</pubDate>
+      <pubDate>Wed, 02 Nov 2022 15:49:03 +0800</pubDate>
       
       <guid>https://xancoding.cn/tags/tech/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>https://xancoding.cn/tags/web/</link>
+      <pubDate>Wed, 02 Nov 2022 15:49:03 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/web/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>新技能</title>
+      <link>https://xancoding.cn/tags/%E6%96%B0%E6%8A%80%E8%83%BD/</link>
+      <pubDate>Wed, 02 Nov 2022 15:49:03 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/%E6%96%B0%E6%8A%80%E8%83%BD/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -48,31 +78,11 @@
     </item>
     
     <item>
-      <title>AcWing</title>
-      <link>https://xancoding.cn/tags/acwing/</link>
-      <pubDate>Sat, 29 Oct 2022 18:23:59 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/tags/acwing/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
       <title>Django</title>
       <link>https://xancoding.cn/tags/django/</link>
       <pubDate>Sat, 29 Oct 2022 18:23:59 +0800</pubDate>
       
       <guid>https://xancoding.cn/tags/django/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>新技能</title>
-      <link>https://xancoding.cn/tags/%E6%96%B0%E6%8A%80%E8%83%BD/</link>
-      <pubDate>Sat, 29 Oct 2022 18:23:59 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/tags/%E6%96%B0%E6%8A%80%E8%83%BD/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

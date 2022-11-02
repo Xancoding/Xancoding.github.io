@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web on Xan&#39;s Blog</title>
+    <link>https://xancoding.cn/tags/web/</link>
+    <description>Recent content in Web on Xan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 02 Nov 2022 15:49:03 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AcWing Web 应用课</title>
+      <link>https://xancoding.cn/posts/acwweb/</link>
+      <pubDate>Wed, 02 Nov 2022 15:49:03 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/acwweb/</guid>
+      <description>&lt;h1 id=&#34;acwing-web-应用课&#34;&gt;AcWing Web 应用课&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_web/&#34;&gt;AcWing Web 应用课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/1150/&#34;&gt;AcWing Web 应用课&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/4078555/&#34;&gt;HTML 基础标签&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/4194723/&#34;&gt;CSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/4719082/&#34;&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/5501588/&#34;&gt;React&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/5639568/&#34;&gt;Vue3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/&#34;&gt;MDN官方文档&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web&#34;&gt;Web 入门&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/HTML&#34;&gt;HTML —— 构建 Web&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/CSS&#34;&gt;CSS —— 设计Web&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript&#34;&gt;JavaScript —— 用户端动态脚本&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started&#34;&gt;React 入门&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started&#34;&gt;Vue 入门&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="acwing-web-应用课">AcWing Web 应用课</h1>
+<ul>
+<li><a href="https://www.colopen-blog.com/Engineer/acw_web/">AcWing Web 应用课 | Colopen&rsquo;s blog</a></li>
+<li><a href="https://www.acwing.com/activity/content/punch_the_clock/1150/">AcWing Web 应用课</a>
+<ul>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/4078555/">HTML 基础标签</a></li>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/4194723/">CSS</a></li>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/4719082/">JavaScript</a></li>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/5501588/">React</a></li>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/5639568/">Vue3</a></li>
+</ul>
+</li>
+<li><a href="https://developer.mozilla.org/zh-CN/">MDN官方文档</a>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web">Web 入门</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/HTML">HTML —— 构建 Web</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS">CSS —— 设计Web</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript">JavaScript —— 用户端动态脚本</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">React 入门</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started">Vue 入门</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

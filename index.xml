@@ -6,7 +6,65 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 31 Oct 2022 18:01:02 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Nov 2022 15:49:03 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AcWing Web 应用课</title>
+      <link>https://xancoding.cn/posts/acwweb/</link>
+      <pubDate>Wed, 02 Nov 2022 15:49:03 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/acwweb/</guid>
+      <description>&lt;h1 id=&#34;acwing-web-应用课&#34;&gt;AcWing Web 应用课&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_web/&#34;&gt;AcWing Web 应用课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/1150/&#34;&gt;AcWing Web 应用课&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/4078555/&#34;&gt;HTML 基础标签&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/4194723/&#34;&gt;CSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/4719082/&#34;&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/5501588/&#34;&gt;React&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/file_system/file/content/whole/index/content/5639568/&#34;&gt;Vue3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/&#34;&gt;MDN官方文档&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web&#34;&gt;Web 入门&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/HTML&#34;&gt;HTML —— 构建 Web&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/CSS&#34;&gt;CSS —— 设计Web&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript&#34;&gt;JavaScript —— 用户端动态脚本&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started&#34;&gt;React 入门&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started&#34;&gt;Vue 入门&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="acwing-web-应用课">AcWing Web 应用课</h1>
+<ul>
+<li><a href="https://www.colopen-blog.com/Engineer/acw_web/">AcWing Web 应用课 | Colopen&rsquo;s blog</a></li>
+<li><a href="https://www.acwing.com/activity/content/punch_the_clock/1150/">AcWing Web 应用课</a>
+<ul>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/4078555/">HTML 基础标签</a></li>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/4194723/">CSS</a></li>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/4719082/">JavaScript</a></li>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/5501588/">React</a></li>
+<li><a href="https://www.acwing.com/file_system/file/content/whole/index/content/5639568/">Vue3</a></li>
+</ul>
+</li>
+<li><a href="https://developer.mozilla.org/zh-CN/">MDN官方文档</a>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web">Web 入门</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/HTML">HTML —— 构建 Web</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS">CSS —— 设计Web</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript">JavaScript —— 用户端动态脚本</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">React 入门</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started">Vue 入门</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>如何为你的文章配图？</title>
       <link>https://xancoding.cn/posts/blogdrawing/</link>
@@ -92,6 +150,7 @@
 &lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA5MzUzODA1OA==&amp;amp;mid=2247483947&amp;amp;idx=1&amp;amp;sn=2cccb76ee58ddd11541d91c4b283b594&amp;amp;chksm=905d104ea72a9958d71c70313d5a4799641aa903e62f32ac1038ec5fb8c903fc7db36c261d26&amp;amp;scene=178&amp;amp;cur_album_id=1477367917246726144#rd&#34;&gt;卢曼：与卡片盒交流&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/my-notes-taking-tools-and-experience/&#34;&gt;我的知识管理工具和经验&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/obsidian-for-programmer/&#34;&gt;我的 Obsidian 使用经验&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.owenyoung.com/blog/about-notes/&#34;&gt;不要再碎片化笔记了 - 关于笔记的思考&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -110,6 +169,7 @@
 <li><a href="https://mp.weixin.qq.com/s?__biz=MzA5MzUzODA1OA==&amp;mid=2247483947&amp;idx=1&amp;sn=2cccb76ee58ddd11541d91c4b283b594&amp;chksm=905d104ea72a9958d71c70313d5a4799641aa903e62f32ac1038ec5fb8c903fc7db36c261d26&amp;scene=178&amp;cur_album_id=1477367917246726144#rd">卢曼：与卡片盒交流</a></li>
 <li><a href="https://catcoding.me/p/my-notes-taking-tools-and-experience/">我的知识管理工具和经验</a></li>
 <li><a href="https://catcoding.me/p/obsidian-for-programmer/">我的 Obsidian 使用经验</a></li>
+<li><a href="https://www.owenyoung.com/blog/about-notes/">不要再碎片化笔记了 - 关于笔记的思考</a></li>
 </ul>
 <hr>
 <ul>
