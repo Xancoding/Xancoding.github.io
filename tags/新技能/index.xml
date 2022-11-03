@@ -33,10 +33,1948 @@
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript&#34;&gt;JavaScript —— 用户端动态脚本&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started&#34;&gt;React 入门&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started&#34;&gt;Vue 入门&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial&#34;&gt;Canvas 教程&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;VSCode&lt;/code&gt; 自动生成缺省的 &lt;code&gt;HTML&lt;/code&gt; 代码框架&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-HTML&#34; data-lang=&#34;HTML&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;font-weight:bold&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#007f7f&#34;&gt;lang&lt;/span&gt;=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;font-weight:bold&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;font-weight:bold&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#007f7f&#34;&gt;charset&lt;/span&gt;=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;UTF-8&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;font-weight:bold&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#007f7f&#34;&gt;http-equiv&lt;/span&gt;=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;X-UA-Compatible&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#007f7f&#34;&gt;content&lt;/span&gt;=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;IE=edge&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;font-weight:bold&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#007f7f&#34;&gt;name&lt;/span&gt;=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;viewport&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#007f7f&#34;&gt;content&lt;/span&gt;=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;font-weight:bold&#34;&gt;title&lt;/span&gt;&amp;gt;Document&amp;lt;/&lt;span style=&#34;font-weight:bold&#34;&gt;title&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;font-weight:bold&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;font-weight:bold&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;font-weight:bold&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;font-weight:bold&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol&gt;
+&lt;li&gt;输入&lt;code&gt;！&lt;/code&gt;，接着输入 &lt;code&gt;tab&lt;/code&gt; 键，自动生成缺省的 &lt;code&gt;HTML&lt;/code&gt; 代码框架&lt;/li&gt;
+&lt;li&gt;再按三下 &lt;code&gt;tab&lt;/code&gt; 键，光标会移动到 &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; 与 &lt;code&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; 之间的空行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;kof&#34;&gt;KOF&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Xancoding/Leaning-jQuery&#34;&gt;KOF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/video/3830/&#34;&gt;AcWing Web 应用课 | 中期项目——拳皇（上） | Vedio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/video/3833/&#34;&gt;AcWing Web 应用课 | 中期项目——拳皇（下） | Vedio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;基础操作&#34;&gt;基础操作&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;操作如下：
+角色一: w 跳 a 左移 d 右移 j 拳击 
+角色二: ↑ 跳 ← 左移 → 右移 1 拳击
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;文件结构&#34;&gt;文件结构&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;|-- README.md
+|-- static
+|   |-- css
+|   |   `-- base.css
+|   |-- images
+|   |   |-- background
+|   |   |   `-- 0.gif
+|   |   `-- player
+|   |       `-- kyo
+|   |           |-- 0.gif
+|   |           |-- 1.gif
+|   |           |-- 2.gif
+|   |           |-- 3.gif
+|   |           |-- 4.gif
+|   |           |-- 5.gif
+|   |           `-- 6.gif
+|   `-- js
+|       |-- ac_game_object
+|       |   `-- base.js
+|       |-- base.js
+|       |-- controller
+|       |   `-- base.js
+|       |-- game_map
+|       |   `-- base.js
+|       |-- player
+|       |   |-- base.js
+|       |   `-- kyo.js
+|       `-- utils
+|           `-- gif.js
+`-- templates
+    `-- index.html
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;整体架构&#34;&gt;整体架构&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/02/63627b3105c46.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/02/63627b3105c46.png&#34; alt=&#34;KOFStructure&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;逻辑结构&#34;&gt;逻辑结构&lt;/h3&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2022/11/02/63627ace5a2f9.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;Retrieved from：https://www.acwing.com/solution/content/139831/&lt;/div&gt; 
+ &lt;/center&gt;
+&lt;h3 id=&#34;html&#34;&gt;HTML&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;templates/index.html&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+
+&amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt;
+
+&amp;lt;head&amp;gt;
+
+  &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;
+
+  &amp;lt;meta http-equiv=&amp;#34;X-UA-Compatible&amp;#34; content=&amp;#34;IE=edge&amp;#34;&amp;gt;
+
+  &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt;
+
+  &amp;lt;title&amp;gt;KOF&amp;lt;/title&amp;gt;
+
+  &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;../static/css/base.css&amp;#34;&amp;gt;
+
+  &amp;lt;script src=&amp;#34;https://cdn.acwing.com/static/jquery/js/jquery-3.3.1.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body&amp;gt;
+
+  &amp;lt;div id=&amp;#34;kof&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;
+
+  
+
+  &amp;lt;script type=&amp;#34;module&amp;#34;&amp;gt;
+
+    import {KOF} from &amp;#39;../static/js/base.js&amp;#39;;
+
+  
+
+    let kof = new KOF(&amp;#39;kof&amp;#39;);
+
+  &amp;lt;/script&amp;gt;
+
+&amp;lt;/body&amp;gt;
+
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;css&#34;&gt;CSS&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;css/base.css&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#kof {
+
+  width: 1280px;
+
+  height: 720px;
+
+  background-image: url(&amp;#39;../images/background/0.gif&amp;#39;);
+
+  background-size: 200% 100%;
+
+  background-position: top;
+
+  position: absolute;
+
+}
+
+  
+
+#kof&amp;gt;.kof-head {
+
+  width: 100%;
+
+  height: 80px;
+
+  position: absolute;
+
+  top: 0;
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+  
+
+#kof&amp;gt;.kof-head&amp;gt;.kof-head-hp-0 {
+
+  height: 40px;
+
+  width: calc(50% - 60px);
+
+  margin-left: 20px;
+
+  border: white 5px solid;
+
+  box-sizing: border-box;
+
+  border-right: none;
+
+}
+
+  
+
+#kof&amp;gt;.kof-head&amp;gt;.kof-head-timer {
+
+  height: 60px;
+
+  width: 80px;
+
+  background-color: orange;
+
+  border: white 5px solid;
+
+  box-sizing: border-box;
+
+  color: white;
+
+  font-size: 30px;
+
+  font-weight: 800;
+
+  text-align: center;
+
+  line-height: 50px;
+
+  user-select: none;
+
+}
+
+  
+
+#kof&amp;gt;.kof-head&amp;gt;.kof-head-hp-1 {
+
+  height: 40px;
+
+  width: calc(50% - 60px);
+
+  border: white 5px solid;
+
+  box-sizing: border-box;
+
+  border-left: none;
+
+}
+
+  
+
+#kof&amp;gt;.kof-head&amp;gt;.kof-head-hp-0&amp;gt;div {
+
+  background-color: red;
+
+  height: 100%;
+
+  width: 100%;
+
+  float: right;
+
+}
+
+  
+
+#kof&amp;gt;.kof-head&amp;gt;.kof-head-hp-1&amp;gt;div {
+
+  background-color: red;
+
+  height: 100%;
+
+  width: 100%;
+
+}
+
+  
+
+#kof&amp;gt;.kof-head&amp;gt;.kof-head-hp-0&amp;gt;div&amp;gt;div {
+
+  background-color: lightgreen;
+
+  height: 100%;
+
+  width: 100%;
+
+  float: right;
+
+}
+
+  
+
+#kof&amp;gt;.kof-head&amp;gt;.kof-head-hp-1&amp;gt;div&amp;gt;div {
+
+  background-color: lightgreen;
+
+  height: 100%;
+
+  width: 100%;
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;javascript&#34;&gt;JavaScript&lt;/h3&gt;
+&lt;h4 id=&#34;逻辑结构-1&#34;&gt;逻辑结构&lt;/h4&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/03/63631ec3461ef.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/03/63631ec3461ef.png&#34; alt=&#34;逻辑结构&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h4 id=&#34;kof-1&#34;&gt;KOF&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;js/base.js&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import { GameMap } from &amp;#39;../js/game_map/base.js&amp;#39;
+
+import { Kyo } from &amp;#39;../js/player/kyo.js&amp;#39;;
+
+  
+
+export class KOF {
+
+  constructor(id) {
+
+    this.$kof = $(&amp;#39;#&amp;#39; + id);
+
+  
+
+    this.game_map = new GameMap(this);
+
+    this.players = [
+
+      new Kyo(this, {
+
+        id: 0,
+
+        x: 200,
+
+        y: 0,
+
+        width: 120,
+
+        height: 200,
+
+        color: &amp;#39;blue&amp;#39;
+
+      }),
+
+      new Kyo(this, {
+
+        id: 1,
+
+        x: 900,
+
+        y: 0,
+
+        width: 120,
+
+        height: 200,
+
+        color: &amp;#39;red&amp;#39;
+
+      })
+
+    ]
+
+  }
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;acgameobject&#34;&gt;AcGameObject&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;js/ac_game_object/base.js&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;let AC_GAME_OBJECTS = [];
+
+  
+
+export class AcGameObject {
+
+  constructor() {
+
+    AC_GAME_OBJECTS.push(this);
+
+  
+
+    this.timedelta = 0;
+
+    this.has_call_start = false;
+
+  }
+
+  
+
+  start() {  // 初始化
+
+  
+  
+
+  }
+
+  
+
+  update() {  // 每一帧执行一次
+
+  
+
+  }
+
+  
+
+  destory() {  // 删除当前对象
+
+    for (let i in AC_GAME_OBJECTS) {
+
+      if (AC_GAME_OBJECTS[i] === this) {
+
+        AC_GAME_OBJECTS.splice(i, 1);
+
+        break;
+
+      }
+
+    }
+
+  }
+
+}
+
+  
+
+let last_timestamp;   // 上一次执行函数时的时刻
+
+  
+
+/**
+
+ * @description 该函数每一帧执行一次
+
+ * @param {number} timestamp 当前执行函数时的时刻
+
+ */
+
+  
+
+let AC_GAME_OBJECTS_FRAME = (timestamp) =&amp;gt; {
+
+  for (let obj of AC_GAME_OBJECTS) {
+
+    if (!obj.has_call_start) {
+
+      obj.start();
+
+      obj.has_call_start = true;
+
+    } else {
+
+      obj.timedelta = timestamp - last_timestamp;
+
+      obj.update();
+
+    }
+
+  }
+
+  
+
+  last_timestamp = timestamp;
+
+  requestAnimationFrame(AC_GAME_OBJECTS_FRAME);
+
+}
+
+  
+
+requestAnimationFrame(AC_GAME_OBJECTS_FRAME);
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;controller&#34;&gt;Controller&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;controller&lt;/code&gt; 控制器，读取玩家的输入
+&lt;code&gt;js/constroller/base.js&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;export class Controller {   // 手动实现键盘触发事件——当前按住的按键（效果不同于keydown）
+
+  constructor($canvas) {
+
+    this.$canvas = $canvas;
+
+    this.pressed_keys = new Set();    // Set 对象允许你存储任何类型的唯一值
+
+    this.start();
+
+  }
+
+  
+
+  start() {
+
+    let outer = this;
+
+    this.$canvas.keydown(function(e){   // keydown：某个键是否被按住，事件会连续触发
+
+      outer.pressed_keys.add(e.key);
+
+    });
+
+  
+
+    this.$canvas.keyup(function(e){   // keyup：某个按键是否被释放
+
+      outer.pressed_keys.delete(e.key);
+
+    });
+
+  
+
+  }
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;gamemap&#34;&gt;GameMap&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;js/game_map/base.js&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import {AcGameObject} from &amp;#39;../ac_game_object/base.js&amp;#39;
+
+import { Controller } from &amp;#39;../controller/base.js&amp;#39;;
+
+  
+
+export class GameMap extends AcGameObject {
+
+  constructor(root) {
+
+    super();
+
+  
+
+    this.root = root;
+
+    this.$canvas = $(&amp;#39;&amp;lt;canvas width=&amp;#34;1280&amp;#34; height=&amp;#34;720&amp;#34; tabindex=0&amp;gt;&amp;lt;/canvas&amp;gt;&amp;#39;);   // 构造一个jQuery对象  其中，tabindex=&amp;#34;0&amp;#34;使&amp;lt;canvas&amp;gt;元素可以聚焦
+
+    this.ctx = this.$canvas[0].getContext(&amp;#39;2d&amp;#39;);  // this.$canvas[0]是&amp;lt;canvas&amp;gt;元素的DOM对象   this.ctx用于画布的渲染
+
+    this.root.$kof.append(this.$canvas);
+
+    this.$canvas.focus();   // 聚焦，使之可以获取输入
+
+  
+
+    this.controller = new Controller(this.$canvas);
+
+  
+
+    this.root.$kof.append($(`
+
+      &amp;lt;div class=&amp;#34;kof-head&amp;#34;&amp;gt;
+
+        &amp;lt;div class=&amp;#34;kof-head-hp-0&amp;#34;&amp;gt;&amp;lt;div&amp;gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&amp;#34;kof-head-timer&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&amp;#34;kof-head-hp-1&amp;#34;&amp;gt;&amp;lt;div&amp;gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+
+      &amp;lt;/div&amp;gt;
+
+    `));
+
+  
+
+    this.time_left = 60000;  //单位：毫秒
+
+    this.$timer = this.root.$kof.find(&amp;#39;.kof-head-timer&amp;#39;);
+
+  }
+
+  
+
+  start() {
+
+  
+
+  }
+
+  
+
+  update() {
+
+    this.time_left -= this.timedelta;
+
+    if (this.time_left &amp;lt; 0) {
+
+      this.time_left = 0;
+
+  
+
+      let [a, b] = this.root.players;
+
+      if (a.status !== 6 &amp;amp;&amp;amp; b.status !== 6) {
+
+        a.statu = b.status = 6;
+
+        a.frame_current_cnt = b.frame_current_cnt = 0;
+
+        a.vx = b.vx = 0;
+
+      }
+
+    }
+
+    this.$timer.text(parseInt(this.time_left / 1000));
+
+  
+
+    this.render();
+
+  }
+
+  
+
+  render() {
+
+    this.ctx.clearRect(0, 0, this.ctx.canvas.width, this.ctx.canvas.height);
+
+  }
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;player&#34;&gt;Player&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;js/player/base.js&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import { AcGameObject } from &amp;#39;../ac_game_object/base.js&amp;#39;;
+
+  
+
+export class Player extends AcGameObject {
+
+  constructor(root, info) {
+
+    super();
+
+  
+
+    this.root = root;
+
+    this.id = info.id;
+
+    this.x = info.x;
+
+    this.y = info.y;
+
+    this.width = info.width;
+
+    this.height = info.height;
+
+    this.color = info.color;
+
+  
+
+    this.direction = 1;
+
+  
+
+    this.vx = 0;
+
+    this.vy = 0;
+
+  
+
+    this.speedx = 400;  // 水平速度
+
+    this.speedy = -1000;  // 跳跃初始速度
+
+  
+
+    this.gravity = 50;
+
+  
+
+    this.ctx = this.root.game_map.ctx;
+
+    this.pressed_keys = this.root.game_map.controller.pressed_keys;
+
+    this.status = 3;  // 0：静止， 1：向前，2：向后，3：跳跃，4：攻击，5：被攻击，6：死亡   随着项目的完善，动作会变的很多，这时用数组存储字符串代替this.status会更方便
+
+    this.animations = new Map();  // 状态的动作    
+
+    this.frame_current_cnt = 0;  // 当前记录帧数
+
+  
+
+    this.hp = 100;
+
+    this.$hp = this.root.$kof.find(`.kof-head-hp-${this.id}&amp;gt;div`);
+
+    this.$hp_div = this.$hp.find(&amp;#39;div&amp;#39;);
+
+  }
+
+  start() {
+
+  }
+
+  
+
+  update_control() {
+
+    let w, a, d, j;
+
+    if (this.id === 0) {
+
+      w = this.pressed_keys.has(&amp;#39;w&amp;#39;);
+
+      a = this.pressed_keys.has(&amp;#39;a&amp;#39;);
+
+      d = this.pressed_keys.has(&amp;#39;d&amp;#39;);
+
+      j = this.pressed_keys.has(&amp;#39;j&amp;#39;);
+
+    } else {
+
+      w = this.pressed_keys.has(&amp;#39;ArrowUp&amp;#39;);
+
+      a = this.pressed_keys.has(&amp;#39;ArrowLeft&amp;#39;);
+
+      d = this.pressed_keys.has(&amp;#39;ArrowRight&amp;#39;);
+
+      j = this.pressed_keys.has(&amp;#39;1&amp;#39;);
+
+    }
+
+  
+
+    if (this.status === 0 || this.status === 1) {   // 静止状态 || 移动状态
+
+      if (j) {  // 攻击
+
+        this.status = 4;
+
+        this.vx = 0;
+
+        this.frame_current_cnt = 0;
+
+      } else if (w) {  // 跳跃
+
+        if (d) {  // 向右跳
+
+          this.vx = this.speedx;
+
+        } else if (a) {  // 向左跳
+
+          this.vx = -this.speedx;
+
+        } else {  // 垂直跳
+
+          this.vx = 0;
+
+        }
+
+        this.vy = this.speedy;
+
+        this.status = 3;
+
+        this.frame_current_cnt = 0;
+
+  
+
+      } else if (d) {  // 向右移动
+
+        this.vx = this.speedx;
+
+        this.status = 1;
+
+      } else if (a) {  // 向左移动
+
+        this.vx = - this.speedx;
+
+        this.status = 1;
+
+      } else {  // 静止
+
+        this.vx = 0;
+
+      }
+
+    }
+
+  
+
+  }
+
+  update_move() {
+
+    this.vy += this.gravity;
+
+  
+
+    this.x += this.vx * this.timedelta / 1000;
+
+    this.y += this.vy * this.timedelta / 1000;
+
+  
+
+    let [a, b] = this.root.players;
+
+    if (a !== this) [a,b] = [b, a];
+
+  
+
+    let r1 = {
+
+      x1: a.x,
+
+      y1: a.y,
+
+      x2: a.x + a.width,
+
+      y2: a.x + a.height,
+
+    };
+
+    let r2 = {
+
+      x1: b.x,
+
+      y1: b.y,
+
+      x2: b.x + b.width,
+
+      y2: b.x + b.height,
+
+    };
+
+  
+
+    if (this.is_collusion(r1, r2)) {
+
+      b.x += this.vx * this.timedelta / 1000 / 2;
+
+      b.y += this.vy * this.timedelta / 1000 / 2;
+
+      a.x -= this.vx * this.timedelta / 1000 / 2;
+
+      a.y -= this.vy * this.timedelta / 1000 / 2;
+
+  
+
+      if (this.status === 3) this.status = 0;
+
+    }
+
+  
+
+    // 落到平地上后静止
+
+    if (this.y &amp;gt; 450) {
+
+      this.y = 450;
+
+      this.vy = 0;
+
+      if (this.status === 3) this.status = 0;
+
+    }
+
+  
+
+    // 不能超出左右边界
+
+    if (this.x &amp;lt; 0) {
+
+      this.x = 0;
+
+    } else if (this.x + this.width &amp;gt; this.root.game_map.$canvas.width()) {
+
+      this.x = this.root.game_map.$canvas.width() - this.width;
+
+    }
+
+  
+
+  }
+
+  
+
+  update_direction() {
+
+    if (this.status === 6) return;
+
+  
+
+    let players = this.root.players;
+
+    if (players[0] &amp;amp;&amp;amp; players[1]) {
+
+      let me = this, you = players[1 - this.id];
+
+      if (me.x &amp;lt; you.x) me.direction = 1;
+
+      else me.direction = -1;
+
+    }
+
+  }
+
+  
+
+  is_collusion(r1, r2) {  // 判断两个矩阵是否有交集
+
+    if (Math.max(r1.x1, r2.x1) &amp;gt; Math.min(r1.x2, r2.x2))
+
+      return false;
+
+    if (Math.max(r1.y1, r2.y1) &amp;gt; Math.min(r1.y2,r2.y2))
+
+      return false;
+
+    return true;
+
+  }
+
+  
+
+  is_attack() {
+
+    if (this.status === 6) return;
+
+  
+
+    this.status = 5;
+
+    this.frame_current_cnt = 0;
+
+  
+
+    this.hp = Math.max(this.hp - 10, 0);
+
+  
+
+    this.$hp_div.animate({  
+
+      width: this.$hp.parent().width() * this.hp / 100,
+
+    }, 350);
+
+  
+
+    this.$hp.animate({  
+
+      width: this.$hp.parent().width() * this.hp / 100,
+
+    }, 600);
+
+  
+
+    if (this.hp &amp;lt;= 0) {
+
+      this.status = 6;
+
+      this.frame_current_cnt = 0;
+
+      this.vx = 0;
+
+    }
+
+  }
+
+  
+
+  update_attack() {
+
+    if (this.status === 4 &amp;amp;&amp;amp; this.frame_current_cnt === 18) {
+
+      let me = this, you = this.root.players[1 - this.id];
+
+      let r1;  // 攻击判定矩形
+
+      let r2;  // 敌方人物矩形
+
+      if (this.direction &amp;gt;0) {
+
+        r1 = {
+
+          x1: me.x + 120,
+
+          y1: me.y + 40,
+
+          x2: me.x + 120 + 100,
+
+          y2: me.y + 40 + 20,
+
+        }
+
+      } else {
+
+        r1 = {
+
+          x1: me.x + me.width - 120 - 100,
+
+          y1: me.y + 40,
+
+          x2: me.x + me.width - 120 - 100 + 100,
+
+          y2: me.y + 40 + 20,
+
+        }
+
+      }
+
+  
+
+      r2 = {
+
+        x1: you.x,
+
+        y2: you.y,
+
+        x2: you.x + you.width,
+
+        y2: you.y + you.height
+
+      };
+
+  
+
+      if (this.is_collusion(r1, r2)) {
+
+        you.is_attack();
+
+      }
+
+    }
+
+  }
+
+  
+
+  update() {
+
+    this.update_attack();
+
+    this.update_direction();
+
+    this.update_control();
+
+    this.update_move();
+
+    this.render();
+
+  }
+
+  
+
+  render() {
+
+  
+
+    let status = this.status;
+
+  
+
+    if (this.status === 1 &amp;amp;&amp;amp; this.direction * this.vx &amp;lt; 0) status = 2;
+
+  
+
+    let obj = this.animations.get(status);
+
+    if (obj &amp;amp;&amp;amp; obj.loaded) {    // GIF 已经加载完成
+
+      if (this.direction &amp;gt; 0) {  // 正方向
+
+        let k = parseInt(this.frame_current_cnt / obj.frame_rate) % obj.frame_cnt;
+
+        let image = obj.gif.frames[k].image;
+
+        this.ctx.drawImage(image, this.x, this.y + obj.offset_y, image.width * obj.scale, image.height * obj.scale);
+
+      } else {  // 反方向
+
+        this.ctx.save();
+
+        this.ctx.scale(-1, 1);
+
+        this.ctx.translate(-this.root.game_map.$canvas.width(), 0);
+
+  
+
+        let k = parseInt(this.frame_current_cnt / obj.frame_rate) % obj.frame_cnt;
+
+        let image = obj.gif.frames[k].image;
+
+        this.ctx.drawImage(image, this.root.game_map.$canvas.width() - this.width - this.x, this.y + obj.offset_y, image.width * obj.scale, image.height * obj.scale);
+
+  
+
+        this.ctx.restore();
+
+      }
+
+    }
+
+  
+
+    if (status === 4 || status === 5 || status === 6) {  // 确保不会一直循环GIF
+
+      if (this.frame_current_cnt === obj.frame_rate * (obj.frame_cnt - 1)) {
+
+        if (status === 6) {
+
+          this.frame_current_cnt--;
+
+        } else {
+
+          this.status = 0;
+
+        }
+
+      }
+
+    }
+
+  
+
+    this.frame_current_cnt++;
+
+  }
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;js/player/kyo.js&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import { Player } from &amp;#34;../player/base.js&amp;#34;;
+
+import {GIF} from &amp;#39;../utils/gif.js&amp;#39;
+
+  
+
+export class Kyo extends Player {
+
+  constructor(root, info) {
+
+    super(root, info);
+
+  
+
+    this.init_animations();   // 初始化动画
+
+  }
+
+  
+
+  init_animations() {
+
+    let outer = this;
+
+    let offsets = [0, -22, -22, -150, 0, 0, 0];   // 偏移量
+
+    for (let i = 0; i &amp;lt; 7; ++ i) {  // 7个动作
+
+      let gif = GIF();
+
+      gif.load(`/static/images/player/kyo/${i}.gif`);
+
+      this.animations.set(i, {  // 动画
+
+        gif: gif,
+
+        frame_cnt: 0,  // GIF帧数
+
+        frame_rate: 5,  // 每秒的帧数
+
+        offset_y: offsets[i],  // y方向偏移量
+
+        loaded: false,  // 是否加载完成
+
+        scale: 2,  // 放大2倍
+
+      });
+
+  
+
+      gif.onload = function() {   // 加载完成
+
+        let obj = outer.animations.get(i);
+
+        obj.frame_cnt = gif.frames.length;
+
+        obj.loaded = true;
+
+  
+
+        if (i === 3) {
+
+          obj.frame_rate = 4;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;gif&#34;&gt;GIF&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/48234696/how-to-put-a-gif-with-canvas/48348567#48348567&#34;&gt;Loading and playing GIF image to canvas&lt;/a&gt;    把玩家的&lt;code&gt;GIF&lt;/code&gt;动画渲染在&lt;code&gt;canvas&lt;/code&gt;上&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;js/utils/gif.js&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;const GIF = function () {
+
+  // **NOT** for commercial use.
+
+  var timerID;                          // timer handle for set time out usage
+
+  var st;                               // holds the stream object when loading.
+
+  var interlaceOffsets = [0, 4, 2, 1]; // used in de-interlacing.
+
+  var interlaceSteps = [8, 8, 4, 2];
+
+  var interlacedBufSize;  // this holds a buffer to de interlace. Created on the first frame and when size changed
+
+  var deinterlaceBuf;
+
+  var pixelBufSize;    // this holds a buffer for pixels. Created on the first frame and when size changed
+
+  var pixelBuf;
+
+  const GIF_FILE = { // gif file data headers
+
+    GCExt: 0xF9,
+
+    COMMENT: 0xFE,
+
+    APPExt: 0xFF,
+
+    UNKNOWN: 0x01, // not sure what this is but need to skip it in parser
+
+    IMAGE: 0x2C,
+
+    EOF: 59,   // This is entered as decimal
+
+    EXT: 0x21,
+
+  };
+
+  // simple buffered stream used to read from the file
+
+  var Stream = function (data) {
+
+      this.data = new Uint8ClampedArray(data);
+
+      this.pos = 0;
+
+      var len = this.data.length;
+
+      this.getString = function (count) { // returns a string from current pos of len count
+
+          var s = &amp;#34;&amp;#34;;
+
+          while (count--) { s += String.fromCharCode(this.data[this.pos++]) }
+
+          return s;
+
+      };
+
+      this.readSubBlocks = function () { // reads a set of blocks as a string
+
+          var size, count, data = &amp;#34;&amp;#34;;
+
+          do {
+
+              count = size = this.data[this.pos++];
+
+              while (count--) { data += String.fromCharCode(this.data[this.pos++]) }
+
+          } while (size !== 0 &amp;amp;&amp;amp; this.pos &amp;lt; len);
+
+          return data;
+
+      }
+
+      this.readSubBlocksB = function () { // reads a set of blocks as binary
+
+          var size, count, data = [];
+
+          do {
+
+              count = size = this.data[this.pos++];
+
+              while (count--) { data.push(this.data[this.pos++]); }
+
+          } while (size !== 0 &amp;amp;&amp;amp; this.pos &amp;lt; len);
+
+          return data;
+
+      }
+
+  };
+
+  // LZW decoder uncompressed each frames pixels
+
+  // this needs to be optimised.
+
+  // minSize is the min dictionary as powers of two
+
+  // size and data is the compressed pixels
+
+  function lzwDecode(minSize, data) {
+
+      var i, pixelPos, pos, clear, eod, size, done, dic, code, last, d, len;
+
+      pos = pixelPos = 0;
+
+      dic = [];
+
+      clear = 1 &amp;lt;&amp;lt; minSize;
+
+      eod = clear + 1;
+
+      size = minSize + 1;
+
+      done = false;
+
+      while (!done) { // JavaScript optimisers like a clear exit though I never use &amp;#39;done&amp;#39; apart from fooling the optimiser
+
+          last = code;
+
+          code = 0;
+
+          for (i = 0; i &amp;lt; size; i++) {
+
+              if (data[pos &amp;gt;&amp;gt; 3] &amp;amp; (1 &amp;lt;&amp;lt; (pos &amp;amp; 7))) { code |= 1 &amp;lt;&amp;lt; i }
+
+              pos++;
+
+          }
+
+          if (code === clear) { // clear and reset the dictionary
+
+              dic = [];
+
+              size = minSize + 1;
+
+              for (i = 0; i &amp;lt; clear; i++) { dic[i] = [i] }
+
+              dic[clear] = [];
+
+              dic[eod] = null;
+
+          } else {
+
+              if (code === eod) { done = true; return }
+
+              if (code &amp;gt;= dic.length) { dic.push(dic[last].concat(dic[last][0])) }
+
+              else if (last !== clear) { dic.push(dic[last].concat(dic[code][0])) }
+
+              d = dic[code];
+
+              len = d.length;
+
+              for (i = 0; i &amp;lt; len; i++) { pixelBuf[pixelPos++] = d[i] }
+
+              if (dic.length === (1 &amp;lt;&amp;lt; size) &amp;amp;&amp;amp; size &amp;lt; 12) { size++ }
+
+          }
+
+      }
+
+  };
+
+  function parseColourTable(count) { // get a colour table of length count  Each entry is 3 bytes, for RGB.
+
+      var colours = [];
+
+      for (var i = 0; i &amp;lt; count; i++) { colours.push([st.data[st.pos++], st.data[st.pos++], st.data[st.pos++]]) }
+
+      return colours;
+
+  }
+
+  function parse() {        // read the header. This is the starting point of the decode and async calls parseBlock
+
+      var bitField;
+
+      st.pos += 6;
+
+      gif.width = (st.data[st.pos++]) + ((st.data[st.pos++]) &amp;lt;&amp;lt; 8);
+
+      gif.height = (st.data[st.pos++]) + ((st.data[st.pos++]) &amp;lt;&amp;lt; 8);
+
+      bitField = st.data[st.pos++];
+
+      gif.colorRes = (bitField &amp;amp; 0b1110000) &amp;gt;&amp;gt; 4;
+
+      gif.globalColourCount = 1 &amp;lt;&amp;lt; ((bitField &amp;amp; 0b111) + 1);
+
+      gif.bgColourIndex = st.data[st.pos++];
+
+      st.pos++;                    // ignoring pixel aspect ratio. if not 0, aspectRatio = (pixelAspectRatio + 15) / 64
+
+      if (bitField &amp;amp; 0b10000000) { gif.globalColourTable = parseColourTable(gif.globalColourCount) } // global colour flag
+
+      setTimeout(parseBlock, 0);
+
+  }
+
+  function parseAppExt() { // get application specific data. Netscape added iterations and terminator. Ignoring that
+
+      st.pos += 1;
+
+      if (&amp;#39;NETSCAPE&amp;#39; === st.getString(8)) { st.pos += 8 }  // ignoring this data. iterations (word) and terminator (byte)
+
+      else {
+
+          st.pos += 3;            // 3 bytes of string usually &amp;#34;2.0&amp;#34; when identifier is NETSCAPE
+
+          st.readSubBlocks();     // unknown app extension
+
+      }
+
+  };
+
+  function parseGCExt() { // get GC data
+
+      var bitField;
+
+      st.pos++;
+
+      bitField = st.data[st.pos++];
+
+      gif.disposalMethod = (bitField &amp;amp; 0b11100) &amp;gt;&amp;gt; 2;
+
+      gif.transparencyGiven = bitField &amp;amp; 0b1 ? true : false; // ignoring bit two that is marked as  userInput???
+
+      gif.delayTime = (st.data[st.pos++]) + ((st.data[st.pos++]) &amp;lt;&amp;lt; 8);
+
+      gif.transparencyIndex = st.data[st.pos++];
+
+      st.pos++;
+
+  };
+
+  function parseImg() {                           // decodes image data to create the indexed pixel image
+
+      var deinterlace, frame, bitField;
+
+      deinterlace = function (width) {                   // de interlace pixel data if needed
+
+          var lines, fromLine, pass, toline;
+
+          lines = pixelBufSize / width;
+
+          fromLine = 0;
+
+          if (interlacedBufSize !== pixelBufSize) {      // create the buffer if size changed or undefined.
+
+              deinterlaceBuf = new Uint8Array(pixelBufSize);
+
+              interlacedBufSize = pixelBufSize;
+
+          }
+
+          for (pass = 0; pass &amp;lt; 4; pass++) {
+
+              for (toLine = interlaceOffsets[pass]; toLine &amp;lt; lines; toLine += interlaceSteps[pass]) {
+
+                  deinterlaceBuf.set(pixelBuf.subarray(fromLine, fromLine + width), toLine * width);
+
+                  fromLine += width;
+
+              }
+
+          }
+
+      };
+
+      frame = {}
+
+      gif.frames.push(frame);
+
+      frame.disposalMethod = gif.disposalMethod;
+
+      frame.time = gif.length;
+
+      frame.delay = gif.delayTime * 10;
+
+      gif.length += frame.delay;
+
+      if (gif.transparencyGiven) { frame.transparencyIndex = gif.transparencyIndex }
+
+      else { frame.transparencyIndex = undefined }
+
+      frame.leftPos = (st.data[st.pos++]) + ((st.data[st.pos++]) &amp;lt;&amp;lt; 8);
+
+      frame.topPos = (st.data[st.pos++]) + ((st.data[st.pos++]) &amp;lt;&amp;lt; 8);
+
+      frame.width = (st.data[st.pos++]) + ((st.data[st.pos++]) &amp;lt;&amp;lt; 8);
+
+      frame.height = (st.data[st.pos++]) + ((st.data[st.pos++]) &amp;lt;&amp;lt; 8);
+
+      bitField = st.data[st.pos++];
+
+      frame.localColourTableFlag = bitField &amp;amp; 0b10000000 ? true : false;
+
+      if (frame.localColourTableFlag) { frame.localColourTable = parseColourTable(1 &amp;lt;&amp;lt; ((bitField &amp;amp; 0b111) + 1)) }
+
+      if (pixelBufSize !== frame.width * frame.height) { // create a pixel buffer if not yet created or if current frame size is different from previous
+
+          pixelBuf = new Uint8Array(frame.width * frame.height);
+
+          pixelBufSize = frame.width * frame.height;
+
+      }
+
+      lzwDecode(st.data[st.pos++], st.readSubBlocksB()); // decode the pixels
+
+      if (bitField &amp;amp; 0b1000000) {                        // de interlace if needed
+
+          frame.interlaced = true;
+
+          deinterlace(frame.width);
+
+      } else { frame.interlaced = false }
+
+      processFrame(frame);                               // convert to canvas image
+
+  };
+
+  function processFrame(frame) { // creates a RGBA canvas image from the indexed pixel data.
+
+      var ct, cData, dat, pixCount, ind, useT, i, pixel, pDat, col, frame, ti;
+
+      frame.image = document.createElement(&amp;#39;canvas&amp;#39;);
+
+      frame.image.width = gif.width;
+
+      frame.image.height = gif.height;
+
+      frame.image.ctx = frame.image.getContext(&amp;#34;2d&amp;#34;);
+
+      ct = frame.localColourTableFlag ? frame.localColourTable : gif.globalColourTable;
+
+      if (gif.lastFrame === null) { gif.lastFrame = frame }
+
+      useT = (gif.lastFrame.disposalMethod === 2 || gif.lastFrame.disposalMethod === 3) ? true : false;
+
+      if (!useT) { frame.image.ctx.drawImage(gif.lastFrame.image, 0, 0, gif.width, gif.height) }
+
+      cData = frame.image.ctx.getImageData(frame.leftPos, frame.topPos, frame.width, frame.height);
+
+      ti = frame.transparencyIndex;
+
+      dat = cData.data;
+
+      if (frame.interlaced) { pDat = deinterlaceBuf }
+
+      else { pDat = pixelBuf }
+
+      pixCount = pDat.length;
+
+      ind = 0;
+
+      for (i = 0; i &amp;lt; pixCount; i++) {
+
+          pixel = pDat[i];
+
+          col = ct[pixel];
+
+          if (ti !== pixel) {
+
+              dat[ind++] = col[0];
+
+              dat[ind++] = col[1];
+
+              dat[ind++] = col[2];
+
+              dat[ind++] = 255;      // Opaque.
+
+          } else
+
+              if (useT) {
+
+                  dat[ind + 3] = 0; // Transparent.
+
+                  ind += 4;
+
+              } else { ind += 4 }
+
+      }
+
+      frame.image.ctx.putImageData(cData, frame.leftPos, frame.topPos);
+
+      gif.lastFrame = frame;
+
+      if (!gif.waitTillDone &amp;amp;&amp;amp; typeof gif.onload === &amp;#34;function&amp;#34;) { doOnloadEvent() }// if !waitTillDone the call onload now after first frame is loaded
+
+  };
+
+  // **NOT** for commercial use.
+
+  function finnished() { // called when the load has completed
+
+      gif.loading = false;
+
+      gif.frameCount = gif.frames.length;
+
+      gif.lastFrame = null;
+
+      st = undefined;
+
+      gif.complete = true;
+
+      gif.disposalMethod = undefined;
+
+      gif.transparencyGiven = undefined;
+
+      gif.delayTime = undefined;
+
+      gif.transparencyIndex = undefined;
+
+      gif.waitTillDone = undefined;
+
+      pixelBuf = undefined; // dereference pixel buffer
+
+      deinterlaceBuf = undefined; // dereference interlace buff (may or may not be used);
+
+      pixelBufSize = undefined;
+
+      deinterlaceBuf = undefined;
+
+      gif.currentFrame = 0;
+
+      if (gif.frames.length &amp;gt; 0) { gif.image = gif.frames[0].image }
+
+      doOnloadEvent();
+
+      if (typeof gif.onloadall === &amp;#34;function&amp;#34;) {
+
+          (gif.onloadall.bind(gif))({ type: &amp;#39;loadall&amp;#39;, path: [gif] });
+
+      }
+
+      if (gif.playOnLoad) { gif.play() }
+
+  }
+
+  function canceled() { // called if the load has been cancelled
+
+      finnished();
+
+      if (typeof gif.cancelCallback === &amp;#34;function&amp;#34;) { (gif.cancelCallback.bind(gif))({ type: &amp;#39;canceled&amp;#39;, path: [gif] }) }
+
+  }
+
+  function parseExt() {              // parse extended blocks
+
+      const blockID = st.data[st.pos++];
+
+      if (blockID === GIF_FILE.GCExt) { parseGCExt() }
+
+      else if (blockID === GIF_FILE.COMMENT) { gif.comment += st.readSubBlocks() }
+
+      else if (blockID === GIF_FILE.APPExt) { parseAppExt() }
+
+      else {
+
+          if (blockID === GIF_FILE.UNKNOWN) { st.pos += 13; } // skip unknow block
+
+          st.readSubBlocks();
+
+      }
+
+  
+
+  }
+
+  function parseBlock() { // parsing the blocks
+
+      if (gif.cancel !== undefined &amp;amp;&amp;amp; gif.cancel === true) { canceled(); return }
+
+  
+
+      const blockId = st.data[st.pos++];
+
+      if (blockId === GIF_FILE.IMAGE) { // image block
+
+          parseImg();
+
+          if (gif.firstFrameOnly) { finnished(); return }
+
+      } else if (blockId === GIF_FILE.EOF) { finnished(); return }
+
+      else { parseExt() }
+
+      if (typeof gif.onprogress === &amp;#34;function&amp;#34;) {
+
+          gif.onprogress({ bytesRead: st.pos, totalBytes: st.data.length, frame: gif.frames.length });
+
+      }
+
+      setTimeout(parseBlock, 0); // parsing frame async so processes can get some time in.
+
+  };
+
+  function cancelLoad(callback) { // cancels the loading. This will cancel the load before the next frame is decoded
+
+      if (gif.complete) { return false }
+
+      gif.cancelCallback = callback;
+
+      gif.cancel = true;
+
+      return true;
+
+  }
+
+  function error(type) {
+
+      if (typeof gif.onerror === &amp;#34;function&amp;#34;) { (gif.onerror.bind(this))({ type: type, path: [this] }) }
+
+      gif.onload = gif.onerror = undefined;
+
+      gif.loading = false;
+
+  }
+
+  function doOnloadEvent() { // fire onload event if set
+
+      gif.currentFrame = 0;
+
+      gif.nextFrameAt = gif.lastFrameAt = new Date().valueOf(); // just sets the time now
+
+      if (typeof gif.onload === &amp;#34;function&amp;#34;) { (gif.onload.bind(gif))({ type: &amp;#39;load&amp;#39;, path: [gif] }) }
+
+      gif.onerror = gif.onload = undefined;
+
+  }
+
+  function dataLoaded(data) { // Data loaded create stream and parse
+
+      st = new Stream(data);
+
+      parse();
+
+  }
+
+  function loadGif(filename) { // starts the load
+
+      var ajax = new XMLHttpRequest();
+
+      ajax.responseType = &amp;#34;arraybuffer&amp;#34;;
+
+      ajax.onload = function (e) {
+
+          if (e.target.status === 404) { error(&amp;#34;File not found&amp;#34;) }
+
+          else if (e.target.status &amp;gt;= 200 &amp;amp;&amp;amp; e.target.status &amp;lt; 300) { dataLoaded(ajax.response) }
+
+          else { error(&amp;#34;Loading error : &amp;#34; + e.target.status) }
+
+      };
+
+      ajax.open(&amp;#39;GET&amp;#39;, filename, true);
+
+      ajax.send();
+
+      ajax.onerror = function (e) { error(&amp;#34;File error&amp;#34;) };
+
+      this.src = filename;
+
+      this.loading = true;
+
+  }
+
+  function play() { // starts play if paused
+
+      if (!gif.playing) {
+
+          gif.paused = false;
+
+          gif.playing = true;
+
+          playing();
+
+      }
+
+  }
+
+  function pause() { // stops play
+
+      gif.paused = true;
+
+      gif.playing = false;
+
+      clearTimeout(timerID);
+
+  }
+
+  function togglePlay() {
+
+      if (gif.paused || !gif.playing) { gif.play() }
+
+      else { gif.pause() }
+
+  }
+
+  function seekFrame(frame) { // seeks to frame number.
+
+      clearTimeout(timerID);
+
+      gif.currentFrame = frame % gif.frames.length;
+
+      if (gif.playing) { playing() }
+
+      else { gif.image = gif.frames[gif.currentFrame].image }
+
+  }
+
+  function seek(time) { // time in Seconds  // seek to frame that would be displayed at time
+
+      clearTimeout(timerID);
+
+      if (time &amp;lt; 0) { time = 0 }
+
+      time *= 1000; // in ms
+
+      time %= gif.length;
+
+      var frame = 0;
+
+      while (time &amp;gt; gif.frames[frame].time + gif.frames[frame].delay &amp;amp;&amp;amp; frame &amp;lt; gif.frames.length) { frame += 1 }
+
+      gif.currentFrame = frame;
+
+      if (gif.playing) { playing() }
+
+      else { gif.image = gif.frames[gif.currentFrame].image }
+
+  }
+
+  function playing() {
+
+      var delay;
+
+      var frame;
+
+      if (gif.playSpeed === 0) {
+
+          gif.pause();
+
+          return;
+
+      } else {
+
+          if (gif.playSpeed &amp;lt; 0) {
+
+              gif.currentFrame -= 1;
+
+              if (gif.currentFrame &amp;lt; 0) { gif.currentFrame = gif.frames.length - 1 }
+
+              frame = gif.currentFrame;
+
+              frame -= 1;
+
+              if (frame &amp;lt; 0) { frame = gif.frames.length - 1 }
+
+              delay = -gif.frames[frame].delay * 1 / gif.playSpeed;
+
+          } else {
+
+              gif.currentFrame += 1;
+
+              gif.currentFrame %= gif.frames.length;
+
+              delay = gif.frames[gif.currentFrame].delay * 1 / gif.playSpeed;
+
+          }
+
+          gif.image = gif.frames[gif.currentFrame].image;
+
+          timerID = setTimeout(playing, delay);
+
+      }
+
+  }
+
+  var gif = {                      // the gif image object
+
+      onload: null,       // fire on load. Use waitTillDone = true to have load fire at end or false to fire on first frame
+
+      onerror: null,       // fires on error
+
+      onprogress: null,       // fires a load progress event
+
+      onloadall: null,       // event fires when all frames have loaded and gif is ready
+
+      paused: false,      // true if paused
+
+      playing: false,      // true if playing
+
+      waitTillDone: true,       // If true onload will fire when all frames loaded, if false, onload will fire when first frame has loaded
+
+      loading: false,      // true if still loading
+
+      firstFrameOnly: false,      // if true only load the first frame
+
+      width: null,       // width in pixels
+
+      height: null,       // height in pixels
+
+      frames: [],         // array of frames
+
+      comment: &amp;#34;&amp;#34;,         // comments if found in file. Note I remember that some gifs have comments per frame if so this will be all comment concatenated
+
+      length: 0,          // gif length in ms (1/1000 second)
+
+      currentFrame: 0,          // current frame.
+
+      frameCount: 0,          // number of frames
+
+      playSpeed: 1,          // play speed 1 normal, 2 twice 0.5 half, -1 reverse etc...
+
+      lastFrame: null,       // temp hold last frame loaded so you can display the gif as it loads
+
+      image: null,       // the current image at the currentFrame
+
+      playOnLoad: true,       // if true starts playback when loaded
+
+      // functions
+
+      load: loadGif,    // call this to load a file
+
+      cancel: cancelLoad, // call to stop loading
+
+      play: play,       // call to start play
+
+      pause: pause,      // call to pause
+
+      seek: seek,       // call to seek to time
+
+      seekFrame: seekFrame,  // call to seek to frame
+
+      togglePlay: togglePlay, // call to toggle play and pause state
+
+  };
+
+  return gif;
+
+}
+
+  
+
+export {
+
+  GIF
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;状态机&#34;&gt;状态机&lt;/h4&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2022/11/03/636315494cea8.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;0：静止    1：移动     3：跳跃&lt;/div&gt; 
+ &lt;/center&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="acwing-web-应用课">AcWing Web 应用课</h1>
 <ul>
@@ -58,10 +1996,1948 @@
 <li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript">JavaScript —— 用户端动态脚本</a></li>
 <li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">React 入门</a></li>
 <li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started">Vue 入门</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial">Canvas 教程</a></li>
 </ul>
 </li>
 </ul>
 <hr>
+<ul>
+<li><code>VSCode</code> 自动生成缺省的 <code>HTML</code> 代码框架</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="font-weight:bold">html</span> <span style="color:#007f7f">lang</span>=<span style="color:#0ff;font-weight:bold">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="font-weight:bold">head</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  &lt;<span style="font-weight:bold">meta</span> <span style="color:#007f7f">charset</span>=<span style="color:#0ff;font-weight:bold">&#34;UTF-8&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  &lt;<span style="font-weight:bold">meta</span> <span style="color:#007f7f">http-equiv</span>=<span style="color:#0ff;font-weight:bold">&#34;X-UA-Compatible&#34;</span> <span style="color:#007f7f">content</span>=<span style="color:#0ff;font-weight:bold">&#34;IE=edge&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  &lt;<span style="font-weight:bold">meta</span> <span style="color:#007f7f">name</span>=<span style="color:#0ff;font-weight:bold">&#34;viewport&#34;</span> <span style="color:#007f7f">content</span>=<span style="color:#0ff;font-weight:bold">&#34;width=device-width, initial-scale=1.0&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  &lt;<span style="font-weight:bold">title</span>&gt;Document&lt;/<span style="font-weight:bold">title</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;/<span style="font-weight:bold">head</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="font-weight:bold">body</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;/<span style="font-weight:bold">body</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;/<span style="font-weight:bold">html</span>&gt;
+</span></span></code></pre></div><ol>
+<li>输入<code>！</code>，接着输入 <code>tab</code> 键，自动生成缺省的 <code>HTML</code> 代码框架</li>
+<li>再按三下 <code>tab</code> 键，光标会移动到 <code>&lt;body&gt;</code> 与 <code>&lt;/body&gt;</code> 之间的空行</li>
+</ol>
+<hr>
+<h2 id="kof">KOF</h2>
+<ul>
+<li><a href="https://github.com/Xancoding/Leaning-jQuery">KOF</a></li>
+<li><a href="https://www.acwing.com/video/3830/">AcWing Web 应用课 | 中期项目——拳皇（上） | Vedio</a></li>
+<li><a href="https://www.acwing.com/video/3833/">AcWing Web 应用课 | 中期项目——拳皇（下） | Vedio</a></li>
+</ul>
+<hr>
+<h3 id="基础操作">基础操作</h3>
+<pre tabindex="0"><code>操作如下：
+角色一: w 跳 a 左移 d 右移 j 拳击 
+角色二: ↑ 跳 ← 左移 → 右移 1 拳击
+</code></pre><h3 id="文件结构">文件结构</h3>
+<pre tabindex="0"><code>|-- README.md
+|-- static
+|   |-- css
+|   |   `-- base.css
+|   |-- images
+|   |   |-- background
+|   |   |   `-- 0.gif
+|   |   `-- player
+|   |       `-- kyo
+|   |           |-- 0.gif
+|   |           |-- 1.gif
+|   |           |-- 2.gif
+|   |           |-- 3.gif
+|   |           |-- 4.gif
+|   |           |-- 5.gif
+|   |           `-- 6.gif
+|   `-- js
+|       |-- ac_game_object
+|       |   `-- base.js
+|       |-- base.js
+|       |-- controller
+|       |   `-- base.js
+|       |-- game_map
+|       |   `-- base.js
+|       |-- player
+|       |   |-- base.js
+|       |   `-- kyo.js
+|       `-- utils
+|           `-- gif.js
+`-- templates
+    `-- index.html
+</code></pre><h3 id="整体架构">整体架构</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/02/63627b3105c46.png">
+<img src="https://bu.dusays.com/2022/11/02/63627b3105c46.png" alt="KOFStructure"  />
+</a>
+</div>
+
+</p>
+<h3 id="逻辑结构">逻辑结构</h3>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2022/11/02/63627ace5a2f9.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">Retrieved from：https://www.acwing.com/solution/content/139831/</div> 
+ </center>
+<h3 id="html">HTML</h3>
+<p><code>templates/index.html</code></p>
+<pre tabindex="0"><code>&lt;!DOCTYPE html&gt;
+
+&lt;html lang=&#34;en&#34;&gt;
+
+&lt;head&gt;
+
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+
+  &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;IE=edge&#34;&gt;
+
+  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+
+  &lt;title&gt;KOF&lt;/title&gt;
+
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;../static/css/base.css&#34;&gt;
+
+  &lt;script src=&#34;https://cdn.acwing.com/static/jquery/js/jquery-3.3.1.min.js&#34;&gt;&lt;/script&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+  &lt;div id=&#34;kof&#34;&gt;&lt;/div&gt;
+
+  
+
+  &lt;script type=&#34;module&#34;&gt;
+
+    import {KOF} from &#39;../static/js/base.js&#39;;
+
+  
+
+    let kof = new KOF(&#39;kof&#39;);
+
+  &lt;/script&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre><h3 id="css">CSS</h3>
+<p><code>css/base.css</code></p>
+<pre tabindex="0"><code>#kof {
+
+  width: 1280px;
+
+  height: 720px;
+
+  background-image: url(&#39;../images/background/0.gif&#39;);
+
+  background-size: 200% 100%;
+
+  background-position: top;
+
+  position: absolute;
+
+}
+
+  
+
+#kof&gt;.kof-head {
+
+  width: 100%;
+
+  height: 80px;
+
+  position: absolute;
+
+  top: 0;
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+  
+
+#kof&gt;.kof-head&gt;.kof-head-hp-0 {
+
+  height: 40px;
+
+  width: calc(50% - 60px);
+
+  margin-left: 20px;
+
+  border: white 5px solid;
+
+  box-sizing: border-box;
+
+  border-right: none;
+
+}
+
+  
+
+#kof&gt;.kof-head&gt;.kof-head-timer {
+
+  height: 60px;
+
+  width: 80px;
+
+  background-color: orange;
+
+  border: white 5px solid;
+
+  box-sizing: border-box;
+
+  color: white;
+
+  font-size: 30px;
+
+  font-weight: 800;
+
+  text-align: center;
+
+  line-height: 50px;
+
+  user-select: none;
+
+}
+
+  
+
+#kof&gt;.kof-head&gt;.kof-head-hp-1 {
+
+  height: 40px;
+
+  width: calc(50% - 60px);
+
+  border: white 5px solid;
+
+  box-sizing: border-box;
+
+  border-left: none;
+
+}
+
+  
+
+#kof&gt;.kof-head&gt;.kof-head-hp-0&gt;div {
+
+  background-color: red;
+
+  height: 100%;
+
+  width: 100%;
+
+  float: right;
+
+}
+
+  
+
+#kof&gt;.kof-head&gt;.kof-head-hp-1&gt;div {
+
+  background-color: red;
+
+  height: 100%;
+
+  width: 100%;
+
+}
+
+  
+
+#kof&gt;.kof-head&gt;.kof-head-hp-0&gt;div&gt;div {
+
+  background-color: lightgreen;
+
+  height: 100%;
+
+  width: 100%;
+
+  float: right;
+
+}
+
+  
+
+#kof&gt;.kof-head&gt;.kof-head-hp-1&gt;div&gt;div {
+
+  background-color: lightgreen;
+
+  height: 100%;
+
+  width: 100%;
+
+}
+</code></pre><h3 id="javascript">JavaScript</h3>
+<h4 id="逻辑结构-1">逻辑结构</h4>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/03/63631ec3461ef.png">
+<img src="https://bu.dusays.com/2022/11/03/63631ec3461ef.png" alt="逻辑结构"  />
+</a>
+</div>
+
+</p>
+<h4 id="kof-1">KOF</h4>
+<p><code>js/base.js</code></p>
+<pre tabindex="0"><code>import { GameMap } from &#39;../js/game_map/base.js&#39;
+
+import { Kyo } from &#39;../js/player/kyo.js&#39;;
+
+  
+
+export class KOF {
+
+  constructor(id) {
+
+    this.$kof = $(&#39;#&#39; + id);
+
+  
+
+    this.game_map = new GameMap(this);
+
+    this.players = [
+
+      new Kyo(this, {
+
+        id: 0,
+
+        x: 200,
+
+        y: 0,
+
+        width: 120,
+
+        height: 200,
+
+        color: &#39;blue&#39;
+
+      }),
+
+      new Kyo(this, {
+
+        id: 1,
+
+        x: 900,
+
+        y: 0,
+
+        width: 120,
+
+        height: 200,
+
+        color: &#39;red&#39;
+
+      })
+
+    ]
+
+  }
+
+}
+</code></pre><h4 id="acgameobject">AcGameObject</h4>
+<p><code>js/ac_game_object/base.js</code></p>
+<pre tabindex="0"><code>let AC_GAME_OBJECTS = [];
+
+  
+
+export class AcGameObject {
+
+  constructor() {
+
+    AC_GAME_OBJECTS.push(this);
+
+  
+
+    this.timedelta = 0;
+
+    this.has_call_start = false;
+
+  }
+
+  
+
+  start() {  // 初始化
+
+  
+  
+
+  }
+
+  
+
+  update() {  // 每一帧执行一次
+
+  
+
+  }
+
+  
+
+  destory() {  // 删除当前对象
+
+    for (let i in AC_GAME_OBJECTS) {
+
+      if (AC_GAME_OBJECTS[i] === this) {
+
+        AC_GAME_OBJECTS.splice(i, 1);
+
+        break;
+
+      }
+
+    }
+
+  }
+
+}
+
+  
+
+let last_timestamp;   // 上一次执行函数时的时刻
+
+  
+
+/**
+
+ * @description 该函数每一帧执行一次
+
+ * @param {number} timestamp 当前执行函数时的时刻
+
+ */
+
+  
+
+let AC_GAME_OBJECTS_FRAME = (timestamp) =&gt; {
+
+  for (let obj of AC_GAME_OBJECTS) {
+
+    if (!obj.has_call_start) {
+
+      obj.start();
+
+      obj.has_call_start = true;
+
+    } else {
+
+      obj.timedelta = timestamp - last_timestamp;
+
+      obj.update();
+
+    }
+
+  }
+
+  
+
+  last_timestamp = timestamp;
+
+  requestAnimationFrame(AC_GAME_OBJECTS_FRAME);
+
+}
+
+  
+
+requestAnimationFrame(AC_GAME_OBJECTS_FRAME);
+</code></pre><h4 id="controller">Controller</h4>
+<ul>
+<li><code>controller</code> 控制器，读取玩家的输入
+<code>js/constroller/base.js</code></li>
+</ul>
+<pre tabindex="0"><code>export class Controller {   // 手动实现键盘触发事件——当前按住的按键（效果不同于keydown）
+
+  constructor($canvas) {
+
+    this.$canvas = $canvas;
+
+    this.pressed_keys = new Set();    // Set 对象允许你存储任何类型的唯一值
+
+    this.start();
+
+  }
+
+  
+
+  start() {
+
+    let outer = this;
+
+    this.$canvas.keydown(function(e){   // keydown：某个键是否被按住，事件会连续触发
+
+      outer.pressed_keys.add(e.key);
+
+    });
+
+  
+
+    this.$canvas.keyup(function(e){   // keyup：某个按键是否被释放
+
+      outer.pressed_keys.delete(e.key);
+
+    });
+
+  
+
+  }
+
+}
+</code></pre><h4 id="gamemap">GameMap</h4>
+<p><code>js/game_map/base.js</code></p>
+<pre tabindex="0"><code>import {AcGameObject} from &#39;../ac_game_object/base.js&#39;
+
+import { Controller } from &#39;../controller/base.js&#39;;
+
+  
+
+export class GameMap extends AcGameObject {
+
+  constructor(root) {
+
+    super();
+
+  
+
+    this.root = root;
+
+    this.$canvas = $(&#39;&lt;canvas width=&#34;1280&#34; height=&#34;720&#34; tabindex=0&gt;&lt;/canvas&gt;&#39;);   // 构造一个jQuery对象  其中，tabindex=&#34;0&#34;使&lt;canvas&gt;元素可以聚焦
+
+    this.ctx = this.$canvas[0].getContext(&#39;2d&#39;);  // this.$canvas[0]是&lt;canvas&gt;元素的DOM对象   this.ctx用于画布的渲染
+
+    this.root.$kof.append(this.$canvas);
+
+    this.$canvas.focus();   // 聚焦，使之可以获取输入
+
+  
+
+    this.controller = new Controller(this.$canvas);
+
+  
+
+    this.root.$kof.append($(`
+
+      &lt;div class=&#34;kof-head&#34;&gt;
+
+        &lt;div class=&#34;kof-head-hp-0&#34;&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+        &lt;div class=&#34;kof-head-timer&#34;&gt;&lt;/div&gt;
+
+        &lt;div class=&#34;kof-head-hp-1&#34;&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+      &lt;/div&gt;
+
+    `));
+
+  
+
+    this.time_left = 60000;  //单位：毫秒
+
+    this.$timer = this.root.$kof.find(&#39;.kof-head-timer&#39;);
+
+  }
+
+  
+
+  start() {
+
+  
+
+  }
+
+  
+
+  update() {
+
+    this.time_left -= this.timedelta;
+
+    if (this.time_left &lt; 0) {
+
+      this.time_left = 0;
+
+  
+
+      let [a, b] = this.root.players;
+
+      if (a.status !== 6 &amp;&amp; b.status !== 6) {
+
+        a.statu = b.status = 6;
+
+        a.frame_current_cnt = b.frame_current_cnt = 0;
+
+        a.vx = b.vx = 0;
+
+      }
+
+    }
+
+    this.$timer.text(parseInt(this.time_left / 1000));
+
+  
+
+    this.render();
+
+  }
+
+  
+
+  render() {
+
+    this.ctx.clearRect(0, 0, this.ctx.canvas.width, this.ctx.canvas.height);
+
+  }
+
+}
+</code></pre><h4 id="player">Player</h4>
+<p><code>js/player/base.js</code></p>
+<pre tabindex="0"><code>import { AcGameObject } from &#39;../ac_game_object/base.js&#39;;
+
+  
+
+export class Player extends AcGameObject {
+
+  constructor(root, info) {
+
+    super();
+
+  
+
+    this.root = root;
+
+    this.id = info.id;
+
+    this.x = info.x;
+
+    this.y = info.y;
+
+    this.width = info.width;
+
+    this.height = info.height;
+
+    this.color = info.color;
+
+  
+
+    this.direction = 1;
+
+  
+
+    this.vx = 0;
+
+    this.vy = 0;
+
+  
+
+    this.speedx = 400;  // 水平速度
+
+    this.speedy = -1000;  // 跳跃初始速度
+
+  
+
+    this.gravity = 50;
+
+  
+
+    this.ctx = this.root.game_map.ctx;
+
+    this.pressed_keys = this.root.game_map.controller.pressed_keys;
+
+    this.status = 3;  // 0：静止， 1：向前，2：向后，3：跳跃，4：攻击，5：被攻击，6：死亡   随着项目的完善，动作会变的很多，这时用数组存储字符串代替this.status会更方便
+
+    this.animations = new Map();  // 状态的动作    
+
+    this.frame_current_cnt = 0;  // 当前记录帧数
+
+  
+
+    this.hp = 100;
+
+    this.$hp = this.root.$kof.find(`.kof-head-hp-${this.id}&gt;div`);
+
+    this.$hp_div = this.$hp.find(&#39;div&#39;);
+
+  }
+
+  start() {
+
+  }
+
+  
+
+  update_control() {
+
+    let w, a, d, j;
+
+    if (this.id === 0) {
+
+      w = this.pressed_keys.has(&#39;w&#39;);
+
+      a = this.pressed_keys.has(&#39;a&#39;);
+
+      d = this.pressed_keys.has(&#39;d&#39;);
+
+      j = this.pressed_keys.has(&#39;j&#39;);
+
+    } else {
+
+      w = this.pressed_keys.has(&#39;ArrowUp&#39;);
+
+      a = this.pressed_keys.has(&#39;ArrowLeft&#39;);
+
+      d = this.pressed_keys.has(&#39;ArrowRight&#39;);
+
+      j = this.pressed_keys.has(&#39;1&#39;);
+
+    }
+
+  
+
+    if (this.status === 0 || this.status === 1) {   // 静止状态 || 移动状态
+
+      if (j) {  // 攻击
+
+        this.status = 4;
+
+        this.vx = 0;
+
+        this.frame_current_cnt = 0;
+
+      } else if (w) {  // 跳跃
+
+        if (d) {  // 向右跳
+
+          this.vx = this.speedx;
+
+        } else if (a) {  // 向左跳
+
+          this.vx = -this.speedx;
+
+        } else {  // 垂直跳
+
+          this.vx = 0;
+
+        }
+
+        this.vy = this.speedy;
+
+        this.status = 3;
+
+        this.frame_current_cnt = 0;
+
+  
+
+      } else if (d) {  // 向右移动
+
+        this.vx = this.speedx;
+
+        this.status = 1;
+
+      } else if (a) {  // 向左移动
+
+        this.vx = - this.speedx;
+
+        this.status = 1;
+
+      } else {  // 静止
+
+        this.vx = 0;
+
+      }
+
+    }
+
+  
+
+  }
+
+  update_move() {
+
+    this.vy += this.gravity;
+
+  
+
+    this.x += this.vx * this.timedelta / 1000;
+
+    this.y += this.vy * this.timedelta / 1000;
+
+  
+
+    let [a, b] = this.root.players;
+
+    if (a !== this) [a,b] = [b, a];
+
+  
+
+    let r1 = {
+
+      x1: a.x,
+
+      y1: a.y,
+
+      x2: a.x + a.width,
+
+      y2: a.x + a.height,
+
+    };
+
+    let r2 = {
+
+      x1: b.x,
+
+      y1: b.y,
+
+      x2: b.x + b.width,
+
+      y2: b.x + b.height,
+
+    };
+
+  
+
+    if (this.is_collusion(r1, r2)) {
+
+      b.x += this.vx * this.timedelta / 1000 / 2;
+
+      b.y += this.vy * this.timedelta / 1000 / 2;
+
+      a.x -= this.vx * this.timedelta / 1000 / 2;
+
+      a.y -= this.vy * this.timedelta / 1000 / 2;
+
+  
+
+      if (this.status === 3) this.status = 0;
+
+    }
+
+  
+
+    // 落到平地上后静止
+
+    if (this.y &gt; 450) {
+
+      this.y = 450;
+
+      this.vy = 0;
+
+      if (this.status === 3) this.status = 0;
+
+    }
+
+  
+
+    // 不能超出左右边界
+
+    if (this.x &lt; 0) {
+
+      this.x = 0;
+
+    } else if (this.x + this.width &gt; this.root.game_map.$canvas.width()) {
+
+      this.x = this.root.game_map.$canvas.width() - this.width;
+
+    }
+
+  
+
+  }
+
+  
+
+  update_direction() {
+
+    if (this.status === 6) return;
+
+  
+
+    let players = this.root.players;
+
+    if (players[0] &amp;&amp; players[1]) {
+
+      let me = this, you = players[1 - this.id];
+
+      if (me.x &lt; you.x) me.direction = 1;
+
+      else me.direction = -1;
+
+    }
+
+  }
+
+  
+
+  is_collusion(r1, r2) {  // 判断两个矩阵是否有交集
+
+    if (Math.max(r1.x1, r2.x1) &gt; Math.min(r1.x2, r2.x2))
+
+      return false;
+
+    if (Math.max(r1.y1, r2.y1) &gt; Math.min(r1.y2,r2.y2))
+
+      return false;
+
+    return true;
+
+  }
+
+  
+
+  is_attack() {
+
+    if (this.status === 6) return;
+
+  
+
+    this.status = 5;
+
+    this.frame_current_cnt = 0;
+
+  
+
+    this.hp = Math.max(this.hp - 10, 0);
+
+  
+
+    this.$hp_div.animate({  
+
+      width: this.$hp.parent().width() * this.hp / 100,
+
+    }, 350);
+
+  
+
+    this.$hp.animate({  
+
+      width: this.$hp.parent().width() * this.hp / 100,
+
+    }, 600);
+
+  
+
+    if (this.hp &lt;= 0) {
+
+      this.status = 6;
+
+      this.frame_current_cnt = 0;
+
+      this.vx = 0;
+
+    }
+
+  }
+
+  
+
+  update_attack() {
+
+    if (this.status === 4 &amp;&amp; this.frame_current_cnt === 18) {
+
+      let me = this, you = this.root.players[1 - this.id];
+
+      let r1;  // 攻击判定矩形
+
+      let r2;  // 敌方人物矩形
+
+      if (this.direction &gt;0) {
+
+        r1 = {
+
+          x1: me.x + 120,
+
+          y1: me.y + 40,
+
+          x2: me.x + 120 + 100,
+
+          y2: me.y + 40 + 20,
+
+        }
+
+      } else {
+
+        r1 = {
+
+          x1: me.x + me.width - 120 - 100,
+
+          y1: me.y + 40,
+
+          x2: me.x + me.width - 120 - 100 + 100,
+
+          y2: me.y + 40 + 20,
+
+        }
+
+      }
+
+  
+
+      r2 = {
+
+        x1: you.x,
+
+        y2: you.y,
+
+        x2: you.x + you.width,
+
+        y2: you.y + you.height
+
+      };
+
+  
+
+      if (this.is_collusion(r1, r2)) {
+
+        you.is_attack();
+
+      }
+
+    }
+
+  }
+
+  
+
+  update() {
+
+    this.update_attack();
+
+    this.update_direction();
+
+    this.update_control();
+
+    this.update_move();
+
+    this.render();
+
+  }
+
+  
+
+  render() {
+
+  
+
+    let status = this.status;
+
+  
+
+    if (this.status === 1 &amp;&amp; this.direction * this.vx &lt; 0) status = 2;
+
+  
+
+    let obj = this.animations.get(status);
+
+    if (obj &amp;&amp; obj.loaded) {    // GIF 已经加载完成
+
+      if (this.direction &gt; 0) {  // 正方向
+
+        let k = parseInt(this.frame_current_cnt / obj.frame_rate) % obj.frame_cnt;
+
+        let image = obj.gif.frames[k].image;
+
+        this.ctx.drawImage(image, this.x, this.y + obj.offset_y, image.width * obj.scale, image.height * obj.scale);
+
+      } else {  // 反方向
+
+        this.ctx.save();
+
+        this.ctx.scale(-1, 1);
+
+        this.ctx.translate(-this.root.game_map.$canvas.width(), 0);
+
+  
+
+        let k = parseInt(this.frame_current_cnt / obj.frame_rate) % obj.frame_cnt;
+
+        let image = obj.gif.frames[k].image;
+
+        this.ctx.drawImage(image, this.root.game_map.$canvas.width() - this.width - this.x, this.y + obj.offset_y, image.width * obj.scale, image.height * obj.scale);
+
+  
+
+        this.ctx.restore();
+
+      }
+
+    }
+
+  
+
+    if (status === 4 || status === 5 || status === 6) {  // 确保不会一直循环GIF
+
+      if (this.frame_current_cnt === obj.frame_rate * (obj.frame_cnt - 1)) {
+
+        if (status === 6) {
+
+          this.frame_current_cnt--;
+
+        } else {
+
+          this.status = 0;
+
+        }
+
+      }
+
+    }
+
+  
+
+    this.frame_current_cnt++;
+
+  }
+
+}
+</code></pre><p><code>js/player/kyo.js</code></p>
+<pre tabindex="0"><code>import { Player } from &#34;../player/base.js&#34;;
+
+import {GIF} from &#39;../utils/gif.js&#39;
+
+  
+
+export class Kyo extends Player {
+
+  constructor(root, info) {
+
+    super(root, info);
+
+  
+
+    this.init_animations();   // 初始化动画
+
+  }
+
+  
+
+  init_animations() {
+
+    let outer = this;
+
+    let offsets = [0, -22, -22, -150, 0, 0, 0];   // 偏移量
+
+    for (let i = 0; i &lt; 7; ++ i) {  // 7个动作
+
+      let gif = GIF();
+
+      gif.load(`/static/images/player/kyo/${i}.gif`);
+
+      this.animations.set(i, {  // 动画
+
+        gif: gif,
+
+        frame_cnt: 0,  // GIF帧数
+
+        frame_rate: 5,  // 每秒的帧数
+
+        offset_y: offsets[i],  // y方向偏移量
+
+        loaded: false,  // 是否加载完成
+
+        scale: 2,  // 放大2倍
+
+      });
+
+  
+
+      gif.onload = function() {   // 加载完成
+
+        let obj = outer.animations.get(i);
+
+        obj.frame_cnt = gif.frames.length;
+
+        obj.loaded = true;
+
+  
+
+        if (i === 3) {
+
+          obj.frame_rate = 4;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+</code></pre><h4 id="gif">GIF</h4>
+<ul>
+<li><a href="https://stackoverflow.com/questions/48234696/how-to-put-a-gif-with-canvas/48348567#48348567">Loading and playing GIF image to canvas</a>    把玩家的<code>GIF</code>动画渲染在<code>canvas</code>上</li>
+</ul>
+<hr>
+<p><code>js/utils/gif.js</code></p>
+<pre tabindex="0"><code>const GIF = function () {
+
+  // **NOT** for commercial use.
+
+  var timerID;                          // timer handle for set time out usage
+
+  var st;                               // holds the stream object when loading.
+
+  var interlaceOffsets = [0, 4, 2, 1]; // used in de-interlacing.
+
+  var interlaceSteps = [8, 8, 4, 2];
+
+  var interlacedBufSize;  // this holds a buffer to de interlace. Created on the first frame and when size changed
+
+  var deinterlaceBuf;
+
+  var pixelBufSize;    // this holds a buffer for pixels. Created on the first frame and when size changed
+
+  var pixelBuf;
+
+  const GIF_FILE = { // gif file data headers
+
+    GCExt: 0xF9,
+
+    COMMENT: 0xFE,
+
+    APPExt: 0xFF,
+
+    UNKNOWN: 0x01, // not sure what this is but need to skip it in parser
+
+    IMAGE: 0x2C,
+
+    EOF: 59,   // This is entered as decimal
+
+    EXT: 0x21,
+
+  };
+
+  // simple buffered stream used to read from the file
+
+  var Stream = function (data) {
+
+      this.data = new Uint8ClampedArray(data);
+
+      this.pos = 0;
+
+      var len = this.data.length;
+
+      this.getString = function (count) { // returns a string from current pos of len count
+
+          var s = &#34;&#34;;
+
+          while (count--) { s += String.fromCharCode(this.data[this.pos++]) }
+
+          return s;
+
+      };
+
+      this.readSubBlocks = function () { // reads a set of blocks as a string
+
+          var size, count, data = &#34;&#34;;
+
+          do {
+
+              count = size = this.data[this.pos++];
+
+              while (count--) { data += String.fromCharCode(this.data[this.pos++]) }
+
+          } while (size !== 0 &amp;&amp; this.pos &lt; len);
+
+          return data;
+
+      }
+
+      this.readSubBlocksB = function () { // reads a set of blocks as binary
+
+          var size, count, data = [];
+
+          do {
+
+              count = size = this.data[this.pos++];
+
+              while (count--) { data.push(this.data[this.pos++]); }
+
+          } while (size !== 0 &amp;&amp; this.pos &lt; len);
+
+          return data;
+
+      }
+
+  };
+
+  // LZW decoder uncompressed each frames pixels
+
+  // this needs to be optimised.
+
+  // minSize is the min dictionary as powers of two
+
+  // size and data is the compressed pixels
+
+  function lzwDecode(minSize, data) {
+
+      var i, pixelPos, pos, clear, eod, size, done, dic, code, last, d, len;
+
+      pos = pixelPos = 0;
+
+      dic = [];
+
+      clear = 1 &lt;&lt; minSize;
+
+      eod = clear + 1;
+
+      size = minSize + 1;
+
+      done = false;
+
+      while (!done) { // JavaScript optimisers like a clear exit though I never use &#39;done&#39; apart from fooling the optimiser
+
+          last = code;
+
+          code = 0;
+
+          for (i = 0; i &lt; size; i++) {
+
+              if (data[pos &gt;&gt; 3] &amp; (1 &lt;&lt; (pos &amp; 7))) { code |= 1 &lt;&lt; i }
+
+              pos++;
+
+          }
+
+          if (code === clear) { // clear and reset the dictionary
+
+              dic = [];
+
+              size = minSize + 1;
+
+              for (i = 0; i &lt; clear; i++) { dic[i] = [i] }
+
+              dic[clear] = [];
+
+              dic[eod] = null;
+
+          } else {
+
+              if (code === eod) { done = true; return }
+
+              if (code &gt;= dic.length) { dic.push(dic[last].concat(dic[last][0])) }
+
+              else if (last !== clear) { dic.push(dic[last].concat(dic[code][0])) }
+
+              d = dic[code];
+
+              len = d.length;
+
+              for (i = 0; i &lt; len; i++) { pixelBuf[pixelPos++] = d[i] }
+
+              if (dic.length === (1 &lt;&lt; size) &amp;&amp; size &lt; 12) { size++ }
+
+          }
+
+      }
+
+  };
+
+  function parseColourTable(count) { // get a colour table of length count  Each entry is 3 bytes, for RGB.
+
+      var colours = [];
+
+      for (var i = 0; i &lt; count; i++) { colours.push([st.data[st.pos++], st.data[st.pos++], st.data[st.pos++]]) }
+
+      return colours;
+
+  }
+
+  function parse() {        // read the header. This is the starting point of the decode and async calls parseBlock
+
+      var bitField;
+
+      st.pos += 6;
+
+      gif.width = (st.data[st.pos++]) + ((st.data[st.pos++]) &lt;&lt; 8);
+
+      gif.height = (st.data[st.pos++]) + ((st.data[st.pos++]) &lt;&lt; 8);
+
+      bitField = st.data[st.pos++];
+
+      gif.colorRes = (bitField &amp; 0b1110000) &gt;&gt; 4;
+
+      gif.globalColourCount = 1 &lt;&lt; ((bitField &amp; 0b111) + 1);
+
+      gif.bgColourIndex = st.data[st.pos++];
+
+      st.pos++;                    // ignoring pixel aspect ratio. if not 0, aspectRatio = (pixelAspectRatio + 15) / 64
+
+      if (bitField &amp; 0b10000000) { gif.globalColourTable = parseColourTable(gif.globalColourCount) } // global colour flag
+
+      setTimeout(parseBlock, 0);
+
+  }
+
+  function parseAppExt() { // get application specific data. Netscape added iterations and terminator. Ignoring that
+
+      st.pos += 1;
+
+      if (&#39;NETSCAPE&#39; === st.getString(8)) { st.pos += 8 }  // ignoring this data. iterations (word) and terminator (byte)
+
+      else {
+
+          st.pos += 3;            // 3 bytes of string usually &#34;2.0&#34; when identifier is NETSCAPE
+
+          st.readSubBlocks();     // unknown app extension
+
+      }
+
+  };
+
+  function parseGCExt() { // get GC data
+
+      var bitField;
+
+      st.pos++;
+
+      bitField = st.data[st.pos++];
+
+      gif.disposalMethod = (bitField &amp; 0b11100) &gt;&gt; 2;
+
+      gif.transparencyGiven = bitField &amp; 0b1 ? true : false; // ignoring bit two that is marked as  userInput???
+
+      gif.delayTime = (st.data[st.pos++]) + ((st.data[st.pos++]) &lt;&lt; 8);
+
+      gif.transparencyIndex = st.data[st.pos++];
+
+      st.pos++;
+
+  };
+
+  function parseImg() {                           // decodes image data to create the indexed pixel image
+
+      var deinterlace, frame, bitField;
+
+      deinterlace = function (width) {                   // de interlace pixel data if needed
+
+          var lines, fromLine, pass, toline;
+
+          lines = pixelBufSize / width;
+
+          fromLine = 0;
+
+          if (interlacedBufSize !== pixelBufSize) {      // create the buffer if size changed or undefined.
+
+              deinterlaceBuf = new Uint8Array(pixelBufSize);
+
+              interlacedBufSize = pixelBufSize;
+
+          }
+
+          for (pass = 0; pass &lt; 4; pass++) {
+
+              for (toLine = interlaceOffsets[pass]; toLine &lt; lines; toLine += interlaceSteps[pass]) {
+
+                  deinterlaceBuf.set(pixelBuf.subarray(fromLine, fromLine + width), toLine * width);
+
+                  fromLine += width;
+
+              }
+
+          }
+
+      };
+
+      frame = {}
+
+      gif.frames.push(frame);
+
+      frame.disposalMethod = gif.disposalMethod;
+
+      frame.time = gif.length;
+
+      frame.delay = gif.delayTime * 10;
+
+      gif.length += frame.delay;
+
+      if (gif.transparencyGiven) { frame.transparencyIndex = gif.transparencyIndex }
+
+      else { frame.transparencyIndex = undefined }
+
+      frame.leftPos = (st.data[st.pos++]) + ((st.data[st.pos++]) &lt;&lt; 8);
+
+      frame.topPos = (st.data[st.pos++]) + ((st.data[st.pos++]) &lt;&lt; 8);
+
+      frame.width = (st.data[st.pos++]) + ((st.data[st.pos++]) &lt;&lt; 8);
+
+      frame.height = (st.data[st.pos++]) + ((st.data[st.pos++]) &lt;&lt; 8);
+
+      bitField = st.data[st.pos++];
+
+      frame.localColourTableFlag = bitField &amp; 0b10000000 ? true : false;
+
+      if (frame.localColourTableFlag) { frame.localColourTable = parseColourTable(1 &lt;&lt; ((bitField &amp; 0b111) + 1)) }
+
+      if (pixelBufSize !== frame.width * frame.height) { // create a pixel buffer if not yet created or if current frame size is different from previous
+
+          pixelBuf = new Uint8Array(frame.width * frame.height);
+
+          pixelBufSize = frame.width * frame.height;
+
+      }
+
+      lzwDecode(st.data[st.pos++], st.readSubBlocksB()); // decode the pixels
+
+      if (bitField &amp; 0b1000000) {                        // de interlace if needed
+
+          frame.interlaced = true;
+
+          deinterlace(frame.width);
+
+      } else { frame.interlaced = false }
+
+      processFrame(frame);                               // convert to canvas image
+
+  };
+
+  function processFrame(frame) { // creates a RGBA canvas image from the indexed pixel data.
+
+      var ct, cData, dat, pixCount, ind, useT, i, pixel, pDat, col, frame, ti;
+
+      frame.image = document.createElement(&#39;canvas&#39;);
+
+      frame.image.width = gif.width;
+
+      frame.image.height = gif.height;
+
+      frame.image.ctx = frame.image.getContext(&#34;2d&#34;);
+
+      ct = frame.localColourTableFlag ? frame.localColourTable : gif.globalColourTable;
+
+      if (gif.lastFrame === null) { gif.lastFrame = frame }
+
+      useT = (gif.lastFrame.disposalMethod === 2 || gif.lastFrame.disposalMethod === 3) ? true : false;
+
+      if (!useT) { frame.image.ctx.drawImage(gif.lastFrame.image, 0, 0, gif.width, gif.height) }
+
+      cData = frame.image.ctx.getImageData(frame.leftPos, frame.topPos, frame.width, frame.height);
+
+      ti = frame.transparencyIndex;
+
+      dat = cData.data;
+
+      if (frame.interlaced) { pDat = deinterlaceBuf }
+
+      else { pDat = pixelBuf }
+
+      pixCount = pDat.length;
+
+      ind = 0;
+
+      for (i = 0; i &lt; pixCount; i++) {
+
+          pixel = pDat[i];
+
+          col = ct[pixel];
+
+          if (ti !== pixel) {
+
+              dat[ind++] = col[0];
+
+              dat[ind++] = col[1];
+
+              dat[ind++] = col[2];
+
+              dat[ind++] = 255;      // Opaque.
+
+          } else
+
+              if (useT) {
+
+                  dat[ind + 3] = 0; // Transparent.
+
+                  ind += 4;
+
+              } else { ind += 4 }
+
+      }
+
+      frame.image.ctx.putImageData(cData, frame.leftPos, frame.topPos);
+
+      gif.lastFrame = frame;
+
+      if (!gif.waitTillDone &amp;&amp; typeof gif.onload === &#34;function&#34;) { doOnloadEvent() }// if !waitTillDone the call onload now after first frame is loaded
+
+  };
+
+  // **NOT** for commercial use.
+
+  function finnished() { // called when the load has completed
+
+      gif.loading = false;
+
+      gif.frameCount = gif.frames.length;
+
+      gif.lastFrame = null;
+
+      st = undefined;
+
+      gif.complete = true;
+
+      gif.disposalMethod = undefined;
+
+      gif.transparencyGiven = undefined;
+
+      gif.delayTime = undefined;
+
+      gif.transparencyIndex = undefined;
+
+      gif.waitTillDone = undefined;
+
+      pixelBuf = undefined; // dereference pixel buffer
+
+      deinterlaceBuf = undefined; // dereference interlace buff (may or may not be used);
+
+      pixelBufSize = undefined;
+
+      deinterlaceBuf = undefined;
+
+      gif.currentFrame = 0;
+
+      if (gif.frames.length &gt; 0) { gif.image = gif.frames[0].image }
+
+      doOnloadEvent();
+
+      if (typeof gif.onloadall === &#34;function&#34;) {
+
+          (gif.onloadall.bind(gif))({ type: &#39;loadall&#39;, path: [gif] });
+
+      }
+
+      if (gif.playOnLoad) { gif.play() }
+
+  }
+
+  function canceled() { // called if the load has been cancelled
+
+      finnished();
+
+      if (typeof gif.cancelCallback === &#34;function&#34;) { (gif.cancelCallback.bind(gif))({ type: &#39;canceled&#39;, path: [gif] }) }
+
+  }
+
+  function parseExt() {              // parse extended blocks
+
+      const blockID = st.data[st.pos++];
+
+      if (blockID === GIF_FILE.GCExt) { parseGCExt() }
+
+      else if (blockID === GIF_FILE.COMMENT) { gif.comment += st.readSubBlocks() }
+
+      else if (blockID === GIF_FILE.APPExt) { parseAppExt() }
+
+      else {
+
+          if (blockID === GIF_FILE.UNKNOWN) { st.pos += 13; } // skip unknow block
+
+          st.readSubBlocks();
+
+      }
+
+  
+
+  }
+
+  function parseBlock() { // parsing the blocks
+
+      if (gif.cancel !== undefined &amp;&amp; gif.cancel === true) { canceled(); return }
+
+  
+
+      const blockId = st.data[st.pos++];
+
+      if (blockId === GIF_FILE.IMAGE) { // image block
+
+          parseImg();
+
+          if (gif.firstFrameOnly) { finnished(); return }
+
+      } else if (blockId === GIF_FILE.EOF) { finnished(); return }
+
+      else { parseExt() }
+
+      if (typeof gif.onprogress === &#34;function&#34;) {
+
+          gif.onprogress({ bytesRead: st.pos, totalBytes: st.data.length, frame: gif.frames.length });
+
+      }
+
+      setTimeout(parseBlock, 0); // parsing frame async so processes can get some time in.
+
+  };
+
+  function cancelLoad(callback) { // cancels the loading. This will cancel the load before the next frame is decoded
+
+      if (gif.complete) { return false }
+
+      gif.cancelCallback = callback;
+
+      gif.cancel = true;
+
+      return true;
+
+  }
+
+  function error(type) {
+
+      if (typeof gif.onerror === &#34;function&#34;) { (gif.onerror.bind(this))({ type: type, path: [this] }) }
+
+      gif.onload = gif.onerror = undefined;
+
+      gif.loading = false;
+
+  }
+
+  function doOnloadEvent() { // fire onload event if set
+
+      gif.currentFrame = 0;
+
+      gif.nextFrameAt = gif.lastFrameAt = new Date().valueOf(); // just sets the time now
+
+      if (typeof gif.onload === &#34;function&#34;) { (gif.onload.bind(gif))({ type: &#39;load&#39;, path: [gif] }) }
+
+      gif.onerror = gif.onload = undefined;
+
+  }
+
+  function dataLoaded(data) { // Data loaded create stream and parse
+
+      st = new Stream(data);
+
+      parse();
+
+  }
+
+  function loadGif(filename) { // starts the load
+
+      var ajax = new XMLHttpRequest();
+
+      ajax.responseType = &#34;arraybuffer&#34;;
+
+      ajax.onload = function (e) {
+
+          if (e.target.status === 404) { error(&#34;File not found&#34;) }
+
+          else if (e.target.status &gt;= 200 &amp;&amp; e.target.status &lt; 300) { dataLoaded(ajax.response) }
+
+          else { error(&#34;Loading error : &#34; + e.target.status) }
+
+      };
+
+      ajax.open(&#39;GET&#39;, filename, true);
+
+      ajax.send();
+
+      ajax.onerror = function (e) { error(&#34;File error&#34;) };
+
+      this.src = filename;
+
+      this.loading = true;
+
+  }
+
+  function play() { // starts play if paused
+
+      if (!gif.playing) {
+
+          gif.paused = false;
+
+          gif.playing = true;
+
+          playing();
+
+      }
+
+  }
+
+  function pause() { // stops play
+
+      gif.paused = true;
+
+      gif.playing = false;
+
+      clearTimeout(timerID);
+
+  }
+
+  function togglePlay() {
+
+      if (gif.paused || !gif.playing) { gif.play() }
+
+      else { gif.pause() }
+
+  }
+
+  function seekFrame(frame) { // seeks to frame number.
+
+      clearTimeout(timerID);
+
+      gif.currentFrame = frame % gif.frames.length;
+
+      if (gif.playing) { playing() }
+
+      else { gif.image = gif.frames[gif.currentFrame].image }
+
+  }
+
+  function seek(time) { // time in Seconds  // seek to frame that would be displayed at time
+
+      clearTimeout(timerID);
+
+      if (time &lt; 0) { time = 0 }
+
+      time *= 1000; // in ms
+
+      time %= gif.length;
+
+      var frame = 0;
+
+      while (time &gt; gif.frames[frame].time + gif.frames[frame].delay &amp;&amp; frame &lt; gif.frames.length) { frame += 1 }
+
+      gif.currentFrame = frame;
+
+      if (gif.playing) { playing() }
+
+      else { gif.image = gif.frames[gif.currentFrame].image }
+
+  }
+
+  function playing() {
+
+      var delay;
+
+      var frame;
+
+      if (gif.playSpeed === 0) {
+
+          gif.pause();
+
+          return;
+
+      } else {
+
+          if (gif.playSpeed &lt; 0) {
+
+              gif.currentFrame -= 1;
+
+              if (gif.currentFrame &lt; 0) { gif.currentFrame = gif.frames.length - 1 }
+
+              frame = gif.currentFrame;
+
+              frame -= 1;
+
+              if (frame &lt; 0) { frame = gif.frames.length - 1 }
+
+              delay = -gif.frames[frame].delay * 1 / gif.playSpeed;
+
+          } else {
+
+              gif.currentFrame += 1;
+
+              gif.currentFrame %= gif.frames.length;
+
+              delay = gif.frames[gif.currentFrame].delay * 1 / gif.playSpeed;
+
+          }
+
+          gif.image = gif.frames[gif.currentFrame].image;
+
+          timerID = setTimeout(playing, delay);
+
+      }
+
+  }
+
+  var gif = {                      // the gif image object
+
+      onload: null,       // fire on load. Use waitTillDone = true to have load fire at end or false to fire on first frame
+
+      onerror: null,       // fires on error
+
+      onprogress: null,       // fires a load progress event
+
+      onloadall: null,       // event fires when all frames have loaded and gif is ready
+
+      paused: false,      // true if paused
+
+      playing: false,      // true if playing
+
+      waitTillDone: true,       // If true onload will fire when all frames loaded, if false, onload will fire when first frame has loaded
+
+      loading: false,      // true if still loading
+
+      firstFrameOnly: false,      // if true only load the first frame
+
+      width: null,       // width in pixels
+
+      height: null,       // height in pixels
+
+      frames: [],         // array of frames
+
+      comment: &#34;&#34;,         // comments if found in file. Note I remember that some gifs have comments per frame if so this will be all comment concatenated
+
+      length: 0,          // gif length in ms (1/1000 second)
+
+      currentFrame: 0,          // current frame.
+
+      frameCount: 0,          // number of frames
+
+      playSpeed: 1,          // play speed 1 normal, 2 twice 0.5 half, -1 reverse etc...
+
+      lastFrame: null,       // temp hold last frame loaded so you can display the gif as it loads
+
+      image: null,       // the current image at the currentFrame
+
+      playOnLoad: true,       // if true starts playback when loaded
+
+      // functions
+
+      load: loadGif,    // call this to load a file
+
+      cancel: cancelLoad, // call to stop loading
+
+      play: play,       // call to start play
+
+      pause: pause,      // call to pause
+
+      seek: seek,       // call to seek to time
+
+      seekFrame: seekFrame,  // call to seek to frame
+
+      togglePlay: togglePlay, // call to toggle play and pause state
+
+  };
+
+  return gif;
+
+}
+
+  
+
+export {
+
+  GIF
+
+}
+</code></pre><h4 id="状态机">状态机</h4>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2022/11/03/636315494cea8.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">0：静止    1：移动     3：跳跃</div> 
+ </center>
 ]]></content:encoded>
     </item>
     

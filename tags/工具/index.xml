@@ -83,7 +83,11 @@
       <guid>https://xancoding.cn/posts/digitalgarden/</guid>
       <description>&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; 
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://seviche.cc/2022-05-25-hypothesis#1-%E5%AE%89%E8%A3%85-hypothesis-%E6%8F%92%E4%BB%B6&#34;&gt;Hypothesis 使用小记&lt;/a&gt; 在网页上高亮批注，并可同步到 Obsidian&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.yuque.com/&#34;&gt;语雀&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
@@ -102,7 +106,11 @@
 </description>
       <content:encoded><![CDATA[<h1 id="推荐阅读">推荐阅读</h1>
 <ul>
-<li><a href="https://obsidian.md/">Obsidian</a> </li>
+<li><a href="https://obsidian.md/">Obsidian</a> 
+<ol>
+<li><a href="https://seviche.cc/2022-05-25-hypothesis#1-%E5%AE%89%E8%A3%85-hypothesis-%E6%8F%92%E4%BB%B6">Hypothesis 使用小记</a> 在网页上高亮批注，并可同步到 Obsidian</li>
+</ol>
+</li>
 <li><a href="https://www.yuque.com/">语雀</a></li>
 </ul>
 <hr>
