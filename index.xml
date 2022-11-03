@@ -22642,6 +22642,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/ul&gt;
 &lt;h1 id=&#34;blogs&#34;&gt;Blogs&lt;/h1&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.999kg.com/&#34;&gt;杨 飞 自 选 作 品 集&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://draveness.me/&#34;&gt;面向信仰编程&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://draveness.me/whys-the-design/&#34;&gt;为什么这么设计&lt;/a&gt;&lt;/li&gt;
@@ -22761,6 +22762,7 @@ docker rm CONTAINER_NAME # 删除容器
 </ul>
 <h1 id="blogs">Blogs</h1>
 <ul>
+<li><a href="http://www.999kg.com/">杨 飞 自 选 作 品 集</a></li>
 <li><a href="https://draveness.me/">面向信仰编程</a>
 <ul>
 <li><a href="https://draveness.me/whys-the-design/">为什么这么设计</a></li>
