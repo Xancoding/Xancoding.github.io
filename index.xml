@@ -22670,6 +22670,11 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/ul&gt;
 &lt;h1 id=&#34;blogs&#34;&gt;Blogs&lt;/h1&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.stephenwolfram.com/&#34;&gt;Stephen Wolfram&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/&#34;&gt;Seeking the Productive Life: Some Details of My Personal Infrastructure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.999kg.com/&#34;&gt;杨 飞 自 选 作 品 集&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://draveness.me/&#34;&gt;面向信仰编程&lt;/a&gt;
 &lt;ul&gt;
@@ -22790,6 +22795,11 @@ docker rm CONTAINER_NAME # 删除容器
 </ul>
 <h1 id="blogs">Blogs</h1>
 <ul>
+<li><a href="https://www.stephenwolfram.com/">Stephen Wolfram</a>
+<ul>
+<li><a href="https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/">Seeking the Productive Life: Some Details of My Personal Infrastructure</a></li>
+</ul>
+</li>
 <li><a href="http://www.999kg.com/">杨 飞 自 选 作 品 集</a></li>
 <li><a href="https://draveness.me/">面向信仰编程</a>
 <ul>
