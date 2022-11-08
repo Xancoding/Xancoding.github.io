@@ -22607,6 +22607,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Outdoor research VERGLAS 雪套 L码 —— 闲鱼 89元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; ROCLKSOLID 美利奴羊毛保暖内衣套装 M码 —— 淘宝 198元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Keith凯斯纯钛饭盒 Ti5328 1000mL —— 闲鱼 179元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Keith凯斯钛杯 Ti3240 350mL —— 闲鱼 79元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 钛途TiTo纯钛叉勺 —— 淘宝 19元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 凯乐石9A攀岩裤KG520220 金鱼黄 170/74A —— 闲鱼 199元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 凯乐石远征者pro 三合一冲锋衣 M码 —— 闲鱼 460元&lt;/li&gt;
@@ -23042,6 +23043,7 @@ docker rm CONTAINER_NAME # 删除容器
 <li><input checked="" disabled="" type="checkbox"> Outdoor research VERGLAS 雪套 L码 —— 闲鱼 89元</li>
 <li><input checked="" disabled="" type="checkbox"> ROCLKSOLID 美利奴羊毛保暖内衣套装 M码 —— 淘宝 198元</li>
 <li><input checked="" disabled="" type="checkbox"> Keith凯斯纯钛饭盒 Ti5328 1000mL —— 闲鱼 179元</li>
+<li><input checked="" disabled="" type="checkbox"> Keith凯斯钛杯 Ti3240 350mL —— 闲鱼 79元</li>
 <li><input checked="" disabled="" type="checkbox"> 钛途TiTo纯钛叉勺 —— 淘宝 19元</li>
 <li><input checked="" disabled="" type="checkbox"> 凯乐石9A攀岩裤KG520220 金鱼黄 170/74A —— 闲鱼 199元</li>
 <li><input checked="" disabled="" type="checkbox"> 凯乐石远征者pro 三合一冲锋衣 M码 —— 闲鱼 460元</li>
