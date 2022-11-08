@@ -22530,10 +22530,6 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;多读书，从书中寻找答案&lt;/li&gt;
 &lt;li&gt;多写博客，把所思所想记录下来&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/362109000&#34;&gt;没有特别要好的朋友怎么办？&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h1 id=&#34;life-insights&#34;&gt;Life Insights&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;THINK MORE&lt;/li&gt;
@@ -22616,6 +22612,83 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 凯乐石远征者pro 三合一冲锋衣 M码 —— 闲鱼 460元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Osprey小鹰水袋 3L —— 闲鱼 230元&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;first-aid-kit&#34;&gt;First aid kit&lt;/h2&gt;
+&lt;h3 id=&#34;outdoor-1&#34;&gt;Outdoor&lt;/h3&gt;
+&lt;h4 id=&#34;trauma&#34;&gt;Trauma&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;塑料镊子 1把：伤口的精细化处理&lt;/li&gt;
+&lt;li&gt;安全别针 10枚：固定三角巾纱布止血带等&lt;/li&gt;
+&lt;li&gt;剪刀 1把：剪开绷带线条等各种用途&lt;/li&gt;
+&lt;li&gt;创口贴 10片：小创口的止血处理&lt;/li&gt;
+&lt;li&gt;酒精棉片 10片：对伤口用品的擦拭消毒&lt;/li&gt;
+&lt;li&gt;碘伏棉片 4片：伤口的消毒、消炎&lt;/li&gt;
+&lt;li&gt;医用棉签 20根：日常护理使用&lt;/li&gt;
+&lt;li&gt;三角绷带 1包：胳膊骨折的固定，头部出血的处理&lt;/li&gt;
+&lt;li&gt;止血带 1卷：压迫伤口止血，固定骨折部位&lt;/li&gt;
+&lt;li&gt;PBT绷带 1卷：伤口的包扎止血&lt;/li&gt;
+&lt;li&gt;无纺布胶带 1卷：固定绷带纱布等敷料&lt;/li&gt;
+&lt;li&gt;纱布片 2片：可与伤口直接接触&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;medicine&#34;&gt;Medicine&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;麝香壮骨膏 4贴：扭伤 挫伤&lt;/li&gt;
+&lt;li&gt;急救毯 1张：失温&lt;/li&gt;
+&lt;li&gt;云南白药 2罐：跌打损伤，淤血肿痛，肌肉酸痛及风湿疼痛&lt;/li&gt;
+&lt;li&gt;板蓝根颗粒 2包：肺胃热盛所致的咽喉肿痛、口咽干燥&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;dormitory&#34;&gt;Dormitory&lt;/h3&gt;
+&lt;h4 id=&#34;运动损伤&#34;&gt;运动损伤&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;创口贴 9片：小创口的止血处理&lt;/li&gt;
+&lt;li&gt;云南白药 2罐：跌打损伤，淤血肿痛，肌肉酸痛及风湿疼痛&lt;/li&gt;
+&lt;li&gt;麝香壮骨膏 5贴：扭伤 挫伤&lt;/li&gt;
+&lt;li&gt;双氯芬酸二乙胺乳胶剂：缓解肌肉、软组织和关节的轻至中度疼痛。如：缓解肌肉、软组织的扭伤、拉伤、挫伤、劳损、腰背部损伤引起的疼痛以及关节疼痛等，也可用于骨关节炎的对症治疗&lt;br&gt;
+外用。按照痛处面积大小，使用本品适量，轻轻揉搓，使本品渗透皮肤，一日3-4 次&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;胃痛&#34;&gt;胃痛&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;乳酶生片 100片：促进消化和止泻&lt;br&gt;
+一次2-3片，一日3次，饭前服&lt;/li&gt;
+&lt;li&gt;健脾颗粒 12袋：健脾开胃 &lt;br&gt;
+一次1袋，一日2次&lt;/li&gt;
+&lt;li&gt;三九胃泰颗粒 1袋：上腹隐痛，饱胀，反酸，恶心，呕吐，纳减，心口嘈杂&lt;br&gt;
+开水冲服。一次1袋，一日2次&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;上火&#34;&gt;上火&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;桂林西瓜霜：急、慢性咽炎，扁桃体炎，口腔炎，口腔溃疡，牙龈炎 &lt;br&gt;
+外用。敷于患处，每次适量，一日数次&lt;/li&gt;
+&lt;li&gt;金喉健喷雾剂：风热所致咽痛、咽干、咽喉红肿、牙龈肿痛、口腔溃疡 &lt;br&gt;
+喷患处。每次适量，一日数次&lt;/li&gt;
+&lt;li&gt;维生素B&lt;sub&gt;2&lt;/sub&gt;片：口腔溃疡 &lt;br&gt;
+口服。一次1-2片，一日3次&lt;/li&gt;
+&lt;li&gt;口炎清颗粒 4袋：阴虚火旺所致的口腔炎症 &lt;br&gt;
+口服。一次2袋，一日1～2次&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;皮肤感染&#34;&gt;皮肤感染&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;丁酸氢化可的松软膏 2管：过敏性皮炎、脂溢性皮炎、湿疹、瘙痒症和神经性皮炎&lt;br&gt;
+局部外用。取适量本品涂于患处，每日2次。&lt;/li&gt;
+&lt;li&gt;莫匹罗星软膏 2管：局部外用抗生素，适用于革兰阳性球菌引起的皮肤感染，例如：脓疱病、疖肿、毛囊炎等原发性皮肤感染及湿疹合并感染、溃疡合并感染、创伤合并感染等继发性皮肤感染 &lt;br&gt;
+外用。局部涂于患处，必要时，患处可用敷料包扎或敷盖，每日3次，5天一疗程。必要时可重复一疗程&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;感冒&#34;&gt;感冒&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;阿奇霉素片 6片：支气管炎、肺炎等下呼吸道感染，鼻窦炎、咽炎、扁桃体炎等上呼吸道感染   &lt;br&gt;
+每日口服给药一次，整片吞服&lt;/li&gt;
+&lt;li&gt;三九感冒灵胶囊 10粒：感冒引起的头痛，发热，鼻塞，流涕，咽痛等 &lt;br&gt;
+口服。一次2粒，一日3次&lt;/li&gt;
+&lt;li&gt;酚麻美敏片 20片：普通感冒或流行性感冒引起的发热、头痛、四肢酸痛、喷嚏、流鼻涕、鼻塞、咳嗽、咽痛等症状 &lt;br&gt;
+口服。一次1~2片，每6小时服1次。 24小时内不超过4次&lt;/li&gt;
+&lt;li&gt;对乙酰氨基酚释缓片：普通感冒或流行感冒引起的发热，轻中度疼痛如头痛、关节痛、偏头痛、牙痛、肌肉痛、神经痛、痛经 &lt;br&gt;
+口服。成人一次1～2片，若持续发热或疼痛，每8小时一次，24小时不超过3次&lt;/li&gt;
+&lt;li&gt;盐酸阿比多尔颗粒 12袋：A、B型流感病毒等引起的上呼吸道感染 &lt;br&gt;
+口服。一次2袋，一日3次，服用5日&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1 id=&#34;fitness-program&#34;&gt;Fitness program&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;采取三分化训练模式，意思是三天以内训练全身，中间也可以比较自由的加入休息日&lt;/strong&gt;&lt;/p&gt;
@@ -22858,7 +22931,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;9：00&lt;/li&gt;
 &lt;li&gt;燕麦 + 全麦面包 + 香蕉&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;参考-1&#34;&gt;参考&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/444762297/answer/1733939429?s_r=0&amp;amp;utm_medium=social&amp;amp;utm_source=wechat_session&#34;&gt;在校大学生如何练就好身材？&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -22892,10 +22965,6 @@ docker rm CONTAINER_NAME # 删除容器
 <li>多读书，从书中寻找答案</li>
 <li>多写博客，把所思所想记录下来</li>
 </ol>
-<h2 id="参考">参考</h2>
-<ul>
-<li><a href="https://www.zhihu.com/question/362109000">没有特别要好的朋友怎么办？</a></li>
-</ul>
 <h1 id="life-insights">Life Insights</h1>
 <ol>
 <li>THINK MORE</li>
@@ -22978,6 +23047,83 @@ docker rm CONTAINER_NAME # 删除容器
 <li><input checked="" disabled="" type="checkbox"> 凯乐石远征者pro 三合一冲锋衣 M码 —— 闲鱼 460元</li>
 <li><input checked="" disabled="" type="checkbox"> Osprey小鹰水袋 3L —— 闲鱼 230元</li>
 </ul>
+<h2 id="first-aid-kit">First aid kit</h2>
+<h3 id="outdoor-1">Outdoor</h3>
+<h4 id="trauma">Trauma</h4>
+<ol>
+<li>塑料镊子 1把：伤口的精细化处理</li>
+<li>安全别针 10枚：固定三角巾纱布止血带等</li>
+<li>剪刀 1把：剪开绷带线条等各种用途</li>
+<li>创口贴 10片：小创口的止血处理</li>
+<li>酒精棉片 10片：对伤口用品的擦拭消毒</li>
+<li>碘伏棉片 4片：伤口的消毒、消炎</li>
+<li>医用棉签 20根：日常护理使用</li>
+<li>三角绷带 1包：胳膊骨折的固定，头部出血的处理</li>
+<li>止血带 1卷：压迫伤口止血，固定骨折部位</li>
+<li>PBT绷带 1卷：伤口的包扎止血</li>
+<li>无纺布胶带 1卷：固定绷带纱布等敷料</li>
+<li>纱布片 2片：可与伤口直接接触</li>
+</ol>
+<h4 id="medicine">Medicine</h4>
+<ol>
+<li>麝香壮骨膏 4贴：扭伤 挫伤</li>
+<li>急救毯 1张：失温</li>
+<li>云南白药 2罐：跌打损伤，淤血肿痛，肌肉酸痛及风湿疼痛</li>
+<li>板蓝根颗粒 2包：肺胃热盛所致的咽喉肿痛、口咽干燥</li>
+</ol>
+<h3 id="dormitory">Dormitory</h3>
+<h4 id="运动损伤">运动损伤</h4>
+<ol>
+<li>创口贴 9片：小创口的止血处理</li>
+<li>云南白药 2罐：跌打损伤，淤血肿痛，肌肉酸痛及风湿疼痛</li>
+<li>麝香壮骨膏 5贴：扭伤 挫伤</li>
+<li>双氯芬酸二乙胺乳胶剂：缓解肌肉、软组织和关节的轻至中度疼痛。如：缓解肌肉、软组织的扭伤、拉伤、挫伤、劳损、腰背部损伤引起的疼痛以及关节疼痛等，也可用于骨关节炎的对症治疗<br>
+外用。按照痛处面积大小，使用本品适量，轻轻揉搓，使本品渗透皮肤，一日3-4 次</li>
+</ol>
+<hr>
+<h4 id="胃痛">胃痛</h4>
+<ol>
+<li>乳酶生片 100片：促进消化和止泻<br>
+一次2-3片，一日3次，饭前服</li>
+<li>健脾颗粒 12袋：健脾开胃 <br>
+一次1袋，一日2次</li>
+<li>三九胃泰颗粒 1袋：上腹隐痛，饱胀，反酸，恶心，呕吐，纳减，心口嘈杂<br>
+开水冲服。一次1袋，一日2次</li>
+</ol>
+<hr>
+<h4 id="上火">上火</h4>
+<ol>
+<li>桂林西瓜霜：急、慢性咽炎，扁桃体炎，口腔炎，口腔溃疡，牙龈炎 <br>
+外用。敷于患处，每次适量，一日数次</li>
+<li>金喉健喷雾剂：风热所致咽痛、咽干、咽喉红肿、牙龈肿痛、口腔溃疡 <br>
+喷患处。每次适量，一日数次</li>
+<li>维生素B<sub>2</sub>片：口腔溃疡 <br>
+口服。一次1-2片，一日3次</li>
+<li>口炎清颗粒 4袋：阴虚火旺所致的口腔炎症 <br>
+口服。一次2袋，一日1～2次</li>
+</ol>
+<hr>
+<h4 id="皮肤感染">皮肤感染</h4>
+<ol>
+<li>丁酸氢化可的松软膏 2管：过敏性皮炎、脂溢性皮炎、湿疹、瘙痒症和神经性皮炎<br>
+局部外用。取适量本品涂于患处，每日2次。</li>
+<li>莫匹罗星软膏 2管：局部外用抗生素，适用于革兰阳性球菌引起的皮肤感染，例如：脓疱病、疖肿、毛囊炎等原发性皮肤感染及湿疹合并感染、溃疡合并感染、创伤合并感染等继发性皮肤感染 <br>
+外用。局部涂于患处，必要时，患处可用敷料包扎或敷盖，每日3次，5天一疗程。必要时可重复一疗程</li>
+</ol>
+<hr>
+<h4 id="感冒">感冒</h4>
+<ol>
+<li>阿奇霉素片 6片：支气管炎、肺炎等下呼吸道感染，鼻窦炎、咽炎、扁桃体炎等上呼吸道感染   <br>
+每日口服给药一次，整片吞服</li>
+<li>三九感冒灵胶囊 10粒：感冒引起的头痛，发热，鼻塞，流涕，咽痛等 <br>
+口服。一次2粒，一日3次</li>
+<li>酚麻美敏片 20片：普通感冒或流行性感冒引起的发热、头痛、四肢酸痛、喷嚏、流鼻涕、鼻塞、咳嗽、咽痛等症状 <br>
+口服。一次1~2片，每6小时服1次。 24小时内不超过4次</li>
+<li>对乙酰氨基酚释缓片：普通感冒或流行感冒引起的发热，轻中度疼痛如头痛、关节痛、偏头痛、牙痛、肌肉痛、神经痛、痛经 <br>
+口服。成人一次1～2片，若持续发热或疼痛，每8小时一次，24小时不超过3次</li>
+<li>盐酸阿比多尔颗粒 12袋：A、B型流感病毒等引起的上呼吸道感染 <br>
+口服。一次2袋，一日3次，服用5日</li>
+</ol>
 <h1 id="fitness-program">Fitness program</h1>
 <blockquote>
 <p><strong>采取三分化训练模式，意思是三天以内训练全身，中间也可以比较自由的加入休息日</strong></p>
@@ -23220,7 +23366,7 @@ docker rm CONTAINER_NAME # 删除容器
 <li>9：00</li>
 <li>燕麦 + 全麦面包 + 香蕉</li>
 </ul>
-<h2 id="参考-1">参考</h2>
+<h2 id="参考">参考</h2>
 <ul>
 <li><a href="https://www.zhihu.com/question/444762297/answer/1733939429?s_r=0&amp;utm_medium=social&amp;utm_source=wechat_session">在校大学生如何练就好身材？</a></li>
 </ul>
