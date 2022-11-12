@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wireshark on Xan&#39;s Blog</title>
+    <link>https://xancoding.cn/tags/wireshark/</link>
+    <description>Recent content in Wireshark on Xan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 12 Nov 2022 11:38:21 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/wireshark/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>计算机网络课程大作业</title>
+      <link>https://xancoding.cn/posts/wireshark/</link>
+      <pubDate>Sat, 12 Nov 2022 11:38:21 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/wireshark/</guid>
+      <description>&lt;h1 id=&#34;要求&#34;&gt;要求&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;团队合作、合理分工、按组为单位进行&lt;/li&gt;
+&lt;li&gt;报告文字内容不可拷贝粘贴现有文献，应反映小组所做的工作，有分析，实践性的选题应有具体操作或者配置过程描述，辅以截图或实验数据&lt;/li&gt;
+&lt;li&gt;所交报告中应在最后注明组员分工、参考文献，报告字数3000-6000&lt;/li&gt;
+&lt;li&gt;不同班级的小组可选择相同的题目，但重复计数（由各班学委协调），不可多于3组，且报告内容不可相同，要求独立完成各组任务&lt;/li&gt;
+&lt;li&gt;除了个别综述性的选题，其它选题要求在实际平台上实践&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;选题&#34;&gt;选题&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;基于网络嗅探软件（wireshark）的协议分析实验&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Wireshark的深入学习与掌握，如过滤器的使用，归纳方法&lt;/li&gt;
+&lt;li&gt;通过实验阐述ARP的工作原理&lt;/li&gt;
+&lt;li&gt;利用实验结果分析ICMP协议的报文结构字段定义&lt;/li&gt;
+&lt;li&gt;基于实验数据深入分析TCP协议的连接过程原理，报文的分片等功能&lt;/li&gt;
+&lt;li&gt;从校园网发起向外网中某Web服务器的访问，记录并分析从MAC层协议、IP协议、TCP协议一直到HTTP协议的过程&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;基于网络嗅探软件wireshark的协议分析实验&#34;&gt;基于网络嗅探软件Wireshark的协议分析实验&lt;/h1&gt;
+&lt;h2 id=&#34;wireshark-是什么&#34;&gt;Wireshark 是什么？&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Wirkshark 是一个功能十分强大的开源的网络数据包分析器，能够在多种平台上抓取和分析网络包&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wirkshark 可被用于检查安全问题和解决网络问题，也可供开发者调试协议的实现和学习网络协议的原理&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wireshark使用 Npcap or WinPcap 作为接口，直接与网卡进行数据报文交换&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;wireshark-下载与安装&#34;&gt;Wireshark 下载与安装&lt;/h2&gt;
+&lt;p&gt;官网地址：&lt;a href=&#34;https://www.wireshark.org/&#34;&gt;https://www.wireshark.org/&lt;/a&gt;，直接点击下一步下一步安装即可
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/12/636eef0324bca.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/12/636eef0324bca.png&#34; alt=&#34;1&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+但是，我在安装过程中报了如下的错误：
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/11/636e699429bad.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/11/636e699429bad.png&#34; alt=&#34;npcap&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+排查了好久，没找到合适的解决办法&lt;br&gt;
+最后，下载 WinPcap 来代替 Npcap ，成功运行。&lt;/p&gt;
+&lt;h2 id=&#34;wireshark-基本用法&#34;&gt;Wireshark 基本用法&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;简单抓包基础步骤：选择捕获接口 -&amp;gt; 获取网络实时痕迹 -&amp;gt; 获取报文 -&amp;gt; 深入解析&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;选择接口网卡&#34;&gt;选择接口（网卡）&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;网络上传输的数据包需要经过网卡到达计算机，Wireshark可以捕获流经网卡的数据包&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在使用Wireshark捕获数据前，先要选择捕获接口。一台计算机可能会有不止一个网卡，此时需要选择你要捕获数据的接口。&lt;/p&gt;
+&lt;p&gt;选择菜单栏上的 捕获-&amp;gt;选项
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/12/636eef03d463f.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/12/636eef03d463f.png&#34; alt=&#34;1&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+选择想要捕获数据的接口后，点击开始
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/12/636ef1eb47349.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/12/636ef1eb47349.png&#34; alt=&#34;2&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;界面说明&#34;&gt;界面说明&lt;/h3&gt;
+&lt;p&gt;开始捕获后，Wireshark会把捕获到的报文显示到界面上&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;显示过滤器&lt;/strong&gt;用于设置过滤条件进行数据列表区数据过滤&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据列表区&lt;/strong&gt;展示的是Wireshark捕获到的所有数据包的列表，每个数据包包含 编号、时间戳、源地址、目标地址、协议、长度以及数据包信息&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据详细区&lt;/strong&gt;展示的是在数据列表区中选中的数据包的分协议展示
+&lt;ol&gt;
+&lt;li&gt;&lt;u&gt;Frame&lt;/u&gt;：物理层的数据帧概况&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Ethernet II&lt;/u&gt;：数据链路层以太网帧头部信息&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Internet Protocol Version 4&lt;/u&gt;： 互联网层IP包头部信息&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Transmission Control Protocol&lt;/u&gt;：传输层的数据段头部信息，此处是TCP&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据字节区&lt;/strong&gt;展示的是选中的数据包的源数据。另外，在数据详细区选中的某层或某字段，对应的数据会在数据字节区中高亮
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/12/636efb5f7ea6d.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/12/636efb5f7ea6d.png&#34; alt=&#34;1&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;过滤器设置&#34;&gt;过滤器设置&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;根据我们想要抓取的数据包，对过滤器进行设置。过滤掉冗余的数据包，找到我们需要的信息&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;捕获过滤器&#34;&gt;捕获过滤器&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;捕获过滤器表达式作用在Wireshark捕获数据包之前，只捕获符合条件的数据包&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;当需要处理大量数据时，使用捕获过滤器可以节省大量资源&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;界面说明-1&#34;&gt;界面说明&lt;/h5&gt;
+&lt;p&gt;选择菜单栏上的 捕获-&amp;gt;捕获过滤器
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/12/636efe3d72678.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/12/636efe3d72678.png&#34; alt=&#34;1&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+点击 &lt;code&gt;+&lt;/code&gt; 即可添加新的过滤规则&lt;br&gt;
+&lt;code&gt;Filter Name&lt;/code&gt; 指代过滤器名称，用来给自己看该过滤器的过滤效果&lt;br&gt;
+&lt;code&gt;Filter Expression&lt;/code&gt; 指代过滤器表达式，需要使用 &lt;code&gt;Berkeley Packet Filter&lt;/code&gt; 语法书写
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/12/636efe3e2ce20.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/12/636efe3e2ce20.png&#34; alt=&#34;2&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h5 id=&#34;语法规则&#34;&gt;语法规则&lt;/h5&gt;
+&lt;p&gt;捕获过滤器使用 &lt;code&gt;BPF&lt;/code&gt; 语法，表达式由多个原语组成：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;原语(primitives)：由名称或数字，以及描述它的多个限定词组成。  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; 限定词(qualifiers)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; Types：设置数字或者名称所指示类型，例如host www.baidu.com，如果没有指定此值，则默认使用“host”关键字
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; host、post
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; net，设定子网， net 192.168.0.0 mask 255.255.255.0等价于net 192.168.0.0/24
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; port，设置端口范围，例如port 6000-8000
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; Dir：设置网络出入方向，例如dst port 80，如果没有特别指明来源或目的地，则默认使用“src or dst”作为关键字
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; src、dst、src or dst、src and dst(src：源端口，dst：目标端口)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; Proto：指定协议类型，例如udp，如果没有特别指明是什么协议，则默认使用所有支持的协议
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; ether、fddi、tr、wlan、ip、ip6、arp、rarp、decnet、tcp、udp、icmp、igmp、icmp、igrp、pim、ah、esp、vrrp
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; 其他
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; gateway：指明网关IP地址，等价于ether host &amp;#39;ehost&amp;#39; and not host &amp;#39;host&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; broadcast：广播报文，例如ether broadcast或者ip broadcast
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; multicast：多播报文，例如ip multicast或者ip6 multicast
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; less、greater：小于或者大于
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; 原语运算符
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; 与：&lt;span style=&#34;color:#f00&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt;或者and
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; 或：||或者or
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;*&lt;/span&gt; 非：!或者not
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;转载自：https://juejin.cn/post/6844904066229747720 &lt;/div&gt; 
+&lt;h5 id=&#34;应用示例&#34;&gt;应用示例&lt;/h5&gt;
+&lt;p&gt;只抓取源端口或者目的端口范围6000到8000，并且是一个tcp协议或者ipv6的数据包&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;src or dst port 6000-8000 &amp;amp;&amp;amp; tcp or ip6    
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;只抓取IP地址为192.168.0.10的数据包&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;host 192.168.0.10
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;显示过滤器&#34;&gt;显示过滤器&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;显示过滤器表达式作用在在Wireshark捕获数据包之后，从已捕获的所有数据包中显示出符合条件的数据包&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;显示过滤表达式在工具栏下方的“应用显示过滤器”输入框输入即可生效
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/12/636f11a82564a.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/12/636f11a82564a.png&#34; alt=&#34;1&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h5 id=&#34;基本过滤表达式&#34;&gt;基本过滤表达式&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;一条基本的表达式由&lt;strong&gt;过滤项&lt;/strong&gt;、&lt;strong&gt;过滤关系&lt;/strong&gt;、&lt;strong&gt;过滤值&lt;/strong&gt;三项组成&lt;/li&gt;
+&lt;li&gt;例如：&lt;code&gt;ip.addr == 192.168.1.1&lt;/code&gt;，其中 &lt;code&gt;ip.addr&lt;/code&gt; 为过滤项，&lt;code&gt;==&lt;/code&gt; 为过滤关系，&lt;code&gt;192.168.1.1&lt;/code&gt; 为过滤值。&lt;/li&gt;
+&lt;li&gt;该表达式的意思是 &lt;strong&gt;找出所有ip协议中源或目标ip等于192.168.1.1的数据包&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h6 id=&#34;过滤项&#34;&gt;过滤项&lt;/h6&gt;
+&lt;ol&gt;
+&lt;li&gt;Wireshark的过滤项是 &lt;code&gt;协议.协议字段&lt;/code&gt; 的模式，Wireshark支持的全部协议及协议字段可查看&lt;a href=&#34;https://www.wireshark.org/docs/dfref/&#34;&gt;官方说明&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;以端口为例，端口出现于tcp协议中。所以有端口这个过滤项且其写法就是tcp.port&lt;/li&gt;
+&lt;li&gt;Wireshark出于缩减长度的原因，有些字段没有使用协议规定的名称而是使用简写，比如Destination Port在Wireshark中写为dstport&lt;/li&gt;
+&lt;li&gt;Wireshark出于简便使用的原因，增加了一些协议中没有的字段，比如tcp协议只有源端口和目标端口字段，为了简便使用Wireshark增加了tcp.port来同时代表这两个字段&lt;/li&gt;
+&lt;li&gt;实际使用时我们输入&lt;code&gt;协议.&lt;/code&gt;后Wireshark就会有支持的字段提示&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h6 id=&#34;过滤关系&#34;&gt;过滤关系&lt;/h6&gt;
+&lt;p&gt;过滤关系指的是大于、等于、小于等等式关系，具体可以看&lt;a href=&#34;https://www.wireshark.org/docs/wsug_html/#DispCompOps&#34;&gt;官方给出的表&lt;/a&gt;
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/12/636f11ecb35db.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/12/636f11ecb35db.png&#34; alt=&#34;1&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h6 id=&#34;过滤值&#34;&gt;过滤值&lt;/h6&gt;
+&lt;p&gt;过滤值就是设定的过滤项应该满足过滤关系的标准，比如500、5000、50000等等。&lt;br&gt;
+过滤值的写法一般已经被过滤项和过滤关系设定好了，只是填下自己的期望值就可以了。&lt;/p&gt;
+&lt;h5 id=&#34;复合过滤表达式&#34;&gt;复合过滤表达式&lt;/h5&gt;
+&lt;p&gt;所谓复合过滤表达示，就是指由多条基本过滤表达式组合而成的表达示。&lt;br&gt;
+基本过滤表达式的写法还是不变的，复合过滤表达示多出来的东西就只是基本过滤表达示的“连接词”，我们依然直接参照&lt;a href=&#34;https://www.wireshark.org/docs/wsug_html/#FiltLogOps&#34;&gt;官方给出的表&lt;/a&gt;
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/12/636f11cc4be71.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/12/636f11cc4be71.png&#34; alt=&#34;1&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h5 id=&#34;常见显示过滤需求及其对应表达式&#34;&gt;常见显示过滤需求及其对应表达式&lt;/h5&gt;
+&lt;h6 id=&#34;数据链路层&#34;&gt;数据链路层&lt;/h6&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;筛选mac地址为04:f9:38:ad:13:26的数据包----eth.src == 04:f9:38:ad:13:26
+
+筛选源mac地址为04:f9:38:ad:13:26的数据包----eth.src == 04:f9:38:ad:13:26
+&lt;/code&gt;&lt;/pre&gt;&lt;h6 id=&#34;网络层&#34;&gt;网络层&lt;/h6&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;筛选ip地址为192.168.1.1的数据包----ip.addr == 192.168.1.1
+
+筛选192.168.1.0网段的数据---- ip contains &amp;#34;192.168.1&amp;#34;
+
+筛选192.168.1.1和192.168.1.2之间的数据包----ip.addr == 192.168.1.1 &amp;amp;&amp;amp; ip.addr == 192.168.1.2
+
+筛选从192.168.1.1到192.168.1.2的数据包----ip.src == 192.168.1.1 &amp;amp;&amp;amp; ip.dst == 192.168.1.2
+&lt;/code&gt;&lt;/pre&gt;&lt;h6 id=&#34;传输层&#34;&gt;传输层&lt;/h6&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;筛选tcp协议的数据包----tcp
+
+筛选除tcp协议以外的数据包----!tcp
+
+筛选端口为80的数据包----tcp.port == 80
+
+筛选12345端口和80端口之间的数据包----tcp.port == 12345 &amp;amp;&amp;amp; tcp.port == 80
+
+筛选从12345端口到80端口的数据包----tcp.srcport == 12345 &amp;amp;&amp;amp; tcp.dstport == 80
+&lt;/code&gt;&lt;/pre&gt;&lt;h6 id=&#34;应用层&#34;&gt;应用层&lt;/h6&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;特别说明----http中http.request表示请求头中的第一行（如GET index.jsp HTTP/1.1），http.response表示响应头中的第一行（如HTTP/1.1 200 OK），其他头部都用http.header_name形式。
+
+筛选url中包含.php的http数据包----http.request.uri contains &amp;#34;.php&amp;#34;
+
+筛选内容包含username的http数据包----http contains &amp;#34;username&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;通过实验阐述arp的工作原理&#34;&gt;通过实验阐述ARP的工作原理&lt;/h2&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.51cto.com/yttitan/1734425&#34;&gt;Wireshark系列之4 捕获过滤器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.51cto.com/u_13579643/3647795?articleABtest=0&#34;&gt;网络——Wireshark工具&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://juejin.cn/post/6844904066229747720&#34;&gt;WireShark的基本用法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/lsdb/p/9254544.html&#34;&gt;Wireshark使用教程（界面说明、捕获过滤器表达式、显示过滤器表达式）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.freebuf.com/sectool/256745.html&#34;&gt;一文精讲Wireshark的抓包和分析&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bbs.huaweicloud.com/blogs/285673&#34;&gt;Wireshark简明教程，新手专用，挑实在的讲，不搞花里胡哨&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.51cto.com/u_15688254/5694733&#34;&gt;WireShark网络封包抓包工具各个界面介绍&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wireshark.org/docs/wsug_html_chunked/ChapterWork.html&#34;&gt;Wireshark官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="要求">要求</h1>
+<ol>
+<li>团队合作、合理分工、按组为单位进行</li>
+<li>报告文字内容不可拷贝粘贴现有文献，应反映小组所做的工作，有分析，实践性的选题应有具体操作或者配置过程描述，辅以截图或实验数据</li>
+<li>所交报告中应在最后注明组员分工、参考文献，报告字数3000-6000</li>
+<li>不同班级的小组可选择相同的题目，但重复计数（由各班学委协调），不可多于3组，且报告内容不可相同，要求独立完成各组任务</li>
+<li>除了个别综述性的选题，其它选题要求在实际平台上实践</li>
+</ol>
+<h1 id="选题">选题</h1>
+<blockquote>
+<p><strong>基于网络嗅探软件（wireshark）的协议分析实验</strong></p>
+</blockquote>
+<ol>
+<li>Wireshark的深入学习与掌握，如过滤器的使用，归纳方法</li>
+<li>通过实验阐述ARP的工作原理</li>
+<li>利用实验结果分析ICMP协议的报文结构字段定义</li>
+<li>基于实验数据深入分析TCP协议的连接过程原理，报文的分片等功能</li>
+<li>从校园网发起向外网中某Web服务器的访问，记录并分析从MAC层协议、IP协议、TCP协议一直到HTTP协议的过程</li>
+</ol>
+<h1 id="基于网络嗅探软件wireshark的协议分析实验">基于网络嗅探软件Wireshark的协议分析实验</h1>
+<h2 id="wireshark-是什么">Wireshark 是什么？</h2>
+<blockquote>
+<p><strong>Wirkshark 是一个功能十分强大的开源的网络数据包分析器，能够在多种平台上抓取和分析网络包</strong></p>
+<p><strong>Wirkshark 可被用于检查安全问题和解决网络问题，也可供开发者调试协议的实现和学习网络协议的原理</strong></p>
+<p><strong>Wireshark使用 Npcap or WinPcap 作为接口，直接与网卡进行数据报文交换</strong></p>
+</blockquote>
+<h2 id="wireshark-下载与安装">Wireshark 下载与安装</h2>
+<p>官网地址：<a href="https://www.wireshark.org/">https://www.wireshark.org/</a>，直接点击下一步下一步安装即可
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/12/636eef0324bca.png">
+<img src="https://bu.dusays.com/2022/11/12/636eef0324bca.png" alt="1"  />
+</a>
+</div>
+
+
+但是，我在安装过程中报了如下的错误：
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/11/636e699429bad.png">
+<img src="https://bu.dusays.com/2022/11/11/636e699429bad.png" alt="npcap"  />
+</a>
+</div>
+
+
+排查了好久，没找到合适的解决办法<br>
+最后，下载 WinPcap 来代替 Npcap ，成功运行。</p>
+<h2 id="wireshark-基本用法">Wireshark 基本用法</h2>
+<blockquote>
+<p>简单抓包基础步骤：选择捕获接口 -&gt; 获取网络实时痕迹 -&gt; 获取报文 -&gt; 深入解析</p>
+</blockquote>
+<hr>
+<h3 id="选择接口网卡">选择接口（网卡）</h3>
+<blockquote>
+<p><strong>网络上传输的数据包需要经过网卡到达计算机，Wireshark可以捕获流经网卡的数据包</strong></p>
+</blockquote>
+<p>在使用Wireshark捕获数据前，先要选择捕获接口。一台计算机可能会有不止一个网卡，此时需要选择你要捕获数据的接口。</p>
+<p>选择菜单栏上的 捕获-&gt;选项
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/12/636eef03d463f.png">
+<img src="https://bu.dusays.com/2022/11/12/636eef03d463f.png" alt="1"  />
+</a>
+</div>
+
+
+选择想要捕获数据的接口后，点击开始
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/12/636ef1eb47349.png">
+<img src="https://bu.dusays.com/2022/11/12/636ef1eb47349.png" alt="2"  />
+</a>
+</div>
+
+</p>
+<h3 id="界面说明">界面说明</h3>
+<p>开始捕获后，Wireshark会把捕获到的报文显示到界面上</p>
+<ol>
+<li><strong>显示过滤器</strong>用于设置过滤条件进行数据列表区数据过滤</li>
+<li><strong>数据列表区</strong>展示的是Wireshark捕获到的所有数据包的列表，每个数据包包含 编号、时间戳、源地址、目标地址、协议、长度以及数据包信息</li>
+<li><strong>数据详细区</strong>展示的是在数据列表区中选中的数据包的分协议展示
+<ol>
+<li><u>Frame</u>：物理层的数据帧概况</li>
+<li><u>Ethernet II</u>：数据链路层以太网帧头部信息</li>
+<li><u>Internet Protocol Version 4</u>： 互联网层IP包头部信息</li>
+<li><u>Transmission Control Protocol</u>：传输层的数据段头部信息，此处是TCP</li>
+</ol>
+</li>
+<li><strong>数据字节区</strong>展示的是选中的数据包的源数据。另外，在数据详细区选中的某层或某字段，对应的数据会在数据字节区中高亮
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/12/636efb5f7ea6d.png">
+<img src="https://bu.dusays.com/2022/11/12/636efb5f7ea6d.png" alt="1"  />
+</a>
+</div>
+
+</li>
+</ol>
+<h3 id="过滤器设置">过滤器设置</h3>
+<blockquote>
+<p><strong>根据我们想要抓取的数据包，对过滤器进行设置。过滤掉冗余的数据包，找到我们需要的信息</strong></p>
+</blockquote>
+<h4 id="捕获过滤器">捕获过滤器</h4>
+<blockquote>
+<p><strong>捕获过滤器表达式作用在Wireshark捕获数据包之前，只捕获符合条件的数据包</strong></p>
+<p><strong>当需要处理大量数据时，使用捕获过滤器可以节省大量资源</strong></p>
+</blockquote>
+<h5 id="界面说明-1">界面说明</h5>
+<p>选择菜单栏上的 捕获-&gt;捕获过滤器
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/12/636efe3d72678.png">
+<img src="https://bu.dusays.com/2022/11/12/636efe3d72678.png" alt="1"  />
+</a>
+</div>
+
+
+点击 <code>+</code> 即可添加新的过滤规则<br>
+<code>Filter Name</code> 指代过滤器名称，用来给自己看该过滤器的过滤效果<br>
+<code>Filter Expression</code> 指代过滤器表达式，需要使用 <code>Berkeley Packet Filter</code> 语法书写
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/12/636efe3e2ce20.png">
+<img src="https://bu.dusays.com/2022/11/12/636efe3e2ce20.png" alt="2"  />
+</a>
+</div>
+
+</p>
+<h5 id="语法规则">语法规则</h5>
+<p>捕获过滤器使用 <code>BPF</code> 语法，表达式由多个原语组成：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>原语(primitives)：由名称或数字，以及描述它的多个限定词组成。  
+</span></span><span style="display:flex;"><span>  <span style="color:#fff;font-weight:bold">*</span> 限定词(qualifiers)
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">*</span> Types：设置数字或者名称所指示类型，例如host www.baidu.com，如果没有指定此值，则默认使用“host”关键字
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">*</span> host、post
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">*</span> net，设定子网， net 192.168.0.0 mask 255.255.255.0等价于net 192.168.0.0/24
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">*</span> port，设置端口范围，例如port 6000-8000
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">*</span> Dir：设置网络出入方向，例如dst port 80，如果没有特别指明来源或目的地，则默认使用“src or dst”作为关键字
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">*</span> src、dst、src or dst、src and dst(src：源端口，dst：目标端口)
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">*</span> Proto：指定协议类型，例如udp，如果没有特别指明是什么协议，则默认使用所有支持的协议
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">*</span> ether、fddi、tr、wlan、ip、ip6、arp、rarp、decnet、tcp、udp、icmp、igmp、icmp、igrp、pim、ah、esp、vrrp
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">*</span> 其他
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">*</span> gateway：指明网关IP地址，等价于ether host &#39;ehost&#39; and not host &#39;host&#39;
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">*</span> broadcast：广播报文，例如ether broadcast或者ip broadcast
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">*</span> multicast：多播报文，例如ip multicast或者ip6 multicast
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">*</span> less、greater：小于或者大于
+</span></span><span style="display:flex;"><span>  <span style="color:#fff;font-weight:bold">*</span> 原语运算符
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">*</span> 与：<span style="color:#f00">&amp;&amp;</span>或者and
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">*</span> 或：||或者or
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">*</span> 非：!或者not
+</span></span></code></pre></div><div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">转载自：https://juejin.cn/post/6844904066229747720 </div> 
+<h5 id="应用示例">应用示例</h5>
+<p>只抓取源端口或者目的端口范围6000到8000，并且是一个tcp协议或者ipv6的数据包</p>
+<pre tabindex="0"><code>src or dst port 6000-8000 &amp;&amp; tcp or ip6    
+</code></pre><p>只抓取IP地址为192.168.0.10的数据包</p>
+<pre tabindex="0"><code>host 192.168.0.10
+</code></pre><h4 id="显示过滤器">显示过滤器</h4>
+<blockquote>
+<p><strong>显示过滤器表达式作用在在Wireshark捕获数据包之后，从已捕获的所有数据包中显示出符合条件的数据包</strong></p>
+</blockquote>
+<p>显示过滤表达式在工具栏下方的“应用显示过滤器”输入框输入即可生效
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/12/636f11a82564a.png">
+<img src="https://bu.dusays.com/2022/11/12/636f11a82564a.png" alt="1"  />
+</a>
+</div>
+
+</p>
+<h5 id="基本过滤表达式">基本过滤表达式</h5>
+<ol>
+<li>一条基本的表达式由<strong>过滤项</strong>、<strong>过滤关系</strong>、<strong>过滤值</strong>三项组成</li>
+<li>例如：<code>ip.addr == 192.168.1.1</code>，其中 <code>ip.addr</code> 为过滤项，<code>==</code> 为过滤关系，<code>192.168.1.1</code> 为过滤值。</li>
+<li>该表达式的意思是 <strong>找出所有ip协议中源或目标ip等于192.168.1.1的数据包</strong></li>
+</ol>
+<h6 id="过滤项">过滤项</h6>
+<ol>
+<li>Wireshark的过滤项是 <code>协议.协议字段</code> 的模式，Wireshark支持的全部协议及协议字段可查看<a href="https://www.wireshark.org/docs/dfref/">官方说明</a>。</li>
+<li>以端口为例，端口出现于tcp协议中。所以有端口这个过滤项且其写法就是tcp.port</li>
+<li>Wireshark出于缩减长度的原因，有些字段没有使用协议规定的名称而是使用简写，比如Destination Port在Wireshark中写为dstport</li>
+<li>Wireshark出于简便使用的原因，增加了一些协议中没有的字段，比如tcp协议只有源端口和目标端口字段，为了简便使用Wireshark增加了tcp.port来同时代表这两个字段</li>
+<li>实际使用时我们输入<code>协议.</code>后Wireshark就会有支持的字段提示</li>
+</ol>
+<h6 id="过滤关系">过滤关系</h6>
+<p>过滤关系指的是大于、等于、小于等等式关系，具体可以看<a href="https://www.wireshark.org/docs/wsug_html/#DispCompOps">官方给出的表</a>
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/12/636f11ecb35db.png">
+<img src="https://bu.dusays.com/2022/11/12/636f11ecb35db.png" alt="1"  />
+</a>
+</div>
+
+</p>
+<h6 id="过滤值">过滤值</h6>
+<p>过滤值就是设定的过滤项应该满足过滤关系的标准，比如500、5000、50000等等。<br>
+过滤值的写法一般已经被过滤项和过滤关系设定好了，只是填下自己的期望值就可以了。</p>
+<h5 id="复合过滤表达式">复合过滤表达式</h5>
+<p>所谓复合过滤表达示，就是指由多条基本过滤表达式组合而成的表达示。<br>
+基本过滤表达式的写法还是不变的，复合过滤表达示多出来的东西就只是基本过滤表达示的“连接词”，我们依然直接参照<a href="https://www.wireshark.org/docs/wsug_html/#FiltLogOps">官方给出的表</a>
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/12/636f11cc4be71.png">
+<img src="https://bu.dusays.com/2022/11/12/636f11cc4be71.png" alt="1"  />
+</a>
+</div>
+
+</p>
+<h5 id="常见显示过滤需求及其对应表达式">常见显示过滤需求及其对应表达式</h5>
+<h6 id="数据链路层">数据链路层</h6>
+<pre tabindex="0"><code>筛选mac地址为04:f9:38:ad:13:26的数据包----eth.src == 04:f9:38:ad:13:26
+
+筛选源mac地址为04:f9:38:ad:13:26的数据包----eth.src == 04:f9:38:ad:13:26
+</code></pre><h6 id="网络层">网络层</h6>
+<pre tabindex="0"><code>筛选ip地址为192.168.1.1的数据包----ip.addr == 192.168.1.1
+
+筛选192.168.1.0网段的数据---- ip contains &#34;192.168.1&#34;
+
+筛选192.168.1.1和192.168.1.2之间的数据包----ip.addr == 192.168.1.1 &amp;&amp; ip.addr == 192.168.1.2
+
+筛选从192.168.1.1到192.168.1.2的数据包----ip.src == 192.168.1.1 &amp;&amp; ip.dst == 192.168.1.2
+</code></pre><h6 id="传输层">传输层</h6>
+<pre tabindex="0"><code>筛选tcp协议的数据包----tcp
+
+筛选除tcp协议以外的数据包----!tcp
+
+筛选端口为80的数据包----tcp.port == 80
+
+筛选12345端口和80端口之间的数据包----tcp.port == 12345 &amp;&amp; tcp.port == 80
+
+筛选从12345端口到80端口的数据包----tcp.srcport == 12345 &amp;&amp; tcp.dstport == 80
+</code></pre><h6 id="应用层">应用层</h6>
+<pre tabindex="0"><code>特别说明----http中http.request表示请求头中的第一行（如GET index.jsp HTTP/1.1），http.response表示响应头中的第一行（如HTTP/1.1 200 OK），其他头部都用http.header_name形式。
+
+筛选url中包含.php的http数据包----http.request.uri contains &#34;.php&#34;
+
+筛选内容包含username的http数据包----http contains &#34;username&#34;
+</code></pre><h2 id="通过实验阐述arp的工作原理">通过实验阐述ARP的工作原理</h2>
+<h2 id="参考">参考</h2>
+<ol>
+<li><a href="https://blog.51cto.com/yttitan/1734425">Wireshark系列之4 捕获过滤器</a></li>
+<li><a href="https://blog.51cto.com/u_13579643/3647795?articleABtest=0">网络——Wireshark工具</a></li>
+<li><a href="https://juejin.cn/post/6844904066229747720">WireShark的基本用法</a></li>
+<li><a href="https://www.cnblogs.com/lsdb/p/9254544.html">Wireshark使用教程（界面说明、捕获过滤器表达式、显示过滤器表达式）</a></li>
+<li><a href="https://www.freebuf.com/sectool/256745.html">一文精讲Wireshark的抓包和分析</a></li>
+<li><a href="https://bbs.huaweicloud.com/blogs/285673">Wireshark简明教程，新手专用，挑实在的讲，不搞花里胡哨</a></li>
+<li><a href="https://blog.51cto.com/u_15688254/5694733">WireShark网络封包抓包工具各个界面介绍</a></li>
+<li><a href="https://www.wireshark.org/docs/wsug_html_chunked/ChapterWork.html">Wireshark官方文档</a></li>
+</ol>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
