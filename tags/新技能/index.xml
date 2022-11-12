@@ -284,7 +284,7 @@
 	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
 	display: inline-block; 
 	color: #999; 
-	padding: 2px;&#34;&gt;我的 IP地址和MAC地址&lt;/div&gt; 
+	padding: 2px;&#34;&gt;主机A IP地址和MAC地址&lt;/div&gt; 
  &lt;/center&gt;
 &lt;center&gt; 
 	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2022/11/12/636f6331a7d39.png&#34;&gt;
@@ -292,10 +292,10 @@
 	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
 	display: inline-block; 
 	color: #999; 
-	padding: 2px;&#34;&gt;小组成员的 IP地址和MAC地址&lt;/div&gt; 
+	padding: 2px;&#34;&gt;主机B IP地址和MAC地址&lt;/div&gt; 
  &lt;/center&gt;
 &lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;使用&lt;code&gt;arp -a&lt;/code&gt;查看ARP缓存表
+&lt;li&gt;主机A使用&lt;code&gt;arp -a&lt;/code&gt;查看ARP缓存表
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/12/636f603bde062.png&#34;&gt;
@@ -304,7 +304,7 @@
 &lt;/div&gt;
 
 &lt;/li&gt;
-&lt;li&gt;使用&lt;code&gt;ping&lt;/code&gt;小组成员的IP添加动态ARP表项
+&lt;li&gt;主机A通过&lt;code&gt;ping&lt;/code&gt;主机B的IP来添加动态ARP缓存表数据
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/12/636f60cfe4604.png&#34;&gt;
@@ -313,10 +313,10 @@
 &lt;/div&gt;
 
 
-我在&lt;code&gt;ping&lt;/code&gt;小组成员&lt;code&gt;ip&lt;/code&gt;地址时碰到&lt;strong&gt;请求超时&lt;/strong&gt;的问题。&lt;br&gt;
+我在&lt;code&gt;ping&lt;/code&gt;主机B&lt;code&gt;ip&lt;/code&gt;地址时碰到&lt;strong&gt;请求超时&lt;/strong&gt;的问题。&lt;br&gt;
 经排查，是因为windows防火墙默认设置的是不让别人ping通，通过修改防火墙相关设置解决了该问题。&lt;br&gt;
 &lt;strong&gt;步骤：控制面板 →  系统和安全 → Windows防火墙 → 高级设置 → 入站规则 → 文件和打印机共享（回显请求 - ICMPv4-In）设置为启用&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;使用&lt;code&gt;arp -a&lt;/code&gt;查看ARP缓存表，发生新增一条数据
+&lt;li&gt;主机A使用&lt;code&gt;arp -a&lt;/code&gt;查看ARP缓存表，发生新增一条数据
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/12/636f6169b6f50.png&#34;&gt;
@@ -343,7 +343,7 @@
 &lt;li&gt;主机A运行Wireshark，设置显示过滤器表达式为&lt;code&gt;arp.dst.proto_ipv4 == 192.168.31.186 and arp.src.proto_ipv4 == 192.168.31.248 or icmp &lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;主机A&lt;code&gt;ping&lt;/code&gt;主机B的&lt;code&gt;ip地址&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h5 id=&#34;结果分析&#34;&gt;结果分析&lt;/h5&gt;
+&lt;h6 id=&#34;结果分析&#34;&gt;结果分析&lt;/h6&gt;
 &lt;ol&gt;
 &lt;li&gt;主机A将自己的&lt;code&gt;ip地址 192.168.31.248&lt;/code&gt; &amp;amp; &lt;code&gt;MAC地址 c0:3c:59:5e:37:47&lt;/code&gt;写入请求分组，并将&lt;code&gt;目的ip地址&lt;/code&gt;设置为&lt;code&gt;192.168.31.186&lt;/code&gt;，&lt;code&gt;目的MAC地址&lt;/code&gt;设置为&lt;code&gt;00:00:00:00:00:00&lt;/code&gt;，对本局域网内的所有主机进行广播&lt;/li&gt;
 &lt;/ol&gt;
@@ -378,12 +378,11 @@
 &lt;h5 id=&#34;当arp缓存对应数据不为空时&#34;&gt;当ARP缓存对应数据不为空时&lt;/h5&gt;
 &lt;h6 id=&#34;实验步骤-1&#34;&gt;实验步骤&lt;/h6&gt;
 &lt;ol&gt;
-&lt;li&gt;主机A运行Wireshark，设置显示过滤器表达式为&lt;code&gt;arp.dst.proto_ipv4 == 192.168.31.186 and arp.src.proto_ipv4 == 192.168.31.248 or icmp &lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;主机B运行Wireshark，设置显示过滤器表达式为&lt;code&gt;arp.dst.proto_ipv4 == 192.168.31.248 and arp.src.proto_ipv4 == 192.168.31.186 or icmp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;主机A运行Wireshark，设置显示过滤器表达式为&lt;code&gt;arp.dst.proto_ipv4 == 192.168.31.186 and arp.src.proto_ipv4 == 192.168.31.248 or icmp&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;主机A &lt;code&gt;ping&lt;/code&gt;主机B的&lt;code&gt;ip地址&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h5 id=&#34;结果分析-1&#34;&gt;结果分析&lt;/h5&gt;
-&lt;p&gt;主机A没有发出&lt;code&gt;ARP&lt;/code&gt;请求，而主机B接受到了主机A的ICMP报文，说明主机A直接使用了高速缓存区内的对应数据&lt;/p&gt;
+&lt;h6 id=&#34;结果分析-1&#34;&gt;结果分析&lt;/h6&gt;
+&lt;p&gt;主机A没有发出&lt;code&gt;ARP&lt;/code&gt;请求，而主机B接受到了主机A的ICMP报文，说明主机A直接使用了高速缓存区内的对应数据，而没有发出广播&lt;/p&gt;
 &lt;center&gt; 
 	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2022/11/12/636f910b7f31d.png&#34;&gt;
 	&lt;br&gt;
@@ -391,14 +390,6 @@
 	display: inline-block; 
 	color: #999; 
 	padding: 2px;&#34;&gt;主机A发出的报文&lt;/div&gt; 
- &lt;/center&gt;
-&lt;center&gt; 
-	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2022/10/26/635911c150be7.jpg&#34;&gt;
-	&lt;br&gt;
-	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
-	display: inline-block; 
-	color: #999; 
-	padding: 2px;&#34;&gt;主机B接受到的来自主机A的报文&lt;/div&gt; 
  &lt;/center&gt;
 &lt;h2 id=&#34;利用实验结果分析icmp协议的报文结构字段定义&#34;&gt;利用实验结果分析ICMP协议的报文结构字段定义&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -693,7 +684,7 @@
 	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
 	display: inline-block; 
 	color: #999; 
-	padding: 2px;">我的 IP地址和MAC地址</div> 
+	padding: 2px;">主机A IP地址和MAC地址</div> 
  </center>
 <center> 
 	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2022/11/12/636f6331a7d39.png">
@@ -701,10 +692,10 @@
 	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
 	display: inline-block; 
 	color: #999; 
-	padding: 2px;">小组成员的 IP地址和MAC地址</div> 
+	padding: 2px;">主机B IP地址和MAC地址</div> 
  </center>
 <ol start="2">
-<li>使用<code>arp -a</code>查看ARP缓存表
+<li>主机A使用<code>arp -a</code>查看ARP缓存表
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/12/636f603bde062.png">
@@ -713,7 +704,7 @@
 </div>
 
 </li>
-<li>使用<code>ping</code>小组成员的IP添加动态ARP表项
+<li>主机A通过<code>ping</code>主机B的IP来添加动态ARP缓存表数据
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/12/636f60cfe4604.png">
@@ -722,10 +713,10 @@
 </div>
 
 
-我在<code>ping</code>小组成员<code>ip</code>地址时碰到<strong>请求超时</strong>的问题。<br>
+我在<code>ping</code>主机B<code>ip</code>地址时碰到<strong>请求超时</strong>的问题。<br>
 经排查，是因为windows防火墙默认设置的是不让别人ping通，通过修改防火墙相关设置解决了该问题。<br>
 <strong>步骤：控制面板 →  系统和安全 → Windows防火墙 → 高级设置 → 入站规则 → 文件和打印机共享（回显请求 - ICMPv4-In）设置为启用</strong></li>
-<li>使用<code>arp -a</code>查看ARP缓存表，发生新增一条数据
+<li>主机A使用<code>arp -a</code>查看ARP缓存表，发生新增一条数据
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/12/636f6169b6f50.png">
@@ -752,7 +743,7 @@
 <li>主机A运行Wireshark，设置显示过滤器表达式为<code>arp.dst.proto_ipv4 == 192.168.31.186 and arp.src.proto_ipv4 == 192.168.31.248 or icmp </code></li>
 <li>主机A<code>ping</code>主机B的<code>ip地址</code></li>
 </ol>
-<h5 id="结果分析">结果分析</h5>
+<h6 id="结果分析">结果分析</h6>
 <ol>
 <li>主机A将自己的<code>ip地址 192.168.31.248</code> &amp; <code>MAC地址 c0:3c:59:5e:37:47</code>写入请求分组，并将<code>目的ip地址</code>设置为<code>192.168.31.186</code>，<code>目的MAC地址</code>设置为<code>00:00:00:00:00:00</code>，对本局域网内的所有主机进行广播</li>
 </ol>
@@ -787,12 +778,11 @@
 <h5 id="当arp缓存对应数据不为空时">当ARP缓存对应数据不为空时</h5>
 <h6 id="实验步骤-1">实验步骤</h6>
 <ol>
-<li>主机A运行Wireshark，设置显示过滤器表达式为<code>arp.dst.proto_ipv4 == 192.168.31.186 and arp.src.proto_ipv4 == 192.168.31.248 or icmp </code></li>
-<li>主机B运行Wireshark，设置显示过滤器表达式为<code>arp.dst.proto_ipv4 == 192.168.31.248 and arp.src.proto_ipv4 == 192.168.31.186 or icmp</code></li>
+<li>主机A运行Wireshark，设置显示过滤器表达式为<code>arp.dst.proto_ipv4 == 192.168.31.186 and arp.src.proto_ipv4 == 192.168.31.248 or icmp</code></li>
 <li>主机A <code>ping</code>主机B的<code>ip地址</code></li>
 </ol>
-<h5 id="结果分析-1">结果分析</h5>
-<p>主机A没有发出<code>ARP</code>请求，而主机B接受到了主机A的ICMP报文，说明主机A直接使用了高速缓存区内的对应数据</p>
+<h6 id="结果分析-1">结果分析</h6>
+<p>主机A没有发出<code>ARP</code>请求，而主机B接受到了主机A的ICMP报文，说明主机A直接使用了高速缓存区内的对应数据，而没有发出广播</p>
 <center> 
 	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2022/11/12/636f910b7f31d.png">
 	<br>
@@ -800,14 +790,6 @@
 	display: inline-block; 
 	color: #999; 
 	padding: 2px;">主机A发出的报文</div> 
- </center>
-<center> 
-	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2022/10/26/635911c150be7.jpg">
-	<br>
-	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
-	display: inline-block; 
-	color: #999; 
-	padding: 2px;">主机B接受到的来自主机A的报文</div> 
  </center>
 <h2 id="利用实验结果分析icmp协议的报文结构字段定义">利用实验结果分析ICMP协议的报文结构字段定义</h2>
 <blockquote>
