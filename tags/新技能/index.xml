@@ -266,6 +266,14 @@
 &lt;li&gt;主机A收到主机B的ARP响应分组后，就在其ARP高速缓存中写入主机B的IP地址到MAC地址的映射&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;实验步骤及内容&#34;&gt;实验步骤及内容&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;主机A&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IP地址：192.168.31.248&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MAC地址：c0:3c:59:5e:37:47&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主机B&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IP地址：192.168.31.186&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MAC地址：28:7f:cf:12:af:89&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h4 id=&#34;arp命令练习&#34;&gt;ARP命令练习&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;在&lt;code&gt;cmd&lt;/code&gt;中使用&lt;code&gt;ipconfig/all&lt;/code&gt;命令，查看自己的IP地址和MAC地址，同时让小组成员连接同一个&lt;code&gt;WIFI&lt;/code&gt;执行相同的操作并记录&lt;/li&gt;
@@ -396,6 +404,11 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;ICMP即互联网控制报文协议（Internet Control Message Protocol），网络设备（包括路由器）使用它来发送错误消息和指示与另一个IP 地址通信时成功或失败的操作信息&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h3 id=&#34;icmp询问报文&#34;&gt;ICMP询问报文&lt;/h3&gt;
+&lt;h4 id=&#34;实验步骤-2&#34;&gt;实验步骤&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.51cto.com/yttitan/1734425&#34;&gt;Wireshark系列之4 捕获过滤器&lt;/a&gt;&lt;/li&gt;
@@ -662,6 +675,14 @@
 <li>主机A收到主机B的ARP响应分组后，就在其ARP高速缓存中写入主机B的IP地址到MAC地址的映射</li>
 </ol>
 <h3 id="实验步骤及内容">实验步骤及内容</h3>
+<blockquote>
+<p><strong>主机A</strong></p>
+<p><strong>IP地址：192.168.31.248</strong></p>
+<p><strong>MAC地址：c0:3c:59:5e:37:47</strong></p>
+<p><strong>主机B</strong></p>
+<p><strong>IP地址：192.168.31.186</strong></p>
+<p><strong>MAC地址：28:7f:cf:12:af:89</strong></p>
+</blockquote>
 <h4 id="arp命令练习">ARP命令练习</h4>
 <ol>
 <li>在<code>cmd</code>中使用<code>ipconfig/all</code>命令，查看自己的IP地址和MAC地址，同时让小组成员连接同一个<code>WIFI</code>执行相同的操作并记录</li>
@@ -792,6 +813,11 @@
 <blockquote>
 <p><strong>ICMP即互联网控制报文协议（Internet Control Message Protocol），网络设备（包括路由器）使用它来发送错误消息和指示与另一个IP 地址通信时成功或失败的操作信息</strong></p>
 </blockquote>
+<h3 id="icmp询问报文">ICMP询问报文</h3>
+<h4 id="实验步骤-2">实验步骤</h4>
+<ol>
+<li></li>
+</ol>
 <h2 id="参考">参考</h2>
 <ol>
 <li><a href="https://blog.51cto.com/yttitan/1734425">Wireshark系列之4 捕获过滤器</a></li>
