@@ -24363,7 +24363,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;p&gt;RSS的核心是&lt;strong&gt;资讯聚合&lt;/strong&gt;，由&lt;strong&gt;用户自己决定信息源&lt;/strong&gt;。我们可以通过订阅网站的RSS源，主动获得想要的资讯，去挖掘一些自己真正感兴趣的东西。&lt;/p&gt;
 &lt;h2 id=&#34;如何使用rss&#34;&gt;如何使用RSS?&lt;/h2&gt;
 &lt;p&gt;利用RSS获取信息，只需要在目标网站上找到RSS链接，并把它添加到RSS阅读器中。&lt;/p&gt;
-&lt;p&gt;我使用的工具是&lt;code&gt;Inoreader RSS 阅读器 + RSSHub Radar 浏览器插件&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;我使用的工具是&lt;code&gt;Inoreader RSS 阅读器 （需翻墙） + RSSHub Radar 浏览器插件&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Inoreader&lt;/code&gt; 吸引我的点是它支持PC端和手机端的同步，并且PC端可以直接通过浏览器插件使用，使我在手机和电脑上都可以查看消息。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;RSSHub Radar&lt;/code&gt; 的出现，完美解决了不是所有的网页都提供RSS源这一痛点，它可以自动生成网站的RSS源以供订阅，非常方便。&lt;/p&gt;
 &lt;p&gt;
@@ -24374,17 +24374,17 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;p&gt;我使用RSS主要用来订阅我感兴趣的个人博客，我订阅的博客网站在 &lt;code&gt;Links&lt;/code&gt; 页面下的 &lt;strong&gt;博客&lt;/strong&gt; 那一栏。&lt;/p&gt;
+&lt;p&gt;我使用RSS主要用来订阅我感兴趣的个人博客，我订阅的博客网站在 &lt;code&gt;Links&lt;/code&gt; 页面下的 &lt;a href=&#34;https://xancoding.cn/links/#blogs&#34;&gt;Blog&lt;/a&gt; 那一栏。&lt;/p&gt;
 &lt;h1 id=&#34;播客&#34;&gt;播客&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;小宇宙&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;播客也是一个很好的信息源，可以在做一些不用🧠的事时听。我的使用场景通常是在吃饭或是上下课的路上。我使用的播客软件是&lt;a href=&#34;https://www.xiaoyuzhoufm.com/&#34;&gt;小宇宙&lt;/a&gt;，体验不错。&lt;/p&gt;
+&lt;p&gt;播客也是一个很好的信息源，可以在做一些不用🧠的事时听，适合用来拓宽自己的知识面，对一些自己之前完全没有接触过的领域做一个初步的了解，抑或是单纯用以放松也不错。我的使用场景通常是在吃饭或是上下课的路上。&lt;br&gt;
+我目前在使用的播客软件是&lt;a href=&#34;https://www.xiaoyuzhoufm.com/&#34;&gt;小宇宙&lt;/a&gt;，体验不错。&lt;/p&gt;
 &lt;h1 id=&#34;书籍&#34;&gt;书籍&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Neat Reader &amp;amp; Sumatra PDF &amp;amp; Z-Library &amp;amp; LoreFree &amp;amp; 学校图书馆&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;读书，是治愈迷茫最好的良药。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Neat Reader&lt;/code&gt; 是一款&lt;code&gt;EPUB&lt;/code&gt;阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 &lt;a href=&#34;https://zh.z-lib.org/&#34;&gt;Z-Library&lt;/a&gt; or &lt;a href=&#34;https://lorefree.com/&#34;&gt;LoreFree&lt;/a&gt; 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 &lt;a href=&#34;https://www.neat-reader.com/&#34;&gt;Neat Reader&lt;/a&gt; 阅读。&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -24395,45 +24395,61 @@ docker rm CONTAINER_NAME # 删除容器
 
 &lt;/p&gt;
 &lt;p&gt;如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 &lt;a href=&#34;https://www.sumatrapdfreader.org/free-pdf-reader&#34;&gt;Sumatra PDF&lt;/a&gt; 上阅读&lt;/p&gt;
-&lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看。&lt;/p&gt;
+&lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）&lt;/p&gt;
 &lt;h1 id=&#34;搜索引擎&#34;&gt;搜索引擎&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Google &amp;amp; AdblockPlus &amp;amp; uBlacklist&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Chrome（需翻墙） &amp;amp; AdblockPlus &amp;amp; uBlacklist | Personal Blocklist&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;在搜索引擎体验上， Google （强推，体验极佳） &amp;gt; Bing （偶尔用用） &amp;raquo; Baidu （完全不考虑）&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;Chrome&lt;/code&gt; 浏览器提供的&lt;code&gt;Google 搜索&lt;/code&gt;是我目前体验感最好的搜索引擎，&lt;code&gt;Microsoft Edge&lt;/code&gt; 浏览器提供的 &lt;code&gt;Bing 搜索&lt;/code&gt; 体验感也还不错。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;AdblockPlus 浏览器插件&lt;/code&gt; 由用户主动设置拦截网页上不想看到的内容，下图是我对知乎页面的屏蔽后的结果，我使用这个插件把知乎和B站的推荐内容屏蔽，以获得更为简洁的体验&lt;/p&gt;
-&lt;p&gt;
+&lt;h2 id=&#34;chrome-浏览器设置&#34;&gt;Chrome 浏览器设置&lt;/h2&gt;
+&lt;h3 id=&#34;快捷字词搜索&#34;&gt;快捷字词搜索&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Chrome&lt;/code&gt; 浏览器可以通过在地址栏中输入快捷字词，实现在特定网站中搜索内容，或使用其他搜索引擎进行搜索&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在 Chrome 浏览器右上角找到 &lt;code&gt;设置&lt;/code&gt;，
+
 &lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1cfc65bd4.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2022/10/30/635e1cfc65bd4.png&#34; alt=&#34;AdblockPlus&#34;  /&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371ac394f6db.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371ac394f6db.png&#34; alt=&#34;search&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;uBlacklist 浏览器插件&lt;/code&gt; 在搜索时屏蔽特定网站，做到对低质内容的过滤，我屏蔽了CSDN和百度知道&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;*://www.csdn.net/*
-*://bbs.csdn.net/*
-*://blog.csdn.net/*
-*://zhidao.baidu.com/*
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;
+&lt;/li&gt;
+&lt;li&gt;点击 &lt;code&gt;搜索引擎&lt;/code&gt;，并在之后点击 &lt;code&gt;管理搜索引擎和网站搜索&lt;/code&gt;
+
 &lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1cfba95d3.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2022/10/30/635e1cfba95d3.png&#34; alt=&#34;uBlacklist&#34;  /&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371ace7ade0d.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371ace7ade0d.png&#34; alt=&#34;search&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Chrome&lt;/code&gt; 浏览器还可以通过在地址栏中输入快捷字词，快速搜索特定网站，或使用其他搜索引擎，我通过设置它将知乎和B站作为搜索引擎使用。在我想寻找某条信息时，只需在地址栏输入关键字 &lt;code&gt;zh &lt;/code&gt; or &lt;code&gt;bi &lt;/code&gt; 即可搜索。&lt;/p&gt;
-&lt;p&gt;经过如下配置&lt;/p&gt;
-&lt;p&gt;
+&lt;/li&gt;
+&lt;li&gt;更改快捷键，或者新增新的快捷键
+
 &lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1cf9a6064.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2022/10/30/635e1cf9a6064.png&#34; alt=&#34;search1&#34;  /&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371af38b5c49.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371af38b5c49.png&#34; alt=&#34;1&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;/p&gt;
-&lt;p&gt;就可以通过在地址栏中输入快捷字词实现简便搜索啦&lt;/p&gt;
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371af5ca10f1.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371af5ca10f1.png&#34; alt=&#34;2&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371af6d813e6.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371af6d813e6.png&#34; alt=&#34;3&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;li&gt;在完成上述操作后，就可以通过在地址栏中输入快捷字词实现愉快的简便搜索啦🥳&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1cfa54e5d.png&#34;&gt;
@@ -24442,15 +24458,72 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;p&gt;在手机端，我是使用&lt;strong&gt;桌面小工具&lt;/strong&gt;来达到只使用APP搜索功能目的。&lt;/p&gt;
-&lt;p&gt;
+&lt;h2 id=&#34;chrome-浏览器插件&#34;&gt;Chrome 浏览器插件&lt;/h2&gt;
+&lt;p&gt;Chrome 浏览器简洁的界面深得我心，在安装一部分插件后，搜索体验更是极佳😍&lt;/p&gt;
+&lt;h3 id=&#34;广告屏蔽&#34;&gt;广告屏蔽&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;AdblockPlus&lt;/code&gt; 由用户手动设置拦截网页上不想看到的内容，我使用这个插件把一些网站我不想要看到的内容进行屏蔽，以获得更为简洁的体验&lt;br&gt;
+屏蔽前：
+
 &lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1cfb03d6b.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2022/10/30/635e1cfb03d6b.png&#34; alt=&#34;search3&#34;  /&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371b01858fd4.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371b01858fd4.png&#34; alt=&#34;1&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+屏蔽后：
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371b05a8a732.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371b05a8a732.png&#34; alt=&#34;2&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+小声BB：启动这个插件，在使用过程中，可能会碰到部分网页显示异常的情况，这个时候需要把该网页加入白名单来保证网页正常显示
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371b54d0642a.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371b54d0642a.png&#34; alt=&#34;3&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h3 id=&#34;搜索内容屏蔽&#34;&gt;搜索内容屏蔽&lt;/h3&gt;
+&lt;h4 id=&#34;ublacklist&#34;&gt;uBlacklist&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;uBlacklist&lt;/code&gt; 在搜索时屏蔽特定网站，做到对低质内容的过滤&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;点击 &lt;code&gt;选项&lt;/code&gt;
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371b3521b290.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371b3521b290.png&#34; alt=&#34;1&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;li&gt;在箭头所示部分增加过滤规则并保存
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371b35c32ad8.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371b35c32ad8.png&#34; alt=&#34;2&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+以下是我添加的一些过滤规则：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;*://www.csdn.net/*
+*://bbs.csdn.net/*
+*://blog.csdn.net/*
+*://zhidao.baidu.com/*
+*://www.cnblogs.com/*
+
+*://z.sogou.com/*
+*://wenku.baidu.com/*
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;2022-11-14 更新：不知道是为什么，最近一段时间这个插件失效了&lt;/p&gt;
+&lt;h4 id=&#34;personal-blocklist&#34;&gt;Personal Blocklist&lt;/h4&gt;
+&lt;p&gt;使用方法和 &lt;code&gt;uBlacklist&lt;/code&gt; 差不多，目前使用来看效果不错&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/349349861&#34;&gt;知道RSS的人越少，我就越希望它能被人知道！&lt;/a&gt;&lt;/li&gt;
@@ -24481,7 +24554,7 @@ docker rm CONTAINER_NAME # 删除容器
 <p>RSS的核心是<strong>资讯聚合</strong>，由<strong>用户自己决定信息源</strong>。我们可以通过订阅网站的RSS源，主动获得想要的资讯，去挖掘一些自己真正感兴趣的东西。</p>
 <h2 id="如何使用rss">如何使用RSS?</h2>
 <p>利用RSS获取信息，只需要在目标网站上找到RSS链接，并把它添加到RSS阅读器中。</p>
-<p>我使用的工具是<code>Inoreader RSS 阅读器 + RSSHub Radar 浏览器插件</code>。</p>
+<p>我使用的工具是<code>Inoreader RSS 阅读器 （需翻墙） + RSSHub Radar 浏览器插件</code>。</p>
 <p><code>Inoreader</code> 吸引我的点是它支持PC端和手机端的同步，并且PC端可以直接通过浏览器插件使用，使我在手机和电脑上都可以查看消息。</p>
 <p><code>RSSHub Radar</code> 的出现，完美解决了不是所有的网页都提供RSS源这一痛点，它可以自动生成网站的RSS源以供订阅，非常方便。</p>
 <p>
@@ -24492,17 +24565,17 @@ docker rm CONTAINER_NAME # 删除容器
 </div>
 
 </p>
-<p>我使用RSS主要用来订阅我感兴趣的个人博客，我订阅的博客网站在 <code>Links</code> 页面下的 <strong>博客</strong> 那一栏。</p>
+<p>我使用RSS主要用来订阅我感兴趣的个人博客，我订阅的博客网站在 <code>Links</code> 页面下的 <a href="https://xancoding.cn/links/#blogs">Blog</a> 那一栏。</p>
 <h1 id="播客">播客</h1>
 <ul>
 <li><code>小宇宙</code></li>
 </ul>
-<p>播客也是一个很好的信息源，可以在做一些不用🧠的事时听。我的使用场景通常是在吃饭或是上下课的路上。我使用的播客软件是<a href="https://www.xiaoyuzhoufm.com/">小宇宙</a>，体验不错。</p>
+<p>播客也是一个很好的信息源，可以在做一些不用🧠的事时听，适合用来拓宽自己的知识面，对一些自己之前完全没有接触过的领域做一个初步的了解，抑或是单纯用以放松也不错。我的使用场景通常是在吃饭或是上下课的路上。<br>
+我目前在使用的播客软件是<a href="https://www.xiaoyuzhoufm.com/">小宇宙</a>，体验不错。</p>
 <h1 id="书籍">书籍</h1>
 <ul>
 <li><code>Neat Reader &amp; Sumatra PDF &amp; Z-Library &amp; LoreFree &amp; 学校图书馆</code></li>
 </ul>
-<p><strong>读书，是治愈迷茫最好的良药。</strong></p>
 <p><code>Neat Reader</code> 是一款<code>EPUB</code>阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 <a href="https://zh.z-lib.org/">Z-Library</a> or <a href="https://lorefree.com/">LoreFree</a> 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 <a href="https://www.neat-reader.com/">Neat Reader</a> 阅读。</p>
 <p>
 <div class="post-img-view">
@@ -24513,45 +24586,61 @@ docker rm CONTAINER_NAME # 删除容器
 
 </p>
 <p>如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 <a href="https://www.sumatrapdfreader.org/free-pdf-reader">Sumatra PDF</a> 上阅读</p>
-<p>不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看。</p>
+<p>不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）</p>
 <h1 id="搜索引擎">搜索引擎</h1>
 <ul>
-<li><code>Google &amp; AdblockPlus &amp; uBlacklist</code></li>
+<li><code>Chrome（需翻墙） &amp; AdblockPlus &amp; uBlacklist | Personal Blocklist</code></li>
+<li><strong>在搜索引擎体验上， Google （强推，体验极佳） &gt; Bing （偶尔用用） &raquo; Baidu （完全不考虑）</strong></li>
 </ul>
-<p><code>Chrome</code> 浏览器提供的<code>Google 搜索</code>是我目前体验感最好的搜索引擎，<code>Microsoft Edge</code> 浏览器提供的 <code>Bing 搜索</code> 体验感也还不错。</p>
-<p><code>AdblockPlus 浏览器插件</code> 由用户主动设置拦截网页上不想看到的内容，下图是我对知乎页面的屏蔽后的结果，我使用这个插件把知乎和B站的推荐内容屏蔽，以获得更为简洁的体验</p>
-<p>
+<h2 id="chrome-浏览器设置">Chrome 浏览器设置</h2>
+<h3 id="快捷字词搜索">快捷字词搜索</h3>
+<p><code>Chrome</code> 浏览器可以通过在地址栏中输入快捷字词，实现在特定网站中搜索内容，或使用其他搜索引擎进行搜索</p>
+<ol>
+<li>在 Chrome 浏览器右上角找到 <code>设置</code>，
+
 <div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1cfc65bd4.png">
-<img src="https://bu.dusays.com/2022/10/30/635e1cfc65bd4.png" alt="AdblockPlus"  />
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371ac394f6db.png">
+<img src="https://bu.dusays.com/2022/11/14/6371ac394f6db.png" alt="search"  />
 </a>
 </div>
 
-</p>
-<p><code>uBlacklist 浏览器插件</code> 在搜索时屏蔽特定网站，做到对低质内容的过滤，我屏蔽了CSDN和百度知道</p>
-<pre tabindex="0"><code>*://www.csdn.net/*
-*://bbs.csdn.net/*
-*://blog.csdn.net/*
-*://zhidao.baidu.com/*
-</code></pre><p>
+</li>
+<li>点击 <code>搜索引擎</code>，并在之后点击 <code>管理搜索引擎和网站搜索</code>
+
 <div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1cfba95d3.png">
-<img src="https://bu.dusays.com/2022/10/30/635e1cfba95d3.png" alt="uBlacklist"  />
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371ace7ade0d.png">
+<img src="https://bu.dusays.com/2022/11/14/6371ace7ade0d.png" alt="search"  />
 </a>
 </div>
 
-</p>
-<p><code>Chrome</code> 浏览器还可以通过在地址栏中输入快捷字词，快速搜索特定网站，或使用其他搜索引擎，我通过设置它将知乎和B站作为搜索引擎使用。在我想寻找某条信息时，只需在地址栏输入关键字 <code>zh </code> or <code>bi </code> 即可搜索。</p>
-<p>经过如下配置</p>
-<p>
+</li>
+<li>更改快捷键，或者新增新的快捷键
+
 <div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1cf9a6064.png">
-<img src="https://bu.dusays.com/2022/10/30/635e1cf9a6064.png" alt="search1"  />
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371af38b5c49.png">
+<img src="https://bu.dusays.com/2022/11/14/6371af38b5c49.png" alt="1"  />
 </a>
 </div>
 
-</p>
-<p>就可以通过在地址栏中输入快捷字词实现简便搜索啦</p>
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371af5ca10f1.png">
+<img src="https://bu.dusays.com/2022/11/14/6371af5ca10f1.png" alt="2"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371af6d813e6.png">
+<img src="https://bu.dusays.com/2022/11/14/6371af6d813e6.png" alt="3"  />
+</a>
+</div>
+
+</li>
+<li>在完成上述操作后，就可以通过在地址栏中输入快捷字词实现愉快的简便搜索啦🥳</li>
+</ol>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1cfa54e5d.png">
@@ -24560,15 +24649,72 @@ docker rm CONTAINER_NAME # 删除容器
 </div>
 
 </p>
-<p>在手机端，我是使用<strong>桌面小工具</strong>来达到只使用APP搜索功能目的。</p>
-<p>
+<h2 id="chrome-浏览器插件">Chrome 浏览器插件</h2>
+<p>Chrome 浏览器简洁的界面深得我心，在安装一部分插件后，搜索体验更是极佳😍</p>
+<h3 id="广告屏蔽">广告屏蔽</h3>
+<p><code>AdblockPlus</code> 由用户手动设置拦截网页上不想看到的内容，我使用这个插件把一些网站我不想要看到的内容进行屏蔽，以获得更为简洁的体验<br>
+屏蔽前：
+
 <div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1cfb03d6b.png">
-<img src="https://bu.dusays.com/2022/10/30/635e1cfb03d6b.png" alt="search3"  />
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371b01858fd4.png">
+<img src="https://bu.dusays.com/2022/11/14/6371b01858fd4.png" alt="1"  />
+</a>
+</div>
+
+
+屏蔽后：
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371b05a8a732.png">
+<img src="https://bu.dusays.com/2022/11/14/6371b05a8a732.png" alt="2"  />
+</a>
+</div>
+
+
+小声BB：启动这个插件，在使用过程中，可能会碰到部分网页显示异常的情况，这个时候需要把该网页加入白名单来保证网页正常显示
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371b54d0642a.png">
+<img src="https://bu.dusays.com/2022/11/14/6371b54d0642a.png" alt="3"  />
 </a>
 </div>
 
 </p>
+<h3 id="搜索内容屏蔽">搜索内容屏蔽</h3>
+<h4 id="ublacklist">uBlacklist</h4>
+<p><code>uBlacklist</code> 在搜索时屏蔽特定网站，做到对低质内容的过滤</p>
+<ol>
+<li>点击 <code>选项</code>
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371b3521b290.png">
+<img src="https://bu.dusays.com/2022/11/14/6371b3521b290.png" alt="1"  />
+</a>
+</div>
+
+</li>
+<li>在箭头所示部分增加过滤规则并保存
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371b35c32ad8.png">
+<img src="https://bu.dusays.com/2022/11/14/6371b35c32ad8.png" alt="2"  />
+</a>
+</div>
+
+
+以下是我添加的一些过滤规则：</li>
+</ol>
+<pre tabindex="0"><code>*://www.csdn.net/*
+*://bbs.csdn.net/*
+*://blog.csdn.net/*
+*://zhidao.baidu.com/*
+*://www.cnblogs.com/*
+
+*://z.sogou.com/*
+*://wenku.baidu.com/*
+</code></pre><p>2022-11-14 更新：不知道是为什么，最近一段时间这个插件失效了</p>
+<h4 id="personal-blocklist">Personal Blocklist</h4>
+<p>使用方法和 <code>uBlacklist</code> 差不多，目前使用来看效果不错</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/349349861">知道RSS的人越少，我就越希望它能被人知道！</a></li>
