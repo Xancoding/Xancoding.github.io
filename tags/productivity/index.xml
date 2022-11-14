@@ -6,7 +6,103 @@
     <description>Recent content in Productivity on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 11 Nov 2022 20:39:13 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Nov 2022 15:56:45 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一些关于自学的感悟</title>
+      <link>https://xancoding.cn/posts/self-study/</link>
+      <pubDate>Mon, 14 Nov 2022 15:56:45 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/self-study/</guid>
+      <description>&lt;h1 id=&#34;正确的方法&#34;&gt;正确的方法&lt;/h1&gt;
+&lt;h2 id=&#34;学习媒介&#34;&gt;学习媒介&lt;/h2&gt;
+&lt;p&gt;学习的最佳媒介在我看来，还是以 &lt;strong&gt;文字&lt;/strong&gt; 为最佳&lt;/p&gt;
+&lt;p&gt;视频，会是很多人学习的途径，我也曾在很长的一段时间内通过视频来进行学习 ，但效率不高（PS：也许是我个人学习方法不佳的原因）&lt;/p&gt;
+&lt;p&gt;我认为视频这种媒介有以下的一些弊端：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;看视频难以进入深层次的思考&lt;/strong&gt;。观看视频的过程是被动的，在这个过程中，你需要跟上视频播放的节奏，这自然压缩了主动思考的可能。再而言之，看视频是一种相对容易的方式，因为你只需要借助记忆力（简单的复制到自己的脑子里），而比较少的运用其他的思维能力（深入的理解，将其变成自己的东西）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;看视频带来更低的时间效率&lt;/strong&gt;。同一段文字，读和看的速度不是一个层面的。而看视频，就相当于别人读给你听，时间效率自然是比不了阅读文字&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;视频带来更多的干扰因素&lt;/strong&gt;。在观看视频过程中，大脑需要同时处理图像信息、语言信息和文字信息，这无形中增加了大脑的负担。在这种情况下，你就根本不能指望自己的🧠可以进入深层次的思考&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;当然，具体情况还是要具体分析，有一些知识通过视频可以更为形象的表示出来，这也不可否认。我的核心观点是，学习的主要媒介应是以文字为主的。视频，作为补充的学习媒介还是可以的。&lt;/p&gt;
+&lt;h2 id=&#34;如何开始新知识的学习&#34;&gt;如何开始新知识的学习？&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;要&lt;strong&gt;带有目的&lt;/strong&gt;去学，&lt;strong&gt;带有问题&lt;/strong&gt;去学，而不能是盲目的去学&lt;/li&gt;
+&lt;li&gt;在开始一个新东西的学习时，先问问自己几个问题：我为什么要学它？我需要学到什么程度？—— 这直接决定了你后面要以什么样的态度去对待它&lt;/li&gt;
+&lt;li&gt;在学习一个新东西时，要&lt;strong&gt;先对其知识体系有个大致的了解&lt;/strong&gt;，先有了全面的认识之后，再对细枝末节做深入的了解。否则，很容易陷入找不到重点，不知道在学什么，不能很好的形成体系等等问题。当然，对细枝末节的了解，也是要有优先级之分的&lt;/li&gt;
+&lt;li&gt;在开始之前，准备工作是必不可少的。你需要&lt;strong&gt;尽可能的找到你所需要的所有资源&lt;/strong&gt;，可以从问答论坛、搜索引擎、好友推荐等等途径，主要是筛选学习过程中所要读的书籍，包括入门以及深入学习的书籍&lt;/li&gt;
+&lt;li&gt;同时，阅读书籍也不能采取从头看到尾的做法，而是根据自己的情况，做一些取舍。同时看多本书籍也是不错的选择，它们往往会给你带来不一样的启发&lt;/li&gt;
+&lt;li&gt;还要学会&lt;strong&gt;边读边做&lt;/strong&gt;，通过一些具体的项目带动学习。这在学习技术方面的知识时，尤其重要。毕竟，你学习它，为的是最后的应用&lt;/li&gt;
+&lt;li&gt;学习应该是阶梯式的，要懂得&lt;strong&gt;循序渐进&lt;/strong&gt;，不能一开始就是困难模式。这不仅会打击自己的自信心，也不利于后续的学习&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;如何知道自己是否掌握&#34;&gt;如何知道自己是否掌握？&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;你要先能在脑子里有个清楚的脉络，多多问自己问题，从 WHY 到 HOW，再到 WHY。发现自己卡壳的地方，要借助搜索引擎、书籍或是别的途径及时解决&lt;/li&gt;
+&lt;li&gt;写下来——知识点可能会很杂很乱，有时候做一个知识导图可以很好的帮助理解。过一段时间，当因为不怎么用到某一个知识点而忘得差不多时，你自己写的文字或者做的图，可以很好的帮助你回忆起来——前提是这是你经过思考的出的，而不只是复制粘贴——那将毫无用处。我是通过 &lt;strong&gt;Obsidian&lt;/strong&gt; 来记录自己的学习记录的。维护一个自己的博客，用来记录自己的学习过程，存放自己用来学习的资源，在我看来也是不错的&lt;/li&gt;
+&lt;li&gt;讲出来——你可以跟别人（也可以自己跟自己讲）将你最近学到的东西。通过语言的形式，用嘴讲出来（一定是用嘴讲，而不只是停留在脑子里想）。每当这个时候，你都会意识到自己以为掌握的东西，实际上并没有。多数时候，你会讲述的很混乱。但不必灰心，多尝试尝试，自然会理顺的。当你可以流利的讲出来时，自然就说明它已经成为了你自己的东西&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;良好的心态&#34;&gt;良好的心态&lt;/h1&gt;
+&lt;p&gt;在我看来，除了方法，人的情绪也同样不可忽略，甚至是更重要的部分&lt;/p&gt;
+&lt;p&gt;人在很大的程度上，还是以感性为主的。许多事，在你理性的大脑看来，是不可取的；但是，感性的大脑常常会占据上风&lt;/p&gt;
+&lt;p&gt;忽然想到，自己之前看到的一个言论，感觉还蛮有意思的——我们的身体并没有随着社会的进步做出及时的进化，我们相当于用着几千年之前的原始人的身体生活在如今现代化的社会里，这也给从众心理、懒惰、容易肥胖等等看似不合理的现象提供了一个解释&lt;/p&gt;
+&lt;p&gt;学习是个枯燥的过程，特别是未知而又困难的挑战，更容易让人退缩。这里就简单说说我个人的一些想法吧：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;排除所有不必要的干扰&lt;/strong&gt;，如减少手机的使用、减少查看消息的频率、不去浏览任何借助推荐算法生成的信息流等等。做到这几点，你就可以有 &lt;strong&gt;长时间&lt;/strong&gt; 的 &lt;strong&gt;连续&lt;/strong&gt; 的自我支配时间啦（不过，我还是觉得每天的时间不够）&lt;/li&gt;
+&lt;li&gt;当然，&lt;strong&gt;社交也是必须的&lt;/strong&gt;。我觉得，从更深的层面来看，是因为人是群居动物，长时间的独身一人不交流，至少对我来说，还是无法忍受的。每天抽出些许时间，跟身边的人聊聊天，说些有的没没的，也是必不可少的&lt;/li&gt;
+&lt;li&gt;摆正心态，&lt;strong&gt;从来都没有什么捷径&lt;/strong&gt;，要打好基础。我觉得这个我感触很大，回顾之前自己的学习，很大程度上都是不扎实的。你觉得省下来的时间，往往会在将来给你带来更大的损失&lt;/li&gt;
+&lt;li&gt;走的慢没关系，只要每天都在前进，那就够了&lt;/li&gt;
+&lt;li&gt;学会&lt;strong&gt;肯定自己&lt;/strong&gt;，你努力的每一分钟，都有它的意义。人总是会在对比中贬低自己，所有的不愉快都是在比较中得来的。要明白，你对自己的看法，会在无形中影响你自己成为什么样的人。无论怎么说，要积极的看自己&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;一些我自己的碎碎念&#34;&gt;一些我自己的碎碎念&lt;/h1&gt;
+&lt;p&gt;有很多事，光是脑子里想到，明白重要性，是远远不够的。只有真正，实际经历过，你才会有一个全新的认识&lt;/p&gt;
+&lt;p&gt;多跟别人交流，多接触新的东西。不同的思想的碰撞，往往会产生意想不到的妙处&lt;/p&gt;
+&lt;p&gt;写文章，并不是字多就是好，言简意赅更应该得到推崇，重要的是要表达出自己的想法，在此基础上，字数做到越少越好&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="正确的方法">正确的方法</h1>
+<h2 id="学习媒介">学习媒介</h2>
+<p>学习的最佳媒介在我看来，还是以 <strong>文字</strong> 为最佳</p>
+<p>视频，会是很多人学习的途径，我也曾在很长的一段时间内通过视频来进行学习 ，但效率不高（PS：也许是我个人学习方法不佳的原因）</p>
+<p>我认为视频这种媒介有以下的一些弊端：</p>
+<ol>
+<li><strong>看视频难以进入深层次的思考</strong>。观看视频的过程是被动的，在这个过程中，你需要跟上视频播放的节奏，这自然压缩了主动思考的可能。再而言之，看视频是一种相对容易的方式，因为你只需要借助记忆力（简单的复制到自己的脑子里），而比较少的运用其他的思维能力（深入的理解，将其变成自己的东西）</li>
+<li><strong>看视频带来更低的时间效率</strong>。同一段文字，读和看的速度不是一个层面的。而看视频，就相当于别人读给你听，时间效率自然是比不了阅读文字</li>
+<li><strong>视频带来更多的干扰因素</strong>。在观看视频过程中，大脑需要同时处理图像信息、语言信息和文字信息，这无形中增加了大脑的负担。在这种情况下，你就根本不能指望自己的🧠可以进入深层次的思考</li>
+</ol>
+<p>当然，具体情况还是要具体分析，有一些知识通过视频可以更为形象的表示出来，这也不可否认。我的核心观点是，学习的主要媒介应是以文字为主的。视频，作为补充的学习媒介还是可以的。</p>
+<h2 id="如何开始新知识的学习">如何开始新知识的学习？</h2>
+<ol>
+<li>要<strong>带有目的</strong>去学，<strong>带有问题</strong>去学，而不能是盲目的去学</li>
+<li>在开始一个新东西的学习时，先问问自己几个问题：我为什么要学它？我需要学到什么程度？—— 这直接决定了你后面要以什么样的态度去对待它</li>
+<li>在学习一个新东西时，要<strong>先对其知识体系有个大致的了解</strong>，先有了全面的认识之后，再对细枝末节做深入的了解。否则，很容易陷入找不到重点，不知道在学什么，不能很好的形成体系等等问题。当然，对细枝末节的了解，也是要有优先级之分的</li>
+<li>在开始之前，准备工作是必不可少的。你需要<strong>尽可能的找到你所需要的所有资源</strong>，可以从问答论坛、搜索引擎、好友推荐等等途径，主要是筛选学习过程中所要读的书籍，包括入门以及深入学习的书籍</li>
+<li>同时，阅读书籍也不能采取从头看到尾的做法，而是根据自己的情况，做一些取舍。同时看多本书籍也是不错的选择，它们往往会给你带来不一样的启发</li>
+<li>还要学会<strong>边读边做</strong>，通过一些具体的项目带动学习。这在学习技术方面的知识时，尤其重要。毕竟，你学习它，为的是最后的应用</li>
+<li>学习应该是阶梯式的，要懂得<strong>循序渐进</strong>，不能一开始就是困难模式。这不仅会打击自己的自信心，也不利于后续的学习</li>
+</ol>
+<h2 id="如何知道自己是否掌握">如何知道自己是否掌握？</h2>
+<ol>
+<li>你要先能在脑子里有个清楚的脉络，多多问自己问题，从 WHY 到 HOW，再到 WHY。发现自己卡壳的地方，要借助搜索引擎、书籍或是别的途径及时解决</li>
+<li>写下来——知识点可能会很杂很乱，有时候做一个知识导图可以很好的帮助理解。过一段时间，当因为不怎么用到某一个知识点而忘得差不多时，你自己写的文字或者做的图，可以很好的帮助你回忆起来——前提是这是你经过思考的出的，而不只是复制粘贴——那将毫无用处。我是通过 <strong>Obsidian</strong> 来记录自己的学习记录的。维护一个自己的博客，用来记录自己的学习过程，存放自己用来学习的资源，在我看来也是不错的</li>
+<li>讲出来——你可以跟别人（也可以自己跟自己讲）将你最近学到的东西。通过语言的形式，用嘴讲出来（一定是用嘴讲，而不只是停留在脑子里想）。每当这个时候，你都会意识到自己以为掌握的东西，实际上并没有。多数时候，你会讲述的很混乱。但不必灰心，多尝试尝试，自然会理顺的。当你可以流利的讲出来时，自然就说明它已经成为了你自己的东西</li>
+</ol>
+<h1 id="良好的心态">良好的心态</h1>
+<p>在我看来，除了方法，人的情绪也同样不可忽略，甚至是更重要的部分</p>
+<p>人在很大的程度上，还是以感性为主的。许多事，在你理性的大脑看来，是不可取的；但是，感性的大脑常常会占据上风</p>
+<p>忽然想到，自己之前看到的一个言论，感觉还蛮有意思的——我们的身体并没有随着社会的进步做出及时的进化，我们相当于用着几千年之前的原始人的身体生活在如今现代化的社会里，这也给从众心理、懒惰、容易肥胖等等看似不合理的现象提供了一个解释</p>
+<p>学习是个枯燥的过程，特别是未知而又困难的挑战，更容易让人退缩。这里就简单说说我个人的一些想法吧：</p>
+<ol>
+<li><strong>排除所有不必要的干扰</strong>，如减少手机的使用、减少查看消息的频率、不去浏览任何借助推荐算法生成的信息流等等。做到这几点，你就可以有 <strong>长时间</strong> 的 <strong>连续</strong> 的自我支配时间啦（不过，我还是觉得每天的时间不够）</li>
+<li>当然，<strong>社交也是必须的</strong>。我觉得，从更深的层面来看，是因为人是群居动物，长时间的独身一人不交流，至少对我来说，还是无法忍受的。每天抽出些许时间，跟身边的人聊聊天，说些有的没没的，也是必不可少的</li>
+<li>摆正心态，<strong>从来都没有什么捷径</strong>，要打好基础。我觉得这个我感触很大，回顾之前自己的学习，很大程度上都是不扎实的。你觉得省下来的时间，往往会在将来给你带来更大的损失</li>
+<li>走的慢没关系，只要每天都在前进，那就够了</li>
+<li>学会<strong>肯定自己</strong>，你努力的每一分钟，都有它的意义。人总是会在对比中贬低自己，所有的不愉快都是在比较中得来的。要明白，你对自己的看法，会在无形中影响你自己成为什么样的人。无论怎么说，要积极的看自己</li>
+</ol>
+<h1 id="一些我自己的碎碎念">一些我自己的碎碎念</h1>
+<p>有很多事，光是脑子里想到，明白重要性，是远远不够的。只有真正，实际经历过，你才会有一个全新的认识</p>
+<p>多跟别人交流，多接触新的东西。不同的思想的碰撞，往往会产生意想不到的妙处</p>
+<p>写文章，并不是字多就是好，言简意赅更应该得到推崇，重要的是要表达出自己的想法，在此基础上，字数做到越少越好</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Vimium学习记</title>
       <link>https://xancoding.cn/posts/vimium/</link>
@@ -153,10 +249,10 @@
     
     <item>
       <title>正则表达式学习记</title>
-      <link>https://xancoding.cn/posts/regularexpression/</link>
+      <link>https://xancoding.cn/posts/regular-expression/</link>
       <pubDate>Mon, 17 Oct 2022 12:55:47 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/regularexpression/</guid>
+      <guid>https://xancoding.cn/posts/regular-expression/</guid>
       <description>&lt;h1 id=&#34;正则表达式是什么&#34;&gt;正则表达式是什么？&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;正则表达式，又称规则表达式，通常被用来检索、替换那些符合某个规则的文本&lt;/strong&gt;&lt;/p&gt;
@@ -2149,10 +2245,10 @@
     
     <item>
       <title>双拼学习记</title>
-      <link>https://xancoding.cn/posts/doublespell/</link>
+      <link>https://xancoding.cn/posts/double-sepll/</link>
       <pubDate>Fri, 14 Oct 2022 17:02:41 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/doublespell/</guid>
+      <guid>https://xancoding.cn/posts/double-sepll/</guid>
       <description>&lt;h1 id=&#34;双拼学习记&#34;&gt;双拼学习记&lt;/h1&gt;
 &lt;p&gt;前段时间了解了双拼输入法，只是一直没有时间去学。这段时间事情慢慢少点了，准备着手开始学习。双拼只需要按键两次便可以输入一个汉字，我感觉这样的设计更为合理，要是熟练掌握，会很有节奏感，打字速度也可以得到提升。&lt;/p&gt;
 &lt;p&gt;更换一个新的输入法，刚开始时肯定会很别扭。使用双拼进行输入，需要对要打的字的音形熟悉，不然是打不出来的。刚好重新学习一下拼音，纠正纠正我自己一些错误的发音认知。&lt;/p&gt;
@@ -2168,10 +2264,6 @@
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://flypy.com/&#34;&gt;小鹤双拼&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://help.flypy.com/#/xh&#34;&gt;小鹤入门&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://geekplux.com/posts/learn_shuangpin&#34;&gt;双拼学习记&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV16J411G7YT?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;双拼这点东西，up居然讲了十分钟——十分钟了解双拼到底是啥&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2191,10 +2283,6 @@
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://flypy.com/">小鹤双拼</a></li>
-<li><a href="https://help.flypy.com/#/xh">小鹤入门</a></li>
-</ul>
-<hr>
-<ul>
 <li><a href="https://geekplux.com/posts/learn_shuangpin">双拼学习记</a></li>
 <li><a href="https://www.bilibili.com/video/BV16J411G7YT?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">双拼这点东西，up居然讲了十分钟——十分钟了解双拼到底是啥</a></li>
 </ul>
@@ -2203,10 +2291,10 @@
     
     <item>
       <title>我管理时间的方法</title>
-      <link>https://xancoding.cn/posts/timemanagement/</link>
+      <link>https://xancoding.cn/posts/time-management/</link>
       <pubDate>Fri, 14 Oct 2022 16:07:09 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/timemanagement/</guid>
+      <guid>https://xancoding.cn/posts/time-management/</guid>
       <description>&lt;h1 id=&#34;安排好你的待办清单&#34;&gt;安排好你的待办清单&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;思考以下几点：&lt;/p&gt;
@@ -2733,10 +2821,10 @@
     
     <item>
       <title>我获取信息的方式</title>
-      <link>https://xancoding.cn/posts/getinfo/</link>
+      <link>https://xancoding.cn/posts/get-info/</link>
       <pubDate>Wed, 12 Oct 2022 22:42:04 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/getinfo/</guid>
+      <guid>https://xancoding.cn/posts/get-info/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;这个时代不缺信息，因为信息太多了，缺的是时间&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子&lt;/strong&gt;&lt;/p&gt;

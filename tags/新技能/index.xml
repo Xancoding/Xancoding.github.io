@@ -2001,10 +2001,10 @@ Internet Control Message Protocol
     
     <item>
       <title>AcWing Web 应用课</title>
-      <link>https://xancoding.cn/posts/acwweb/</link>
+      <link>https://xancoding.cn/posts/acw-web/</link>
       <pubDate>Wed, 02 Nov 2022 15:49:03 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/acwweb/</guid>
+      <guid>https://xancoding.cn/posts/acw-web/</guid>
       <description>&lt;h1 id=&#34;acwing-web-应用课&#34;&gt;AcWing Web 应用课&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_web/&#34;&gt;AcWing Web 应用课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
@@ -5963,10 +5963,10 @@ export {
     
     <item>
       <title>AcWing Django 框架课</title>
-      <link>https://xancoding.cn/posts/acwdjango/</link>
+      <link>https://xancoding.cn/posts/acw-django/</link>
       <pubDate>Sat, 29 Oct 2022 18:23:59 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/acwdjango/</guid>
+      <guid>https://xancoding.cn/posts/acw-django/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_django/&#34;&gt;AcWing Django 框架课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/72/&#34;&gt;AcWing Django 框架课&lt;/a&gt;&lt;/li&gt;
@@ -13781,10 +13781,10 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
     
     <item>
       <title>正则表达式学习记</title>
-      <link>https://xancoding.cn/posts/regularexpression/</link>
+      <link>https://xancoding.cn/posts/regular-expression/</link>
       <pubDate>Mon, 17 Oct 2022 12:55:47 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/regularexpression/</guid>
+      <guid>https://xancoding.cn/posts/regular-expression/</guid>
       <description>&lt;h1 id=&#34;正则表达式是什么&#34;&gt;正则表达式是什么？&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;正则表达式，又称规则表达式，通常被用来检索、替换那些符合某个规则的文本&lt;/strong&gt;&lt;/p&gt;
@@ -15777,10 +15777,10 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
     
     <item>
       <title>AcWing Linux 基础课</title>
-      <link>https://xancoding.cn/posts/acwlinux/</link>
+      <link>https://xancoding.cn/posts/acw-linux/</link>
       <pubDate>Sun, 16 Oct 2022 14:23:58 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/acwlinux/</guid>
+      <guid>https://xancoding.cn/posts/acw-linux/</guid>
       <description>&lt;h1 id=&#34;acwing-linux-基础课&#34;&gt;AcWing Linux 基础课&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_linux/&#34;&gt;AcWing Linux 基础课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
@@ -18191,10 +18191,10 @@ docker rm CONTAINER_NAME # 删除容器
     
     <item>
       <title>双拼学习记</title>
-      <link>https://xancoding.cn/posts/doublespell/</link>
+      <link>https://xancoding.cn/posts/double-sepll/</link>
       <pubDate>Fri, 14 Oct 2022 17:02:41 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/doublespell/</guid>
+      <guid>https://xancoding.cn/posts/double-sepll/</guid>
       <description>&lt;h1 id=&#34;双拼学习记&#34;&gt;双拼学习记&lt;/h1&gt;
 &lt;p&gt;前段时间了解了双拼输入法，只是一直没有时间去学。这段时间事情慢慢少点了，准备着手开始学习。双拼只需要按键两次便可以输入一个汉字，我感觉这样的设计更为合理，要是熟练掌握，会很有节奏感，打字速度也可以得到提升。&lt;/p&gt;
 &lt;p&gt;更换一个新的输入法，刚开始时肯定会很别扭。使用双拼进行输入，需要对要打的字的音形熟悉，不然是打不出来的。刚好重新学习一下拼音，纠正纠正我自己一些错误的发音认知。&lt;/p&gt;
@@ -18210,10 +18210,6 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://flypy.com/&#34;&gt;小鹤双拼&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://help.flypy.com/#/xh&#34;&gt;小鹤入门&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://geekplux.com/posts/learn_shuangpin&#34;&gt;双拼学习记&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV16J411G7YT?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;双拼这点东西，up居然讲了十分钟——十分钟了解双拼到底是啥&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -18233,10 +18229,6 @@ docker rm CONTAINER_NAME # 删除容器
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://flypy.com/">小鹤双拼</a></li>
-<li><a href="https://help.flypy.com/#/xh">小鹤入门</a></li>
-</ul>
-<hr>
-<ul>
 <li><a href="https://geekplux.com/posts/learn_shuangpin">双拼学习记</a></li>
 <li><a href="https://www.bilibili.com/video/BV16J411G7YT?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">双拼这点东西，up居然讲了十分钟——十分钟了解双拼到底是啥</a></li>
 </ul>

@@ -2145,10 +2145,10 @@ Internet Control Message Protocol
     
     <item>
       <title>如何为你的文章配图？</title>
-      <link>https://xancoding.cn/posts/blogdrawing/</link>
+      <link>https://xancoding.cn/posts/blog-drawing/</link>
       <pubDate>Mon, 31 Oct 2022 18:01:02 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/blogdrawing/</guid>
+      <guid>https://xancoding.cn/posts/blog-drawing/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;画图的工具并不重要，重要的其实是你应该如何形成自己的规则体系，想要为博客配图并不是一件困难的事情，比较困难的是长期坚持并且经常思考，对自己形成的规则不断改善，最终就一定能够做好。&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2217,10 +2217,10 @@ Internet Control Message Protocol
     
     <item>
       <title>构建你的数字花园</title>
-      <link>https://xancoding.cn/posts/digitalgarden/</link>
+      <link>https://xancoding.cn/posts/digital-garden/</link>
       <pubDate>Sun, 30 Oct 2022 15:28:22 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/digitalgarden/</guid>
+      <guid>https://xancoding.cn/posts/digital-garden/</guid>
       <description>&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; 
@@ -2271,10 +2271,10 @@ Internet Control Message Protocol
     
     <item>
       <title>正则表达式学习记</title>
-      <link>https://xancoding.cn/posts/regularexpression/</link>
+      <link>https://xancoding.cn/posts/regular-expression/</link>
       <pubDate>Mon, 17 Oct 2022 12:55:47 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/regularexpression/</guid>
+      <guid>https://xancoding.cn/posts/regular-expression/</guid>
       <description>&lt;h1 id=&#34;正则表达式是什么&#34;&gt;正则表达式是什么？&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;正则表达式，又称规则表达式，通常被用来检索、替换那些符合某个规则的文本&lt;/strong&gt;&lt;/p&gt;
@@ -4267,10 +4267,10 @@ Internet Control Message Protocol
     
     <item>
       <title>双拼学习记</title>
-      <link>https://xancoding.cn/posts/doublespell/</link>
+      <link>https://xancoding.cn/posts/double-sepll/</link>
       <pubDate>Fri, 14 Oct 2022 17:02:41 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/doublespell/</guid>
+      <guid>https://xancoding.cn/posts/double-sepll/</guid>
       <description>&lt;h1 id=&#34;双拼学习记&#34;&gt;双拼学习记&lt;/h1&gt;
 &lt;p&gt;前段时间了解了双拼输入法，只是一直没有时间去学。这段时间事情慢慢少点了，准备着手开始学习。双拼只需要按键两次便可以输入一个汉字，我感觉这样的设计更为合理，要是熟练掌握，会很有节奏感，打字速度也可以得到提升。&lt;/p&gt;
 &lt;p&gt;更换一个新的输入法，刚开始时肯定会很别扭。使用双拼进行输入，需要对要打的字的音形熟悉，不然是打不出来的。刚好重新学习一下拼音，纠正纠正我自己一些错误的发音认知。&lt;/p&gt;
@@ -4286,10 +4286,6 @@ Internet Control Message Protocol
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://flypy.com/&#34;&gt;小鹤双拼&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://help.flypy.com/#/xh&#34;&gt;小鹤入门&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://geekplux.com/posts/learn_shuangpin&#34;&gt;双拼学习记&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV16J411G7YT?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;双拼这点东西，up居然讲了十分钟——十分钟了解双拼到底是啥&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -4309,10 +4305,6 @@ Internet Control Message Protocol
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://flypy.com/">小鹤双拼</a></li>
-<li><a href="https://help.flypy.com/#/xh">小鹤入门</a></li>
-</ul>
-<hr>
-<ul>
 <li><a href="https://geekplux.com/posts/learn_shuangpin">双拼学习记</a></li>
 <li><a href="https://www.bilibili.com/video/BV16J411G7YT?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">双拼这点东西，up居然讲了十分钟——十分钟了解双拼到底是啥</a></li>
 </ul>
@@ -4321,10 +4313,10 @@ Internet Control Message Protocol
     
     <item>
       <title>我获取信息的方式</title>
-      <link>https://xancoding.cn/posts/getinfo/</link>
+      <link>https://xancoding.cn/posts/get-info/</link>
       <pubDate>Wed, 12 Oct 2022 22:42:04 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/getinfo/</guid>
+      <guid>https://xancoding.cn/posts/get-info/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;这个时代不缺信息，因为信息太多了，缺的是时间&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子&lt;/strong&gt;&lt;/p&gt;
