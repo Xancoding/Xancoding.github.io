@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>计算机系统基础 on Xan&#39;s Blog</title>
+    <link>https://xancoding.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/</link>
+    <description>Recent content in 计算机系统基础 on Xan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 15 Nov 2022 21:37:17 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>计算机系统基础</title>
+      <link>https://xancoding.cn/posts/computer-system-fundamentals/</link>
+      <pubDate>Tue, 15 Nov 2022 21:37:17 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/computer-system-fundamentals/</guid>
+      <description>&lt;h1 id=&#34;计算机系统基础一程序的表示转换与链接&#34;&gt;计算机系统基础(一)——程序的表示、转换与链接&lt;/h1&gt;
+&lt;h2 id=&#34;原码移码补码&#34;&gt;原码&amp;amp;移码&amp;amp;补码&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;原码
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;最高位放符号位，1 表示负&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;定点小数，用来表示浮点数的尾数&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;移码
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;真值加上一个偏置值 bias&lt;/u&gt;，$bias$ 常为 2&lt;sup&gt;n - 1&lt;/sup&gt; $or$ 2&lt;sup&gt;n - 1&lt;/sup&gt; - 1 (如 $IEEE 754$)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;定点整数，用来表示浮点数的阶&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;移码的本意是为了方便两个数作比较&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;补码
+&lt;ul&gt;
+&lt;li&gt;假设补码有 $n$ 位，则：&lt;strong&gt;x&lt;sub&gt;补&lt;/sub&gt; = 2&lt;sup&gt;n&lt;/sup&gt; + x&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;数值为正数时，其值大小就是原码；为负时，其值的大小就是各位取反再加 1&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;补码表示带符号整数&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;补码的出现是为了解决计算机的减法运算问题&lt;/li&gt;
+&lt;li&gt;求补码的真值——简便求法
+&lt;ul&gt;
+&lt;li&gt;符号为 0 ，则为正数，数值部分相同&lt;/li&gt;
+&lt;li&gt;符号为 1，则为负数，数值各位取反，末位加 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;各位取反，末位加 1 简便做法：从后往前看，找到第一个 1 ，将它前面的所有位取反&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;浮点数ieee754标准&#34;&gt;浮点数——$IEEE754$标准&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;数符 + 阶码 + 尾数&lt;/u&gt;
+&lt;ul&gt;
+&lt;li&gt;Float $1 + 8 + 23$
+&lt;ul&gt;
+&lt;li&gt;$SP$：$(-1)$&lt;sup&gt;s&lt;/sup&gt;  $&lt;em&gt;$ $(1 + Significand)$ $&lt;/em&gt;$ $2$&lt;sup&gt;(Exponent  - 127)&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Double $1 + 11 + 52$
+&lt;ul&gt;
+&lt;li&gt;$DP$：$(-1)$&lt;sup&gt;s&lt;/sup&gt;  $&lt;em&gt;$ $(1 + Significand)$ $&lt;/em&gt;$ $2$&lt;sup&gt;(Exponent  - 1023)&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;数符 $Sign bit$
+&lt;ul&gt;
+&lt;li&gt;1 表示负数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;阶码 $Exponent$
+&lt;ul&gt;
+&lt;li&gt;规格化阶码范围为 $0000 0001(-126) —— 1111 1110(127)$ $(single)$&lt;/li&gt;
+&lt;li&gt;$bias$ 为 $127(single)$ $1023(double)$&lt;/li&gt;
+&lt;li&gt;规格化阶范围为 $1——254$$(single)$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;全 $0$ 和全 $1$ 用来表示特殊值&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;为避免混淆，用&lt;u&gt;阶码表示阶的编码&lt;/u&gt;，用&lt;u&gt;阶或指数表示阶码的值&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;尾数 $Significand$
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;规格化尾数最高位总是 $1$，所以隐含表示，省 $1$ 位，小数点前总是 $1$&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;特殊数的表示$(single)$
+&lt;ul&gt;
+&lt;li&gt;$0$
+&lt;ul&gt;
+&lt;li&gt;$阶码：all$ $zeros$&lt;/li&gt;
+&lt;li&gt;$尾数：all$ $zeros$&lt;/li&gt;
+&lt;li&gt;$+0：0$ $00000000$ $00000000000000000000000$&lt;/li&gt;
+&lt;li&gt;$-0：1$ $00000000$ $00000000000000000000000$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$∞$
+&lt;ul&gt;
+&lt;li&gt;$阶码：all$ $ones$&lt;/li&gt;
+&lt;li&gt;$尾数：all$ $zeros$&lt;/li&gt;
+&lt;li&gt;$+∞：0$ $11111111$ $00000000000000000000000$&lt;/li&gt;
+&lt;li&gt;$-∞：1$ $11111111$ $00000000000000000000000$&lt;/li&gt;
+&lt;li&gt;浮点数除以 $0$ 的结果是 $∞$，而不是溢出异常(整数除以 $0$ 为异常)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;$NaN$  ($Not$ $a$ $Number$)
+&lt;ul&gt;
+&lt;li&gt;$阶码：all$ $ones$&lt;/li&gt;
+&lt;li&gt;$尾数：nonzeros$&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;可帮助调试程序&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;非规格化数 $Denorms$&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;$阶码：all$ $zeros$&lt;/li&gt;
+&lt;li&gt;$尾数：nonzeros$&lt;/li&gt;
+&lt;li&gt;用于表示 $0$ 与规格化数间的$Gap$&lt;/li&gt;
+&lt;li&gt;$SP$：$(-1)$&lt;sup&gt;s&lt;/sup&gt;  $&lt;em&gt;$ $(0.xxxx&amp;hellip;xxx)$ $&lt;/em&gt;$ $2$&lt;sup&gt;-126&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;为了让非规格化单精度浮点数能够平缓过渡到规格化单精度浮点数，所以取 $2$&lt;sup&gt;-126&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;当输入数据为不可表示数时，机器将其转换为最邻近的可表示数&lt;/u&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;汉字内码ascii码&#34;&gt;汉字内码&amp;amp;ASCII码&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;ASCII码为 7 位编码&lt;/u&gt;&lt;/li&gt;
+&lt;li&gt;Ex：汉字 &amp;ldquo;$大$&amp;rdquo; 在码表中位于第 $20$ 行、第 $83$ 列。因此&lt;u&gt;区位码&lt;/u&gt;为 $0010100$ $1010011$，在区、位码上各加 $32$ 得到两个字节编码（&lt;u&gt;GB2312国标码&lt;/u&gt;），即 $00110100$ $01110011B$ $=$ $3473H$。前面的 $34 H$ 和 字符 $4$ 的 $ACSII$ 的最高位相同，后面的 $73H$ 和字符 $s$ 的 $ACSII$ 码相同。但是，将每个字节的最高位各设为 $1$ 后，就得到其&lt;u&gt;内码&lt;/u&gt;： $B4F3H$ ($0110100$ $11110011B$)，因而不会和 $ASCII$ 码混淆&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;逻辑电路&#34;&gt;逻辑电路&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;异或：$n$ 个数做异或运算，若有奇数个 $1$ ，则输出 $1$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1gx411n7aG/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;计算机系统基础(一)——程序的表示、转换与链接&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Xx411E7qn/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;计算机系统基础(二)——异常、中断和输入/输出&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1jE411874k/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;计算机系统基础(三)——程序的执行和存储访问&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;以 &lt;code&gt;IA-32 + Linux + C + gcc&lt;/code&gt; 为平台&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1iW411d7hd?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【精校中英字幕】2015 CMU 15-213 CSAPP 深入理解计算机系统&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://book.douban.com/subject/26912767/&#34;&gt;《深入理解计算机系统（原书第3版）》CSAPP&lt;/a&gt;&lt;/strong&gt;
+&lt;!DOCTYPE HTML&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;style&gt;
+        .post-preview {
+            max-width: 780px;
+            height: 200px;
+            margin: 1em auto;
+            position: relative;
+            display: flex;
+             
+            background: var(--entry);
+            border-radius: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .25), 0 0 2px rgba(0, 0, 0, .25);
+        }
+
+        .dark .post-preview {
+             
+            background: var(--entry);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .5), 0 0 2px rgba(0, 0, 0, .5);
+        }
+
+        .post-preview--meta {
+            width: 80%;
+            padding: 23px;
+            overflow: hidden;
+        }
+
+        .post-preview--middle {
+            line-height: 28px;
+        }
+
+        .post-preview--title {
+            font-size: 22px;
+            margin: 0 !important;
+        }
+
+        .post-preview--title a {
+            text-decoration: none;
+        }
+
+        .post-preview--date {
+            font-size: 14px;
+            color: #999;
+        }
+
+        .post-preview--excerpt {
+            font-size: 14px;
+            line-height: 1.825;
+        }
+
+        .post-preview--excerpt p {
+            display: inline;
+            margin: 0;
+        }
+
+        .post-preview--image {
+            height: 200px !important;
+            width: 25%;
+            float: right;
+            border-radius: 0 15px 15px 0;
+        }
+
+        .post-preview img {
+            margin: unset;
+            width: 20%;
+            border-radius: 0 15px 15px 0;
+        }
+
+        @media (max-width: 550px) {
+            .post-preview {
+                width: 95%;
+            }
+
+            .post-preview--excerpt {
+                display: none;
+            }
+
+            .post-preview--middle {
+                line-height: 19px;
+            }
+        }
+
+        .rating {
+            display: block;
+            line-height: 15px;
+        }
+
+        .rating-star {
+            display: inline-block;
+            width: 75px;
+            height: 15px;
+            background-repeat: no-repeat;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
+            overflow: hidden;
+        }
+
+        .allstar10 {
+            background-position: 0px 0px;
+        }
+
+        .allstar9 {
+            background-position: 0px -15px;
+        }
+
+        .allstar8 {
+            background-position: 0px -30px;
+        }
+
+        .allstar7 {
+            background-position: 0px -45px;
+        }
+
+        .allstar6 {
+            background-position: 0px -60px;
+        }
+
+        .allstar5 {
+            background-position: 0px -75px;
+        }
+
+        .allstar4 {
+            background-position: 0px -90px;
+        }
+
+        .allstar3 {
+            background-position: 0px -105px;
+        }
+
+        .allstar2 {
+            background-position: 0px -120px;
+        }
+
+        .allstar1 {
+            background-position: 0px -135px;
+        }
+
+        .allstar0 {
+            background-position: 0px -150px;
+        }
+
+
+        .rating-average {
+            color: #777;
+            display: inline-block;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+    &lt;/style&gt;
+    &lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34;
+            integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+    &lt;script type=&#34;text/javascript&#34;&gt;
+        $(document).ready(function () {
+            $(&#39;.douban_item&#39;).each(function () {
+                var _this = $(this);
+                var strs = _this.attr(&#39;urlstring&#39;).toString();
+                var db_reg = /^https\:\/\/(movie|book)\.douban\.com\/subject\/([0-9]+)\/?/;
+                if (db_reg.test(strs)) {
+                    var db_type = strs.replace(db_reg, &#34;$1&#34;);
+                    var db_id = strs.replace(db_reg, &#34;$2&#34;).toString();
+                    var db_api = &#34;https://douban.edui.fun/&#34;;
+                    if (db_type === &#39;movie&#39;) {
+                        var ls_item = &#39;movie&#39; + db_id;
+                        var url = db_api + &#34;movies/&#34; + db_id;
+                        if (localStorage.getItem(ls_item) == null || localStorage.getItem(ls_item) === &#39;undefined&#39;) {
+                            $.ajax({
+                                url: url, type: &#39;GET&#39;, dataType: &#34;json&#34;, success: function (data) {
+                                    localStorage.setItem(ls_item, JSON.stringify(data));
+                                    movieShow(_this, ls_item, strs)
+                                }
+                            })
+                        } else {
+                            movieShow(_this, ls_item, strs)
+                        }
+                    } else if (db_type === &#39;book&#39;) {
+                        var ls_item = &#39;book&#39; + db_id;
+                        var url = db_api + &#34;v2/book/id/&#34; + db_id;
+                        if (localStorage.getItem(ls_item) == null || localStorage.getItem(ls_item) === &#39;undefined&#39;) {
+                            $.ajax({
+                                url: url, type: &#39;GET&#39;, dataType: &#39;json&#39;, success: function (data) {
+                                    localStorage.setItem(&#39;book&#39; + db_id, JSON.stringify(data));
+                                    bookShow(_this, ls_item, strs)
+                                }
+                            })
+                        } else {
+                            bookShow(_this, ls_item, strs)
+                        }
+                    }
+                }
+            });
+        });
+
+        function movieShow(_this, ls_item, str) {
+            var storage = localStorage.getItem(ls_item);
+            var data = JSON.parse(storage);
+            var db_star = Math.ceil(data.rating);
+            $(&#34;&lt;div class=&#39;post-preview&#39;&gt;&lt;div class=&#39;post-preview--meta&#39;&gt;&lt;div class=&#39;post-preview--middle&#39;&gt;&lt;div class=&#39;post-preview--title&#39;&gt;&lt;a target=&#39;_blank&#39; style=&#39;box-shadow: none; font-weight: bolder;&#39; href=&#39;&#34; + str + &#34;&#39;&gt;&#34; + data.name + &#34;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#39;rating&#39;&gt;&lt;div class=&#39;rating-star allstar&#34; + db_star + &#34;&#39;&gt;&lt;/div&gt;&lt;div class=&#39;rating-average&#39;&gt;&#34; + data.rating + &#34;&lt;/div&gt;&lt;/div&gt;&lt;time class=&#39;post-preview--date&#39;&gt;导演：&#34; + data.director + &#34; / 类型：&#34; + data.genre + &#34; / &#34; + data.year + &#34;&lt;/time&gt;&lt;section style=&#39;max-height:75px;overflow:hidden;&#39; class=&#39;post-preview--excerpt&#39;&gt;&#34; + data.intro.replace(/\s*/g, &#34;&#34;) + &#34;&lt;/section&gt;&lt;/div&gt;&lt;/div&gt;&lt;img referrerpolicy=&#39;no-referrer&#39; loading=&#39;lazy&#39; class=&#39;post-preview--image&#39; src=&#34; + data.img + &#34;&gt;&lt;/div&gt;&#34;).replaceAll(_this)
+        }
+
+        function bookShow(_this, ls_item, str) {
+            var storage = localStorage.getItem(ls_item);
+            var data = JSON.parse(storage);
+            var db_star = Math.ceil(data.rating.average);
+            $(&#34;&lt;div class=&#39;post-preview&#39;&gt;&lt;div class=&#39;post-preview--meta&#39;&gt;&lt;div class=&#39;post-preview--middle&#39;&gt;&lt;div class=&#39;post-preview--title&#39;&gt;&lt;a target=&#39;_blank&#39; style=&#39;box-shadow: none; font-weight: bolder;&#39; href=&#39;&#34; + str + &#34;&#39;&gt;&#34; + data.title + &#34;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#39;rating&#39;&gt;&lt;div class=&#39;rating-star allstar&#34; + db_star + &#34;&#39;&gt;&lt;/div&gt;&lt;div class=&#39;rating-average&#39;&gt;&#34; + data.rating.average + &#34;&lt;/div&gt;&lt;/div&gt;&lt;time class=&#39;post-preview--date&#39;&gt;&#34; + data.author + &#34; / &#34;+ data.publisher +&#34; / &#34;+ data.pubdate +&#34; &lt;/time&gt;&lt;section style=&#39;max-height:75px;overflow:hidden;&#39; class=&#39;post-preview--excerpt&#39;&gt;&#34; + data.summary.replace(/\s*/g, &#34;&#34;) + &#34;&lt;/section&gt;&lt;/div&gt;&lt;/div&gt;&lt;img referrerpolicy=&#39;no-referrer&#39; loading=&#39;lazy&#39; class=&#39;post-preview--image&#39; src=&#34; + data.images.medium + &#34;&gt;&lt;/div&gt;&#34;).replaceAll(_this)
+        }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;douban_show&#34;&gt;
+    &lt;div id=&#34;dbhttps://book.douban.com/subject/26912767/&#34; urlstring=&#34;https://book.douban.com/subject/26912767/&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="计算机系统基础一程序的表示转换与链接">计算机系统基础(一)——程序的表示、转换与链接</h1>
+<h2 id="原码移码补码">原码&amp;移码&amp;补码</h2>
+<ol>
+<li>原码
+<ul>
+<li><u>最高位放符号位，1 表示负</u></li>
+<li><code>定点小数，用来表示浮点数的尾数</code></li>
+</ul>
+</li>
+<li>移码
+<ul>
+<li><u>真值加上一个偏置值 bias</u>，$bias$ 常为 2<sup>n - 1</sup> $or$ 2<sup>n - 1</sup> - 1 (如 $IEEE 754$)</li>
+<li><code>定点整数，用来表示浮点数的阶</code></li>
+<li>移码的本意是为了方便两个数作比较</li>
+</ul>
+</li>
+<li>补码
+<ul>
+<li>假设补码有 $n$ 位，则：<strong>x<sub>补</sub> = 2<sup>n</sup> + x</strong></li>
+<li><u>数值为正数时，其值大小就是原码；为负时，其值的大小就是各位取反再加 1</u></li>
+<li><code>补码表示带符号整数</code></li>
+<li>补码的出现是为了解决计算机的减法运算问题</li>
+<li>求补码的真值——简便求法
+<ul>
+<li>符号为 0 ，则为正数，数值部分相同</li>
+<li>符号为 1，则为负数，数值各位取反，末位加 1</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li><u>各位取反，末位加 1 简便做法：从后往前看，找到第一个 1 ，将它前面的所有位取反</u></li>
+</ul>
+<h2 id="浮点数ieee754标准">浮点数——$IEEE754$标准</h2>
+<ul>
+<li><u>数符 + 阶码 + 尾数</u>
+<ul>
+<li>Float $1 + 8 + 23$
+<ul>
+<li>$SP$：$(-1)$<sup>s</sup>  $<em>$ $(1 + Significand)$ $</em>$ $2$<sup>(Exponent  - 127)</sup></li>
+</ul>
+</li>
+<li>Double $1 + 11 + 52$
+<ul>
+<li>$DP$：$(-1)$<sup>s</sup>  $<em>$ $(1 + Significand)$ $</em>$ $2$<sup>(Exponent  - 1023)</sup></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>数符 $Sign bit$
+<ul>
+<li>1 表示负数</li>
+</ul>
+</li>
+<li>阶码 $Exponent$
+<ul>
+<li>规格化阶码范围为 $0000 0001(-126) —— 1111 1110(127)$ $(single)$</li>
+<li>$bias$ 为 $127(single)$ $1023(double)$</li>
+<li>规格化阶范围为 $1——254$$(single)$</li>
+<li><strong>全 $0$ 和全 $1$ 用来表示特殊值</strong></li>
+<li>为避免混淆，用<u>阶码表示阶的编码</u>，用<u>阶或指数表示阶码的值</u></li>
+</ul>
+</li>
+<li>尾数 $Significand$
+<ul>
+<li><strong>规格化尾数最高位总是 $1$，所以隐含表示，省 $1$ 位，小数点前总是 $1$</strong></li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>特殊数的表示$(single)$
+<ul>
+<li>$0$
+<ul>
+<li>$阶码：all$ $zeros$</li>
+<li>$尾数：all$ $zeros$</li>
+<li>$+0：0$ $00000000$ $00000000000000000000000$</li>
+<li>$-0：1$ $00000000$ $00000000000000000000000$</li>
+</ul>
+</li>
+<li>$∞$
+<ul>
+<li>$阶码：all$ $ones$</li>
+<li>$尾数：all$ $zeros$</li>
+<li>$+∞：0$ $11111111$ $00000000000000000000000$</li>
+<li>$-∞：1$ $11111111$ $00000000000000000000000$</li>
+<li>浮点数除以 $0$ 的结果是 $∞$，而不是溢出异常(整数除以 $0$ 为异常)</li>
+</ul>
+</li>
+<li>$NaN$  ($Not$ $a$ $Number$)
+<ul>
+<li>$阶码：all$ $ones$</li>
+<li>$尾数：nonzeros$</li>
+<li><u>可帮助调试程序</u></li>
+</ul>
+</li>
+<li><strong>非规格化数 $Denorms$</strong>
+<ul>
+<li>$阶码：all$ $zeros$</li>
+<li>$尾数：nonzeros$</li>
+<li>用于表示 $0$ 与规格化数间的$Gap$</li>
+<li>$SP$：$(-1)$<sup>s</sup>  $<em>$ $(0.xxxx&hellip;xxx)$ $</em>$ $2$<sup>-126</sup></li>
+<li>为了让非规格化单精度浮点数能够平缓过渡到规格化单精度浮点数，所以取 $2$<sup>-126</sup></li>
+<li><u>当输入数据为不可表示数时，机器将其转换为最邻近的可表示数</u></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="汉字内码ascii码">汉字内码&amp;ASCII码</h2>
+<ul>
+<li><u>ASCII码为 7 位编码</u></li>
+<li>Ex：汉字 &ldquo;$大$&rdquo; 在码表中位于第 $20$ 行、第 $83$ 列。因此<u>区位码</u>为 $0010100$ $1010011$，在区、位码上各加 $32$ 得到两个字节编码（<u>GB2312国标码</u>），即 $00110100$ $01110011B$ $=$ $3473H$。前面的 $34 H$ 和 字符 $4$ 的 $ACSII$ 的最高位相同，后面的 $73H$ 和字符 $s$ 的 $ACSII$ 码相同。但是，将每个字节的最高位各设为 $1$ 后，就得到其<u>内码</u>： $B4F3H$ ($0110100$ $11110011B$)，因而不会和 $ASCII$ 码混淆</li>
+</ul>
+<h2 id="逻辑电路">逻辑电路</h2>
+<ul>
+<li>异或：$n$ 个数做异或运算，若有奇数个 $1$ ，则输出 $1$</li>
+</ul>
+<h1 id="推荐阅读">推荐阅读</h1>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1gx411n7aG/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">计算机系统基础(一)——程序的表示、转换与链接</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Xx411E7qn/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">计算机系统基础(二)——异常、中断和输入/输出</a></li>
+<li><a href="https://www.bilibili.com/video/BV1jE411874k/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">计算机系统基础(三)——程序的执行和存储访问</a>
+<ul>
+<li>以 <code>IA-32 + Linux + C + gcc</code> 为平台</li>
+</ul>
+</li>
+<li><a href="https://www.bilibili.com/video/BV1iW411d7hd?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b">【精校中英字幕】2015 CMU 15-213 CSAPP 深入理解计算机系统</a></li>
+</ul>
+<hr>
+<ul>
+<li><strong><a href="https://book.douban.com/subject/26912767/">《深入理解计算机系统（原书第3版）》CSAPP</a></strong>
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        .post-preview {
+            max-width: 780px;
+            height: 200px;
+            margin: 1em auto;
+            position: relative;
+            display: flex;
+             
+            background: var(--entry);
+            border-radius: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .25), 0 0 2px rgba(0, 0, 0, .25);
+        }
+
+        .dark .post-preview {
+             
+            background: var(--entry);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .5), 0 0 2px rgba(0, 0, 0, .5);
+        }
+
+        .post-preview--meta {
+            width: 80%;
+            padding: 23px;
+            overflow: hidden;
+        }
+
+        .post-preview--middle {
+            line-height: 28px;
+        }
+
+        .post-preview--title {
+            font-size: 22px;
+            margin: 0 !important;
+        }
+
+        .post-preview--title a {
+            text-decoration: none;
+        }
+
+        .post-preview--date {
+            font-size: 14px;
+            color: #999;
+        }
+
+        .post-preview--excerpt {
+            font-size: 14px;
+            line-height: 1.825;
+        }
+
+        .post-preview--excerpt p {
+            display: inline;
+            margin: 0;
+        }
+
+        .post-preview--image {
+            height: 200px !important;
+            width: 25%;
+            float: right;
+            border-radius: 0 15px 15px 0;
+        }
+
+        .post-preview img {
+            margin: unset;
+            width: 20%;
+            border-radius: 0 15px 15px 0;
+        }
+
+        @media (max-width: 550px) {
+            .post-preview {
+                width: 95%;
+            }
+
+            .post-preview--excerpt {
+                display: none;
+            }
+
+            .post-preview--middle {
+                line-height: 19px;
+            }
+        }
+
+        .rating {
+            display: block;
+            line-height: 15px;
+        }
+
+        .rating-star {
+            display: inline-block;
+            width: 75px;
+            height: 15px;
+            background-repeat: no-repeat;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
+            overflow: hidden;
+        }
+
+        .allstar10 {
+            background-position: 0px 0px;
+        }
+
+        .allstar9 {
+            background-position: 0px -15px;
+        }
+
+        .allstar8 {
+            background-position: 0px -30px;
+        }
+
+        .allstar7 {
+            background-position: 0px -45px;
+        }
+
+        .allstar6 {
+            background-position: 0px -60px;
+        }
+
+        .allstar5 {
+            background-position: 0px -75px;
+        }
+
+        .allstar4 {
+            background-position: 0px -90px;
+        }
+
+        .allstar3 {
+            background-position: 0px -105px;
+        }
+
+        .allstar2 {
+            background-position: 0px -120px;
+        }
+
+        .allstar1 {
+            background-position: 0px -135px;
+        }
+
+        .allstar0 {
+            background-position: 0px -150px;
+        }
+
+
+        .rating-average {
+            color: #777;
+            display: inline-block;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.douban_item').each(function () {
+                var _this = $(this);
+                var strs = _this.attr('urlstring').toString();
+                var db_reg = /^https\:\/\/(movie|book)\.douban\.com\/subject\/([0-9]+)\/?/;
+                if (db_reg.test(strs)) {
+                    var db_type = strs.replace(db_reg, "$1");
+                    var db_id = strs.replace(db_reg, "$2").toString();
+                    var db_api = "https://douban.edui.fun/";
+                    if (db_type === 'movie') {
+                        var ls_item = 'movie' + db_id;
+                        var url = db_api + "movies/" + db_id;
+                        if (localStorage.getItem(ls_item) == null || localStorage.getItem(ls_item) === 'undefined') {
+                            $.ajax({
+                                url: url, type: 'GET', dataType: "json", success: function (data) {
+                                    localStorage.setItem(ls_item, JSON.stringify(data));
+                                    movieShow(_this, ls_item, strs)
+                                }
+                            })
+                        } else {
+                            movieShow(_this, ls_item, strs)
+                        }
+                    } else if (db_type === 'book') {
+                        var ls_item = 'book' + db_id;
+                        var url = db_api + "v2/book/id/" + db_id;
+                        if (localStorage.getItem(ls_item) == null || localStorage.getItem(ls_item) === 'undefined') {
+                            $.ajax({
+                                url: url, type: 'GET', dataType: 'json', success: function (data) {
+                                    localStorage.setItem('book' + db_id, JSON.stringify(data));
+                                    bookShow(_this, ls_item, strs)
+                                }
+                            })
+                        } else {
+                            bookShow(_this, ls_item, strs)
+                        }
+                    }
+                }
+            });
+        });
+
+        function movieShow(_this, ls_item, str) {
+            var storage = localStorage.getItem(ls_item);
+            var data = JSON.parse(storage);
+            var db_star = Math.ceil(data.rating);
+            $("<div class='post-preview'><div class='post-preview--meta'><div class='post-preview--middle'><div class='post-preview--title'><a target='_blank' style='box-shadow: none; font-weight: bolder;' href='" + str + "'>" + data.name + "</a></div><div class='rating'><div class='rating-star allstar" + db_star + "'></div><div class='rating-average'>" + data.rating + "</div></div><time class='post-preview--date'>导演：" + data.director + " / 类型：" + data.genre + " / " + data.year + "</time><section style='max-height:75px;overflow:hidden;' class='post-preview--excerpt'>" + data.intro.replace(/\s*/g, "") + "</section></div></div><img referrerpolicy='no-referrer' loading='lazy' class='post-preview--image' src=" + data.img + "></div>").replaceAll(_this)
+        }
+
+        function bookShow(_this, ls_item, str) {
+            var storage = localStorage.getItem(ls_item);
+            var data = JSON.parse(storage);
+            var db_star = Math.ceil(data.rating.average);
+            $("<div class='post-preview'><div class='post-preview--meta'><div class='post-preview--middle'><div class='post-preview--title'><a target='_blank' style='box-shadow: none; font-weight: bolder;' href='" + str + "'>" + data.title + "</a></div><div class='rating'><div class='rating-star allstar" + db_star + "'></div><div class='rating-average'>" + data.rating.average + "</div></div><time class='post-preview--date'>" + data.author + " / "+ data.publisher +" / "+ data.pubdate +" </time><section style='max-height:75px;overflow:hidden;' class='post-preview--excerpt'>" + data.summary.replace(/\s*/g, "") + "</section></div></div><img referrerpolicy='no-referrer' loading='lazy' class='post-preview--image' src=" + data.images.medium + "></div>").replaceAll(_this)
+        }
+    </script>
+</head>
+<body>
+<div class="douban_show">
+    <div id="dbhttps://book.douban.com/subject/26912767/" urlstring="https://book.douban.com/subject/26912767/" class="douban_item post-preview"></div>
+</div>
+</body>
+</html>
+
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
