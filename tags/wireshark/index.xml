@@ -611,7 +611,7 @@ Internet Control Message Protocol
 &lt;/p&gt;
 &lt;h3 id=&#34;tcp报文格式解释&#34;&gt;TCP报文格式解释&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;u&gt;源端口&lt;/u&gt;和&lt;u&gt;目的端口&lt;/u&gt;：各占 2 字节，和和 IP 头部的 &lt;strong&gt;源地址&lt;/strong&gt; 和 &lt;strong&gt;目的地址&lt;/strong&gt; 一起唯一地标识了每个连接&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;源端口&lt;/u&gt;和&lt;u&gt;目的端口&lt;/u&gt;：各占 2 字节，和 IP 头部的 &lt;strong&gt;源地址&lt;/strong&gt; 和 &lt;strong&gt;目的地址&lt;/strong&gt; 一起唯一地标识了每个连接&lt;/li&gt;
 &lt;li&gt;&lt;u&gt;序列号&lt;/u&gt;：占 4 字节，TCP连接中传送的数据流中的&lt;strong&gt;每一个字节都按顺序编号&lt;/strong&gt;，序号字段的值指的是&lt;strong&gt;本报文段&lt;/strong&gt;所发送的数据的第一个字节的序号&lt;/li&gt;
 &lt;li&gt;&lt;u&gt;确认号&lt;/u&gt;：占 4 字节，是期望收到对方的下一个报文段的数据的第一个字节的序号&lt;/li&gt;
 &lt;li&gt;&lt;u&gt;数据偏移&lt;/u&gt;：占 4 位，它指出TCP报文段的数据起始处距离TCP报文段的起始处有多远，实际是指出TCP报文段的首部长度&lt;/li&gt;
@@ -694,6 +694,9 @@ Internet Control Message Protocol
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;三次握手&#34;&gt;三次握手&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;三次握手目的是保证双方都有发送和接收的能力&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/13/637052e140268.png&#34;&gt;
@@ -722,7 +725,7 @@ Internet Control Message Protocol
 &lt;/div&gt;
 
 &lt;/li&gt;
-&lt;li&gt;客户端收到服务端报文后，还要向服务端回应最后一个应答报文。首先将应答报文的 &lt;strong&gt;ACK&lt;/strong&gt; 置为1，&lt;strong&gt;确认号 ack&lt;/strong&gt; 置为 &lt;strong&gt;y + 1&lt;/strong&gt;，&lt;strong&gt;序列号 seq&lt;/strong&gt; 置为 &lt;strong&gt;x + 1&lt;/strong&gt;，最后把报文发送给服务端。之后，客户端处于&lt;code&gt;ESTABLISHED&lt;/code&gt; 状态
+&lt;li&gt;客户端收到服务端报文后，还要向服务端回应最后一个应答报文。首先将应答报文的 &lt;strong&gt;ACK&lt;/strong&gt; 置为1，&lt;strong&gt;确认号 ack&lt;/strong&gt; 置为 &lt;strong&gt;y + 1&lt;/strong&gt;，&lt;strong&gt;序列号 seq&lt;/strong&gt; 置为 &lt;strong&gt;x + 1&lt;/strong&gt;，最后把报文发送给服务端。之后，客户端处于&lt;code&gt;ESTABLISHED&lt;/code&gt; 状态，因为它一收一发了
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/13/63709042a0303.png&#34;&gt;
@@ -731,7 +734,7 @@ Internet Control Message Protocol
 &lt;/div&gt;
 
 &lt;/li&gt;
-&lt;li&gt;服务端收到客户端的应答报文后，也进入 &lt;code&gt;ESTABLISHED&lt;/code&gt; 状态&lt;/li&gt;
+&lt;li&gt;服务端收到客户端的应答报文后，也进入 &lt;code&gt;ESTABLISHED&lt;/code&gt; 状态，因为它也一收一发了&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;四次挥手&#34;&gt;四次挥手&lt;/h3&gt;
 &lt;p&gt;
@@ -784,14 +787,35 @@ Internet Control Message Protocol
 &lt;li&gt;客户端在经过 &lt;code&gt;2MSL&lt;/code&gt; 一段时间后，自动进入 &lt;code&gt;CLOSE&lt;/code&gt; 状态，至此客户端也完成连接的关闭&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;访问外网某服务器分析从mac层协议ip协议tcp协议一直到http协议的过程&#34;&gt;访问外网某服务器，分析从MAC层协议、IP协议、TCP协议一直到HTTP协议的过程&lt;/h2&gt;
-&lt;h3 id=&#34;访问网页的全过程&#34;&gt;访问网页的全过程&lt;/h3&gt;
+&lt;h3 id=&#34;网络包的旅途&#34;&gt;网络包的旅途&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;当输入URL时，浏览器作为客户端&lt;strong&gt;向DNS服务器发送请求&lt;/strong&gt;，获取与域名相对应的IP地址&lt;/li&gt;
-&lt;li&gt;浏览器通过IP地址同对应的服务器&lt;strong&gt;建立TCP连接&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;浏览器向服务器&lt;strong&gt;发送HTTP请求&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;服务器接收到请求后，&lt;strong&gt;返回响应&lt;/strong&gt;包&lt;/li&gt;
-&lt;li&gt;浏览器接收到响应包后，&lt;strong&gt;进行页面的渲染&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;HTTP请求结束，&lt;strong&gt;TCP连接断开&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;用户输入网址&lt;/li&gt;
+&lt;li&gt;浏览器解析网址，生成 HTTP 消息&lt;/li&gt;
+&lt;li&gt;在发送 HTTP 消息给 Web 服务器之前，浏览器先向 DNS 服务器发送请求，查询与服务器域名相对应的 IP 地址&lt;/li&gt;
+&lt;li&gt;通过 DNS 获取到 IP 后，浏览器把 HTTP 消息转交给 Socket 库&lt;/li&gt;
+&lt;li&gt;Socket 库将收到的 HTTP 消息作为数据转交给协议栈&lt;/li&gt;
+&lt;li&gt;TCP 按照网络包的长度对数据进行拆分，在每个包前面加上 TCP 头部并转交给 IP&lt;/li&gt;
+&lt;li&gt;IP 在 TCP 包前面加上 IP 头部（目的 IP 为 Web 服务器 IP 地址，源 IP 为主机 IP 地址），IP 包生成后参考路由控制表决定接受此 IP 包的路由或主机的 IP 地址。随后，IP 包将被发送给连接这些路由器或主机网络接口的驱动程序&lt;/li&gt;
+&lt;li&gt;如果尚不知道下一跳接收端的 MAC 地址，可以利用 ARP 查找，加上 MAC 头部，然后将包转交给网卡驱动&lt;/li&gt;
+&lt;li&gt;网卡驱动收到 IP 模块发来的包，将其转交给网卡并发出发送指令&lt;/li&gt;
+&lt;li&gt;网卡检查以太网的可发送状态，将数字信息转换为电信号发送出去&lt;/li&gt;
+&lt;li&gt;服务端的局域网中有防火墙，对进入的包进行检查，判断是否允许通过&lt;/li&gt;
+&lt;li&gt;Web 服务器前面有如果有缓存服务器，会拦截通过防火墙的包如果用户请求的页面已经缓存在服务器上，则代替服务器向用户返回页面数据&lt;/li&gt;
+&lt;li&gt;如果请求的页面没有被缓存，缓存服务器会将请求转发给 Web 服务器&lt;/li&gt;
+&lt;li&gt;Web 服务器收到包后，网卡和网卡驱动会接收这个包并转交给协议栈&lt;/li&gt;
+&lt;li&gt;协议栈依次检查 IP 头部和 TCP 头部，如果没有问题则取出 HTTP 的数据块并进行组装&lt;/li&gt;
+&lt;li&gt;HTTP 消息恢复成原始状态，然后通过 Socket 库转交给 Web 服务器&lt;/li&gt;
+&lt;li&gt;Web 服务器分析 HTTP 消息的内容，并根据请求内容将读取的数据返回给客户端&lt;/li&gt;
+&lt;li&gt;浏览器接收到响应包后，进行页面的渲染&lt;/li&gt;
+&lt;li&gt;HTTP请求结束，TCP连接断开
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/15/6372e99613b66.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/15/6372e99613b66.jpg&#34; alt=&#34;1&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;dns&#34;&gt;DNS&lt;/h3&gt;
 &lt;h4 id=&#34;dns报文结构&#34;&gt;DNS报文结构&lt;/h4&gt;
@@ -806,34 +830,19 @@ Internet Control Message Protocol
 &lt;h4 id=&#34;dns查询步骤&#34;&gt;DNS查询步骤&lt;/h4&gt;
 &lt;p&gt;浏览器在解析域名时，会经过下列步骤：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;首先查看本地的 Hosts 文件。若有域名和 IP 地址的对应关系，直接使用该 IP 地址通信；若没有，浏览器向本地 DNS 服务器发出一个 DNS 请求&lt;/li&gt;
-&lt;li&gt;本地 DNS 服务器查看有无缓存记录。若有，直接响应；若没有，本地 DNS 服务器向 DNS 根服务器查询&lt;/li&gt;
-&lt;li&gt;DNS 根服务器响应本地 DNS 服务器，给出对应的顶级域名 DNS 服务器地址，让本地 DNS 服务器去向其查询&lt;/li&gt;
-&lt;li&gt;顶级域名 DNS 服务器响应本地 DNS 服务器，给出对应的权威 DNS 域名服务器地址，让本地 DNS 服务器去向其查询&lt;/li&gt;
+&lt;li&gt;浏览器会先看自身有没有对这个域名的缓存，如果有，就直接返回；如果没有，就去问操作系统&lt;/li&gt;
+&lt;li&gt;操作系统也会去看自己的缓存，如果有，就直接返回；如果没有，再去 Hosts 文件看&lt;/li&gt;
+&lt;li&gt;本地的 Hosts 文件，若有域名和 IP 地址的对应关系，直接使用该 IP 地址通信；如果没有，浏览器向本地域名服务器发出一个查询请求&lt;/li&gt;
+&lt;li&gt;本地域名服务器查看有无缓存记录。若有，直接响应；若没有，本地域名服务器向根域名服务器查询&lt;/li&gt;
+&lt;li&gt;根域名服务器响应本地域名服务器，给出对应域名的顶级域名服务器IP地址，让本地域名服务器去向其查询&lt;/li&gt;
+&lt;li&gt;顶级域名服务器响应本地域名服务器，给出对应域名的权威域名服务器（权威 DNS 服务器，它是域名解析结果的原出处）IP地址，让本地域名服务器去向其查询&lt;/li&gt;
 &lt;li&gt;权威 DNS 服务器查询后将对应的 IP 地址告诉本地 DNS 服务器&lt;/li&gt;
-&lt;li&gt;本地 DNS 将 IP 地址返回浏览器&lt;/li&gt;
+&lt;li&gt;本地 DNS 将 IP 地址返回给客户端，客户端和目标建立连接&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;实验步骤-3&#34;&gt;实验步骤&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;访问&lt;code&gt;http://www.smartclass.cn/Default.aspx&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;分析 &lt;code&gt;HTTP&lt;/code&gt; 请求报文及 &lt;code&gt;HTTP&lt;/code&gt; 响应报文&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;网络包的旅途&#34;&gt;网络包的旅途&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;用户输入网址&lt;/li&gt;
-&lt;li&gt;浏览器解析网址，生成HTTP消息并转交给Socket库&lt;/li&gt;
-&lt;li&gt;Socket库将收到的HTTP消息作为数据转交给协议栈&lt;/li&gt;
-&lt;li&gt;TCP按照网络包的长度对数据进行拆分，在每个包前面加上TCP头部并转交给IP&lt;/li&gt;
-&lt;li&gt;IP在TCP包前面加上IP头部，然后查询MAC地址并加上MAC头部，然后将包转交给网卡驱动&lt;/li&gt;
-&lt;li&gt;网卡驱动收到IP发来的包，将其转交给网卡并发出发送指令&lt;/li&gt;
-&lt;li&gt;网卡检查以太网的可发送状态，将包转换为电信号通过双绞线发送出去&lt;/li&gt;
-&lt;li&gt;服务端的局域网中有防火墙，对进入的包进行检查，判断是否允许通过&lt;/li&gt;
-&lt;li&gt;Web服务器前面有如果有缓存服务器，会拦截通过防火墙的包如果用户请求的页面已经缓存在服务器上，则代替服务器向用户返回页面数据&lt;/li&gt;
-&lt;li&gt;如果请求的页面没有被缓存，缓存服务器会将请求转发给Web服务器&lt;/li&gt;
-&lt;li&gt;Web服务器收到包后，网卡和网卡驱动会接收这个包并转交给协议栈&lt;/li&gt;
-&lt;li&gt;协议栈依次检查IP头部和TCP头部，如果没有问题则取出HTTP的数据块并进行组装&lt;/li&gt;
-&lt;li&gt;HTTP消息恢复成原始状态，然后通过Socket库转交给Web服务器&lt;/li&gt;
-&lt;li&gt;Web服务器分析HTTP消息的内容，并根据请求内容将读取的数据返回给客户端&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;报文分析&#34;&gt;报文分析&lt;/h3&gt;
 &lt;p&gt;
@@ -919,7 +928,12 @@ Internet Control Message Protocol
 &lt;h5 id=&#34;传输层-2&#34;&gt;传输层&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;TCP 协议会分段传输过大的数据段（Segment）保证传输的性能&lt;/li&gt;
-&lt;li&gt;TCP 协议引入了最大分段大小（Maximum segment size，MSS）这一概念，它是 TCP 数据段能够携带的数据上限。在正常情况下，TCP 连接的 MSS 是 MTU - 40 字节，即 1460 字节&lt;/li&gt;
+&lt;li&gt;TCP 协议引入了最大分段大小（Maximum segment size，MSS）这一概念，它是 TCP 数据段能够携带的数据上限。在正常情况下，TCP 连接的 MSS 是 MTU - 40 字节，即 1460 字节
+&lt;ul&gt;
+&lt;li&gt;MSS：一个网络包的最大长度，以太网中一般为 &lt;code&gt;1500&lt;/code&gt; 字节&lt;/li&gt;
+&lt;li&gt;MTU：除去 IP 和 TCP 头部之后，一个网络包所能容纳的 TCP 数据的最大长度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;该报文 MSS 值为 1360，数据段分成 8 份从服务端发出，并在客户端经过拼接后被接收
 
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -1603,7 +1617,7 @@ Internet Control Message Protocol
 </p>
 <h3 id="tcp报文格式解释">TCP报文格式解释</h3>
 <ol>
-<li><u>源端口</u>和<u>目的端口</u>：各占 2 字节，和和 IP 头部的 <strong>源地址</strong> 和 <strong>目的地址</strong> 一起唯一地标识了每个连接</li>
+<li><u>源端口</u>和<u>目的端口</u>：各占 2 字节，和 IP 头部的 <strong>源地址</strong> 和 <strong>目的地址</strong> 一起唯一地标识了每个连接</li>
 <li><u>序列号</u>：占 4 字节，TCP连接中传送的数据流中的<strong>每一个字节都按顺序编号</strong>，序号字段的值指的是<strong>本报文段</strong>所发送的数据的第一个字节的序号</li>
 <li><u>确认号</u>：占 4 字节，是期望收到对方的下一个报文段的数据的第一个字节的序号</li>
 <li><u>数据偏移</u>：占 4 位，它指出TCP报文段的数据起始处距离TCP报文段的起始处有多远，实际是指出TCP报文段的首部长度</li>
@@ -1686,6 +1700,9 @@ Internet Control Message Protocol
 </li>
 </ol>
 <h3 id="三次握手">三次握手</h3>
+<blockquote>
+<p><strong>三次握手目的是保证双方都有发送和接收的能力</strong></p>
+</blockquote>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/13/637052e140268.png">
@@ -1714,7 +1731,7 @@ Internet Control Message Protocol
 </div>
 
 </li>
-<li>客户端收到服务端报文后，还要向服务端回应最后一个应答报文。首先将应答报文的 <strong>ACK</strong> 置为1，<strong>确认号 ack</strong> 置为 <strong>y + 1</strong>，<strong>序列号 seq</strong> 置为 <strong>x + 1</strong>，最后把报文发送给服务端。之后，客户端处于<code>ESTABLISHED</code> 状态
+<li>客户端收到服务端报文后，还要向服务端回应最后一个应答报文。首先将应答报文的 <strong>ACK</strong> 置为1，<strong>确认号 ack</strong> 置为 <strong>y + 1</strong>，<strong>序列号 seq</strong> 置为 <strong>x + 1</strong>，最后把报文发送给服务端。之后，客户端处于<code>ESTABLISHED</code> 状态，因为它一收一发了
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/13/63709042a0303.png">
@@ -1723,7 +1740,7 @@ Internet Control Message Protocol
 </div>
 
 </li>
-<li>服务端收到客户端的应答报文后，也进入 <code>ESTABLISHED</code> 状态</li>
+<li>服务端收到客户端的应答报文后，也进入 <code>ESTABLISHED</code> 状态，因为它也一收一发了</li>
 </ul>
 <h3 id="四次挥手">四次挥手</h3>
 <p>
@@ -1776,14 +1793,35 @@ Internet Control Message Protocol
 <li>客户端在经过 <code>2MSL</code> 一段时间后，自动进入 <code>CLOSE</code> 状态，至此客户端也完成连接的关闭</li>
 </ul>
 <h2 id="访问外网某服务器分析从mac层协议ip协议tcp协议一直到http协议的过程">访问外网某服务器，分析从MAC层协议、IP协议、TCP协议一直到HTTP协议的过程</h2>
-<h3 id="访问网页的全过程">访问网页的全过程</h3>
+<h3 id="网络包的旅途">网络包的旅途</h3>
 <ol>
-<li>当输入URL时，浏览器作为客户端<strong>向DNS服务器发送请求</strong>，获取与域名相对应的IP地址</li>
-<li>浏览器通过IP地址同对应的服务器<strong>建立TCP连接</strong></li>
-<li>浏览器向服务器<strong>发送HTTP请求</strong></li>
-<li>服务器接收到请求后，<strong>返回响应</strong>包</li>
-<li>浏览器接收到响应包后，<strong>进行页面的渲染</strong></li>
-<li>HTTP请求结束，<strong>TCP连接断开</strong></li>
+<li>用户输入网址</li>
+<li>浏览器解析网址，生成 HTTP 消息</li>
+<li>在发送 HTTP 消息给 Web 服务器之前，浏览器先向 DNS 服务器发送请求，查询与服务器域名相对应的 IP 地址</li>
+<li>通过 DNS 获取到 IP 后，浏览器把 HTTP 消息转交给 Socket 库</li>
+<li>Socket 库将收到的 HTTP 消息作为数据转交给协议栈</li>
+<li>TCP 按照网络包的长度对数据进行拆分，在每个包前面加上 TCP 头部并转交给 IP</li>
+<li>IP 在 TCP 包前面加上 IP 头部（目的 IP 为 Web 服务器 IP 地址，源 IP 为主机 IP 地址），IP 包生成后参考路由控制表决定接受此 IP 包的路由或主机的 IP 地址。随后，IP 包将被发送给连接这些路由器或主机网络接口的驱动程序</li>
+<li>如果尚不知道下一跳接收端的 MAC 地址，可以利用 ARP 查找，加上 MAC 头部，然后将包转交给网卡驱动</li>
+<li>网卡驱动收到 IP 模块发来的包，将其转交给网卡并发出发送指令</li>
+<li>网卡检查以太网的可发送状态，将数字信息转换为电信号发送出去</li>
+<li>服务端的局域网中有防火墙，对进入的包进行检查，判断是否允许通过</li>
+<li>Web 服务器前面有如果有缓存服务器，会拦截通过防火墙的包如果用户请求的页面已经缓存在服务器上，则代替服务器向用户返回页面数据</li>
+<li>如果请求的页面没有被缓存，缓存服务器会将请求转发给 Web 服务器</li>
+<li>Web 服务器收到包后，网卡和网卡驱动会接收这个包并转交给协议栈</li>
+<li>协议栈依次检查 IP 头部和 TCP 头部，如果没有问题则取出 HTTP 的数据块并进行组装</li>
+<li>HTTP 消息恢复成原始状态，然后通过 Socket 库转交给 Web 服务器</li>
+<li>Web 服务器分析 HTTP 消息的内容，并根据请求内容将读取的数据返回给客户端</li>
+<li>浏览器接收到响应包后，进行页面的渲染</li>
+<li>HTTP请求结束，TCP连接断开
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/15/6372e99613b66.jpg">
+<img src="https://bu.dusays.com/2022/11/15/6372e99613b66.jpg" alt="1"  />
+</a>
+</div>
+
+</li>
 </ol>
 <h3 id="dns">DNS</h3>
 <h4 id="dns报文结构">DNS报文结构</h4>
@@ -1798,34 +1836,19 @@ Internet Control Message Protocol
 <h4 id="dns查询步骤">DNS查询步骤</h4>
 <p>浏览器在解析域名时，会经过下列步骤：</p>
 <ol>
-<li>首先查看本地的 Hosts 文件。若有域名和 IP 地址的对应关系，直接使用该 IP 地址通信；若没有，浏览器向本地 DNS 服务器发出一个 DNS 请求</li>
-<li>本地 DNS 服务器查看有无缓存记录。若有，直接响应；若没有，本地 DNS 服务器向 DNS 根服务器查询</li>
-<li>DNS 根服务器响应本地 DNS 服务器，给出对应的顶级域名 DNS 服务器地址，让本地 DNS 服务器去向其查询</li>
-<li>顶级域名 DNS 服务器响应本地 DNS 服务器，给出对应的权威 DNS 域名服务器地址，让本地 DNS 服务器去向其查询</li>
+<li>浏览器会先看自身有没有对这个域名的缓存，如果有，就直接返回；如果没有，就去问操作系统</li>
+<li>操作系统也会去看自己的缓存，如果有，就直接返回；如果没有，再去 Hosts 文件看</li>
+<li>本地的 Hosts 文件，若有域名和 IP 地址的对应关系，直接使用该 IP 地址通信；如果没有，浏览器向本地域名服务器发出一个查询请求</li>
+<li>本地域名服务器查看有无缓存记录。若有，直接响应；若没有，本地域名服务器向根域名服务器查询</li>
+<li>根域名服务器响应本地域名服务器，给出对应域名的顶级域名服务器IP地址，让本地域名服务器去向其查询</li>
+<li>顶级域名服务器响应本地域名服务器，给出对应域名的权威域名服务器（权威 DNS 服务器，它是域名解析结果的原出处）IP地址，让本地域名服务器去向其查询</li>
 <li>权威 DNS 服务器查询后将对应的 IP 地址告诉本地 DNS 服务器</li>
-<li>本地 DNS 将 IP 地址返回浏览器</li>
+<li>本地 DNS 将 IP 地址返回给客户端，客户端和目标建立连接</li>
 </ol>
 <h3 id="实验步骤-3">实验步骤</h3>
 <ol>
 <li>访问<code>http://www.smartclass.cn/Default.aspx</code></li>
 <li>分析 <code>HTTP</code> 请求报文及 <code>HTTP</code> 响应报文</li>
-</ol>
-<h3 id="网络包的旅途">网络包的旅途</h3>
-<ol>
-<li>用户输入网址</li>
-<li>浏览器解析网址，生成HTTP消息并转交给Socket库</li>
-<li>Socket库将收到的HTTP消息作为数据转交给协议栈</li>
-<li>TCP按照网络包的长度对数据进行拆分，在每个包前面加上TCP头部并转交给IP</li>
-<li>IP在TCP包前面加上IP头部，然后查询MAC地址并加上MAC头部，然后将包转交给网卡驱动</li>
-<li>网卡驱动收到IP发来的包，将其转交给网卡并发出发送指令</li>
-<li>网卡检查以太网的可发送状态，将包转换为电信号通过双绞线发送出去</li>
-<li>服务端的局域网中有防火墙，对进入的包进行检查，判断是否允许通过</li>
-<li>Web服务器前面有如果有缓存服务器，会拦截通过防火墙的包如果用户请求的页面已经缓存在服务器上，则代替服务器向用户返回页面数据</li>
-<li>如果请求的页面没有被缓存，缓存服务器会将请求转发给Web服务器</li>
-<li>Web服务器收到包后，网卡和网卡驱动会接收这个包并转交给协议栈</li>
-<li>协议栈依次检查IP头部和TCP头部，如果没有问题则取出HTTP的数据块并进行组装</li>
-<li>HTTP消息恢复成原始状态，然后通过Socket库转交给Web服务器</li>
-<li>Web服务器分析HTTP消息的内容，并根据请求内容将读取的数据返回给客户端</li>
 </ol>
 <h3 id="报文分析">报文分析</h3>
 <p>
@@ -1911,7 +1934,12 @@ Internet Control Message Protocol
 <h5 id="传输层-2">传输层</h5>
 <ul>
 <li>TCP 协议会分段传输过大的数据段（Segment）保证传输的性能</li>
-<li>TCP 协议引入了最大分段大小（Maximum segment size，MSS）这一概念，它是 TCP 数据段能够携带的数据上限。在正常情况下，TCP 连接的 MSS 是 MTU - 40 字节，即 1460 字节</li>
+<li>TCP 协议引入了最大分段大小（Maximum segment size，MSS）这一概念，它是 TCP 数据段能够携带的数据上限。在正常情况下，TCP 连接的 MSS 是 MTU - 40 字节，即 1460 字节
+<ul>
+<li>MSS：一个网络包的最大长度，以太网中一般为 <code>1500</code> 字节</li>
+<li>MTU：除去 IP 和 TCP 头部之后，一个网络包所能容纳的 TCP 数据的最大长度</li>
+</ul>
+</li>
 <li>该报文 MSS 值为 1360，数据段分成 8 份从服务端发出，并在客户端经过拼接后被接收
 
 <div class="post-img-view">
