@@ -1329,8 +1329,7 @@
       <pubDate>Sun, 16 Oct 2022 14:23:58 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/acw-linux/</guid>
-      <description>&lt;h1 id=&#34;acwing-linux-基础课&#34;&gt;AcWing Linux 基础课&lt;/h1&gt;
-&lt;ul&gt;
+      <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_linux/&#34;&gt;AcWing Linux 基础课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/57/&#34;&gt;AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md&#34;&gt;命令行的艺术 &lt;/a&gt;&lt;/li&gt;
@@ -2532,8 +2531,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run -p 20000:22 -p 8000:8000 -p 80:80 -p 443:443 --name CONTAINER_NAME -itd django_lesson:1.1
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;第三步，去云服务器控制台，在安全组配置中开放80和443端口&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="acwing-linux-基础课">AcWing Linux 基础课</h1>
-<ul>
+      <content:encoded><![CDATA[<ul>
 <li><a href="https://www.colopen-blog.com/Engineer/acw_linux/">AcWing Linux 基础课 | Colopen&rsquo;s blog</a></li>
 <li><a href="https://www.acwing.com/activity/content/57/">AcWing Linux 基础课</a></li>
 <li><a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md">命令行的艺术 </a></li>

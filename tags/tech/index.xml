@@ -13455,8 +13455,7 @@ Internet Control Message Protocol
       <pubDate>Wed, 02 Nov 2022 15:49:03 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/acw-web/</guid>
-      <description>&lt;h1 id=&#34;acwing-web-应用课&#34;&gt;AcWing Web 应用课&lt;/h1&gt;
-&lt;ul&gt;
+      <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_web/&#34;&gt;AcWing Web 应用课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/1150/&#34;&gt;AcWing Web 应用课&lt;/a&gt;
 &lt;ul&gt;
@@ -15431,9 +15430,15 @@ export {
 	color: #999; 
 	padding: 2px;&#34;&gt;0：静止    1：移动     3：跳跃    4：攻击&lt;/div&gt; 
  &lt;/center&gt;
+&lt;h2 id=&#34;myspace&#34;&gt;MySpace&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Xancoding/Learning-Vue&#34;&gt;MySpace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/video/3867/&#34;&gt;AcWing Web 应用课 | Vue3——网站整体布局、用户动态页面 | Vedio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/video/3875/&#34;&gt;AcWing Web 应用课 | Vue3——用户列表、登录、注册页面 | Vedio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="acwing-web-应用课">AcWing Web 应用课</h1>
-<ul>
+      <content:encoded><![CDATA[<ul>
 <li><a href="https://www.colopen-blog.com/Engineer/acw_web/">AcWing Web 应用课 | Colopen&rsquo;s blog</a></li>
 <li><a href="https://www.acwing.com/activity/content/punch_the_clock/1150/">AcWing Web 应用课</a>
 <ul>
@@ -17408,6 +17413,13 @@ export {
 	color: #999; 
 	padding: 2px;">0：静止    1：移动     3：跳跃    4：攻击</div> 
  </center>
+<h2 id="myspace">MySpace</h2>
+<ul>
+<li><a href="https://github.com/Xancoding/Learning-Vue">MySpace</a></li>
+<li><a href="https://www.acwing.com/video/3867/">AcWing Web 应用课 | Vue3——网站整体布局、用户动态页面 | Vedio</a></li>
+<li><a href="https://www.acwing.com/video/3875/">AcWing Web 应用课 | Vue3——用户列表、登录、注册页面 | Vedio</a></li>
+</ul>
+<hr>
 ]]></content:encoded>
     </item>
     
@@ -30605,8 +30617,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
       <pubDate>Sun, 16 Oct 2022 14:23:58 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/acw-linux/</guid>
-      <description>&lt;h1 id=&#34;acwing-linux-基础课&#34;&gt;AcWing Linux 基础课&lt;/h1&gt;
-&lt;ul&gt;
+      <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_linux/&#34;&gt;AcWing Linux 基础课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/57/&#34;&gt;AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md&#34;&gt;命令行的艺术 &lt;/a&gt;&lt;/li&gt;
@@ -31808,8 +31819,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run -p 20000:22 -p 8000:8000 -p 80:80 -p 443:443 --name CONTAINER_NAME -itd django_lesson:1.1
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;第三步，去云服务器控制台，在安全组配置中开放80和443端口&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="acwing-linux-基础课">AcWing Linux 基础课</h1>
-<ul>
+      <content:encoded><![CDATA[<ul>
 <li><a href="https://www.colopen-blog.com/Engineer/acw_linux/">AcWing Linux 基础课 | Colopen&rsquo;s blog</a></li>
 <li><a href="https://www.acwing.com/activity/content/57/">AcWing Linux 基础课</a></li>
 <li><a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md">命令行的艺术 </a></li>

@@ -13695,8 +13695,7 @@ Internet Control Message Protocol
       <pubDate>Wed, 02 Nov 2022 15:49:03 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/acw-web/</guid>
-      <description>&lt;h1 id=&#34;acwing-web-应用课&#34;&gt;AcWing Web 应用课&lt;/h1&gt;
-&lt;ul&gt;
+      <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_web/&#34;&gt;AcWing Web 应用课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/1150/&#34;&gt;AcWing Web 应用课&lt;/a&gt;
 &lt;ul&gt;
@@ -15671,9 +15670,15 @@ export {
 	color: #999; 
 	padding: 2px;&#34;&gt;0：静止    1：移动     3：跳跃    4：攻击&lt;/div&gt; 
  &lt;/center&gt;
+&lt;h2 id=&#34;myspace&#34;&gt;MySpace&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Xancoding/Learning-Vue&#34;&gt;MySpace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/video/3867/&#34;&gt;AcWing Web 应用课 | Vue3——网站整体布局、用户动态页面 | Vedio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/video/3875/&#34;&gt;AcWing Web 应用课 | Vue3——用户列表、登录、注册页面 | Vedio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="acwing-web-应用课">AcWing Web 应用课</h1>
-<ul>
+      <content:encoded><![CDATA[<ul>
 <li><a href="https://www.colopen-blog.com/Engineer/acw_web/">AcWing Web 应用课 | Colopen&rsquo;s blog</a></li>
 <li><a href="https://www.acwing.com/activity/content/punch_the_clock/1150/">AcWing Web 应用课</a>
 <ul>
@@ -17648,6 +17653,13 @@ export {
 	color: #999; 
 	padding: 2px;">0：静止    1：移动     3：跳跃    4：攻击</div> 
  </center>
+<h2 id="myspace">MySpace</h2>
+<ul>
+<li><a href="https://github.com/Xancoding/Learning-Vue">MySpace</a></li>
+<li><a href="https://www.acwing.com/video/3867/">AcWing Web 应用课 | Vue3——网站整体布局、用户动态页面 | Vedio</a></li>
+<li><a href="https://www.acwing.com/video/3875/">AcWing Web 应用课 | Vue3——用户列表、登录、注册页面 | Vedio</a></li>
+</ul>
+<hr>
 ]]></content:encoded>
     </item>
     
@@ -32895,8 +32907,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
       <pubDate>Sun, 16 Oct 2022 14:23:58 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/acw-linux/</guid>
-      <description>&lt;h1 id=&#34;acwing-linux-基础课&#34;&gt;AcWing Linux 基础课&lt;/h1&gt;
-&lt;ul&gt;
+      <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_linux/&#34;&gt;AcWing Linux 基础课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/57/&#34;&gt;AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md&#34;&gt;命令行的艺术 &lt;/a&gt;&lt;/li&gt;
@@ -34098,8 +34109,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run -p 20000:22 -p 8000:8000 -p 80:80 -p 443:443 --name CONTAINER_NAME -itd django_lesson:1.1
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;第三步，去云服务器控制台，在安全组配置中开放80和443端口&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="acwing-linux-基础课">AcWing Linux 基础课</h1>
-<ul>
+      <content:encoded><![CDATA[<ul>
 <li><a href="https://www.colopen-blog.com/Engineer/acw_linux/">AcWing Linux 基础课 | Colopen&rsquo;s blog</a></li>
 <li><a href="https://www.acwing.com/activity/content/57/">AcWing Linux 基础课</a></li>
 <li><a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md">命令行的艺术 </a></li>
@@ -36349,6 +36359,9 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;Do not try to change yourself.Work to improve the way you perform.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;All problems in computer science can be solved by another level of indirection.&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1 id=&#34;projects&#34;&gt;Projects&lt;/h1&gt;
 &lt;h2 id=&#34;bloghttpsgithubcomxancodingblog&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/Blog&#34;&gt;Blog&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;搭建工具&#34;&gt;搭建工具&lt;/h3&gt;
@@ -36789,6 +36802,9 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;&lt;strong&gt;不要试图改变自我，因为这样你不大可能成功。但是，你应该努力改进你的工作方式。&lt;/strong&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;&lt;strong&gt;计算机科学中的所有问题都可以通过增加一个间接层来解决。&lt;/strong&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -36811,6 +36827,9 @@ docker rm CONTAINER_NAME # 删除容器
 </ol>
 <ol start="2">
 <li>Do not try to change yourself.Work to improve the way you perform.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
+</ol>
+<ol start="3">
+<li>All problems in computer science can be solved by another level of indirection.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></li>
 </ol>
 <h1 id="projects">Projects</h1>
 <h2 id="bloghttpsgithubcomxancodingblog"><a href="https://github.com/Xancoding/Blog">Blog</a></h2>
@@ -37251,6 +37270,9 @@ docker rm CONTAINER_NAME # 删除容器
 </li>
 <li id="fn:2">
 <p><strong>不要试图改变自我，因为这样你不大可能成功。但是，你应该努力改进你的工作方式。</strong>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><strong>计算机科学中的所有问题都可以通过增加一个间接层来解决。</strong>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
