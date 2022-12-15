@@ -6,7 +6,29 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 20 Nov 2022 22:11:28 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Dec 2022 08:38:27 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>线性代数</title>
+      <link>https://xancoding.cn/posts/linear-algebra/</link>
+      <pubDate>Thu, 15 Dec 2022 08:38:27 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/linear-algebra/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/45707832&#34;&gt;MIT线性代数 | 笔记&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ix411f7Yp?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;MIT线性代数 | Vedio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ys411472E/?spm_id_from=333.999.0.0&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;线性代数的本质 - 系列合集 | Vedio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/470439808&#34;&gt;考生必记：线性代数知识汇总 | 笔记&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <content:encoded><![CDATA[<ol>
+<li><a href="https://zhuanlan.zhihu.com/p/45707832">MIT线性代数 | 笔记</a></li>
+<li><a href="https://www.bilibili.com/video/BV1ix411f7Yp?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">MIT线性代数 | Vedio</a></li>
+<li><a href="https://www.bilibili.com/video/BV1ys411472E/?spm_id_from=333.999.0.0&amp;vd_source=ae16ff6478eb15c1b87880540263910b">线性代数的本质 - 系列合集 | Vedio</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/470439808">考生必记：线性代数知识汇总 | 笔记</a></li>
+</ol>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>年度计划</title>
       <link>https://xancoding.cn/posts/plan/</link>
@@ -38887,7 +38909,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;http://www.wsscsc.com/play/26699-1-1.html&#34;&gt;海洋之歌&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 狼行者&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=oe_JogMlDDw&amp;amp;t=2517s&#34;&gt;凯尔经的秘密&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=oe_JogMlDDw&amp;amp;t=2517s&#34;&gt;凯尔经的秘密&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 狐狸与我&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 白日梦想家&lt;/li&gt;
 &lt;/ul&gt;
@@ -38969,7 +38991,6 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/506397152/?spm_id_from=333.999.0.0&#34;&gt;蹦蹦和蜜糖&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/37018985/?spm_id_from=333.999.0.0&#34;&gt;蹦蹦和蜜糖的老爸&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/513527793/?spm_id_from=333.999.0.0&#34;&gt;小麦的幸福生活&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;收藏夹&#34;&gt;收藏夹&lt;/h2&gt;
 &lt;ol&gt;
@@ -39087,7 +39108,7 @@ docker rm CONTAINER_NAME # 删除容器
 <ul>
 <li><input checked="" disabled="" type="checkbox"> <a href="http://www.wsscsc.com/play/26699-1-1.html">海洋之歌</a></li>
 <li><input disabled="" type="checkbox"> 狼行者</li>
-<li><input disabled="" type="checkbox"> <a href="https://www.youtube.com/watch?v=oe_JogMlDDw&amp;t=2517s">凯尔经的秘密</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://www.youtube.com/watch?v=oe_JogMlDDw&amp;t=2517s">凯尔经的秘密</a></li>
 <li><input disabled="" type="checkbox"> 狐狸与我</li>
 <li><input disabled="" type="checkbox"> 白日梦想家</li>
 </ul>
@@ -39169,7 +39190,6 @@ docker rm CONTAINER_NAME # 删除容器
 <ol>
 <li><a href="https://space.bilibili.com/506397152/?spm_id_from=333.999.0.0">蹦蹦和蜜糖</a></li>
 <li><a href="https://space.bilibili.com/37018985/?spm_id_from=333.999.0.0">蹦蹦和蜜糖的老爸</a></li>
-<li><a href="https://space.bilibili.com/513527793/?spm_id_from=333.999.0.0">小麦的幸福生活</a></li>
 </ol>
 <h2 id="收藏夹">收藏夹</h2>
 <ol>
