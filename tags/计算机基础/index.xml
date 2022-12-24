@@ -7609,12 +7609,18 @@
 &lt;/a&gt;
 &lt;/div&gt;
 
-
-3. TCP 报文段格式
-
+&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;TCP 报文段格式
+&lt;ol&gt;
+&lt;li&gt;数据偏移：单位为 4 字节，它指出TCP报文段的数据起始处距离TCP报文段的起始处有多远&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/12/24/63a62e308c7de.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2022/12/24/63a62e308c7de.png&#34; alt=&#34;&#34;  /&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/12/24/63a63fe7455be.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/12/24/63a63fe7455be.jpg&#34; alt=&#34;&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -9527,12 +9533,18 @@
 </a>
 </div>
 
-
-3. TCP 报文段格式
-
+</p>
+<ol start="3">
+<li>TCP 报文段格式
+<ol>
+<li>数据偏移：单位为 4 字节，它指出TCP报文段的数据起始处距离TCP报文段的起始处有多远</li>
+</ol>
+</li>
+</ol>
+<p>
 <div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2022/12/24/63a62e308c7de.png">
-<img src="https://bu.dusays.com/2022/12/24/63a62e308c7de.png" alt=""  />
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/12/24/63a63fe7455be.jpg">
+<img src="https://bu.dusays.com/2022/12/24/63a63fe7455be.jpg" alt=""  />
 </a>
 </div>
 
