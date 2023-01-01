@@ -32788,6 +32788,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;/ul&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ihateregex.io/&#34;&gt;IHateRegex&lt;/a&gt; 正则可视化工具&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://jex.im/regulex/#!flags=&amp;amp;re=%5E(a%7Cb)*%3F%24&#34;&gt;Regulex&lt;/a&gt; 正则可视化工具&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://regexper.com/&#34;&gt;Regexper&lt;/a&gt; 正则可视化工具&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://wangwl.net/r/vr&#34;&gt;正则可视化&lt;/a&gt; 正则可视化工具&lt;/li&gt;
@@ -33258,6 +33259,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 </ul>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
+<li><a href="https://ihateregex.io/">IHateRegex</a> 正则可视化工具</li>
 <li><a href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">Regulex</a> 正则可视化工具</li>
 <li><a href="https://regexper.com/">Regexper</a> 正则可视化工具</li>
 <li><a href="https://wangwl.net/r/vr">正则可视化</a> 正则可视化工具</li>
@@ -39248,6 +39250,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;hr&gt;
 &lt;h1 id=&#34;tools&#34;&gt;Tools&lt;/h1&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aquadzn.github.io/learn-x-by-doing-y/&#34;&gt;Learning X by doing Y&lt;/a&gt; 基于项目学习编程知识&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://exercism.org/tracks&#34;&gt;Exercism&lt;/a&gt; 在线练习编程语言&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dute.org/weird-fonts&#34;&gt;怪异英文生成器&lt;/a&gt; 生成比较好看的英文字体，支持复制粘贴&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://colorhunt.co/&#34;&gt;Color Hunt&lt;/a&gt; 设计师和艺术家的调色板&lt;/li&gt;
@@ -39256,10 +39259,8 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;h1 id=&#34;movies&#34;&gt;Movies&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;http://www.wsscsc.com/play/26699-1-1.html&#34;&gt;海洋之歌&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 狼行者&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=oe_JogMlDDw&amp;amp;t=2517s&#34;&gt;凯尔经的秘密&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 狐狸与我&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 白日梦想家&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.olevod.com/index.php/vod/play/id/23227/sid/1/nid/1.html&#34;&gt;狼行者&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;outdoor&#34;&gt;Outdoor&lt;/h1&gt;
 &lt;h2 id=&#34;入门指南&#34;&gt;入门指南&lt;/h2&gt;
@@ -39311,34 +39312,12 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/1103935173?spm_id_from=333.337.0.0&#34;&gt;集思屋&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/10698584?spm_id_from=333.337.0.0&#34;&gt;唠点历史&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/23947287/?spm_id_from=333.999.0.0&#34;&gt;小约翰可汗&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/519872016/?spm_id_from=333.999.0.0&#34;&gt;历史调研室&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;outdoor-1&#34;&gt;Outdoor&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/5682935&#34;&gt;登山者Black&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/480567097/?spm_id_from=333.999.0.0&#34;&gt;Mew_喵喵&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/697166795&#34;&gt;徐云流浪中国&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;cartoon&#34;&gt;Cartoon&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/19258940/?spm_id_from=333.999.0.0&#34;&gt;chissy&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;sport&#34;&gt;Sport&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/497902760?spm_id_from=333.337.0.0&#34;&gt;大李不王&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;movies-1&#34;&gt;Movies&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/21837784&#34;&gt;阿斗归来了&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/10119428/video&#34;&gt;小片片说大片&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/624052719/?spm_id_from=333.999.0.0&#34;&gt;切片计划&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/17819768/?spm_id_from=333.999.0.0&#34;&gt;电影最TOP&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;萌娃&#34;&gt;萌娃&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/506397152/?spm_id_from=333.999.0.0&#34;&gt;蹦蹦和蜜糖&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/37018985/?spm_id_from=333.999.0.0&#34;&gt;蹦蹦和蜜糖的老爸&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;收藏夹&#34;&gt;收藏夹&lt;/h2&gt;
 &lt;ol&gt;
@@ -39352,6 +39331,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;&lt;a href=&#34;https://www.buzzing.cc/&#34;&gt;Buzzing&lt;/a&gt; 国外社交媒体聚合热榜 中文标题&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/&#34;&gt;HackerNews&lt;/a&gt; 技术热点话题 新闻社区&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://meta.appinn.net/&#34;&gt;小众软件论坛&lt;/a&gt; 分享免费、小巧、有趣、实用软件&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codenews.cc/&#34;&gt;CodeNews&lt;/a&gt; 一个专注于【技术发明创造】交流的社区&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="cs">CS</h1>
@@ -39447,6 +39427,7 @@ docker rm CONTAINER_NAME # 删除容器
 <hr>
 <h1 id="tools">Tools</h1>
 <ul>
+<li><a href="https://aquadzn.github.io/learn-x-by-doing-y/">Learning X by doing Y</a> 基于项目学习编程知识</li>
 <li><a href="https://exercism.org/tracks">Exercism</a> 在线练习编程语言</li>
 <li><a href="https://www.dute.org/weird-fonts">怪异英文生成器</a> 生成比较好看的英文字体，支持复制粘贴</li>
 <li><a href="https://colorhunt.co/">Color Hunt</a> 设计师和艺术家的调色板</li>
@@ -39455,10 +39436,8 @@ docker rm CONTAINER_NAME # 删除容器
 <h1 id="movies">Movies</h1>
 <ul>
 <li><input checked="" disabled="" type="checkbox"> <a href="http://www.wsscsc.com/play/26699-1-1.html">海洋之歌</a></li>
-<li><input disabled="" type="checkbox"> 狼行者</li>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.youtube.com/watch?v=oe_JogMlDDw&amp;t=2517s">凯尔经的秘密</a></li>
-<li><input disabled="" type="checkbox"> 狐狸与我</li>
-<li><input disabled="" type="checkbox"> 白日梦想家</li>
+<li><input disabled="" type="checkbox"> <a href="https://www.olevod.com/index.php/vod/play/id/23227/sid/1/nid/1.html">狼行者</a></li>
 </ul>
 <h1 id="outdoor">Outdoor</h1>
 <h2 id="入门指南">入门指南</h2>
@@ -39510,34 +39489,12 @@ docker rm CONTAINER_NAME # 删除容器
 <ol>
 <li><a href="https://space.bilibili.com/1103935173?spm_id_from=333.337.0.0">集思屋</a></li>
 <li><a href="https://space.bilibili.com/10698584?spm_id_from=333.337.0.0">唠点历史</a></li>
-<li><a href="https://space.bilibili.com/23947287/?spm_id_from=333.999.0.0">小约翰可汗</a></li>
-<li><a href="https://space.bilibili.com/519872016/?spm_id_from=333.999.0.0">历史调研室</a></li>
 </ol>
 <h3 id="outdoor-1">Outdoor</h3>
 <ol>
 <li><a href="https://space.bilibili.com/5682935">登山者Black</a></li>
 <li><a href="https://space.bilibili.com/480567097/?spm_id_from=333.999.0.0">Mew_喵喵</a></li>
 <li><a href="https://space.bilibili.com/697166795">徐云流浪中国</a></li>
-</ol>
-<h3 id="cartoon">Cartoon</h3>
-<ol>
-<li><a href="https://space.bilibili.com/19258940/?spm_id_from=333.999.0.0">chissy</a></li>
-</ol>
-<h3 id="sport">Sport</h3>
-<ol>
-<li><a href="https://space.bilibili.com/497902760?spm_id_from=333.337.0.0">大李不王</a></li>
-</ol>
-<h3 id="movies-1">Movies</h3>
-<ol>
-<li><a href="https://space.bilibili.com/21837784">阿斗归来了</a></li>
-<li><a href="https://space.bilibili.com/10119428/video">小片片说大片</a></li>
-<li><a href="https://space.bilibili.com/624052719/?spm_id_from=333.999.0.0">切片计划</a></li>
-<li><a href="https://space.bilibili.com/17819768/?spm_id_from=333.999.0.0">电影最TOP</a></li>
-</ol>
-<h3 id="萌娃">萌娃</h3>
-<ol>
-<li><a href="https://space.bilibili.com/506397152/?spm_id_from=333.999.0.0">蹦蹦和蜜糖</a></li>
-<li><a href="https://space.bilibili.com/37018985/?spm_id_from=333.999.0.0">蹦蹦和蜜糖的老爸</a></li>
 </ol>
 <h2 id="收藏夹">收藏夹</h2>
 <ol>
@@ -39551,6 +39508,7 @@ docker rm CONTAINER_NAME # 删除容器
 <li><a href="https://www.buzzing.cc/">Buzzing</a> 国外社交媒体聚合热榜 中文标题</li>
 <li><a href="https://news.ycombinator.com/">HackerNews</a> 技术热点话题 新闻社区</li>
 <li><a href="https://meta.appinn.net/">小众软件论坛</a> 分享免费、小巧、有趣、实用软件</li>
+<li><a href="https://codenews.cc/">CodeNews</a> 一个专注于【技术发明创造】交流的社区</li>
 </ul>
 ]]></content:encoded>
     </item>
