@@ -13,7 +13,7 @@
       <pubDate>Mon, 02 Jan 2023 06:24:24 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-01-02/</guid>
-      <description>COROS 2022 年度报告</description>
+      <description>2022 COROS 年度报告</description>
       <content:encoded><![CDATA[<p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/02/63b20a926b0da.jpg">
@@ -38268,9 +38268,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;THINK INDEPENDENTLY&lt;/li&gt;
 &lt;li&gt;LESS IS MORE&lt;/li&gt;
 &lt;li&gt;DOING AND READING&lt;/li&gt;
-&lt;li&gt;背书一定要大声读出来&lt;/li&gt;
 &lt;li&gt;学习三部曲：WHAT HOW WHY&lt;/li&gt;
-&lt;li&gt;不要担心错过某条消息——会被你错过的消息，多半不重要，不看也罢；真正重要的消息，你自然不会错过。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;motto&#34;&gt;Motto&lt;/h1&gt;
 &lt;ol&gt;
@@ -38291,7 +38289,16 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Hugo &amp;amp; GitHub Pages &amp;amp; Twikoo&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Theme：PaperMod&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Tool：Obsidian&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;obsidian-工作流&#34;&gt;Obsidian 工作流&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;打开 &lt;code&gt;Obsidian&lt;/code&gt; 编辑器，通过 &lt;code&gt;ctrl + a&lt;/code&gt; 快捷键创建新博客&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl + d&lt;/code&gt;：删除当前文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl + t&lt;/code&gt;：打开新标签页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl + w&lt;/code&gt;：关闭当前标签页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl + o&lt;/code&gt;：切换或创建文件&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;各页面简介&#34;&gt;各页面简介&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Home：联系方式 &amp;amp; 文章&lt;/code&gt;&lt;/li&gt;
@@ -38305,6 +38312,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/&#34;&gt;Sulv&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://333rd.net/&#34;&gt;3rd&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://shaohanyun.top/&#34;&gt;田少晗的个人博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/&#34;&gt;Hugo 博客写作最佳实践&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;warofwarlockhttpsgithubcomxancodingwarofwarlock&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/WarOfWarlock&#34;&gt;WarOfWarlock&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;搭建工具-1&#34;&gt;搭建工具&lt;/h3&gt;
@@ -38742,9 +38750,7 @@ docker rm CONTAINER_NAME # 删除容器
 <li>THINK INDEPENDENTLY</li>
 <li>LESS IS MORE</li>
 <li>DOING AND READING</li>
-<li>背书一定要大声读出来</li>
 <li>学习三部曲：WHAT HOW WHY</li>
-<li>不要担心错过某条消息——会被你错过的消息，多半不重要，不看也罢；真正重要的消息，你自然不会错过。</li>
 </ol>
 <h1 id="motto">Motto</h1>
 <ol>
@@ -38765,7 +38771,16 @@ docker rm CONTAINER_NAME # 删除容器
 <ul>
 <li><code>Hugo &amp; GitHub Pages &amp; Twikoo</code></li>
 <li><code>Theme：PaperMod</code></li>
+<li><code>Tool：Obsidian</code></li>
 </ul>
+<h3 id="obsidian-工作流">Obsidian 工作流</h3>
+<ol>
+<li>打开 <code>Obsidian</code> 编辑器，通过 <code>ctrl + a</code> 快捷键创建新博客</li>
+<li><code>ctrl + d</code>：删除当前文件</li>
+<li><code>ctrl + t</code>：打开新标签页</li>
+<li><code>ctrl + w</code>：关闭当前标签页</li>
+<li><code>ctrl + o</code>：切换或创建文件</li>
+</ol>
 <h3 id="各页面简介">各页面简介</h3>
 <ul>
 <li><code>Home：联系方式 &amp; 文章</code></li>
@@ -38779,6 +38794,7 @@ docker rm CONTAINER_NAME # 删除容器
 <li><a href="https://www.sulvblog.cn/">Sulv&rsquo;s Blog</a></li>
 <li><a href="https://333rd.net/">3rd&rsquo;s Blog</a></li>
 <li><a href="https://shaohanyun.top/">田少晗的个人博客</a></li>
+<li><a href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/">Hugo 博客写作最佳实践</a></li>
 </ul>
 <h2 id="warofwarlockhttpsgithubcomxancodingwarofwarlock"><a href="https://github.com/Xancoding/WarOfWarlock">WarOfWarlock</a></h2>
 <h3 id="搭建工具-1">搭建工具</h3>
