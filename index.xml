@@ -38289,15 +38289,23 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Hugo &amp;amp; GitHub Pages &amp;amp; Twikoo&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Theme：PaperMod&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Tool：Obsidian&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Tool：Obsidian &amp;amp; Git Bash&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;obsidian-工作流&#34;&gt;Obsidian 工作流&lt;/h3&gt;
+&lt;h3 id=&#34;tool-常用操作&#34;&gt;Tool 常用操作&lt;/h3&gt;
+&lt;h4 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;打开 &lt;code&gt;Obsidian&lt;/code&gt; 编辑器，通过 &lt;code&gt;ctrl + a&lt;/code&gt; 快捷键创建新博客&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ctrl + d&lt;/code&gt;：删除当前文件&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ctrl + t&lt;/code&gt;：打开新标签页&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ctrl + w&lt;/code&gt;：关闭当前标签页&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ctrl + o&lt;/code&gt;：切换或创建文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;git-bash&#34;&gt;Git Bash&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;在博客所在文件夹启动 &lt;code&gt;Git Bash&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;source commit.sh&lt;/code&gt;：将博客文件上传至 &lt;code&gt;GitHub&lt;/code&gt; 仓库&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;source up.sh&lt;/code&gt;：编译静态网站文件，上传至 &lt;code&gt;GitHub&lt;/code&gt; 仓库&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo serve&lt;/code&gt;：在本地查看博客网站，使用浏览器访问 &lt;code&gt;http://localhost:1313/&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;各页面简介&#34;&gt;各页面简介&lt;/h3&gt;
 &lt;ul&gt;
@@ -38771,15 +38779,23 @@ docker rm CONTAINER_NAME # 删除容器
 <ul>
 <li><code>Hugo &amp; GitHub Pages &amp; Twikoo</code></li>
 <li><code>Theme：PaperMod</code></li>
-<li><code>Tool：Obsidian</code></li>
+<li><code>Tool：Obsidian &amp; Git Bash</code></li>
 </ul>
-<h3 id="obsidian-工作流">Obsidian 工作流</h3>
+<h3 id="tool-常用操作">Tool 常用操作</h3>
+<h4 id="obsidian">Obsidian</h4>
 <ol>
 <li>打开 <code>Obsidian</code> 编辑器，通过 <code>ctrl + a</code> 快捷键创建新博客</li>
 <li><code>ctrl + d</code>：删除当前文件</li>
 <li><code>ctrl + t</code>：打开新标签页</li>
 <li><code>ctrl + w</code>：关闭当前标签页</li>
 <li><code>ctrl + o</code>：切换或创建文件</li>
+</ol>
+<h4 id="git-bash">Git Bash</h4>
+<ol>
+<li>在博客所在文件夹启动 <code>Git Bash</code></li>
+<li><code>source commit.sh</code>：将博客文件上传至 <code>GitHub</code> 仓库</li>
+<li><code>source up.sh</code>：编译静态网站文件，上传至 <code>GitHub</code> 仓库</li>
+<li><code>hugo serve</code>：在本地查看博客网站，使用浏览器访问 <code>http://localhost:1313/</code></li>
 </ol>
 <h3 id="各页面简介">各页面简介</h3>
 <ul>
