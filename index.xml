@@ -38287,7 +38287,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;h2 id=&#34;bloghttpsgithubcomxancodingblog&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/Blog&#34;&gt;Blog&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;搭建工具&#34;&gt;搭建工具&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Hugo &amp;amp; GitHub Pages &amp;amp; Twikoo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Hugo &amp;amp; GitHub Pages &amp;amp; GitHub Action &amp;amp; Twikoo&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Theme：PaperMod&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Tool：Obsidian &amp;amp; Git Bash&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -38314,6 +38314,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;&lt;a href=&#34;https://333rd.net/&#34;&gt;3rd&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://shaohanyun.top/&#34;&gt;田少晗的个人博客&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/&#34;&gt;Hugo 博客写作最佳实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/&#34;&gt;Hugo + GitHub Action，搭建你的博客自动发布系统&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;warofwarlockhttpsgithubcomxancodingwarofwarlock&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/WarOfWarlock&#34;&gt;WarOfWarlock&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;搭建工具-1&#34;&gt;搭建工具&lt;/h3&gt;
@@ -38770,7 +38771,7 @@ docker rm CONTAINER_NAME # 删除容器
 <h2 id="bloghttpsgithubcomxancodingblog"><a href="https://github.com/Xancoding/Blog">Blog</a></h2>
 <h3 id="搭建工具">搭建工具</h3>
 <ul>
-<li><code>Hugo &amp; GitHub Pages &amp; Twikoo</code></li>
+<li><code>Hugo &amp; GitHub Pages &amp; GitHub Action &amp; Twikoo</code></li>
 <li><code>Theme：PaperMod</code></li>
 <li><code>Tool：Obsidian &amp; Git Bash</code></li>
 </ul>
@@ -38797,6 +38798,7 @@ docker rm CONTAINER_NAME # 删除容器
 <li><a href="https://333rd.net/">3rd&rsquo;s Blog</a></li>
 <li><a href="https://shaohanyun.top/">田少晗的个人博客</a></li>
 <li><a href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/">Hugo 博客写作最佳实践</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a></li>
 </ul>
 <h2 id="warofwarlockhttpsgithubcomxancodingwarofwarlock"><a href="https://github.com/Xancoding/WarOfWarlock">WarOfWarlock</a></h2>
 <h3 id="搭建工具-1">搭建工具</h3>
