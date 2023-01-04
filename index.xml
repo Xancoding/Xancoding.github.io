@@ -38476,6 +38476,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 飞影PB 国庆配色 260mm —— 闲鱼 450元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Nike React Infinity Run 白蓝 260mm —— 闲鱼 271元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 锐步 Energy3 260mm —— 闲鱼 450元&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 必迈 紧身衣裤&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;outdoor&#34;&gt;Outdoor&lt;/h2&gt;
 &lt;ul&gt;
@@ -38960,6 +38961,7 @@ docker rm CONTAINER_NAME # 删除容器
 <li><input checked="" disabled="" type="checkbox"> 飞影PB 国庆配色 260mm —— 闲鱼 450元</li>
 <li><input checked="" disabled="" type="checkbox"> Nike React Infinity Run 白蓝 260mm —— 闲鱼 271元</li>
 <li><input checked="" disabled="" type="checkbox"> 锐步 Energy3 260mm —— 闲鱼 450元</li>
+<li><input disabled="" type="checkbox"> 必迈 紧身衣裤</li>
 </ul>
 <h2 id="outdoor">Outdoor</h2>
 <ul>
