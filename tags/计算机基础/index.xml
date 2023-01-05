@@ -1239,9 +1239,9 @@ add ax, ax
 &lt;li&gt;&lt;a href=&#34;https://tinylab.org/assembly/&#34;&gt;《汇编语言 王爽著》课后实验参考答案&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验一&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验二&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验三&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验四&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验二&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验三&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验四&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验五&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -1485,9 +1485,9 @@ add ax, ax
 <li><a href="https://tinylab.org/assembly/">《汇编语言 王爽著》课后实验参考答案</a>
 <ul>
 <li><input checked="" disabled="" type="checkbox"> 实验一</li>
-<li><input checked="" disabled="" type="checkbox"> 实验二</li>
-<li><input checked="" disabled="" type="checkbox"> 实验三</li>
-<li><input checked="" disabled="" type="checkbox"> 实验四</li>
+<li><input disabled="" type="checkbox"> 实验二</li>
+<li><input disabled="" type="checkbox"> 实验三</li>
+<li><input disabled="" type="checkbox"> 实验四</li>
 <li><input disabled="" type="checkbox"> 实验五</li>
 </ul>
 </li>
