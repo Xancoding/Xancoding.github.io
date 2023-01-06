@@ -1353,7 +1353,7 @@ mov sp,0000H
 &lt;/div&gt;
 
 &lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验四
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验四
 （2）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
@@ -1737,7 +1737,7 @@ mov sp,0000H
 </div>
 
 </li>
-<li><input disabled="" type="checkbox"> 实验四
+<li><input checked="" disabled="" type="checkbox"> 实验四
 （2）</li>
 </ul>
 <pre tabindex="0"><code>assume cs:code
