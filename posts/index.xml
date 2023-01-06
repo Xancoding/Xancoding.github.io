@@ -1970,7 +1970,7 @@ code segment
 	mov ax, 0020h
 	mov es, ax
 	mov bx, 0
-	mov cx, 16H
+	mov cx, 17
   s:
 	mov al, [bx]
     mov es:[bx], al
@@ -2354,7 +2354,7 @@ code segment
 	mov ax, 0020h
 	mov es, ax
 	mov bx, 0
-	mov cx, 16H
+	mov cx, 17
   s:
 	mov al, [bx]
     mov es:[bx], al
