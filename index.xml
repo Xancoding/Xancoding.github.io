@@ -1965,12 +1965,12 @@ end
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
 code segment
 
-	mov ax, cs
+	mov ax, code
 	mov ds, ax
 	mov ax, 0020h
 	mov es, ax
 	mov bx, 0
-	mov cx, 17H
+	mov cx, 16H
   s:
 	mov al, [bx]
     mov es:[bx], al
@@ -2349,12 +2349,12 @@ end
 <pre tabindex="0"><code>assume cs:code
 code segment
 
-	mov ax, cs
+	mov ax, code
 	mov ds, ax
 	mov ax, 0020h
 	mov es, ax
 	mov bx, 0
-	mov cx, 17H
+	mov cx, 16H
   s:
 	mov al, [bx]
     mov es:[bx], al
