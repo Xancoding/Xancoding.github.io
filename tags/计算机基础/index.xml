@@ -1355,7 +1355,8 @@ s:  mov ds:[bx], bx   ;((ds) * 16 + bx)) = bx
 code ends
 
 end
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;（3）&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验五&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
@@ -1719,7 +1720,8 @@ s:  mov ds:[bx], bx   ;((ds) * 16 + bx)) = bx
 code ends
 
 end
-</code></pre><ul>
+</code></pre><p>（3）</p>
+<pre tabindex="0"><code></code></pre><ul>
 <li><input disabled="" type="checkbox"> 实验五</li>
 </ul>
 <h1 id="推荐阅读">推荐阅读</h1>
