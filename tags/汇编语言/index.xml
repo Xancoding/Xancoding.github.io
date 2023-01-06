@@ -113,38 +113,8 @@ mov sp,0000H
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验一&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验二&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验三&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;（2）&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;指令&lt;/th&gt;
-&lt;th&gt;CS&lt;/th&gt;
-&lt;th&gt;IP&lt;/th&gt;
-&lt;th&gt;DS&lt;/th&gt;
-&lt;th&gt;SS&lt;/th&gt;
-&lt;th&gt;SP&lt;/th&gt;
-&lt;th&gt;AX&lt;/th&gt;
-&lt;th&gt;BX&lt;/th&gt;
-&lt;th&gt;栈顶&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;mov ax, 2000H&lt;/td&gt;
-&lt;td&gt;076AH&lt;/td&gt;
-&lt;td&gt;0003H&lt;/td&gt;
-&lt;td&gt;075AH&lt;/td&gt;
-&lt;td&gt;0769H&lt;/td&gt;
-&lt;td&gt;0000H&lt;/td&gt;
-&lt;td&gt;2000H&lt;/td&gt;
-&lt;td&gt;0000H&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;（3）PSP 的内容
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验三
+（3）PSP 的内容
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/06/63b7de3f90329.png&#34;&gt;
@@ -152,9 +122,32 @@ mov sp,0000H
 &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验四&lt;/li&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验四
+（2）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
+
+code segment
+
+	mov ax, 0020H
+	mov ds, ax        ;(ds) = 0020H 
+
+	mov bx, 0         ;ds:bx 指向 0020:0，即 0:200
+
+	mov cx, 40H       ;循环 64 次
+
+s:  mov ds:[bx], bx   ;((ds) * 16 + bx)) = bx
+	inc bx
+	loop s
+
+	mov ax, 4c00h
+	int 21h
+
+code ends
+
+end
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验五&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
@@ -484,38 +477,8 @@ mov sp,0000H
 <ul>
 <li><input checked="" disabled="" type="checkbox"> 实验一</li>
 <li><input checked="" disabled="" type="checkbox"> 实验二</li>
-<li><input checked="" disabled="" type="checkbox"> 实验三</li>
-</ul>
-<p>（2）</p>
-<table>
-<thead>
-<tr>
-<th>指令</th>
-<th>CS</th>
-<th>IP</th>
-<th>DS</th>
-<th>SS</th>
-<th>SP</th>
-<th>AX</th>
-<th>BX</th>
-<th>栈顶</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>mov ax, 2000H</td>
-<td>076AH</td>
-<td>0003H</td>
-<td>075AH</td>
-<td>0769H</td>
-<td>0000H</td>
-<td>2000H</td>
-<td>0000H</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>（3）PSP 的内容
+<li><input checked="" disabled="" type="checkbox"> 实验三
+（3）PSP 的内容
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/06/63b7de3f90329.png">
@@ -523,9 +486,32 @@ mov sp,0000H
 </a>
 </div>
 
-</p>
-<ul>
-<li><input disabled="" type="checkbox"> 实验四</li>
+</li>
+<li><input disabled="" type="checkbox"> 实验四
+（2）</li>
+</ul>
+<pre tabindex="0"><code>assume cs:code
+
+code segment
+
+	mov ax, 0020H
+	mov ds, ax        ;(ds) = 0020H 
+
+	mov bx, 0         ;ds:bx 指向 0020:0，即 0:200
+
+	mov cx, 40H       ;循环 64 次
+
+s:  mov ds:[bx], bx   ;((ds) * 16 + bx)) = bx
+	inc bx
+	loop s
+
+	mov ax, 4c00h
+	int 21h
+
+code ends
+
+end
+</code></pre><ul>
 <li><input disabled="" type="checkbox"> 实验五</li>
 </ul>
 <h1 id="推荐阅读">推荐阅读</h1>
