@@ -1839,8 +1839,10 @@ add ax, ax
 add ax, ax
 add ax, ax
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点31&#34;&gt;检测点3.1&lt;/h2&gt;
-&lt;p&gt;（2）
-1.&lt;/p&gt;
+&lt;p&gt;（2）&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mov ax,6622H
 jmp 0ff0:0100
 mov ax,2000H
@@ -2159,8 +2161,10 @@ add ax, ax
 add ax, ax
 add ax, ax
 </code></pre><h2 id="检测点31">检测点3.1</h2>
-<p>（2）
-1.</p>
+<p>（2）</p>
+<ol>
+<li></li>
+</ol>
 <pre tabindex="0"><code>mov ax,6622H
 jmp 0ff0:0100
 mov ax,2000H
