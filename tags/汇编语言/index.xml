@@ -260,8 +260,8 @@ stack segment
 stack ends
 
 end start
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;（4）都能执行，但只有程序(3)可以正确执行，因为程序 加载后会从程序第一个单元开始执行，但只有（3）中的code段在程序 的开始位置，所以所以只有(3)中的程序 是可以正确执行的
-（5）&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;（4）&lt;strong&gt;都能执行，但只有程序 3 可以正确执行，因为程序 加载后会从程序第一个单元开始执行，但只有 3 中的code段在程序 的开始位置，所以所以只有 3 中的程序 是可以正确执行的&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（5）&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
 
 a segment 
@@ -278,7 +278,7 @@ c ends
 
 code segment 
 
-start: 
+start:                           ; 由于push与pop指令只对字操作，而这里要操作的是字节，所以不能用push和pop传送数据
 		mov ax, a
 		mov ds, ax               ; ds定位到a段
 
@@ -291,7 +291,7 @@ start:
 		mov dl, ds:[bx]
 		add dl, es:[bx]
 		mov ds:[bx+32], dl       ; 将dl的数值传送到c段的偏移位置
-                                 ; 由于push与pop指令只对字操作，而这里要操作的是字节，所以不能用push和pop传送数据
+                                 
 		inc bx
 		loop s
 
@@ -366,12 +366,12 @@ codesg segment
 			mov si, 0                ; 每一行中元素的下标，相当于数组的下标
 			mov cx, 4                ; cx 设置内层循环的次数
 
-			s: 
-				mov al, [bx+3+si]    
-				and al, 11011111b    ; 将 al 中的 ASCII 码的第 5 位置为 0，小写字母变为大写字母
-				mov [bx+3+si], al 
-				inc si               ; si 加 1，指向下一个字母
-				loop s 
+		s: 
+			mov al, [bx+3+si]    
+			and al, 11011111b        ; 将 al 中的 ASCII 码的第 5 位置为 0，小写字母变为大写字母
+			mov [bx+3+si], al 
+			inc si                   ; si 加 1，指向下一个字母
+			loop s 
 
 			add bx, 16
 			pop cx                   ; 从栈顶弹出原 cx 的值，恢复 cx
@@ -858,8 +858,8 @@ stack segment
 stack ends
 
 end start
-</code></pre><p>（4）都能执行，但只有程序(3)可以正确执行，因为程序 加载后会从程序第一个单元开始执行，但只有（3）中的code段在程序 的开始位置，所以所以只有(3)中的程序 是可以正确执行的
-（5）</p>
+</code></pre><p>（4）<strong>都能执行，但只有程序 3 可以正确执行，因为程序 加载后会从程序第一个单元开始执行，但只有 3 中的code段在程序 的开始位置，所以所以只有 3 中的程序 是可以正确执行的</strong></p>
+<p>（5）</p>
 <pre tabindex="0"><code>assume cs:code
 
 a segment 
@@ -876,7 +876,7 @@ c ends
 
 code segment 
 
-start: 
+start:                           ; 由于push与pop指令只对字操作，而这里要操作的是字节，所以不能用push和pop传送数据
 		mov ax, a
 		mov ds, ax               ; ds定位到a段
 
@@ -889,7 +889,7 @@ start:
 		mov dl, ds:[bx]
 		add dl, es:[bx]
 		mov ds:[bx+32], dl       ; 将dl的数值传送到c段的偏移位置
-                                 ; 由于push与pop指令只对字操作，而这里要操作的是字节，所以不能用push和pop传送数据
+                                 
 		inc bx
 		loop s
 
@@ -964,12 +964,12 @@ codesg segment
 			mov si, 0                ; 每一行中元素的下标，相当于数组的下标
 			mov cx, 4                ; cx 设置内层循环的次数
 
-			s: 
-				mov al, [bx+3+si]    
-				and al, 11011111b    ; 将 al 中的 ASCII 码的第 5 位置为 0，小写字母变为大写字母
-				mov [bx+3+si], al 
-				inc si               ; si 加 1，指向下一个字母
-				loop s 
+		s: 
+			mov al, [bx+3+si]    
+			and al, 11011111b        ; 将 al 中的 ASCII 码的第 5 位置为 0，小写字母变为大写字母
+			mov [bx+3+si], al 
+			inc si                   ; si 加 1，指向下一个字母
+			loop s 
 
 			add bx, 16
 			pop cx                   ; 从栈顶弹出原 cx 的值，恢复 cx
