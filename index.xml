@@ -2016,6 +2016,38 @@ start:
 code ends
 
 end start
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;（2）&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code, ds:data, ss:stack
+
+data segment 
+		dw 0123H, 0456H
+data ends
+
+stack segment 
+		dw 0, 0
+stack ends
+
+code segment 
+
+start: 
+		mov ax, stack 
+		mov ss, ax
+		mov sp, 16
+		
+		mov ax, data
+		mov ds, ax
+
+		push ds:[0]
+		push ds:[2]
+		pop ds:[2]
+		pop ds:[0]
+
+		mov ax, 4c00h 
+		int 21h
+
+code ends
+
+end start
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Gf4y1w75t/?vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;Win10下配置汇编语言 （王爽）实验环境&lt;/a&gt;&lt;/li&gt;
@@ -2409,6 +2441,38 @@ data ends
 
 stack segment 
 		dw 0, 0, 0, 0, 0, 0, 0, 0
+stack ends
+
+code segment 
+
+start: 
+		mov ax, stack 
+		mov ss, ax
+		mov sp, 16
+		
+		mov ax, data
+		mov ds, ax
+
+		push ds:[0]
+		push ds:[2]
+		pop ds:[2]
+		pop ds:[0]
+
+		mov ax, 4c00h 
+		int 21h
+
+code ends
+
+end start
+</code></pre><p>（2）</p>
+<pre tabindex="0"><code>assume cs:code, ds:data, ss:stack
+
+data segment 
+		dw 0123H, 0456H
+data ends
+
+stack segment 
+		dw 0, 0
 stack ends
 
 code segment 
