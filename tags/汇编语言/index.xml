@@ -109,12 +109,9 @@ mov sp,0010H
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mov ax,1000H 
 mov ss,ax
 mov sp,0000H 
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验&#34;&gt;课后实验&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验一&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验二&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验三
-（3）PSP 的内容
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
+&lt;h2 id=&#34;实验三&#34;&gt;实验三&lt;/h2&gt;
+&lt;p&gt;（3）PSP 的内容
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/06/63b7de3f90329.png&#34;&gt;
@@ -122,10 +119,9 @@ mov sp,0000H
 &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验四
-（2）&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;实验四&#34;&gt;实验四&lt;/h2&gt;
+&lt;p&gt;（2）&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
 
 code segment
@@ -167,10 +163,8 @@ code segment
 
 code ends
 end
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 实验五
-（1）&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;实验五&#34;&gt;实验五&lt;/h2&gt;
+&lt;p&gt;（1）&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code, ds:data, ss:stack
 
 data segment 
@@ -307,7 +301,42 @@ start:
 code ends
 
 end start
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;（6）&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
+
+a segment 
+	dw 1, 2, 3, 4, 5, 6, 7, 8, 9, 0ah, 0bh, 0ch, 0dh, 0ch, 0dh, 0eh, 0fh, 0ffh
+a ends
+
+b segment 
+	dw 0, 0, 0, 0, 0, 0, 0, 0
+b ends
+
+code segment 
+
+start:
+		mov ax, a
+		mov ds, ax
+
+		mov ax, b
+		mov ss, ax
+		mov sp, 10h
+
+		mov bx, 0
+		mov cx, 8
+
+	s:
+		push [bx]
+		add bx, 2
+		loop s
+
+		mov ax, 4c00h 
+		int 21h
+code ends
+
+end start 
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;实验六&#34;&gt;实验六&lt;/h2&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Gf4y1w75t/?vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;Win10下配置汇编语言 （王爽）实验环境&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/sanmianti/AssemblyLanguageTest/blob/master/%E3%80%8A%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E3%80%8B%E7%AC%AC%E4%B8%89%E7%89%88%E6%A3%80%E6%B5%8B%E7%82%B9%E7%AD%94%E6%A1%88.md&#34;&gt;《汇编语言》第三版检测点答案&lt;/a&gt;&lt;/li&gt;
@@ -630,12 +659,9 @@ mov sp,0010H
 <pre tabindex="0"><code>mov ax,1000H 
 mov ss,ax
 mov sp,0000H 
-</code></pre><h1 id="课后实验">课后实验</h1>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> 实验一</li>
-<li><input checked="" disabled="" type="checkbox"> 实验二</li>
-<li><input checked="" disabled="" type="checkbox"> 实验三
-（3）PSP 的内容
+</code></pre><h1 id="课后实验部分">课后实验（部分）</h1>
+<h2 id="实验三">实验三</h2>
+<p>（3）PSP 的内容
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/06/63b7de3f90329.png">
@@ -643,10 +669,9 @@ mov sp,0000H
 </a>
 </div>
 
-</li>
-<li><input checked="" disabled="" type="checkbox"> 实验四
-（2）</li>
-</ul>
+</p>
+<h2 id="实验四">实验四</h2>
+<p>（2）</p>
 <pre tabindex="0"><code>assume cs:code
 
 code segment
@@ -688,10 +713,8 @@ code segment
 
 code ends
 end
-</code></pre><ul>
-<li><input disabled="" type="checkbox"> 实验五
-（1）</li>
-</ul>
+</code></pre><h2 id="实验五">实验五</h2>
+<p>（1）</p>
 <pre tabindex="0"><code>assume cs:code, ds:data, ss:stack
 
 data segment 
@@ -828,7 +851,42 @@ start:
 code ends
 
 end start
-</code></pre><h1 id="推荐阅读">推荐阅读</h1>
+</code></pre><p>（6）</p>
+<pre tabindex="0"><code>assume cs:code
+
+a segment 
+	dw 1, 2, 3, 4, 5, 6, 7, 8, 9, 0ah, 0bh, 0ch, 0dh, 0ch, 0dh, 0eh, 0fh, 0ffh
+a ends
+
+b segment 
+	dw 0, 0, 0, 0, 0, 0, 0, 0
+b ends
+
+code segment 
+
+start:
+		mov ax, a
+		mov ds, ax
+
+		mov ax, b
+		mov ss, ax
+		mov sp, 10h
+
+		mov bx, 0
+		mov cx, 8
+
+	s:
+		push [bx]
+		add bx, 2
+		loop s
+
+		mov ax, 4c00h 
+		int 21h
+code ends
+
+end start 
+</code></pre><h2 id="实验六">实验六</h2>
+<h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://www.bilibili.com/video/BV1Gf4y1w75t/?vd_source=ae16ff6478eb15c1b87880540263910b">Win10下配置汇编语言 （王爽）实验环境</a></li>
 <li><a href="https://github.com/sanmianti/AssemblyLanguageTest/blob/master/%E3%80%8A%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E3%80%8B%E7%AC%AC%E4%B8%89%E7%89%88%E6%A3%80%E6%B5%8B%E7%82%B9%E7%AD%94%E6%A1%88.md">《汇编语言》第三版检测点答案</a></li>
