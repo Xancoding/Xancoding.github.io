@@ -2085,7 +2085,7 @@ end start
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
 
 a segment 
-		db 1, 2, 3, 4, 5, 6, 7, 8
+		db 1, 2, 3, 4, 5, 6, 7, 8    ; db定义字节单元数据、dw字义字单元数据、dd定义双字单元数据
 a ends
 
 b segment 
@@ -2100,18 +2100,20 @@ code segment
 
 start: 
 		mov ax, a
-		mov ds, a        ; ds定位到a段
+		mov ds, ax               ; ds定位到a段
 
 		mov ax, b
-		mov es, b        ; es定位到b段
+		mov es, ax               ; es定位到b段
 
-		mov bx, 0        ; 偏移地址
-		mov cx, 8        ; 循环次数8次
+		mov bx, 0                ; 偏移地址
+		mov cx, 8                ; 循环次数8次
 	s:  
 		mov dl, ds:[bx]
 		add dl, es:[bx]
-
-		push ds
+		mov ds:[bx+32], dl       ; 将dl的数值传送到c段的偏移位置
+                                 ; 由于push与pop指令只对字操作，而这里要操作的是字节，所以不能用push和pop传送数据
+		inc bx
+		loop s
 
 		mov ax, 4c00h 
 		int 21h
@@ -2604,7 +2606,7 @@ end start
 <pre tabindex="0"><code>assume cs:code
 
 a segment 
-		db 1, 2, 3, 4, 5, 6, 7, 8
+		db 1, 2, 3, 4, 5, 6, 7, 8    ; db定义字节单元数据、dw字义字单元数据、dd定义双字单元数据
 a ends
 
 b segment 
@@ -2619,18 +2621,20 @@ code segment
 
 start: 
 		mov ax, a
-		mov ds, a        ; ds定位到a段
+		mov ds, ax               ; ds定位到a段
 
 		mov ax, b
-		mov es, b        ; es定位到b段
+		mov es, ax               ; es定位到b段
 
-		mov bx, 0        ; 偏移地址
-		mov cx, 8        ; 循环次数8次
+		mov bx, 0                ; 偏移地址
+		mov cx, 8                ; 循环次数8次
 	s:  
 		mov dl, ds:[bx]
 		add dl, es:[bx]
-
-		push ds
+		mov ds:[bx+32], dl       ; 将dl的数值传送到c段的偏移位置
+                                 ; 由于push与pop指令只对字操作，而这里要操作的是字节，所以不能用push和pop传送数据
+		inc bx
+		loop s
 
 		mov ax, 4c00h 
 		int 21h
