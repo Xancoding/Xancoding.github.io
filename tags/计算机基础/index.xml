@@ -1318,7 +1318,7 @@ mov sp,0010H
 mov ss,ax
 mov sp,0000H 
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
-&lt;h2 id=&#34;实验三&#34;&gt;实验三&lt;/h2&gt;
+&lt;h2 id=&#34;实验-3&#34;&gt;实验 3&lt;/h2&gt;
 &lt;p&gt;（3）PSP 的内容
 
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -1328,7 +1328,7 @@ mov sp,0000H
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;实验四&#34;&gt;实验四&lt;/h2&gt;
+&lt;h2 id=&#34;实验-4&#34;&gt;实验 4&lt;/h2&gt;
 &lt;p&gt;（2）&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
 
@@ -1371,7 +1371,7 @@ code segment
 
 code ends
 end
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;实验五&#34;&gt;实验五&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;实验-5&#34;&gt;实验 5&lt;/h2&gt;
 &lt;p&gt;（1）&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code, ds:data, ss:stack
 
@@ -1543,7 +1543,7 @@ start:
 code ends
 
 end start 
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;实验六&#34;&gt;实验六&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;实验-6&#34;&gt;实验 6&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:codesg, ss:stacksg, ds:datasg
 
 stacksg segment 
@@ -1591,7 +1591,7 @@ codesg segment
 codesg ends
 
 end start 
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;实验七&#34;&gt;实验七&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;实验-7&#34;&gt;实验 7&lt;/h2&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Gf4y1w75t/?vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;Win10下配置汇编语言 （王爽）实验环境&lt;/a&gt;&lt;/li&gt;
@@ -1916,7 +1916,7 @@ mov sp,0010H
 mov ss,ax
 mov sp,0000H 
 </code></pre><h1 id="课后实验部分">课后实验（部分）</h1>
-<h2 id="实验三">实验三</h2>
+<h2 id="实验-3">实验 3</h2>
 <p>（3）PSP 的内容
 
 <div class="post-img-view">
@@ -1926,7 +1926,7 @@ mov sp,0000H
 </div>
 
 </p>
-<h2 id="实验四">实验四</h2>
+<h2 id="实验-4">实验 4</h2>
 <p>（2）</p>
 <pre tabindex="0"><code>assume cs:code
 
@@ -1969,7 +1969,7 @@ code segment
 
 code ends
 end
-</code></pre><h2 id="实验五">实验五</h2>
+</code></pre><h2 id="实验-5">实验 5</h2>
 <p>（1）</p>
 <pre tabindex="0"><code>assume cs:code, ds:data, ss:stack
 
@@ -2141,7 +2141,7 @@ start:
 code ends
 
 end start 
-</code></pre><h2 id="实验六">实验六</h2>
+</code></pre><h2 id="实验-6">实验 6</h2>
 <pre tabindex="0"><code>assume cs:codesg, ss:stacksg, ds:datasg
 
 stacksg segment 
@@ -2189,7 +2189,7 @@ codesg segment
 codesg ends
 
 end start 
-</code></pre><h2 id="实验七">实验七</h2>
+</code></pre><h2 id="实验-7">实验 7</h2>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://www.bilibili.com/video/BV1Gf4y1w75t/?vd_source=ae16ff6478eb15c1b87880540263910b">Win10下配置汇编语言 （王爽）实验环境</a></li>
