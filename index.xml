@@ -40211,6 +40211,7 @@ docker rm CONTAINER_NAME # 删除容器
       <guid>https://xancoding.cn/links/</guid>
       <description>&lt;h1 id=&#34;cs&#34;&gt;CS&lt;/h1&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.learncpp.com/&#34;&gt;https://www.learncpp.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/&#34;&gt;CS自学指南&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://xiaolincoding.com/&#34;&gt;小林 x 图解计算机基础&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/linw7/Skill-Tree&#34;&gt;后端开发核心知识&lt;/a&gt;&lt;/li&gt;
@@ -40390,6 +40391,7 @@ docker rm CONTAINER_NAME # 删除容器
 </description>
       <content:encoded><![CDATA[<h1 id="cs">CS</h1>
 <ul>
+<li><a href="https://www.learncpp.com/">https://www.learncpp.com/</a></li>
 <li><a href="https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/">CS自学指南</a></li>
 <li><a href="https://xiaolincoding.com/">小林 x 图解计算机基础</a></li>
 <li><a href="https://github.com/linw7/Skill-Tree">后端开发核心知识</a></li>
