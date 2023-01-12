@@ -5012,7 +5012,8 @@ int main()
 &lt;/ol&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;flags ^= option4; &lt;span style=&#34;color:#007f7f&#34;&gt;// flip option4 from on to off, or vice versa
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;flags ^= (option4 | option5); &lt;span style=&#34;color:#007f7f&#34;&gt;// flip options 4 and 5
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;何时使用普通函数友元函数或成员函数重载运算符&#34;&gt;何时使用普通函数、友元函数或成员函数重载运算符&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;运算符重载&#34;&gt;运算符重载&lt;/h1&gt;
+&lt;h2 id=&#34;何时使用普通函数友元函数或成员函数重载运算符&#34;&gt;何时使用普通函数、友元函数或成员函数重载运算符&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;在处理不修改左操作数的二元运算符（例如 operator+）时，通常首选普通或友元函数版本，因为它适用于所有参数类型（即使左操作数不是类对象，或者是一个不可修改的类）。普通或友元函数版本具有“对称”的额外好处，因为所有操作数都成为显式参数（而不是左操作数成为 &lt;code&gt;*this&lt;/code&gt; 而右操作数成为显式参数）&lt;/li&gt;
 &lt;li&gt;在处理确实修改左操作数的二元运算符时（例如 operator+=），通常首选成员函数版本。在这些情况下，最左边的操作数将始终是类类型，并且让被修改的对象成为 &lt;code&gt;*this&lt;/code&gt; 指向的对象是很自然的。因为最右边的操作数成为一个显式参数，所以不会混淆谁正在修改和谁正在评估&lt;/li&gt;
@@ -5027,6 +5028,52 @@ int main()
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;h2 id=&#34;最小化比较冗余&#34;&gt;最小化比较冗余&lt;/h2&gt;
+&lt;p&gt;也就是说我们只需要实现&lt;code&gt;operator==&lt;/code&gt;和&lt;code&gt;operator&amp;lt;&lt;/code&gt;的逻辑，其他四个比较运算符就可以根据这两个来定义了！这是一个更新的 &lt;code&gt;Cents&lt;/code&gt; 示例，说明了这一点：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#include &amp;lt;iostream&amp;gt;
+
+class Cents
+{
+private:
+    int m_cents;
+
+public:
+    Cents(int cents)
+        : m_cents{ cents }
+    {}
+
+    friend bool operator== (const Cents&amp;amp; c1, const Cents&amp;amp; c2) { return c1.m_cents == c2.m_cents; };
+    friend bool operator!= (const Cents&amp;amp; c1, const Cents&amp;amp; c2) { return !(operator==(c1, c2)); };
+
+    friend bool operator&amp;lt; (const Cents&amp;amp; c1, const Cents&amp;amp; c2) { return c1.m_cents &amp;lt; c2.m_cents; };
+    friend bool operator&amp;gt; (const Cents&amp;amp; c1, const Cents&amp;amp; c2) { return operator&amp;lt;(c2, c1); };
+
+    friend bool operator&amp;lt;= (const Cents&amp;amp; c1, const Cents&amp;amp; c2) { return !(operator&amp;gt;(c1, c2)); };
+    friend bool operator&amp;gt;= (const Cents&amp;amp; c1, const Cents&amp;amp; c2) { return !(operator&amp;lt;(c1, c2)); };
+
+};
+
+int main()
+{
+    Cents dime{ 10 };
+    Cents nickel{ 5 };
+
+    if (nickel &amp;gt; dime)
+        std::cout &amp;lt;&amp;lt; &amp;#34;a nickel is greater than a dime.\n&amp;#34;;
+    if (nickel &amp;gt;= dime)
+        std::cout &amp;lt;&amp;lt; &amp;#34;a nickel is greater than or equal to a dime.\n&amp;#34;;
+    if (nickel &amp;lt; dime)
+        std::cout &amp;lt;&amp;lt; &amp;#34;a dime is greater than a nickel.\n&amp;#34;;
+    if (nickel &amp;lt;= dime)
+        std::cout &amp;lt;&amp;lt; &amp;#34;a dime is greater than or equal to a nickel.\n&amp;#34;;
+    if (nickel == dime)
+        std::cout &amp;lt;&amp;lt; &amp;#34;a dime is equal to a nickel.\n&amp;#34;;
+    if (nickel != dime)
+        std::cout &amp;lt;&amp;lt; &amp;#34;a dime is not equal to a nickel.\n&amp;#34;;
+
+    return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这样，如果我们需要更改某些内容，我们只需要更新 operator== 和 operator&amp;lt; 而不是所有六个比较运算符！&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -6721,7 +6768,8 @@ int main()
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>flags ^= option4; <span style="color:#007f7f">// flip option4 from on to off, or vice versa
 </span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>flags ^= (option4 | option5); <span style="color:#007f7f">// flip options 4 and 5
-</span></span></span></code></pre></div><h1 id="何时使用普通函数友元函数或成员函数重载运算符">何时使用普通函数、友元函数或成员函数重载运算符</h1>
+</span></span></span></code></pre></div><h1 id="运算符重载">运算符重载</h1>
+<h2 id="何时使用普通函数友元函数或成员函数重载运算符">何时使用普通函数、友元函数或成员函数重载运算符</h2>
 <ol>
 <li>在处理不修改左操作数的二元运算符（例如 operator+）时，通常首选普通或友元函数版本，因为它适用于所有参数类型（即使左操作数不是类对象，或者是一个不可修改的类）。普通或友元函数版本具有“对称”的额外好处，因为所有操作数都成为显式参数（而不是左操作数成为 <code>*this</code> 而右操作数成为显式参数）</li>
 <li>在处理确实修改左操作数的二元运算符时（例如 operator+=），通常首选成员函数版本。在这些情况下，最左边的操作数将始终是类类型，并且让被修改的对象成为 <code>*this</code> 指向的对象是很自然的。因为最右边的操作数成为一个显式参数，所以不会混淆谁正在修改和谁正在评估</li>
@@ -6736,6 +6784,52 @@ int main()
 </ol>
 </li>
 </ol>
+<h2 id="最小化比较冗余">最小化比较冗余</h2>
+<p>也就是说我们只需要实现<code>operator==</code>和<code>operator&lt;</code>的逻辑，其他四个比较运算符就可以根据这两个来定义了！这是一个更新的 <code>Cents</code> 示例，说明了这一点：</p>
+<pre tabindex="0"><code>#include &lt;iostream&gt;
+
+class Cents
+{
+private:
+    int m_cents;
+
+public:
+    Cents(int cents)
+        : m_cents{ cents }
+    {}
+
+    friend bool operator== (const Cents&amp; c1, const Cents&amp; c2) { return c1.m_cents == c2.m_cents; };
+    friend bool operator!= (const Cents&amp; c1, const Cents&amp; c2) { return !(operator==(c1, c2)); };
+
+    friend bool operator&lt; (const Cents&amp; c1, const Cents&amp; c2) { return c1.m_cents &lt; c2.m_cents; };
+    friend bool operator&gt; (const Cents&amp; c1, const Cents&amp; c2) { return operator&lt;(c2, c1); };
+
+    friend bool operator&lt;= (const Cents&amp; c1, const Cents&amp; c2) { return !(operator&gt;(c1, c2)); };
+    friend bool operator&gt;= (const Cents&amp; c1, const Cents&amp; c2) { return !(operator&lt;(c1, c2)); };
+
+};
+
+int main()
+{
+    Cents dime{ 10 };
+    Cents nickel{ 5 };
+
+    if (nickel &gt; dime)
+        std::cout &lt;&lt; &#34;a nickel is greater than a dime.\n&#34;;
+    if (nickel &gt;= dime)
+        std::cout &lt;&lt; &#34;a nickel is greater than or equal to a dime.\n&#34;;
+    if (nickel &lt; dime)
+        std::cout &lt;&lt; &#34;a dime is greater than a nickel.\n&#34;;
+    if (nickel &lt;= dime)
+        std::cout &lt;&lt; &#34;a dime is greater than or equal to a nickel.\n&#34;;
+    if (nickel == dime)
+        std::cout &lt;&lt; &#34;a dime is equal to a nickel.\n&#34;;
+    if (nickel != dime)
+        std::cout &lt;&lt; &#34;a dime is not equal to a nickel.\n&#34;;
+
+    return 0;
+}
+</code></pre><p>这样，如果我们需要更改某些内容，我们只需要更新 operator== 和 operator&lt; 而不是所有六个比较运算符！</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
