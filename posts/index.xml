@@ -426,6 +426,14 @@
 &lt;/a&gt;
 &lt;/div&gt;
 
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/12/63bf8c596c307.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/12/63bf8c596c307.png&#34; alt=&#34;task_1045857_1673497609.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
 &lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="准备食材">准备食材</h1>
@@ -458,6 +466,14 @@
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/04/63b53ea29b455.jpg">
 <img src="https://bu.dusays.com/2023/01/04/63b53ea29b455.jpg" alt="8509cbe597e83d161872cf6cce7466f.jpg"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/12/63bf8c596c307.png">
+<img src="https://bu.dusays.com/2023/01/12/63bf8c596c307.png" alt="task_1045857_1673497609.png"  />
 </a>
 </div>
 
