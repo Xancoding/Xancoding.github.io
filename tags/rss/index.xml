@@ -60,7 +60,7 @@
 &lt;/p&gt;
 &lt;p&gt;如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 &lt;a href=&#34;https://www.sumatrapdfreader.org/free-pdf-reader&#34;&gt;Sumatra PDF&lt;/a&gt; 上阅读&lt;/p&gt;
 &lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）&lt;/p&gt;
-&lt;h1 id=&#34;搜索引擎&#34;&gt;搜索引擎&lt;/h1&gt;
+&lt;h1 id=&#34;chatgpt--搜索引擎&#34;&gt;ChatGPT + 搜索引擎&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Chrome（需翻墙） &amp;amp; AdblockPlus &amp;amp; uBlacklist | Personal Blocklist&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;在搜索引擎体验上， Google （强推，体验极佳） &amp;gt; Bing （偶尔用用） &amp;raquo; Baidu （完全不考虑）&lt;/strong&gt;&lt;/li&gt;
@@ -188,7 +188,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;2022-11-14 更新：不知道是为什么，最近一段时间这个插件失效了&lt;/p&gt;
 &lt;h4 id=&#34;personal-blocklist&#34;&gt;Personal Blocklist&lt;/h4&gt;
 &lt;p&gt;使用方法和 &lt;code&gt;uBlacklist&lt;/code&gt; 差不多，目前使用来看效果不错&lt;/p&gt;
-&lt;h1 id=&#34;chatgpt&#34;&gt;chatGPT&lt;/h1&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/349349861&#34;&gt;知道RSS的人越少，我就越希望它能被人知道！&lt;/a&gt;&lt;/li&gt;
@@ -252,7 +252,7 @@
 </p>
 <p>如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 <a href="https://www.sumatrapdfreader.org/free-pdf-reader">Sumatra PDF</a> 上阅读</p>
 <p>不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）</p>
-<h1 id="搜索引擎">搜索引擎</h1>
+<h1 id="chatgpt--搜索引擎">ChatGPT + 搜索引擎</h1>
 <ul>
 <li><code>Chrome（需翻墙） &amp; AdblockPlus &amp; uBlacklist | Personal Blocklist</code></li>
 <li><strong>在搜索引擎体验上， Google （强推，体验极佳） &gt; Bing （偶尔用用） &raquo; Baidu （完全不考虑）</strong></li>
@@ -380,7 +380,7 @@
 </code></pre><p>2022-11-14 更新：不知道是为什么，最近一段时间这个插件失效了</p>
 <h4 id="personal-blocklist">Personal Blocklist</h4>
 <p>使用方法和 <code>uBlacklist</code> 差不多，目前使用来看效果不错</p>
-<h1 id="chatgpt">chatGPT</h1>
+<h3 id="heading"></h3>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/349349861">知道RSS的人越少，我就越希望它能被人知道！</a></li>
