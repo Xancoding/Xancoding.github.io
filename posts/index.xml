@@ -39194,7 +39194,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;p&gt;&lt;strong&gt;整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;rss&#34;&gt;RSS&lt;/h1&gt;
+&lt;h1 id=&#34;博客&#34;&gt;博客&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Inoreader &amp;amp; RSSHub Radar&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -39214,7 +39214,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;p&gt;我使用RSS主要用来订阅我感兴趣的个人博客，我订阅的博客网站在 &lt;code&gt;Links&lt;/code&gt; 页面下的 &lt;a href=&#34;https://xancoding.cn/links/#blogs&#34;&gt;Blog&lt;/a&gt; 那一栏。&lt;/p&gt;
+&lt;p&gt;我通过使用RSS来订阅我感兴趣的个人博客，我订阅的博客网站在 &lt;code&gt;Links&lt;/code&gt; 页面下的 &lt;a href=&#34;https://xancoding.cn/links/#blogs&#34;&gt;Blog&lt;/a&gt; 那一栏。&lt;/p&gt;
 &lt;h1 id=&#34;播客&#34;&gt;播客&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;小宇宙&lt;/code&gt;&lt;/li&gt;
@@ -39385,7 +39385,7 @@ docker rm CONTAINER_NAME # 删除容器
 <p><strong>整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子</strong></p>
 <p><strong>获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息</strong></p>
 </blockquote>
-<h1 id="rss">RSS</h1>
+<h1 id="博客">博客</h1>
 <ul>
 <li><code>Inoreader &amp; RSSHub Radar</code></li>
 </ul>
@@ -39405,7 +39405,7 @@ docker rm CONTAINER_NAME # 删除容器
 </div>
 
 </p>
-<p>我使用RSS主要用来订阅我感兴趣的个人博客，我订阅的博客网站在 <code>Links</code> 页面下的 <a href="https://xancoding.cn/links/#blogs">Blog</a> 那一栏。</p>
+<p>我通过使用RSS来订阅我感兴趣的个人博客，我订阅的博客网站在 <code>Links</code> 页面下的 <a href="https://xancoding.cn/links/#blogs">Blog</a> 那一栏。</p>
 <h1 id="播客">播客</h1>
 <ul>
 <li><code>小宇宙</code></li>
