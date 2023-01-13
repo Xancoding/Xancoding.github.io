@@ -39248,7 +39248,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）&lt;/p&gt;
 &lt;h1 id=&#34;chatgpt--搜索引擎&#34;&gt;ChatGPT + 搜索引擎&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Chrome（需翻墙） &amp;amp; AdblockPlus &amp;amp; uBlacklist | Personal Blocklist&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Chrome（需翻墙） &amp;amp; AdblockPlus &amp;amp; uBlacklist | Personal Blocklist &amp;amp; ChatGPT for Google&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;在搜索引擎体验上， Google （强推，体验极佳） &amp;gt; Bing （偶尔用用） &amp;raquo; Baidu （完全不考虑）&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;chrome-浏览器设置&#34;&gt;Chrome 浏览器设置&lt;/h2&gt;
@@ -39459,7 +39459,7 @@ docker rm CONTAINER_NAME # 删除容器
 <p>不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）</p>
 <h1 id="chatgpt--搜索引擎">ChatGPT + 搜索引擎</h1>
 <ul>
-<li><code>Chrome（需翻墙） &amp; AdblockPlus &amp; uBlacklist | Personal Blocklist</code></li>
+<li><code>Chrome（需翻墙） &amp; AdblockPlus &amp; uBlacklist | Personal Blocklist &amp; ChatGPT for Google</code></li>
 <li><strong>在搜索引擎体验上， Google （强推，体验极佳） &gt; Bing （偶尔用用） &raquo; Baidu （完全不考虑）</strong></li>
 </ul>
 <h2 id="chrome-浏览器设置">Chrome 浏览器设置</h2>
