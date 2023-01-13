@@ -758,7 +758,9 @@
 我的笔记记录工作，都是在 &lt;code&gt;obsidian&lt;/code&gt; 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到&lt;code&gt;github&lt;/code&gt;、编译博客的源文件再发表等等&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;obsidian-插件推荐&#34;&gt;Obsidian 插件推荐&lt;/h3&gt;
-&lt;h4 id=&#34;heading&#34;&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;hypothesis&#34;&gt;Hypothes.is&lt;/h4&gt;
+&lt;p&gt;在日常浏览网页内容时，可以对感兴趣的内容进行高亮批注，并可自动同步到 Obsidian&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://seviche.cc/2022-05-25-hypothesis#1-%E5%AE%89%E8%A3%85-hypothesis-%E6%8F%92%E4%BB%B6&#34;&gt;Hypothesis 使用小记&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;灵感与想法&#34;&gt;灵感与想法&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;flomo 浮墨笔记&lt;/code&gt;
@@ -773,15 +775,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; 
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://seviche.cc/2022-05-25-hypothesis#1-%E5%AE%89%E8%A3%85-hypothesis-%E6%8F%92%E4%BB%B6&#34;&gt;Hypothesis 使用小记&lt;/a&gt; 在网页上高亮批注，并可同步到 Obsidian&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.yuque.com/&#34;&gt;语雀&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/384309878/answer/2713962647&#34;&gt;什么是 Zettelkasten 卡片盒笔记法？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA5MzUzODA1OA==&amp;amp;mid=2247483947&amp;amp;idx=1&amp;amp;sn=2cccb76ee58ddd11541d91c4b283b594&amp;amp;chksm=905d104ea72a9958d71c70313d5a4799641aa903e62f32ac1038ec5fb8c903fc7db36c261d26&amp;amp;scene=178&amp;amp;cur_album_id=1477367917246726144#rd&#34;&gt;卢曼：与卡片盒交流&lt;/a&gt;&lt;/li&gt;
@@ -804,7 +797,9 @@
 我的笔记记录工作，都是在 <code>obsidian</code> 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到<code>github</code>、编译博客的源文件再发表等等</li>
 </ul>
 <h3 id="obsidian-插件推荐">Obsidian 插件推荐</h3>
-<h4 id="heading"></h4>
+<h4 id="hypothesis">Hypothes.is</h4>
+<p>在日常浏览网页内容时，可以对感兴趣的内容进行高亮批注，并可自动同步到 Obsidian</p>
+<p><a href="https://seviche.cc/2022-05-25-hypothesis#1-%E5%AE%89%E8%A3%85-hypothesis-%E6%8F%92%E4%BB%B6">Hypothesis 使用小记</a></p>
 <h1 id="灵感与想法">灵感与想法</h1>
 <ul>
 <li><code>flomo 浮墨笔记</code>
@@ -819,15 +814,6 @@
 </li>
 </ul>
 <h1 id="推荐阅读">推荐阅读</h1>
-<ul>
-<li><a href="https://obsidian.md/">Obsidian</a> 
-<ol>
-<li><a href="https://seviche.cc/2022-05-25-hypothesis#1-%E5%AE%89%E8%A3%85-hypothesis-%E6%8F%92%E4%BB%B6">Hypothesis 使用小记</a> 在网页上高亮批注，并可同步到 Obsidian</li>
-</ol>
-</li>
-<li><a href="https://www.yuque.com/">语雀</a></li>
-</ul>
-<hr>
 <ul>
 <li><a href="https://www.zhihu.com/question/384309878/answer/2713962647">什么是 Zettelkasten 卡片盒笔记法？</a></li>
 <li><a href="https://mp.weixin.qq.com/s?__biz=MzA5MzUzODA1OA==&amp;mid=2247483947&amp;idx=1&amp;sn=2cccb76ee58ddd11541d91c4b283b594&amp;chksm=905d104ea72a9958d71c70313d5a4799641aa903e62f32ac1038ec5fb8c903fc7db36c261d26&amp;scene=178&amp;cur_album_id=1477367917246726144#rd">卢曼：与卡片盒交流</a></li>
