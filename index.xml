@@ -39374,7 +39374,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/div&gt;
 
 
-之后使用 Google 搜索时，右侧便会zi&lt;/p&gt;
+之后使用 Google 搜索时，右侧便会自动出现chatGPT的回答，如搜索&lt;code&gt;C++虚函数是什么？&lt;/code&gt;，就会出现如下所示的结果：&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/349349861&#34;&gt;知道RSS的人越少，我就越希望它能被人知道！&lt;/a&gt;&lt;/li&gt;
@@ -39389,6 +39389,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/get-better-info/&#34;&gt;优化自己的信息源&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/49684783/answer/2305132342&#34;&gt;中文互联网的产出在渐渐枯萎&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/589201080&#34;&gt;ChatGPT 使用指南&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<blockquote>
@@ -39576,7 +39577,7 @@ docker rm CONTAINER_NAME # 删除容器
 </div>
 
 
-之后使用 Google 搜索时，右侧便会zi</p>
+之后使用 Google 搜索时，右侧便会自动出现chatGPT的回答，如搜索<code>C++虚函数是什么？</code>，就会出现如下所示的结果：</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/349349861">知道RSS的人越少，我就越希望它能被人知道！</a></li>
@@ -39591,6 +39592,7 @@ docker rm CONTAINER_NAME # 删除容器
 <ul>
 <li><a href="https://catcoding.me/p/get-better-info/">优化自己的信息源</a></li>
 <li><a href="https://www.zhihu.com/question/49684783/answer/2305132342">中文互联网的产出在渐渐枯萎</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/589201080">ChatGPT 使用指南</a></li>
 </ul>
 ]]></content:encoded>
     </item>
