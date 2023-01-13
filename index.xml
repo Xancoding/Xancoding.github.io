@@ -754,17 +754,19 @@
 &lt;p&gt;前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。&lt;/p&gt;
 &lt;h2 id=&#34;知识管理工具&#34;&gt;知识管理工具&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Obsidian&lt;/code&gt;
-我的笔记记录工作，都是在 &lt;code&gt;obsidian&lt;/code&gt; 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到&lt;code&gt;github&lt;/code&gt;、编译博客的源文件再发表等等&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Obsidian&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;我的笔记记录工作，都是在 &lt;code&gt;obsidian&lt;/code&gt; 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到&lt;code&gt;github&lt;/code&gt;、编译博客的源文件再发表等等&lt;/p&gt;
 &lt;h3 id=&#34;obsidian-插件推荐&#34;&gt;Obsidian 插件推荐&lt;/h3&gt;
 &lt;h4 id=&#34;hypothesis&#34;&gt;Hypothes.is&lt;/h4&gt;
 &lt;p&gt;在日常浏览网页内容时，可以对感兴趣的内容进行高亮批注，并可自动同步到 Obsidian&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://seviche.cc/2022-05-25-hypothesis#1-%E5%AE%89%E8%A3%85-hypothesis-%E6%8F%92%E4%BB%B6&#34;&gt;Hypothesis 使用小记&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;灵感与想法&#34;&gt;灵感与想法&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;flomo 浮墨笔记&lt;/code&gt;
-在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录。以及在想回顾时，可以方便知晓过去的想法。&lt;br&gt;
+&lt;li&gt;&lt;code&gt;flomo 浮墨笔记&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录&lt;/p&gt;
+&lt;p&gt;在想回顾时，可以方便知晓过去的想法
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png&#34;&gt;
@@ -772,13 +774,20 @@
 &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/p&gt;
 &lt;h1 id=&#34;信息暂存&#34;&gt;信息暂存&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;语雀&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;我会将部分的信息暂存在语雀中，记录下来，在需要用的时候再去语雀上找来用&lt;/p&gt;
+&lt;p&gt;我会将部分的信息暂存在语雀中，记录下来，在需要用的时候再去语雀上找来用
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png&#34; alt=&#34;Snipaste_2023-01-13_13-53-41.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/384309878/answer/2713962647&#34;&gt;什么是 Zettelkasten 卡片盒笔记法？&lt;/a&gt;&lt;/li&gt;
@@ -798,17 +807,19 @@
 <p>前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。</p>
 <h2 id="知识管理工具">知识管理工具</h2>
 <ul>
-<li><code>Obsidian</code>
-我的笔记记录工作，都是在 <code>obsidian</code> 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到<code>github</code>、编译博客的源文件再发表等等</li>
+<li><code>Obsidian</code></li>
 </ul>
+<p>我的笔记记录工作，都是在 <code>obsidian</code> 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到<code>github</code>、编译博客的源文件再发表等等</p>
 <h3 id="obsidian-插件推荐">Obsidian 插件推荐</h3>
 <h4 id="hypothesis">Hypothes.is</h4>
 <p>在日常浏览网页内容时，可以对感兴趣的内容进行高亮批注，并可自动同步到 Obsidian</p>
 <p><a href="https://seviche.cc/2022-05-25-hypothesis#1-%E5%AE%89%E8%A3%85-hypothesis-%E6%8F%92%E4%BB%B6">Hypothesis 使用小记</a></p>
 <h1 id="灵感与想法">灵感与想法</h1>
 <ul>
-<li><code>flomo 浮墨笔记</code>
-在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录。以及在想回顾时，可以方便知晓过去的想法。<br>
+<li><code>flomo 浮墨笔记</code></li>
+</ul>
+<p>在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录</p>
+<p>在想回顾时，可以方便知晓过去的想法
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png">
@@ -816,13 +827,20 @@
 </a>
 </div>
 
-</li>
-</ul>
+</p>
 <h1 id="信息暂存">信息暂存</h1>
 <ul>
 <li><code>语雀</code></li>
 </ul>
-<p>我会将部分的信息暂存在语雀中，记录下来，在需要用的时候再去语雀上找来用</p>
+<p>我会将部分的信息暂存在语雀中，记录下来，在需要用的时候再去语雀上找来用
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png">
+<img src="https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png" alt="Snipaste_2023-01-13_13-53-41.png"  />
+</a>
+</div>
+
+</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://www.zhihu.com/question/384309878/answer/2713962647">什么是 Zettelkasten 卡片盒笔记法？</a></li>
