@@ -509,7 +509,7 @@
 &lt;/p&gt;
 &lt;h3 id=&#34;vimium&#34;&gt;Vimium&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Vimium是一款Chrome插件，它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这个插件我已经有一篇&lt;a href=&#34;&#34;&gt;文章&lt;/a&gt;进行更为详细的讲解了，这里就不再展开来说了&lt;/p&gt;
+&lt;p&gt;这个插件我已经有一篇&lt;a href=&#34;https://xancoding.cn/posts/vimium/&#34;&gt;文章&lt;/a&gt;进行更为详细的讲解了，这里就不再展开来说了&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/349349861&#34;&gt;知道RSS的人越少，我就越希望它能被人知道！&lt;/a&gt;&lt;/li&gt;
@@ -723,7 +723,7 @@
 </p>
 <h3 id="vimium">Vimium</h3>
 <p><strong>Vimium是一款Chrome插件，它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面</strong></p>
-<p>这个插件我已经有一篇<a href="">文章</a>进行更为详细的讲解了，这里就不再展开来说了</p>
+<p>这个插件我已经有一篇<a href="https://xancoding.cn/posts/vimium/">文章</a>进行更为详细的讲解了，这里就不再展开来说了</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/349349861">知道RSS的人越少，我就越希望它能被人知道！</a></li>
@@ -822,7 +822,7 @@
       <description>&lt;h1 id=&#34;管理好你自己的时间&#34;&gt;管理好你自己的时间&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Todo清单&lt;/code&gt;
-我使用的比较多的软件是&lt;code&gt;Todo清单&lt;/code&gt;，优势在于多设备云端同步，&lt;/li&gt;
+我目前在用的软件是&lt;code&gt;Todo清单&lt;/code&gt;，优势在于多设备云端同步（需要付费使用）、具备番茄钟功能、可以用来安排每日的待办清单&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;安排好你的待办清单&#34;&gt;安排好你的待办清单&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -1088,7 +1088,7 @@
       <content:encoded><![CDATA[<h1 id="管理好你自己的时间">管理好你自己的时间</h1>
 <ul>
 <li><code>Todo清单</code>
-我使用的比较多的软件是<code>Todo清单</code>，优势在于多设备云端同步，</li>
+我目前在用的软件是<code>Todo清单</code>，优势在于多设备云端同步（需要付费使用）、具备番茄钟功能、可以用来安排每日的待办清单</li>
 </ul>
 <h2 id="安排好你的待办清单">安排好你的待办清单</h2>
 <blockquote>
