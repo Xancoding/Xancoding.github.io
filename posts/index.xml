@@ -755,14 +755,14 @@
 &lt;h2 id=&#34;知识管理工具&#34;&gt;知识管理工具&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Obsidian&lt;/code&gt;
-我的笔记记录工作，都是在 &lt;code&gt;obsidian&lt;/code&gt; 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到&lt;code&gt;github&lt;/code&gt;、编译博客的源文件再发表等等。&lt;/li&gt;
+我的笔记记录工作，都是在 &lt;code&gt;obsidian&lt;/code&gt; 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到&lt;code&gt;github&lt;/code&gt;、编译博客的源文件再发表等等&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;obsidian-插件推荐&#34;&gt;Obsidian 插件推荐&lt;/h3&gt;
+&lt;h4 id=&#34;heading&#34;&gt;&lt;/h4&gt;
 &lt;h1 id=&#34;灵感与想法&#34;&gt;灵感与想法&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;语雀 &amp;amp; flomo 浮墨笔记&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;flomo-浮墨笔记&#34;&gt;flomo 浮墨笔记&lt;/h2&gt;
-&lt;p&gt;在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录&lt;br&gt;
+&lt;li&gt;&lt;code&gt;flomo 浮墨笔记&lt;/code&gt;
+在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录。以及在想回顾时，可以方便知晓过去的想法。&lt;br&gt;
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png&#34;&gt;
@@ -770,7 +770,8 @@
 &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; 
@@ -800,14 +801,14 @@
 <h2 id="知识管理工具">知识管理工具</h2>
 <ul>
 <li><code>Obsidian</code>
-我的笔记记录工作，都是在 <code>obsidian</code> 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到<code>github</code>、编译博客的源文件再发表等等。</li>
+我的笔记记录工作，都是在 <code>obsidian</code> 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到<code>github</code>、编译博客的源文件再发表等等</li>
 </ul>
+<h3 id="obsidian-插件推荐">Obsidian 插件推荐</h3>
+<h4 id="heading"></h4>
 <h1 id="灵感与想法">灵感与想法</h1>
 <ul>
-<li><code>语雀 &amp; flomo 浮墨笔记</code></li>
-</ul>
-<h2 id="flomo-浮墨笔记">flomo 浮墨笔记</h2>
-<p>在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录<br>
+<li><code>flomo 浮墨笔记</code>
+在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录。以及在想回顾时，可以方便知晓过去的想法。<br>
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png">
@@ -815,7 +816,8 @@
 </a>
 </div>
 
-</p>
+</li>
+</ul>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://obsidian.md/">Obsidian</a> 
