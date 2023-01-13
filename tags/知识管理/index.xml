@@ -13,7 +13,7 @@
       <pubDate>Sun, 30 Oct 2022 15:28:22 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/digital-garden/</guid>
-      <description>&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;知识笔记&#34;&gt;知识笔记&lt;/h1&gt;
 &lt;h2 id=&#34;个人网站&#34;&gt;个人网站&lt;/h2&gt;
 &lt;p&gt;前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。&lt;/p&gt;
 &lt;h2 id=&#34;知识管理工具&#34;&gt;知识管理工具&lt;/h2&gt;
@@ -21,6 +21,7 @@
 &lt;li&gt;&lt;code&gt;Obsidian&lt;/code&gt;
 我的笔记记录工作，都是在 &lt;code&gt;obsidian&lt;/code&gt; 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到&lt;code&gt;github&lt;/code&gt;、编译博客的源文件再发表等等。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;灵感与想法&#34;&gt;灵感与想法&lt;/h1&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; 
@@ -44,7 +45,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Di4y1y7df/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=03fea8b80d1864616f56adac92aa2617&#34;&gt;【中文字幕】Zettelkasten笔记系统的搭建 | 手把手教学 | Zettelkasten in Obsidian&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="heading"></h1>
+      <content:encoded><![CDATA[<h1 id="知识笔记">知识笔记</h1>
 <h2 id="个人网站">个人网站</h2>
 <p>前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。</p>
 <h2 id="知识管理工具">知识管理工具</h2>
@@ -52,6 +53,7 @@
 <li><code>Obsidian</code>
 我的笔记记录工作，都是在 <code>obsidian</code> 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到<code>github</code>、编译博客的源文件再发表等等。</li>
 </ul>
+<h1 id="灵感与想法">灵感与想法</h1>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://obsidian.md/">Obsidian</a> 
