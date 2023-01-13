@@ -6,17 +6,7 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 13 Jan 2023 11:19:19 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>我输出信息的途径</title>
-      <link>https://xancoding.cn/posts/2023-01-13-11-19-18/</link>
-      <pubDate>Fri, 13 Jan 2023 11:19:19 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-01-13-11-19-18/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
+    <lastBuildDate>Wed, 11 Jan 2023 12:12:27 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>炸鸡腿🍗</title>
       <link>https://xancoding.cn/posts/2023-01-11-12-12-24/</link>
@@ -20680,12 +20670,13 @@ export {
     </item>
     
     <item>
-      <title>构建你的数字花园</title>
+      <title>我输出信息的途径</title>
       <link>https://xancoding.cn/posts/digital-garden/</link>
       <pubDate>Sun, 30 Oct 2022 15:28:22 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/digital-garden/</guid>
-      <description>&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; 
 &lt;ol&gt;
@@ -20708,7 +20699,8 @@ export {
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Di4y1y7df/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=03fea8b80d1864616f56adac92aa2617&#34;&gt;【中文字幕】Zettelkasten笔记系统的搭建 | 手把手教学 | Zettelkasten in Obsidian&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="推荐阅读">推荐阅读</h1>
+      <content:encoded><![CDATA[<h1 id="heading"></h1>
+<h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://obsidian.md/">Obsidian</a> 
 <ol>
