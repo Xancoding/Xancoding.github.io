@@ -6,7 +6,17 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 11 Jan 2023 12:12:27 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Jan 2023 11:19:19 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我输出信息的途径</title>
+      <link>https://xancoding.cn/posts/2023-01-13-11-19-18/</link>
+      <pubDate>Fri, 13 Jan 2023 11:19:19 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-01-13-11-19-18/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>炸鸡腿🍗</title>
       <link>https://xancoding.cn/posts/2023-01-11-12-12-24/</link>
@@ -39374,7 +39384,15 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/div&gt;
 
 
-之后使用 Google 搜索时，右侧便会自动出现chatGPT的回答，如搜索&lt;code&gt;C++虚函数是什么？&lt;/code&gt;，就会出现如下所示的结果：&lt;/p&gt;
+之后使用 Google 搜索时，右侧便会自动出现chatGPT的回答，如搜索&lt;code&gt;C++虚函数是什么？&lt;/code&gt;，就会出现如下所示的结果：
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0cda30c70c.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/13/63c0cda30c70c.png&#34; alt=&#34;Snipaste_2023-01-13_11-18-47.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/349349861&#34;&gt;知道RSS的人越少，我就越希望它能被人知道！&lt;/a&gt;&lt;/li&gt;
@@ -39577,7 +39595,15 @@ docker rm CONTAINER_NAME # 删除容器
 </div>
 
 
-之后使用 Google 搜索时，右侧便会自动出现chatGPT的回答，如搜索<code>C++虚函数是什么？</code>，就会出现如下所示的结果：</p>
+之后使用 Google 搜索时，右侧便会自动出现chatGPT的回答，如搜索<code>C++虚函数是什么？</code>，就会出现如下所示的结果：
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0cda30c70c.png">
+<img src="https://bu.dusays.com/2023/01/13/63c0cda30c70c.png" alt="Snipaste_2023-01-13_11-18-47.png"  />
+</a>
+</div>
+
+</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/349349861">知道RSS的人越少，我就越希望它能被人知道！</a></li>
