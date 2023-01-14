@@ -39764,7 +39764,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;DRY&amp;ndash;Don’t Repeat Yourself.&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;projects&#34;&gt;Projects&lt;/h1&gt;
-&lt;h2 id=&#34;bloghttpsgithubcomxancodingblog&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/Blog&#34;&gt;Blog&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;bloghttpsgithubcomxancodingxancodinggithubio&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/Xancoding.github.io&#34;&gt;Blog&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;搭建工具&#34;&gt;搭建工具&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Hugo &amp;amp; GitHub Pages &amp;amp; GitHub Action &amp;amp; Twikoo&lt;/code&gt;&lt;/li&gt;
@@ -40250,7 +40250,7 @@ docker rm CONTAINER_NAME # 删除容器
 <li>DRY&ndash;Don’t Repeat Yourself.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></li>
 </ol>
 <h1 id="projects">Projects</h1>
-<h2 id="bloghttpsgithubcomxancodingblog"><a href="https://github.com/Xancoding/Blog">Blog</a></h2>
+<h2 id="bloghttpsgithubcomxancodingxancodinggithubio"><a href="https://github.com/Xancoding/Xancoding.github.io">Blog</a></h2>
 <h3 id="搭建工具">搭建工具</h3>
 <ul>
 <li><code>Hugo &amp; GitHub Pages &amp; GitHub Action &amp; Twikoo</code></li>
