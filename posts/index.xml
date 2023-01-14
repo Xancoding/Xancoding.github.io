@@ -37399,6 +37399,25 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;我们可以设置表格的对齐方式：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;-:&lt;/strong&gt; 设置内容和标题栏居右对齐。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;:-&lt;/strong&gt; 设置内容和标题栏居左对齐。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;:-:&lt;/strong&gt; 设置内容和标题栏居中对齐。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;实例如下：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/14/63c294756868e.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/14/63c294756868e.png&#34; alt=&#34;NeatReader-1673696349391.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;排版技巧&#34;&gt;排版技巧&lt;/h1&gt;
 &lt;h2 id=&#34;关于空格&#34;&gt;关于空格&lt;/h2&gt;
 &lt;p&gt;建议&lt;code&gt;中文&lt;/code&gt;和&lt;code&gt;英文&lt;/code&gt;之间加空格，&lt;code&gt;中/英文&lt;/code&gt;和&lt;code&gt;数字&lt;/code&gt;之间也要加空格&lt;/p&gt;
@@ -37762,6 +37781,25 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 </tr>
 </tbody>
 </table>
+<p><strong>我们可以设置表格的对齐方式：</strong></p>
+<ul>
+<li><strong>-:</strong> 设置内容和标题栏居右对齐。</li>
+<li><strong>:-</strong> 设置内容和标题栏居左对齐。</li>
+<li><strong>:-:</strong> 设置内容和标题栏居中对齐。</li>
+</ul>
+<p>实例如下：</p>
+<pre tabindex="0"><code>| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+</code></pre><p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/14/63c294756868e.png">
+<img src="https://bu.dusays.com/2023/01/14/63c294756868e.png" alt="NeatReader-1673696349391.png"  />
+</a>
+</div>
+
+</p>
 <h1 id="排版技巧">排版技巧</h1>
 <h2 id="关于空格">关于空格</h2>
 <p>建议<code>中文</code>和<code>英文</code>之间加空格，<code>中/英文</code>和<code>数字</code>之间也要加空格</p>
