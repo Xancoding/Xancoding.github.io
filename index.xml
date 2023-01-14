@@ -39979,16 +39979,20 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/ol&gt;
 &lt;h1 id=&#34;cloth-size&#34;&gt;Cloth size&lt;/h1&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;
+&lt;li&gt;肩宽 44cm&lt;/li&gt;
+&lt;li&gt;胸围 80cm&lt;/li&gt;
+&lt;li&gt;袖长 60cm&lt;/li&gt;
+&lt;li&gt;腰围 73cm&lt;/li&gt;
+&lt;li&gt;臀围 93cm
+
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/14/63c257e529c6d.jpg&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/01/14/63c257e529c6d.jpg&#34; alt=&#34;W020140804575490157571.jpg&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1 id=&#34;fitness-program&#34;&gt;Fitness program&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;采取三分化训练模式，意思是三天以内训练全身，中间也可以比较自由的加入休息日&lt;/strong&gt;&lt;/p&gt;
@@ -40477,16 +40481,20 @@ docker rm CONTAINER_NAME # 删除容器
 </ol>
 <h1 id="cloth-size">Cloth size</h1>
 <ol>
-<li></li>
-</ol>
-<p>
+<li>肩宽 44cm</li>
+<li>胸围 80cm</li>
+<li>袖长 60cm</li>
+<li>腰围 73cm</li>
+<li>臀围 93cm
+
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/14/63c257e529c6d.jpg">
 <img src="https://bu.dusays.com/2023/01/14/63c257e529c6d.jpg" alt="W020140804575490157571.jpg"  />
 </a>
 </div>
 
-</p>
+</li>
+</ol>
 <h1 id="fitness-program">Fitness program</h1>
 <blockquote>
 <p><strong>采取三分化训练模式，意思是三天以内训练全身，中间也可以比较自由的加入休息日</strong></p>
