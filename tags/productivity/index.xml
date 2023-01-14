@@ -2791,7 +2791,9 @@
       <guid>https://xancoding.cn/posts/markdown/</guid>
       <description>&lt;h1 id=&#34;markdown是什么&#34;&gt;Markdown是什么？&lt;/h1&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;markdown常用语法&#34;&gt;Markdown常用语法&lt;/h1&gt;
 &lt;h2 id=&#34;转义&#34;&gt;转义&lt;/h2&gt;
@@ -3173,7 +3175,9 @@
 </description>
       <content:encoded><![CDATA[<h1 id="markdown是什么">Markdown是什么？</h1>
 <blockquote>
-<p><strong>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等</strong></p>
+<p><strong>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。</strong></p>
+<p><strong>它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。</strong></p>
+<p><strong>因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等</strong></p>
 </blockquote>
 <h1 id="markdown常用语法">Markdown常用语法</h1>
 <h2 id="转义">转义</h2>
