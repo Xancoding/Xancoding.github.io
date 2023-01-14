@@ -20540,14 +20540,28 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;p&gt;&lt;strong&gt;Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;markdown常用语法&#34;&gt;Markdown常用语法&lt;/h1&gt;
-&lt;h2 id=&#34;避免格式转换&#34;&gt;避免格式转换&lt;/h2&gt;
+&lt;h2 id=&#34;转义&#34;&gt;转义&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;如果需要避免文本中的符号被当做markdown标识符而发生不必要的格式转化，可以在符号前加&lt;code&gt;\&lt;/code&gt;来避免。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;如果需要避免文本中的符号被当做markdown标识符而发生不必要的格式转化，可以在符号前加&lt;code&gt;\&lt;/code&gt;来避免。&lt;/strong&gt;&lt;br&gt;
+可被转义的特殊符号如下：
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/14/63c27b0eb8fa7.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/14/63c27b0eb8fa7.png&#34; alt=&#34;NeatReader-1673689830596.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+示例如下：
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/14/63c27b112bf62.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/14/63c27b112bf62.png&#34; alt=&#34;NeatReader-1673689835606.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;u&gt;书写格式如下&lt;/u&gt;：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\*不是斜体\*
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;u&gt;解析效果如下&lt;/u&gt;：&lt;/p&gt;
-&lt;p&gt;*不是斜体*&lt;/p&gt;
 &lt;h2 id=&#34;角标&#34;&gt;角标&lt;/h2&gt;
 &lt;p&gt;不同于链接，这里的角标内容会被放在文末，点击可以实现跳转。&lt;/p&gt;
 &lt;p&gt;&lt;u&gt;书写格式如下&lt;/u&gt;：&lt;/p&gt;
@@ -20582,7 +20596,16 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;/ol&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;test&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;test&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;引用&#34;&gt;引用&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/14/63c27a5f1c3b1.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/14/63c27a5f1c3b1.png&#34; alt=&#34;NeatReader-1673689679672.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://haoeric.github.io/markdown-grammar/#fnref:1&#34;&gt;Markdown - All You Need to Know&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://markdown.com.cn/&#34;&gt;Markdown 官方教程&lt;/a&gt;&lt;/li&gt;
@@ -20825,14 +20848,28 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 <p><strong>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等</strong></p>
 </blockquote>
 <h1 id="markdown常用语法">Markdown常用语法</h1>
-<h2 id="避免格式转换">避免格式转换</h2>
+<h2 id="转义">转义</h2>
 <ul>
-<li><strong>如果需要避免文本中的符号被当做markdown标识符而发生不必要的格式转化，可以在符号前加<code>\</code>来避免。</strong></li>
+<li><strong>如果需要避免文本中的符号被当做markdown标识符而发生不必要的格式转化，可以在符号前加<code>\</code>来避免。</strong><br>
+可被转义的特殊符号如下：
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/14/63c27b0eb8fa7.png">
+<img src="https://bu.dusays.com/2023/01/14/63c27b0eb8fa7.png" alt="NeatReader-1673689830596.png"  />
+</a>
+</div>
+
+
+示例如下：
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/14/63c27b112bf62.png">
+<img src="https://bu.dusays.com/2023/01/14/63c27b112bf62.png" alt="NeatReader-1673689835606.png"  />
+</a>
+</div>
+
+</li>
 </ul>
-<p><u>书写格式如下</u>：</p>
-<pre tabindex="0"><code>\*不是斜体\*
-</code></pre><p><u>解析效果如下</u>：</p>
-<p>*不是斜体*</p>
 <h2 id="角标">角标</h2>
 <p>不同于链接，这里的角标内容会被放在文末，点击可以实现跳转。</p>
 <p><u>书写格式如下</u>：</p>
@@ -20867,7 +20904,16 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 </ol>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ <span style="color:#fff;font-weight:bold">echo</span> <span style="color:#0ff;font-weight:bold">&#34;test&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">test</span>
-</span></span></code></pre></div><h1 id="推荐阅读">推荐阅读</h1>
+</span></span></code></pre></div><h2 id="引用">引用</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/14/63c27a5f1c3b1.png">
+<img src="https://bu.dusays.com/2023/01/14/63c27a5f1c3b1.png" alt="NeatReader-1673689679672.png"  />
+</a>
+</div>
+
+</p>
+<h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="http://haoeric.github.io/markdown-grammar/#fnref:1">Markdown - All You Need to Know</a></li>
 <li><a href="https://markdown.com.cn/">Markdown 官方教程</a></li>
