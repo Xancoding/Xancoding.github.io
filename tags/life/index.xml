@@ -3789,6 +3789,11 @@
 &lt;code&gt;Erase data and settings in Settings &amp;gt; General &amp;gt; Reset &amp;gt; Erase all Content and Settings&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;抹掉所有内容和设置的操作步骤：设置 &amp;gt; 通用 &amp;gt; 还原 &amp;gt; 抹掉所有内容和设置&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;不加空格的情况&#34;&gt;不加空格的情况&lt;/h3&gt;
+&lt;p&gt;中文标点符号和数字、中文、英文之间不需要添加空格&lt;/p&gt;
+&lt;p&gt;数字和百分号之间不需要添加空格&lt;/p&gt;
+&lt;p&gt;数字和单位符号之间不需要添加空格&lt;/p&gt;
+&lt;p&gt;英文和数字组合成的名字之间不需要添加空格&lt;/p&gt;
+&lt;p&gt;当&lt;code&gt;/&lt;/code&gt;表示“或”、“路径”时，与前后的字符之间均不加空格：&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://haoeric.github.io/markdown-grammar/#fnref:1&#34;&gt;Markdown - All You Need to Know&lt;/a&gt;&lt;/li&gt;
@@ -4107,6 +4112,11 @@
 <code>Erase data and settings in Settings &gt; General &gt; Reset &gt; Erase all Content and Settings</code><br>
 <code>抹掉所有内容和设置的操作步骤：设置 &gt; 通用 &gt; 还原 &gt; 抹掉所有内容和设置</code></p>
 <h3 id="不加空格的情况">不加空格的情况</h3>
+<p>中文标点符号和数字、中文、英文之间不需要添加空格</p>
+<p>数字和百分号之间不需要添加空格</p>
+<p>数字和单位符号之间不需要添加空格</p>
+<p>英文和数字组合成的名字之间不需要添加空格</p>
+<p>当<code>/</code>表示“或”、“路径”时，与前后的字符之间均不加空格：</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="http://haoeric.github.io/markdown-grammar/#fnref:1">Markdown - All You Need to Know</a></li>
