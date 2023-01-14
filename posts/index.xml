@@ -37434,7 +37434,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;p&gt;数字和百分号之间不需要添加空格&lt;/p&gt;
 &lt;p&gt;数字和单位符号之间不需要添加空格&lt;/p&gt;
 &lt;p&gt;英文和数字组合成的名字之间不需要添加空格&lt;/p&gt;
-&lt;p&gt;当&lt;code&gt;/&lt;/code&gt;表示“或”、“路径”时，与前后的字符之间均不加空格：
+&lt;p&gt;当&lt;code&gt;/&lt;/code&gt;表示“或”、“路径”时，与前后的字符之间均不加空格：&lt;br&gt;
 &lt;code&gt;小明精通“Python/Java/Go/Swift”的Hello Word打印语法&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;/Volumes/warehouse/README.md&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;货币符号后不加空格&lt;/p&gt;
@@ -37818,7 +37818,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 <p>数字和百分号之间不需要添加空格</p>
 <p>数字和单位符号之间不需要添加空格</p>
 <p>英文和数字组合成的名字之间不需要添加空格</p>
-<p>当<code>/</code>表示“或”、“路径”时，与前后的字符之间均不加空格：
+<p>当<code>/</code>表示“或”、“路径”时，与前后的字符之间均不加空格：<br>
 <code>小明精通“Python/Java/Go/Swift”的Hello Word打印语法</code><br>
 <code>/Volumes/warehouse/README.md</code></p>
 <p>货币符号后不加空格</p>
