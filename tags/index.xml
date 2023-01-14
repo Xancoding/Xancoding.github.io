@@ -6,7 +6,17 @@
     <description>Recent content in Tags on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 11 Jan 2023 12:12:27 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Jan 2023 14:08:59 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech</title>
+      <link>https://xancoding.cn/tags/tech/</link>
+      <pubDate>Sat, 14 Jan 2023 14:08:59 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/tech/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>Cooking</title>
       <link>https://xancoding.cn/tags/cooking/</link>
@@ -33,16 +43,6 @@
       <pubDate>Mon, 02 Jan 2023 06:24:24 +0800</pubDate>
       
       <guid>https://xancoding.cn/tags/sports/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Tech</title>
-      <link>https://xancoding.cn/tags/tech/</link>
-      <pubDate>Thu, 15 Dec 2022 08:38:27 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/tags/tech/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
