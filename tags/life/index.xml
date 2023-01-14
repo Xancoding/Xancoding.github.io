@@ -3779,6 +3779,17 @@
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h2 id=&#34;锚点&#34;&gt;锚点&lt;/h2&gt;
+&lt;p&gt;锚点，也称为书签，用来标记文档的特定位置，使用锚点可以跳转到当前文档或其他文档中指定的标记位置&lt;/p&gt;
+&lt;p&gt;语法：&lt;code&gt;[锚点描述](#锚点名)&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;锚点名建议使用字母和数字，当然中文也是被支持的，但不排除有些网站支持得不够好&lt;/li&gt;
+&lt;li&gt;锚点名是区分英文大小写的&lt;/li&gt;
+&lt;li&gt;在锚点名中不能含有空格，也不能含有特殊字符&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;示例：
+&lt;code&gt;[转义](#转义)&lt;/code&gt;&lt;br&gt;
+&lt;a href=&#34;#%E8%BD%AC%E4%B9%89&#34;&gt;转义&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;排版技巧&#34;&gt;排版技巧&lt;/h1&gt;
 &lt;h2 id=&#34;关于空格&#34;&gt;关于空格&lt;/h2&gt;
 &lt;p&gt;建议&lt;code&gt;中文&lt;/code&gt;和&lt;code&gt;英文&lt;/code&gt;之间加空格，&lt;code&gt;中/英文&lt;/code&gt;和&lt;code&gt;数字&lt;/code&gt;之间也要加空格&lt;/p&gt;
@@ -3793,7 +3804,11 @@
 &lt;p&gt;数字和百分号之间不需要添加空格&lt;/p&gt;
 &lt;p&gt;数字和单位符号之间不需要添加空格&lt;/p&gt;
 &lt;p&gt;英文和数字组合成的名字之间不需要添加空格&lt;/p&gt;
-&lt;p&gt;当&lt;code&gt;/&lt;/code&gt;表示“或”、“路径”时，与前后的字符之间均不加空格：&lt;/p&gt;
+&lt;p&gt;当&lt;code&gt;/&lt;/code&gt;表示“或”、“路径”时，与前后的字符之间均不加空格：
+&lt;code&gt;小明精通“Python/Java/Go/Swift”的Hello Word打印语法&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;/Volumes/warehouse/README.md&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;货币符号后不加空格&lt;/p&gt;
+&lt;p&gt;负号后不加空格&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://haoeric.github.io/markdown-grammar/#fnref:1&#34;&gt;Markdown - All You Need to Know&lt;/a&gt;&lt;/li&gt;
@@ -4102,6 +4117,17 @@
 </div>
 
 </p>
+<h2 id="锚点">锚点</h2>
+<p>锚点，也称为书签，用来标记文档的特定位置，使用锚点可以跳转到当前文档或其他文档中指定的标记位置</p>
+<p>语法：<code>[锚点描述](#锚点名)</code></p>
+<ol>
+<li>锚点名建议使用字母和数字，当然中文也是被支持的，但不排除有些网站支持得不够好</li>
+<li>锚点名是区分英文大小写的</li>
+<li>在锚点名中不能含有空格，也不能含有特殊字符</li>
+</ol>
+<p>示例：
+<code>[转义](#转义)</code><br>
+<a href="#%E8%BD%AC%E4%B9%89">转义</a></p>
 <h1 id="排版技巧">排版技巧</h1>
 <h2 id="关于空格">关于空格</h2>
 <p>建议<code>中文</code>和<code>英文</code>之间加空格，<code>中/英文</code>和<code>数字</code>之间也要加空格</p>
@@ -4116,7 +4142,11 @@
 <p>数字和百分号之间不需要添加空格</p>
 <p>数字和单位符号之间不需要添加空格</p>
 <p>英文和数字组合成的名字之间不需要添加空格</p>
-<p>当<code>/</code>表示“或”、“路径”时，与前后的字符之间均不加空格：</p>
+<p>当<code>/</code>表示“或”、“路径”时，与前后的字符之间均不加空格：
+<code>小明精通“Python/Java/Go/Swift”的Hello Word打印语法</code><br>
+<code>/Volumes/warehouse/README.md</code></p>
+<p>货币符号后不加空格</p>
+<p>负号后不加空格</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="http://haoeric.github.io/markdown-grammar/#fnref:1">Markdown - All You Need to Know</a></li>
