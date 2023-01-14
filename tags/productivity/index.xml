@@ -2795,7 +2795,7 @@
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;markdown常用语法&#34;&gt;Markdown常用语法&lt;/h1&gt;
 &lt;ol&gt;
-&lt;li&gt;在markdown中将链接地址或邮箱地址用&lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;包围，则会被自动转换成可点击的链接。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;在markdown中将链接地址或邮箱地址用&lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;包围，则会被自动转换成可点击的链接。&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;u&gt;书写格式如下：&lt;/u&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;https://xancoding.cn&amp;gt;
@@ -2805,14 +2805,14 @@
 &lt;p&gt;&lt;a href=&#34;https://xancoding.cn&#34;&gt;https://xancoding.cn&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;mailto:zag.zj.cn@gmail.com&#34;&gt;zag.zj.cn@gmail.com&lt;/a&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;如果需要避免文本中的符号被当做markdown标识符而发生不必要的格式转化，可以在符号前加&lt;code&gt;\&lt;/code&gt;来避免。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;如果需要避免文本中的符号被当做markdown标识符而发生不必要的格式转化，可以在符号前加&lt;code&gt;\&lt;/code&gt;来避免。&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;u&gt;书写格式如下&lt;/u&gt;：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\*不是斜体\*
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;u&gt;解析效果如下&lt;/u&gt;：&lt;/p&gt;
 &lt;p&gt;*不是斜体*&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;角标&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;角标&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;不同于链接，这里的角标内容会被放在文末，点击可以实现跳转。&lt;/p&gt;
 &lt;p&gt;&lt;u&gt;书写格式如下&lt;/u&gt;：&lt;/p&gt;
@@ -2826,6 +2826,24 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;u&gt;解析效果如下&lt;/u&gt;：&lt;/p&gt;
 &lt;p&gt;请参阅脚注1. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;请参阅脚注2. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;strong&gt;段落与换行&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;如果行与行之间没有空行，则会被视为同一段落&lt;/li&gt;
+&lt;li&gt;如果行与行之间有空行，则会被视为不同的段落&lt;/li&gt;
+&lt;li&gt;空行是指行内什么都没有，或者只有空格和制表符&lt;/li&gt;
+&lt;li&gt;如果想在段内换行，则需要在上一行的结尾插入两个以上的空格然后按回车键
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/14/63c271cd41342.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/14/63c271cd41342.png&#34; alt=&#34;NeatReader-1673687488276.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://haoeric.github.io/markdown-grammar/#fnref:1&#34;&gt;Markdown - All You Need to Know&lt;/a&gt;&lt;/li&gt;
@@ -3070,7 +3088,7 @@
 </blockquote>
 <h1 id="markdown常用语法">Markdown常用语法</h1>
 <ol>
-<li>在markdown中将链接地址或邮箱地址用<code>&lt;&gt;</code>包围，则会被自动转换成可点击的链接。</li>
+<li><strong>在markdown中将链接地址或邮箱地址用<code>&lt;&gt;</code>包围，则会被自动转换成可点击的链接。</strong></li>
 </ol>
 <p><u>书写格式如下：</u></p>
 <pre tabindex="0"><code>&lt;https://xancoding.cn&gt;
@@ -3080,14 +3098,14 @@
 <p><a href="https://xancoding.cn">https://xancoding.cn</a></p>
 <p><a href="mailto:zag.zj.cn@gmail.com">zag.zj.cn@gmail.com</a></p>
 <ol start="2">
-<li>如果需要避免文本中的符号被当做markdown标识符而发生不必要的格式转化，可以在符号前加<code>\</code>来避免。</li>
+<li><strong>如果需要避免文本中的符号被当做markdown标识符而发生不必要的格式转化，可以在符号前加<code>\</code>来避免。</strong></li>
 </ol>
 <p><u>书写格式如下</u>：</p>
 <pre tabindex="0"><code>\*不是斜体\*
 </code></pre><p><u>解析效果如下</u>：</p>
 <p>*不是斜体*</p>
 <ol start="3">
-<li>角标</li>
+<li><strong>角标</strong></li>
 </ol>
 <p>不同于链接，这里的角标内容会被放在文末，点击可以实现跳转。</p>
 <p><u>书写格式如下</u>：</p>
@@ -3101,6 +3119,24 @@
 </code></pre><p><u>解析效果如下</u>：</p>
 <p>请参阅脚注1. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>请参阅脚注2. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<ol start="4">
+<li><strong>段落与换行</strong>
+<ol>
+<li>如果行与行之间没有空行，则会被视为同一段落</li>
+<li>如果行与行之间有空行，则会被视为不同的段落</li>
+<li>空行是指行内什么都没有，或者只有空格和制表符</li>
+<li>如果想在段内换行，则需要在上一行的结尾插入两个以上的空格然后按回车键
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/14/63c271cd41342.png">
+<img src="https://bu.dusays.com/2023/01/14/63c271cd41342.png" alt="NeatReader-1673687488276.png"  />
+</a>
+</div>
+
+</li>
+</ol>
+</li>
+</ol>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="http://haoeric.github.io/markdown-grammar/#fnref:1">Markdown - All You Need to Know</a></li>
