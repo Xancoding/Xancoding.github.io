@@ -3790,6 +3790,31 @@
 &lt;p&gt;示例：
 &lt;code&gt;[转义](#转义)&lt;/code&gt;&lt;br&gt;
 &lt;a href=&#34;#%E8%BD%AC%E4%B9%89&#34;&gt;转义&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;表格&#34;&gt;表格&lt;/h2&gt;
+&lt;p&gt;Markdown 制作表格使用 &lt;code&gt;|&lt;/code&gt; 来分隔不同的单元格，使用 &lt;code&gt;-&lt;/code&gt; 来分隔表头和其他行&lt;/p&gt;
+&lt;p&gt;语法格式如下：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
+&lt;/code&gt;&lt;/pre&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;表头&lt;/th&gt;
+&lt;th&gt;表头&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;单元格&lt;/td&gt;
+&lt;td&gt;单元格&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;单元格&lt;/td&gt;
+&lt;td&gt;单元格&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h1 id=&#34;排版技巧&#34;&gt;排版技巧&lt;/h1&gt;
 &lt;h2 id=&#34;关于空格&#34;&gt;关于空格&lt;/h2&gt;
 &lt;p&gt;建议&lt;code&gt;中文&lt;/code&gt;和&lt;code&gt;英文&lt;/code&gt;之间加空格，&lt;code&gt;中/英文&lt;/code&gt;和&lt;code&gt;数字&lt;/code&gt;之间也要加空格&lt;/p&gt;
@@ -4128,6 +4153,31 @@
 <p>示例：
 <code>[转义](#转义)</code><br>
 <a href="#%E8%BD%AC%E4%B9%89">转义</a></p>
+<h2 id="表格">表格</h2>
+<p>Markdown 制作表格使用 <code>|</code> 来分隔不同的单元格，使用 <code>-</code> 来分隔表头和其他行</p>
+<p>语法格式如下：</p>
+<pre tabindex="0"><code>|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
+</code></pre><table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody>
+</table>
 <h1 id="排版技巧">排版技巧</h1>
 <h2 id="关于空格">关于空格</h2>
 <p>建议<code>中文</code>和<code>英文</code>之间加空格，<code>中/英文</code>和<code>数字</code>之间也要加空格</p>
