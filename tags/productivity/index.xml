@@ -670,6 +670,7 @@
 
 &lt;/p&gt;
 &lt;h2 id=&#34;图床&#34;&gt;图床&lt;/h2&gt;
+&lt;p&gt;我使用的图床是&lt;a href=&#34;https://7bu.top/upload&#34;&gt;去不图床&lt;/a&gt;，借助 &lt;code&gt;PicGo&lt;/code&gt;，方便将图片上传到图床，并生成访问链接给我自己写博客用，最后再借助 &lt;code&gt;Obsidian&lt;/code&gt; 中的&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="桌面">桌面</h1>
 <h2 id="wallpaper-engine">Wallpaper Engine</h2>
@@ -772,6 +773,7 @@
 
 </p>
 <h2 id="图床">图床</h2>
+<p>我使用的图床是<a href="https://7bu.top/upload">去不图床</a>，借助 <code>PicGo</code>，方便将图片上传到图床，并生成访问链接给我自己写博客用，最后再借助 <code>Obsidian</code> 中的</p>
 ]]></content:encoded>
     </item>
     
