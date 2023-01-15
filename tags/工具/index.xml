@@ -599,10 +599,32 @@
 &lt;/div&gt;
 
 
-如果是常用的网页，我会借助 Chrome浏览器的&lt;code&gt;创建快捷方式&lt;/code&gt;，将其创建为应用，并固定到开始界面&lt;/p&gt;
+如果是常用的网页，我会借助 Chrome浏览器的&lt;code&gt;创建快捷方式&lt;/code&gt;，将其创建为应用，并固定到开始界面
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3895150e18.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3895150e18.png&#34; alt=&#34;Snipaste_2023-01-15_13-03-35.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;生产力&#34;&gt;生产力&lt;/h1&gt;
 &lt;h2 id=&#34;搜索&#34;&gt;搜索&lt;/h2&gt;
 &lt;h3 id=&#34;everything&#34;&gt;Everything&lt;/h3&gt;
+&lt;p&gt;通过文件、文件夹名称快速搜索软件，比 &lt;code&gt;Windows&lt;/code&gt; 自带的搜索速度快上不少，使用起来很是方便
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3898a92a8a.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3898a92a8a.png&#34; alt=&#34;Snipaste_2023-01-15_13-04-59.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;wox&#34;&gt;Wox&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1tT4y1J74V/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;Windows效率搜索神器Wox快速教程&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;安装好后，可以通过 &lt;code&gt;alt + 空格键&lt;/code&gt; 调出搜索栏&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="桌面">桌面</h1>
 <h2 id="wallpaper-engine">Wallpaper Engine</h2>
@@ -634,10 +656,32 @@
 </div>
 
 
-如果是常用的网页，我会借助 Chrome浏览器的<code>创建快捷方式</code>，将其创建为应用，并固定到开始界面</p>
+如果是常用的网页，我会借助 Chrome浏览器的<code>创建快捷方式</code>，将其创建为应用，并固定到开始界面
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3895150e18.png">
+<img src="https://bu.dusays.com/2023/01/15/63c3895150e18.png" alt="Snipaste_2023-01-15_13-03-35.png"  />
+</a>
+</div>
+
+</p>
 <h1 id="生产力">生产力</h1>
 <h2 id="搜索">搜索</h2>
 <h3 id="everything">Everything</h3>
+<p>通过文件、文件夹名称快速搜索软件，比 <code>Windows</code> 自带的搜索速度快上不少，使用起来很是方便
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3898a92a8a.png">
+<img src="https://bu.dusays.com/2023/01/15/63c3898a92a8a.png" alt="Snipaste_2023-01-15_13-04-59.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="wox">Wox</h3>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1tT4y1J74V/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">Windows效率搜索神器Wox快速教程</a></li>
+</ul>
+<p>安装好后，可以通过 <code>alt + 空格键</code> 调出搜索栏</p>
 ]]></content:encoded>
     </item>
     
