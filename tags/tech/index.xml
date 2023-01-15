@@ -579,6 +579,14 @@
 &lt;/a&gt;
 &lt;/div&gt;
 
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3863682391.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3863682391.png&#34; alt=&#34;Snipaste_2023-01-15_12-50-55.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
 &lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="桌面">桌面</h1>
@@ -588,6 +596,14 @@
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38603de093.png">
 <img src="https://bu.dusays.com/2023/01/15/63c38603de093.png" alt="unnamed.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3863682391.png">
+<img src="https://bu.dusays.com/2023/01/15/63c3863682391.png" alt="Snipaste_2023-01-15_12-50-55.png"  />
 </a>
 </div>
 
