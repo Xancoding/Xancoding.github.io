@@ -671,9 +671,10 @@
 &lt;/p&gt;
 &lt;h2 id=&#34;图床&#34;&gt;图床&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;去不图床 &amp;amp; PicGo &amp;amp; Image auto upload Plugin&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;我使用的图床是&lt;a href=&#34;https://7bu.top/upload&#34;&gt;去不图床&lt;/a&gt;，借助 &lt;code&gt;PicGo&lt;/code&gt;，方便将图片上传到图床，并生成访问链接给我自己写博客用，最后再借助 &lt;code&gt;Obsidian&lt;/code&gt; 中的 &lt;code&gt;Image auto upload Plugin&lt;/code&gt; 插件，实现将图片拖拽到 &lt;code&gt;Obsidian&lt;/code&gt; 编辑器中，即可自动将图片通过 &lt;code&gt;PicGo&lt;/code&gt; 上传到 &lt;code&gt;去不图床&lt;/code&gt;，并生成链接，显示在 &lt;code&gt;Obsidian&lt;/code&gt; 中，简化了我写博客的过程。&lt;/p&gt;
+&lt;p&gt;我使用的图床是&lt;a href=&#34;https://7bu.top/upload&#34;&gt;去不图床&lt;/a&gt;，借助 &lt;code&gt;PicGo&lt;/code&gt;，方便将图片上传到图床，并生成访问链接给我写博客用，最后再借助 &lt;code&gt;Obsidian&lt;/code&gt; 中的 &lt;code&gt;Image auto upload Plugin&lt;/code&gt; 插件，简化我写博客时需要一张yi&amp;rsquo;zhang&amp;rsquo;h。
+实现将图片拖拽到 &lt;code&gt;Obsidian&lt;/code&gt; 编辑器中，即可自动将图片通过 &lt;code&gt;PicGo&lt;/code&gt; 上传到 &lt;code&gt;去不图床&lt;/code&gt;，并生成链接，显示在 &lt;code&gt;Obsidian&lt;/code&gt; 中，&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="桌面">桌面</h1>
 <h2 id="wallpaper-engine">Wallpaper Engine</h2>
@@ -777,9 +778,10 @@
 </p>
 <h2 id="图床">图床</h2>
 <ul>
-<li></li>
+<li><code>去不图床 &amp; PicGo &amp; Image auto upload Plugin</code></li>
 </ul>
-<p>我使用的图床是<a href="https://7bu.top/upload">去不图床</a>，借助 <code>PicGo</code>，方便将图片上传到图床，并生成访问链接给我自己写博客用，最后再借助 <code>Obsidian</code> 中的 <code>Image auto upload Plugin</code> 插件，实现将图片拖拽到 <code>Obsidian</code> 编辑器中，即可自动将图片通过 <code>PicGo</code> 上传到 <code>去不图床</code>，并生成链接，显示在 <code>Obsidian</code> 中，简化了我写博客的过程。</p>
+<p>我使用的图床是<a href="https://7bu.top/upload">去不图床</a>，借助 <code>PicGo</code>，方便将图片上传到图床，并生成访问链接给我写博客用，最后再借助 <code>Obsidian</code> 中的 <code>Image auto upload Plugin</code> 插件，简化我写博客时需要一张yi&rsquo;zhang&rsquo;h。
+实现将图片拖拽到 <code>Obsidian</code> 编辑器中，即可自动将图片通过 <code>PicGo</code> 上传到 <code>去不图床</code>，并生成链接，显示在 <code>Obsidian</code> 中，</p>
 ]]></content:encoded>
     </item>
     
