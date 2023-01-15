@@ -944,9 +944,22 @@
 &lt;/p&gt;
 &lt;h2 id=&#34;截图&#34;&gt;截图&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Snipaste&lt;/code&gt;
-Snipaste 是&lt;strong&gt;一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上&lt;/strong&gt;！&lt;br&gt;
-我使用它进行截图和取色的&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Snipaste&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Snipaste 是&lt;strong&gt;一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上&lt;/strong&gt;！&lt;br&gt;
+我使用它用于截图和取色。
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38cad0588a.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38cad0588a.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;解压缩&#34;&gt;解压缩&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;7-Zip&lt;/code&gt;
+&lt;code&gt;7-Zip&lt;/code&gt;是一款高压缩比的压缩软件，不仅支持独有的&lt;em&gt;7z&lt;/em&gt;文件格式，而且还支持各种其它压缩文件格式，其中包括&lt;strong&gt;ZIP、RAR、CAB、GZIP、BZIP2和TAR&lt;/strong&gt;等格式。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="桌面">桌面</h1>
@@ -1024,9 +1037,22 @@ Snipaste 是&lt;strong&gt;一个简单但强大的截图工具，也可以让你
 </p>
 <h2 id="截图">截图</h2>
 <ul>
-<li><code>Snipaste</code>
-Snipaste 是<strong>一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上</strong>！<br>
-我使用它进行截图和取色的</li>
+<li><code>Snipaste</code></li>
+</ul>
+<p>Snipaste 是<strong>一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上</strong>！<br>
+我使用它用于截图和取色。
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38cad0588a.png">
+<img src="https://bu.dusays.com/2023/01/15/63c38cad0588a.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="解压缩">解压缩</h2>
+<ul>
+<li><code>7-Zip</code>
+<code>7-Zip</code>是一款高压缩比的压缩软件，不仅支持独有的<em>7z</em>文件格式，而且还支持各种其它压缩文件格式，其中包括<strong>ZIP、RAR、CAB、GZIP、BZIP2和TAR</strong>等格式。</li>
 </ul>
 ]]></content:encoded>
     </item>
