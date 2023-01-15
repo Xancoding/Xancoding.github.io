@@ -864,6 +864,174 @@
     </item>
     
     <item>
+      <title>我的电脑常用工具</title>
+      <link>https://xancoding.cn/posts/2023-01-15-12-42-38/</link>
+      <pubDate>Sun, 15 Jan 2023 12:42:38 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-01-15-12-42-38/</guid>
+      <description>&lt;h1 id=&#34;桌面&#34;&gt;桌面&lt;/h1&gt;
+&lt;h2 id=&#34;wallpaper-engine&#34;&gt;Wallpaper Engine&lt;/h2&gt;
+&lt;p&gt;这是STEAM平台上的一款动态壁纸软件，可以在创意工坊中找到自己感兴趣的壁纸
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38603de093.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38603de093.png&#34; alt=&#34;unnamed.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c3863682391.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;目前正在使用的壁纸&lt;/div&gt; 
+ &lt;/center&gt;
+&lt;h2 id=&#34;win-10-开始菜单&#34;&gt;Win 10 开始菜单&lt;/h2&gt;
+&lt;p&gt;我不太习惯把应用的快捷方式直接放在桌面上，我将应用放在了开始菜单的位置。&lt;br&gt;
+在需要打开某一个应用时，只需在键盘上敲击 &lt;code&gt;windows键&lt;/code&gt;，即可挑出下图的界面，我就可以在在上面打开所需的应用了
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png&#34; alt=&#34;Snipaste_2023-01-15_12-59-45.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+如果是常用的网页，我会借助 Chrome浏览器的&lt;code&gt;创建快捷方式&lt;/code&gt;，将其创建为应用，并固定到开始界面
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3895150e18.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3895150e18.png&#34; alt=&#34;Snipaste_2023-01-15_13-03-35.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h1 id=&#34;生产力&#34;&gt;生产力&lt;/h1&gt;
+&lt;h2 id=&#34;搜索&#34;&gt;搜索&lt;/h2&gt;
+&lt;h3 id=&#34;everything&#34;&gt;Everything&lt;/h3&gt;
+&lt;p&gt;通过文件、文件夹名称快速搜索软件，比 &lt;code&gt;Windows&lt;/code&gt; 自带的搜索速度快上不少，使用起来很是方便
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3898a92a8a.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3898a92a8a.png&#34; alt=&#34;Snipaste_2023-01-15_13-04-59.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;wox&#34;&gt;Wox&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1tT4y1J74V/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;Windows效率搜索神器Wox快速教程&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;安装好后，可以通过 &lt;code&gt;alt + 空格键&lt;/code&gt; 调出搜索栏，通过&lt;code&gt;Esc&lt;/code&gt; 退出。调出输入框后，可以通过在地址栏中输入快捷字词，实现在特定网站中搜索内容，或使用其他搜索引擎进行搜索，如下所示，和&lt;a href=&#34;https://xancoding.cn/posts/get-info/#%e5%bf%ab%e6%8d%b7%e5%ad%97%e8%af%8d%e6%90%9c%e7%b4%a2&#34;&gt;这里&lt;/a&gt;的效果差不多。
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38ab68f665.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38ab68f665.png&#34; alt=&#34;Snipaste_2023-01-15_13-10-07.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+除此之外，由于借助了 &lt;code&gt;Everything&lt;/code&gt; 的帮助，也可以直接搜索电脑中的文件以及文件夹，如下所示：
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38c00cd205.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38c00cd205.png&#34; alt=&#34;Snipaste_2023-01-15_13-15-26.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;截图&#34;&gt;截图&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Snipaste&lt;/code&gt;
+Snipaste 是&lt;strong&gt;一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上&lt;/strong&gt;！&lt;br&gt;
+我使用它进行截图和取色的&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="桌面">桌面</h1>
+<h2 id="wallpaper-engine">Wallpaper Engine</h2>
+<p>这是STEAM平台上的一款动态壁纸软件，可以在创意工坊中找到自己感兴趣的壁纸
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38603de093.png">
+<img src="https://bu.dusays.com/2023/01/15/63c38603de093.png" alt="unnamed.png"  />
+</a>
+</div>
+
+</p>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c3863682391.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">目前正在使用的壁纸</div> 
+ </center>
+<h2 id="win-10-开始菜单">Win 10 开始菜单</h2>
+<p>我不太习惯把应用的快捷方式直接放在桌面上，我将应用放在了开始菜单的位置。<br>
+在需要打开某一个应用时，只需在键盘上敲击 <code>windows键</code>，即可挑出下图的界面，我就可以在在上面打开所需的应用了
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png">
+<img src="https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png" alt="Snipaste_2023-01-15_12-59-45.png"  />
+</a>
+</div>
+
+
+如果是常用的网页，我会借助 Chrome浏览器的<code>创建快捷方式</code>，将其创建为应用，并固定到开始界面
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3895150e18.png">
+<img src="https://bu.dusays.com/2023/01/15/63c3895150e18.png" alt="Snipaste_2023-01-15_13-03-35.png"  />
+</a>
+</div>
+
+</p>
+<h1 id="生产力">生产力</h1>
+<h2 id="搜索">搜索</h2>
+<h3 id="everything">Everything</h3>
+<p>通过文件、文件夹名称快速搜索软件，比 <code>Windows</code> 自带的搜索速度快上不少，使用起来很是方便
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3898a92a8a.png">
+<img src="https://bu.dusays.com/2023/01/15/63c3898a92a8a.png" alt="Snipaste_2023-01-15_13-04-59.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="wox">Wox</h3>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1tT4y1J74V/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">Windows效率搜索神器Wox快速教程</a></li>
+</ul>
+<p>安装好后，可以通过 <code>alt + 空格键</code> 调出搜索栏，通过<code>Esc</code> 退出。调出输入框后，可以通过在地址栏中输入快捷字词，实现在特定网站中搜索内容，或使用其他搜索引擎进行搜索，如下所示，和<a href="https://xancoding.cn/posts/get-info/#%e5%bf%ab%e6%8d%b7%e5%ad%97%e8%af%8d%e6%90%9c%e7%b4%a2">这里</a>的效果差不多。
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38ab68f665.png">
+<img src="https://bu.dusays.com/2023/01/15/63c38ab68f665.png" alt="Snipaste_2023-01-15_13-10-07.png"  />
+</a>
+</div>
+
+
+除此之外，由于借助了 <code>Everything</code> 的帮助，也可以直接搜索电脑中的文件以及文件夹，如下所示：
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38c00cd205.png">
+<img src="https://bu.dusays.com/2023/01/15/63c38c00cd205.png" alt="Snipaste_2023-01-15_13-15-26.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="截图">截图</h2>
+<ul>
+<li><code>Snipaste</code>
+Snipaste 是<strong>一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上</strong>！<br>
+我使用它进行截图和取色的</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
       <title>我管理时间的方法</title>
       <link>https://xancoding.cn/posts/time-management/</link>
       <pubDate>Fri, 14 Oct 2022 16:07:09 +0800</pubDate>
@@ -1496,144 +1664,6 @@
 <p>有很多事，光是脑子里想到，明白重要性，是远远不够的。只有真正，实际经历过，你才会有一个全新的认识</p>
 <p>多跟别人交流，多接触新的东西。不同的思想的碰撞，往往会产生意想不到的妙处</p>
 <p>写文章，并不是字多就是好，言简意赅更应该得到推崇，重要的是要表达出自己的想法，在此基础上，字数做到越少越好</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>我的电脑常用工具</title>
-      <link>https://xancoding.cn/posts/2023-01-15-12-42-38/</link>
-      <pubDate>Sun, 15 Jan 2023 12:42:38 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-01-15-12-42-38/</guid>
-      <description>&lt;h1 id=&#34;桌面&#34;&gt;桌面&lt;/h1&gt;
-&lt;h2 id=&#34;wallpaper-engine&#34;&gt;Wallpaper Engine&lt;/h2&gt;
-&lt;p&gt;这是STEAM平台上的一款动态壁纸软件，可以在创意工坊中找到自己感兴趣的壁纸
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38603de093.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38603de093.png&#34; alt=&#34;unnamed.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;center&gt; 
-	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c3863682391.png&#34;&gt;
-	&lt;br&gt;
-	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
-	display: inline-block; 
-	color: #999; 
-	padding: 2px;&#34;&gt;目前正在使用的壁纸&lt;/div&gt; 
- &lt;/center&gt;
-&lt;h2 id=&#34;win-10-开始菜单&#34;&gt;Win 10 开始菜单&lt;/h2&gt;
-&lt;p&gt;我不太习惯把应用的快捷方式直接放在桌面上，我将应用放在了开始菜单的位置。&lt;br&gt;
-在需要打开某一个应用时，只需在键盘上敲击 &lt;code&gt;windows键&lt;/code&gt;，即可挑出下图的界面，我就可以在在上面打开所需的应用了
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png&#34; alt=&#34;Snipaste_2023-01-15_12-59-45.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-如果是常用的网页，我会借助 Chrome浏览器的&lt;code&gt;创建快捷方式&lt;/code&gt;，将其创建为应用，并固定到开始界面
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3895150e18.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3895150e18.png&#34; alt=&#34;Snipaste_2023-01-15_13-03-35.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h1 id=&#34;生产力&#34;&gt;生产力&lt;/h1&gt;
-&lt;h2 id=&#34;搜索&#34;&gt;搜索&lt;/h2&gt;
-&lt;h3 id=&#34;everything&#34;&gt;Everything&lt;/h3&gt;
-&lt;p&gt;通过文件、文件夹名称快速搜索软件，比 &lt;code&gt;Windows&lt;/code&gt; 自带的搜索速度快上不少，使用起来很是方便
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3898a92a8a.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3898a92a8a.png&#34; alt=&#34;Snipaste_2023-01-15_13-04-59.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;wox&#34;&gt;Wox&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1tT4y1J74V/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;Windows效率搜索神器Wox快速教程&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;安装好后，可以通过 &lt;code&gt;alt + 空格键&lt;/code&gt; 调出搜索栏，通过&lt;code&gt;Esc&lt;/code&gt; 退出。调出输入框后，可以通过在地址栏中输入快捷字词，实现在特定网站中搜索内容，或使用其他搜索引擎进行搜索，如下所示，和&lt;a href=&#34;https://xancoding.cn/posts/get-info/#%e5%bf%ab%e6%8d%b7%e5%ad%97%e8%af%8d%e6%90%9c%e7%b4%a2&#34;&gt;这里&lt;/a&gt;的效果差不多
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38ab68f665.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38ab68f665.png&#34; alt=&#34;Snipaste_2023-01-15_13-10-07.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-</description>
-      <content:encoded><![CDATA[<h1 id="桌面">桌面</h1>
-<h2 id="wallpaper-engine">Wallpaper Engine</h2>
-<p>这是STEAM平台上的一款动态壁纸软件，可以在创意工坊中找到自己感兴趣的壁纸
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38603de093.png">
-<img src="https://bu.dusays.com/2023/01/15/63c38603de093.png" alt="unnamed.png"  />
-</a>
-</div>
-
-</p>
-<center> 
-	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c3863682391.png">
-	<br>
-	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
-	display: inline-block; 
-	color: #999; 
-	padding: 2px;">目前正在使用的壁纸</div> 
- </center>
-<h2 id="win-10-开始菜单">Win 10 开始菜单</h2>
-<p>我不太习惯把应用的快捷方式直接放在桌面上，我将应用放在了开始菜单的位置。<br>
-在需要打开某一个应用时，只需在键盘上敲击 <code>windows键</code>，即可挑出下图的界面，我就可以在在上面打开所需的应用了
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png">
-<img src="https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png" alt="Snipaste_2023-01-15_12-59-45.png"  />
-</a>
-</div>
-
-
-如果是常用的网页，我会借助 Chrome浏览器的<code>创建快捷方式</code>，将其创建为应用，并固定到开始界面
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3895150e18.png">
-<img src="https://bu.dusays.com/2023/01/15/63c3895150e18.png" alt="Snipaste_2023-01-15_13-03-35.png"  />
-</a>
-</div>
-
-</p>
-<h1 id="生产力">生产力</h1>
-<h2 id="搜索">搜索</h2>
-<h3 id="everything">Everything</h3>
-<p>通过文件、文件夹名称快速搜索软件，比 <code>Windows</code> 自带的搜索速度快上不少，使用起来很是方便
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3898a92a8a.png">
-<img src="https://bu.dusays.com/2023/01/15/63c3898a92a8a.png" alt="Snipaste_2023-01-15_13-04-59.png"  />
-</a>
-</div>
-
-</p>
-<h3 id="wox">Wox</h3>
-<ul>
-<li><a href="https://www.bilibili.com/video/BV1tT4y1J74V/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">Windows效率搜索神器Wox快速教程</a></li>
-</ul>
-<p>安装好后，可以通过 <code>alt + 空格键</code> 调出搜索栏，通过<code>Esc</code> 退出。调出输入框后，可以通过在地址栏中输入快捷字词，实现在特定网站中搜索内容，或使用其他搜索引擎进行搜索，如下所示，和<a href="https://xancoding.cn/posts/get-info/#%e5%bf%ab%e6%8d%b7%e5%ad%97%e8%af%8d%e6%90%9c%e7%b4%a2">这里</a>的效果差不多
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38ab68f665.png">
-<img src="https://bu.dusays.com/2023/01/15/63c38ab68f665.png" alt="Snipaste_2023-01-15_13-10-07.png"  />
-</a>
-</div>
-
-</p>
 ]]></content:encoded>
     </item>
     
