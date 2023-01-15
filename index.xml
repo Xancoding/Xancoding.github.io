@@ -1500,13 +1500,17 @@
     </item>
     
     <item>
-      <title>2023 01 15 12 42 38</title>
+      <title>我的电脑常用工具</title>
       <link>https://xancoding.cn/posts/2023-01-15-12-42-38/</link>
       <pubDate>Sun, 15 Jan 2023 12:42:38 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-01-15-12-42-38/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
+      <description>&lt;h1 id=&#34;桌面&#34;&gt;桌面&lt;/h1&gt;
+&lt;h2 id=&#34;wallpaper-engine&#34;&gt;Wallpaper Engine&lt;/h2&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="桌面">桌面</h1>
+<h2 id="wallpaper-engine">Wallpaper Engine</h2>
+]]></content:encoded>
     </item>
     
     <item>
@@ -41202,6 +41206,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;&lt;code&gt;ctrl + t&lt;/code&gt;：打开新标签页&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ctrl + w&lt;/code&gt;：关闭当前标签页&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ctrl + o&lt;/code&gt;：切换或创建文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl + e&lt;/code&gt;：切换预览与编辑模式&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;各页面简介&#34;&gt;各页面简介&lt;/h3&gt;
 &lt;ul&gt;
@@ -41710,6 +41715,7 @@ docker rm CONTAINER_NAME # 删除容器
 <li><code>ctrl + t</code>：打开新标签页</li>
 <li><code>ctrl + w</code>：关闭当前标签页</li>
 <li><code>ctrl + o</code>：切换或创建文件</li>
+<li><code>ctrl + e</code>：切换预览与编辑模式</li>
 </ol>
 <h3 id="各页面简介">各页面简介</h3>
 <ul>
