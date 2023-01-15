@@ -890,7 +890,7 @@
  &lt;/center&gt;
 &lt;h2 id=&#34;win-10-开始菜单&#34;&gt;Win 10 开始菜单&lt;/h2&gt;
 &lt;p&gt;我不太习惯把应用的快捷方式直接放在桌面上，我将应用放在了开始菜单的位置。&lt;br&gt;
-在需要打开某一个应用时，只需在键盘上敲击 &lt;code&gt;windows键&lt;/code&gt;，即可挑出下图的界面，我就可以在在上面打开所需的应用了
+在需要打开某一个应用时，只需在键盘上敲击 &lt;code&gt;windows键&lt;/code&gt;，即可跳出下图的界面，我就可以在在上面打开所需的应用了
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png&#34;&gt;
@@ -970,6 +970,9 @@
 
 &lt;/p&gt;
 &lt;h2 id=&#34;图床&#34;&gt;图床&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;我使用的图床是&lt;a href=&#34;https://7bu.top/upload&#34;&gt;去不图床&lt;/a&gt;，借助 &lt;code&gt;PicGo&lt;/code&gt;，方便将图片上传到图床，并生成访问链接给我自己写博客用，最后再借助 &lt;code&gt;Obsidian&lt;/code&gt; 中的 &lt;code&gt;Image auto upload Plugin&lt;/code&gt; 插件，实现将图片拖拽到 &lt;code&gt;Obsidian&lt;/code&gt; 编辑器中，即可自动将图片通过 &lt;code&gt;PicGo&lt;/code&gt; 上传到 &lt;code&gt;去不图床&lt;/code&gt;，并生成链接，显示在 &lt;code&gt;Obsidian&lt;/code&gt; 中，简化了我写博客的过程。&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="桌面">桌面</h1>
@@ -993,7 +996,7 @@
  </center>
 <h2 id="win-10-开始菜单">Win 10 开始菜单</h2>
 <p>我不太习惯把应用的快捷方式直接放在桌面上，我将应用放在了开始菜单的位置。<br>
-在需要打开某一个应用时，只需在键盘上敲击 <code>windows键</code>，即可挑出下图的界面，我就可以在在上面打开所需的应用了
+在需要打开某一个应用时，只需在键盘上敲击 <code>windows键</code>，即可跳出下图的界面，我就可以在在上面打开所需的应用了
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png">
@@ -1073,6 +1076,9 @@
 
 </p>
 <h2 id="图床">图床</h2>
+<ul>
+<li></li>
+</ul>
 <p>我使用的图床是<a href="https://7bu.top/upload">去不图床</a>，借助 <code>PicGo</code>，方便将图片上传到图床，并生成访问链接给我自己写博客用，最后再借助 <code>Obsidian</code> 中的 <code>Image auto upload Plugin</code> 插件，实现将图片拖拽到 <code>Obsidian</code> 编辑器中，即可自动将图片通过 <code>PicGo</code> 上传到 <code>去不图床</code>，并生成链接，显示在 <code>Obsidian</code> 中，简化了我写博客的过程。</p>
 ]]></content:encoded>
     </item>
