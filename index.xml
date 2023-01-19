@@ -42811,6 +42811,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/&#34;&gt;HackerNews&lt;/a&gt; 技术热点话题 新闻社区&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://meta.appinn.net/&#34;&gt;小众软件论坛&lt;/a&gt; 分享免费、小巧、有趣、实用软件&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://codenews.cc/&#34;&gt;CodeNews&lt;/a&gt; 一个专注于【技术发明创造】交流的社区&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hellogithub.com/&#34;&gt;HelloGitHub&lt;/a&gt; 一个分享有趣、 入门级开源项目的平台&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="cs">CS</h1>
@@ -43001,6 +43002,7 @@ docker rm CONTAINER_NAME # 删除容器
 <li><a href="https://news.ycombinator.com/">HackerNews</a> 技术热点话题 新闻社区</li>
 <li><a href="https://meta.appinn.net/">小众软件论坛</a> 分享免费、小巧、有趣、实用软件</li>
 <li><a href="https://codenews.cc/">CodeNews</a> 一个专注于【技术发明创造】交流的社区</li>
+<li><a href="https://hellogithub.com/">HelloGitHub</a> 一个分享有趣、 入门级开源项目的平台</li>
 </ul>
 ]]></content:encoded>
     </item>
