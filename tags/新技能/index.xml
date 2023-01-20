@@ -115,45 +115,7 @@ std::cout &amp;lt;&amp;lt; &amp;#34;Yeah!\n&amp;#34;;
     std::cout &amp;lt;&amp;lt; 2;
     std::cout &amp;lt;&amp;lt; 3;
 */
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;初始化&#34;&gt;初始化&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Default initialization：默认初始化&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int a; // no initializer
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Copy initialization：在现代 C++ 中用的不多&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int width = 5; // copy initialization of value 5 into variable width
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Direct initialization：当在括号内提供初始化程序时，这称为直接初始化。最初引入直接初始化是为了更有效地初始化复杂对象。但是，与复制初始化一样，直接初始化在现代 C++ 中使用不多&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int width( 5 ); // direct initialization of value 5 into variable width
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Brace initialization：在 C++ 中初始化对象的现代方法是使用一种利用大括号的初始化形式&amp;ndash;&lt;strong&gt;大括号初始化&lt;/strong&gt;（也称为统一初始化或列表初始化）。引入大括号初始化是为了提供在大多数情况下都有效的&lt;strong&gt;更一致的初始化语法&lt;/strong&gt;（这就是为什么它有时被称为“统一初始化”）。此外，大括号初始化提供了&lt;strong&gt;一种使用值列表初始化对象的方法&lt;/strong&gt;（这就是为什么它有时被称为“列表初始化”）。大括号初始化有三种形式：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int width { 5 }; // direct brace initialization of value 5 into variable width (preferred)
-int height = { 6 }; // copy brace initialization of value 6 into variable height
-int depth {}; // value initialization 
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;大括号初始化&lt;/strong&gt;有一个额外的好处：它不允许“缩小转换”。这意味着如果您尝试使用变量无法安全保存的值来初始化变量，&lt;strong&gt;编译器将产生错误，迫使您在继续之前解决这个问题&lt;/strong&gt;。例如：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int width { 4.5 }; // error: a number with a fractional value can&amp;#39;t fit into an int
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;stdendl-vs-n&#34;&gt;std::endl vs ‘\n’&lt;/h2&gt;
-&lt;p&gt;使用 std::endl 可能有点低效，因为它实际上做了两个工作：它将光标移动到控制台的下一行，并确保任何缓存的输出立即显示在屏幕上（这称为刷新输出）。当使用 std::cout 将文本写入控制台时，std::cout 通常会刷新输出（如果不刷新，通常也无关紧要），因此让 std::endl 执行刷新很少重要&lt;/p&gt;
-&lt;p&gt;因此，通常首选使用“\n”字符。 ‘\n’ 字符将光标移动到控制台的下一行，但不请求刷新，因此在刷新不会发生的情况下它会执行得更好。 ‘\n’ 字符也更易于阅读，因为它更短并且可以嵌入到现有文本中&lt;/p&gt;
-&lt;p&gt;这是一个以两种不同方式使用“\n”的示例：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#include &amp;lt;iostream&amp;gt; // for std::cout
-
-int main()
-{
-    int x{ 5 };
-    std::cout &amp;lt;&amp;lt; &amp;#34;x is equal to: &amp;#34; &amp;lt;&amp;lt; x &amp;lt;&amp;lt; &amp;#39;\n&amp;#39;; // Using &amp;#39;\n&amp;#39; standalone
-    std::cout &amp;lt;&amp;lt; &amp;#34;And that&amp;#39;s all, folks!\n&amp;#34;; // Using &amp;#39;\n&amp;#39; embedded into a double-quoted piece of text (note: no single quotes when used this way)
-    return 0;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这打印：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;x is equal to: 5
-And that&amp;#39;s all, folks!
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;将文本输出到控制台时，优先使用“\n”而不是 std::endl&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;代码的可读性&#34;&gt;代码的可读性&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;代码的可读性&#34;&gt;代码的可读性&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;您的行的长度不应超过 80 个字符&lt;/li&gt;
 &lt;/ol&gt;
@@ -205,44 +167,18 @@ int main()
     return EXIT_SUCCESS;
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果你想最大限度地提高可移植性，你应该只使用 0 或 EXIT_SUCCESS 来指示成功终止，或者使用 EXIT_FAILURE 来指示不成功终止&lt;/p&gt;
-&lt;h2 id=&#34;具有多个cpp文件的程序&#34;&gt;具有多个cpp文件的程序&lt;/h2&gt;
-&lt;h3 id=&#34;cpp-文件&#34;&gt;.cpp 文件&lt;/h3&gt;
-&lt;p&gt;编译器会单独编译每个文件。它不知道其他代码文件的内容，也不记得它从以前编译的代码文件中看到的任何内容。这种有限的可见性和短内存是有意的，因此文件可能具有名称相同的函数或变量而不会相互冲突。&lt;/p&gt;
-&lt;p&gt;C++ 语言支持&amp;quot;分别编译&amp;quot;（separatecompilation）。也就是说，一个程序所有的内容，可以分成不同的部分分别放在不同的 .cpp 文件里。.cpp 文件里的东西都是相对独立的，在编译（compile）时不需要与其他文件互通，只需要在编译成目标文件后再与其他的目标文件做一次链接（link）就行了。比如，在文件 a.cpp 中定义了一个全局函数 &amp;ldquo;void a(){}&amp;quot;，而在文件 b.cpp 中需要调用这个函数。即使这样，文件 a.cpp 和文件 b.cpp 并不需要相互知道对方的存在，而是可以分别地对它们进行编译，编译成目标文件之后再链接，整个程序就可以运行了&lt;/p&gt;
-&lt;p&gt;这是怎么实现的呢？从写程序的角度来讲，很简单。在文件 b.cpp 中，在调用 &amp;ldquo;void a()&amp;rdquo; 函数之前，先&lt;strong&gt;声明一下&lt;/strong&gt;这个函数 &amp;ldquo;void a();&amp;quot;，就可以了。这是因为编译器在编译 b.cpp 的时候会生成一个符号表（symbol table），像 &amp;ldquo;void a()&amp;rdquo; 这样的看不到定义的符号，就会被存放在这个表中。再进行链接的时候，编译器就会在别的目标文件中去寻找这个符号的定义。一旦找到了，程序也就可以顺利地生成了&lt;/p&gt;
-&lt;h3 id=&#34;h-文件&#34;&gt;.h 文件&lt;/h3&gt;
-&lt;p&gt;考虑一下，如果有一个很常用的函数 &amp;ldquo;void f() {}&amp;quot;，在整个程序中的许多 .cpp 文件中都会被调用，那么，我们就只需要在一个文件中定义这个函数，而在其他的文件中声明这个函数就可以了。一个函数还好对付，声明起来也就一句话。但是，如果函数多了，比如是一大堆的数学函数，有好几百个，那怎么办？&lt;/p&gt;
-&lt;p&gt;头文件允许我们将声明放在一个位置，然后在我们需要的地方导入它们。这可以在多文件程序中节省大量的输入&lt;/p&gt;
-&lt;p&gt;头文件通常只包含函数和变量声明，而不包含函数和变量定义（否则可能会导致违反单一定义规则）。&lt;strong&gt;符号常量&lt;/strong&gt;是一个例外&lt;/p&gt;
-&lt;p&gt;使用双引号 &lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt; 包括您编写的或预期在当前目录中找到的头文件&lt;/p&gt;
-&lt;p&gt;使用尖括号 &lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt; 来包含编译器、操作系统或您在系统其他位置安装的第三方库附带的标头&lt;/p&gt;
-&lt;h4 id=&#34;为什么-iostream-没有-h-扩展名&#34;&gt;为什么 iostream 没有 .h 扩展名？&lt;/h4&gt;
-&lt;p&gt;首次创建 C++ 时，标准库中的所有文件都以 .h 后缀结尾。生活是一致的，而且很好。 cout 和 cin 的原始版本在 iostream.h 中声明。当 ANSI 委员会对该语言进行标准化时，他们决定将标准库中使用的所有名称移动到 std 命名空间中，以帮助避免与用户定义的标识符发生命名冲突。然而，这带来了一个问题：如果他们将所有名称移动到 std 名称空间中，那么旧程序（包括 iostream.h）将不再工作！&lt;/p&gt;
-&lt;p&gt;为解决此问题，引入了一组缺少 .h 扩展名的新头文件。这些新的头文件定义了 std 命名空间内的所有名称。这样，包含 &lt;code&gt;#include &amp;lt;iostream.h&amp;gt;&lt;/code&gt; 的旧程序不需要重写，新程序可以 &lt;code&gt;#include &amp;lt;iostream&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;include来自其他目录的头文件&#34;&gt;include来自其他目录的头文件&lt;/h4&gt;
-&lt;p&gt;一种（不好的）方法是在#include 行中包含一个指向您要包含的头文件的相对路径。例如：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;#34;headers/myHeader.h&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;#34;../moreHeaders/myOtherHeader.h&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;虽然这会编译（假设文件存在于那些相对目录中），但这种方法的缺点是它需要您在代码中反映您的目录结构。如果您更新了目录结构，您的代码将不再有效&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;更好的方法&lt;/strong&gt;是告诉你的编译器或 IDE 你在其他位置有一堆头文件，这样当它在当前目录中找不到它们时就会去那里寻找。这通常可以通过在 IDE 项目设置中设置包含路径或搜索目录来完成&lt;/p&gt;
-&lt;p&gt;这种方法的好处是，如果您更改了目录结构，您只需更改一个编译器或 IDE 设置，而不是每个代码文件&lt;/p&gt;
-&lt;h4 id=&#34;headers-may-include-other-headers&#34;&gt;Headers may include other headers&lt;/h4&gt;
-&lt;p&gt;当您的代码文件 &lt;code&gt;#includes&lt;/code&gt; 第一个头文件时，您还将获得第一个头文件包含的任何其他头文件（以及那些包含的任何头文件，等等）。这些额外的头文件有时称为传递包含，因为它们是隐式包含而不是显式包含&lt;/p&gt;
-&lt;p&gt;每个文件都应该 &lt;code&gt;显式#include&lt;/code&gt; 它需要编译的所有头文件。不要依赖从其他标头传递过来的标头&lt;/p&gt;
-&lt;h4 id=&#34;include-头文件顺序&#34;&gt;include 头文件顺序&lt;/h4&gt;
-&lt;p&gt;如果你的头文件写得正确并且&lt;code&gt;#include&lt;/code&gt;了他们需要的一切，那么包含的顺序应该无关紧要&lt;/p&gt;
-&lt;p&gt;现在考虑以下场景：假设 header A 需要 header  B 的声明，但忘记包含它。在我们的代码文件中，如果我们在 header  A 之前包含 header  B，我们的代码仍然可以编译！这是因为编译器会先编译 B 中的所有声明，然后再编译 A 中依赖于这些声明的代码&lt;/p&gt;
-&lt;p&gt;但是，如果我们首先包含 header  A，那么编译器会报错，因为 A 的代码将在编译器看到 B 的声明之前编译。这实际上是更可取的，因为错误已经浮出水面，然后我们可以修复它.&lt;/p&gt;
-&lt;p&gt;为了最大限度地提高编译器标记缺少包含的机会，请按以下方式命令您的&lt;code&gt;#includes&lt;/code&gt;：&lt;/p&gt;
+&lt;h2 id=&#34;include-头文件顺序&#34;&gt;include 头文件顺序&lt;/h2&gt;
+&lt;p&gt;在 C++ 中，头文件的顺序通常应该遵循以下顺序：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;The paired header file&lt;/li&gt;
-&lt;li&gt;Other headers from your project&lt;/li&gt;
-&lt;li&gt;3rd party library headers&lt;/li&gt;
-&lt;li&gt;Standard library headers&lt;/li&gt;
+&lt;li&gt;C 标准库头文件（如 &lt;code&gt;&amp;lt;stdio.h&amp;gt;&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;C++ 标准库头文件（如 &lt;code&gt;&amp;lt;iostream&amp;gt;&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;第三方库头文件（如 &lt;code&gt;Boost&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;项目特定的头文件（如自定义的头文件）&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;这样的顺序可以避免头文件之间的依赖关系问题，同时也可以更快地查找问题。&lt;/p&gt;
 &lt;p&gt;The headers for each grouping should be sorted alphabetically（按字母顺序排序）.&lt;/p&gt;
-&lt;p&gt;这样，如果您的某个用户定义的 Header 缺少第 3 方库或标准库 Header 的&lt;code&gt;#include&lt;/code&gt;，则更有可能导致编译错误，因此您可以修复它&lt;/p&gt;
-&lt;h4 id=&#34;header-file-best-practices&#34;&gt;Header file best practices&lt;/h4&gt;
+&lt;p&gt;这个顺序并不是强制的，主要取决于项目的需要和编程风格。&lt;/p&gt;
+&lt;h2 id=&#34;header-file-best-practices&#34;&gt;Header file best practices&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;始终 include header guards&lt;/li&gt;
 &lt;li&gt;不要在头文件中定义变量和函数（全局常量是一个例外）&lt;/li&gt;
@@ -3232,45 +3168,7 @@ std::cout &lt;&lt; &#34;Yeah!\n&#34;;
     std::cout &lt;&lt; 2;
     std::cout &lt;&lt; 3;
 */
-</code></pre><h2 id="初始化">初始化</h2>
-<ol>
-<li>Default initialization：默认初始化</li>
-</ol>
-<pre tabindex="0"><code>int a; // no initializer
-</code></pre><ol start="2">
-<li>Copy initialization：在现代 C++ 中用的不多</li>
-</ol>
-<pre tabindex="0"><code>int width = 5; // copy initialization of value 5 into variable width
-</code></pre><ol start="3">
-<li>Direct initialization：当在括号内提供初始化程序时，这称为直接初始化。最初引入直接初始化是为了更有效地初始化复杂对象。但是，与复制初始化一样，直接初始化在现代 C++ 中使用不多</li>
-</ol>
-<pre tabindex="0"><code>int width( 5 ); // direct initialization of value 5 into variable width
-</code></pre><ol start="4">
-<li>Brace initialization：在 C++ 中初始化对象的现代方法是使用一种利用大括号的初始化形式&ndash;<strong>大括号初始化</strong>（也称为统一初始化或列表初始化）。引入大括号初始化是为了提供在大多数情况下都有效的<strong>更一致的初始化语法</strong>（这就是为什么它有时被称为“统一初始化”）。此外，大括号初始化提供了<strong>一种使用值列表初始化对象的方法</strong>（这就是为什么它有时被称为“列表初始化”）。大括号初始化有三种形式：</li>
-</ol>
-<pre tabindex="0"><code>int width { 5 }; // direct brace initialization of value 5 into variable width (preferred)
-int height = { 6 }; // copy brace initialization of value 6 into variable height
-int depth {}; // value initialization 
-</code></pre><p><strong>大括号初始化</strong>有一个额外的好处：它不允许“缩小转换”。这意味着如果您尝试使用变量无法安全保存的值来初始化变量，<strong>编译器将产生错误，迫使您在继续之前解决这个问题</strong>。例如：</p>
-<pre tabindex="0"><code>int width { 4.5 }; // error: a number with a fractional value can&#39;t fit into an int
-</code></pre><h2 id="stdendl-vs-n">std::endl vs ‘\n’</h2>
-<p>使用 std::endl 可能有点低效，因为它实际上做了两个工作：它将光标移动到控制台的下一行，并确保任何缓存的输出立即显示在屏幕上（这称为刷新输出）。当使用 std::cout 将文本写入控制台时，std::cout 通常会刷新输出（如果不刷新，通常也无关紧要），因此让 std::endl 执行刷新很少重要</p>
-<p>因此，通常首选使用“\n”字符。 ‘\n’ 字符将光标移动到控制台的下一行，但不请求刷新，因此在刷新不会发生的情况下它会执行得更好。 ‘\n’ 字符也更易于阅读，因为它更短并且可以嵌入到现有文本中</p>
-<p>这是一个以两种不同方式使用“\n”的示例：</p>
-<pre tabindex="0"><code>#include &lt;iostream&gt; // for std::cout
-
-int main()
-{
-    int x{ 5 };
-    std::cout &lt;&lt; &#34;x is equal to: &#34; &lt;&lt; x &lt;&lt; &#39;\n&#39;; // Using &#39;\n&#39; standalone
-    std::cout &lt;&lt; &#34;And that&#39;s all, folks!\n&#34;; // Using &#39;\n&#39; embedded into a double-quoted piece of text (note: no single quotes when used this way)
-    return 0;
-}
-</code></pre><p>这打印：</p>
-<pre tabindex="0"><code>x is equal to: 5
-And that&#39;s all, folks!
-</code></pre><p><strong>将文本输出到控制台时，优先使用“\n”而不是 std::endl</strong></p>
-<h2 id="代码的可读性">代码的可读性</h2>
+</code></pre><h2 id="代码的可读性">代码的可读性</h2>
 <ol>
 <li>您的行的长度不应超过 80 个字符</li>
 </ol>
@@ -3322,44 +3220,18 @@ int main()
     return EXIT_SUCCESS;
 }
 </code></pre><p>如果你想最大限度地提高可移植性，你应该只使用 0 或 EXIT_SUCCESS 来指示成功终止，或者使用 EXIT_FAILURE 来指示不成功终止</p>
-<h2 id="具有多个cpp文件的程序">具有多个cpp文件的程序</h2>
-<h3 id="cpp-文件">.cpp 文件</h3>
-<p>编译器会单独编译每个文件。它不知道其他代码文件的内容，也不记得它从以前编译的代码文件中看到的任何内容。这种有限的可见性和短内存是有意的，因此文件可能具有名称相同的函数或变量而不会相互冲突。</p>
-<p>C++ 语言支持&quot;分别编译&quot;（separatecompilation）。也就是说，一个程序所有的内容，可以分成不同的部分分别放在不同的 .cpp 文件里。.cpp 文件里的东西都是相对独立的，在编译（compile）时不需要与其他文件互通，只需要在编译成目标文件后再与其他的目标文件做一次链接（link）就行了。比如，在文件 a.cpp 中定义了一个全局函数 &ldquo;void a(){}&quot;，而在文件 b.cpp 中需要调用这个函数。即使这样，文件 a.cpp 和文件 b.cpp 并不需要相互知道对方的存在，而是可以分别地对它们进行编译，编译成目标文件之后再链接，整个程序就可以运行了</p>
-<p>这是怎么实现的呢？从写程序的角度来讲，很简单。在文件 b.cpp 中，在调用 &ldquo;void a()&rdquo; 函数之前，先<strong>声明一下</strong>这个函数 &ldquo;void a();&quot;，就可以了。这是因为编译器在编译 b.cpp 的时候会生成一个符号表（symbol table），像 &ldquo;void a()&rdquo; 这样的看不到定义的符号，就会被存放在这个表中。再进行链接的时候，编译器就会在别的目标文件中去寻找这个符号的定义。一旦找到了，程序也就可以顺利地生成了</p>
-<h3 id="h-文件">.h 文件</h3>
-<p>考虑一下，如果有一个很常用的函数 &ldquo;void f() {}&quot;，在整个程序中的许多 .cpp 文件中都会被调用，那么，我们就只需要在一个文件中定义这个函数，而在其他的文件中声明这个函数就可以了。一个函数还好对付，声明起来也就一句话。但是，如果函数多了，比如是一大堆的数学函数，有好几百个，那怎么办？</p>
-<p>头文件允许我们将声明放在一个位置，然后在我们需要的地方导入它们。这可以在多文件程序中节省大量的输入</p>
-<p>头文件通常只包含函数和变量声明，而不包含函数和变量定义（否则可能会导致违反单一定义规则）。<strong>符号常量</strong>是一个例外</p>
-<p>使用双引号 <code>&quot;&quot;</code> 包括您编写的或预期在当前目录中找到的头文件</p>
-<p>使用尖括号 <code>&lt;&gt;</code> 来包含编译器、操作系统或您在系统其他位置安装的第三方库附带的标头</p>
-<h4 id="为什么-iostream-没有-h-扩展名">为什么 iostream 没有 .h 扩展名？</h4>
-<p>首次创建 C++ 时，标准库中的所有文件都以 .h 后缀结尾。生活是一致的，而且很好。 cout 和 cin 的原始版本在 iostream.h 中声明。当 ANSI 委员会对该语言进行标准化时，他们决定将标准库中使用的所有名称移动到 std 命名空间中，以帮助避免与用户定义的标识符发生命名冲突。然而，这带来了一个问题：如果他们将所有名称移动到 std 名称空间中，那么旧程序（包括 iostream.h）将不再工作！</p>
-<p>为解决此问题，引入了一组缺少 .h 扩展名的新头文件。这些新的头文件定义了 std 命名空间内的所有名称。这样，包含 <code>#include &lt;iostream.h&gt;</code> 的旧程序不需要重写，新程序可以 <code>#include &lt;iostream&gt;</code></p>
-<h4 id="include来自其他目录的头文件">include来自其他目录的头文件</h4>
-<p>一种（不好的）方法是在#include 行中包含一个指向您要包含的头文件的相对路径。例如：</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#include</span> <span style="color:#0f0;font-weight:bold">&#34;headers/myHeader.h&#34;</span><span style="color:#0f0;font-weight:bold">
-</span></span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#include</span> <span style="color:#0f0;font-weight:bold">&#34;../moreHeaders/myOtherHeader.h&#34;</span><span style="color:#0f0;font-weight:bold">
-</span></span></span></code></pre></div><p>虽然这会编译（假设文件存在于那些相对目录中），但这种方法的缺点是它需要您在代码中反映您的目录结构。如果您更新了目录结构，您的代码将不再有效</p>
-<p><strong>更好的方法</strong>是告诉你的编译器或 IDE 你在其他位置有一堆头文件，这样当它在当前目录中找不到它们时就会去那里寻找。这通常可以通过在 IDE 项目设置中设置包含路径或搜索目录来完成</p>
-<p>这种方法的好处是，如果您更改了目录结构，您只需更改一个编译器或 IDE 设置，而不是每个代码文件</p>
-<h4 id="headers-may-include-other-headers">Headers may include other headers</h4>
-<p>当您的代码文件 <code>#includes</code> 第一个头文件时，您还将获得第一个头文件包含的任何其他头文件（以及那些包含的任何头文件，等等）。这些额外的头文件有时称为传递包含，因为它们是隐式包含而不是显式包含</p>
-<p>每个文件都应该 <code>显式#include</code> 它需要编译的所有头文件。不要依赖从其他标头传递过来的标头</p>
-<h4 id="include-头文件顺序">include 头文件顺序</h4>
-<p>如果你的头文件写得正确并且<code>#include</code>了他们需要的一切，那么包含的顺序应该无关紧要</p>
-<p>现在考虑以下场景：假设 header A 需要 header  B 的声明，但忘记包含它。在我们的代码文件中，如果我们在 header  A 之前包含 header  B，我们的代码仍然可以编译！这是因为编译器会先编译 B 中的所有声明，然后再编译 A 中依赖于这些声明的代码</p>
-<p>但是，如果我们首先包含 header  A，那么编译器会报错，因为 A 的代码将在编译器看到 B 的声明之前编译。这实际上是更可取的，因为错误已经浮出水面，然后我们可以修复它.</p>
-<p>为了最大限度地提高编译器标记缺少包含的机会，请按以下方式命令您的<code>#includes</code>：</p>
+<h2 id="include-头文件顺序">include 头文件顺序</h2>
+<p>在 C++ 中，头文件的顺序通常应该遵循以下顺序：</p>
 <ol>
-<li>The paired header file</li>
-<li>Other headers from your project</li>
-<li>3rd party library headers</li>
-<li>Standard library headers</li>
+<li>C 标准库头文件（如 <code>&lt;stdio.h&gt;</code>）</li>
+<li>C++ 标准库头文件（如 <code>&lt;iostream&gt;</code>）</li>
+<li>第三方库头文件（如 <code>Boost</code>）</li>
+<li>项目特定的头文件（如自定义的头文件）</li>
 </ol>
+<p>这样的顺序可以避免头文件之间的依赖关系问题，同时也可以更快地查找问题。</p>
 <p>The headers for each grouping should be sorted alphabetically（按字母顺序排序）.</p>
-<p>这样，如果您的某个用户定义的 Header 缺少第 3 方库或标准库 Header 的<code>#include</code>，则更有可能导致编译错误，因此您可以修复它</p>
-<h4 id="header-file-best-practices">Header file best practices</h4>
+<p>这个顺序并不是强制的，主要取决于项目的需要和编程风格。</p>
+<h2 id="header-file-best-practices">Header file best practices</h2>
 <ol>
 <li>始终 include header guards</li>
 <li>不要在头文件中定义变量和函数（全局常量是一个例外）</li>
