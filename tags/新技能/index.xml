@@ -65,7 +65,6 @@ int main()
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;c-基础知识&#34;&gt;C++ 基础知识&lt;/h1&gt;
 &lt;h2 id=&#34;注释&#34;&gt;注释&lt;/h2&gt;
-&lt;h2 id=&#34;写在前面&#34;&gt;写在前面&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;通常，注释应该用于三件事
 &lt;ol&gt;
@@ -3237,7 +3236,6 @@ int main()
 }
 </code></pre><h1 id="c-基础知识">C++ 基础知识</h1>
 <h2 id="注释">注释</h2>
-<h2 id="写在前面">写在前面</h2>
 <ol>
 <li>通常，注释应该用于三件事
 <ol>
