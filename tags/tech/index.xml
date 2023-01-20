@@ -2437,9 +2437,15 @@ table ends
 
 codesg segment 
 
+start:
+		mov ax, data
+		mov ds, ax
+		sub si, si
+
+		mov 
 codesg ends
 
-end
+end start
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Gf4y1w75t/?vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;Win10下配置汇编语言 （王爽）实验环境&lt;/a&gt;&lt;/li&gt;
@@ -3061,9 +3067,15 @@ table ends
 
 codesg segment 
 
+start:
+		mov ax, data
+		mov ds, ax
+		sub si, si
+
+		mov 
 codesg ends
 
-end
+end start
 </code></pre><h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://www.bilibili.com/video/BV1Gf4y1w75t/?vd_source=ae16ff6478eb15c1b87880540263910b">Win10下配置汇编语言 （王爽）实验环境</a></li>
