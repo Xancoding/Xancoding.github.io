@@ -5577,6 +5577,7 @@ int main()
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;c-基础知识&#34;&gt;C++ 基础知识&lt;/h1&gt;
 &lt;h2 id=&#34;注释&#34;&gt;注释&lt;/h2&gt;
+&lt;h3 id=&#34;写在前面&#34;&gt;写在前面&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;通常，注释应该用于三件事
 &lt;ol&gt;
@@ -5588,7 +5589,7 @@ int main()
 &lt;li&gt;注释是一种很好的方式来提醒自己（或告诉别人）你做出一个决定而不是另一个决定的原因&lt;/li&gt;
 &lt;li&gt;注释您的代码，像在对不知道代码功能的人说话一样写您的注释。不要假设你会记得你为什么做出特定的选择&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;单行注释&#34;&gt;单行注释&lt;/h2&gt;
+&lt;h3 id=&#34;单行注释&#34;&gt;单行注释&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;在行的右侧添加注释会使代码和注释都难以阅读，尤其是在行很长的情况下。如果行相当短，评论可以简单地对齐（通常是一个制表位），像这样：&lt;/li&gt;
 &lt;/ol&gt;
@@ -5610,7 +5611,7 @@ std::cout &amp;lt;&amp;lt; &amp;#34;Yeah!\n&amp;#34;;
 &lt;li&gt;Commenting out code&lt;/li&gt;
 &lt;/ol&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;//    std::cout &amp;lt;&amp;lt; 1;
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;多行注释&#34;&gt;多行注释&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;多行注释&#34;&gt;多行注释&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Explaining code&lt;/li&gt;
 &lt;/ol&gt;
@@ -5683,8 +5684,11 @@ And that&amp;#39;s all, folks!
     + 5 + 6
     * 7 * 8;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;许多编辑器都有一个内置功能（或插件/扩展），可以在给定的列（例如 80 个字符）处显示一行（称为“列指南”），因此您可以轻松查看行何时变得太长&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Clion column guide&lt;/strong&gt; : File &amp;gt; Settings &amp;gt; Editor &amp;gt; Code Style &amp;gt; General &amp;gt; 在 &amp;ldquo;Visual guides&amp;rdquo; 矩形框中键入 80 并应用更改
-2. 使用空格通过对齐值或注释或在代码块之间添加间距来使您的代码更易于阅读&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Clion column guide : 
+File &amp;gt; Settings &amp;gt; Editor &amp;gt; Code Style &amp;gt; General &amp;gt; 在 &amp;#34;Visual guides&amp;#34; 矩形框中键入 80 并应用更改
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;使用空格通过对齐值或注释或在代码块之间添加间距来使您的代码更易于阅读&lt;/li&gt;
+&lt;/ol&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cost          = 57;
 pricePerItem  = 24;
 value         = 5;
@@ -8748,6 +8752,7 @@ int main()
 }
 </code></pre><h1 id="c-基础知识">C++ 基础知识</h1>
 <h2 id="注释">注释</h2>
+<h3 id="写在前面">写在前面</h3>
 <ol>
 <li>通常，注释应该用于三件事
 <ol>
@@ -8759,7 +8764,7 @@ int main()
 <li>注释是一种很好的方式来提醒自己（或告诉别人）你做出一个决定而不是另一个决定的原因</li>
 <li>注释您的代码，像在对不知道代码功能的人说话一样写您的注释。不要假设你会记得你为什么做出特定的选择</li>
 </ol>
-<h2 id="单行注释">单行注释</h2>
+<h3 id="单行注释">单行注释</h3>
 <ol>
 <li>在行的右侧添加注释会使代码和注释都难以阅读，尤其是在行很长的情况下。如果行相当短，评论可以简单地对齐（通常是一个制表位），像这样：</li>
 </ol>
@@ -8781,7 +8786,7 @@ std::cout &lt;&lt; &#34;Yeah!\n&#34;;
 <li>Commenting out code</li>
 </ol>
 <pre tabindex="0"><code>//    std::cout &lt;&lt; 1;
-</code></pre><h2 id="多行注释">多行注释</h2>
+</code></pre><h3 id="多行注释">多行注释</h3>
 <ol>
 <li>Explaining code</li>
 </ol>
@@ -8854,8 +8859,11 @@ And that&#39;s all, folks!
     + 5 + 6
     * 7 * 8;
 </code></pre><p>许多编辑器都有一个内置功能（或插件/扩展），可以在给定的列（例如 80 个字符）处显示一行（称为“列指南”），因此您可以轻松查看行何时变得太长</p>
-<p><strong>Clion column guide</strong> : File &gt; Settings &gt; Editor &gt; Code Style &gt; General &gt; 在 &ldquo;Visual guides&rdquo; 矩形框中键入 80 并应用更改
-2. 使用空格通过对齐值或注释或在代码块之间添加间距来使您的代码更易于阅读</p>
+<pre tabindex="0"><code>Clion column guide : 
+File &gt; Settings &gt; Editor &gt; Code Style &gt; General &gt; 在 &#34;Visual guides&#34; 矩形框中键入 80 并应用更改
+</code></pre><ol start="2">
+<li>使用空格通过对齐值或注释或在代码块之间添加间距来使您的代码更易于阅读</li>
+</ol>
 <pre tabindex="0"><code>cost          = 57;
 pricePerItem  = 24;
 value         = 5;
