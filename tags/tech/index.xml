@@ -3453,7 +3453,7 @@ int main()
 &lt;h4 id=&#34;为什么-iostream-没有-h-扩展名&#34;&gt;为什么 iostream 没有 .h 扩展名？&lt;/h4&gt;
 &lt;p&gt;首次创建 C++ 时，标准库中的所有文件都以 .h 后缀结尾。生活是一致的，而且很好。 cout 和 cin 的原始版本在 iostream.h 中声明。当 ANSI 委员会对该语言进行标准化时，他们决定将标准库中使用的所有名称移动到 std 命名空间中，以帮助避免与用户定义的标识符发生命名冲突。然而，这带来了一个问题：如果他们将所有名称移动到 std 名称空间中，那么旧程序（包括 iostream.h）将不再工作！&lt;/p&gt;
 &lt;p&gt;为解决此问题，引入了一组缺少 .h 扩展名的新头文件。这些新的头文件定义了 std 命名空间内的所有名称。这样，包含 &lt;code&gt;#include &amp;lt;iostream.h&amp;gt;&lt;/code&gt; 的旧程序不需要重写，新程序可以 &lt;code&gt;#include &amp;lt;iostream&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;include来自其他目录的头文件&#34;&gt;Include来自其他目录的头文件&lt;/h4&gt;
+&lt;h4 id=&#34;include来自其他目录的头文件&#34;&gt;include来自其他目录的头文件&lt;/h4&gt;
 &lt;p&gt;一种（不好的）方法是在#include 行中包含一个指向您要包含的头文件的相对路径。例如：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;#34;headers/myHeader.h&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;#34;../moreHeaders/myOtherHeader.h&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;
@@ -6570,7 +6570,7 @@ int main()
 <h4 id="为什么-iostream-没有-h-扩展名">为什么 iostream 没有 .h 扩展名？</h4>
 <p>首次创建 C++ 时，标准库中的所有文件都以 .h 后缀结尾。生活是一致的，而且很好。 cout 和 cin 的原始版本在 iostream.h 中声明。当 ANSI 委员会对该语言进行标准化时，他们决定将标准库中使用的所有名称移动到 std 命名空间中，以帮助避免与用户定义的标识符发生命名冲突。然而，这带来了一个问题：如果他们将所有名称移动到 std 名称空间中，那么旧程序（包括 iostream.h）将不再工作！</p>
 <p>为解决此问题，引入了一组缺少 .h 扩展名的新头文件。这些新的头文件定义了 std 命名空间内的所有名称。这样，包含 <code>#include &lt;iostream.h&gt;</code> 的旧程序不需要重写，新程序可以 <code>#include &lt;iostream&gt;</code></p>
-<h4 id="include来自其他目录的头文件">Include来自其他目录的头文件</h4>
+<h4 id="include来自其他目录的头文件">include来自其他目录的头文件</h4>
 <p>一种（不好的）方法是在#include 行中包含一个指向您要包含的头文件的相对路径。例如：</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#include</span> <span style="color:#0f0;font-weight:bold">&#34;headers/myHeader.h&#34;</span><span style="color:#0f0;font-weight:bold">
 </span></span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#include</span> <span style="color:#0f0;font-weight:bold">&#34;../moreHeaders/myOtherHeader.h&#34;</span><span style="color:#0f0;font-weight:bold">
