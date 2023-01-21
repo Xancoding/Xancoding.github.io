@@ -1406,6 +1406,31 @@ mov ax, 0000H
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(ax)=1010H
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点104&#34;&gt;检测点10.4&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(ax)=6+(ss:[bp])=6+5=000BH
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点105&#34;&gt;检测点10.5&lt;/h2&gt;
+&lt;p&gt;（1）&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
+
+stack segment
+	dw 8 dup (0)
+stack ends
+
+code segment
+
+	start:	mov ax, stack
+			mov ss, ax
+			mov sp, 16
+			mov ds, ax
+			mov ax, 0
+			call word ptr ds:[0eh]    ; 
+			inc ax
+			inc ax
+			inc ax
+			mov ax, 4c00h
+			int 21h
+
+code ends
+
+end start
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;实验-3&#34;&gt;实验 3&lt;/h2&gt;
 &lt;p&gt;（3）PSP 的内容
@@ -2197,6 +2222,31 @@ mov ax, 0000H
 <pre tabindex="0"><code>(ax)=1010H
 </code></pre><h2 id="检测点104">检测点10.4</h2>
 <pre tabindex="0"><code>(ax)=6+(ss:[bp])=6+5=000BH
+</code></pre><h2 id="检测点105">检测点10.5</h2>
+<p>（1）</p>
+<pre tabindex="0"><code>assume cs:code
+
+stack segment
+	dw 8 dup (0)
+stack ends
+
+code segment
+
+	start:	mov ax, stack
+			mov ss, ax
+			mov sp, 16
+			mov ds, ax
+			mov ax, 0
+			call word ptr ds:[0eh]    ; 
+			inc ax
+			inc ax
+			inc ax
+			mov ax, 4c00h
+			int 21h
+
+code ends
+
+end start
 </code></pre><h1 id="课后实验部分">课后实验（部分）</h1>
 <h2 id="实验-3">实验 3</h2>
 <p>（3）PSP 的内容
