@@ -186,6 +186,11 @@ start:mov ax, 2000H
 			int 21h
 code ends
 end start
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点101&#34;&gt;检测点10.1&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;...
+mov ax, 1000H
+...
+mov ax, 0000H 
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;实验-3&#34;&gt;实验 3&lt;/h2&gt;
 &lt;p&gt;（3）PSP 的内容
@@ -965,6 +970,11 @@ start:mov ax, 2000H
 			int 21h
 code ends
 end start
+</code></pre><h2 id="检测点101">检测点10.1</h2>
+<pre tabindex="0"><code>...
+mov ax, 1000H
+...
+mov ax, 0000H 
 </code></pre><h1 id="课后实验部分">课后实验（部分）</h1>
 <h2 id="实验-3">实验 3</h2>
 <p>（3）PSP 的内容
