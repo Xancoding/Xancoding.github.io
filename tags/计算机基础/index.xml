@@ -1421,7 +1421,7 @@ code segment
 			mov sp, 16
 			mov ds, ax
 			mov ax, 0
-			call word ptr ds:[0eh]    ; 
+			call word ptr ds:[0eh]    ; CS:IP 此时指向的是 第一个 inc ax
 			inc ax
 			inc ax
 			inc ax
@@ -1431,6 +1431,37 @@ code segment
 code ends
 
 end start
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;上述程序执行后，&lt;code&gt;ax&lt;/code&gt;中的数值：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(ax)=3
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;（2）&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
+
+data segment
+	dw 8 dup (0)
+data ends
+
+code segment
+
+	start:	mov ax, data
+			mov ss, ax
+			mov sp, 16
+			mov word ptr ss:[0], offset s
+			mov ss:[2], cs
+			call dword ptr ss:[0]
+			nop
+		s:	mov ax, offset s
+			sub ax, ss:[0cH]
+			mov bx, cs
+			sub bx, ss:[0eH]
+			mov ax, 4c00h
+			int 21h
+
+code ends
+
+end start
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;上述程序执行后，&lt;code&gt;ax&lt;/code&gt; 和 &lt;code&gt;bx&lt;/code&gt; 的数值为：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(ax)=
+(bx)=
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;实验-3&#34;&gt;实验 3&lt;/h2&gt;
 &lt;p&gt;（3）PSP 的内容
@@ -2237,7 +2268,7 @@ code segment
 			mov sp, 16
 			mov ds, ax
 			mov ax, 0
-			call word ptr ds:[0eh]    ; 
+			call word ptr ds:[0eh]    ; CS:IP 此时指向的是 第一个 inc ax
 			inc ax
 			inc ax
 			inc ax
@@ -2247,6 +2278,37 @@ code segment
 code ends
 
 end start
+</code></pre><p>上述程序执行后，<code>ax</code>中的数值：</p>
+<pre tabindex="0"><code>(ax)=3
+</code></pre><p>（2）</p>
+<pre tabindex="0"><code>assume cs:code
+
+data segment
+	dw 8 dup (0)
+data ends
+
+code segment
+
+	start:	mov ax, data
+			mov ss, ax
+			mov sp, 16
+			mov word ptr ss:[0], offset s
+			mov ss:[2], cs
+			call dword ptr ss:[0]
+			nop
+		s:	mov ax, offset s
+			sub ax, ss:[0cH]
+			mov bx, cs
+			sub bx, ss:[0eH]
+			mov ax, 4c00h
+			int 21h
+
+code ends
+
+end start
+</code></pre><p>上述程序执行后，<code>ax</code> 和 <code>bx</code> 的数值为：</p>
+<pre tabindex="0"><code>(ax)=
+(bx)=
 </code></pre><h1 id="课后实验部分">课后实验（部分）</h1>
 <h2 id="实验-3">实验 3</h2>
 <p>（3）PSP 的内容
