@@ -2572,10 +2572,10 @@ code segment
     start:
 	        mov ax, 0000H
         s:
-            nop
+            nop                     ; 跳到它的末尾之前的 10 个字节处，刚好是 mov ax, 4C00H，正确返回
             nop
             
-            mov di, offset s        ; 标号 s 后的两个空操作被 &amp;#34;jmp short s1&amp;#34; 覆盖
+            mov di, offset s        ; 标号 s 后的两个空操作被 &amp;#34;jmp short s1&amp;#34; 的机器码覆盖
             mov si, offset s2
             mov ax, cs:[si]
             mov cs:[di], ax
@@ -2589,7 +2589,7 @@ code segment
             mov ax, 0000H
         
         s2:
-            jmp short s1
+            jmp short s1           ; 它的功能：跳到它的末尾之前的 10 个字节处（offset s1 - offset s2+2）
             nop
 
 code ends
@@ -3350,10 +3350,10 @@ code segment
     start:
 	        mov ax, 0000H
         s:
-            nop
+            nop                     ; 跳到它的末尾之前的 10 个字节处，刚好是 mov ax, 4C00H，正确返回
             nop
             
-            mov di, offset s        ; 标号 s 后的两个空操作被 &#34;jmp short s1&#34; 覆盖
+            mov di, offset s        ; 标号 s 后的两个空操作被 &#34;jmp short s1&#34; 的机器码覆盖
             mov si, offset s2
             mov ax, cs:[si]
             mov cs:[di], ax
@@ -3367,7 +3367,7 @@ code segment
             mov ax, 0000H
         
         s2:
-            jmp short s1
+            jmp short s1           ; 它的功能：跳到它的末尾之前的 10 个字节处（offset s1 - offset s2+2）
             nop
 
 code ends
