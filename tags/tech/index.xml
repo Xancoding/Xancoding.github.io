@@ -2221,7 +2221,11 @@ end start
 mov ax, 1000H
 ...
 mov ax, 0000H 
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点102&#34;&gt;检测点10.2&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(ax)=6
+预加载指令 call s 时，IP 指向下条指令的地址 (IP)=6
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点103&#34;&gt;检测点10.3&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;实验-3&#34;&gt;实验 3&lt;/h2&gt;
 &lt;p&gt;（3）PSP 的内容
 
@@ -3005,7 +3009,11 @@ end start
 mov ax, 1000H
 ...
 mov ax, 0000H 
-</code></pre><h1 id="课后实验部分">课后实验（部分）</h1>
+</code></pre><h2 id="检测点102">检测点10.2</h2>
+<pre tabindex="0"><code>(ax)=6
+预加载指令 call s 时，IP 指向下条指令的地址 (IP)=6
+</code></pre><h2 id="检测点103">检测点10.3</h2>
+<pre tabindex="0"><code></code></pre><h1 id="课后实验部分">课后实验（部分）</h1>
 <h2 id="实验-3">实验 3</h2>
 <p>（3）PSP 的内容
 
