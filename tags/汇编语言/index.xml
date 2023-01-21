@@ -379,6 +379,107 @@ df = 0
 Flag 寄存器：0000 0000 0100 0101
 
 (ax) = 0000 0000 0100 0101
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点131&#34;&gt;检测点13.1&lt;/h2&gt;
+&lt;p&gt;（1）&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;7ch中断例程所能进行的最大转移位移范围是 [-32768, 32767]
+
+即16位补码所能表示的数的范围。
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;（2）
+用 7ch 中断例程完成 &lt;strong&gt;jmp near ptr s&lt;/strong&gt; 指令的功能，用 bx 向中断例程传送转移位移。&lt;/p&gt;
+&lt;p&gt;应用举例：在屏幕的笫 12 行，显示 data 段中以 0 结尾的宇符串 。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
+
+data segment
+
+db &amp;#39;conversation&amp;#39;,0
+
+data ends
+
+code segment
+
+start: mov ax,data
+
+mov ds,ax
+
+mov si,0
+
+mov ax,0b800h
+
+mov es,ax
+
+mov di,12*160
+
+s: cmp byte ptr [si],0
+
+je ok ; 如果是 0 跳出循环
+
+mov al,[si]
+
+mov es:[di],al
+
+inc si
+
+add di,2
+
+mov bx,offset s-offset ok ; 设置从标号 ok 到标号 s 的转移位移
+
+int 7ch ; 转移到标号 s 处
+
+ok: mov ax,4c00h
+
+int 21h
+
+code ends
+
+end start
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;7ch&lt;/code&gt; 中断例程如下：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;lp:
+    push bp         ; 将 bp 这个 ss 栈的偏址保存
+    mov bp, sp      ; 将当前栈顶指针值送入到 bp
+    add [bp+2], bx  ; 修改 ss 栈中的从栈顶向下第 2 个单元的值
+lpret:
+    pop bp          ; 恢复 bp 值
+    iret            ; 返回到调用处
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;将 7cH 代码写入 0:200H 的装载程序如下：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
+
+code segment
+start:      ; 7cH 中断例程的安装程序
+            mov ax, cs
+            mov ds, ax
+            mov si, offset lp   ; 将 ds:si 指向源地址（captial 的机器码）
+            mov ax, 0000H
+            mov es, ax
+            mov di, 200H        ; 将 es:di 指向目的地址（0:200H 向量表中）
+            mov cx, offset lpend - offset lp    ; 设置传输长度
+            cld             ; 传输方向为正
+            rep movsb       ; 字节传输
+            ; 设置中断向量表，使 7cH 条目中断向量指向 0000:200H
+            mov ax, 0000H
+            mov es, ax
+            mov word ptr es:[7cH*4], 200H
+            mov word ptr es:[7cH*4+2], 0000H
+            mov ax, 4c00H
+            int 21H
+;-----------
+; 装载的例程：7cH
+; 功能：int 7cH 实现和 jmp near ptr s 指令相同的功能
+; 入口参数：bx 相对地址偏移量
+; 返回值：无
+;-----------
+lp:
+    push bp         ; 将 bp 这个 ss 栈的偏址保存
+    mov bp, sp      ; 将当前栈顶指针值送入到 bp
+    add [bp+2], bx  ; 修改 ss 栈中的从栈顶向下第 2 个单元的值
+lpret:
+    pop bp          ; 恢复 bp 值
+    iret            ; 返回到调用处。
+lpend:
+    nop             ; 代码段结尾，便于计算 7cH 例程的长度。   
+
+code ends
+
+end start
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;实验-3&#34;&gt;实验 3&lt;/h2&gt;
 &lt;p&gt;（3）PSP 的内容
@@ -768,6 +869,7 @@ end start
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Gf4y1w75t/?vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;Win10下配置汇编语言 （王爽）实验环境&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/sanmianti/AssemblyLanguageTest/blob/master/%E3%80%8A%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E3%80%8B%E7%AC%AC%E4%B8%89%E7%89%88%E6%A3%80%E6%B5%8B%E7%82%B9%E7%AD%94%E6%A1%88.md&#34;&gt;《汇编语言》第三版检测点答案&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://tinylab.org/assembly/&#34;&gt;《汇编语言 王爽著》课后实验参考答案&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hansimov.gitbook.io/asm-lang/&#34;&gt;《汇编语言》（第 3 版）的检测点和实验的解答与说明&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -1356,6 +1458,107 @@ df = 0
 Flag 寄存器：0000 0000 0100 0101
 
 (ax) = 0000 0000 0100 0101
+</code></pre><h2 id="检测点131">检测点13.1</h2>
+<p>（1）</p>
+<pre tabindex="0"><code>7ch中断例程所能进行的最大转移位移范围是 [-32768, 32767]
+
+即16位补码所能表示的数的范围。
+</code></pre><p>（2）
+用 7ch 中断例程完成 <strong>jmp near ptr s</strong> 指令的功能，用 bx 向中断例程传送转移位移。</p>
+<p>应用举例：在屏幕的笫 12 行，显示 data 段中以 0 结尾的宇符串 。</p>
+<pre tabindex="0"><code>assume cs:code
+
+data segment
+
+db &#39;conversation&#39;,0
+
+data ends
+
+code segment
+
+start: mov ax,data
+
+mov ds,ax
+
+mov si,0
+
+mov ax,0b800h
+
+mov es,ax
+
+mov di,12*160
+
+s: cmp byte ptr [si],0
+
+je ok ; 如果是 0 跳出循环
+
+mov al,[si]
+
+mov es:[di],al
+
+inc si
+
+add di,2
+
+mov bx,offset s-offset ok ; 设置从标号 ok 到标号 s 的转移位移
+
+int 7ch ; 转移到标号 s 处
+
+ok: mov ax,4c00h
+
+int 21h
+
+code ends
+
+end start
+</code></pre><p><code>7ch</code> 中断例程如下：</p>
+<pre tabindex="0"><code>lp:
+    push bp         ; 将 bp 这个 ss 栈的偏址保存
+    mov bp, sp      ; 将当前栈顶指针值送入到 bp
+    add [bp+2], bx  ; 修改 ss 栈中的从栈顶向下第 2 个单元的值
+lpret:
+    pop bp          ; 恢复 bp 值
+    iret            ; 返回到调用处
+</code></pre><p>将 7cH 代码写入 0:200H 的装载程序如下：</p>
+<pre tabindex="0"><code>assume cs:code
+
+code segment
+start:      ; 7cH 中断例程的安装程序
+            mov ax, cs
+            mov ds, ax
+            mov si, offset lp   ; 将 ds:si 指向源地址（captial 的机器码）
+            mov ax, 0000H
+            mov es, ax
+            mov di, 200H        ; 将 es:di 指向目的地址（0:200H 向量表中）
+            mov cx, offset lpend - offset lp    ; 设置传输长度
+            cld             ; 传输方向为正
+            rep movsb       ; 字节传输
+            ; 设置中断向量表，使 7cH 条目中断向量指向 0000:200H
+            mov ax, 0000H
+            mov es, ax
+            mov word ptr es:[7cH*4], 200H
+            mov word ptr es:[7cH*4+2], 0000H
+            mov ax, 4c00H
+            int 21H
+;-----------
+; 装载的例程：7cH
+; 功能：int 7cH 实现和 jmp near ptr s 指令相同的功能
+; 入口参数：bx 相对地址偏移量
+; 返回值：无
+;-----------
+lp:
+    push bp         ; 将 bp 这个 ss 栈的偏址保存
+    mov bp, sp      ; 将当前栈顶指针值送入到 bp
+    add [bp+2], bx  ; 修改 ss 栈中的从栈顶向下第 2 个单元的值
+lpret:
+    pop bp          ; 恢复 bp 值
+    iret            ; 返回到调用处。
+lpend:
+    nop             ; 代码段结尾，便于计算 7cH 例程的长度。   
+
+code ends
+
+end start
 </code></pre><h1 id="课后实验部分">课后实验（部分）</h1>
 <h2 id="实验-3">实验 3</h2>
 <p>（3）PSP 的内容
@@ -1745,6 +1948,7 @@ end start
 <li><a href="https://www.bilibili.com/video/BV1Gf4y1w75t/?vd_source=ae16ff6478eb15c1b87880540263910b">Win10下配置汇编语言 （王爽）实验环境</a></li>
 <li><a href="https://github.com/sanmianti/AssemblyLanguageTest/blob/master/%E3%80%8A%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E3%80%8B%E7%AC%AC%E4%B8%89%E7%89%88%E6%A3%80%E6%B5%8B%E7%82%B9%E7%AD%94%E6%A1%88.md">《汇编语言》第三版检测点答案</a></li>
 <li><a href="https://tinylab.org/assembly/">《汇编语言 王爽著》课后实验参考答案</a></li>
+<li><a href="https://hansimov.gitbook.io/asm-lang/">《汇编语言》（第 3 版）的检测点和实验的解答与说明</a></li>
 </ul>
 <hr>
 <ul>
