@@ -500,11 +500,28 @@ end start
 
 code segment
 start:
-    mov al,2    ; (al) = 2，2 号单元
-    out 70h,al  ; 将 al 送入端口 70h，选中 2 号单元
-    mov al,0    ; (al) = 0，写入端口
-    out 71h,al  ; 将 (al)=0 写入到 71h 的 2 号单元
-    mov ax,4c00h
+    mov al, 2    ; (al) = 2，2 号单元
+    out 70h, al  ; 将 al 送入端口 70h，选中 2 号单元
+    mov al, 0    ; (al) = 0，写入端口
+    out 71h, al  ; 将 (al)=0 写入到 71h 的 2 号单元
+    
+    mov ax, 4c00h
+    int 21h
+code ends
+
+end start
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点142&#34;&gt;检测点14.2&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
+
+code segment
+start:
+    mov bx, ax
+    shl ax, 1    ; (ax)=(ax)*2
+    mov cl, 3    ; 移动次数大于 1 必须放到 cl
+    shl bx, cl   ; (bx)=(ax)*8
+    add ax, bx   ; (ax)=(ax)*8+(ax)*2
+    
+    mov 4c00h
     int 21h
 code ends
 
@@ -1609,11 +1626,28 @@ end start
 
 code segment
 start:
-    mov al,2    ; (al) = 2，2 号单元
-    out 70h,al  ; 将 al 送入端口 70h，选中 2 号单元
-    mov al,0    ; (al) = 0，写入端口
-    out 71h,al  ; 将 (al)=0 写入到 71h 的 2 号单元
-    mov ax,4c00h
+    mov al, 2    ; (al) = 2，2 号单元
+    out 70h, al  ; 将 al 送入端口 70h，选中 2 号单元
+    mov al, 0    ; (al) = 0，写入端口
+    out 71h, al  ; 将 (al)=0 写入到 71h 的 2 号单元
+    
+    mov ax, 4c00h
+    int 21h
+code ends
+
+end start
+</code></pre><h2 id="检测点142">检测点14.2</h2>
+<pre tabindex="0"><code>assume cs:code
+
+code segment
+start:
+    mov bx, ax
+    shl ax, 1    ; (ax)=(ax)*2
+    mov cl, 3    ; 移动次数大于 1 必须放到 cl
+    shl bx, cl   ; (bx)=(ax)*8
+    add ax, bx   ; (ax)=(ax)*8+(ax)*2
+    
+    mov 4c00h
     int 21h
 code ends
 
