@@ -2267,7 +2267,7 @@ code segment
 	start:	mov ax, data
 			mov ss, ax
 			mov sp, 16
-			mov word ptr ss:[0], offset s
+			mov word ptr ss:[0], offset s    ; 标号 s 的偏移地址移至 ss:[0]
 			mov ss:[2], cs
 			call dword ptr ss:[0]
 			nop
@@ -3114,7 +3114,7 @@ code segment
 	start:	mov ax, data
 			mov ss, ax
 			mov sp, 16
-			mov word ptr ss:[0], offset s
+			mov word ptr ss:[0], offset s    ; 标号 s 的偏移地址移至 ss:[0]
 			mov ss:[2], cs
 			call dword ptr ss:[0]
 			nop
