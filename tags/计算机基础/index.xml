@@ -1688,6 +1688,35 @@ lpend:
 code ends
 
 end start
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点141&#34;&gt;检测点14.1&lt;/h2&gt;
+&lt;p&gt;（1）&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
+
+code segment
+start:
+    mov al, 2    ; (al)=2，2 号单元
+    out 70h, al  ; 选中端口 70h 的 2 号单元
+    in  al, 71h  ; 从端口 71h 读出 2 号单元，送入 al
+
+    mov ax, 4c00h
+    int 21h
+code ends
+
+end start
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;（2）&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
+
+code segment
+start:
+    mov al,2    ; (al) = 2，2 号单元
+    out 70h,al  ; 将 al 送入端口 70h，选中 2 号单元
+    mov al,0    ; (al) = 0，写入端口
+    out 71h,al  ; 将 (al)=0 写入到 71h 的 2 号单元
+    mov ax,4c00h
+    int 21h
+code ends
+
+end start
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;实验-3&#34;&gt;实验 3&lt;/h2&gt;
 &lt;p&gt;（3）PSP 的内容
@@ -2765,6 +2794,35 @@ lpret:
 lpend:
     nop             ; 代码段结尾，便于计算 7cH 例程的长度。   
 
+code ends
+
+end start
+</code></pre><h2 id="检测点141">检测点14.1</h2>
+<p>（1）</p>
+<pre tabindex="0"><code>assume cs:code
+
+code segment
+start:
+    mov al, 2    ; (al)=2，2 号单元
+    out 70h, al  ; 选中端口 70h 的 2 号单元
+    in  al, 71h  ; 从端口 71h 读出 2 号单元，送入 al
+
+    mov ax, 4c00h
+    int 21h
+code ends
+
+end start
+</code></pre><p>（2）</p>
+<pre tabindex="0"><code>assume cs:code
+
+code segment
+start:
+    mov al,2    ; (al) = 2，2 号单元
+    out 70h,al  ; 将 al 送入端口 70h，选中 2 号单元
+    mov al,0    ; (al) = 0，写入端口
+    out 71h,al  ; 将 (al)=0 写入到 71h 的 2 号单元
+    mov ax,4c00h
+    int 21h
 code ends
 
 end start
