@@ -2141,7 +2141,82 @@ mov ss,ax
 mov sp,0000H 
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点91&#34;&gt;检测点9.1&lt;/h2&gt;
 &lt;p&gt;（1）&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
+
+data segment
+  db 0, 0, 0    ; 第一个字节可以取8位任意值
+data ends
+
+code segment
+  start:mov ax, data
+        mov ds, ax
+        mov bx, 0
+        jmp word ptr [bx+1]
+code ends
+end start
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;（2）&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
+
+data segment
+    dd 12345678H
+data ends
+
+code segment
+    start:  mov ax, data
+            mov ds, ax
+            mov bx, 0
+            mov [bx], bx        ; 将 bx 段寄存器中的 0 送入，默认是 字 格式
+            mov [bx+2], cs
+            jum dword ptr ds:[0]
+code ends
+end start
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;（3）&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(CS) = 0006H
+(IP) = 00BEH
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点92&#34;&gt;检测点9.2&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
+
+code segment
+    start:  mov ax, 2000H
+            mov ds, ax
+            mov bx, 0
+
+        s:  mov ch, 0
+			mov cl, [bx]
+			jcxz ok
+			inc bx
+            jmp short s
+
+        ok: mov ds, bx
+
+            mov ax, 4c00h
+            int 21h
+
+code ends
+end start
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点93&#34;&gt;检测点9.3&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
+
+code segment
+
+start:mov ax, 2000H
+			mov ds, ax
+			mov bx, 0
+
+	s:	mov cl, [bx]
+			mov ch, 0
+			inc cx        ; loop 命令会先执行 (cx)=(cx)-1，再判断(cx)?=0
+			inc bx
+			loop s
+
+	ok:	dec bx
+			mov dx, bx
+
+			mov ax, 4c00h
+			int 21h
+code ends
+end start
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;实验-3&#34;&gt;实验 3&lt;/h2&gt;
 &lt;p&gt;（3）PSP 的内容
 
@@ -2813,7 +2888,82 @@ mov ss,ax
 mov sp,0000H 
 </code></pre><h2 id="检测点91">检测点9.1</h2>
 <p>（1）</p>
-<pre tabindex="0"><code></code></pre><h1 id="课后实验部分">课后实验（部分）</h1>
+<pre tabindex="0"><code>assume cs:code
+
+data segment
+  db 0, 0, 0    ; 第一个字节可以取8位任意值
+data ends
+
+code segment
+  start:mov ax, data
+        mov ds, ax
+        mov bx, 0
+        jmp word ptr [bx+1]
+code ends
+end start
+</code></pre><p>（2）</p>
+<pre tabindex="0"><code>assume cs:code
+
+data segment
+    dd 12345678H
+data ends
+
+code segment
+    start:  mov ax, data
+            mov ds, ax
+            mov bx, 0
+            mov [bx], bx        ; 将 bx 段寄存器中的 0 送入，默认是 字 格式
+            mov [bx+2], cs
+            jum dword ptr ds:[0]
+code ends
+end start
+</code></pre><p>（3）</p>
+<pre tabindex="0"><code>(CS) = 0006H
+(IP) = 00BEH
+</code></pre><h2 id="检测点92">检测点9.2</h2>
+<pre tabindex="0"><code>assume cs:code
+
+code segment
+    start:  mov ax, 2000H
+            mov ds, ax
+            mov bx, 0
+
+        s:  mov ch, 0
+			mov cl, [bx]
+			jcxz ok
+			inc bx
+            jmp short s
+
+        ok: mov ds, bx
+
+            mov ax, 4c00h
+            int 21h
+
+code ends
+end start
+</code></pre><h2 id="检测点93">检测点9.3</h2>
+<pre tabindex="0"><code>assume cs:code
+
+code segment
+
+start:mov ax, 2000H
+			mov ds, ax
+			mov bx, 0
+
+	s:	mov cl, [bx]
+			mov ch, 0
+			inc cx        ; loop 命令会先执行 (cx)=(cx)-1，再判断(cx)?=0
+			inc bx
+			loop s
+
+	ok:	dec bx
+			mov dx, bx
+
+			mov ax, 4c00h
+			int 21h
+code ends
+end start
+</code></pre><h1 id="课后实验部分">课后实验（部分）</h1>
 <h2 id="实验-3">实验 3</h2>
 <p>（3）PSP 的内容
 
