@@ -4778,7 +4778,7 @@ start:      ; 7cH 中断例程的安装程序
 lp:
     push bp         ; 将 bp 这个 ss 栈的偏址保存
     mov bp, sp      ; 将当前栈顶指针值送入到 bp
-    add [bp+2], bx  ; 修改 ss 栈中的从栈顶向下第 2 个单元的值
+    add [bp+2], bx  ; 修改 ss 栈中的从栈顶向下第 2 个单元的值，即 IP 的值
 lpret:
     pop bp          ; 恢复 bp 值
     iret            ; 返回到调用处。
@@ -5857,7 +5857,7 @@ start:      ; 7cH 中断例程的安装程序
 lp:
     push bp         ; 将 bp 这个 ss 栈的偏址保存
     mov bp, sp      ; 将当前栈顶指针值送入到 bp
-    add [bp+2], bx  ; 修改 ss 栈中的从栈顶向下第 2 个单元的值
+    add [bp+2], bx  ; 修改 ss 栈中的从栈顶向下第 2 个单元的值，即 IP 的值
 lpret:
     pop bp          ; 恢复 bp 值
     iret            ; 返回到调用处。
