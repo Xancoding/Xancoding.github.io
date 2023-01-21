@@ -242,7 +242,7 @@ code segment
 			call dword ptr ss:[0]            ; (IP)=(ss:[0])=offset s  (CS)=(ss:[2])=(CS)  
 			nop
 		s:	mov ax, offset s                 
-			sub ax, ss:[0cH]                 ; (ss:[0cH])=nop的偏移地址
+			sub ax, ss:[0cH]                 ; (ss:[0cH])= nop 指令 的偏移地址
 			mov bx, cs
 			sub bx, ss:[0eH]                 ; (ss:[0eH])=(CS)
 			mov ax, 4c00h
@@ -252,8 +252,8 @@ code ends
 
 end start
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;上述程序执行后，&lt;code&gt;ax&lt;/code&gt; 和 &lt;code&gt;bx&lt;/code&gt; 的数值为：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(ax)=
-(bx)=
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(ax)=0001H
+(bx)=0000H
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;实验-3&#34;&gt;实验 3&lt;/h2&gt;
 &lt;p&gt;（3）PSP 的内容
@@ -1089,7 +1089,7 @@ code segment
 			call dword ptr ss:[0]            ; (IP)=(ss:[0])=offset s  (CS)=(ss:[2])=(CS)  
 			nop
 		s:	mov ax, offset s                 
-			sub ax, ss:[0cH]                 ; (ss:[0cH])=nop的偏移地址
+			sub ax, ss:[0cH]                 ; (ss:[0cH])= nop 指令 的偏移地址
 			mov bx, cs
 			sub bx, ss:[0eH]                 ; (ss:[0eH])=(CS)
 			mov ax, 4c00h
@@ -1099,8 +1099,8 @@ code ends
 
 end start
 </code></pre><p>上述程序执行后，<code>ax</code> 和 <code>bx</code> 的数值为：</p>
-<pre tabindex="0"><code>(ax)=
-(bx)=
+<pre tabindex="0"><code>(ax)=0001H
+(bx)=0000H
 </code></pre><h1 id="课后实验部分">课后实验（部分）</h1>
 <h2 id="实验-3">实验 3</h2>
 <p>（3）PSP 的内容
