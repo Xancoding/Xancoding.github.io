@@ -351,7 +351,35 @@ end start
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
+&lt;h2 id=&#34;检测点113&#34;&gt;检测点11.3&lt;/h2&gt;
+&lt;p&gt;（1）&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;...
+jb s0
+...
+ja s0
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;（2）&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;...
+jna s0
+...
+jnb s0
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点114&#34;&gt;检测点11.4&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mov ax, 0fff0h
+add ax, 0010h
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这两句代码执行过后，&lt;code&gt;ax = 0000 0000 0000 0000&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;有进位，无溢出，结果为0，各标志位的值分别为：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;zf = 1
+pf = 1
+sf = 0
+cf = 1
+of = 0
+df = 0
+
+Flag 寄存器：0000 0000 0100 0101
+
+(ax) = 0000 0000 0100 0101
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;实验-3&#34;&gt;实验 3&lt;/h2&gt;
 &lt;p&gt;（3）PSP 的内容
 
@@ -1298,7 +1326,35 @@ end start
 </tr>
 </tbody>
 </table>
-<h1 id="课后实验部分">课后实验（部分）</h1>
+<h2 id="检测点113">检测点11.3</h2>
+<p>（1）</p>
+<pre tabindex="0"><code>...
+jb s0
+...
+ja s0
+...
+</code></pre><p>（2）</p>
+<pre tabindex="0"><code>...
+jna s0
+...
+jnb s0
+...
+</code></pre><h2 id="检测点114">检测点11.4</h2>
+<pre tabindex="0"><code>mov ax, 0fff0h
+add ax, 0010h
+</code></pre><p>这两句代码执行过后，<code>ax = 0000 0000 0000 0000</code></p>
+<p>有进位，无溢出，结果为0，各标志位的值分别为：</p>
+<pre tabindex="0"><code>zf = 1
+pf = 1
+sf = 0
+cf = 1
+of = 0
+df = 0
+
+Flag 寄存器：0000 0000 0100 0101
+
+(ax) = 0000 0000 0100 0101
+</code></pre><h1 id="课后实验部分">课后实验（部分）</h1>
 <h2 id="实验-3">实验 3</h2>
 <p>（3）PSP 的内容
 
