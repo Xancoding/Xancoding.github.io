@@ -4549,10 +4549,10 @@ code segment
 			mov ss:[2], cs
 			call dword ptr ss:[0]            ; (IP)=(ss:[0])=offset s  (CS)=(ss:[2])=(CS)  
 			nop
-		s:	mov ax, offset s                 ; 
-			sub ax, ss:[0cH]
+		s:	mov ax, offset s                 
+			sub ax, ss:[0cH]                 ; (ss:[0cH])=nop的偏移地址
 			mov bx, cs
-			sub bx, ss:[0eH]
+			sub bx, ss:[0eH]                 ; (ss:[0eH])=(CS)
 			mov ax, 4c00h
 			int 21h
 
@@ -5396,10 +5396,10 @@ code segment
 			mov ss:[2], cs
 			call dword ptr ss:[0]            ; (IP)=(ss:[0])=offset s  (CS)=(ss:[2])=(CS)  
 			nop
-		s:	mov ax, offset s                 ; 
-			sub ax, ss:[0cH]
+		s:	mov ax, offset s                 
+			sub ax, ss:[0cH]                 ; (ss:[0cH])=nop的偏移地址
 			mov bx, cs
-			sub bx, ss:[0eH]
+			sub bx, ss:[0eH]                 ; (ss:[0eH])=(CS)
 			mov ax, 4c00h
 			int 21h
 
