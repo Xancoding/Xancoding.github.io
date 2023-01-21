@@ -2284,7 +2284,104 @@ end start
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;上述程序执行后，&lt;code&gt;ax&lt;/code&gt; 和 &lt;code&gt;bx&lt;/code&gt; 的数值为：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;(ax)=0001H
 (bx)=0000H
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点112&#34;&gt;检测点11.2&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;指令&lt;/th&gt;
+&lt;th&gt;CF&lt;/th&gt;
+&lt;th&gt;OF&lt;/th&gt;
+&lt;th&gt;SF&lt;/th&gt;
+&lt;th&gt;ZF&lt;/th&gt;
+&lt;th&gt;PF&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;AL&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;sub al, al&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0000 0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mov al, 10H&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0001 0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;add al, 90H&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1010 0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mov al, 80H&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1000 0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;add al, 80H&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0000 0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mov al, 0FCH&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1111 1100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;add al, 05H&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0000 0001&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;add al, 7DH&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0111 1101&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;add al, 0BH&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1000 1000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;实验-3&#34;&gt;实验 3&lt;/h2&gt;
 &lt;p&gt;（3）PSP 的内容
 
@@ -3134,7 +3231,104 @@ end start
 </code></pre><p>上述程序执行后，<code>ax</code> 和 <code>bx</code> 的数值为：</p>
 <pre tabindex="0"><code>(ax)=0001H
 (bx)=0000H
-</code></pre><h1 id="课后实验部分">课后实验（部分）</h1>
+</code></pre><h2 id="检测点112">检测点11.2</h2>
+<table>
+<thead>
+<tr>
+<th>指令</th>
+<th>CF</th>
+<th>OF</th>
+<th>SF</th>
+<th>ZF</th>
+<th>PF</th>
+<th style="text-align:center">AL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sub al, al</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td style="text-align:center">0000 0000</td>
+</tr>
+<tr>
+<td>mov al, 10H</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td style="text-align:center">0001 0000</td>
+</tr>
+<tr>
+<td>add al, 90H</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td style="text-align:center">1010 0000</td>
+</tr>
+<tr>
+<td>mov al, 80H</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td style="text-align:center">1000 0000</td>
+</tr>
+<tr>
+<td>add al, 80H</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td style="text-align:center">0000 0000</td>
+</tr>
+<tr>
+<td>mov al, 0FCH</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td style="text-align:center">1111 1100</td>
+</tr>
+<tr>
+<td>add al, 05H</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td style="text-align:center">0000 0001</td>
+</tr>
+<tr>
+<td>add al, 7DH</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td style="text-align:center">0111 1101</td>
+</tr>
+<tr>
+<td>add al, 0BH</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td style="text-align:center">1000 1000</td>
+</tr>
+</tbody>
+</table>
+<h1 id="课后实验部分">课后实验（部分）</h1>
 <h2 id="实验-3">实验 3</h2>
 <p>（3）PSP 的内容
 
