@@ -725,7 +725,8 @@ stack segment
 stack ends
 
 end start
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;（4）&lt;strong&gt;都能执行，但只有程序 3 可以正确执行，因为程序 加载后会从程序第一个单元开始执行，但只有 3 中的code段在程序 的开始位置，所以所以只有 3 中的程序 是可以正确执行的&lt;/strong&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;（4）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;都能执行，但只有程序 3 可以正确执行，因为程序 加载后会从程序第一个单元开始执行，但只有 3 中的code段在程序 的开始位置，所以所以只有 3 中的程序 是可以正确执行的&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;（5）&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
 
@@ -1910,7 +1911,8 @@ stack segment
 stack ends
 
 end start
-</code></pre><p>（4）<strong>都能执行，但只有程序 3 可以正确执行，因为程序 加载后会从程序第一个单元开始执行，但只有 3 中的code段在程序 的开始位置，所以所以只有 3 中的程序 是可以正确执行的</strong></p>
+</code></pre><p>（4）</p>
+<p><strong>都能执行，但只有程序 3 可以正确执行，因为程序 加载后会从程序第一个单元开始执行，但只有 3 中的code段在程序 的开始位置，所以所以只有 3 中的程序 是可以正确执行的</strong></p>
 <p>（5）</p>
 <pre tabindex="0"><code>assume cs:code
 
