@@ -4835,8 +4835,31 @@ code ends
 
 end start
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点151&#34;&gt;检测点15.1&lt;/h2&gt;
-&lt;p&gt;（2）&lt;/p&gt;
-&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
+&lt;p&gt;（2）
+设置新中断向量表代码：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mov ax,0
+mov es,ax           ; es 指向中断向量表，内存地址 0 处
+
+...
+
+mov word ptr es:[9*4], offset int9
+mov es:[9*4+2],cs   ; 在中断向量表中设置新的 int9 中断例程的入口段地址和偏移地址
+                    ; 其中段地址等于当前 cs
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;写回原中断向量表：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mov ax,0
+mov es,ax       ; es 指向中断向量表，内存地址 0 处
+
+push ds:[0]     ; 从 ds[0]、ds[2] 处取出原 int 9 入口地址
+pop es:[9*4]    ; 将中断向量表中 int 9 的入口地址恢复为原地址
+push ds:[2]
+pop es:[9*4+2]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果在指令执行在这两端程序中间，触发键盘中断事件，那么由于正在设置中断向量表，(ip) 和 (cs) 值可能不确定。为了避免这 2 段代码不受中断事件干扰，需要将中断屏蔽。在这两段代码前后加上 cli 和 sti 指令即可。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cli ; 屏蔽任何（可屏蔽）中断
+
+...
+
+sti ; 解除屏蔽（可屏蔽）中断
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;课后实验部分&#34;&gt;课后实验（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;实验-3&#34;&gt;实验 3&lt;/h2&gt;
 &lt;p&gt;（3）PSP 的内容
 
@@ -5220,6 +5243,7 @@ end start
 &lt;h2 id=&#34;实验-12&#34;&gt;实验 12&lt;/h2&gt;
 &lt;h2 id=&#34;实验-13&#34;&gt;实验 13&lt;/h2&gt;
 &lt;h2 id=&#34;实验-14&#34;&gt;实验 14&lt;/h2&gt;
+&lt;h2 id=&#34;实验-15&#34;&gt;实验 15&lt;/h2&gt;
 &lt;h1 id=&#34;课程设计&#34;&gt;课程设计&lt;/h1&gt;
 &lt;h2 id=&#34;课程设计-1&#34;&gt;课程设计 1&lt;/h2&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
@@ -5964,8 +5988,31 @@ code ends
 
 end start
 </code></pre><h2 id="检测点151">检测点15.1</h2>
-<p>（2）</p>
-<h1 id="课后实验部分">课后实验（部分）</h1>
+<p>（2）
+设置新中断向量表代码：</p>
+<pre tabindex="0"><code>mov ax,0
+mov es,ax           ; es 指向中断向量表，内存地址 0 处
+
+...
+
+mov word ptr es:[9*4], offset int9
+mov es:[9*4+2],cs   ; 在中断向量表中设置新的 int9 中断例程的入口段地址和偏移地址
+                    ; 其中段地址等于当前 cs
+</code></pre><p>写回原中断向量表：</p>
+<pre tabindex="0"><code>mov ax,0
+mov es,ax       ; es 指向中断向量表，内存地址 0 处
+
+push ds:[0]     ; 从 ds[0]、ds[2] 处取出原 int 9 入口地址
+pop es:[9*4]    ; 将中断向量表中 int 9 的入口地址恢复为原地址
+push ds:[2]
+pop es:[9*4+2]
+</code></pre><p>如果在指令执行在这两端程序中间，触发键盘中断事件，那么由于正在设置中断向量表，(ip) 和 (cs) 值可能不确定。为了避免这 2 段代码不受中断事件干扰，需要将中断屏蔽。在这两段代码前后加上 cli 和 sti 指令即可。</p>
+<pre tabindex="0"><code>cli ; 屏蔽任何（可屏蔽）中断
+
+...
+
+sti ; 解除屏蔽（可屏蔽）中断
+</code></pre><h1 id="课后实验部分">课后实验（部分）</h1>
 <h2 id="实验-3">实验 3</h2>
 <p>（3）PSP 的内容
 
@@ -6349,6 +6396,7 @@ end start
 <h2 id="实验-12">实验 12</h2>
 <h2 id="实验-13">实验 13</h2>
 <h2 id="实验-14">实验 14</h2>
+<h2 id="实验-15">实验 15</h2>
 <h1 id="课程设计">课程设计</h1>
 <h2 id="课程设计-1">课程设计 1</h2>
 <h1 id="推荐阅读">推荐阅读</h1>
