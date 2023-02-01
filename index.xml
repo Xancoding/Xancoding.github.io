@@ -19594,7 +19594,7 @@ int main()
 &lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/33463930/&#34;&gt;《操作系统导论》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/35208251/&#34;&gt;《现代操作系统》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/27096665/&#34;&gt;《现代操作系统》（原书第4版）&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/5064311/&#34;&gt;《操作系统:精髓与设计原理》&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://book.douban.com/subject/26912767/&#34;&gt;《深入理解计算机系统（原书第3版）》CSAPP&lt;/a&gt;&lt;/strong&gt;
 &lt;ul&gt;
@@ -20025,7 +20025,7 @@ int main()
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div class=&#34;douban_show&#34;&gt;
-    &lt;div id=&#34;dbhttps://book.douban.com/subject/35208251/&#34; urlstring=&#34;https://book.douban.com/subject/35208251/&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;dbhttps://book.douban.com/subject/27096665/&#34; urlstring=&#34;https://book.douban.com/subject/27096665/&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
@@ -20478,7 +20478,7 @@ int main()
 <hr>
 <ul>
 <li><a href="https://book.douban.com/subject/33463930/">《操作系统导论》</a></li>
-<li><a href="https://book.douban.com/subject/35208251/">《现代操作系统》</a></li>
+<li><a href="https://book.douban.com/subject/27096665/">《现代操作系统》（原书第4版）</a></li>
 <li><a href="https://book.douban.com/subject/5064311/">《操作系统:精髓与设计原理》</a></li>
 <li><strong><a href="https://book.douban.com/subject/26912767/">《深入理解计算机系统（原书第3版）》CSAPP</a></strong>
 <ul>
@@ -20909,7 +20909,7 @@ int main()
 </head>
 <body>
 <div class="douban_show">
-    <div id="dbhttps://book.douban.com/subject/35208251/" urlstring="https://book.douban.com/subject/35208251/" class="douban_item post-preview"></div>
+    <div id="dbhttps://book.douban.com/subject/27096665/" urlstring="https://book.douban.com/subject/27096665/" class="douban_item post-preview"></div>
 </div>
 </body>
 </html>
