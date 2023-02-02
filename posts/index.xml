@@ -3924,6 +3924,11 @@
 &lt;li&gt;数据包络法&lt;/li&gt;
 &lt;li&gt;组合评价法&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;E题大体上会集中在&lt;strong&gt;环境污染、资源短缺、可持续发展、生态保护&lt;/strong&gt;等几个方面。可以建立的数学模型主要包括三个大类的方法：&lt;/p&gt;
+&lt;p&gt;**（1）优化类的模型：**这里建议大家在参赛的时候可以根据自己对题目问题的理解，自己去建立符号题目的目标函数和约束条件。&lt;/p&gt;
+&lt;p&gt;**（2）评价类的模型：**综合评价模型（Comprehensive evaluation model），模糊综合评价（Fuzzy comprehensive evaluation，FCE）和熵权法（Entropy weight method, EWM）等等。&lt;/p&gt;
+&lt;p&gt;**（3）预测类模型：**灰色预测（gray prediction，GP），时间序列分析（Time series analysis），BP神经网络预测模型（BP neural network prediction model）等等。&lt;/p&gt;
+&lt;p&gt;还包括主成分回归分析等方法，熟练使用上面的模型，对于解E题就会非常的顺利，做起来也会游刃有余。&lt;/p&gt;
 &lt;h1 id=&#34;时间安排&#34;&gt;时间安排&lt;/h1&gt;
 &lt;h2 id=&#34;day-1&#34;&gt;Day 1&lt;/h2&gt;
 &lt;p&gt;第一天上午出题目，几名队员可以分工合作在一小时内翻译出题目的含义，搜索一些关键词，看看题目的资料与数据是否能找到，根据题目的具体情况来选择。总之&lt;strong&gt;第一天的上午必须将题目定下来&lt;/strong&gt;。&lt;br&gt;
@@ -3952,6 +3957,11 @@
 <li>数据包络法</li>
 <li>组合评价法</li>
 </ol>
+<p>E题大体上会集中在<strong>环境污染、资源短缺、可持续发展、生态保护</strong>等几个方面。可以建立的数学模型主要包括三个大类的方法：</p>
+<p>**（1）优化类的模型：**这里建议大家在参赛的时候可以根据自己对题目问题的理解，自己去建立符号题目的目标函数和约束条件。</p>
+<p>**（2）评价类的模型：**综合评价模型（Comprehensive evaluation model），模糊综合评价（Fuzzy comprehensive evaluation，FCE）和熵权法（Entropy weight method, EWM）等等。</p>
+<p>**（3）预测类模型：**灰色预测（gray prediction，GP），时间序列分析（Time series analysis），BP神经网络预测模型（BP neural network prediction model）等等。</p>
+<p>还包括主成分回归分析等方法，熟练使用上面的模型，对于解E题就会非常的顺利，做起来也会游刃有余。</p>
 <h1 id="时间安排">时间安排</h1>
 <h2 id="day-1">Day 1</h2>
 <p>第一天上午出题目，几名队员可以分工合作在一小时内翻译出题目的含义，搜索一些关键词，看看题目的资料与数据是否能找到，根据题目的具体情况来选择。总之<strong>第一天的上午必须将题目定下来</strong>。<br>
