@@ -949,8 +949,112 @@
       <pubDate>Sat, 11 Feb 2023 11:50:40 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-02-11-11-50-37/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
+      <description>&lt;!DOCTYPE HTML&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+    &lt;style type=&#34;text/css&#34;&gt;
+        .bilibili_shortcodes {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 66%;
+            margin: auto;
+            overflow: hidden;
+            text-align: center;
+        }
+        .bilibili_shortcodes iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+    &lt;/style&gt;
+    &lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;bilibili_shortcodes&#34;&gt;
+    &lt;iframe
+            src=&#34;https://player.bilibili.com/player.html?bvid=BV1YJ411g7r6&amp;page=1&amp;high_quality=1&amp;danmaku=0&amp;as_wide=0&#34;
+            scrolling=&#34;no&#34;
+            border=&#34;0&#34;
+            frameborder=&#34;no&#34;
+            framespacing=&#34;0&#34;
+            allowfullscreen=&#34;true&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;环境会造成一个人的习得性无助，如他人对自己的评价。嘴巴长在别人嘴上我们无能为力，但如何对待这些取决于我们&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;成功与幸福的标准有很多，不应该只拘泥于单一标准，不要因为某个方面没做好就觉得事事无望&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;发现自己处于无望的状态，如果没有人主动来帮助你，你可以主动寻求帮助，明确表达无助的源头&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不应该轻易地评价一个人——已所不欲，勿施于人&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <content:encoded><![CDATA[<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <style type="text/css">
+        .bilibili_shortcodes {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 66%;
+            margin: auto;
+            overflow: hidden;
+            text-align: center;
+        }
+        .bilibili_shortcodes iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+<div class="bilibili_shortcodes">
+    <iframe
+            src="https://player.bilibili.com/player.html?bvid=BV1YJ411g7r6&page=1&high_quality=1&danmaku=0&as_wide=0"
+            scrolling="no"
+            border="0"
+            frameborder="no"
+            framespacing="0"
+            allowfullscreen="true"
+    >
+    </iframe>
+</div>
+</body>
+</html>
+
+<ol>
+<li>
+<p>环境会造成一个人的习得性无助，如他人对自己的评价。嘴巴长在别人嘴上我们无能为力，但如何对待这些取决于我们</p>
+</li>
+<li>
+<p>成功与幸福的标准有很多，不应该只拘泥于单一标准，不要因为某个方面没做好就觉得事事无望</p>
+</li>
+<li>
+<p>发现自己处于无望的状态，如果没有人主动来帮助你，你可以主动寻求帮助，明确表达无助的源头</p>
+</li>
+<li>
+<p>不应该轻易地评价一个人——已所不欲，勿施于人</p>
+</li>
+</ol>
+]]></content:encoded>
     </item>
     
     <item>
