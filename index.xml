@@ -46358,7 +46358,6 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;h1 id=&#34;equipment&#34;&gt;Equipment&lt;/h1&gt;
 &lt;h2 id=&#34;electronic-product&#34;&gt;Electronic product&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; PHILIPS 飞利浦台灯 品慧二代66137 —— 京东 179元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 三星SAMSUNG 64G U盘 —— 京东 88元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 联想拯救者 R7000 —— 京东 6199元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 微星 MSI 23.8英寸显示器 —— 京东 833 元&lt;/li&gt;
@@ -46874,7 +46873,6 @@ docker rm CONTAINER_NAME # 删除容器
 <h1 id="equipment">Equipment</h1>
 <h2 id="electronic-product">Electronic product</h2>
 <ul>
-<li><input disabled="" type="checkbox"> PHILIPS 飞利浦台灯 品慧二代66137 —— 京东 179元</li>
 <li><input checked="" disabled="" type="checkbox"> 三星SAMSUNG 64G U盘 —— 京东 88元</li>
 <li><input checked="" disabled="" type="checkbox"> 联想拯救者 R7000 —— 京东 6199元</li>
 <li><input checked="" disabled="" type="checkbox"> 微星 MSI 23.8英寸显示器 —— 京东 833 元</li>
