@@ -20105,7 +20105,13 @@ int main()
       <pubDate>Tue, 15 Nov 2022 12:04:42 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/os/</guid>
-      <description>&lt;ul&gt;
+      <description>&lt;h1 id=&#34;重难点&#34;&gt;重难点&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;创建文件系统是指在一个磁盘分区或设备上创建一个文件系统，以便在上面存储文件&lt;/li&gt;
+&lt;li&gt;挂载是指将一个文件系统与系统中的一个目录关联起来，以便在该目录下访问文件系统中的文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Cm4y1d7Ur/?spm_id_from=333.788&#34;&gt;NJU操作系统&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://jyywiki.cn/OS/2022/&#34;&gt;操作系统：设计与实现 (2022 春季学期)&lt;/a&gt;&lt;/li&gt;
@@ -20989,7 +20995,13 @@ int main()
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <content:encoded><![CDATA[<ul>
+      <content:encoded><![CDATA[<h1 id="重难点">重难点</h1>
+<ol>
+<li>创建文件系统是指在一个磁盘分区或设备上创建一个文件系统，以便在上面存储文件</li>
+<li>挂载是指将一个文件系统与系统中的一个目录关联起来，以便在该目录下访问文件系统中的文件</li>
+</ol>
+<h1 id="推荐阅读">推荐阅读</h1>
+<ul>
 <li><a href="https://www.bilibili.com/video/BV1Cm4y1d7Ur/?spm_id_from=333.788">NJU操作系统</a>
 <ul>
 <li><a href="http://jyywiki.cn/OS/2022/">操作系统：设计与实现 (2022 春季学期)</a></li>
