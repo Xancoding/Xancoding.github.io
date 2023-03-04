@@ -47583,12 +47583,6 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;&lt;a href=&#34;https://colorhunt.co/&#34;&gt;Color Hunt&lt;/a&gt; 设计师和艺术家的调色板&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://game-icons.net/&#34;&gt;Game-icons&lt;/a&gt; 游戏图标在线存储库&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;movies&#34;&gt;Movies&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;http://www.wsscsc.com/play/26699-1-1.html&#34;&gt;海洋之歌&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=oe_JogMlDDw&amp;amp;t=2517s&#34;&gt;凯尔经的秘密&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.olevod.com/index.php/vod/play/id/23227/sid/1/nid/1.html&#34;&gt;狼行者&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h1 id=&#34;outdoor&#34;&gt;Outdoor&lt;/h1&gt;
 &lt;h2 id=&#34;入门指南&#34;&gt;入门指南&lt;/h2&gt;
 &lt;ul&gt;
@@ -47783,12 +47777,6 @@ docker rm CONTAINER_NAME # 删除容器
 <li><a href="https://www.dute.org/weird-fonts">怪异英文生成器</a> 生成比较好看的英文字体，支持复制粘贴</li>
 <li><a href="https://colorhunt.co/">Color Hunt</a> 设计师和艺术家的调色板</li>
 <li><a href="https://game-icons.net/">Game-icons</a> 游戏图标在线存储库</li>
-</ul>
-<h1 id="movies">Movies</h1>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> <a href="http://www.wsscsc.com/play/26699-1-1.html">海洋之歌</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://www.youtube.com/watch?v=oe_JogMlDDw&amp;t=2517s">凯尔经的秘密</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://www.olevod.com/index.php/vod/play/id/23227/sid/1/nid/1.html">狼行者</a></li>
 </ul>
 <h1 id="outdoor">Outdoor</h1>
 <h2 id="入门指南">入门指南</h2>
