@@ -6,7 +6,7 @@
     <description>Recent content in Tech on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 15 Jan 2023 12:42:38 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Mar 2023 18:41:26 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我获取信息的方式</title>
       <link>https://xancoding.cn/posts/get-info/</link>
@@ -782,6 +782,64 @@
 </ul>
 <p>我使用的图床是<a href="https://7bu.top/upload">去不图床</a>，借助 <code>PicGo</code>，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 <code>Obsidian</code> 中的 <code>Image auto upload Plugin</code> 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。<br>
 如今，只用把图片拖拽到 <code>Obsidian</code> 编辑器中，即可自动将图片通过 <code>PicGo</code> 上传到 <code>去不图床</code>，并生成链接，显示在 <code>Obsidian</code> 中。</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>人工智能及其应用</title>
+      <link>https://xancoding.cn/posts/2023-03-05-18-41-23/</link>
+      <pubDate>Sun, 05 Mar 2023 18:41:26 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-03-05-18-41-23/</guid>
+      <description>&lt;h1 id=&#34;模糊子集之间的关系与运算&#34;&gt;模糊子集之间的关系与运算&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;模糊子集包含关系：$A$包含$B$，当且仅当 $\forall x \in X, \mu_A(x) \geq \mu_B(x)$，即 $A \geq B$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;模糊子集相等关系：$A$等于$B$，当且仅当 $\forall x \in X, \mu_A(x) = \mu_B(x)$，即 $A = B$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;模糊子集交运算：$A$和$B$的交集，定义为 $A \cap B = {(x, \min(\mu_A(x), \mu_B(x))) | x \in X}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;模糊子集并运算：$A$和$B$的并集，定义为 $A \cup B = {(x, \max(\mu_A(x), \mu_B(x))) | x \in X}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;模糊子集补运算：$A$的补集，定义为 $A$的补函数为 $\overline{A} = {(x, 1 - \mu_A(x)) | x \in X}$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;模糊子集模糊化：将精确的集合转化为模糊集合，定义为对于每个元素 $x \in X$，给出其隶属度函数 $\mu_A(x)$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;模糊子集模糊推理：通过模糊逻辑推导出新的模糊子集。在模糊控制中，可以根据输入变量的模糊子集和控制规则，得到输出变量的模糊子集，实现模糊控制目标。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="模糊子集之间的关系与运算">模糊子集之间的关系与运算</h1>
+<ol>
+<li>
+<p>模糊子集包含关系：$A$包含$B$，当且仅当 $\forall x \in X, \mu_A(x) \geq \mu_B(x)$，即 $A \geq B$。</p>
+</li>
+<li>
+<p>模糊子集相等关系：$A$等于$B$，当且仅当 $\forall x \in X, \mu_A(x) = \mu_B(x)$，即 $A = B$。</p>
+</li>
+<li>
+<p>模糊子集交运算：$A$和$B$的交集，定义为 $A \cap B = {(x, \min(\mu_A(x), \mu_B(x))) | x \in X}$。</p>
+</li>
+<li>
+<p>模糊子集并运算：$A$和$B$的并集，定义为 $A \cup B = {(x, \max(\mu_A(x), \mu_B(x))) | x \in X}$。</p>
+</li>
+<li>
+<p>模糊子集补运算：$A$的补集，定义为 $A$的补函数为 $\overline{A} = {(x, 1 - \mu_A(x)) | x \in X}$。</p>
+</li>
+<li>
+<p>模糊子集模糊化：将精确的集合转化为模糊集合，定义为对于每个元素 $x \in X$，给出其隶属度函数 $\mu_A(x)$。</p>
+</li>
+<li>
+<p>模糊子集模糊推理：通过模糊逻辑推导出新的模糊子集。在模糊控制中，可以根据输入变量的模糊子集和控制规则，得到输出变量的模糊子集，实现模糊控制目标。</p>
+</li>
+</ol>
 ]]></content:encoded>
     </item>
     
