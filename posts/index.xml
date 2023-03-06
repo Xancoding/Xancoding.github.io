@@ -40008,6 +40008,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;p&gt;假设 $T(n)$ 是一个递归算法的时间复杂度，其中 $n$ 是输入规模。假设算法分解问题时，将其划分为 $a$ 个子问题，每个子问题的规模为原问题的 $1/b$，且每个子问题的解需要 $f(n)$ 的时间。即：
 $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 &lt;p&gt;假设分解问题和合并子问题的过程需要常数时间 $d$，那么主定理的公式如下：&lt;/p&gt;
+&lt;h3 id=&#34;易记不严谨&#34;&gt;易记（不严谨）&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;如果 $f(n) &amp;lt; O(n^{\log_b(a)})$，那么 $T(n) = \Theta(n^{\log_b(a)})$&lt;/p&gt;
@@ -40016,10 +40017,23 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 &lt;p&gt;如果 $f(n) = \Theta(n^{\log_b(a)})$，那么 $T(n) = \Theta(n^{\log_b(a)} \log n)$&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;如果 $f(n) &amp;gt; \Omega(n^{\log_b(a)})$，且对于某个常数 $c &amp;lt; 1$ 和所有足够大的 $n$ 都有 $af(n/b) \le cf(n)$，那么 $T(n) = \Theta(f(n))$。&lt;/p&gt;
+&lt;p&gt;如果 $f(n) &amp;gt; \Omega(n^{\log_b(a)})$，那么 $T(n) = \Theta(f(n))$。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;这里的比较指的是数量级的大小&lt;/p&gt;
+&lt;h3 id=&#34;严谨&#34;&gt;严谨&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;如果 $f(n) = O(n^{\log_b(a - \epsilon)})$，那么 $T(n) = \Theta(n^{\log_b(a)})$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果 $f(n) = \Theta(n^{\log_b(a)})$，那么 $T(n) = \Theta(n^{\log_b(a)} \log n)$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果 $f(n) = \Omega(n^{\log_b(a + \epsilon)})$，且对于某个常数 $c &amp;lt; 1$ 和所有足够大的 $n$ 都有 $af(n/b) \le cf(n)$，那么 $T(n) = \Theta(f(n))$。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;其中 $\epsilon &amp;gt; 0$ 是任意小的正数。这里的 $O$、$\Theta$ 和 $\Omega$ 表示渐进符号。&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Xancoding/Data-Structures-and-Algorithms&#34;&gt;数据结构与算法 | 我的笔记&lt;/a&gt;&lt;/li&gt;
@@ -40918,6 +40932,7 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 <p>假设 $T(n)$ 是一个递归算法的时间复杂度，其中 $n$ 是输入规模。假设算法分解问题时，将其划分为 $a$ 个子问题，每个子问题的规模为原问题的 $1/b$，且每个子问题的解需要 $f(n)$ 的时间。即：
 $$T(n) = aT(n/b) + f(n)$$</p>
 <p>假设分解问题和合并子问题的过程需要常数时间 $d$，那么主定理的公式如下：</p>
+<h3 id="易记不严谨">易记（不严谨）</h3>
 <ol>
 <li>
 <p>如果 $f(n) &lt; O(n^{\log_b(a)})$，那么 $T(n) = \Theta(n^{\log_b(a)})$</p>
@@ -40926,10 +40941,23 @@ $$T(n) = aT(n/b) + f(n)$$</p>
 <p>如果 $f(n) = \Theta(n^{\log_b(a)})$，那么 $T(n) = \Theta(n^{\log_b(a)} \log n)$</p>
 </li>
 <li>
-<p>如果 $f(n) &gt; \Omega(n^{\log_b(a)})$，且对于某个常数 $c &lt; 1$ 和所有足够大的 $n$ 都有 $af(n/b) \le cf(n)$，那么 $T(n) = \Theta(f(n))$。</p>
+<p>如果 $f(n) &gt; \Omega(n^{\log_b(a)})$，那么 $T(n) = \Theta(f(n))$。</p>
 </li>
 </ol>
 <p>这里的比较指的是数量级的大小</p>
+<h3 id="严谨">严谨</h3>
+<ol>
+<li>
+<p>如果 $f(n) = O(n^{\log_b(a - \epsilon)})$，那么 $T(n) = \Theta(n^{\log_b(a)})$</p>
+</li>
+<li>
+<p>如果 $f(n) = \Theta(n^{\log_b(a)})$，那么 $T(n) = \Theta(n^{\log_b(a)} \log n)$</p>
+</li>
+<li>
+<p>如果 $f(n) = \Omega(n^{\log_b(a + \epsilon)})$，且对于某个常数 $c &lt; 1$ 和所有足够大的 $n$ 都有 $af(n/b) \le cf(n)$，那么 $T(n) = \Theta(f(n))$。</p>
+</li>
+</ol>
+<p>其中 $\epsilon &gt; 0$ 是任意小的正数。这里的 $O$、$\Theta$ 和 $\Omega$ 表示渐进符号。</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://github.com/Xancoding/Data-Structures-and-Algorithms">数据结构与算法 | 我的笔记</a></li>
