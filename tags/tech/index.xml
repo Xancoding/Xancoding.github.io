@@ -36117,29 +36117,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
       <pubDate>Tue, 18 Oct 2022 17:16:53 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/data-structures-and-algorithms/</guid>
-      <description>&lt;h1 id=&#34;算法复杂度分析&#34;&gt;算法复杂度分析&lt;/h1&gt;
-&lt;h2 id=&#34;递推式的计算&#34;&gt;递推式的计算&lt;/h2&gt;
-&lt;h3 id=&#34;主定理&#34;&gt;主定理&lt;/h3&gt;
-&lt;p&gt;主定理是递推式求解技巧中的一种，它适用于递归式具有更一般形式的情况。主定理包括三种情况：
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/06/64058b31aa255.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/03/06/64058b31aa255.png&#34; alt=&#34;Snipaste_2023-03-06_14-39-21.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;主方法&#34;&gt;主方法&lt;/h3&gt;
-&lt;p&gt;主方法是递推式求解技巧中的一种，它适用于递归式具有特定形式的情况。主方法包括三种情况：
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/06/64058b3396120.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/03/06/64058b3396120.png&#34; alt=&#34;Snipaste_2023-03-06_14-41-07.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Xancoding/Data-Structures-and-Algorithms&#34;&gt;数据结构与算法 | 我的笔记&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -37032,29 +37010,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="算法复杂度分析">算法复杂度分析</h1>
-<h2 id="递推式的计算">递推式的计算</h2>
-<h3 id="主定理">主定理</h3>
-<p>主定理是递推式求解技巧中的一种，它适用于递归式具有更一般形式的情况。主定理包括三种情况：
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/06/64058b31aa255.png">
-<img src="https://bu.dusays.com/2023/03/06/64058b31aa255.png" alt="Snipaste_2023-03-06_14-39-21.png"  />
-</a>
-</div>
-
-</p>
-<h3 id="主方法">主方法</h3>
-<p>主方法是递推式求解技巧中的一种，它适用于递归式具有特定形式的情况。主方法包括三种情况：
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/06/64058b3396120.png">
-<img src="https://bu.dusays.com/2023/03/06/64058b3396120.png" alt="Snipaste_2023-03-06_14-41-07.png"  />
-</a>
-</div>
-
-</p>
-<h1 id="推荐阅读">推荐阅读</h1>
+      <content:encoded><![CDATA[<h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://github.com/Xancoding/Data-Structures-and-Algorithms">数据结构与算法 | 我的笔记</a></li>
 </ul>
