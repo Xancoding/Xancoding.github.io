@@ -50,6 +50,14 @@
 信号量empty：表示未放产品的缓冲区数目，初值为 N
 mutex：互斥信号量，初值为 1
 &lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Producer 
+
+while(true)
+{
+	P(empty);
+	P(mutex);
+	将产品放入缓冲区 buffer(in);
+	in = (in + 1) % N; 
+}
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Cm4y1d7Ur/?spm_id_from=333.788&#34;&gt;NJU操作系统&lt;/a&gt;
@@ -972,6 +980,14 @@ mutex：互斥信号量，初值为 1
 信号量empty：表示未放产品的缓冲区数目，初值为 N
 mutex：互斥信号量，初值为 1
 </code></pre><pre tabindex="0"><code>Producer 
+
+while(true)
+{
+	P(empty);
+	P(mutex);
+	将产品放入缓冲区 buffer(in);
+	in = (in + 1) % N; 
+}
 </code></pre><h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://www.bilibili.com/video/BV1Cm4y1d7Ur/?spm_id_from=333.788">NJU操作系统</a>
