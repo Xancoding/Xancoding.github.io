@@ -16590,11 +16590,15 @@ int main()
       
       <guid>https://xancoding.cn/posts/os/</guid>
       <description>&lt;h1 id=&#34;记录型信号量&#34;&gt;记录型信号量&lt;/h1&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;S：xin&amp;#39;hao&amp;#39;l
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;S：信号量的值。当其值大于 0 时，表示可供使用的资源数；当其值小于 0 时，其绝对值表示等待使用该资源的进程数
 
-P(S) {
+P(S)
+{
 	S.value--;
-	if (S.value &amp;lt; 0)
+	if (S.value &amp;lt; 0) 
+	{
+		block();
+	}
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;经典的进程同步问题&#34;&gt;经典的进程同步问题&lt;/h1&gt;
 &lt;h2 id=&#34;生产者--消费者&#34;&gt;生产者&amp;ndash;消费者&lt;/h2&gt;
@@ -17494,11 +17498,15 @@ P(S) {
 &lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="记录型信号量">记录型信号量</h1>
-<pre tabindex="0"><code>S：xin&#39;hao&#39;l
+<pre tabindex="0"><code>S：信号量的值。当其值大于 0 时，表示可供使用的资源数；当其值小于 0 时，其绝对值表示等待使用该资源的进程数
 
-P(S) {
+P(S)
+{
 	S.value--;
-	if (S.value &lt; 0)
+	if (S.value &lt; 0) 
+	{
+		block();
+	}
 }
 </code></pre><h1 id="经典的进程同步问题">经典的进程同步问题</h1>
 <h2 id="生产者--消费者">生产者&ndash;消费者</h2>
