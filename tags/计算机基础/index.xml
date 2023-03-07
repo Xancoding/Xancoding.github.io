@@ -7599,8 +7599,14 @@ end start
       <pubDate>Tue, 15 Nov 2022 12:04:42 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/os/</guid>
-      <description>&lt;h1 id=&#34;信号量&#34;&gt;信号量&lt;/h1&gt;
-&lt;h1 id=&#34;经典的进程同步问题&#34;&gt;经典的进程同步问题&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;记录型信号量&#34;&gt;记录型信号量&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;S：xin&amp;#39;hao&amp;#39;l
+
+P(S) {
+	S.value--;
+	if (S.value &amp;lt; 0)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;经典的进程同步问题&#34;&gt;经典的进程同步问题&lt;/h1&gt;
 &lt;h2 id=&#34;生产者--消费者&#34;&gt;生产者&amp;ndash;消费者&lt;/h2&gt;
 &lt;h3 id=&#34;分析&#34;&gt;分析&lt;/h3&gt;
 &lt;ol&gt;
@@ -8497,8 +8503,14 @@ end start
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="信号量">信号量</h1>
-<h1 id="经典的进程同步问题">经典的进程同步问题</h1>
+      <content:encoded><![CDATA[<h1 id="记录型信号量">记录型信号量</h1>
+<pre tabindex="0"><code>S：xin&#39;hao&#39;l
+
+P(S) {
+	S.value--;
+	if (S.value &lt; 0)
+}
+</code></pre><h1 id="经典的进程同步问题">经典的进程同步问题</h1>
 <h2 id="生产者--消费者">生产者&ndash;消费者</h2>
 <h3 id="分析">分析</h3>
 <ol>
