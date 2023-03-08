@@ -30,13 +30,10 @@
 &lt;li&gt;MOV 寄存器，段寄存器：MOV AX，DS&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;ol&gt;
-&lt;li&gt;MOV 段寄存器，立即数：MOV CS, 8&lt;/li&gt;
-&lt;li&gt;MOV 段寄存器，寄存器：MOV CS, BX&lt;/li&gt;
-&lt;li&gt;MOV 段寄存器，内存单元：MOV CS, [0]&lt;/li&gt;
-&lt;li&gt;MOV 段寄存器，段寄存器：MOV CS，DS&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
+&lt;h2 id=&#34;4-mov-段寄存器段寄存器mov-dscs&#34;&gt;&lt;del&gt;1. MOV 段寄存器，立即数&lt;/del&gt;
+2. MOV 段寄存器，寄存器：MOV DS, BX
+3. MOV 段寄存器，内存单元：MOV DS, [0]
+4. MOV 段寄存器，段寄存器：MOV DS，CS&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;MOV 内存单元，立即数：MOV [0], 8&lt;/li&gt;
 &lt;li&gt;MOV 内存单元，寄存器：MOV [0], BX&lt;/li&gt;
@@ -1243,13 +1240,10 @@ end start
 <li>MOV 寄存器，段寄存器：MOV AX，DS</li>
 </ol>
 <hr>
-<ol>
-<li>MOV 段寄存器，立即数：MOV CS, 8</li>
-<li>MOV 段寄存器，寄存器：MOV CS, BX</li>
-<li>MOV 段寄存器，内存单元：MOV CS, [0]</li>
-<li>MOV 段寄存器，段寄存器：MOV CS，DS</li>
-</ol>
-<hr>
+<h2 id="4-mov-段寄存器段寄存器mov-dscs"><del>1. MOV 段寄存器，立即数</del>
+2. MOV 段寄存器，寄存器：MOV DS, BX
+3. MOV 段寄存器，内存单元：MOV DS, [0]
+4. MOV 段寄存器，段寄存器：MOV DS，CS</h2>
 <ol>
 <li>MOV 内存单元，立即数：MOV [0], 8</li>
 <li>MOV 内存单元，寄存器：MOV [0], BX</li>
