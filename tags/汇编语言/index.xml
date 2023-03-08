@@ -34,12 +34,10 @@
 2. MOV 段寄存器，寄存器：MOV DS, AX
 3. MOV 段寄存器，内存单元：MOV DS, [0]
 4. MOV 段寄存器，段寄存器：MOV DS，CS&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;MOV 内存单元，立即数：MOV [0], 8&lt;/li&gt;
-&lt;li&gt;MOV 内存单元，寄存器：MOV [0], BX&lt;/li&gt;
-&lt;li&gt;MOV 内存单元，内存单元：MOV [0], [0]&lt;/li&gt;
-&lt;li&gt;MOV 内存单元，段寄存器：MOV [0]，DS&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;del&gt;1. MOV 内存单元，立即数&lt;/del&gt;
+2. MOV 内存单元，寄存器：MOV [0], BX
+3. MOV 内存单元，内存单元：MOV [0], [2]
+4. MOV 内存单元，段寄存器：MOV [0]，DS&lt;/p&gt;
 &lt;h1 id=&#34;检测点答案部分&#34;&gt;检测点答案（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;检测点21&#34;&gt;检测点2.1&lt;/h2&gt;
 &lt;p&gt;（2）最多使用 4 条指令，编程计算 2 的 4 次方&lt;/p&gt;
@@ -1244,12 +1242,10 @@ end start
 2. MOV 段寄存器，寄存器：MOV DS, AX
 3. MOV 段寄存器，内存单元：MOV DS, [0]
 4. MOV 段寄存器，段寄存器：MOV DS，CS</h2>
-<ol>
-<li>MOV 内存单元，立即数：MOV [0], 8</li>
-<li>MOV 内存单元，寄存器：MOV [0], BX</li>
-<li>MOV 内存单元，内存单元：MOV [0], [0]</li>
-<li>MOV 内存单元，段寄存器：MOV [0]，DS</li>
-</ol>
+<p><del>1. MOV 内存单元，立即数</del>
+2. MOV 内存单元，寄存器：MOV [0], BX
+3. MOV 内存单元，内存单元：MOV [0], [2]
+4. MOV 内存单元，段寄存器：MOV [0]，DS</p>
 <h1 id="检测点答案部分">检测点答案（部分）</h1>
 <h2 id="检测点21">检测点2.1</h2>
 <p>（2）最多使用 4 条指令，编程计算 2 的 4 次方</p>
