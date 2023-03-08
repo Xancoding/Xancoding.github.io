@@ -17,6 +17,32 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;汇编语言是任何一种用于电子计算机、微处理器、微控制器，或其他可编程器件的低级语言&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h1 id=&#34;部分知识点&#34;&gt;部分知识点&lt;/h1&gt;
+&lt;h2 id=&#34;mov-指令&#34;&gt;MOV 指令&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;寄存器、段寄存器、内存单元、立即数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;MOV 寄存器，立即数：MOV AX, 8&lt;/li&gt;
+&lt;li&gt;MOV 寄存器，寄存器：MOV AX, BX&lt;/li&gt;
+&lt;li&gt;MOV 寄存器，内存单元：MOV AX, [0]&lt;/li&gt;
+&lt;li&gt;MOV 寄存器，段寄存器：MOV AX，DS&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;MOV 段寄存器，立即数：MOV CS, 8&lt;/li&gt;
+&lt;li&gt;MOV 段寄存器，寄存器：MOV CS, BX&lt;/li&gt;
+&lt;li&gt;MOV 段寄存器，内存单元：MOV CS, [0]&lt;/li&gt;
+&lt;li&gt;MOV 段寄存器，段寄存器：MOV CS，DS&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;MOV 内存单元，立即数：MOV [0], 8&lt;/li&gt;
+&lt;li&gt;MOV 内存单元，寄存器：MOV [0], BX&lt;/li&gt;
+&lt;li&gt;MOV 内存单元，内存单元：MOV [0], [0]&lt;/li&gt;
+&lt;li&gt;MOV 内存单元，段寄存器：MOV [0]，DS&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1 id=&#34;检测点答案部分&#34;&gt;检测点答案（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;检测点21&#34;&gt;检测点2.1&lt;/h2&gt;
 &lt;p&gt;（2）最多使用 4 条指令，编程计算 2 的 4 次方&lt;/p&gt;
@@ -1204,6 +1230,32 @@ end start
 <blockquote>
 <p><strong>汇编语言是任何一种用于电子计算机、微处理器、微控制器，或其他可编程器件的低级语言</strong></p>
 </blockquote>
+<h1 id="部分知识点">部分知识点</h1>
+<h2 id="mov-指令">MOV 指令</h2>
+<ul>
+<li>寄存器、段寄存器、内存单元、立即数</li>
+</ul>
+<hr>
+<ol>
+<li>MOV 寄存器，立即数：MOV AX, 8</li>
+<li>MOV 寄存器，寄存器：MOV AX, BX</li>
+<li>MOV 寄存器，内存单元：MOV AX, [0]</li>
+<li>MOV 寄存器，段寄存器：MOV AX，DS</li>
+</ol>
+<hr>
+<ol>
+<li>MOV 段寄存器，立即数：MOV CS, 8</li>
+<li>MOV 段寄存器，寄存器：MOV CS, BX</li>
+<li>MOV 段寄存器，内存单元：MOV CS, [0]</li>
+<li>MOV 段寄存器，段寄存器：MOV CS，DS</li>
+</ol>
+<hr>
+<ol>
+<li>MOV 内存单元，立即数：MOV [0], 8</li>
+<li>MOV 内存单元，寄存器：MOV [0], BX</li>
+<li>MOV 内存单元，内存单元：MOV [0], [0]</li>
+<li>MOV 内存单元，段寄存器：MOV [0]，DS</li>
+</ol>
 <h1 id="检测点答案部分">检测点答案（部分）</h1>
 <h2 id="检测点21">检测点2.1</h2>
 <p>（2）最多使用 4 条指令，编程计算 2 的 4 次方</p>
