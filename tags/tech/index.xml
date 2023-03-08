@@ -2870,6 +2870,7 @@ start:                           ; 由于push与pop指令只对字操作，而�
 		mov ax, b
 		mov es, ax               ; es定位到b段
 
+		mov dx, 0
 		mov bx, 0                ; 偏移地址
 		mov cx, 8                ; 循环次数8次
 	s:  
@@ -4078,6 +4079,7 @@ start:                           ; 由于push与pop指令只对字操作，而�
 		mov ax, b
 		mov es, ax               ; es定位到b段
 
+		mov dx, 0
 		mov bx, 0                ; 偏移地址
 		mov cx, 8                ; 循环次数8次
 	s:  
