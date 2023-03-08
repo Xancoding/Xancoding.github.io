@@ -31,7 +31,7 @@
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;4-mov-段寄存器段寄存器mov-dscs&#34;&gt;&lt;del&gt;1. MOV 段寄存器，立即数&lt;/del&gt;
-2. MOV 段寄存器，寄存器：MOV DS, BX
+2. MOV 段寄存器，寄存器：MOV DS, AX
 3. MOV 段寄存器，内存单元：MOV DS, [0]
 4. MOV 段寄存器，段寄存器：MOV DS，CS&lt;/h2&gt;
 &lt;ol&gt;
@@ -1241,7 +1241,7 @@ end start
 </ol>
 <hr>
 <h2 id="4-mov-段寄存器段寄存器mov-dscs"><del>1. MOV 段寄存器，立即数</del>
-2. MOV 段寄存器，寄存器：MOV DS, BX
+2. MOV 段寄存器，寄存器：MOV DS, AX
 3. MOV 段寄存器，内存单元：MOV DS, [0]
 4. MOV 段寄存器，段寄存器：MOV DS，CS</h2>
 <ol>
