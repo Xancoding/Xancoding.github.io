@@ -20465,6 +20465,7 @@ int main()
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;consume&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;item&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 消费数据
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量mutex，每次只有一个进程可以占用资源，以保证缓冲区的互斥访问。对于计数信号量empty和full，它们都是等待队列，生产者和消费者通过占用和释放信号量来加入和离开等待队列。&lt;/p&gt;
+&lt;h2 id=&#34;读者--写者&#34;&gt;读者&amp;ndash;写者&lt;/h2&gt;
 &lt;h2 id=&#34;图书馆阅览室问题&#34;&gt;图书馆阅览室问题&lt;/h2&gt;
 &lt;h3 id=&#34;问题描述&#34;&gt;问题描述&lt;/h3&gt;
 &lt;p&gt;假定阅览室最多可同时容纳 100 个人阅读，读者进入时，必须在阅览室门口的一个登记表上登记，内容包括姓名、座号等，离开时要撤掉登记内容。用P、V操作描述读者进程的同步算法。&lt;/p&gt;
@@ -21411,6 +21412,7 @@ int main()
 </span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">consume</span>(<span style="font-weight:bold">item</span>);  <span style="color:#007f7f">// 消费数据
 </span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}
 </span></span></code></pre></div><p>在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量mutex，每次只有一个进程可以占用资源，以保证缓冲区的互斥访问。对于计数信号量empty和full，它们都是等待队列，生产者和消费者通过占用和释放信号量来加入和离开等待队列。</p>
+<h2 id="读者--写者">读者&ndash;写者</h2>
 <h2 id="图书馆阅览室问题">图书馆阅览室问题</h2>
 <h3 id="问题描述">问题描述</h3>
 <p>假定阅览室最多可同时容纳 100 个人阅读，读者进入时，必须在阅览室门口的一个登记表上登记，内容包括姓名、座号等，离开时要撤掉登记内容。用P、V操作描述读者进程的同步算法。</p>
