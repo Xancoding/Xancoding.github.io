@@ -20433,39 +20433,39 @@ int main()
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;进程同步问题&#34;&gt;进程同步问题&lt;/h1&gt;
 &lt;h2 id=&#34;生产者--消费者&#34;&gt;生产者&amp;ndash;消费者&lt;/h2&gt;
-&lt;h3 id=&#34;分析&#34;&gt;分析&lt;/h3&gt;
+&lt;p&gt;假设有一个缓冲区，生产者往其中生产数据，消费者从其中取出数据。生产者和消费者各有若干个，它们之间需要通过缓冲区进行数据交换。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;生产者与消费者进程 &lt;strong&gt;互斥&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;当缓冲区为空时，消费者不能消费&lt;/li&gt;
-&lt;li&gt;当缓冲区为满时，生产者不能生产&lt;/li&gt;
+&lt;li&gt;初始化信号量：&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;解答&#34;&gt;解答&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;信号量full ：表示放有产品的缓冲区数目，初值为 0
-信号量empty：表示未放产品的缓冲区数目，初值为 N
-mutex：互斥信号量，初值为 1
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Producer 生产者进程
-
-while(true)
-{
-	P(empty);
-	P(mutex);
-	将产品放入缓冲区 buffer(in);
-	in = (in + 1) % N; 
-	V(mutex);
-	V(full);
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Consumer 消费者进程
-
-while(true)
-{
-	P(full);
-	P(mutex);
-	从缓冲区取出一个产品 buffer(out);
-	out = (out + 1) % N;
-	V(mutex);
-	V(empty);
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;图书馆阅览室问题&#34;&gt;图书馆阅览室问题&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;empty：计数信号量，初始值为缓冲区大小，表示缓冲区空闲的数量。&lt;/li&gt;
+&lt;li&gt;full：计数信号量，初始值为0，表示缓冲区中已经存放的数据量。&lt;/li&gt;
+&lt;li&gt;mutex：互斥信号量，初始值为1，用于保护缓冲区的互斥访问。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;生产者过程：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;produce&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;item&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 生产数据
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;empty&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 等待空闲缓冲区
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 占用缓冲区
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;put&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;item&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 将数据放入缓冲区
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放缓冲区
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;full&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 增加缓冲区已有数据的数量
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;消费者过程：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;full&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 等待有数据的缓冲区
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 占用缓冲区
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;item&lt;/span&gt; = &lt;span style=&#34;font-weight:bold&#34;&gt;get&lt;/span&gt;();  &lt;span style=&#34;color:#007f7f&#34;&gt;// 从缓冲区取出数据
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放缓冲区
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;empty&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 增加空闲缓冲区的数量
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;consume&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;item&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 消费数据
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量mutex，每次只有一个进程可以占用资源，以保证缓冲区的互斥访问。对于计数信号量empty和full，它们都是等待队列，生产者和消费者通过占用和释放信号量来加入和离开等待队列。&lt;/p&gt;
+&lt;h2 id=&#34;图书馆阅览室问题&#34;&gt;图书馆阅览室问题&lt;/h2&gt;
 &lt;h3 id=&#34;问题描述&#34;&gt;问题描述&lt;/h3&gt;
 &lt;p&gt;假定阅览室最多可同时容纳 100 个人阅读，读者进入时，必须在阅览室门口的一个登记表上登记，内容包括姓名、座号等，离开时要撤掉登记内容。用P、V操作描述读者进程的同步算法。&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
@@ -21379,39 +21379,39 @@ while(true)
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h1 id="进程同步问题">进程同步问题</h1>
 <h2 id="生产者--消费者">生产者&ndash;消费者</h2>
-<h3 id="分析">分析</h3>
+<p>假设有一个缓冲区，生产者往其中生产数据，消费者从其中取出数据。生产者和消费者各有若干个，它们之间需要通过缓冲区进行数据交换。</p>
 <ol>
-<li>生产者与消费者进程 <strong>互斥</strong></li>
-<li>当缓冲区为空时，消费者不能消费</li>
-<li>当缓冲区为满时，生产者不能生产</li>
+<li>初始化信号量：</li>
 </ol>
-<h3 id="解答">解答</h3>
-<pre tabindex="0"><code>信号量full ：表示放有产品的缓冲区数目，初值为 0
-信号量empty：表示未放产品的缓冲区数目，初值为 N
-mutex：互斥信号量，初值为 1
-</code></pre><pre tabindex="0"><code>Producer 生产者进程
-
-while(true)
-{
-	P(empty);
-	P(mutex);
-	将产品放入缓冲区 buffer(in);
-	in = (in + 1) % N; 
-	V(mutex);
-	V(full);
-}
-</code></pre><pre tabindex="0"><code>Consumer 消费者进程
-
-while(true)
-{
-	P(full);
-	P(mutex);
-	从缓冲区取出一个产品 buffer(out);
-	out = (out + 1) % N;
-	V(mutex);
-	V(empty);
-}
-</code></pre><h2 id="图书馆阅览室问题">图书馆阅览室问题</h2>
+<ul>
+<li>empty：计数信号量，初始值为缓冲区大小，表示缓冲区空闲的数量。</li>
+<li>full：计数信号量，初始值为0，表示缓冲区中已经存放的数据量。</li>
+<li>mutex：互斥信号量，初始值为1，用于保护缓冲区的互斥访问。</li>
+</ul>
+<ol start="2">
+<li>生产者过程：</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">produce</span>(<span style="font-weight:bold">item</span>);  <span style="color:#007f7f">// 生产数据
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">empty</span>);  <span style="color:#007f7f">// 等待空闲缓冲区
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 占用缓冲区
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">put</span>(<span style="font-weight:bold">item</span>);  <span style="color:#007f7f">// 将数据放入缓冲区
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 释放缓冲区
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">full</span>);  <span style="color:#007f7f">// 增加缓冲区已有数据的数量
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}
+</span></span></code></pre></div><ol start="3">
+<li>消费者过程：</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">full</span>);  <span style="color:#007f7f">// 等待有数据的缓冲区
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 占用缓冲区
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">item</span> = <span style="font-weight:bold">get</span>();  <span style="color:#007f7f">// 从缓冲区取出数据
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 释放缓冲区
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">empty</span>);  <span style="color:#007f7f">// 增加空闲缓冲区的数量
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">consume</span>(<span style="font-weight:bold">item</span>);  <span style="color:#007f7f">// 消费数据
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}
+</span></span></code></pre></div><p>在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量mutex，每次只有一个进程可以占用资源，以保证缓冲区的互斥访问。对于计数信号量empty和full，它们都是等待队列，生产者和消费者通过占用和释放信号量来加入和离开等待队列。</p>
+<h2 id="图书馆阅览室问题">图书馆阅览室问题</h2>
 <h3 id="问题描述">问题描述</h3>
 <p>假定阅览室最多可同时容纳 100 个人阅读，读者进入时，必须在阅览室门口的一个登记表上登记，内容包括姓名、座号等，离开时要撤掉登记内容。用P、V操作描述读者进程的同步算法。</p>
 <h1 id="推荐阅读">推荐阅读</h1>
