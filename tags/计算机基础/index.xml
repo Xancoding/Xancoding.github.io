@@ -7805,8 +7805,7 @@ end start
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  }
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;rmutex&lt;/span&gt;); &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放对计数器的访问
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量mutex，每次只有一个进程可以占用资源，以保证对计数器的互斥访问。对于计数信号量write和read，它们都是等待队列，写者通过占用和释放信号量来加入和离开等待队列，而读者则通过占用和释放信号量来控制对资源的访问。通过这种方式，可以有效地避免读者和写者同时访问共享资源，从而保证数据的正确性。&lt;/p&gt;
-&lt;h2 id=&#34;哲学家就餐问题&#34;&gt;哲学家就餐问题&lt;/h2&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;哲学家就餐问题&#34;&gt;哲学家就餐问题&lt;/h2&gt;
 &lt;h3 id=&#34;问题描述-2&#34;&gt;问题描述&lt;/h3&gt;
 &lt;p&gt;在一个圆形餐桌上坐着N个哲学家，每个哲学家面前有一盘食物和一只叉子。这些哲学家只有在同时拿到自己面前的两个叉子时才能进食。每个哲学家都有两个邻居，因此有N个叉子。&lt;/p&gt;
 &lt;p&gt;问题的关键在于如何使哲学家能够避免死锁和饥饿地进食。&lt;/p&gt;
@@ -7830,6 +7829,7 @@ end start
 &lt;h2 id=&#34;图书馆阅览室问题&#34;&gt;图书馆阅览室问题&lt;/h2&gt;
 &lt;h3 id=&#34;问题描述-3&#34;&gt;问题描述&lt;/h3&gt;
 &lt;p&gt;假定阅览室最多可同时容纳 100 个人阅读，读者进入时，必须在阅览室门口的一个登记表上登记，内容包括姓名、座号等，离开时要撤掉登记内容。用P、V操作描述读者进程的同步算法。&lt;/p&gt;
+&lt;h3 id=&#34;解决办法-3&#34;&gt;解决办法&lt;/h3&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Cm4y1d7Ur/?spm_id_from=333.788&#34;&gt;NJU操作系统&lt;/a&gt;
@@ -8845,8 +8845,7 @@ end start
 </span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  }
 </span></span><span style="display:flex;"><span>  <span style="font-weight:bold">V</span>(<span style="font-weight:bold">rmutex</span>); <span style="color:#007f7f">// 释放对计数器的访问
 </span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}
-</span></span></code></pre></div><p>在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量mutex，每次只有一个进程可以占用资源，以保证对计数器的互斥访问。对于计数信号量write和read，它们都是等待队列，写者通过占用和释放信号量来加入和离开等待队列，而读者则通过占用和释放信号量来控制对资源的访问。通过这种方式，可以有效地避免读者和写者同时访问共享资源，从而保证数据的正确性。</p>
-<h2 id="哲学家就餐问题">哲学家就餐问题</h2>
+</span></span></code></pre></div><h2 id="哲学家就餐问题">哲学家就餐问题</h2>
 <h3 id="问题描述-2">问题描述</h3>
 <p>在一个圆形餐桌上坐着N个哲学家，每个哲学家面前有一盘食物和一只叉子。这些哲学家只有在同时拿到自己面前的两个叉子时才能进食。每个哲学家都有两个邻居，因此有N个叉子。</p>
 <p>问题的关键在于如何使哲学家能够避免死锁和饥饿地进食。</p>
@@ -8870,6 +8869,7 @@ end start
 <h2 id="图书馆阅览室问题">图书馆阅览室问题</h2>
 <h3 id="问题描述-3">问题描述</h3>
 <p>假定阅览室最多可同时容纳 100 个人阅读，读者进入时，必须在阅览室门口的一个登记表上登记，内容包括姓名、座号等，离开时要撤掉登记内容。用P、V操作描述读者进程的同步算法。</p>
+<h3 id="解决办法-3">解决办法</h3>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://www.bilibili.com/video/BV1Cm4y1d7Ur/?spm_id_from=333.788">NJU操作系统</a>
