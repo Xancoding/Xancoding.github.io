@@ -7733,28 +7733,48 @@ end start
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;consume&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;item&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 消费数据
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量mutex，每次只有一个进程可以占用资源，以保证缓冲区的互斥访问。对于计数信号量empty和full，它们都是等待队列，生产者和消费者通过占用和释放信号量来加入和离开等待队列。&lt;/p&gt;
-&lt;h2 id=&#34;读者--写者问题&#34;&gt;读者&amp;ndash;写者问题&lt;/h2&gt;
+&lt;h2 id=&#34;理发师问题&#34;&gt;理发师问题&lt;/h2&gt;
 &lt;h3 id=&#34;问题描述&#34;&gt;问题描述&lt;/h3&gt;
+&lt;p&gt;一个理发店有一个理发师和若干个顾客。理发师可以理发，顾客可以等待理发或者离开。当顾客进入理发店时，如果理发师忙，顾客就等待。如果理发师闲着，顾客就可以马上得到理发。理发师理完一位顾客的头发后，会从等待区中选择一个顾客进行服务。&lt;/p&gt;
+&lt;p&gt;问题的关键在于如何使理发师和顾客之间进行合理的协作，避免死锁和饥饿的问题。&lt;/p&gt;
+&lt;h3 id=&#34;解决办法&#34;&gt;解决办法&lt;/h3&gt;
+&lt;p&gt;经典的解决方法是使用信号量机制实现同步。定义以下信号量：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;customers：计数信号量，初始值为0，表示等待理发的顾客数量。&lt;/li&gt;
+&lt;li&gt;barber：互斥信号量，初始值为1，用于控制理发师的访问。&lt;/li&gt;
+&lt;li&gt;mutex：互斥信号量，初始值为1，用于保护customers计数信号量的互斥访问。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;理发师过程：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;customers&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 等待有顾客到来
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 占用顾客数量计数信号量
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;customer&lt;/span&gt; = &lt;span style=&#34;font-weight:bold&#34;&gt;dequeue&lt;/span&gt;();  &lt;span style=&#34;color:#007f7f&#34;&gt;// 从顾客队列中取出一个顾客
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放顾客数量计数信号量
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;cut_hair&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;customer&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 为顾客理发
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;barber&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 理发
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;顾客过程：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 占用顾客数量计数信号量
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;customers&lt;/span&gt; &amp;lt; &lt;span style=&#34;font-weight:bold&#34;&gt;chairs&lt;/span&gt;) {  &lt;span style=&#34;color:#007f7f&#34;&gt;// 如果有空椅子
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;enqueue&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;customer&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 排队等待理发
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;customers&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 增加等待的顾客数量
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放顾客数量计数信号量
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;barber&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 等待理发师空闲
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;get_haircut&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;customer&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 接受理发师的服务
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    } &lt;span style=&#34;font-weight:bold&#34;&gt;else&lt;/span&gt; {  &lt;span style=&#34;color:#007f7f&#34;&gt;// 如果没有空椅子，离开
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放顾客数量计数信号量
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;leave&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;customer&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 离开理发店
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量barber和mutex，每次只有一个进程可以占用资源，以保证对理发师和顾客队列的互斥访问。对于计数信号量customers，它是一个等待队列，顾客通过占用和释放信号量来加入和离开等待队列，而理发师则通过占用和释放信号量来控制顾客的理发顺序。&lt;/p&gt;
+&lt;h2 id=&#34;读者--写者问题&#34;&gt;读者&amp;ndash;写者问题&lt;/h2&gt;
+&lt;h3 id=&#34;问题描述-1&#34;&gt;问题描述&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;多个读者和写者共享一个资源，读者可以同时读取该资源，但写者进行写操作时需要独占该资源；&lt;/li&gt;
 &lt;li&gt;写者优先级高于读者，即当有写者等待时，不允许新的读者访问资源，直到所有写者完成写操作；&lt;/li&gt;
 &lt;li&gt;读写操作的互斥性，即在同一时刻只允许一个读写操作进行。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;解决办法&#34;&gt;解决办法&lt;/h3&gt;
-&lt;h2 id=&#34;理发师问题&#34;&gt;理发师问题&lt;/h2&gt;
-&lt;h3 id=&#34;问题描述-1&#34;&gt;问题描述&lt;/h3&gt;
-&lt;p&gt;一个理发店有一个理发师和若干个顾客。理发师可以理发，顾客可以等待理发或者离开。当顾客进入理发店时，如果理发师忙，顾客就等待。如果理发师闲着，顾客就可以马上得到理发。理发师理完一位顾客的头发后，会从等待区中选择一个顾客进行服务。&lt;/p&gt;
-&lt;p&gt;问题的关键在于如何使理发师和顾客之间进行合理的协作，避免死锁和饥饿的问题。&lt;/p&gt;
 &lt;h3 id=&#34;解决办法-1&#34;&gt;解决办法&lt;/h3&gt;
-&lt;p&gt;经典的解决方法是使用信号量机制实现同步。定义以下信号量：&lt;/p&gt;
-&lt;p&gt;customers：计数信号量，初始值为0，表示等待理发的顾客数量。
-barber：互斥信号量，初始值为1，用于控制理发师的访问。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;mutex：互斥信号量，初始值为1，用于保护customers计数信号量的互斥访问。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;理发师过程：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-spss&#34; data-lang=&#34;spss&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;顾客过程：&lt;/p&gt;
-&lt;p&gt;在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量barber和mutex，每次只有一个进程可以占用资源，以保证对理发师和顾客队列的互斥访问。对于计数信号量customers，它是一个等待队列，顾客通过占用和释放信号量来加入和离开等待队列，而理发师则通过占用和释放信号量来控制顾客的理发顺序。&lt;/p&gt;
 &lt;h2 id=&#34;哲学家就餐问题&#34;&gt;哲学家就餐问题&lt;/h2&gt;
 &lt;h3 id=&#34;问题描述-2&#34;&gt;问题描述&lt;/h3&gt;
 &lt;p&gt;在一个圆形餐桌上坐着N个哲学家，每个哲学家面前有一盘食物和一只叉子。这些哲学家只有在同时拿到自己面前的两个叉子时才能进食。每个哲学家都有两个邻居，因此有N个叉子。&lt;/p&gt;
@@ -8722,28 +8742,48 @@ barber：互斥信号量，初始值为1，用于控制理发师的访问。&lt;
 </span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">consume</span>(<span style="font-weight:bold">item</span>);  <span style="color:#007f7f">// 消费数据
 </span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}
 </span></span></code></pre></div><p>在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量mutex，每次只有一个进程可以占用资源，以保证缓冲区的互斥访问。对于计数信号量empty和full，它们都是等待队列，生产者和消费者通过占用和释放信号量来加入和离开等待队列。</p>
-<h2 id="读者--写者问题">读者&ndash;写者问题</h2>
+<h2 id="理发师问题">理发师问题</h2>
 <h3 id="问题描述">问题描述</h3>
+<p>一个理发店有一个理发师和若干个顾客。理发师可以理发，顾客可以等待理发或者离开。当顾客进入理发店时，如果理发师忙，顾客就等待。如果理发师闲着，顾客就可以马上得到理发。理发师理完一位顾客的头发后，会从等待区中选择一个顾客进行服务。</p>
+<p>问题的关键在于如何使理发师和顾客之间进行合理的协作，避免死锁和饥饿的问题。</p>
+<h3 id="解决办法">解决办法</h3>
+<p>经典的解决方法是使用信号量机制实现同步。定义以下信号量：</p>
+<ul>
+<li>customers：计数信号量，初始值为0，表示等待理发的顾客数量。</li>
+<li>barber：互斥信号量，初始值为1，用于控制理发师的访问。</li>
+<li>mutex：互斥信号量，初始值为1，用于保护customers计数信号量的互斥访问。</li>
+</ul>
+<p>理发师过程：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">customers</span>);  <span style="color:#007f7f">// 等待有顾客到来
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 占用顾客数量计数信号量
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">customer</span> = <span style="font-weight:bold">dequeue</span>();  <span style="color:#007f7f">// 从顾客队列中取出一个顾客
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 释放顾客数量计数信号量
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">cut_hair</span>(<span style="font-weight:bold">customer</span>);  <span style="color:#007f7f">// 为顾客理发
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">barber</span>);  <span style="color:#007f7f">// 理发
+</span></span></span></code></pre></div><p>顾客过程：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 占用顾客数量计数信号量
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">if</span> (<span style="font-weight:bold">customers</span> &lt; <span style="font-weight:bold">chairs</span>) {  <span style="color:#007f7f">// 如果有空椅子
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="font-weight:bold">enqueue</span>(<span style="font-weight:bold">customer</span>);  <span style="color:#007f7f">// 排队等待理发
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="font-weight:bold">V</span>(<span style="font-weight:bold">customers</span>);  <span style="color:#007f7f">// 增加等待的顾客数量
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 释放顾客数量计数信号量
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="font-weight:bold">P</span>(<span style="font-weight:bold">barber</span>);  <span style="color:#007f7f">// 等待理发师空闲
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="font-weight:bold">get_haircut</span>(<span style="font-weight:bold">customer</span>);  <span style="color:#007f7f">// 接受理发师的服务
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    } <span style="font-weight:bold">else</span> {  <span style="color:#007f7f">// 如果没有空椅子，离开
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 释放顾客数量计数信号量
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="font-weight:bold">leave</span>(<span style="font-weight:bold">customer</span>);  <span style="color:#007f7f">// 离开理发店
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量barber和mutex，每次只有一个进程可以占用资源，以保证对理发师和顾客队列的互斥访问。对于计数信号量customers，它是一个等待队列，顾客通过占用和释放信号量来加入和离开等待队列，而理发师则通过占用和释放信号量来控制顾客的理发顺序。</p>
+<h2 id="读者--写者问题">读者&ndash;写者问题</h2>
+<h3 id="问题描述-1">问题描述</h3>
 <ul>
 <li>多个读者和写者共享一个资源，读者可以同时读取该资源，但写者进行写操作时需要独占该资源；</li>
 <li>写者优先级高于读者，即当有写者等待时，不允许新的读者访问资源，直到所有写者完成写操作；</li>
 <li>读写操作的互斥性，即在同一时刻只允许一个读写操作进行。</li>
 </ul>
-<h3 id="解决办法">解决办法</h3>
-<h2 id="理发师问题">理发师问题</h2>
-<h3 id="问题描述-1">问题描述</h3>
-<p>一个理发店有一个理发师和若干个顾客。理发师可以理发，顾客可以等待理发或者离开。当顾客进入理发店时，如果理发师忙，顾客就等待。如果理发师闲着，顾客就可以马上得到理发。理发师理完一位顾客的头发后，会从等待区中选择一个顾客进行服务。</p>
-<p>问题的关键在于如何使理发师和顾客之间进行合理的协作，避免死锁和饥饿的问题。</p>
 <h3 id="解决办法-1">解决办法</h3>
-<p>经典的解决方法是使用信号量机制实现同步。定义以下信号量：</p>
-<p>customers：计数信号量，初始值为0，表示等待理发的顾客数量。
-barber：互斥信号量，初始值为1，用于控制理发师的访问。</p>
-<ul>
-<li>mutex：互斥信号量，初始值为1，用于保护customers计数信号量的互斥访问。</li>
-</ul>
-<p>理发师过程：</p>
-<pre tabindex="0"><code class="language-spss" data-lang="spss"></code></pre><p>顾客过程：</p>
-<p>在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量barber和mutex，每次只有一个进程可以占用资源，以保证对理发师和顾客队列的互斥访问。对于计数信号量customers，它是一个等待队列，顾客通过占用和释放信号量来加入和离开等待队列，而理发师则通过占用和释放信号量来控制顾客的理发顺序。</p>
 <h2 id="哲学家就餐问题">哲学家就餐问题</h2>
 <h3 id="问题描述-2">问题描述</h3>
 <p>在一个圆形餐桌上坐着N个哲学家，每个哲学家面前有一盘食物和一只叉子。这些哲学家只有在同时拿到自己面前的两个叉子时才能进食。每个哲学家都有两个邻居，因此有N个叉子。</p>
