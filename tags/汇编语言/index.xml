@@ -831,7 +831,15 @@ start:
 code ends
 
 end start 
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;实验-6&#34;&gt;实验 6&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/08/6408178cb4cfb.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/08/6408178cb4cfb.png&#34; alt=&#34;Snipaste_2023-03-08_13-03-28.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;实验-6&#34;&gt;实验 6&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:codesg, ss:stacksg, ds:datasg
 
 stacksg segment 
@@ -2048,7 +2056,15 @@ start:
 code ends
 
 end start 
-</code></pre><h2 id="实验-6">实验 6</h2>
+</code></pre><p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/08/6408178cb4cfb.png">
+<img src="https://bu.dusays.com/2023/03/08/6408178cb4cfb.png" alt="Snipaste_2023-03-08_13-03-28.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="实验-6">实验 6</h2>
 <pre tabindex="0"><code>assume cs:codesg, ss:stacksg, ds:datasg
 
 stacksg segment 
