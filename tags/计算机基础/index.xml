@@ -7699,7 +7699,7 @@ end start
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;		wakeup(Q);
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;经典的进程同步问题&#34;&gt;经典的进程同步问题&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;进程同步问题&#34;&gt;进程同步问题&lt;/h1&gt;
 &lt;h2 id=&#34;生产者--消费者&#34;&gt;生产者&amp;ndash;消费者&lt;/h2&gt;
 &lt;h3 id=&#34;分析&#34;&gt;分析&lt;/h3&gt;
 &lt;ol&gt;
@@ -7733,7 +7733,10 @@ while(true)
 	V(mutex);
 	V(empty);
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;图书馆阅览室问题&#34;&gt;图书馆阅览室问题&lt;/h2&gt;
+&lt;h3 id=&#34;问题描述&#34;&gt;问题描述&lt;/h3&gt;
+&lt;p&gt;假定阅览室最多可同时容纳 100 个人阅读，读者进入时，必须在阅览室门口的一个登记表上登记，内容包括姓名、座号等，离开时要撤掉登记内容。用P、V操作描述读者进程的同步算法。&lt;/p&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Cm4y1d7Ur/?spm_id_from=333.788&#34;&gt;NJU操作系统&lt;/a&gt;
 &lt;ul&gt;
@@ -8642,7 +8645,7 @@ while(true)
 </span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>		wakeup(Q);
 </span></span><span style="display:flex;"><span>	}
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h1 id="经典的进程同步问题">经典的进程同步问题</h1>
+</span></span></code></pre></div><h1 id="进程同步问题">进程同步问题</h1>
 <h2 id="生产者--消费者">生产者&ndash;消费者</h2>
 <h3 id="分析">分析</h3>
 <ol>
@@ -8676,7 +8679,10 @@ while(true)
 	V(mutex);
 	V(empty);
 }
-</code></pre><h1 id="推荐阅读">推荐阅读</h1>
+</code></pre><h2 id="图书馆阅览室问题">图书馆阅览室问题</h2>
+<h3 id="问题描述">问题描述</h3>
+<p>假定阅览室最多可同时容纳 100 个人阅读，读者进入时，必须在阅览室门口的一个登记表上登记，内容包括姓名、座号等，离开时要撤掉登记内容。用P、V操作描述读者进程的同步算法。</p>
+<h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://www.bilibili.com/video/BV1Cm4y1d7Ur/?spm_id_from=333.788">NJU操作系统</a>
 <ul>
