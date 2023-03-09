@@ -7746,71 +7746,16 @@ end start
 &lt;p&gt;一个理发店有一个理发师和若干个顾客。理发师可以理发，顾客可以等待理发或者离开。当顾客进入理发店时，如果理发师忙，顾客就等待。如果理发师闲着，顾客就可以马上得到理发。理发师理完一位顾客的头发后，会从等待区中选择一个顾客进行服务。&lt;/p&gt;
 &lt;p&gt;问题的关键在于如何使理发师和顾客之间进行合理的协作，避免死锁和饥饿的问题。&lt;/p&gt;
 &lt;h3 id=&#34;解决办法-1&#34;&gt;解决办法&lt;/h3&gt;
-&lt;p&gt;解决理发师问题的一种常见方法是使用同步工具来实现顾客和理发师之间的协作。以下是一种解决方案：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;定义两个互斥量：chair_mutex用于保护等待椅子，barber_mutex用于保护理发师工作区域。&lt;/li&gt;
-&lt;li&gt;定义两个信号量：waiting_chairs表示等待椅子的数量，barber_chair表示理发师工作区域的状态，初始值为0。&lt;/li&gt;
-&lt;li&gt;当一个顾客到来时，尝试获取chair_mutex互斥量，如果等待椅子还有剩余，就将等待椅子数量减1，释放chair_mutex互斥量，并等待barber_chair信号量。&lt;/li&gt;
-&lt;li&gt;当理发师完成理发后，从等待区选择一个顾客，将该顾客移出等待区，进入理发师工作区域，然后释放barber_chair信号量，让顾客得到服务。&lt;/li&gt;
-&lt;li&gt;当一个顾客离开时，释放chair_mutex互斥量，并将等待椅子数量加1。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;需要注意的是，这种解决方案可以遵循以下两个原则，从而避免死锁和饥饿：&lt;/p&gt;
+&lt;p&gt;经典的解决方法是使用信号量机制实现同步。定义以下信号量：&lt;/p&gt;
+&lt;p&gt;customers：计数信号量，初始值为0，表示等待理发的顾客数量。
+barber：互斥信号量，初始值为1，用于控制理发师的访问。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;等待顾客的顺序符合FIFO（先进先出）原则。&lt;/li&gt;
-&lt;li&gt;理发师选择顾客的顺序符合FIFO原则。&lt;/li&gt;
+&lt;li&gt;mutex：互斥信号量，初始值为1，用于保护customers计数信号量的互斥访问。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;以下是基于同步工具的理发师问题的解决方案的伪代码实现：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;int&lt;/span&gt; N = &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;5&lt;/span&gt;; &lt;span style=&#34;color:#007f7f&#34;&gt;// 等待椅子的数量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;Semaphore chair_mutex = &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;1&lt;/span&gt;; &lt;span style=&#34;color:#007f7f&#34;&gt;// 等待椅子互斥量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;Semaphore barber_mutex = &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;1&lt;/span&gt;; &lt;span style=&#34;color:#007f7f&#34;&gt;// 理发师工作区域互斥量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;Semaphore waiting_chairs = N; &lt;span style=&#34;color:#007f7f&#34;&gt;// 等待椅子的信号量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;Semaphore barber_chair = &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;0&lt;/span&gt;; &lt;span style=&#34;color:#007f7f&#34;&gt;// 理发师工作区域的信号量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;// 顾客线程函数
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;void&lt;/span&gt; customer() {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#007f7f&#34;&gt;// 尝试获取等待椅子互斥量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    chair_mutex.&lt;span style=&#34;color:#007f7f&#34;&gt;acquire&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;if&lt;/span&gt; (waiting_chairs &amp;gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;0&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#007f7f&#34;&gt;// 如果还有等待椅子，就坐下等待理发
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        waiting_chairs--;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放等待椅子互斥量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        chair_mutex.&lt;span style=&#34;color:#007f7f&#34;&gt;release&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#007f7f&#34;&gt;// 等待理发师工作区域的信号量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        barber_chair.&lt;span style=&#34;color:#007f7f&#34;&gt;acquire&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#007f7f&#34;&gt;// 等到理发，然后离开
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        get_haircut();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        leave();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    } &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;else&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#007f7f&#34;&gt;// 如果没有等待椅子，就离开理发店
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        chair_mutex.&lt;span style=&#34;color:#007f7f&#34;&gt;release&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        leave();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;// 理发师线程函数
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;void&lt;/span&gt; barber() {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#007f7f&#34;&gt;// 尝试获取理发师工作区域互斥量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        barber_mutex.&lt;span style=&#34;color:#007f7f&#34;&gt;acquire&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;if&lt;/span&gt; (waiting_chairs &amp;lt; N) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#007f7f&#34;&gt;// 如果有顾客在等待，就选择一个顾客进行理发
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;            waiting_chairs++;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放理发师工作区域信号量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;            barber_chair.&lt;span style=&#34;color:#007f7f&#34;&gt;release&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放理发师工作区域互斥量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;            barber_mutex.&lt;span style=&#34;color:#007f7f&#34;&gt;release&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#007f7f&#34;&gt;// 进行理发
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;            cut_hair();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        } &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;else&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#007f7f&#34;&gt;// 如果没有顾客在等待，就放松理发师工作区域的互斥量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;            barber_mutex.&lt;span style=&#34;color:#007f7f&#34;&gt;release&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#007f7f&#34;&gt;// 等待一段时间
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;            rest();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;哲学家就餐问题&#34;&gt;哲学家就餐问题&lt;/h2&gt;
+&lt;p&gt;理发师过程：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-spss&#34; data-lang=&#34;spss&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;顾客过程：&lt;/p&gt;
+&lt;p&gt;在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量barber和mutex，每次只有一个进程可以占用资源，以保证对理发师和顾客队列的互斥访问。对于计数信号量customers，它是一个等待队列，顾客通过占用和释放信号量来加入和离开等待队列，而理发师则通过占用和释放信号量来控制顾客的理发顺序。&lt;/p&gt;
+&lt;h2 id=&#34;哲学家就餐问题&#34;&gt;哲学家就餐问题&lt;/h2&gt;
 &lt;h3 id=&#34;问题描述-2&#34;&gt;问题描述&lt;/h3&gt;
 &lt;p&gt;在一个圆形餐桌上坐着N个哲学家，每个哲学家面前有一盘食物和一只叉子。这些哲学家只有在同时拿到自己面前的两个叉子时才能进食。每个哲学家都有两个邻居，因此有N个叉子。&lt;/p&gt;
 &lt;p&gt;问题的关键在于如何使哲学家能够避免死锁和饥饿地进食。&lt;/p&gt;
@@ -8790,71 +8735,16 @@ end start
 <p>一个理发店有一个理发师和若干个顾客。理发师可以理发，顾客可以等待理发或者离开。当顾客进入理发店时，如果理发师忙，顾客就等待。如果理发师闲着，顾客就可以马上得到理发。理发师理完一位顾客的头发后，会从等待区中选择一个顾客进行服务。</p>
 <p>问题的关键在于如何使理发师和顾客之间进行合理的协作，避免死锁和饥饿的问题。</p>
 <h3 id="解决办法-1">解决办法</h3>
-<p>解决理发师问题的一种常见方法是使用同步工具来实现顾客和理发师之间的协作。以下是一种解决方案：</p>
-<ol>
-<li>定义两个互斥量：chair_mutex用于保护等待椅子，barber_mutex用于保护理发师工作区域。</li>
-<li>定义两个信号量：waiting_chairs表示等待椅子的数量，barber_chair表示理发师工作区域的状态，初始值为0。</li>
-<li>当一个顾客到来时，尝试获取chair_mutex互斥量，如果等待椅子还有剩余，就将等待椅子数量减1，释放chair_mutex互斥量，并等待barber_chair信号量。</li>
-<li>当理发师完成理发后，从等待区选择一个顾客，将该顾客移出等待区，进入理发师工作区域，然后释放barber_chair信号量，让顾客得到服务。</li>
-<li>当一个顾客离开时，释放chair_mutex互斥量，并将等待椅子数量加1。</li>
-</ol>
-<p>需要注意的是，这种解决方案可以遵循以下两个原则，从而避免死锁和饥饿：</p>
+<p>经典的解决方法是使用信号量机制实现同步。定义以下信号量：</p>
+<p>customers：计数信号量，初始值为0，表示等待理发的顾客数量。
+barber：互斥信号量，初始值为1，用于控制理发师的访问。</p>
 <ul>
-<li>等待顾客的顺序符合FIFO（先进先出）原则。</li>
-<li>理发师选择顾客的顺序符合FIFO原则。</li>
+<li>mutex：互斥信号量，初始值为1，用于保护customers计数信号量的互斥访问。</li>
 </ul>
-<p>以下是基于同步工具的理发师问题的解决方案的伪代码实现：</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">const</span> <span style="color:#fff;font-weight:bold">int</span> N = <span style="color:#ff0;font-weight:bold">5</span>; <span style="color:#007f7f">// 等待椅子的数量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>Semaphore chair_mutex = <span style="color:#ff0;font-weight:bold">1</span>; <span style="color:#007f7f">// 等待椅子互斥量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>Semaphore barber_mutex = <span style="color:#ff0;font-weight:bold">1</span>; <span style="color:#007f7f">// 理发师工作区域互斥量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>Semaphore waiting_chairs = N; <span style="color:#007f7f">// 等待椅子的信号量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>Semaphore barber_chair = <span style="color:#ff0;font-weight:bold">0</span>; <span style="color:#007f7f">// 理发师工作区域的信号量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// 顾客线程函数
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#fff;font-weight:bold">void</span> customer() {
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">while</span> (<span style="color:#fff;font-weight:bold">true</span>) {
-</span></span><span style="display:flex;"><span>    <span style="color:#007f7f">// 尝试获取等待椅子互斥量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    chair_mutex.<span style="color:#007f7f">acquire</span>();
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">if</span> (waiting_chairs &gt; <span style="color:#ff0;font-weight:bold">0</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#007f7f">// 如果还有等待椅子，就坐下等待理发
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        waiting_chairs--;
-</span></span><span style="display:flex;"><span>        <span style="color:#007f7f">// 释放等待椅子互斥量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        chair_mutex.<span style="color:#007f7f">release</span>();
-</span></span><span style="display:flex;"><span>        <span style="color:#007f7f">// 等待理发师工作区域的信号量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        barber_chair.<span style="color:#007f7f">acquire</span>();
-</span></span><span style="display:flex;"><span>        <span style="color:#007f7f">// 等到理发，然后离开
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        get_haircut();
-</span></span><span style="display:flex;"><span>        leave();
-</span></span><span style="display:flex;"><span>    } <span style="color:#fff;font-weight:bold">else</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#007f7f">// 如果没有等待椅子，就离开理发店
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        chair_mutex.<span style="color:#007f7f">release</span>();
-</span></span><span style="display:flex;"><span>        leave();
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">// 理发师线程函数
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#fff;font-weight:bold">void</span> barber() {
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">while</span> (<span style="color:#fff;font-weight:bold">true</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#007f7f">// 尝试获取理发师工作区域互斥量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        barber_mutex.<span style="color:#007f7f">acquire</span>();
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> (waiting_chairs &lt; N) {
-</span></span><span style="display:flex;"><span>            <span style="color:#007f7f">// 如果有顾客在等待，就选择一个顾客进行理发
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            waiting_chairs++;
-</span></span><span style="display:flex;"><span>            <span style="color:#007f7f">// 释放理发师工作区域信号量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            barber_chair.<span style="color:#007f7f">release</span>();
-</span></span><span style="display:flex;"><span>            <span style="color:#007f7f">// 释放理发师工作区域互斥量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            barber_mutex.<span style="color:#007f7f">release</span>();
-</span></span><span style="display:flex;"><span>            <span style="color:#007f7f">// 进行理发
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            cut_hair();
-</span></span><span style="display:flex;"><span>        } <span style="color:#fff;font-weight:bold">else</span> {
-</span></span><span style="display:flex;"><span>            <span style="color:#007f7f">// 如果没有顾客在等待，就放松理发师工作区域的互斥量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            barber_mutex.<span style="color:#007f7f">release</span>();
-</span></span><span style="display:flex;"><span>            <span style="color:#007f7f">// 等待一段时间
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>            rest();
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="哲学家就餐问题">哲学家就餐问题</h2>
+<p>理发师过程：</p>
+<pre tabindex="0"><code class="language-spss" data-lang="spss"></code></pre><p>顾客过程：</p>
+<p>在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量barber和mutex，每次只有一个进程可以占用资源，以保证对理发师和顾客队列的互斥访问。对于计数信号量customers，它是一个等待队列，顾客通过占用和释放信号量来加入和离开等待队列，而理发师则通过占用和释放信号量来控制顾客的理发顺序。</p>
+<h2 id="哲学家就餐问题">哲学家就餐问题</h2>
 <h3 id="问题描述-2">问题描述</h3>
 <p>在一个圆形餐桌上坐着N个哲学家，每个哲学家面前有一盘食物和一只叉子。这些哲学家只有在同时拿到自己面前的两个叉子时才能进食。每个哲学家都有两个邻居，因此有N个叉子。</p>
 <p>问题的关键在于如何使哲学家能够避免死锁和饥饿地进食。</p>
