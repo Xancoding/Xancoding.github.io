@@ -20511,7 +20511,32 @@ int main()
 &lt;li&gt;mutex：互斥信号量，初始值为1，用于保护对资源的互斥访问。&lt;/li&gt;
 &lt;li&gt;write：计数信号量，初始值为1，用于保护写操作的互斥访问。&lt;/li&gt;
 &lt;li&gt;read：计数信号量，初始值为0，表示当前没有读者对资源进行访问。&lt;/li&gt;
+&lt;li&gt;readers：整型变量，初始值为0，表示读者计数器&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;写者：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;write&lt;/span&gt;);        &lt;span style=&#34;color:#007f7f&#34;&gt;// 请求写访问权
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;write_data&lt;/span&gt;();    &lt;span style=&#34;color:#007f7f&#34;&gt;// 写操作
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;write&lt;/span&gt;);        &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放写访问权
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;读者：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;); &lt;span style=&#34;color:#007f7f&#34;&gt;// 保证对计数器的互斥访问
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;readers&lt;/span&gt;++; &lt;span style=&#34;color:#007f7f&#34;&gt;// 有一个读者进入临界区
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;readers&lt;/span&gt; == &lt;span style=&#34;font-weight:bold&#34;&gt;1&lt;/span&gt;) { &lt;span style=&#34;color:#007f7f&#34;&gt;// 如果是第一个读者
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;write&lt;/span&gt;); &lt;span style=&#34;color:#007f7f&#34;&gt;// 请求写访问权，禁止写者同时写入
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;); &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放对计数器的访问
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;read&lt;/span&gt;); &lt;span style=&#34;color:#007f7f&#34;&gt;// 等待资源可用
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;read_data&lt;/span&gt;(); &lt;span style=&#34;color:#007f7f&#34;&gt;// 读操作
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;); &lt;span style=&#34;color:#007f7f&#34;&gt;// 保证对计数器的互斥访问
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;readers--&lt;/span&gt;; &lt;span style=&#34;color:#007f7f&#34;&gt;// 有一个读者离开临界区
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;readers&lt;/span&gt; == &lt;span style=&#34;font-weight:bold&#34;&gt;0&lt;/span&gt;) { &lt;span style=&#34;color:#007f7f&#34;&gt;// 如果是最后一个读者
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;write&lt;/span&gt;); &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放写访问权
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;); &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放对计数器的访问
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量mutex，每次只有一个进程可以占用资源，以保证对计数器的互斥访问。对于计数信号量write和read，它们都是等待队列，写者通过占用和释放信号量来加入和离开等待队列，而读者则通过占用和释放信号量来控制对资源的访问。通过这种方式，可以有效地避免读者和写者同时访问共享资源，从而保证数据的正确性。&lt;/p&gt;
 &lt;h2 id=&#34;哲学家就餐问题&#34;&gt;哲学家就餐问题&lt;/h2&gt;
 &lt;h3 id=&#34;问题描述-2&#34;&gt;问题描述&lt;/h3&gt;
 &lt;p&gt;在一个圆形餐桌上坐着N个哲学家，每个哲学家面前有一盘食物和一只叉子。这些哲学家只有在同时拿到自己面前的两个叉子时才能进食。每个哲学家都有两个邻居，因此有N个叉子。&lt;/p&gt;
@@ -21525,7 +21550,32 @@ int main()
 <li>mutex：互斥信号量，初始值为1，用于保护对资源的互斥访问。</li>
 <li>write：计数信号量，初始值为1，用于保护写操作的互斥访问。</li>
 <li>read：计数信号量，初始值为0，表示当前没有读者对资源进行访问。</li>
+<li>readers：整型变量，初始值为0，表示读者计数器</li>
 </ul>
+<p>写者：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">write</span>);        <span style="color:#007f7f">// 请求写访问权
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">write_data</span>();    <span style="color:#007f7f">// 写操作
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">write</span>);        <span style="color:#007f7f">// 释放写访问权
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}
+</span></span></code></pre></div><p>读者：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>); <span style="color:#007f7f">// 保证对计数器的互斥访问
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  <span style="font-weight:bold">readers</span>++; <span style="color:#007f7f">// 有一个读者进入临界区
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  <span style="font-weight:bold">if</span> (<span style="font-weight:bold">readers</span> == <span style="font-weight:bold">1</span>) { <span style="color:#007f7f">// 如果是第一个读者
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">write</span>); <span style="color:#007f7f">// 请求写访问权，禁止写者同时写入
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  }
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>); <span style="color:#007f7f">// 释放对计数器的访问
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  <span style="font-weight:bold">P</span>(<span style="font-weight:bold">read</span>); <span style="color:#007f7f">// 等待资源可用
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  <span style="font-weight:bold">read_data</span>(); <span style="color:#007f7f">// 读操作
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  <span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>); <span style="color:#007f7f">// 保证对计数器的互斥访问
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  <span style="font-weight:bold">readers--</span>; <span style="color:#007f7f">// 有一个读者离开临界区
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  <span style="font-weight:bold">if</span> (<span style="font-weight:bold">readers</span> == <span style="font-weight:bold">0</span>) { <span style="color:#007f7f">// 如果是最后一个读者
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">write</span>); <span style="color:#007f7f">// 释放写访问权
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  }
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>); <span style="color:#007f7f">// 释放对计数器的访问
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}
+</span></span></code></pre></div><p>在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量mutex，每次只有一个进程可以占用资源，以保证对计数器的互斥访问。对于计数信号量write和read，它们都是等待队列，写者通过占用和释放信号量来加入和离开等待队列，而读者则通过占用和释放信号量来控制对资源的访问。通过这种方式，可以有效地避免读者和写者同时访问共享资源，从而保证数据的正确性。</p>
 <h2 id="哲学家就餐问题">哲学家就餐问题</h2>
 <h3 id="问题描述-2">问题描述</h3>
 <p>在一个圆形餐桌上坐着N个哲学家，每个哲学家面前有一盘食物和一只叉子。这些哲学家只有在同时拿到自己面前的两个叉子时才能进食。每个哲学家都有两个邻居，因此有N个叉子。</p>
