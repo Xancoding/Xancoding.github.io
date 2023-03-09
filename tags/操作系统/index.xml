@@ -114,10 +114,9 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;解决办法-1&#34;&gt;解决办法&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;mutex：互斥信号量，初始值为1，用于保护对资源的互斥访问。&lt;/li&gt;
 &lt;li&gt;write：计数信号量，初始值为1，用于保护写操作的互斥访问。&lt;/li&gt;
-&lt;li&gt;read：计数信号量，初始值为0，表示当前没有读者对资源进行访问。&lt;/li&gt;
-&lt;li&gt;readers：整型变量，初始值为0，表示读者计数器&lt;/li&gt;
+&lt;li&gt;rmutex：计数信号量，初始值为1，用于互斥访问 readcount。&lt;/li&gt;
+&lt;li&gt;readco：整型变量，初始值为0，表示读者计数器&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;写者：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
@@ -1153,10 +1152,9 @@
 </ul>
 <h3 id="解决办法-1">解决办法</h3>
 <ul>
-<li>mutex：互斥信号量，初始值为1，用于保护对资源的互斥访问。</li>
 <li>write：计数信号量，初始值为1，用于保护写操作的互斥访问。</li>
-<li>read：计数信号量，初始值为0，表示当前没有读者对资源进行访问。</li>
-<li>readers：整型变量，初始值为0，表示读者计数器</li>
+<li>rmutex：计数信号量，初始值为1，用于互斥访问 readcount。</li>
+<li>readco：整型变量，初始值为0，表示读者计数器</li>
 </ul>
 <p>写者：</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
