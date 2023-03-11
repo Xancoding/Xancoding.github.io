@@ -5870,14 +5870,28 @@
 &lt;li&gt;MOV 寄存器，段寄存器：MOV AX，DS&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;4-mov-段寄存器段寄存器&#34;&gt;&lt;del&gt;1. MOV 段寄存器，立即数&lt;/del&gt;
-2. MOV 段寄存器，寄存器：MOV DS, AX
-3. MOV 段寄存器，内存单元：MOV DS, [0]
-&lt;del&gt;4. MOV 段寄存器，段寄存器&lt;/del&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;del&gt;1. MOV 内存单元，立即数&lt;/del&gt;
-2. MOV 内存单元，寄存器：MOV [0], BX
-&lt;del&gt;3. MOV 内存单元，内存单元：MOV [0], [2]&lt;/del&gt;
-4. MOV 内存单元，段寄存器：MOV [0]，DS&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;del&gt;MOV 段寄存器，立即数&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;MOV 段寄存器，寄存器：MOV DS, AX&lt;/li&gt;
+&lt;li&gt;MOV 段寄存器，内存单元：MOV DS, [0]&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;MOV 段寄存器，段寄存器&lt;/del&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;del&gt;MOV 内存单元，立即数&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;MOV 内存单元，寄存器：MOV [0], BX&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;MOV 内存单元，内存单元&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;MOV 内存单元，段寄存器：MOV [0]，DS&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/10/640ae7a051629.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/10/640ae7a051629.jpg&#34; alt=&#34;d3d1cd5ac957ba3f5ca72f8b77f8ce5.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;检测点答案部分&#34;&gt;检测点答案（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;检测点21&#34;&gt;检测点2.1&lt;/h2&gt;
 &lt;p&gt;（2）最多使用 4 条指令，编程计算 2 的 4 次方&lt;/p&gt;
@@ -7095,14 +7109,28 @@ end start
 <li>MOV 寄存器，段寄存器：MOV AX，DS</li>
 </ol>
 <hr>
-<h2 id="4-mov-段寄存器段寄存器"><del>1. MOV 段寄存器，立即数</del>
-2. MOV 段寄存器，寄存器：MOV DS, AX
-3. MOV 段寄存器，内存单元：MOV DS, [0]
-<del>4. MOV 段寄存器，段寄存器</del></h2>
-<p><del>1. MOV 内存单元，立即数</del>
-2. MOV 内存单元，寄存器：MOV [0], BX
-<del>3. MOV 内存单元，内存单元：MOV [0], [2]</del>
-4. MOV 内存单元，段寄存器：MOV [0]，DS</p>
+<ol>
+<li><del>MOV 段寄存器，立即数</del></li>
+<li>MOV 段寄存器，寄存器：MOV DS, AX</li>
+<li>MOV 段寄存器，内存单元：MOV DS, [0]</li>
+<li><del>MOV 段寄存器，段寄存器</del></li>
+</ol>
+<hr>
+<ol>
+<li><del>MOV 内存单元，立即数</del></li>
+<li>MOV 内存单元，寄存器：MOV [0], BX</li>
+<li><del>MOV 内存单元，内存单元</del></li>
+<li>MOV 内存单元，段寄存器：MOV [0]，DS</li>
+</ol>
+<hr>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/10/640ae7a051629.jpg">
+<img src="https://bu.dusays.com/2023/03/10/640ae7a051629.jpg" alt="d3d1cd5ac957ba3f5ca72f8b77f8ce5.jpg"  />
+</a>
+</div>
+
+</p>
 <h1 id="检测点答案部分">检测点答案（部分）</h1>
 <h2 id="检测点21">检测点2.1</h2>
 <p>（2）最多使用 4 条指令，编程计算 2 的 4 次方</p>
