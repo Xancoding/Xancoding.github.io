@@ -16717,7 +16717,8 @@ int main()
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;		wakeup(Q);
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;进程同步问题&#34;&gt;进程同步问题&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;互斥&#34;&gt;互斥&lt;/h2&gt;
+&lt;h1 id=&#34;进程同步问题&#34;&gt;进程同步问题&lt;/h1&gt;
 &lt;h2 id=&#34;生产者--消费者&#34;&gt;生产者&amp;ndash;消费者&lt;/h2&gt;
 &lt;p&gt;假设有一个缓冲区，生产者往其中生产数据，消费者从其中取出数据。生产者和消费者各有若干个，它们之间需要通过缓冲区进行数据交换。&lt;/p&gt;
 &lt;ol&gt;
@@ -17778,7 +17779,8 @@ int main()
 </span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>		wakeup(Q);
 </span></span><span style="display:flex;"><span>	}
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h1 id="进程同步问题">进程同步问题</h1>
+</span></span></code></pre></div><h2 id="互斥">互斥</h2>
+<h1 id="进程同步问题">进程同步问题</h1>
 <h2 id="生产者--消费者">生产者&ndash;消费者</h2>
 <p>假设有一个缓冲区，生产者往其中生产数据，消费者从其中取出数据。生产者和消费者各有若干个，它们之间需要通过缓冲区进行数据交换。</p>
 <ol>
