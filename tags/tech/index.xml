@@ -791,9 +791,12 @@
       <pubDate>Tue, 14 Mar 2023 13:19:15 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-03-14-13-19-12/</guid>
-      <description>&lt;h1 id=&#34;小技巧&#34;&gt;小技巧&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;tips&#34;&gt;Tips&lt;/h1&gt;
 &lt;p&gt;如果A，B为一次实验中互不相容的两个事件。连续试验时，A发生在B之前的概率为：&lt;/p&gt;
 &lt;p&gt;$${P(A) \over (P(A)+P(B))}$$&lt;/p&gt;
+&lt;h1 id=&#34;概率论的基本概念&#34;&gt;概率论的基本概念&lt;/h1&gt;
+&lt;h1 id=&#34;加法公式&#34;&gt;加法公式&lt;/h1&gt;
+&lt;p&gt;$\begin{split} P(\bigcup_{i=1}^{n}A_i)=&amp;amp;\sum_{i=1}^{n}P(A_i)- \sum_{1\leq i&amp;lt;j\leq n}P(A_iA_j)+&amp;amp;\sum_{1\leq i&amp;lt;j&amp;lt;k\leq n}P(A_i A_j A_k)+&amp;hellip;+(-1)^{n-1}P(A_1 A_2 &amp;hellip; A_n) \end{split}$&lt;/p&gt;
 &lt;h1 id=&#34;离散型随机变量及其分布律&#34;&gt;离散型随机变量及其分布律&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;五个分布律
@@ -825,9 +828,12 @@ $$X\sim \pi(\lambda),E(X)=\lambda,D(X)=\lambda$$&lt;/p&gt;
 &lt;p&gt;当 n 很大，p 很小时，有二项分布近似公式
 $$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k} ≈ \frac{\lambda^k e^{-\lambda}}{k!}\ ,\lambda = np$$&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="小技巧">小技巧</h1>
+      <content:encoded><![CDATA[<h1 id="tips">Tips</h1>
 <p>如果A，B为一次实验中互不相容的两个事件。连续试验时，A发生在B之前的概率为：</p>
 <p>$${P(A) \over (P(A)+P(B))}$$</p>
+<h1 id="概率论的基本概念">概率论的基本概念</h1>
+<h1 id="加法公式">加法公式</h1>
+<p>$\begin{split} P(\bigcup_{i=1}^{n}A_i)=&amp;\sum_{i=1}^{n}P(A_i)- \sum_{1\leq i&lt;j\leq n}P(A_iA_j)+&amp;\sum_{1\leq i&lt;j&lt;k\leq n}P(A_i A_j A_k)+&hellip;+(-1)^{n-1}P(A_1 A_2 &hellip; A_n) \end{split}$</p>
 <h1 id="离散型随机变量及其分布律">离散型随机变量及其分布律</h1>
 <ul>
 <li>五个分布律
