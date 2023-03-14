@@ -6,7 +6,7 @@
     <description>Recent content in Tech on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Mar 2023 18:41:26 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Mar 2023 13:19:15 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我获取信息的方式</title>
       <link>https://xancoding.cn/posts/get-info/</link>
@@ -782,6 +782,20 @@
 </ul>
 <p>我使用的图床是<a href="https://7bu.top/upload">去不图床</a>，借助 <code>PicGo</code>，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 <code>Obsidian</code> 中的 <code>Image auto upload Plugin</code> 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。<br>
 如今，只用把图片拖拽到 <code>Obsidian</code> 编辑器中，即可自动将图片通过 <code>PicGo</code> 上传到 <code>去不图床</code>，并生成链接，显示在 <code>Obsidian</code> 中。</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>概率论与数理统计</title>
+      <link>https://xancoding.cn/posts/2023-03-14-13-19-12/</link>
+      <pubDate>Tue, 14 Mar 2023 13:19:15 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-03-14-13-19-12/</guid>
+      <description>&lt;p&gt;如果A，B为一次实验中互不相容的两个事件。连续试验时，A发生在B之前的概率为：&lt;/p&gt;
+&lt;p&gt;$${P(A) \over (P(A)+P(B))}$$&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<p>如果A，B为一次实验中互不相容的两个事件。连续试验时，A发生在B之前的概率为：</p>
+<p>$${P(A) \over (P(A)+P(B))}$$</p>
 ]]></content:encoded>
     </item>
     
@@ -16898,7 +16912,13 @@ int main()
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;count&lt;/span&gt;);
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;性能指标&#34;&gt;性能指标&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;响应时间&lt;/strong&gt;：自进程就绪至进程第一次获得CPU响应的时间&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;周转时间&lt;/strong&gt;：进程从第一次进入就绪状态到完成所花费的总时间&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;等待时间&lt;/strong&gt;：进程处于就绪状态等待CPU所花费的总时间&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Cm4y1d7Ur/?spm_id_from=333.788&#34;&gt;NJU操作系统&lt;/a&gt;
 &lt;ul&gt;
@@ -17956,7 +17976,13 @@ int main()
 </span></span><span style="display:flex;"><span>	<span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);
 </span></span><span style="display:flex;"><span>	<span style="font-weight:bold">V</span>(<span style="font-weight:bold">count</span>);
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h1 id="推荐阅读">推荐阅读</h1>
+</span></span></code></pre></div><h1 id="性能指标">性能指标</h1>
+<ol>
+<li><strong>响应时间</strong>：自进程就绪至进程第一次获得CPU响应的时间</li>
+<li><strong>周转时间</strong>：进程从第一次进入就绪状态到完成所花费的总时间</li>
+<li><strong>等待时间</strong>：进程处于就绪状态等待CPU所花费的总时间</li>
+</ol>
+<h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://www.bilibili.com/video/BV1Cm4y1d7Ur/?spm_id_from=333.788">NJU操作系统</a>
 <ul>
