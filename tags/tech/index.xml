@@ -793,9 +793,13 @@
       <guid>https://xancoding.cn/posts/2023-03-14-13-19-12/</guid>
       <description>&lt;p&gt;如果A，B为一次实验中互不相容的两个事件。连续试验时，A发生在B之前的概率为：&lt;/p&gt;
 &lt;p&gt;$${P(A) \over (P(A)+P(B))}$$&lt;/p&gt;
+&lt;h1 id=&#34;离散型随机变量及其分布律&#34;&gt;离散型随机变量及其分布律&lt;/h1&gt;
+&lt;h2 id=&#34;0-1分布&#34;&gt;0-1分布&lt;/h2&gt;
 </description>
       <content:encoded><![CDATA[<p>如果A，B为一次实验中互不相容的两个事件。连续试验时，A发生在B之前的概率为：</p>
 <p>$${P(A) \over (P(A)+P(B))}$$</p>
+<h1 id="离散型随机变量及其分布律">离散型随机变量及其分布律</h1>
+<h2 id="0-1分布">0-1分布</h2>
 ]]></content:encoded>
     </item>
     
