@@ -796,11 +796,30 @@
 &lt;p&gt;$${P(A) \over (P(A)+P(B))}$$&lt;/p&gt;
 &lt;h1 id=&#34;概率论的基本概念&#34;&gt;概率论的基本概念&lt;/h1&gt;
 &lt;h2 id=&#34;条件概率&#34;&gt;条件概率&lt;/h2&gt;
+&lt;h3 id=&#34;公式&#34;&gt;公式&lt;/h3&gt;
 &lt;p&gt;$$P(B|A)=\frac{P(AB)}{P(A)}$$&lt;/p&gt;
+&lt;h3 id=&#34;性质&#34;&gt;性质&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/14/64101e889d181.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/14/64101e889d181.png&#34; alt=&#34;条件概率的性质.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h2 id=&#34;全概率公式&#34;&gt;全概率公式&lt;/h2&gt;
 &lt;p&gt;$$P(A)=\sum_{j=1}^{n}P(B_j)P(A|B_j)$$&lt;/p&gt;
 &lt;h2 id=&#34;贝叶斯公式&#34;&gt;贝叶斯公式&lt;/h2&gt;
 &lt;p&gt;$$P(B_i|A)=\frac{P(AB_i)}{P(A)}=\frac{P(B_i)P(A|B_i)}{\sum_{j=1}^{n}P(B_j)P(A|B_j)}​$$&lt;/p&gt;
+&lt;h2 id=&#34;相互独立两两独立互斥&#34;&gt;相互独立、两两独立、互斥&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/14/64101e59b9147.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/14/64101e59b9147.png&#34; alt=&#34;两两独立与相互独立.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;离散型随机变量及其分布律&#34;&gt;离散型随机变量及其分布律&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;五个分布律
@@ -830,18 +849,39 @@ $$P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}\ (k=0,1,2,&amp;hellip;)$$
 $$X\sim \pi(\lambda),E(X)=\lambda,D(X)=\lambda$$&lt;/p&gt;
 &lt;h3 id=&#34;泊松定理&#34;&gt;泊松定理&lt;/h3&gt;
 &lt;p&gt;当 n 很大，p 很小时，有二项分布近似公式
-$$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k} ≈ \frac{\lambda^k e^{-\lambda}}{k!}\ ,\lambda = np$$&lt;/p&gt;
+$$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k} ≈ \frac{\lambda^k e^{-\lambda}}{k!} ,\lambda = np$$&lt;/p&gt;
+&lt;h2 id=&#34;几何分布&#34;&gt;几何分布&lt;/h2&gt;
+&lt;p&gt;$$P(X=k)= (1-p)^{k-1} \cdot p\ (k=0,1,2,&amp;hellip;)$$&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="tips">Tips</h1>
 <p>如果A，B为一次实验中互不相容的两个事件。连续试验时，A发生在B之前的概率为：</p>
 <p>$${P(A) \over (P(A)+P(B))}$$</p>
 <h1 id="概率论的基本概念">概率论的基本概念</h1>
 <h2 id="条件概率">条件概率</h2>
+<h3 id="公式">公式</h3>
 <p>$$P(B|A)=\frac{P(AB)}{P(A)}$$</p>
+<h3 id="性质">性质</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/14/64101e889d181.png">
+<img src="https://bu.dusays.com/2023/03/14/64101e889d181.png" alt="条件概率的性质.png"  />
+</a>
+</div>
+
+</p>
 <h2 id="全概率公式">全概率公式</h2>
 <p>$$P(A)=\sum_{j=1}^{n}P(B_j)P(A|B_j)$$</p>
 <h2 id="贝叶斯公式">贝叶斯公式</h2>
 <p>$$P(B_i|A)=\frac{P(AB_i)}{P(A)}=\frac{P(B_i)P(A|B_i)}{\sum_{j=1}^{n}P(B_j)P(A|B_j)}​$$</p>
+<h2 id="相互独立两两独立互斥">相互独立、两两独立、互斥</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/14/64101e59b9147.png">
+<img src="https://bu.dusays.com/2023/03/14/64101e59b9147.png" alt="两两独立与相互独立.png"  />
+</a>
+</div>
+
+</p>
 <h1 id="离散型随机变量及其分布律">离散型随机变量及其分布律</h1>
 <ul>
 <li>五个分布律
@@ -871,7 +911,9 @@ $$P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}\ (k=0,1,2,&hellip;)$$
 $$X\sim \pi(\lambda),E(X)=\lambda,D(X)=\lambda$$</p>
 <h3 id="泊松定理">泊松定理</h3>
 <p>当 n 很大，p 很小时，有二项分布近似公式
-$$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k} ≈ \frac{\lambda^k e^{-\lambda}}{k!}\ ,\lambda = np$$</p>
+$$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k} ≈ \frac{\lambda^k e^{-\lambda}}{k!} ,\lambda = np$$</p>
+<h2 id="几何分布">几何分布</h2>
+<p>$$P(X=k)= (1-p)^{k-1} \cdot p\ (k=0,1,2,&hellip;)$$</p>
 ]]></content:encoded>
     </item>
     
