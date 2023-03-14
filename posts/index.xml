@@ -1775,8 +1775,8 @@ $$X：n重伯努利 E 中 A 发生的次数$$&lt;/p&gt;
 &lt;p&gt;$$n=1$$
 定义：设随机变量 X 只可能取 0 和 1 两个值，它的分布律为：
 $$P(X=k)=p^k(1-p)^{n-k}$$
-则称随机变量 X 服从参数为 p 的0-1分布。
-$$X\sim 0-1(p),E(X)=p,D(X)=p(1-p)$$&lt;/p&gt;
+则称随机变量 X 服从参数为 p 的0-1分布，记为$X\sim 0-1(p)$&lt;/p&gt;
+&lt;p&gt;$$E(X)=p,D(X)=p(1-p)$$&lt;/p&gt;
 &lt;h3 id=&#34;二项分布&#34;&gt;二项分布&lt;/h3&gt;
 &lt;p&gt;$$n$$
 定义：若 X 的分布律为：
@@ -1787,15 +1787,20 @@ $$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k}$$
 &lt;p&gt;$$n-&amp;gt;∞$$
 定义：若随机变量 X 的分布律为：
 $$P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}\ (k=0,1,2,&amp;hellip;)$$
-其中 $λ &amp;gt; 0$ 是常数，则称随机变量 X 服从参数为 $λ$ 的泊松分布
-$$X\sim \pi(\lambda),E(X)=\lambda,D(X)=\lambda$$&lt;/p&gt;
+其中 $λ &amp;gt; 0$ 是常数，则称随机变量 X 服从参数为 $λ$ 的泊松分布，记为$X\sim \pi(\lambda)$&lt;/p&gt;
+&lt;p&gt;$$E(X)=\lambda,D(X)=\lambda$$&lt;/p&gt;
 &lt;h3 id=&#34;泊松定理&#34;&gt;泊松定理&lt;/h3&gt;
 &lt;p&gt;当 n 很大，p 很小时，有二项分布近似公式
 $$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k} ≈ \frac{\lambda^k e^{-\lambda}}{k!} ,\lambda = np$$&lt;/p&gt;
 &lt;h2 id=&#34;几何分布&#34;&gt;几何分布&lt;/h2&gt;
 &lt;p&gt;定义：在独立重复试验中，试验次数预先不能确定。设每次试验成功的概率为 p，讲试验进行到成功一次为止，以 X 表示所需的试验次数，则 X 的分布律为：
-$$P(X=k)= (1-p)^{k-1} \cdot p\ (k=0,1,2,&amp;hellip;)$$
-则称随机变量 X 服从参数为 p 的几何分布。&lt;/p&gt;
+$$P(X=k)= (1-p)^{k-1} \cdot p\ (k=1,2,&amp;hellip;)$$
+则称随机变量 X 服从参数为 p 的几何分布，记为$X\sim GE(p)$&lt;/p&gt;
+&lt;h2 id=&#34;超几何分布&#34;&gt;超几何分布&lt;/h2&gt;
+&lt;p&gt;定义：从 N 件产品（其中含次品 M 件）中任取 n 件，以 X 表示取到的次品数，则 X 的分布律为：
+$$P(X=k)=  \frac {C_ {M}^ {k}C_ {N}^ {2}k_ {1}}{C_ {N}&amp;rsquo;} ,0  \leqslant  k  \leqslant  n  \leqslant  N,k  \leqslant  M$$
+则称随机变量 X 服从参数为 （N，M，n）的超几何分布，记为$X\sim H(N,M,n)$&lt;/p&gt;
+&lt;p&gt;$$P(X=k)=  \frac {C_ {M}^ {k}C_ {N}^ {2}k_ {1}}{C_ {N}&amp;rsquo;} ,0  \leqslant  k  \leqslant  n  \leqslant  N,k  \leqslant  M$$&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1D741147G5/?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【梨米特】全网最适合大学生学习的《概率论与数理统计》课，概率统计知识点全解析（适合大一学习、考研复习基础）&lt;/a&gt;&lt;/li&gt;
@@ -1850,8 +1855,8 @@ $$X：n重伯努利 E 中 A 发生的次数$$</p>
 <p>$$n=1$$
 定义：设随机变量 X 只可能取 0 和 1 两个值，它的分布律为：
 $$P(X=k)=p^k(1-p)^{n-k}$$
-则称随机变量 X 服从参数为 p 的0-1分布。
-$$X\sim 0-1(p),E(X)=p,D(X)=p(1-p)$$</p>
+则称随机变量 X 服从参数为 p 的0-1分布，记为$X\sim 0-1(p)$</p>
+<p>$$E(X)=p,D(X)=p(1-p)$$</p>
 <h3 id="二项分布">二项分布</h3>
 <p>$$n$$
 定义：若 X 的分布律为：
@@ -1862,15 +1867,20 @@ $$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k}$$
 <p>$$n-&gt;∞$$
 定义：若随机变量 X 的分布律为：
 $$P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}\ (k=0,1,2,&hellip;)$$
-其中 $λ &gt; 0$ 是常数，则称随机变量 X 服从参数为 $λ$ 的泊松分布
-$$X\sim \pi(\lambda),E(X)=\lambda,D(X)=\lambda$$</p>
+其中 $λ &gt; 0$ 是常数，则称随机变量 X 服从参数为 $λ$ 的泊松分布，记为$X\sim \pi(\lambda)$</p>
+<p>$$E(X)=\lambda,D(X)=\lambda$$</p>
 <h3 id="泊松定理">泊松定理</h3>
 <p>当 n 很大，p 很小时，有二项分布近似公式
 $$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k} ≈ \frac{\lambda^k e^{-\lambda}}{k!} ,\lambda = np$$</p>
 <h2 id="几何分布">几何分布</h2>
 <p>定义：在独立重复试验中，试验次数预先不能确定。设每次试验成功的概率为 p，讲试验进行到成功一次为止，以 X 表示所需的试验次数，则 X 的分布律为：
-$$P(X=k)= (1-p)^{k-1} \cdot p\ (k=0,1,2,&hellip;)$$
-则称随机变量 X 服从参数为 p 的几何分布。</p>
+$$P(X=k)= (1-p)^{k-1} \cdot p\ (k=1,2,&hellip;)$$
+则称随机变量 X 服从参数为 p 的几何分布，记为$X\sim GE(p)$</p>
+<h2 id="超几何分布">超几何分布</h2>
+<p>定义：从 N 件产品（其中含次品 M 件）中任取 n 件，以 X 表示取到的次品数，则 X 的分布律为：
+$$P(X=k)=  \frac {C_ {M}^ {k}C_ {N}^ {2}k_ {1}}{C_ {N}&rsquo;} ,0  \leqslant  k  \leqslant  n  \leqslant  N,k  \leqslant  M$$
+则称随机变量 X 服从参数为 （N，M，n）的超几何分布，记为$X\sim H(N,M,n)$</p>
+<p>$$P(X=k)=  \frac {C_ {M}^ {k}C_ {N}^ {2}k_ {1}}{C_ {N}&rsquo;} ,0  \leqslant  k  \leqslant  n  \leqslant  N,k  \leqslant  M$$</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ol>
 <li><a href="https://www.bilibili.com/video/BV1D741147G5/?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b">【梨米特】全网最适合大学生学习的《概率论与数理统计》课，概率统计知识点全解析（适合大一学习、考研复习基础）</a></li>
