@@ -851,7 +851,7 @@ $$X\sim B(n,p),E(X)=np,D(X)=np(1-p)$$&lt;/p&gt;
 &lt;p&gt;$$n-&amp;gt;∞$$
 定义：若随机变量 X 的分布律为：
 $$P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}\ (k=0,1,2,&amp;hellip;)$$
-其中 $\lamba &amp;gt; 0$ 是常数，则称sui&amp;rsquo;ji&amp;rsquo;bian&amp;rsquo;li
+其中 $λ &amp;gt; 0$ 是常数，则称随机变量 X 服从参数为 $λ$ 的泊松分布
 $$X\sim \pi(\lambda),E(X)=\lambda,D(X)=\lambda$$&lt;/p&gt;
 &lt;h3 id=&#34;泊松定理&#34;&gt;泊松定理&lt;/h3&gt;
 &lt;p&gt;当 n 很大，p 很小时，有二项分布近似公式
@@ -926,7 +926,7 @@ $$X\sim B(n,p),E(X)=np,D(X)=np(1-p)$$</p>
 <p>$$n-&gt;∞$$
 定义：若随机变量 X 的分布律为：
 $$P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}\ (k=0,1,2,&hellip;)$$
-其中 $\lamba &gt; 0$ 是常数，则称sui&rsquo;ji&rsquo;bian&rsquo;li
+其中 $λ &gt; 0$ 是常数，则称随机变量 X 服从参数为 $λ$ 的泊松分布
 $$X\sim \pi(\lambda),E(X)=\lambda,D(X)=\lambda$$</p>
 <h3 id="泊松定理">泊松定理</h3>
 <p>当 n 很大，p 很小时，有二项分布近似公式
