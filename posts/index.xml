@@ -1734,6 +1734,12 @@
 &lt;p&gt;$$P(X=k)=p^k(1-p)^{n-k}$$
 $$X\sim 0-1(p),E(X)=p,D(X)=p(1-p)$$&lt;/p&gt;
 &lt;h2 id=&#34;二项分布&#34;&gt;二项分布&lt;/h2&gt;
+&lt;p&gt;$$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k}$$
+$$X\sim B(n,p),E(X)=np,D(X)=np(1-p)$$&lt;/p&gt;
+&lt;h2 id=&#34;泊松分布&#34;&gt;泊松分布&lt;/h2&gt;
+&lt;p&gt;$$P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}\ (k=0,1,2,&amp;hellip;)$$
+$$X\sim \pi(\lambda),E(X)=\lambda,D(X)=\lambda$$&lt;/p&gt;
+&lt;h3 id=&#34;boso&#34;&gt;boso&lt;/h3&gt;
 </description>
       <content:encoded><![CDATA[<p>如果A，B为一次实验中互不相容的两个事件。连续试验时，A发生在B之前的概率为：</p>
 <p>$${P(A) \over (P(A)+P(B))}$$</p>
@@ -1742,6 +1748,12 @@ $$X\sim 0-1(p),E(X)=p,D(X)=p(1-p)$$&lt;/p&gt;
 <p>$$P(X=k)=p^k(1-p)^{n-k}$$
 $$X\sim 0-1(p),E(X)=p,D(X)=p(1-p)$$</p>
 <h2 id="二项分布">二项分布</h2>
+<p>$$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k}$$
+$$X\sim B(n,p),E(X)=np,D(X)=np(1-p)$$</p>
+<h2 id="泊松分布">泊松分布</h2>
+<p>$$P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}\ (k=0,1,2,&hellip;)$$
+$$X\sim \pi(\lambda),E(X)=\lambda,D(X)=\lambda$$</p>
+<h3 id="boso">boso</h3>
 ]]></content:encoded>
     </item>
     
