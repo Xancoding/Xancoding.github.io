@@ -820,6 +820,16 @@
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h1 id=&#34;随机变量的分布函数&#34;&gt;随机变量的分布函数&lt;/h1&gt;
+&lt;h2 id=&#34;几何表示&#34;&gt;几何表示&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/14/641091d2627fe.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/14/641091d2627fe.png&#34; alt=&#34;Snipaste_2023-03-14_23-24-56.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;离散型随机变量及其分布律&#34;&gt;离散型随机变量及其分布律&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;五个分布律
@@ -865,7 +875,6 @@ $$P(X=k)= (1-p)^{k-1} \cdot p\ (k=1,2,&amp;hellip;)$$
 $$P(X=k)=  \frac {C_ {M}^ {k}C_ {N-M}^ {n-k} }{C_ {N}^ {n}} ,0  \leqslant  k  \leqslant  n  \leqslant  N,k  \leqslant  M$$
 则称随机变量 X 服从参数为 （N，M，n）的超几何分布，记为$X\sim H(N,M,n)$&lt;/p&gt;
 &lt;h1 id=&#34;连续型随机变量及其概率密度&#34;&gt;连续型随机变量及其概率密度&lt;/h1&gt;
-&lt;h2 id=&#34;随机变量的分布函数&#34;&gt;随机变量的分布函数&lt;/h2&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1D741147G5/?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【梨米特】全网最适合大学生学习的《概率论与数理统计》课，概率统计知识点全解析（适合大一学习、考研复习基础）&lt;/a&gt;&lt;/li&gt;
@@ -897,6 +906,16 @@ $$P(X=k)=  \frac {C_ {M}^ {k}C_ {N-M}^ {n-k} }{C_ {N}^ {n}} ,0  \leqslant  k  \l
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/14/64101e59b9147.png">
 <img src="https://bu.dusays.com/2023/03/14/64101e59b9147.png" alt="两两独立与相互独立.png"  />
+</a>
+</div>
+
+</p>
+<h1 id="随机变量的分布函数">随机变量的分布函数</h1>
+<h2 id="几何表示">几何表示</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/14/641091d2627fe.png">
+<img src="https://bu.dusays.com/2023/03/14/641091d2627fe.png" alt="Snipaste_2023-03-14_23-24-56.png"  />
 </a>
 </div>
 
@@ -946,7 +965,6 @@ $$P(X=k)= (1-p)^{k-1} \cdot p\ (k=1,2,&hellip;)$$
 $$P(X=k)=  \frac {C_ {M}^ {k}C_ {N-M}^ {n-k} }{C_ {N}^ {n}} ,0  \leqslant  k  \leqslant  n  \leqslant  N,k  \leqslant  M$$
 则称随机变量 X 服从参数为 （N，M，n）的超几何分布，记为$X\sim H(N,M,n)$</p>
 <h1 id="连续型随机变量及其概率密度">连续型随机变量及其概率密度</h1>
-<h2 id="随机变量的分布函数">随机变量的分布函数</h2>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ol>
 <li><a href="https://www.bilibili.com/video/BV1D741147G5/?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b">【梨米特】全网最适合大学生学习的《概率论与数理统计》课，概率统计知识点全解析（适合大一学习、考研复习基础）</a></li>
