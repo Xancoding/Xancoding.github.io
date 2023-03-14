@@ -791,7 +791,8 @@
       <pubDate>Tue, 14 Mar 2023 13:19:15 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-03-14-13-19-12/</guid>
-      <description>&lt;p&gt;如果A，B为一次实验中互不相容的两个事件。连续试验时，A发生在B之前的概率为：&lt;/p&gt;
+      <description>&lt;h1 id=&#34;小技巧&#34;&gt;小技巧&lt;/h1&gt;
+&lt;p&gt;如果A，B为一次实验中互不相容的两个事件。连续试验时，A发生在B之前的概率为：&lt;/p&gt;
 &lt;p&gt;$${P(A) \over (P(A)+P(B))}$$&lt;/p&gt;
 &lt;h1 id=&#34;离散型随机变量及其分布律&#34;&gt;离散型随机变量及其分布律&lt;/h1&gt;
 &lt;ul&gt;
@@ -809,10 +810,12 @@
 &lt;p&gt;$$P = P(A)$$
 $$X：n重伯努利 E 中 A 发生的次数$$&lt;/p&gt;
 &lt;h3 id=&#34;0-1分布&#34;&gt;0-1分布&lt;/h3&gt;
-&lt;p&gt;$$P(X=k)=p^k(1-p)^{n-k}$$
+&lt;p&gt;$$n=1$$
+$$P(X=k)=p^k(1-p)^{n-k}$$
 $$X\sim 0-1(p),E(X)=p,D(X)=p(1-p)$$&lt;/p&gt;
 &lt;h3 id=&#34;二项分布&#34;&gt;二项分布&lt;/h3&gt;
-&lt;p&gt;$$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k}$$
+&lt;p&gt;$$n$$
+$$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k}$$
 $$X\sim B(n,p),E(X)=np,D(X)=np(1-p)$$&lt;/p&gt;
 &lt;h3 id=&#34;泊松分布&#34;&gt;泊松分布&lt;/h3&gt;
 &lt;p&gt;$$n-&amp;gt;∞$$
@@ -820,9 +823,10 @@ $$P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}\ (k=0,1,2,&amp;hellip;)$$
 $$X\sim \pi(\lambda),E(X)=\lambda,D(X)=\lambda$$&lt;/p&gt;
 &lt;h3 id=&#34;泊松定理&#34;&gt;泊松定理&lt;/h3&gt;
 &lt;p&gt;当 n 很大，p 很小时，有二项分布近似公式
-$$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k} ≈ P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}\ ,\lambda = np$$&lt;/p&gt;
+$$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k} ≈ \frac{\lambda^k e^{-\lambda}}{k!}\ ,\lambda = np$$&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<p>如果A，B为一次实验中互不相容的两个事件。连续试验时，A发生在B之前的概率为：</p>
+      <content:encoded><![CDATA[<h1 id="小技巧">小技巧</h1>
+<p>如果A，B为一次实验中互不相容的两个事件。连续试验时，A发生在B之前的概率为：</p>
 <p>$${P(A) \over (P(A)+P(B))}$$</p>
 <h1 id="离散型随机变量及其分布律">离散型随机变量及其分布律</h1>
 <ul>
@@ -840,10 +844,12 @@ $$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k} ≈ P(X=k)=\frac{\lambda^k e^{-\lambda}
 <p>$$P = P(A)$$
 $$X：n重伯努利 E 中 A 发生的次数$$</p>
 <h3 id="0-1分布">0-1分布</h3>
-<p>$$P(X=k)=p^k(1-p)^{n-k}$$
+<p>$$n=1$$
+$$P(X=k)=p^k(1-p)^{n-k}$$
 $$X\sim 0-1(p),E(X)=p,D(X)=p(1-p)$$</p>
 <h3 id="二项分布">二项分布</h3>
-<p>$$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k}$$
+<p>$$n$$
+$$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k}$$
 $$X\sim B(n,p),E(X)=np,D(X)=np(1-p)$$</p>
 <h3 id="泊松分布">泊松分布</h3>
 <p>$$n-&gt;∞$$
@@ -851,7 +857,7 @@ $$P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}\ (k=0,1,2,&hellip;)$$
 $$X\sim \pi(\lambda),E(X)=\lambda,D(X)=\lambda$$</p>
 <h3 id="泊松定理">泊松定理</h3>
 <p>当 n 很大，p 很小时，有二项分布近似公式
-$$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k} ≈ P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}\ ,\lambda = np$$</p>
+$$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k} ≈ \frac{\lambda^k e^{-\lambda}}{k!}\ ,\lambda = np$$</p>
 ]]></content:encoded>
     </item>
     
