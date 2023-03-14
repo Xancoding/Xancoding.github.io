@@ -169,28 +169,22 @@
 &lt;p&gt;假定阅览室最多可同时容纳 100 个人阅读，读者进入时，必须在阅览室门口的一个登记表上登记，内容包括姓名、座号等，离开时要撤掉登记内容。用P、V操作描述读者进程的同步算法。&lt;/p&gt;
 &lt;h3 id=&#34;解决办法-3&#34;&gt;解决办法&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;count：整型变量，初始值为100，用于记录阅览室的空闲座位数&lt;/li&gt;
+&lt;li&gt;count：计数信号量，初始值为100，代表阅览室的空闲座位数&lt;/li&gt;
 &lt;li&gt;mutex：计数信号量，初始值为1，用于互斥访问登记表&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;if&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;count&lt;/span&gt; &amp;gt; &lt;span style=&#34;font-weight:bold&#34;&gt;0&lt;/span&gt;) 
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;font-weight:bold&#34;&gt;count--&lt;/span&gt;;  
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#f00&#34;&gt;登记登记表&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;font-weight:bold&#34;&gt;read&lt;/span&gt;(); 
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;font-weight:bold&#34;&gt;count&lt;/span&gt;++;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#f00&#34;&gt;撤销登记表&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	} 
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;count&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#f00&#34;&gt;查登记表，置某座位为占用；&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	......
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;read&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	......
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#f00&#34;&gt;查登记表，置某座位为空；&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;count&lt;/span&gt;);
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
@@ -1233,28 +1227,22 @@
 <p>假定阅览室最多可同时容纳 100 个人阅读，读者进入时，必须在阅览室门口的一个登记表上登记，内容包括姓名、座号等，离开时要撤掉登记内容。用P、V操作描述读者进程的同步算法。</p>
 <h3 id="解决办法-3">解决办法</h3>
 <ul>
-<li>count：整型变量，初始值为100，用于记录阅览室的空闲座位数</li>
+<li>count：计数信号量，初始值为100，代表阅览室的空闲座位数</li>
 <li>mutex：计数信号量，初始值为1，用于互斥访问登记表</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
-</span></span><span style="display:flex;"><span>	
-</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">if</span>(<span style="font-weight:bold">count</span> &gt; <span style="font-weight:bold">0</span>) 
-</span></span><span style="display:flex;"><span>	{
-</span></span><span style="display:flex;"><span>		<span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>);
-</span></span><span style="display:flex;"><span>		<span style="font-weight:bold">count--</span>;  
-</span></span><span style="display:flex;"><span>		<span style="color:#f00">登记登记表</span>
-</span></span><span style="display:flex;"><span>		<span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);
-</span></span><span style="display:flex;"><span>		
-</span></span><span style="display:flex;"><span>		<span style="font-weight:bold">read</span>(); 
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>		<span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>);
-</span></span><span style="display:flex;"><span>		<span style="font-weight:bold">count</span>++;
-</span></span><span style="display:flex;"><span>		<span style="color:#f00">撤销登记表</span>
-</span></span><span style="display:flex;"><span>		<span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>	} 
-</span></span><span style="display:flex;"><span>		
+</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">P</span>(<span style="font-weight:bold">count</span>);
+</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>);
+</span></span><span style="display:flex;"><span>	<span style="color:#f00">查登记表，置某座位为占用；</span>
+</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);
+</span></span><span style="display:flex;"><span>	......
+</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">read</span>();
+</span></span><span style="display:flex;"><span>	......
+</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>);
+</span></span><span style="display:flex;"><span>	<span style="color:#f00">查登记表，置某座位为空；</span>
+</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);
+</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">V</span>(<span style="font-weight:bold">count</span>);
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h1 id="推荐阅读">推荐阅读</h1>
 <ul>
