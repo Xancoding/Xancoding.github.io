@@ -883,6 +883,14 @@
 &lt;/a&gt;
 &lt;/div&gt;
 
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/15/6411848755843.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/15/6411848755843.png&#34; alt=&#34;Snipaste_2023-03-15_16-40-24.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
 &lt;/p&gt;
 &lt;h1 id=&#34;离散型随机变量及其分布律&#34;&gt;离散型随机变量及其分布律&lt;/h1&gt;
 &lt;ul&gt;
@@ -1024,6 +1032,14 @@ $$P(X=k)=  \frac {C_ {M}^ {k}C_ {N-M}^ {n-k} }{C_ {N}^ {n}} ,0  \leqslant  k  \l
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/15/641156410300a.png">
 <img src="https://bu.dusays.com/2023/03/15/641156410300a.png" alt="Snipaste_2023-03-15_13-20-13.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/15/6411848755843.png">
+<img src="https://bu.dusays.com/2023/03/15/6411848755843.png" alt="Snipaste_2023-03-15_16-40-24.png"  />
 </a>
 </div>
 
