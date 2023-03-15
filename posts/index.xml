@@ -1810,7 +1810,7 @@
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;连续性随机变量的分布函数&#34;&gt;连续性随机变量的分布函数&lt;/h2&gt;
+&lt;h2 id=&#34;连续型随机变量的分布函数&#34;&gt;连续型随机变量的分布函数&lt;/h2&gt;
 &lt;h3 id=&#34;概率密度&#34;&gt;概率密度&lt;/h3&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -1824,6 +1824,15 @@
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/15/6411848755843.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/03/15/6411848755843.png&#34; alt=&#34;Snipaste_2023-03-15_16-40-24.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;性质-2&#34;&gt;性质&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/15/641186027b688.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/15/641186027b688.png&#34; alt=&#34;Snipaste_2023-03-15_16-46-45.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -1962,7 +1971,7 @@ $$P(X=k)=  \frac {C_ {M}^ {k}C_ {N-M}^ {n-k} }{C_ {N}^ {n}} ,0  \leqslant  k  \l
 </div>
 
 </p>
-<h2 id="连续性随机变量的分布函数">连续性随机变量的分布函数</h2>
+<h2 id="连续型随机变量的分布函数">连续型随机变量的分布函数</h2>
 <h3 id="概率密度">概率密度</h3>
 <p>
 <div class="post-img-view">
@@ -1976,6 +1985,15 @@ $$P(X=k)=  \frac {C_ {M}^ {k}C_ {N-M}^ {n-k} }{C_ {N}^ {n}} ,0  \leqslant  k  \l
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/15/6411848755843.png">
 <img src="https://bu.dusays.com/2023/03/15/6411848755843.png" alt="Snipaste_2023-03-15_16-40-24.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="性质-2">性质</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/15/641186027b688.png">
+<img src="https://bu.dusays.com/2023/03/15/641186027b688.png" alt="Snipaste_2023-03-15_16-46-45.png"  />
 </a>
 </div>
 
