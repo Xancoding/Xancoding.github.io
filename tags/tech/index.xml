@@ -831,6 +831,49 @@
 
 &lt;/p&gt;
 &lt;h2 id=&#34;离散型随机变量的分布函数&#34;&gt;离散型随机变量的分布函数&lt;/h2&gt;
+&lt;h3 id=&#34;性质-1&#34;&gt;性质&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/14/641096d9878a7.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/14/641096d9878a7.png&#34; alt=&#34;Snipaste_2023-03-14_23-46-10.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;例1&#34;&gt;例1&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/14/64109443e711c.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/14/64109443e711c.png&#34; alt=&#34;Snipaste_2023-03-14_23-35-22.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/14/641094d8aa560.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/14/641094d8aa560.png&#34; alt=&#34;Snipaste_2023-03-14_23-37-53.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/14/64109536f3933.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/14/64109536f3933.png&#34; alt=&#34;Snipaste_2023-03-14_23-39-10.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;例2&#34;&gt;例2&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/14/64109731c559c.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/14/64109731c559c.png&#34; alt=&#34;Snipaste_2023-03-14_23-47-56.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;离散型随机变量及其分布律&#34;&gt;离散型随机变量及其分布律&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;五个分布律
@@ -922,6 +965,49 @@ $$P(X=k)=  \frac {C_ {M}^ {k}C_ {N-M}^ {n-k} }{C_ {N}^ {n}} ,0  \leqslant  k  \l
 
 </p>
 <h2 id="离散型随机变量的分布函数">离散型随机变量的分布函数</h2>
+<h3 id="性质-1">性质</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/14/641096d9878a7.png">
+<img src="https://bu.dusays.com/2023/03/14/641096d9878a7.png" alt="Snipaste_2023-03-14_23-46-10.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="例1">例1</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/14/64109443e711c.png">
+<img src="https://bu.dusays.com/2023/03/14/64109443e711c.png" alt="Snipaste_2023-03-14_23-35-22.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/14/641094d8aa560.png">
+<img src="https://bu.dusays.com/2023/03/14/641094d8aa560.png" alt="Snipaste_2023-03-14_23-37-53.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/14/64109536f3933.png">
+<img src="https://bu.dusays.com/2023/03/14/64109536f3933.png" alt="Snipaste_2023-03-14_23-39-10.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="例2">例2</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/14/64109731c559c.png">
+<img src="https://bu.dusays.com/2023/03/14/64109731c559c.png" alt="Snipaste_2023-03-14_23-47-56.png"  />
+</a>
+</div>
+
+</p>
 <h1 id="离散型随机变量及其分布律">离散型随机变量及其分布律</h1>
 <ul>
 <li>五个分布律
