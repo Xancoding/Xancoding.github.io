@@ -6688,7 +6688,7 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&gt;0$$
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li&gt;MOV 内存单元，立即数：MOV [0], 1&lt;/li&gt;
+&lt;li&gt;MOV 内存单元，立即数：MOV WORD PTR DS:[0], 1&lt;/li&gt;
 &lt;li&gt;MOV 内存单元，寄存器：MOV [0], BX&lt;/li&gt;
 &lt;li&gt;&lt;del&gt;MOV 内存单元，内存单元&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;MOV 内存单元，段寄存器：MOV [0]，DS（允许，但不建议）&lt;/li&gt;
@@ -7944,7 +7944,7 @@ end start
 </ol>
 <hr>
 <ol>
-<li>MOV 内存单元，立即数：MOV [0], 1</li>
+<li>MOV 内存单元，立即数：MOV WORD PTR DS:[0], 1</li>
 <li>MOV 内存单元，寄存器：MOV [0], BX</li>
 <li><del>MOV 内存单元，内存单元</del></li>
 <li>MOV 内存单元，段寄存器：MOV [0]，DS（允许，但不建议）</li>
