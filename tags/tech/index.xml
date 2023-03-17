@@ -3827,6 +3827,7 @@ codesg ends
 
 end start 
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;实验-7&#34;&gt;实验 7&lt;/h2&gt;
+&lt;h3 id=&#34;参考&#34;&gt;参考&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:codesg,ds:data,es:table
 
 data segment
@@ -3898,7 +3899,8 @@ start:
 codesg ends
 
 end start
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;实验-8&#34;&gt;实验 8&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;write-by-myself&#34;&gt;Write by myself&lt;/h3&gt;
+&lt;h2 id=&#34;实验-8&#34;&gt;实验 8&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code
 code segment
 
@@ -5083,6 +5085,7 @@ codesg ends
 
 end start 
 </code></pre><h2 id="实验-7">实验 7</h2>
+<h3 id="参考">参考</h3>
 <pre tabindex="0"><code>assume cs:codesg,ds:data,es:table
 
 data segment
@@ -5154,7 +5157,8 @@ start:
 codesg ends
 
 end start
-</code></pre><h2 id="实验-8">实验 8</h2>
+</code></pre><h3 id="write-by-myself">Write by myself</h3>
+<h2 id="实验-8">实验 8</h2>
 <pre tabindex="0"><code>assume cs:code
 code segment
 
