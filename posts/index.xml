@@ -7608,7 +7608,7 @@ start:
 		mov ax, [si]      ; 写入年份
 		mov es:[di], ax
 		mov ax, [si+2]
-		ov es:[di+2], ax
+		mov es:[di+2], ax
 		mov byte ptr es:[di+4], 20h
 
 		mov ax, [si+84]   ; 写入公司总收入
@@ -8864,7 +8864,7 @@ start:
 		mov ax, [si]      ; 写入年份
 		mov es:[di], ax
 		mov ax, [si+2]
-		ov es:[di+2], ax
+		mov es:[di+2], ax
 		mov byte ptr es:[di+4], 20h
 
 		mov ax, [si+84]   ; 写入公司总收入
