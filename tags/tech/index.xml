@@ -1627,6 +1627,7 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&amp;gt;0$$
 
 &lt;/p&gt;
 &lt;h2 id=&#34;边缘概率密度&#34;&gt;边缘概率密度&lt;/h2&gt;
+&lt;h3 id=&#34;推导过程&#34;&gt;推导过程&lt;/h3&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/19/6416ecc2f06e4.png&#34;&gt;
@@ -1639,6 +1640,23 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&amp;gt;0$$
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/19/6416eca7f1e57.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/03/19/6416eca7f1e57.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;联合概率密度推出边缘概率密度&#34;&gt;联合概率密度推出边缘概率密度&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/19/6416ee449a19c.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/19/6416ee449a19c.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/19/6416ee5c4ffac.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/19/6416ee5c4ffac.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -2485,6 +2503,7 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&gt;0$$
 
 </p>
 <h2 id="边缘概率密度">边缘概率密度</h2>
+<h3 id="推导过程">推导过程</h3>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/19/6416ecc2f06e4.png">
@@ -2497,6 +2516,23 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&gt;0$$
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/19/6416eca7f1e57.png">
 <img src="https://bu.dusays.com/2023/03/19/6416eca7f1e57.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="联合概率密度推出边缘概率密度">联合概率密度推出边缘概率密度</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/19/6416ee449a19c.png">
+<img src="https://bu.dusays.com/2023/03/19/6416ee449a19c.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/19/6416ee5c4ffac.png">
+<img src="https://bu.dusays.com/2023/03/19/6416ee5c4ffac.png" alt="image.png"  />
 </a>
 </div>
 
