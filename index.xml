@@ -1835,6 +1835,15 @@
 
 &lt;/p&gt;
 &lt;h2 id=&#34;连续型随机变量的分布函数&#34;&gt;连续型随机变量的分布函数&lt;/h2&gt;
+&lt;h3 id=&#34;积分上限函数&#34;&gt;积分上限函数&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/19/641664942fc61.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/19/641664942fc61.jpg&#34; alt=&#34;d096e2c95ce817192e9ef86f6d2d945.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h3 id=&#34;概率密度&#34;&gt;概率密度&lt;/h3&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -2306,6 +2315,7 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&amp;gt;0$$
 
 &lt;/p&gt;
 &lt;h1 id=&#34;二维连续型随机变量&#34;&gt;二维连续型随机变量&lt;/h1&gt;
+&lt;h2 id=&#34;二重积分和二次积分&#34;&gt;二重积分和二次积分&lt;/h2&gt;
 &lt;h2 id=&#34;定义-1&#34;&gt;定义&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -2360,6 +2370,15 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&amp;gt;0$$
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/19/64166275d21d1.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/03/19/64166275d21d1.png&#34; alt=&#34;Snipaste_2023-03-19_09-16-28.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;例1-6&#34;&gt;例1&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/19/64166301311fd.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/19/64166301311fd.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -2478,6 +2497,15 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&amp;gt;0$$
 
 </p>
 <h2 id="连续型随机变量的分布函数">连续型随机变量的分布函数</h2>
+<h3 id="积分上限函数">积分上限函数</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/19/641664942fc61.jpg">
+<img src="https://bu.dusays.com/2023/03/19/641664942fc61.jpg" alt="d096e2c95ce817192e9ef86f6d2d945.jpg"  />
+</a>
+</div>
+
+</p>
 <h3 id="概率密度">概率密度</h3>
 <p>
 <div class="post-img-view">
@@ -2949,6 +2977,7 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&gt;0$$
 
 </p>
 <h1 id="二维连续型随机变量">二维连续型随机变量</h1>
+<h2 id="二重积分和二次积分">二重积分和二次积分</h2>
 <h2 id="定义-1">定义</h2>
 <p>
 <div class="post-img-view">
@@ -3003,6 +3032,15 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&gt;0$$
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/19/64166275d21d1.png">
 <img src="https://bu.dusays.com/2023/03/19/64166275d21d1.png" alt="Snipaste_2023-03-19_09-16-28.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="例1-6">例1</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/19/64166301311fd.png">
+<img src="https://bu.dusays.com/2023/03/19/64166301311fd.png" alt="image.png"  />
 </a>
 </div>
 
