@@ -4811,6 +4811,22 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&gt;0$$
 &lt;p&gt;AX、BX、CX、DX、BP、SP、SI、DI&lt;/p&gt;
 &lt;h3 id=&#34;段寄存器&#34;&gt;段寄存器&lt;/h3&gt;
 &lt;p&gt;DS、SS、CS、ES&lt;/p&gt;
+&lt;h2 id=&#34;转移指令的原理&#34;&gt;转移指令的原理&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;段内段转移（8位）（IP）：依据位移进行转移的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段内近转移（16位）（IP）依据位移进行转移的 jmp 指令&lt;/li&gt;
+&lt;li&gt;duan转移地址在寄存器中的 jmp 指令&lt;/li&gt;
+&lt;li&gt;转移地址在内存中的 jmp 指令&lt;/li&gt;
+&lt;li&gt;转移的目的地址在指令中的 jmp 指令
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/21/641932d706e80.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/21/641932d706e80.jpg&#34; alt=&#34;5798aee6df9f1b2c11bb9ce45699eba.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1 id=&#34;检测点答案部分&#34;&gt;检测点答案（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;检测点21&#34;&gt;检测点2.1&lt;/h2&gt;
 &lt;p&gt;（2）最多使用 4 条指令，编程计算 2 的 4 次方&lt;/p&gt;
@@ -6151,6 +6167,22 @@ end start
 <p>AX、BX、CX、DX、BP、SP、SI、DI</p>
 <h3 id="段寄存器">段寄存器</h3>
 <p>DS、SS、CS、ES</p>
+<h2 id="转移指令的原理">转移指令的原理</h2>
+<ol>
+<li>段内段转移（8位）（IP）：依据位移进行转移的 jmp 指令</li>
+<li>段内近转移（16位）（IP）依据位移进行转移的 jmp 指令</li>
+<li>duan转移地址在寄存器中的 jmp 指令</li>
+<li>转移地址在内存中的 jmp 指令</li>
+<li>转移的目的地址在指令中的 jmp 指令
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/21/641932d706e80.jpg">
+<img src="https://bu.dusays.com/2023/03/21/641932d706e80.jpg" alt="5798aee6df9f1b2c11bb9ce45699eba.jpg"  />
+</a>
+</div>
+
+</li>
+</ol>
 <h1 id="检测点答案部分">检测点答案（部分）</h1>
 <h2 id="检测点21">检测点2.1</h2>
 <p>（2）最多使用 4 条指令，编程计算 2 的 4 次方</p>
