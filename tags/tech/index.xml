@@ -2103,6 +2103,34 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&amp;gt;0$$
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h1 id=&#34;二维随机变量函数的分布离散型&#34;&gt;二维随机变量函数的分布（离散型）&lt;/h1&gt;
+&lt;h2 id=&#34;例题-1&#34;&gt;例题&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/23/641c21eb41bb3.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/23/641c21eb41bb3.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/23/641c224e85c5e.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/23/641c224e85c5e.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h1 id=&#34;二维随机变量和的分布连续型&#34;&gt;二维随机变量和的分布（连续型）&lt;/h1&gt;
+&lt;h2 id=&#34;定理&#34;&gt;定理&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/23/641c23a0995c4.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/23/641c23a0995c4.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1D741147G5/?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【梨米特】全网最适合大学生学习的《概率论与数理统计》课，概率统计知识点全解析（适合大一学习、考研复习基础）&lt;/a&gt;&lt;/li&gt;
@@ -3417,6 +3445,34 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&gt;0$$
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/20/64185acdd066f.png">
 <img src="https://bu.dusays.com/2023/03/20/64185acdd066f.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h1 id="二维随机变量函数的分布离散型">二维随机变量函数的分布（离散型）</h1>
+<h2 id="例题-1">例题</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/23/641c21eb41bb3.png">
+<img src="https://bu.dusays.com/2023/03/23/641c21eb41bb3.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/23/641c224e85c5e.png">
+<img src="https://bu.dusays.com/2023/03/23/641c224e85c5e.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h1 id="二维随机变量和的分布连续型">二维随机变量和的分布（连续型）</h1>
+<h2 id="定理">定理</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/23/641c23a0995c4.png">
+<img src="https://bu.dusays.com/2023/03/23/641c23a0995c4.png" alt="image.png"  />
 </a>
 </div>
 
@@ -4813,11 +4869,12 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&gt;0$$
 &lt;p&gt;DS、SS、CS、ES&lt;/p&gt;
 &lt;h2 id=&#34;转移指令的原理&#34;&gt;转移指令的原理&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;段内段转移（8位）（IP）：依据位移进行转移的 jmp 指令&lt;/li&gt;
-&lt;li&gt;段内近转移（16位）（IP）依据位移进行转移的 jmp 指令&lt;/li&gt;
-&lt;li&gt;duan转移地址在寄存器中的 jmp 指令&lt;/li&gt;
-&lt;li&gt;转移地址在内存中的 jmp 指令&lt;/li&gt;
-&lt;li&gt;转移的目的地址在指令中的 jmp 指令
+&lt;li&gt;段内段转移（8位）（IP）：依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段内近转移（16位）（IP）依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段内转移（16位）（IP）：转移地址在&lt;strong&gt;寄存器&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段内转移（16位）（IP）：转移地址在&lt;strong&gt;内存&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段间远转移（32位）（CS:IP）：转移的目的地址在&lt;strong&gt;指令&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段间转移（32位）（CS:IP）：转移地址在&lt;strong&gt;内存&lt;/strong&gt;中的 jmp 指令
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/21/641932d706e80.jpg&#34;&gt;
@@ -6169,11 +6226,12 @@ end start
 <p>DS、SS、CS、ES</p>
 <h2 id="转移指令的原理">转移指令的原理</h2>
 <ol>
-<li>段内段转移（8位）（IP）：依据位移进行转移的 jmp 指令</li>
-<li>段内近转移（16位）（IP）依据位移进行转移的 jmp 指令</li>
-<li>duan转移地址在寄存器中的 jmp 指令</li>
-<li>转移地址在内存中的 jmp 指令</li>
-<li>转移的目的地址在指令中的 jmp 指令
+<li>段内段转移（8位）（IP）：依据<strong>位移</strong>进行转移的 jmp 指令</li>
+<li>段内近转移（16位）（IP）依据<strong>位移</strong>进行转移的 jmp 指令</li>
+<li>段内转移（16位）（IP）：转移地址在<strong>寄存器</strong>中的 jmp 指令</li>
+<li>段内转移（16位）（IP）：转移地址在<strong>内存</strong>中的 jmp 指令</li>
+<li>段间远转移（32位）（CS:IP）：转移的目的地址在<strong>指令</strong>中的 jmp 指令</li>
+<li>段间转移（32位）（CS:IP）：转移地址在<strong>内存</strong>中的 jmp 指令
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/21/641932d706e80.jpg">

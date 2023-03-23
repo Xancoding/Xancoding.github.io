@@ -71,11 +71,12 @@
 &lt;p&gt;DS、SS、CS、ES&lt;/p&gt;
 &lt;h2 id=&#34;转移指令的原理&#34;&gt;转移指令的原理&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;段内段转移（8位）（IP）：依据位移进行转移的 jmp 指令&lt;/li&gt;
-&lt;li&gt;段内近转移（16位）（IP）依据位移进行转移的 jmp 指令&lt;/li&gt;
-&lt;li&gt;duan转移地址在寄存器中的 jmp 指令&lt;/li&gt;
-&lt;li&gt;转移地址在内存中的 jmp 指令&lt;/li&gt;
-&lt;li&gt;转移的目的地址在指令中的 jmp 指令
+&lt;li&gt;段内段转移（8位）（IP）：依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段内近转移（16位）（IP）依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段内转移（16位）（IP）：转移地址在&lt;strong&gt;寄存器&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段内转移（16位）（IP）：转移地址在&lt;strong&gt;内存&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段间远转移（32位）（CS:IP）：转移的目的地址在&lt;strong&gt;指令&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段间转移（32位）（CS:IP）：转移地址在&lt;strong&gt;内存&lt;/strong&gt;中的 jmp 指令
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/21/641932d706e80.jpg&#34;&gt;
@@ -1427,11 +1428,12 @@ end start
 <p>DS、SS、CS、ES</p>
 <h2 id="转移指令的原理">转移指令的原理</h2>
 <ol>
-<li>段内段转移（8位）（IP）：依据位移进行转移的 jmp 指令</li>
-<li>段内近转移（16位）（IP）依据位移进行转移的 jmp 指令</li>
-<li>duan转移地址在寄存器中的 jmp 指令</li>
-<li>转移地址在内存中的 jmp 指令</li>
-<li>转移的目的地址在指令中的 jmp 指令
+<li>段内段转移（8位）（IP）：依据<strong>位移</strong>进行转移的 jmp 指令</li>
+<li>段内近转移（16位）（IP）依据<strong>位移</strong>进行转移的 jmp 指令</li>
+<li>段内转移（16位）（IP）：转移地址在<strong>寄存器</strong>中的 jmp 指令</li>
+<li>段内转移（16位）（IP）：转移地址在<strong>内存</strong>中的 jmp 指令</li>
+<li>段间远转移（32位）（CS:IP）：转移的目的地址在<strong>指令</strong>中的 jmp 指令</li>
+<li>段间转移（32位）（CS:IP）：转移地址在<strong>内存</strong>中的 jmp 指令
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/21/641932d706e80.jpg">
