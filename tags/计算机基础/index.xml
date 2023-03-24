@@ -1225,7 +1225,22 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;汇编语言是任何一种用于电子计算机、微处理器、微控制器，或其他可编程器件的低级语言&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;部分知识点&#34;&gt;部分知识点&lt;/h1&gt;
+&lt;h1 id=&#34;汇编代码格式&#34;&gt;汇编代码格式&lt;/h1&gt;
+&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ASSUME CS:CODE, DS:DATA
+
+DATA SEGMENT
+  STR1 DB 1, 2, 3, 4
+DATA ENDS
+
+CODE SEGMENT
+START:
+
+
+CODE ENDS
+
+END START
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;部分知识点&#34;&gt;部分知识点&lt;/h1&gt;
 &lt;h2 id=&#34;mov-指令&#34;&gt;MOV 指令&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;寄存器、段寄存器、内存单元、立即数&lt;/li&gt;
@@ -2582,7 +2597,22 @@ end start
 <blockquote>
 <p><strong>汇编语言是任何一种用于电子计算机、微处理器、微控制器，或其他可编程器件的低级语言</strong></p>
 </blockquote>
-<h1 id="部分知识点">部分知识点</h1>
+<h1 id="汇编代码格式">汇编代码格式</h1>
+<h2 id="heading"></h2>
+<pre tabindex="0"><code>ASSUME CS:CODE, DS:DATA
+
+DATA SEGMENT
+  STR1 DB 1, 2, 3, 4
+DATA ENDS
+
+CODE SEGMENT
+START:
+
+
+CODE ENDS
+
+END START
+</code></pre><h1 id="部分知识点">部分知识点</h1>
 <h2 id="mov-指令">MOV 指令</h2>
 <ul>
 <li>寄存器、段寄存器、内存单元、立即数</li>
