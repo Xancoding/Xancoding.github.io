@@ -18,7 +18,7 @@
 &lt;p&gt;&lt;strong&gt;汇编语言是任何一种用于电子计算机、微处理器、微控制器，或其他可编程器件的低级语言&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;汇编代码格式&#34;&gt;汇编代码格式&lt;/h1&gt;
-&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;1&#34;&gt;1&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ASSUME CS:CODE, DS:DATA
 
 DATA SEGMENT
@@ -32,6 +32,58 @@ START:
 CODE ENDS
 
 END START
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;2&#34;&gt;2&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ASSUME CS:CODE, DS:DATA
+
+DATA SEGMENT
+  STR1 DB 1, 2, 3, 4
+DATA ENDS
+
+CODE SEGMENT
+START:
+    ...
+    CALL SUB1
+    ...
+    MOV AX, 4c00H
+    INT 21H
+
+; 功能：
+; 参数：
+; 返回：
+SUB1 PROC
+    ...
+    RET
+SUB1 ENDP
+
+CODE ENDS
+
+END START
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;3&#34;&gt;3&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;; 调用程序和过程在同一代码段中，则使用NEAR属性
+; 调用程序和过程在不同代码段中，则使用FAR属性
+; 缺省值为 NEAR
+ASSUME CS:CODE, DS:DATA
+
+DATA SEGMENT
+  DB 1, 2, 3, 4
+DATA ENDS
+
+CODE SEGMENT
+
+MAIN PROC FAR     ; 把主过程看作DOS调用的子进程，定义为FAR属性
+    ...
+    CALL SUB1     ; 调用子程序SUB1
+    ...
+    RET           ; 过程返回
+MAIN ENDP
+
+SUB1 PROC NEAR    ; 同一代码段调用使用NEAR属性
+    ...
+    RET           ; 过程返回
+SUB1 ENDP         ; 过程结束
+
+CODE ENDS
+END MAIN
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;部分知识点&#34;&gt;部分知识点&lt;/h1&gt;
 &lt;h2 id=&#34;mov-指令&#34;&gt;MOV 指令&lt;/h2&gt;
 &lt;ul&gt;
@@ -1390,7 +1442,7 @@ end start
 <p><strong>汇编语言是任何一种用于电子计算机、微处理器、微控制器，或其他可编程器件的低级语言</strong></p>
 </blockquote>
 <h1 id="汇编代码格式">汇编代码格式</h1>
-<h2 id="heading"></h2>
+<h2 id="1">1</h2>
 <pre tabindex="0"><code>ASSUME CS:CODE, DS:DATA
 
 DATA SEGMENT
@@ -1404,6 +1456,58 @@ START:
 CODE ENDS
 
 END START
+</code></pre><h2 id="2">2</h2>
+<pre tabindex="0"><code>ASSUME CS:CODE, DS:DATA
+
+DATA SEGMENT
+  STR1 DB 1, 2, 3, 4
+DATA ENDS
+
+CODE SEGMENT
+START:
+    ...
+    CALL SUB1
+    ...
+    MOV AX, 4c00H
+    INT 21H
+
+; 功能：
+; 参数：
+; 返回：
+SUB1 PROC
+    ...
+    RET
+SUB1 ENDP
+
+CODE ENDS
+
+END START
+</code></pre><h2 id="3">3</h2>
+<pre tabindex="0"><code>; 调用程序和过程在同一代码段中，则使用NEAR属性
+; 调用程序和过程在不同代码段中，则使用FAR属性
+; 缺省值为 NEAR
+ASSUME CS:CODE, DS:DATA
+
+DATA SEGMENT
+  DB 1, 2, 3, 4
+DATA ENDS
+
+CODE SEGMENT
+
+MAIN PROC FAR     ; 把主过程看作DOS调用的子进程，定义为FAR属性
+    ...
+    CALL SUB1     ; 调用子程序SUB1
+    ...
+    RET           ; 过程返回
+MAIN ENDP
+
+SUB1 PROC NEAR    ; 同一代码段调用使用NEAR属性
+    ...
+    RET           ; 过程返回
+SUB1 ENDP         ; 过程结束
+
+CODE ENDS
+END MAIN
 </code></pre><h1 id="部分知识点">部分知识点</h1>
 <h2 id="mov-指令">MOV 指令</h2>
 <ul>
