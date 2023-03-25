@@ -6,7 +6,7 @@
     <description>Recent content in Tech on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 14 Mar 2023 13:19:15 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Mar 2023 08:24:56 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我获取信息的方式</title>
       <link>https://xancoding.cn/posts/get-info/</link>
@@ -782,6 +782,48 @@
 </ul>
 <p>我使用的图床是<a href="https://7bu.top/upload">去不图床</a>，借助 <code>PicGo</code>，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 <code>Obsidian</code> 中的 <code>Image auto upload Plugin</code> 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。<br>
 如今，只用把图片拖拽到 <code>Obsidian</code> 编辑器中，即可自动将图片通过 <code>PicGo</code> 上传到 <code>去不图床</code>，并生成链接，显示在 <code>Obsidian</code> 中。</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>AI--情感分析--学习指南</title>
+      <link>https://xancoding.cn/posts/2023-03-25-08-24-52/</link>
+      <pubDate>Sat, 25 Mar 2023 08:24:56 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-03-25-08-24-52/</guid>
+      <description>&lt;h1 id=&#34;老师指导&#34;&gt;老师指导&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;找时间熟悉编程语言和神经网络模型&lt;/li&gt;
+&lt;li&gt;然后再看论文&lt;/li&gt;
+&lt;li&gt;再想想如何改进&lt;/li&gt;
+&lt;li&gt;然后编程实现你的想法，做实验验证&lt;/li&gt;
+&lt;li&gt;最后写论文&lt;/li&gt;
+&lt;li&gt;一步一步来&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;师兄指导&#34;&gt;师兄指导&lt;/h1&gt;
+&lt;p&gt;这个是比较经典的深度学习入门教程，一个只有几分钟，看到六十集左右就行
+&lt;a href=&#34;https://www.bilibili.com/video/BV1FT4y1E74V?p=60&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&#34;&gt;https://www.bilibili.com/video/BV1FT4y1E74V?p=60&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&lt;/a&gt;
+还有这个和上面类似，用代码如何实现简单的网络，暂时看第一课就行了
+&lt;a href=&#34;https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&#34;&gt;https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&lt;/a&gt;
+配置anaconda和python环境，网上有很多
+&lt;a href=&#34;https://zhuanlan.zhihu.com/p/32925500&#34;&gt;https://zhuanlan.zhihu.com/p/32925500&lt;/a&gt;&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="老师指导">老师指导</h1>
+<ol>
+<li>找时间熟悉编程语言和神经网络模型</li>
+<li>然后再看论文</li>
+<li>再想想如何改进</li>
+<li>然后编程实现你的想法，做实验验证</li>
+<li>最后写论文</li>
+<li>一步一步来</li>
+</ol>
+<h1 id="师兄指导">师兄指导</h1>
+<p>这个是比较经典的深度学习入门教程，一个只有几分钟，看到六十集左右就行
+<a href="https://www.bilibili.com/video/BV1FT4y1E74V?p=60&amp;vd_source=0cca15c3951bb93c37fc2758746d699d">https://www.bilibili.com/video/BV1FT4y1E74V?p=60&amp;vd_source=0cca15c3951bb93c37fc2758746d699d</a>
+还有这个和上面类似，用代码如何实现简单的网络，暂时看第一课就行了
+<a href="https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;vd_source=0cca15c3951bb93c37fc2758746d699d">https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;vd_source=0cca15c3951bb93c37fc2758746d699d</a>
+配置anaconda和python环境，网上有很多
+<a href="https://zhuanlan.zhihu.com/p/32925500">https://zhuanlan.zhihu.com/p/32925500</a></p>
 ]]></content:encoded>
     </item>
     
