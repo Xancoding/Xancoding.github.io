@@ -6,13 +6,13 @@
     <description>Recent content in Tags on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 25 Mar 2023 08:24:56 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Mar 2023 19:25:14 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI</title>
-      <link>https://xancoding.cn/tags/ai/</link>
-      <pubDate>Sat, 25 Mar 2023 08:24:56 +0800</pubDate>
+      <title>School</title>
+      <link>https://xancoding.cn/tags/school/</link>
+      <pubDate>Sun, 26 Mar 2023 19:25:14 +0800</pubDate>
       
-      <guid>https://xancoding.cn/tags/ai/</guid>
+      <guid>https://xancoding.cn/tags/school/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -20,9 +20,19 @@
     <item>
       <title>Tech</title>
       <link>https://xancoding.cn/tags/tech/</link>
-      <pubDate>Sat, 25 Mar 2023 08:24:56 +0800</pubDate>
+      <pubDate>Sun, 26 Mar 2023 19:25:14 +0800</pubDate>
       
       <guid>https://xancoding.cn/tags/tech/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>https://xancoding.cn/tags/ai/</link>
+      <pubDate>Sat, 25 Mar 2023 08:24:56 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/ai/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

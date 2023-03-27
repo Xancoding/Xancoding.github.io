@@ -6,7 +6,7 @@
     <description>Recent content in Tech on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 25 Mar 2023 08:24:56 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Mar 2023 19:25:14 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我获取信息的方式</title>
       <link>https://xancoding.cn/posts/get-info/</link>
@@ -782,6 +782,22 @@
 </ul>
 <p>我使用的图床是<a href="https://7bu.top/upload">去不图床</a>，借助 <code>PicGo</code>，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 <code>Obsidian</code> 中的 <code>Image auto upload Plugin</code> 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。<br>
 如今，只用把图片拖拽到 <code>Obsidian</code> 编辑器中，即可自动将图片通过 <code>PicGo</code> 上传到 <code>去不图床</code>，并生成链接，显示在 <code>Obsidian</code> 中。</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>模拟电子技术基础</title>
+      <link>https://xancoding.cn/posts/2023-03-26-19-25-13/</link>
+      <pubDate>Sun, 26 Mar 2023 19:25:14 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-03-26-19-25-13/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;本征激发体现了半导体的 &lt;strong&gt;热敏&lt;/strong&gt; 特性。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <content:encoded><![CDATA[<ol>
+<li>本征激发体现了半导体的 <strong>热敏</strong> 特性。</li>
+</ol>
 ]]></content:encoded>
     </item>
     

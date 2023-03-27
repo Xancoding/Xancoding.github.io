@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>School on Xan&#39;s Blog</title>
+    <link>https://xancoding.cn/tags/school/</link>
+    <description>Recent content in School on Xan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 26 Mar 2023 19:25:14 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/school/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>模拟电子技术基础</title>
+      <link>https://xancoding.cn/posts/2023-03-26-19-25-13/</link>
+      <pubDate>Sun, 26 Mar 2023 19:25:14 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-03-26-19-25-13/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;本征激发体现了半导体的 &lt;strong&gt;热敏&lt;/strong&gt; 特性。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <content:encoded><![CDATA[<ol>
+<li>本征激发体现了半导体的 <strong>热敏</strong> 特性。</li>
+</ol>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
