@@ -2040,6 +2040,14 @@ $$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k}$$
 $$P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}\ (k=0,1,2,&amp;hellip;)$$
 其中 $λ &amp;gt; 0$ 是常数，则称随机变量 X 服从参数为 $λ$ 的泊松分布，记为$X\sim \pi(\lambda)$&lt;/p&gt;
 &lt;p&gt;$$E(X)=\lambda,D(X)=\lambda$$&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/27/642155b64afdc.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/27/642155b64afdc.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h3 id=&#34;泊松定理&#34;&gt;泊松定理&lt;/h3&gt;
 &lt;p&gt;当 n 很大，p 很小时，有二项分布近似公式
 $$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k} ≈ \frac{\lambda^k e^{-\lambda}}{k!} ,\lambda = np$$&lt;/p&gt;
@@ -3748,6 +3756,14 @@ $$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k}$$
 $$P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}\ (k=0,1,2,&hellip;)$$
 其中 $λ &gt; 0$ 是常数，则称随机变量 X 服从参数为 $λ$ 的泊松分布，记为$X\sim \pi(\lambda)$</p>
 <p>$$E(X)=\lambda,D(X)=\lambda$$</p>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/27/642155b64afdc.png">
+<img src="https://bu.dusays.com/2023/03/27/642155b64afdc.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
 <h3 id="泊松定理">泊松定理</h3>
 <p>当 n 很大，p 很小时，有二项分布近似公式
 $$P(X=k)=C_n^k\cdot P^k\cdot (1-p)^{n-k} ≈ \frac{\lambda^k e^{-\lambda}}{k!} ,\lambda = np$$</p>
