@@ -11196,6 +11196,28 @@ SUB1 ENDP         ; 过程结束
 
 CODE ENDS
 END MAIN
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;if-条件语句的汇编实现框架&#34;&gt;IF 条件语句的汇编实现框架&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cmp a, b
+jOP true
+jmp next
+true:
+	s1
+next:
+	...
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;if-else-条件语句的汇编实现框架&#34;&gt;IF-ELSE 条件语句的汇编实现框架&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cmp a, b
+jOP true
+jmp false
+
+true:
+	s1
+	jmp next
+
+false:
+	s2
+
+next:
+	
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;部分知识点&#34;&gt;部分知识点&lt;/h1&gt;
 &lt;h2 id=&#34;mov-指令&#34;&gt;MOV 指令&lt;/h2&gt;
 &lt;ul&gt;
@@ -12645,6 +12667,28 @@ SUB1 ENDP         ; 过程结束
 
 CODE ENDS
 END MAIN
+</code></pre><h2 id="if-条件语句的汇编实现框架">IF 条件语句的汇编实现框架</h2>
+<pre tabindex="0"><code>cmp a, b
+jOP true
+jmp next
+true:
+	s1
+next:
+	...
+</code></pre><h2 id="if-else-条件语句的汇编实现框架">IF-ELSE 条件语句的汇编实现框架</h2>
+<pre tabindex="0"><code>cmp a, b
+jOP true
+jmp false
+
+true:
+	s1
+	jmp next
+
+false:
+	s2
+
+next:
+	
 </code></pre><h1 id="部分知识点">部分知识点</h1>
 <h2 id="mov-指令">MOV 指令</h2>
 <ul>
