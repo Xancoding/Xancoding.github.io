@@ -200,6 +200,15 @@ next:
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h2 id=&#34;标志寄存器结构图&#34;&gt;标志寄存器结构图&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/31/64266b721b208.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/31/64266b721b208.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;检测点答案部分&#34;&gt;检测点答案（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;检测点21&#34;&gt;检测点2.1&lt;/h2&gt;
 &lt;p&gt;（2）最多使用 4 条指令，编程计算 2 的 4 次方&lt;/p&gt;
@@ -565,7 +574,8 @@ df = 0
 Flag 寄存器：0000 0000 0100 0101
 
 (ax) = 0000 0000 0100 0101
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;检测点131&#34;&gt;检测点13.1&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;全部执行之后，&lt;code&gt;ax = 0000 0000 0100 0101&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;检测点131&#34;&gt;检测点13.1&lt;/h2&gt;
 &lt;p&gt;（1）&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;7ch中断例程所能进行的最大转移位移范围是 [-32768, 32767]
 
@@ -1671,6 +1681,15 @@ next:
 </div>
 
 </p>
+<h2 id="标志寄存器结构图">标志寄存器结构图</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/31/64266b721b208.png">
+<img src="https://bu.dusays.com/2023/03/31/64266b721b208.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
 <h1 id="检测点答案部分">检测点答案（部分）</h1>
 <h2 id="检测点21">检测点2.1</h2>
 <p>（2）最多使用 4 条指令，编程计算 2 的 4 次方</p>
@@ -2036,7 +2055,8 @@ df = 0
 Flag 寄存器：0000 0000 0100 0101
 
 (ax) = 0000 0000 0100 0101
-</code></pre><h2 id="检测点131">检测点13.1</h2>
+</code></pre><p>全部执行之后，<code>ax = 0000 0000 0100 0101</code></p>
+<h2 id="检测点131">检测点13.1</h2>
 <p>（1）</p>
 <pre tabindex="0"><code>7ch中断例程所能进行的最大转移位移范围是 [-32768, 32767]
 
