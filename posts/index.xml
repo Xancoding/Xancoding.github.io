@@ -1969,7 +1969,11 @@
       <pubDate>Sat, 25 Mar 2023 08:24:56 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-03-25-08-24-52/</guid>
-      <description>&lt;h1 id=&#34;机器学习神经网络深度学习&#34;&gt;机器学习、神经网络、深度学习&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;环境配置&#34;&gt;环境配置&lt;/h1&gt;
+&lt;p&gt;配置anaconda和python环境
+[# Anaconda介绍、安装及使用教程](&amp;lt;)https://zhuanlan.zhihu.com/p/32925500&amp;gt;
+&lt;a href=&#34;https://www.bilibili.com/video/BV1JR4y1V72m/?spm_id_from=trigger_reload&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# Anaconda+Pycharm&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;机器学习神经网络深度学习&#34;&gt;机器学习、神经网络、深度学习&lt;/h1&gt;
 &lt;p&gt;机器学习、神经网络、深度学习是三个相互关联的概念，它们都是人工智能领域的重要组成部分。&lt;/p&gt;
 &lt;p&gt;机器学习是一种通过算法让计算机系统自动学习规律或模式，从而对新数据进行预测的技术。机器学习可以分为监督学习、无监督学习、半监督学习和强化学习等不同类型，其中监督学习和无监督学习应用最为广泛。&lt;/p&gt;
 &lt;p&gt;神经网络是一种模拟人脑神经元结构和工作方式的计算模型。神经网络中的神经元通过对输入信号进行处理和传递，最终输出结果。神经网络广泛应用于语音识别、图像识别、自然语言处理等领域。&lt;/p&gt;
@@ -1989,10 +1993,12 @@
 &lt;a href=&#34;https://www.bilibili.com/video/BV1FT4y1E74V?p=60&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&#34;&gt;https://www.bilibili.com/video/BV1FT4y1E74V?p=60&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;还有这个和上面类似，用代码如何实现简单的网络，暂时看第一课就行了
 &lt;a href=&#34;https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&#34;&gt;https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;配置anaconda和python环境，网上有很多
-&lt;a href=&#34;https://zhuanlan.zhihu.com/p/32925500&#34;&gt;https://zhuanlan.zhihu.com/p/32925500&lt;/a&gt;&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="机器学习神经网络深度学习">机器学习、神经网络、深度学习</h1>
+      <content:encoded><![CDATA[<h1 id="环境配置">环境配置</h1>
+<p>配置anaconda和python环境
+[# Anaconda介绍、安装及使用教程](&lt;)https://zhuanlan.zhihu.com/p/32925500&gt;
+<a href="https://www.bilibili.com/video/BV1JR4y1V72m/?spm_id_from=trigger_reload&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># Anaconda+Pycharm</a></p>
+<h1 id="机器学习神经网络深度学习">机器学习、神经网络、深度学习</h1>
 <p>机器学习、神经网络、深度学习是三个相互关联的概念，它们都是人工智能领域的重要组成部分。</p>
 <p>机器学习是一种通过算法让计算机系统自动学习规律或模式，从而对新数据进行预测的技术。机器学习可以分为监督学习、无监督学习、半监督学习和强化学习等不同类型，其中监督学习和无监督学习应用最为广泛。</p>
 <p>神经网络是一种模拟人脑神经元结构和工作方式的计算模型。神经网络中的神经元通过对输入信号进行处理和传递，最终输出结果。神经网络广泛应用于语音识别、图像识别、自然语言处理等领域。</p>
@@ -2012,8 +2018,6 @@
 <a href="https://www.bilibili.com/video/BV1FT4y1E74V?p=60&amp;vd_source=0cca15c3951bb93c37fc2758746d699d">https://www.bilibili.com/video/BV1FT4y1E74V?p=60&amp;vd_source=0cca15c3951bb93c37fc2758746d699d</a></p>
 <p>还有这个和上面类似，用代码如何实现简单的网络，暂时看第一课就行了
 <a href="https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;vd_source=0cca15c3951bb93c37fc2758746d699d">https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;vd_source=0cca15c3951bb93c37fc2758746d699d</a></p>
-<p>配置anaconda和python环境，网上有很多
-<a href="https://zhuanlan.zhihu.com/p/32925500">https://zhuanlan.zhihu.com/p/32925500</a></p>
 ]]></content:encoded>
     </item>
     
