@@ -6067,6 +6067,41 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&gt;0$$
 &lt;strong&gt;玩家&lt;/strong&gt;：如五子棋及围棋，有黑白两方，各持黑子与白子，黑先。&lt;br&gt;
 &lt;strong&gt;玩法&lt;/strong&gt;：除了第一次黑方下一颗子外，之后黑白双方轮流每次各下两子，直的、横的、斜的连成6子（或以上）者获胜。 若全部棋盘填满仍未分出胜负，则为和局。 没有禁手；例如长连仍算赢。&lt;br&gt;
 &lt;strong&gt;棋盘&lt;/strong&gt;：因为公平性不是问题，棋盘是可以任意地大，甚至是无限大亦可。然而为了让游戏可实质地来玩，目前棋盘采用围棋的十九路棋盘。&lt;/p&gt;
+&lt;h1 id=&#34;不确定性的传播与计算&#34;&gt;不确定性的传播与计算&lt;/h1&gt;
+&lt;h2 id=&#34;概念&#34;&gt;概念&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/01/6427c4b0141fe.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/01/6427c4b0141fe.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/01/6427c4c3240f7.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/01/6427c4c3240f7.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/01/6427c4d620c18.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/01/6427c4d620c18.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/01/6427c4e970c1f.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/01/6427c4e970c1f.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;例题&#34;&gt;例题&lt;/h2&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="模糊理论">模糊理论</h1>
 <h2 id="模糊集合和模糊子集">模糊集合和模糊子集</h2>
@@ -6114,6 +6149,41 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&gt;0$$
 <strong>玩家</strong>：如五子棋及围棋，有黑白两方，各持黑子与白子，黑先。<br>
 <strong>玩法</strong>：除了第一次黑方下一颗子外，之后黑白双方轮流每次各下两子，直的、横的、斜的连成6子（或以上）者获胜。 若全部棋盘填满仍未分出胜负，则为和局。 没有禁手；例如长连仍算赢。<br>
 <strong>棋盘</strong>：因为公平性不是问题，棋盘是可以任意地大，甚至是无限大亦可。然而为了让游戏可实质地来玩，目前棋盘采用围棋的十九路棋盘。</p>
+<h1 id="不确定性的传播与计算">不确定性的传播与计算</h1>
+<h2 id="概念">概念</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/01/6427c4b0141fe.png">
+<img src="https://bu.dusays.com/2023/04/01/6427c4b0141fe.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/01/6427c4c3240f7.png">
+<img src="https://bu.dusays.com/2023/04/01/6427c4c3240f7.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/01/6427c4d620c18.png">
+<img src="https://bu.dusays.com/2023/04/01/6427c4d620c18.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/01/6427c4e970c1f.png">
+<img src="https://bu.dusays.com/2023/04/01/6427c4e970c1f.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="例题">例题</h2>
 ]]></content:encoded>
     </item>
     
