@@ -6,7 +6,7 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 26 Mar 2023 19:25:14 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Mar 2023 08:14:17 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>年度计划</title>
       <link>https://xancoding.cn/posts/plan/</link>
@@ -1752,6 +1752,198 @@
 <p>有很多事，光是脑子里想到，明白重要性，是远远不够的。只有真正，实际经历过，你才会有一个全新的认识</p>
 <p>多跟别人交流，多接触新的东西。不同的思想的碰撞，往往会产生意想不到的妙处</p>
 <p>写文章，并不是字多就是好，言简意赅更应该得到推崇，重要的是要表达出自己的想法，在此基础上，字数做到越少越好</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>3 月总结</title>
+      <link>https://xancoding.cn/posts/2023-03-31-08-14-16/</link>
+      <pubDate>Fri, 31 Mar 2023 08:14:17 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-03-31-08-14-16/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;学习：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;开始学习深度学习内容（0327）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;补完之前落下的课（0319）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;小林图解系统：一、二、三、五、八&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;书籍：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Life:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tech:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;《操作系统导论》&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;School&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;《概率论与数理统计》1&amp;ndash;4章&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;《电路》1&amp;ndash;4、6&amp;ndash;7章&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;《操作系统原理与实践》1&amp;ndash;2章&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;《算法设计与分析（第2版）》1&amp;ndash;3、8、11章&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;《汇编语言》1&amp;ndash;12章&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;《模拟电子技术基础》1&amp;ndash;2章&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;电影：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;狼行者&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;爱情神话&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;韩剧&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;黑暗荣耀 1&amp;ndash;2季&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;感冒（停跑）受伤（停跑）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Apex 弃坑（体验不好）（0304）（克制一下，一天的结束稍稍玩玩）（0315）（再次弃坑）（0316）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;今日起不看抖音（0304）（克制一下，一天的结束稍稍玩玩）（0315）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;跑步&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GitHub（0305 真的有内容的时候，再做提交）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;🌰（0319）（👋）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;豁然开朗，随心所欲（0325）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <content:encoded><![CDATA[<ol>
+<li>
+<p>学习：</p>
+<ol>
+<li>
+<p>开始学习深度学习内容（0327）</p>
+</li>
+<li>
+<p>补完之前落下的课（0319）</p>
+</li>
+<li>
+<p>小林图解系统：一、二、三、五、八</p>
+</li>
+</ol>
+</li>
+<li>
+<p>书籍：</p>
+<ol>
+<li>
+<p>Life:</p>
+</li>
+<li>
+<p>Tech:</p>
+<ol>
+<li>《操作系统导论》</li>
+</ol>
+</li>
+<li>
+<p>School</p>
+<ol>
+<li>
+<p>《概率论与数理统计》1&ndash;4章</p>
+</li>
+<li>
+<p>《电路》1&ndash;4、6&ndash;7章</p>
+</li>
+<li>
+<p>《操作系统原理与实践》1&ndash;2章</p>
+</li>
+<li>
+<p>《算法设计与分析（第2版）》1&ndash;3、8、11章</p>
+</li>
+<li>
+<p>《汇编语言》1&ndash;12章</p>
+</li>
+<li>
+<p>《模拟电子技术基础》1&ndash;2章</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>电影：</p>
+<ol>
+<li>
+<p>狼行者</p>
+</li>
+<li>
+<p>爱情神话</p>
+</li>
+</ol>
+</li>
+<li>
+<p>韩剧</p>
+<ol>
+<li>黑暗荣耀 1&ndash;2季</li>
+</ol>
+</li>
+<li>
+<p>感冒（停跑）受伤（停跑）</p>
+</li>
+<li>
+<p>Apex 弃坑（体验不好）（0304）（克制一下，一天的结束稍稍玩玩）（0315）（再次弃坑）（0316）</p>
+</li>
+<li>
+<p>今日起不看抖音（0304）（克制一下，一天的结束稍稍玩玩）（0315）</p>
+</li>
+<li>
+<p>跑步</p>
+</li>
+<li>
+<p>GitHub（0305 真的有内容的时候，再做提交）</p>
+</li>
+<li>
+<p>🌰（0319）（👋）</p>
+</li>
+<li>
+<p>豁然开朗，随心所欲（0325）</p>
+</li>
+</ol>
 ]]></content:encoded>
     </item>
     
