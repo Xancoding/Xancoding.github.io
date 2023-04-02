@@ -6,7 +6,7 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 31 Mar 2023 08:14:17 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 18:00:40 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>年度计划</title>
       <link>https://xancoding.cn/posts/plan/</link>
@@ -19,7 +19,50 @@
 &lt;ul&gt;
 &lt;li&gt;2025届毕业生&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;时间规划&#34;&gt;时间规划&lt;/h1&gt;
+&lt;h1 id=&#34;学习路线&#34;&gt;学习路线&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;算法（每天都看）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;针对性刷题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;C++ （2个月）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《C++ Primer》、《Effective C++》、《程序员的自我修养》、侯捷老师的视频
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《C++ Primer》--&amp;gt; 《Effective C++》--&amp;gt;《深度探索 C++ 对象模型》--&amp;gt;《STL 源码剖析》--&amp;gt;《Effective STL》--&amp;gt;《C++ 并发编程实战》
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;操作系统（2个月）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《操作系统导论》--&amp;gt;《现代操作系统》--&amp;gt;《操作系统：精髓与设计原理》
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;数据库（2个月）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《MySQL是怎样运行的》--&amp;gt;《MySQL必知必会》--&amp;gt;《MySQL45讲》
+《Redis设计与实现》--&amp;gt;《Redis实战》
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Linux 网络编程（2个月）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《TCP/IP 网络编程》--&amp;gt;《Linux高性能服务器编程》--&amp;gt;《UNIX环境高级编程》--&amp;gt;《Unix网络编程》
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;计算机网络&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《计算机网络：自顶向下方法》&amp;amp;&amp;amp;《TCP/IP详解 卷1：协议》
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;项目（2个月）&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Alinshans/MyTinySTL&#34;&gt;MyTinySTL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vixbob.moe/25.html&#34;&gt;Stanford CS144 Lab Assignment 学习笔记 | ViXbob的博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/qinguoyi/TinyWebServer&#34;&gt;TinyWebServer&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;其他（2个月）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《深入理解计算机系统》&amp;amp;&amp;amp;《计算机程序的构造和解释》
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;时间规划&#34;&gt;时间规划&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;大二上：2022年9月初&amp;ndash;2023年1月初  &lt;strong&gt;四个月&lt;/strong&gt;
 &lt;ol&gt;
@@ -99,49 +142,7 @@
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;学习路线&#34;&gt;学习路线&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;算法（每天都看）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;针对性刷题&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;C++ （2个月）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《C++ Primer》--&amp;gt; 《Effective C++》--&amp;gt;《深度探索 C++ 对象模型》--&amp;gt;《STL 源码剖析》--&amp;gt;《Effective STL》--&amp;gt;《C++ 并发编程实战》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;操作系统（2个月）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《操作系统导论》--&amp;gt;《现代操作系统》--&amp;gt;《操作系统：精髓与设计原理》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;数据库（2个月）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《MySQL是怎样运行的》--&amp;gt;《MySQL必知必会》--&amp;gt;《MySQL45讲》
-《Redis设计与实现》--&amp;gt;《Redis实战》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;Linux 网络编程（2个月）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《TCP/IP 网络编程》--&amp;gt;《Linux高性能服务器编程》--&amp;gt;《UNIX环境高级编程》--&amp;gt;《Unix网络编程》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;计算机网络&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《计算机网络：自顶向下方法》&amp;amp;&amp;amp;《TCP/IP详解 卷1：协议》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;项目（2个月）&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Alinshans/MyTinySTL&#34;&gt;MyTinySTL&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://vixbob.moe/25.html&#34;&gt;Stanford CS144 Lab Assignment 学习笔记 | ViXbob的博客&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/qinguoyi/TinyWebServer&#34;&gt;TinyWebServer&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;其他（2个月）&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《深入理解计算机系统》&amp;amp;&amp;amp;《计算机程序的构造和解释》
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;如何看项目源码&#34;&gt;如何看项目源码&lt;/h1&gt;
+&lt;h1 id=&#34;如何看项目源码&#34;&gt;如何看项目源码&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;运行，跑起来，用起来，知道这个项目有什么功能，满足什么需求&lt;/li&gt;
 &lt;li&gt;找到项目入口 main函数&lt;/li&gt;
@@ -182,7 +183,50 @@
 <ul>
 <li>2025届毕业生</li>
 </ul>
-<h1 id="时间规划">时间规划</h1>
+<h1 id="学习路线">学习路线</h1>
+<ol>
+<li>算法（每天都看）</li>
+</ol>
+<ul>
+<li>针对性刷题</li>
+</ul>
+<ol start="2">
+<li>C++ （2个月）</li>
+</ol>
+<pre tabindex="0"><code>《C++ Primer》、《Effective C++》、《程序员的自我修养》、侯捷老师的视频
+</code></pre><pre tabindex="0"><code>《C++ Primer》--&gt; 《Effective C++》--&gt;《深度探索 C++ 对象模型》--&gt;《STL 源码剖析》--&gt;《Effective STL》--&gt;《C++ 并发编程实战》
+</code></pre><ol start="3">
+<li>操作系统（2个月）</li>
+</ol>
+<pre tabindex="0"><code>《操作系统导论》--&gt;《现代操作系统》--&gt;《操作系统：精髓与设计原理》
+</code></pre><ol start="4">
+<li>数据库（2个月）</li>
+</ol>
+<pre tabindex="0"><code>《MySQL是怎样运行的》--&gt;《MySQL必知必会》--&gt;《MySQL45讲》
+《Redis设计与实现》--&gt;《Redis实战》
+</code></pre><ol start="5">
+<li>Linux 网络编程（2个月）</li>
+</ol>
+<pre tabindex="0"><code>《TCP/IP 网络编程》--&gt;《Linux高性能服务器编程》--&gt;《UNIX环境高级编程》--&gt;《Unix网络编程》
+</code></pre><ol start="6">
+<li>计算机网络</li>
+</ol>
+<pre tabindex="0"><code>《计算机网络：自顶向下方法》&amp;&amp;《TCP/IP详解 卷1：协议》
+</code></pre><ol start="7">
+<li>
+<p>项目（2个月）</p>
+<ol>
+<li><a href="https://github.com/Alinshans/MyTinySTL">MyTinySTL</a></li>
+<li><a href="https://vixbob.moe/25.html">Stanford CS144 Lab Assignment 学习笔记 | ViXbob的博客</a></li>
+<li><a href="https://github.com/qinguoyi/TinyWebServer">TinyWebServer</a></li>
+</ol>
+</li>
+<li>
+<p>其他（2个月）</p>
+</li>
+</ol>
+<pre tabindex="0"><code>《深入理解计算机系统》&amp;&amp;《计算机程序的构造和解释》
+</code></pre><h1 id="时间规划">时间规划</h1>
 <ol>
 <li>大二上：2022年9月初&ndash;2023年1月初  <strong>四个月</strong>
 <ol>
@@ -262,49 +306,7 @@
 </ol>
 </li>
 </ol>
-<h1 id="学习路线">学习路线</h1>
-<ol>
-<li>算法（每天都看）</li>
-</ol>
-<ul>
-<li>针对性刷题</li>
-</ul>
-<ol start="2">
-<li>C++ （2个月）</li>
-</ol>
-<pre tabindex="0"><code>《C++ Primer》--&gt; 《Effective C++》--&gt;《深度探索 C++ 对象模型》--&gt;《STL 源码剖析》--&gt;《Effective STL》--&gt;《C++ 并发编程实战》
-</code></pre><ol start="3">
-<li>操作系统（2个月）</li>
-</ol>
-<pre tabindex="0"><code>《操作系统导论》--&gt;《现代操作系统》--&gt;《操作系统：精髓与设计原理》
-</code></pre><ol start="4">
-<li>数据库（2个月）</li>
-</ol>
-<pre tabindex="0"><code>《MySQL是怎样运行的》--&gt;《MySQL必知必会》--&gt;《MySQL45讲》
-《Redis设计与实现》--&gt;《Redis实战》
-</code></pre><ol start="5">
-<li>Linux 网络编程（2个月）</li>
-</ol>
-<pre tabindex="0"><code>《TCP/IP 网络编程》--&gt;《Linux高性能服务器编程》--&gt;《UNIX环境高级编程》--&gt;《Unix网络编程》
-</code></pre><ol start="6">
-<li>计算机网络</li>
-</ol>
-<pre tabindex="0"><code>《计算机网络：自顶向下方法》&amp;&amp;《TCP/IP详解 卷1：协议》
-</code></pre><ol start="7">
-<li>
-<p>项目（2个月）</p>
-<ol>
-<li><a href="https://github.com/Alinshans/MyTinySTL">MyTinySTL</a></li>
-<li><a href="https://vixbob.moe/25.html">Stanford CS144 Lab Assignment 学习笔记 | ViXbob的博客</a></li>
-<li><a href="https://github.com/qinguoyi/TinyWebServer">TinyWebServer</a></li>
-</ol>
-</li>
-<li>
-<p>其他（2个月）</p>
-</li>
-</ol>
-<pre tabindex="0"><code>《深入理解计算机系统》&amp;&amp;《计算机程序的构造和解释》
-</code></pre><h1 id="如何看项目源码">如何看项目源码</h1>
+<h1 id="如何看项目源码">如何看项目源码</h1>
 <ol>
 <li>运行，跑起来，用起来，知道这个项目有什么功能，满足什么需求</li>
 <li>找到项目入口 main函数</li>
@@ -1756,6 +1758,126 @@
     </item>
     
     <item>
+      <title>全马准备工作</title>
+      <link>https://xancoding.cn/posts/2023-04-02-18-00-40/</link>
+      <pubDate>Sun, 02 Apr 2023 18:00:40 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-04-02-18-00-40/</guid>
+      <description>&lt;h1 id=&#34;配速&#34;&gt;配速&lt;/h1&gt;
+&lt;p&gt;330&amp;ndash;4m58s&lt;/p&gt;
+&lt;p&gt;400&amp;ndash;5m41s&lt;/p&gt;
+&lt;h1 id=&#34;赛前&#34;&gt;赛前&lt;/h1&gt;
+&lt;p&gt;**赛前48小时：**充分补充碳水化合物和水分。将饮食中的碳水比例升高，多吃如：面包、面食、米饭和土豆等，还可以食用果汁、蜂蜜和能量棒等，来获取更多的碳水化合物。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;赛前12小时&lt;/strong&gt;：比赛前一晚的晚餐，不要晚于7点进食，尽量选择以前常吃的食物，原则是低脂肪、高碳水，避免辛辣刺激的食物，以及高纤维食物。&lt;/p&gt;
+&lt;p&gt;**赛前2、3小时：**比赛当天，早餐很重要！早餐尽量选择容易消化的食物，少吃产气食物（豆类等）；选择体积小的食物，否则滞留肠胃会带来负担；油脂和纤维素含量要少，否则会加速代谢引发便意，所以油条、油饼、炒饭、薯条之类的不适宜。&lt;/p&gt;
+&lt;p&gt;**赛前30分钟：**如果有条件，补充水分300-500毫升。由于盐丸消化需要时间，因此可以提前15~30分钟服用1粒盐丸&lt;/p&gt;
+&lt;h1 id=&#34;赛中&#34;&gt;赛中&lt;/h1&gt;
+&lt;p&gt;**赛中补给频率：**跑步时补给的目标是维持血糖水平，减轻疲劳，避免撞墙的发生，跑者之间存在个体差距，相对来说每30-45分钟补给一次，比较适合大多数跑者。&lt;/p&gt;
+&lt;p&gt;比赛开始后的30-45分钟吃下第一个能量胶或能量棒，之后每30-45分钟再吃。&lt;/p&gt;
+&lt;p&gt;对于没有尝试过的跑者，可以将一次一包改为半包。&lt;/p&gt;
+&lt;p&gt;此外，建议在服用能量胶的同时搭配水，以此避免可能出现脱水的风险。&lt;/p&gt;
+&lt;p&gt;盐丸的补给同样要看气温以及跑者自己的身体状况，平均10km吃一颗，天气炎热可以缩短吃盐丸的间隔，反之就延长。&lt;/p&gt;
+&lt;h1 id=&#34;赛后&#34;&gt;赛后&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;完赛后的补给：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;比赛结束后，立即食用高碳水化合物的零食和适量的蛋白质，可以迅速进行糖原的补充，可选择运动饮料、水果或跑者爱吃的易消化吸收的零食。&lt;/p&gt;
+&lt;p&gt;完赛2小时内，吃一顿富含碳水和蛋白质的食物，以充分补充糖原并重建肌肉。赛后大餐不宜吃辛辣、刺激性的食物，并且也不适宜饮酒，酒精会减少肌肉糖原合成和蛋白质的合成，对于身体的恢复产生负面影响。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;马拉松补给TIPS:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;任何比赛中的补给都应该是熟悉的&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;无论是赛前、赛中还是赛后，都不要去尝试自己不熟悉的食物。也就是，尽量保证所有的饮食都是经过自己身体曾经验证过的；&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;早餐控制6-7成饱&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;早餐吃得过饱会增加身体负担，比赛当天吃6到7成饱就足够了。通常比赛日选手可能会有额外的能量食品，因而在能量摄入上，不用过于担心会不够，质＞量；&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;减少脂肪和纤维&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在比赛当日，尽量减少高纤维和脂肪含量多的食物，容易引起胃部不适，并可能增加上厕所的机会；&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;不要等到口渴才喝水&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;感到口渴的时候，身体就已经脱水了，比赛中即便不感到口渴，在水站也可以稍微喝一点水。从5公里开始，每个水站都可以小抿一口；&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;进入水站的正确姿势&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;进入和离开水站的时候可以做个简单的手势，警示后面选手你会减速、进入水站，同时要向后观察，在没有和别人有冲突的前提下离开主赛道进入水站；&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;减少每次补给摄入的量&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;比赛中，一来身体会加大对食物的渴求，二来消化吸收能力较差，这样很容易吃太多，又增加胀痛、恶心、呕腹泻等肠胃问题；&lt;/p&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;能量胶需伴水服用&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;多数能量胶都要求，在食用时需要150-250ml的水，才能让它更好的发挥效用，也避免对肠胃过度刺激。最佳饮用方法便是，在每次看到水站前完成能量胶摄入，而后进站喝水；&lt;/p&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;比赛中少吃这些食物&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;生活中常吃的饼干、坚果、面包等碳水补充的食物，吃完后需要较长时间消化，因此在比赛的补给中要少吃这类食物，补给效率低且负担大；&lt;/p&gt;
+&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;赛后补充越及时，恢复越快&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;比赛结束后身体的恢复才刚刚开始，这时候补糖、补水、补盐越及时，体能恢复越快。赛后半个小时内尽快补充，恢复效果要远好过数小时后再大吃大喝。&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="配速">配速</h1>
+<p>330&ndash;4m58s</p>
+<p>400&ndash;5m41s</p>
+<h1 id="赛前">赛前</h1>
+<p>**赛前48小时：**充分补充碳水化合物和水分。将饮食中的碳水比例升高，多吃如：面包、面食、米饭和土豆等，还可以食用果汁、蜂蜜和能量棒等，来获取更多的碳水化合物。</p>
+<p><strong>赛前12小时</strong>：比赛前一晚的晚餐，不要晚于7点进食，尽量选择以前常吃的食物，原则是低脂肪、高碳水，避免辛辣刺激的食物，以及高纤维食物。</p>
+<p>**赛前2、3小时：**比赛当天，早餐很重要！早餐尽量选择容易消化的食物，少吃产气食物（豆类等）；选择体积小的食物，否则滞留肠胃会带来负担；油脂和纤维素含量要少，否则会加速代谢引发便意，所以油条、油饼、炒饭、薯条之类的不适宜。</p>
+<p>**赛前30分钟：**如果有条件，补充水分300-500毫升。由于盐丸消化需要时间，因此可以提前15~30分钟服用1粒盐丸</p>
+<h1 id="赛中">赛中</h1>
+<p>**赛中补给频率：**跑步时补给的目标是维持血糖水平，减轻疲劳，避免撞墙的发生，跑者之间存在个体差距，相对来说每30-45分钟补给一次，比较适合大多数跑者。</p>
+<p>比赛开始后的30-45分钟吃下第一个能量胶或能量棒，之后每30-45分钟再吃。</p>
+<p>对于没有尝试过的跑者，可以将一次一包改为半包。</p>
+<p>此外，建议在服用能量胶的同时搭配水，以此避免可能出现脱水的风险。</p>
+<p>盐丸的补给同样要看气温以及跑者自己的身体状况，平均10km吃一颗，天气炎热可以缩短吃盐丸的间隔，反之就延长。</p>
+<h1 id="赛后">赛后</h1>
+<p><strong>完赛后的补给：</strong></p>
+<p>比赛结束后，立即食用高碳水化合物的零食和适量的蛋白质，可以迅速进行糖原的补充，可选择运动饮料、水果或跑者爱吃的易消化吸收的零食。</p>
+<p>完赛2小时内，吃一顿富含碳水和蛋白质的食物，以充分补充糖原并重建肌肉。赛后大餐不宜吃辛辣、刺激性的食物，并且也不适宜饮酒，酒精会减少肌肉糖原合成和蛋白质的合成，对于身体的恢复产生负面影响。</p>
+<p><strong>马拉松补给TIPS:</strong></p>
+<ol>
+<li>任何比赛中的补给都应该是熟悉的</li>
+</ol>
+<p>无论是赛前、赛中还是赛后，都不要去尝试自己不熟悉的食物。也就是，尽量保证所有的饮食都是经过自己身体曾经验证过的；</p>
+<ol start="2">
+<li>早餐控制6-7成饱</li>
+</ol>
+<p>早餐吃得过饱会增加身体负担，比赛当天吃6到7成饱就足够了。通常比赛日选手可能会有额外的能量食品，因而在能量摄入上，不用过于担心会不够，质＞量；</p>
+<ol start="3">
+<li>减少脂肪和纤维</li>
+</ol>
+<p>在比赛当日，尽量减少高纤维和脂肪含量多的食物，容易引起胃部不适，并可能增加上厕所的机会；</p>
+<ol start="4">
+<li>不要等到口渴才喝水</li>
+</ol>
+<p>感到口渴的时候，身体就已经脱水了，比赛中即便不感到口渴，在水站也可以稍微喝一点水。从5公里开始，每个水站都可以小抿一口；</p>
+<ol start="5">
+<li>进入水站的正确姿势</li>
+</ol>
+<p>进入和离开水站的时候可以做个简单的手势，警示后面选手你会减速、进入水站，同时要向后观察，在没有和别人有冲突的前提下离开主赛道进入水站；</p>
+<ol start="6">
+<li>减少每次补给摄入的量</li>
+</ol>
+<p>比赛中，一来身体会加大对食物的渴求，二来消化吸收能力较差，这样很容易吃太多，又增加胀痛、恶心、呕腹泻等肠胃问题；</p>
+<ol start="7">
+<li>能量胶需伴水服用</li>
+</ol>
+<p>多数能量胶都要求，在食用时需要150-250ml的水，才能让它更好的发挥效用，也避免对肠胃过度刺激。最佳饮用方法便是，在每次看到水站前完成能量胶摄入，而后进站喝水；</p>
+<ol start="8">
+<li>比赛中少吃这些食物</li>
+</ol>
+<p>生活中常吃的饼干、坚果、面包等碳水补充的食物，吃完后需要较长时间消化，因此在比赛的补给中要少吃这类食物，补给效率低且负担大；</p>
+<ol start="9">
+<li>赛后补充越及时，恢复越快</li>
+</ol>
+<p>比赛结束后身体的恢复才刚刚开始，这时候补糖、补水、补盐越及时，体能恢复越快。赛后半个小时内尽快补充，恢复效果要远好过数小时后再大吃大喝。</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
       <title>3 月总结</title>
       <link>https://xancoding.cn/posts/2023-03-31-08-14-16/</link>
       <pubDate>Fri, 31 Mar 2023 08:14:17 +0800</pubDate>
@@ -1846,7 +1968,7 @@
 &lt;p&gt;GitHub（0305 真的有内容的时候，再做提交）&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;🌰（0319）（👋）&lt;/p&gt;
+&lt;p&gt;🌰👋（0319）&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;豁然开朗，随心所欲（0325）&lt;/p&gt;
@@ -1938,7 +2060,7 @@
 <p>GitHub（0305 真的有内容的时候，再做提交）</p>
 </li>
 <li>
-<p>🌰（0319）（👋）</p>
+<p>🌰👋（0319）</p>
 </li>
 <li>
 <p>豁然开朗，随心所欲（0325）</p>

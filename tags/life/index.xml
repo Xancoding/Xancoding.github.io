@@ -19,7 +19,50 @@
 &lt;ul&gt;
 &lt;li&gt;2025届毕业生&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;时间规划&#34;&gt;时间规划&lt;/h1&gt;
+&lt;h1 id=&#34;学习路线&#34;&gt;学习路线&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;算法（每天都看）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;针对性刷题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;C++ （2个月）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《C++ Primer》、《Effective C++》、《程序员的自我修养》、侯捷老师的视频
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《C++ Primer》--&amp;gt; 《Effective C++》--&amp;gt;《深度探索 C++ 对象模型》--&amp;gt;《STL 源码剖析》--&amp;gt;《Effective STL》--&amp;gt;《C++ 并发编程实战》
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;操作系统（2个月）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《操作系统导论》--&amp;gt;《现代操作系统》--&amp;gt;《操作系统：精髓与设计原理》
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;数据库（2个月）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《MySQL是怎样运行的》--&amp;gt;《MySQL必知必会》--&amp;gt;《MySQL45讲》
+《Redis设计与实现》--&amp;gt;《Redis实战》
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Linux 网络编程（2个月）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《TCP/IP 网络编程》--&amp;gt;《Linux高性能服务器编程》--&amp;gt;《UNIX环境高级编程》--&amp;gt;《Unix网络编程》
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;计算机网络&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《计算机网络：自顶向下方法》&amp;amp;&amp;amp;《TCP/IP详解 卷1：协议》
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;项目（2个月）&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Alinshans/MyTinySTL&#34;&gt;MyTinySTL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vixbob.moe/25.html&#34;&gt;Stanford CS144 Lab Assignment 学习笔记 | ViXbob的博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/qinguoyi/TinyWebServer&#34;&gt;TinyWebServer&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;其他（2个月）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《深入理解计算机系统》&amp;amp;&amp;amp;《计算机程序的构造和解释》
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;时间规划&#34;&gt;时间规划&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;大二上：2022年9月初&amp;ndash;2023年1月初  &lt;strong&gt;四个月&lt;/strong&gt;
 &lt;ol&gt;
@@ -99,49 +142,7 @@
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;学习路线&#34;&gt;学习路线&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;算法（每天都看）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;针对性刷题&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;C++ （2个月）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《C++ Primer》--&amp;gt; 《Effective C++》--&amp;gt;《深度探索 C++ 对象模型》--&amp;gt;《STL 源码剖析》--&amp;gt;《Effective STL》--&amp;gt;《C++ 并发编程实战》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;操作系统（2个月）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《操作系统导论》--&amp;gt;《现代操作系统》--&amp;gt;《操作系统：精髓与设计原理》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;数据库（2个月）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《MySQL是怎样运行的》--&amp;gt;《MySQL必知必会》--&amp;gt;《MySQL45讲》
-《Redis设计与实现》--&amp;gt;《Redis实战》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;Linux 网络编程（2个月）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《TCP/IP 网络编程》--&amp;gt;《Linux高性能服务器编程》--&amp;gt;《UNIX环境高级编程》--&amp;gt;《Unix网络编程》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;计算机网络&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《计算机网络：自顶向下方法》&amp;amp;&amp;amp;《TCP/IP详解 卷1：协议》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;项目（2个月）&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Alinshans/MyTinySTL&#34;&gt;MyTinySTL&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://vixbob.moe/25.html&#34;&gt;Stanford CS144 Lab Assignment 学习笔记 | ViXbob的博客&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/qinguoyi/TinyWebServer&#34;&gt;TinyWebServer&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;其他（2个月）&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《深入理解计算机系统》&amp;amp;&amp;amp;《计算机程序的构造和解释》
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;如何看项目源码&#34;&gt;如何看项目源码&lt;/h1&gt;
+&lt;h1 id=&#34;如何看项目源码&#34;&gt;如何看项目源码&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;运行，跑起来，用起来，知道这个项目有什么功能，满足什么需求&lt;/li&gt;
 &lt;li&gt;找到项目入口 main函数&lt;/li&gt;
@@ -182,7 +183,50 @@
 <ul>
 <li>2025届毕业生</li>
 </ul>
-<h1 id="时间规划">时间规划</h1>
+<h1 id="学习路线">学习路线</h1>
+<ol>
+<li>算法（每天都看）</li>
+</ol>
+<ul>
+<li>针对性刷题</li>
+</ul>
+<ol start="2">
+<li>C++ （2个月）</li>
+</ol>
+<pre tabindex="0"><code>《C++ Primer》、《Effective C++》、《程序员的自我修养》、侯捷老师的视频
+</code></pre><pre tabindex="0"><code>《C++ Primer》--&gt; 《Effective C++》--&gt;《深度探索 C++ 对象模型》--&gt;《STL 源码剖析》--&gt;《Effective STL》--&gt;《C++ 并发编程实战》
+</code></pre><ol start="3">
+<li>操作系统（2个月）</li>
+</ol>
+<pre tabindex="0"><code>《操作系统导论》--&gt;《现代操作系统》--&gt;《操作系统：精髓与设计原理》
+</code></pre><ol start="4">
+<li>数据库（2个月）</li>
+</ol>
+<pre tabindex="0"><code>《MySQL是怎样运行的》--&gt;《MySQL必知必会》--&gt;《MySQL45讲》
+《Redis设计与实现》--&gt;《Redis实战》
+</code></pre><ol start="5">
+<li>Linux 网络编程（2个月）</li>
+</ol>
+<pre tabindex="0"><code>《TCP/IP 网络编程》--&gt;《Linux高性能服务器编程》--&gt;《UNIX环境高级编程》--&gt;《Unix网络编程》
+</code></pre><ol start="6">
+<li>计算机网络</li>
+</ol>
+<pre tabindex="0"><code>《计算机网络：自顶向下方法》&amp;&amp;《TCP/IP详解 卷1：协议》
+</code></pre><ol start="7">
+<li>
+<p>项目（2个月）</p>
+<ol>
+<li><a href="https://github.com/Alinshans/MyTinySTL">MyTinySTL</a></li>
+<li><a href="https://vixbob.moe/25.html">Stanford CS144 Lab Assignment 学习笔记 | ViXbob的博客</a></li>
+<li><a href="https://github.com/qinguoyi/TinyWebServer">TinyWebServer</a></li>
+</ol>
+</li>
+<li>
+<p>其他（2个月）</p>
+</li>
+</ol>
+<pre tabindex="0"><code>《深入理解计算机系统》&amp;&amp;《计算机程序的构造和解释》
+</code></pre><h1 id="时间规划">时间规划</h1>
 <ol>
 <li>大二上：2022年9月初&ndash;2023年1月初  <strong>四个月</strong>
 <ol>
@@ -262,49 +306,7 @@
 </ol>
 </li>
 </ol>
-<h1 id="学习路线">学习路线</h1>
-<ol>
-<li>算法（每天都看）</li>
-</ol>
-<ul>
-<li>针对性刷题</li>
-</ul>
-<ol start="2">
-<li>C++ （2个月）</li>
-</ol>
-<pre tabindex="0"><code>《C++ Primer》--&gt; 《Effective C++》--&gt;《深度探索 C++ 对象模型》--&gt;《STL 源码剖析》--&gt;《Effective STL》--&gt;《C++ 并发编程实战》
-</code></pre><ol start="3">
-<li>操作系统（2个月）</li>
-</ol>
-<pre tabindex="0"><code>《操作系统导论》--&gt;《现代操作系统》--&gt;《操作系统：精髓与设计原理》
-</code></pre><ol start="4">
-<li>数据库（2个月）</li>
-</ol>
-<pre tabindex="0"><code>《MySQL是怎样运行的》--&gt;《MySQL必知必会》--&gt;《MySQL45讲》
-《Redis设计与实现》--&gt;《Redis实战》
-</code></pre><ol start="5">
-<li>Linux 网络编程（2个月）</li>
-</ol>
-<pre tabindex="0"><code>《TCP/IP 网络编程》--&gt;《Linux高性能服务器编程》--&gt;《UNIX环境高级编程》--&gt;《Unix网络编程》
-</code></pre><ol start="6">
-<li>计算机网络</li>
-</ol>
-<pre tabindex="0"><code>《计算机网络：自顶向下方法》&amp;&amp;《TCP/IP详解 卷1：协议》
-</code></pre><ol start="7">
-<li>
-<p>项目（2个月）</p>
-<ol>
-<li><a href="https://github.com/Alinshans/MyTinySTL">MyTinySTL</a></li>
-<li><a href="https://vixbob.moe/25.html">Stanford CS144 Lab Assignment 学习笔记 | ViXbob的博客</a></li>
-<li><a href="https://github.com/qinguoyi/TinyWebServer">TinyWebServer</a></li>
-</ol>
-</li>
-<li>
-<p>其他（2个月）</p>
-</li>
-</ol>
-<pre tabindex="0"><code>《深入理解计算机系统》&amp;&amp;《计算机程序的构造和解释》
-</code></pre><h1 id="如何看项目源码">如何看项目源码</h1>
+<h1 id="如何看项目源码">如何看项目源码</h1>
 <ol>
 <li>运行，跑起来，用起来，知道这个项目有什么功能，满足什么需求</li>
 <li>找到项目入口 main函数</li>
@@ -1068,7 +1070,7 @@
 &lt;p&gt;GitHub（0305 真的有内容的时候，再做提交）&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;🌰（0319）（👋）&lt;/p&gt;
+&lt;p&gt;🌰👋（0319）&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;豁然开朗，随心所欲（0325）&lt;/p&gt;
@@ -1160,7 +1162,7 @@
 <p>GitHub（0305 真的有内容的时候，再做提交）</p>
 </li>
 <li>
-<p>🌰（0319）（👋）</p>
+<p>🌰👋（0319）</p>
 </li>
 <li>
 <p>豁然开朗，随心所欲（0325）</p>
