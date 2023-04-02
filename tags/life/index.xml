@@ -34,11 +34,13 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;操作系统（2个月）&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《操作系统导论》--&amp;gt;《现代操作系统》--&amp;gt;《操作系统：精髓与设计原理》
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《操作系统真象还原》
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《操作系统导论》--&amp;gt;《现代操作系统》--&amp;gt;《操作系统：精髓与设计原理》
 &lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;数据库（2个月）&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《MySQL是怎样运行的》--&amp;gt;《MySQL必知必会》--&amp;gt;《MySQL45讲》
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《MySQL必知必会》、《MySQL是怎样运行的》、《Redis设计与实现》
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《MySQL是怎样运行的》--&amp;gt;《MySQL必知必会》--&amp;gt;《MySQL45讲》
 《Redis设计与实现》--&amp;gt;《Redis实战》
 &lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;Linux 网络编程（2个月）&lt;/li&gt;
@@ -47,7 +49,8 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;
 &lt;li&gt;计算机网络&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《计算机网络：自顶向下方法》&amp;amp;&amp;amp;《TCP/IP详解 卷1：协议》
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《TCP/IP网络编程》、《Linux高性能服务器》
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《计算机网络：自顶向下方法》&amp;amp;&amp;amp;《TCP/IP详解 卷1：协议》
 &lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;7&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;项目（2个月）&lt;/p&gt;
@@ -198,11 +201,13 @@
 </code></pre><ol start="3">
 <li>操作系统（2个月）</li>
 </ol>
-<pre tabindex="0"><code>《操作系统导论》--&gt;《现代操作系统》--&gt;《操作系统：精髓与设计原理》
+<pre tabindex="0"><code>《操作系统真象还原》
+</code></pre><pre tabindex="0"><code>《操作系统导论》--&gt;《现代操作系统》--&gt;《操作系统：精髓与设计原理》
 </code></pre><ol start="4">
 <li>数据库（2个月）</li>
 </ol>
-<pre tabindex="0"><code>《MySQL是怎样运行的》--&gt;《MySQL必知必会》--&gt;《MySQL45讲》
+<pre tabindex="0"><code>《MySQL必知必会》、《MySQL是怎样运行的》、《Redis设计与实现》
+</code></pre><pre tabindex="0"><code>《MySQL是怎样运行的》--&gt;《MySQL必知必会》--&gt;《MySQL45讲》
 《Redis设计与实现》--&gt;《Redis实战》
 </code></pre><ol start="5">
 <li>Linux 网络编程（2个月）</li>
@@ -211,7 +216,8 @@
 </code></pre><ol start="6">
 <li>计算机网络</li>
 </ol>
-<pre tabindex="0"><code>《计算机网络：自顶向下方法》&amp;&amp;《TCP/IP详解 卷1：协议》
+<pre tabindex="0"><code>《TCP/IP网络编程》、《Linux高性能服务器》
+</code></pre><pre tabindex="0"><code>《计算机网络：自顶向下方法》&amp;&amp;《TCP/IP详解 卷1：协议》
 </code></pre><ol start="7">
 <li>
 <p>项目（2个月）</p>
