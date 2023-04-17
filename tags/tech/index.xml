@@ -798,14 +798,21 @@
 &lt;h2 id=&#34;第2章测试&#34;&gt;第2章测试&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643ccc391f9a5.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643ccc391f9a5.jpg&#34; alt=&#34;8d17d77927b3a58ed15bc6137cc3a57.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/09/6432b9b15f0c0.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/04/09/6432b9b15f0c0.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
 
-解答：
-B：三极管是电流控制电流元件，输入电压的微小变化引起 Ib 的很大变化量，
+B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转换为 基极电流 的变化
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/09/6432b9e8ce764.png&#34;&gt;
@@ -862,6 +869,23 @@ B：三极管是电流控制电流元件，输入电压的微小变化引起 Ib 
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h2 id=&#34;第3章测试&#34;&gt;第3章测试&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643ccc3fe785f.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643ccc3fe785f.jpg&#34; alt=&#34;4ae2ec99a580b522da12acad59ac1b3.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643ccd148c5de.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643ccd148c5de.jpg&#34; alt=&#34;78ac028fa0a351285ad4150b502108c.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h2 id="第1章测试">第1章测试</h2>
 <ol>
@@ -870,14 +894,21 @@ B：三极管是电流控制电流元件，输入电压的微小变化引起 Ib 
 <h2 id="第2章测试">第2章测试</h2>
 <p>
 <div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643ccc391f9a5.jpg">
+<img src="https://bu.dusays.com/2023/04/17/643ccc391f9a5.jpg" alt="8d17d77927b3a58ed15bc6137cc3a57.jpg"  />
+</a>
+</div>
+
+</p>
+<p>
+<div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/09/6432b9b15f0c0.png">
 <img src="https://bu.dusays.com/2023/04/09/6432b9b15f0c0.png" alt="image.png"  />
 </a>
 </div>
 
 
-解答：
-B：三极管是电流控制电流元件，输入电压的微小变化引起 Ib 的很大变化量，
+B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转换为 基极电流 的变化
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/09/6432b9e8ce764.png">
@@ -930,6 +961,23 @@ B：三极管是电流控制电流元件，输入电压的微小变化引起 Ib 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/09/6432ba8cdf789.png">
 <img src="https://bu.dusays.com/2023/04/09/6432ba8cdf789.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="第3章测试">第3章测试</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643ccc3fe785f.jpg">
+<img src="https://bu.dusays.com/2023/04/17/643ccc3fe785f.jpg" alt="4ae2ec99a580b522da12acad59ac1b3.jpg"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643ccd148c5de.jpg">
+<img src="https://bu.dusays.com/2023/04/17/643ccd148c5de.jpg" alt="78ac028fa0a351285ad4150b502108c.jpg"  />
 </a>
 </div>
 
@@ -3957,6 +4005,7 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&amp;gt;0$$
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h1 id=&#34;随机样本&#34;&gt;随机样本&lt;/h1&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1D741147G5/?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【梨米特】全网最适合大学生学习的《概率论与数理统计》课，概率统计知识点全解析（适合大一学习、考研复习基础）&lt;/a&gt;&lt;/li&gt;
@@ -6923,6 +6972,7 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&gt;0$$
 </div>
 
 </p>
+<h1 id="随机样本">随机样本</h1>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ol>
 <li><a href="https://www.bilibili.com/video/BV1D741147G5/?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b">【梨米特】全网最适合大学生学习的《概率论与数理统计》课，概率统计知识点全解析（适合大一学习、考研复习基础）</a></li>
