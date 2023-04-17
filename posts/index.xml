@@ -2660,10 +2660,10 @@ $$f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
 &lt;/p&gt;
 &lt;h2 id=&#34;指数分布&#34;&gt;指数分布&lt;/h2&gt;
 &lt;p&gt;定义：若随机变量 X 的概率密度为
-$$f(x)=\lambda e^{-\lambda x}\ ,x&amp;gt;0$$
+$$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 其中 $\lambda &amp;gt; 0$ 为常数
 则称 X 服从参数为 $\lambda$ 的指数分布，记为$X\sim E(\lambda)$&lt;/p&gt;
-&lt;p&gt;$$E(X)=\frac{1}{\lambda},D(X)=\frac{1}{\lambda^2}$$&lt;/p&gt;
+&lt;p&gt;$$E(X)=\lambda,D(X)=\lambda^2$$&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/16/641297b482095.png&#34;&gt;
@@ -5362,6 +5362,131 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&amp;gt;0$$
 &lt;/a&gt;
 &lt;/div&gt;
 
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d36bd8800b.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d36bd8800b.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;例1-22&#34;&gt;例1&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d37dc3979f.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d37dc3979f.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d3895242ed.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d3895242ed.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d393c94e51.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d393c94e51.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d395771ddd.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d395771ddd.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;例2-12&#34;&gt;例2&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d39cfc3845.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d39cfc3845.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d39f19239a.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d39f19239a.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;小结-11&#34;&gt;小结&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d3a3d3c264.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d3a3d3c264.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h1 id=&#34;直方图&#34;&gt;直方图&lt;/h1&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d3a75249d7.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d3a75249d7.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;例1-23&#34;&gt;例1&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d3a9ad8be4.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d3a9ad8be4.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d3abc3f128.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d3abc3f128.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d3af56b865.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d3af56b865.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d3b5f83197.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d3b5f83197.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d3b98cf639.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d3b98cf639.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d3c7631140.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d3c7631140.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
 &lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ol&gt;
@@ -5694,10 +5819,10 @@ $$f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
 </p>
 <h2 id="指数分布">指数分布</h2>
 <p>定义：若随机变量 X 的概率密度为
-$$f(x)=\lambda e^{-\lambda x}\ ,x&gt;0$$
+$$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 其中 $\lambda &gt; 0$ 为常数
 则称 X 服从参数为 $\lambda$ 的指数分布，记为$X\sim E(\lambda)$</p>
-<p>$$E(X)=\frac{1}{\lambda},D(X)=\frac{1}{\lambda^2}$$</p>
+<p>$$E(X)=\lambda,D(X)=\lambda^2$$</p>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/16/641297b482095.png">
@@ -8393,6 +8518,131 @@ $$f(x)=\lambda e^{-\lambda x}\ ,x&gt;0$$
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d365cdb791.png">
 <img src="https://bu.dusays.com/2023/04/17/643d365cdb791.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d36bd8800b.png">
+<img src="https://bu.dusays.com/2023/04/17/643d36bd8800b.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="例1-22">例1</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d37dc3979f.png">
+<img src="https://bu.dusays.com/2023/04/17/643d37dc3979f.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d3895242ed.png">
+<img src="https://bu.dusays.com/2023/04/17/643d3895242ed.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d393c94e51.png">
+<img src="https://bu.dusays.com/2023/04/17/643d393c94e51.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d395771ddd.png">
+<img src="https://bu.dusays.com/2023/04/17/643d395771ddd.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="例2-12">例2</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d39cfc3845.png">
+<img src="https://bu.dusays.com/2023/04/17/643d39cfc3845.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d39f19239a.png">
+<img src="https://bu.dusays.com/2023/04/17/643d39f19239a.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="小结-11">小结</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d3a3d3c264.png">
+<img src="https://bu.dusays.com/2023/04/17/643d3a3d3c264.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h1 id="直方图">直方图</h1>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d3a75249d7.png">
+<img src="https://bu.dusays.com/2023/04/17/643d3a75249d7.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="例1-23">例1</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d3a9ad8be4.png">
+<img src="https://bu.dusays.com/2023/04/17/643d3a9ad8be4.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d3abc3f128.png">
+<img src="https://bu.dusays.com/2023/04/17/643d3abc3f128.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d3af56b865.png">
+<img src="https://bu.dusays.com/2023/04/17/643d3af56b865.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d3b5f83197.png">
+<img src="https://bu.dusays.com/2023/04/17/643d3b5f83197.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d3b98cf639.png">
+<img src="https://bu.dusays.com/2023/04/17/643d3b98cf639.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d3c7631140.png">
+<img src="https://bu.dusays.com/2023/04/17/643d3c7631140.png" alt="image.png"  />
 </a>
 </div>
 
