@@ -4233,6 +4233,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 
 &lt;/p&gt;
 &lt;h2 id=&#34;几个常用的统计量&#34;&gt;几个常用的统计量&lt;/h2&gt;
+&lt;h3 id=&#34;样本的平均值&#34;&gt;样本的平均值&lt;/h3&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d3fe09d0bc.png&#34;&gt;
@@ -4240,8 +4241,9 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 &lt;/a&gt;
 &lt;/div&gt;
 
-
-
+&lt;/p&gt;
+&lt;h3 id=&#34;样本的方差标准差&#34;&gt;样本的方差、标准差&lt;/h3&gt;
+&lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d4bf0a81ec.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d4bf0a81ec.png&#34; alt=&#34;image.png&#34;  /&gt;
@@ -4264,8 +4266,9 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 &lt;/a&gt;
 &lt;/div&gt;
 
-
-
+&lt;/p&gt;
+&lt;h3 id=&#34;样本的-k-阶矩&#34;&gt;样本的 k 阶矩&lt;/h3&gt;
+&lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/17/643d4da69d523.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/04/17/643d4da69d523.png&#34; alt=&#34;image.png&#34;  /&gt;
@@ -7467,6 +7470,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 
 </p>
 <h2 id="几个常用的统计量">几个常用的统计量</h2>
+<h3 id="样本的平均值">样本的平均值</h3>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d3fe09d0bc.png">
@@ -7474,8 +7478,9 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 </a>
 </div>
 
-
-
+</p>
+<h3 id="样本的方差标准差">样本的方差、标准差</h3>
+<p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d4bf0a81ec.png">
 <img src="https://bu.dusays.com/2023/04/17/643d4bf0a81ec.png" alt="image.png"  />
@@ -7498,8 +7503,9 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 </a>
 </div>
 
-
-
+</p>
+<h3 id="样本的-k-阶矩">样本的 k 阶矩</h3>
+<p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/17/643d4da69d523.png">
 <img src="https://bu.dusays.com/2023/04/17/643d4da69d523.png" alt="image.png"  />
