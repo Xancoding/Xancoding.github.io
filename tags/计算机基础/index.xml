@@ -1368,7 +1368,16 @@ false:
 
 next:
 	
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;部分知识点-1&#34;&gt;部分知识点&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;程序框架&#34;&gt;程序框架&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/18/643ea60830801.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/18/643ea60830801.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h1 id=&#34;部分知识点-1&#34;&gt;部分知识点&lt;/h1&gt;
 &lt;h2 id=&#34;mov-指令&#34;&gt;MOV 指令&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;寄存器、段寄存器、内存单元、立即数&lt;/li&gt;
@@ -2895,7 +2904,16 @@ false:
 
 next:
 	
-</code></pre><h1 id="部分知识点-1">部分知识点</h1>
+</code></pre><h2 id="程序框架">程序框架</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/18/643ea60830801.png">
+<img src="https://bu.dusays.com/2023/04/18/643ea60830801.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h1 id="部分知识点-1">部分知识点</h1>
 <h2 id="mov-指令">MOV 指令</h2>
 <ul>
 <li>寄存器、段寄存器、内存单元、立即数</li>
