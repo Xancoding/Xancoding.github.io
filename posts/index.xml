@@ -13295,15 +13295,32 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 &lt;/div&gt;
 
  &amp;ndash; D&lt;/li&gt;
-&lt;li&gt;
+&lt;li&gt;在汇编源程序中，数据不能以字母开头，所以要在前面加 0，如 0FFF0H&lt;/li&gt;
+&lt;li&gt;在汇编源程序中，指令 &lt;strong&gt;mov ax, [0]&lt;/strong&gt; 被编译器当作指令 &lt;strong&gt;mov ax, 0&lt;/strong&gt; 处理
+&lt;ol&gt;
+&lt;li&gt;Debug 将 &lt;strong&gt;[idata]&lt;/strong&gt; 解释为 一个内存单元&lt;/li&gt;
+&lt;li&gt;编译器将 *&lt;em&gt;[idata]&lt;/em&gt; 解释为 &lt;strong&gt;idata&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;dos-系统中-exe-文件中程序的加载过程&#34;&gt;DOS 系统中 .EXE 文件中程序的加载过程&lt;/h1&gt;
+&lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/18/643ea136bcf84.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/04/18/643ea136bcf84.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;/li&gt;
-&lt;/ol&gt;
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/18/643ea14453a38.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/18/643ea14453a38.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;汇编代码格式&#34;&gt;汇编代码格式&lt;/h1&gt;
 &lt;h2 id=&#34;1&#34;&gt;1&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ASSUME CS:CODE, DS:DATA
@@ -14805,15 +14822,32 @@ end start
 </div>
 
  &ndash; D</li>
-<li>
+<li>在汇编源程序中，数据不能以字母开头，所以要在前面加 0，如 0FFF0H</li>
+<li>在汇编源程序中，指令 <strong>mov ax, [0]</strong> 被编译器当作指令 <strong>mov ax, 0</strong> 处理
+<ol>
+<li>Debug 将 <strong>[idata]</strong> 解释为 一个内存单元</li>
+<li>编译器将 *<em>[idata]</em> 解释为 <strong>idata</strong></li>
+</ol>
+</li>
+<li></li>
+</ol>
+<h1 id="dos-系统中-exe-文件中程序的加载过程">DOS 系统中 .EXE 文件中程序的加载过程</h1>
+<p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/18/643ea136bcf84.png">
 <img src="https://bu.dusays.com/2023/04/18/643ea136bcf84.png" alt="image.png"  />
 </a>
 </div>
 
-</li>
-</ol>
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/18/643ea14453a38.png">
+<img src="https://bu.dusays.com/2023/04/18/643ea14453a38.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
 <h1 id="汇编代码格式">汇编代码格式</h1>
 <h2 id="1">1</h2>
 <pre tabindex="0"><code>ASSUME CS:CODE, DS:DATA
