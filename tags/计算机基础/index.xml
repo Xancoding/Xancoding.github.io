@@ -1233,6 +1233,27 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;汇编语言是任何一种用于电子计算机、微处理器、微控制器，或其他可编程器件的低级语言&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h1 id=&#34;部分知识点&#34;&gt;部分知识点&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;一个段的起始地址必定是 16 的倍数 &amp;ndash; CS * 10H&lt;/li&gt;
+&lt;li&gt;一个段的最大长度是 64KB &amp;ndash; IP 寄存器长度为 16 位，$2^{16} = 64$&lt;/li&gt;
+&lt;li&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/18/643e9450302b8.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/18/643e9450302b8.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+ &amp;ndash; A&lt;/li&gt;
+&lt;li&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/18/643e9514cc0f9.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/18/643e9514cc0f9.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+ &amp;ndash; D&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1 id=&#34;汇编代码格式&#34;&gt;汇编代码格式&lt;/h1&gt;
 &lt;h2 id=&#34;1&#34;&gt;1&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ASSUME CS:CODE, DS:DATA
@@ -1322,7 +1343,7 @@ false:
 
 next:
 	
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;部分知识点&#34;&gt;部分知识点&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;部分知识点-1&#34;&gt;部分知识点&lt;/h1&gt;
 &lt;h2 id=&#34;mov-指令&#34;&gt;MOV 指令&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;寄存器、段寄存器、内存单元、立即数&lt;/li&gt;
@@ -1351,8 +1372,8 @@ next:
 &lt;hr&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/10/640ae7a051629.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/03/10/640ae7a051629.jpg&#34; alt=&#34;d3d1cd5ac957ba3f5ca72f8b77f8ce5.jpg&#34;  /&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/18/643e95fcf0ea5.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/18/643e95fcf0ea5.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -2714,6 +2735,27 @@ end start
 <blockquote>
 <p><strong>汇编语言是任何一种用于电子计算机、微处理器、微控制器，或其他可编程器件的低级语言</strong></p>
 </blockquote>
+<h1 id="部分知识点">部分知识点</h1>
+<ol>
+<li>一个段的起始地址必定是 16 的倍数 &ndash; CS * 10H</li>
+<li>一个段的最大长度是 64KB &ndash; IP 寄存器长度为 16 位，$2^{16} = 64$</li>
+<li>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/18/643e9450302b8.png">
+<img src="https://bu.dusays.com/2023/04/18/643e9450302b8.png" alt="image.png"  />
+</a>
+</div>
+
+ &ndash; A</li>
+<li>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/18/643e9514cc0f9.png">
+<img src="https://bu.dusays.com/2023/04/18/643e9514cc0f9.png" alt="image.png"  />
+</a>
+</div>
+
+ &ndash; D</li>
+</ol>
 <h1 id="汇编代码格式">汇编代码格式</h1>
 <h2 id="1">1</h2>
 <pre tabindex="0"><code>ASSUME CS:CODE, DS:DATA
@@ -2803,7 +2845,7 @@ false:
 
 next:
 	
-</code></pre><h1 id="部分知识点">部分知识点</h1>
+</code></pre><h1 id="部分知识点-1">部分知识点</h1>
 <h2 id="mov-指令">MOV 指令</h2>
 <ul>
 <li>寄存器、段寄存器、内存单元、立即数</li>
@@ -2832,8 +2874,8 @@ next:
 <hr>
 <p>
 <div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/10/640ae7a051629.jpg">
-<img src="https://bu.dusays.com/2023/03/10/640ae7a051629.jpg" alt="d3d1cd5ac957ba3f5ca72f8b77f8ce5.jpg"  />
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/18/643e95fcf0ea5.png">
+<img src="https://bu.dusays.com/2023/04/18/643e95fcf0ea5.png" alt="image.png"  />
 </a>
 </div>
 
