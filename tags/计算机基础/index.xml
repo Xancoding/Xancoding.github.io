@@ -1271,6 +1271,8 @@
 &lt;li&gt;根据位移进行转换的 汇编指令 方便了程序段在内存中的浮动装配&lt;/li&gt;
 &lt;li&gt;如果在源程序中出现了转移范围超界的问题在编译的时候，编译器将报错&lt;/li&gt;
 &lt;li&gt;mov、push、pop等指令的执行对标志寄存器没有影响&lt;/li&gt;
+&lt;li&gt;CF 标志 &amp;ndash; 无符号数 进位或借位&lt;/li&gt;
+&lt;li&gt;OF 标志 &amp;ndash; 有符号数 溢出&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;dos-系统中-exe-文件中程序的加载过程&#34;&gt;DOS 系统中 .EXE 文件中程序的加载过程&lt;/h1&gt;
 &lt;p&gt;
@@ -3117,6 +3119,8 @@ end start
 <li>根据位移进行转换的 汇编指令 方便了程序段在内存中的浮动装配</li>
 <li>如果在源程序中出现了转移范围超界的问题在编译的时候，编译器将报错</li>
 <li>mov、push、pop等指令的执行对标志寄存器没有影响</li>
+<li>CF 标志 &ndash; 无符号数 进位或借位</li>
+<li>OF 标志 &ndash; 有符号数 溢出</li>
 </ol>
 <h1 id="dos-系统中-exe-文件中程序的加载过程">DOS 系统中 .EXE 文件中程序的加载过程</h1>
 <p>
