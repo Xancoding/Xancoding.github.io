@@ -9235,7 +9235,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 
 &lt;/p&gt;
 &lt;h1 id=&#34;程序设计框架&#34;&gt;程序设计框架&lt;/h1&gt;
-&lt;h2 id=&#34;1&#34;&gt;1&lt;/h2&gt;
+&lt;h2 id=&#34;主程序设计框架&#34;&gt;主程序设计框架&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ASSUME CS:CODE, DS:DATA
 
 DATA SEGMENT
@@ -9249,7 +9249,7 @@ START:
 CODE ENDS
 
 END START
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;子程序shej&#34;&gt;子程序she&amp;rsquo;j&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;子程序设计框架-1&#34;&gt;子程序设计框架 1&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ASSUME CS:CODE, DS:DATA
 
 DATA SEGMENT
@@ -9275,7 +9275,7 @@ SUB1 ENDP
 CODE ENDS
 
 END START
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;3&#34;&gt;3&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;子程序设计框架-2&#34;&gt;子程序设计框架 2&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;; 调用程序和过程在同一代码段中，则使用NEAR属性
 ; 调用程序和过程在不同代码段中，则使用FAR属性
 ; 缺省值为 NEAR
@@ -9328,6 +9328,14 @@ next:
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/18/643ea60830801.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/04/18/643ea60830801.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f43f018901.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f43f018901.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -10991,7 +10999,7 @@ end start
 
 </p>
 <h1 id="程序设计框架">程序设计框架</h1>
-<h2 id="1">1</h2>
+<h2 id="主程序设计框架">主程序设计框架</h2>
 <pre tabindex="0"><code>ASSUME CS:CODE, DS:DATA
 
 DATA SEGMENT
@@ -11005,7 +11013,7 @@ START:
 CODE ENDS
 
 END START
-</code></pre><h2 id="子程序shej">子程序she&rsquo;j</h2>
+</code></pre><h2 id="子程序设计框架-1">子程序设计框架 1</h2>
 <pre tabindex="0"><code>ASSUME CS:CODE, DS:DATA
 
 DATA SEGMENT
@@ -11031,7 +11039,7 @@ SUB1 ENDP
 CODE ENDS
 
 END START
-</code></pre><h2 id="3">3</h2>
+</code></pre><h2 id="子程序设计框架-2">子程序设计框架 2</h2>
 <pre tabindex="0"><code>; 调用程序和过程在同一代码段中，则使用NEAR属性
 ; 调用程序和过程在不同代码段中，则使用FAR属性
 ; 缺省值为 NEAR
@@ -11084,6 +11092,14 @@ next:
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/18/643ea60830801.png">
 <img src="https://bu.dusays.com/2023/04/18/643ea60830801.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f43f018901.png">
+<img src="https://bu.dusays.com/2023/04/19/643f43f018901.png" alt="image.png"  />
 </a>
 </div>
 
