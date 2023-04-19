@@ -9383,6 +9383,15 @@ next:
 &lt;p&gt;AX、BX、CX、DX、BP、SP、SI、DI&lt;/p&gt;
 &lt;h3 id=&#34;段寄存器&#34;&gt;段寄存器&lt;/h3&gt;
 &lt;p&gt;DS、SS、CS、ES&lt;/p&gt;
+&lt;h2 id=&#34;寻址方式&#34;&gt;寻址方式&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;&#34;&gt;
+&lt;img src=&#34;&#34; alt=&#34;Uploading file&amp;amp;hellip;w6rw3&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h2 id=&#34;转移指令的原理&#34;&gt;转移指令的原理&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;段内段转移（8位）（IP）：依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
@@ -10927,6 +10936,15 @@ next:
 <p>AX、BX、CX、DX、BP、SP、SI、DI</p>
 <h3 id="段寄存器">段寄存器</h3>
 <p>DS、SS、CS、ES</p>
+<h2 id="寻址方式">寻址方式</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="">
+<img src="" alt="Uploading file&amp;hellip;w6rw3"  />
+</a>
+</div>
+
+</p>
 <h2 id="转移指令的原理">转移指令的原理</h2>
 <ol>
 <li>段内段转移（8位）（IP）：依据<strong>位移</strong>进行转移的 jmp 指令</li>
