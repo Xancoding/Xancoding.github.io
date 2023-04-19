@@ -9219,6 +9219,19 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 &lt;li&gt;mov、push、pop等指令的执行对标志寄存器没有影响&lt;/li&gt;
 &lt;li&gt;CF 标志 &amp;ndash; 无符号数 进位或借位&lt;/li&gt;
 &lt;li&gt;OF 标志 &amp;ndash; 有符号数 溢出&lt;/li&gt;
+&lt;li&gt;内中断
+&lt;ul&gt;
+&lt;li&gt;CPU 内部产生如下情况时
+&lt;ol&gt;
+&lt;li&gt;除法错误&lt;/li&gt;
+&lt;li&gt;单步执行&lt;/li&gt;
+&lt;li&gt;执行 into 指令&lt;/li&gt;
+&lt;li&gt;执行 int 指令&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;dos-系统中-exe-文件中程序的加载过程&#34;&gt;DOS 系统中 .EXE 文件中程序的加载过程&lt;/h1&gt;
 &lt;p&gt;
@@ -9965,6 +9978,24 @@ next:
 
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;h2 id=&#34;软件中断&#34;&gt;软件中断&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f7cf641ae1.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f7cf641ae1.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;硬件中断&#34;&gt;硬件中断&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f7d2aaf373.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f7d2aaf373.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;基本算法&#34;&gt;基本算法&lt;/h1&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -11303,6 +11334,19 @@ end start
 <li>mov、push、pop等指令的执行对标志寄存器没有影响</li>
 <li>CF 标志 &ndash; 无符号数 进位或借位</li>
 <li>OF 标志 &ndash; 有符号数 溢出</li>
+<li>内中断
+<ul>
+<li>CPU 内部产生如下情况时
+<ol>
+<li>除法错误</li>
+<li>单步执行</li>
+<li>执行 into 指令</li>
+<li>执行 int 指令</li>
+</ol>
+</li>
+</ul>
+</li>
+<li></li>
 </ol>
 <h1 id="dos-系统中-exe-文件中程序的加载过程">DOS 系统中 .EXE 文件中程序的加载过程</h1>
 <p>
@@ -12049,6 +12093,24 @@ next:
 
 </li>
 </ol>
+<h2 id="软件中断">软件中断</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f7cf641ae1.png">
+<img src="https://bu.dusays.com/2023/04/19/643f7cf641ae1.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="硬件中断">硬件中断</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f7d2aaf373.png">
+<img src="https://bu.dusays.com/2023/04/19/643f7d2aaf373.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
 <h1 id="基本算法">基本算法</h1>
 <p>
 <div class="post-img-view">
