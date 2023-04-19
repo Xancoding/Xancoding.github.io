@@ -5669,6 +5669,41 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h1 id=&#34;三大抽样分布&#34;&gt;三大抽样分布&lt;/h1&gt;
+&lt;h2 id=&#34;卡方分布&#34;&gt;卡方分布&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f84f43e4c4.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f84f43e4c4.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f853049f43.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f853049f43.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f853aa88ac.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f853aa88ac.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f85aa0b3d8.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f85aa0b3d8.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;例题-5&#34;&gt;例题&lt;/h3&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1D741147G5/?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【梨米特】全网最适合大学生学习的《概率论与数理统计》课，概率统计知识点全解析（适合大一学习、考研复习基础）&lt;/a&gt;&lt;/li&gt;
@@ -9009,6 +9044,41 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 </div>
 
 </p>
+<h1 id="三大抽样分布">三大抽样分布</h1>
+<h2 id="卡方分布">卡方分布</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f84f43e4c4.png">
+<img src="https://bu.dusays.com/2023/04/19/643f84f43e4c4.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f853049f43.png">
+<img src="https://bu.dusays.com/2023/04/19/643f853049f43.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f853aa88ac.png">
+<img src="https://bu.dusays.com/2023/04/19/643f853aa88ac.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f85aa0b3d8.png">
+<img src="https://bu.dusays.com/2023/04/19/643f85aa0b3d8.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="例题-5">例题</h3>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ol>
 <li><a href="https://www.bilibili.com/video/BV1D741147G5/?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b">【梨米特】全网最适合大学生学习的《概率论与数理统计》课，概率统计知识点全解析（适合大一学习、考研复习基础）</a></li>
@@ -13317,7 +13387,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 &lt;li&gt;OF 标志 &amp;ndash; 有符号数 溢出&lt;/li&gt;
 &lt;li&gt;内中断
 &lt;ul&gt;
-&lt;li&gt;CPU 内部产生如下情况时
+&lt;li&gt;CPU 内部产生如下情况时，中断类型码在 CPU 内部产生
 &lt;ol&gt;
 &lt;li&gt;除法错误&lt;/li&gt;
 &lt;li&gt;单步执行&lt;/li&gt;
@@ -13327,25 +13397,18 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;外中断
+&lt;ol&gt;
+&lt;li&gt;可屏蔽中断
+&lt;ul&gt;
+&lt;li&gt;来自于CPU外部，中断类型码通过数据总线送入 CPU&lt;/li&gt;
+&lt;li&gt;几乎所有由外设引发的外中断，都是可屏蔽中断。比如说键盘输入发生时, 相关芯片向CPU发出可屏蔽中断信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;不可屏蔽中断&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;dos-系统中-exe-文件中程序的加载过程&#34;&gt;DOS 系统中 .EXE 文件中程序的加载过程&lt;/h1&gt;
-&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/18/643ea136bcf84.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/04/18/643ea136bcf84.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/18/643ea14453a38.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/04/18/643ea14453a38.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1 id=&#34;程序设计框架&#34;&gt;程序设计框架&lt;/h1&gt;
 &lt;h2 id=&#34;主程序设计框架&#34;&gt;主程序设计框架&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ASSUME CS:CODE, DS:DATA
@@ -13541,6 +13604,23 @@ next:
 
 &lt;/p&gt;
 &lt;h1 id=&#34;部分知识点-1&#34;&gt;部分知识点&lt;/h1&gt;
+&lt;h2 id=&#34;dos-系统中-exe-文件中程序的加载过程&#34;&gt;DOS 系统中 .EXE 文件中程序的加载过程&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f8024b6309.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f8024b6309.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f803b14b63.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f803b14b63.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h2 id=&#34;指令&#34;&gt;指令&lt;/h2&gt;
 &lt;h3 id=&#34;mov-指令----数据传送指令&#34;&gt;MOV 指令 &amp;ndash; 数据传送指令&lt;/h3&gt;
 &lt;ul&gt;
@@ -13733,7 +13813,7 @@ next:
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;call-和-rret指令----转移指令&#34;&gt;CALL 和 RRET指令 &amp;ndash; 转移指令&lt;/h3&gt;
+&lt;h3 id=&#34;call-和-ret指令----转移指令&#34;&gt;CALL 和 RET指令 &amp;ndash; 转移指令&lt;/h3&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f43768ae64.png&#34;&gt;
@@ -15432,7 +15512,7 @@ end start
 <li>OF 标志 &ndash; 有符号数 溢出</li>
 <li>内中断
 <ul>
-<li>CPU 内部产生如下情况时
+<li>CPU 内部产生如下情况时，中断类型码在 CPU 内部产生
 <ol>
 <li>除法错误</li>
 <li>单步执行</li>
@@ -15442,25 +15522,18 @@ end start
 </li>
 </ul>
 </li>
-<li></li>
+<li>外中断
+<ol>
+<li>可屏蔽中断
+<ul>
+<li>来自于CPU外部，中断类型码通过数据总线送入 CPU</li>
+<li>几乎所有由外设引发的外中断，都是可屏蔽中断。比如说键盘输入发生时, 相关芯片向CPU发出可屏蔽中断信息</li>
+</ul>
+</li>
+<li>不可屏蔽中断</li>
 </ol>
-<h1 id="dos-系统中-exe-文件中程序的加载过程">DOS 系统中 .EXE 文件中程序的加载过程</h1>
-<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/18/643ea136bcf84.png">
-<img src="https://bu.dusays.com/2023/04/18/643ea136bcf84.png" alt="image.png"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/18/643ea14453a38.png">
-<img src="https://bu.dusays.com/2023/04/18/643ea14453a38.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
+</li>
+</ol>
 <h1 id="程序设计框架">程序设计框架</h1>
 <h2 id="主程序设计框架">主程序设计框架</h2>
 <pre tabindex="0"><code>ASSUME CS:CODE, DS:DATA
@@ -15656,6 +15729,23 @@ next:
 
 </p>
 <h1 id="部分知识点-1">部分知识点</h1>
+<h2 id="dos-系统中-exe-文件中程序的加载过程">DOS 系统中 .EXE 文件中程序的加载过程</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f8024b6309.png">
+<img src="https://bu.dusays.com/2023/04/19/643f8024b6309.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f803b14b63.png">
+<img src="https://bu.dusays.com/2023/04/19/643f803b14b63.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
 <h2 id="指令">指令</h2>
 <h3 id="mov-指令----数据传送指令">MOV 指令 &ndash; 数据传送指令</h3>
 <ul>
@@ -15848,7 +15938,7 @@ next:
 </div>
 
 </p>
-<h3 id="call-和-rret指令----转移指令">CALL 和 RRET指令 &ndash; 转移指令</h3>
+<h3 id="call-和-ret指令----转移指令">CALL 和 RET指令 &ndash; 转移指令</h3>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f43768ae64.png">
