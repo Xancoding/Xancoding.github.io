@@ -9264,9 +9264,9 @@ START:
     MOV AX, 4c00H
     INT 21H
 
-; 功能：
-; 参数：
-; 返回：
+; 功能：计算 N 的 3 次方
+; 参数：(bx) = N
+; 返回：(dx:ax) = N^3
 SUB1 PROC
     ...
     RET
@@ -9401,7 +9401,7 @@ next:
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;div-指令&#34;&gt;DIV 指令&lt;/h3&gt;
+&lt;h3 id=&#34;div-指令----无符号除法指令&#34;&gt;DIV 指令 &amp;ndash; 无符号除法指令&lt;/h3&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f37f2224ac.png&#34;&gt;
@@ -9538,6 +9538,15 @@ next:
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f43768ae64.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f43768ae64.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;mul-指令----无符号乘法指令&#34;&gt;MUL 指令 &amp;ndash; 无符号乘法指令&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f462f51dc9.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f462f51dc9.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -11028,9 +11037,9 @@ START:
     MOV AX, 4c00H
     INT 21H
 
-; 功能：
-; 参数：
-; 返回：
+; 功能：计算 N 的 3 次方
+; 参数：(bx) = N
+; 返回：(dx:ax) = N^3
 SUB1 PROC
     ...
     RET
@@ -11165,7 +11174,7 @@ next:
 </div>
 
 </p>
-<h3 id="div-指令">DIV 指令</h3>
+<h3 id="div-指令----无符号除法指令">DIV 指令 &ndash; 无符号除法指令</h3>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f37f2224ac.png">
@@ -11302,6 +11311,15 @@ next:
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f43768ae64.png">
 <img src="https://bu.dusays.com/2023/04/19/643f43768ae64.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="mul-指令----无符号乘法指令">MUL 指令 &ndash; 无符号乘法指令</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f462f51dc9.png">
+<img src="https://bu.dusays.com/2023/04/19/643f462f51dc9.png" alt="image.png"  />
 </a>
 </div>
 
