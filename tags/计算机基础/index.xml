@@ -1413,7 +1413,51 @@ next:
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;保存和恢复寄存器&#34;&gt;保存和恢复寄存器&lt;/h2&gt;
+&lt;h2 id=&#34;子程序&#34;&gt;子程序&lt;/h2&gt;
+&lt;h3 id=&#34;传递参数&#34;&gt;传递参数&lt;/h3&gt;
+&lt;h4 id=&#34;寄存器传递----参数较少&#34;&gt;寄存器传递 &amp;ndash; 参数较少&lt;/h4&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f6ef1bdb8b.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f6ef1bdb8b.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f6f0ae937b.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f6f0ae937b.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h4 id=&#34;内存空间传递----参数较多&#34;&gt;内存空间传递 &amp;ndash; 参数较多&lt;/h4&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f6f6c221b7.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f6f6c221b7.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f6f996a4ed.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f6f996a4ed.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f6faf891c3.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f6faf891c3.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;保存和恢复寄存器&#34;&gt;保存和恢复寄存器&lt;/h3&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f4839770e3.png&#34;&gt;
@@ -3214,7 +3258,51 @@ next:
 </div>
 
 </p>
-<h2 id="保存和恢复寄存器">保存和恢复寄存器</h2>
+<h2 id="子程序">子程序</h2>
+<h3 id="传递参数">传递参数</h3>
+<h4 id="寄存器传递----参数较少">寄存器传递 &ndash; 参数较少</h4>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f6ef1bdb8b.png">
+<img src="https://bu.dusays.com/2023/04/19/643f6ef1bdb8b.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f6f0ae937b.png">
+<img src="https://bu.dusays.com/2023/04/19/643f6f0ae937b.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h4 id="内存空间传递----参数较多">内存空间传递 &ndash; 参数较多</h4>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f6f6c221b7.png">
+<img src="https://bu.dusays.com/2023/04/19/643f6f6c221b7.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f6f996a4ed.png">
+<img src="https://bu.dusays.com/2023/04/19/643f6f996a4ed.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f6faf891c3.png">
+<img src="https://bu.dusays.com/2023/04/19/643f6faf891c3.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="保存和恢复寄存器">保存和恢复寄存器</h3>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f4839770e3.png">
