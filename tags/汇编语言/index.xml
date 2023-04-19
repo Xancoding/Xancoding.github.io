@@ -52,7 +52,8 @@
 &lt;li&gt;编译器将 &lt;strong&gt;[idata]&lt;/strong&gt; 解释为 &lt;strong&gt;idata&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;根据位移进行转换的 汇编指令 方便了程序段在内存中的浮动装配&lt;/li&gt;
+&lt;li&gt;如果在源程序中出现了转移范围超界（gen）的问题在编译的时候，编译器将报错&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;dos-系统中-exe-文件中程序的加载过程&#34;&gt;DOS 系统中 .EXE 文件中程序的加载过程&lt;/h1&gt;
 &lt;p&gt;
@@ -328,6 +329,40 @@ next:
 
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;h3 id=&#34;jcxz-指令----有条件转移指令&#34;&gt;JCXZ 指令 &amp;ndash; 有条件转移指令&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f4180d36f8.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f4180d36f8.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f41af1bc94.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f41af1bc94.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;loop-指令----循环指令&#34;&gt;LOOP 指令 &amp;ndash; 循环指令&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f41daf1a0d.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f41daf1a0d.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f41ee63b73.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f41ee63b73.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h3 id=&#34;cmp-指令-与-标志寄存器&#34;&gt;CMP 指令 与 标志寄存器&lt;/h3&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -1764,7 +1799,8 @@ end start
 <li>编译器将 <strong>[idata]</strong> 解释为 <strong>idata</strong></li>
 </ol>
 </li>
-<li></li>
+<li>根据位移进行转换的 汇编指令 方便了程序段在内存中的浮动装配</li>
+<li>如果在源程序中出现了转移范围超界（gen）的问题在编译的时候，编译器将报错</li>
 </ol>
 <h1 id="dos-系统中-exe-文件中程序的加载过程">DOS 系统中 .EXE 文件中程序的加载过程</h1>
 <p>
@@ -2040,6 +2076,40 @@ next:
 
 </li>
 </ol>
+<h3 id="jcxz-指令----有条件转移指令">JCXZ 指令 &ndash; 有条件转移指令</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f4180d36f8.png">
+<img src="https://bu.dusays.com/2023/04/19/643f4180d36f8.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f41af1bc94.png">
+<img src="https://bu.dusays.com/2023/04/19/643f41af1bc94.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="loop-指令----循环指令">LOOP 指令 &ndash; 循环指令</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f41daf1a0d.png">
+<img src="https://bu.dusays.com/2023/04/19/643f41daf1a0d.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f41ee63b73.png">
+<img src="https://bu.dusays.com/2023/04/19/643f41ee63b73.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
 <h3 id="cmp-指令-与-标志寄存器">CMP 指令 与 标志寄存器</h3>
 <p>
 <div class="post-img-view">
