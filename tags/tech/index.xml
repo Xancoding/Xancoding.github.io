@@ -9275,7 +9275,7 @@ SUB1 ENDP
 CODE ENDS
 
 END START
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;子程序设计框架-2&#34;&gt;子程序设计框架 2&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;子程序设计框架-2----把主过程看作dos调用的子进程&#34;&gt;子程序设计框架 2 &amp;ndash; 把主过程看作DOS调用的子进程&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;; 调用程序和过程在同一代码段中，则使用NEAR属性
 ; 调用程序和过程在不同代码段中，则使用FAR属性
 ; 缺省值为 NEAR
@@ -9294,6 +9294,9 @@ MAIN PROC FAR     ; 把主过程看作DOS调用的子进程，定义为FAR属性
     RET           ; 过程返回
 MAIN ENDP
 
+; 功能：计算 N 的 3 次方
+; 参数：(bx) = N
+; 返回：(dx:ax) = N^3
 SUB1 PROC NEAR    ; 同一代码段调用使用NEAR属性
     ...
     RET           ; 过程返回
@@ -9336,6 +9339,31 @@ next:
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f43f018901.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f43f018901.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f47b58b60d.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f47b58b60d.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f47a624644.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f47a624644.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;保存和恢复寄存器&#34;&gt;保存和恢复寄存器&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f4839770e3.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f4839770e3.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -11048,7 +11076,7 @@ SUB1 ENDP
 CODE ENDS
 
 END START
-</code></pre><h2 id="子程序设计框架-2">子程序设计框架 2</h2>
+</code></pre><h2 id="子程序设计框架-2----把主过程看作dos调用的子进程">子程序设计框架 2 &ndash; 把主过程看作DOS调用的子进程</h2>
 <pre tabindex="0"><code>; 调用程序和过程在同一代码段中，则使用NEAR属性
 ; 调用程序和过程在不同代码段中，则使用FAR属性
 ; 缺省值为 NEAR
@@ -11067,6 +11095,9 @@ MAIN PROC FAR     ; 把主过程看作DOS调用的子进程，定义为FAR属性
     RET           ; 过程返回
 MAIN ENDP
 
+; 功能：计算 N 的 3 次方
+; 参数：(bx) = N
+; 返回：(dx:ax) = N^3
 SUB1 PROC NEAR    ; 同一代码段调用使用NEAR属性
     ...
     RET           ; 过程返回
@@ -11109,6 +11140,31 @@ next:
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f43f018901.png">
 <img src="https://bu.dusays.com/2023/04/19/643f43f018901.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f47b58b60d.png">
+<img src="https://bu.dusays.com/2023/04/19/643f47b58b60d.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f47a624644.png">
+<img src="https://bu.dusays.com/2023/04/19/643f47a624644.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="保存和恢复寄存器">保存和恢复寄存器</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f4839770e3.png">
+<img src="https://bu.dusays.com/2023/04/19/643f4839770e3.png" alt="image.png"  />
 </a>
 </div>
 
