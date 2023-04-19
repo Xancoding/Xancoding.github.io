@@ -13480,8 +13480,11 @@ next:
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;jmp-指令----转移指令&#34;&gt;JMP 指令 &amp;ndash; 转移指令&lt;/h3&gt;
+&lt;h3 id=&#34;jmp-指令----无条件转移指令&#34;&gt;JMP 指令 &amp;ndash; 无条件转移指令&lt;/h3&gt;
 &lt;h4 id=&#34;总结&#34;&gt;总结&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Label：标号&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;ol&gt;
 &lt;li&gt;段内段转移（8位）（IP）：依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
 &lt;li&gt;段内近转移（16位）（IP）依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
@@ -13491,21 +13494,21 @@ next:
 &lt;li&gt;段间转移（32位）（CS:IP）：转移地址在&lt;strong&gt;内存&lt;/strong&gt;中的 jmp 指令
 
 &lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;&#34;&gt;
-&lt;img src=&#34;&#34; alt=&#34;Uploading file&amp;amp;hellip;5yag9&#34;  /&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f3ad6b8c50.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f3ad6b8c50.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;
+
+
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/21/641932d706e80.jpg&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/03/21/641932d706e80.jpg&#34; alt=&#34;5798aee6df9f1b2c11bb9ce45699eba.jpg&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;cmp-指令-与-标志寄存器&#34;&gt;CMP 指令 与 标志寄存器&lt;/h3&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -15112,8 +15115,11 @@ next:
 </div>
 
 </p>
-<h3 id="jmp-指令----转移指令">JMP 指令 &ndash; 转移指令</h3>
+<h3 id="jmp-指令----无条件转移指令">JMP 指令 &ndash; 无条件转移指令</h3>
 <h4 id="总结">总结</h4>
+<ul>
+<li><strong>Label：标号</strong></li>
+</ul>
 <ol>
 <li>段内段转移（8位）（IP）：依据<strong>位移</strong>进行转移的 jmp 指令</li>
 <li>段内近转移（16位）（IP）依据<strong>位移</strong>进行转移的 jmp 指令</li>
@@ -15123,21 +15129,21 @@ next:
 <li>段间转移（32位）（CS:IP）：转移地址在<strong>内存</strong>中的 jmp 指令
 
 <div class="post-img-view">
-<a data-fancybox="gallery" href="">
-<img src="" alt="Uploading file&amp;hellip;5yag9"  />
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f3ad6b8c50.png">
+<img src="https://bu.dusays.com/2023/04/19/643f3ad6b8c50.png" alt="image.png"  />
 </a>
 </div>
 
-</li>
-</ol>
-<p>
+
+
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/21/641932d706e80.jpg">
 <img src="https://bu.dusays.com/2023/03/21/641932d706e80.jpg" alt="5798aee6df9f1b2c11bb9ce45699eba.jpg"  />
 </a>
 </div>
 
-</p>
+</li>
+</ol>
 <h3 id="cmp-指令-与-标志寄存器">CMP 指令 与 标志寄存器</h3>
 <p>
 <div class="post-img-view">
