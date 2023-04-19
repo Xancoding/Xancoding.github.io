@@ -13411,7 +13411,15 @@ true:
 	s1
 next:
 	...
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;if-else-条件语句的汇编实现框架&#34;&gt;IF-ELSE 条件语句的汇编实现框架&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f75d885707.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f75d885707.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;if-else-条件语句的汇编实现框架&#34;&gt;IF-ELSE 条件语句的汇编实现框架&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cmp a, b
 jOP true
 jmp false
@@ -13425,7 +13433,15 @@ false:
 
 next:
 	
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;程序框架&#34;&gt;程序框架&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f75ee849f8.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f75ee849f8.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;程序框架&#34;&gt;程序框架&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/18/643ea60830801.png&#34;&gt;
@@ -13723,7 +13739,50 @@ next:
 
 &lt;/p&gt;
 &lt;h3 id=&#34;adc-指令----带进位加法指令&#34;&gt;ADC 指令 &amp;ndash; 带进位加法指令&lt;/h3&gt;
-&lt;h3 id=&#34;cmp-指令-与-标志寄存器&#34;&gt;CMP 指令 与 标志寄存器&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f7347c83c6.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f7347c83c6.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f735f35f06.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f735f35f06.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;sbb-指令----待借位减法指令&#34;&gt;SBB 指令 &amp;ndash; 待借位减法指令&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f73d2792a2.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f73d2792a2.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;cmp-指令----比较指令&#34;&gt;CMP 指令 &amp;ndash; 比较指令&lt;/h3&gt;
+&lt;h4 id=&#34;cmp-指令&#34;&gt;CMP 指令&lt;/h4&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f7416c2343.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f7416c2343.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f742cdb35d.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f742cdb35d.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h4 id=&#34;无符号数比较结果--有符号数比较结果&#34;&gt;无符号数比较结果 &amp;amp;&amp;amp; 有符号数比较结果&lt;/h4&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/28/64226ba3202ba.png&#34;&gt;
@@ -13744,6 +13803,48 @@ next:
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/28/64226bfbc0fe5.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/03/28/64226bfbc0fe5.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;检测比较结果的条件转移指令&#34;&gt;检测比较结果的条件转移指令&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f74b7d80e1.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f74b7d80e1.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f74c70eb14.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f74c70eb14.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f74dd86945.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f74dd86945.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;df-标志和串传送指令&#34;&gt;DF 标志和串传送指令&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f7667aca5e.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f7667aca5e.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f7679a6678.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f7679a6678.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -15260,7 +15361,15 @@ true:
 	s1
 next:
 	...
-</code></pre><h2 id="if-else-条件语句的汇编实现框架">IF-ELSE 条件语句的汇编实现框架</h2>
+</code></pre><p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f75d885707.png">
+<img src="https://bu.dusays.com/2023/04/19/643f75d885707.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="if-else-条件语句的汇编实现框架">IF-ELSE 条件语句的汇编实现框架</h2>
 <pre tabindex="0"><code>cmp a, b
 jOP true
 jmp false
@@ -15274,7 +15383,15 @@ false:
 
 next:
 	
-</code></pre><h2 id="程序框架">程序框架</h2>
+</code></pre><p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f75ee849f8.png">
+<img src="https://bu.dusays.com/2023/04/19/643f75ee849f8.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="程序框架">程序框架</h2>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/18/643ea60830801.png">
@@ -15572,7 +15689,50 @@ next:
 
 </p>
 <h3 id="adc-指令----带进位加法指令">ADC 指令 &ndash; 带进位加法指令</h3>
-<h3 id="cmp-指令-与-标志寄存器">CMP 指令 与 标志寄存器</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f7347c83c6.png">
+<img src="https://bu.dusays.com/2023/04/19/643f7347c83c6.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f735f35f06.png">
+<img src="https://bu.dusays.com/2023/04/19/643f735f35f06.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="sbb-指令----待借位减法指令">SBB 指令 &ndash; 待借位减法指令</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f73d2792a2.png">
+<img src="https://bu.dusays.com/2023/04/19/643f73d2792a2.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="cmp-指令----比较指令">CMP 指令 &ndash; 比较指令</h3>
+<h4 id="cmp-指令">CMP 指令</h4>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f7416c2343.png">
+<img src="https://bu.dusays.com/2023/04/19/643f7416c2343.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f742cdb35d.png">
+<img src="https://bu.dusays.com/2023/04/19/643f742cdb35d.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h4 id="无符号数比较结果--有符号数比较结果">无符号数比较结果 &amp;&amp; 有符号数比较结果</h4>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/28/64226ba3202ba.png">
@@ -15593,6 +15753,48 @@ next:
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/28/64226bfbc0fe5.png">
 <img src="https://bu.dusays.com/2023/03/28/64226bfbc0fe5.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="检测比较结果的条件转移指令">检测比较结果的条件转移指令</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f74b7d80e1.png">
+<img src="https://bu.dusays.com/2023/04/19/643f74b7d80e1.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f74c70eb14.png">
+<img src="https://bu.dusays.com/2023/04/19/643f74c70eb14.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f74dd86945.png">
+<img src="https://bu.dusays.com/2023/04/19/643f74dd86945.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="df-标志和串传送指令">DF 标志和串传送指令</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f7667aca5e.png">
+<img src="https://bu.dusays.com/2023/04/19/643f7667aca5e.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f7679a6678.png">
+<img src="https://bu.dusays.com/2023/04/19/643f7679a6678.png" alt="image.png"  />
 </a>
 </div>
 
