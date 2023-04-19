@@ -170,7 +170,8 @@ next:
 
 &lt;/p&gt;
 &lt;h1 id=&#34;部分知识点-1&#34;&gt;部分知识点&lt;/h1&gt;
-&lt;h2 id=&#34;mov-指令&#34;&gt;MOV 指令&lt;/h2&gt;
+&lt;h2 id=&#34;指令&#34;&gt;指令&lt;/h2&gt;
+&lt;h3 id=&#34;mov-指令&#34;&gt;MOV 指令&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;寄存器、段寄存器、内存单元、立即数&lt;/li&gt;
 &lt;/ul&gt;
@@ -204,75 +205,16 @@ next:
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;内存单元寻址&#34;&gt;内存单元寻址&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;BP默认段前缀为 SS、其他的默认段前缀为 DS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;直接寻址：[idata]&lt;/li&gt;
-&lt;li&gt;寄存器间接寻址：[BX | BP | SI | DI]&lt;/li&gt;
-&lt;li&gt;寄存器相对寻址：[BX | BP | SI | DI + idata]&lt;/li&gt;
-&lt;li&gt;基址变址寻址：[BX | BP + SI | DI]&lt;/li&gt;
-&lt;li&gt;相对基址变址寻址：[BX | BP + SI | DI + idata]&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;一般来说，我们可以用 [bx+idata+si] 的方式来访问结构体中的数据。用 bx 定位整个结构体，用 idata 定位结构体中的某一个数据项，用 si 定位数据项中的每个元素。为此，汇编语言提供了更为贴切的书写方式，如：[bx].idata、[bx].idata[si]
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f35ca2136b.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f35ca2136b.png&#34; alt=&#34;Snipaste_2023-04-19_08-26-20.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h2 id=&#34;寄存器&#34;&gt;寄存器&lt;/h2&gt;
-&lt;h3 id=&#34;通用寄存器&#34;&gt;通用寄存器&lt;/h3&gt;
-&lt;p&gt;AX、BX、CX、DX、BP、SP、SI、DI&lt;/p&gt;
-&lt;h3 id=&#34;段寄存器&#34;&gt;段寄存器&lt;/h3&gt;
-&lt;p&gt;DS、SS、CS、ES&lt;/p&gt;
-&lt;h2 id=&#34;寻址方式&#34;&gt;寻址方式&lt;/h2&gt;
+&lt;h3 id=&#34;div-指令&#34;&gt;DIV 指令&lt;/h3&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f35f1dfc30.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f35f1dfc30.png&#34; alt=&#34;Snipaste_2023-04-19_08-24-19.png&#34;  /&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f37f2224ac.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f37f2224ac.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;操作数的长度&#34;&gt;操作数的长度&lt;/h2&gt;
-&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f35f8034cb.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f35f8034cb.png&#34; alt=&#34;Snipaste_2023-04-19_08-25-20.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f35f8b89be.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f35f8b89be.png&#34; alt=&#34;Snipaste_2023-04-19_08-25-20.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h2 id=&#34;转移指令的原理&#34;&gt;转移指令的原理&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;段内段转移（8位）（IP）：依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
-&lt;li&gt;段内近转移（16位）（IP）依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
-&lt;li&gt;段内转移（16位）（IP）：转移地址在&lt;strong&gt;寄存器&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
-&lt;li&gt;段内转移（16位）（IP）：转移地址在&lt;strong&gt;内存&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
-&lt;li&gt;段间远转移（32位）（CS:IP）：转移的目的地址在&lt;strong&gt;指令&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
-&lt;li&gt;段间转移（32位）（CS:IP）：转移地址在&lt;strong&gt;内存&lt;/strong&gt;中的 jmp 指令
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/21/641932d706e80.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/03/21/641932d706e80.jpg&#34; alt=&#34;5798aee6df9f1b2c11bb9ce45699eba.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;cmp-指令-与-标志寄存器&#34;&gt;CMP 指令 与 标志寄存器&lt;/h2&gt;
+&lt;h3 id=&#34;cmp-指令-与-标志寄存器&#34;&gt;CMP 指令 与 标志寄存器&lt;/h3&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/28/64226ba3202ba.png&#34;&gt;
@@ -297,6 +239,74 @@ next:
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h2 id=&#34;内存单元寻址&#34;&gt;内存单元寻址&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;BP默认段前缀为 SS、其他的默认段前缀为 DS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;直接寻址：[idata]&lt;/li&gt;
+&lt;li&gt;寄存器间接寻址：[BX | BP | SI | DI]&lt;/li&gt;
+&lt;li&gt;寄存器相对寻址：[BX | BP | SI | DI + idata]&lt;/li&gt;
+&lt;li&gt;基址变址寻址：[BX | BP + SI | DI]&lt;/li&gt;
+&lt;li&gt;相对基址变址寻址：[BX | BP + SI | DI + idata]&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;一般来说，我们可以用 [bx+idata+si] 的方式来访问结构体中的数据。用 bx 定位整个结构体，用 idata 定位结构体中的某一个数据项，用 si 定位数据项中的每个元素。为此，汇编语言提供了更为贴切的书写方式，如：[bx].idata、[bx].idata[si]
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f3706bad8d.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f3706bad8d.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;寄存器&#34;&gt;寄存器&lt;/h2&gt;
+&lt;h3 id=&#34;通用寄存器&#34;&gt;通用寄存器&lt;/h3&gt;
+&lt;p&gt;AX、BX、CX、DX、BP、SP、SI、DI&lt;/p&gt;
+&lt;h3 id=&#34;段寄存器&#34;&gt;段寄存器&lt;/h3&gt;
+&lt;p&gt;DS、SS、CS、ES&lt;/p&gt;
+&lt;h2 id=&#34;寻址方式&#34;&gt;寻址方式&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f35f1dfc30.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f35f1dfc30.png&#34; alt=&#34;Snipaste_2023-04-19_08-24-19.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;操作数的长度&#34;&gt;操作数的长度&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f36bb8c1a2.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f36bb8c1a2.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f36d1751cc.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f36d1751cc.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;转移指令的原理&#34;&gt;转移指令的原理&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;段内段转移（8位）（IP）：依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段内近转移（16位）（IP）依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段内转移（16位）（IP）：转移地址在&lt;strong&gt;寄存器&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段内转移（16位）（IP）：转移地址在&lt;strong&gt;内存&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段间远转移（32位）（CS:IP）：转移的目的地址在&lt;strong&gt;指令&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段间转移（32位）（CS:IP）：转移地址在&lt;strong&gt;内存&lt;/strong&gt;中的 jmp 指令
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/21/641932d706e80.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/21/641932d706e80.jpg&#34; alt=&#34;5798aee6df9f1b2c11bb9ce45699eba.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;标志寄存器结构图&#34;&gt;标志寄存器结构图&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -1748,7 +1758,8 @@ next:
 
 </p>
 <h1 id="部分知识点-1">部分知识点</h1>
-<h2 id="mov-指令">MOV 指令</h2>
+<h2 id="指令">指令</h2>
+<h3 id="mov-指令">MOV 指令</h3>
 <ul>
 <li>寄存器、段寄存器、内存单元、立即数</li>
 </ul>
@@ -1782,75 +1793,16 @@ next:
 </div>
 
 </p>
-<h2 id="内存单元寻址">内存单元寻址</h2>
-<ul>
-<li>BP默认段前缀为 SS、其他的默认段前缀为 DS</li>
-</ul>
-<ol>
-<li>直接寻址：[idata]</li>
-<li>寄存器间接寻址：[BX | BP | SI | DI]</li>
-<li>寄存器相对寻址：[BX | BP | SI | DI + idata]</li>
-<li>基址变址寻址：[BX | BP + SI | DI]</li>
-<li>相对基址变址寻址：[BX | BP + SI | DI + idata]</li>
-</ol>
-<p>一般来说，我们可以用 [bx+idata+si] 的方式来访问结构体中的数据。用 bx 定位整个结构体，用 idata 定位结构体中的某一个数据项，用 si 定位数据项中的每个元素。为此，汇编语言提供了更为贴切的书写方式，如：[bx].idata、[bx].idata[si]
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f35ca2136b.png">
-<img src="https://bu.dusays.com/2023/04/19/643f35ca2136b.png" alt="Snipaste_2023-04-19_08-26-20.png"  />
-</a>
-</div>
-
-</p>
-<h2 id="寄存器">寄存器</h2>
-<h3 id="通用寄存器">通用寄存器</h3>
-<p>AX、BX、CX、DX、BP、SP、SI、DI</p>
-<h3 id="段寄存器">段寄存器</h3>
-<p>DS、SS、CS、ES</p>
-<h2 id="寻址方式">寻址方式</h2>
+<h3 id="div-指令">DIV 指令</h3>
 <p>
 <div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f35f1dfc30.png">
-<img src="https://bu.dusays.com/2023/04/19/643f35f1dfc30.png" alt="Snipaste_2023-04-19_08-24-19.png"  />
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f37f2224ac.png">
+<img src="https://bu.dusays.com/2023/04/19/643f37f2224ac.png" alt="image.png"  />
 </a>
 </div>
 
 </p>
-<h2 id="操作数的长度">操作数的长度</h2>
-<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f35f8034cb.png">
-<img src="https://bu.dusays.com/2023/04/19/643f35f8034cb.png" alt="Snipaste_2023-04-19_08-25-20.png"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f35f8b89be.png">
-<img src="https://bu.dusays.com/2023/04/19/643f35f8b89be.png" alt="Snipaste_2023-04-19_08-25-20.png"  />
-</a>
-</div>
-
-</p>
-<h2 id="转移指令的原理">转移指令的原理</h2>
-<ol>
-<li>段内段转移（8位）（IP）：依据<strong>位移</strong>进行转移的 jmp 指令</li>
-<li>段内近转移（16位）（IP）依据<strong>位移</strong>进行转移的 jmp 指令</li>
-<li>段内转移（16位）（IP）：转移地址在<strong>寄存器</strong>中的 jmp 指令</li>
-<li>段内转移（16位）（IP）：转移地址在<strong>内存</strong>中的 jmp 指令</li>
-<li>段间远转移（32位）（CS:IP）：转移的目的地址在<strong>指令</strong>中的 jmp 指令</li>
-<li>段间转移（32位）（CS:IP）：转移地址在<strong>内存</strong>中的 jmp 指令
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/21/641932d706e80.jpg">
-<img src="https://bu.dusays.com/2023/03/21/641932d706e80.jpg" alt="5798aee6df9f1b2c11bb9ce45699eba.jpg"  />
-</a>
-</div>
-
-</li>
-</ol>
-<h2 id="cmp-指令-与-标志寄存器">CMP 指令 与 标志寄存器</h2>
+<h3 id="cmp-指令-与-标志寄存器">CMP 指令 与 标志寄存器</h3>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/28/64226ba3202ba.png">
@@ -1875,6 +1827,74 @@ next:
 </div>
 
 </p>
+<h2 id="内存单元寻址">内存单元寻址</h2>
+<ul>
+<li>BP默认段前缀为 SS、其他的默认段前缀为 DS</li>
+</ul>
+<ol>
+<li>直接寻址：[idata]</li>
+<li>寄存器间接寻址：[BX | BP | SI | DI]</li>
+<li>寄存器相对寻址：[BX | BP | SI | DI + idata]</li>
+<li>基址变址寻址：[BX | BP + SI | DI]</li>
+<li>相对基址变址寻址：[BX | BP + SI | DI + idata]</li>
+</ol>
+<p>一般来说，我们可以用 [bx+idata+si] 的方式来访问结构体中的数据。用 bx 定位整个结构体，用 idata 定位结构体中的某一个数据项，用 si 定位数据项中的每个元素。为此，汇编语言提供了更为贴切的书写方式，如：[bx].idata、[bx].idata[si]
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f3706bad8d.png">
+<img src="https://bu.dusays.com/2023/04/19/643f3706bad8d.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="寄存器">寄存器</h2>
+<h3 id="通用寄存器">通用寄存器</h3>
+<p>AX、BX、CX、DX、BP、SP、SI、DI</p>
+<h3 id="段寄存器">段寄存器</h3>
+<p>DS、SS、CS、ES</p>
+<h2 id="寻址方式">寻址方式</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f35f1dfc30.png">
+<img src="https://bu.dusays.com/2023/04/19/643f35f1dfc30.png" alt="Snipaste_2023-04-19_08-24-19.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="操作数的长度">操作数的长度</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f36bb8c1a2.png">
+<img src="https://bu.dusays.com/2023/04/19/643f36bb8c1a2.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f36d1751cc.png">
+<img src="https://bu.dusays.com/2023/04/19/643f36d1751cc.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="转移指令的原理">转移指令的原理</h2>
+<ol>
+<li>段内段转移（8位）（IP）：依据<strong>位移</strong>进行转移的 jmp 指令</li>
+<li>段内近转移（16位）（IP）依据<strong>位移</strong>进行转移的 jmp 指令</li>
+<li>段内转移（16位）（IP）：转移地址在<strong>寄存器</strong>中的 jmp 指令</li>
+<li>段内转移（16位）（IP）：转移地址在<strong>内存</strong>中的 jmp 指令</li>
+<li>段间远转移（32位）（CS:IP）：转移的目的地址在<strong>指令</strong>中的 jmp 指令</li>
+<li>段间转移（32位）（CS:IP）：转移地址在<strong>内存</strong>中的 jmp 指令
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/21/641932d706e80.jpg">
+<img src="https://bu.dusays.com/2023/03/21/641932d706e80.jpg" alt="5798aee6df9f1b2c11bb9ce45699eba.jpg"  />
+</a>
+</div>
+
+</li>
+</ol>
 <h2 id="标志寄存器结构图">标志寄存器结构图</h2>
 <p>
 <div class="post-img-view">
