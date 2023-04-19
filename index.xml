@@ -13722,6 +13722,7 @@ next:
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h3 id=&#34;adc-指令----带进位加法指令&#34;&gt;ADC 指令 &amp;ndash; 带进位加法指令&lt;/h3&gt;
 &lt;h3 id=&#34;cmp-指令-与-标志寄存器&#34;&gt;CMP 指令 与 标志寄存器&lt;/h3&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -15570,6 +15571,7 @@ next:
 </div>
 
 </p>
+<h3 id="adc-指令----带进位加法指令">ADC 指令 &ndash; 带进位加法指令</h3>
 <h3 id="cmp-指令-与-标志寄存器">CMP 指令 与 标志寄存器</h3>
 <p>
 <div class="post-img-view">
