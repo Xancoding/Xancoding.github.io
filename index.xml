@@ -13279,6 +13279,8 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 &lt;ol&gt;
 &lt;li&gt;一个段的起始地址必定是 16 的倍数 &amp;ndash; CS * 10H&lt;/li&gt;
 &lt;li&gt;一个段的最大长度是 64KB &amp;ndash; IP 寄存器长度为 16 位，$2^{16} = 64$&lt;/li&gt;
+&lt;li&gt;A
+&lt;ul&gt;
 &lt;li&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/18/643e9450302b8.png&#34;&gt;
@@ -13286,7 +13288,11 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 &lt;/a&gt;
 &lt;/div&gt;
 
- &amp;ndash; A&lt;/li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;D
+&lt;ul&gt;
 &lt;li&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/18/643e9514cc0f9.png&#34;&gt;
@@ -13294,7 +13300,9 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 &lt;/a&gt;
 &lt;/div&gt;
 
- &amp;ndash; D&lt;/li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;在汇编源程序中，数据不能以字母开头，所以要在前面加 0，如 0FFF0H&lt;/li&gt;
 &lt;li&gt;在汇编源程序中，指令 &lt;strong&gt;mov ax, [0]&lt;/strong&gt; 被编译器当作指令 &lt;strong&gt;mov ax, 0&lt;/strong&gt; 处理
 &lt;ol&gt;
@@ -14815,6 +14823,8 @@ end start
 <ol>
 <li>一个段的起始地址必定是 16 的倍数 &ndash; CS * 10H</li>
 <li>一个段的最大长度是 64KB &ndash; IP 寄存器长度为 16 位，$2^{16} = 64$</li>
+<li>A
+<ul>
 <li>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/18/643e9450302b8.png">
@@ -14822,7 +14832,11 @@ end start
 </a>
 </div>
 
- &ndash; A</li>
+</li>
+</ul>
+</li>
+<li>D
+<ul>
 <li>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/18/643e9514cc0f9.png">
@@ -14830,7 +14844,9 @@ end start
 </a>
 </div>
 
- &ndash; D</li>
+</li>
+</ul>
+</li>
 <li>在汇编源程序中，数据不能以字母开头，所以要在前面加 0，如 0FFF0H</li>
 <li>在汇编源程序中，指令 <strong>mov ax, [0]</strong> 被编译器当作指令 <strong>mov ax, 0</strong> 处理
 <ol>
