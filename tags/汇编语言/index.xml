@@ -53,7 +53,7 @@
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;根据位移进行转换的 汇编指令 方便了程序段在内存中的浮动装配&lt;/li&gt;
-&lt;li&gt;如果在源程序中出现了转移范围超界（gen）的问题在编译的时候，编译器将报错&lt;/li&gt;
+&lt;li&gt;如果在源程序中出现了转移范围超界的问题在编译的时候，编译器将报错&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;dos-系统中-exe-文件中程序的加载过程&#34;&gt;DOS 系统中 .EXE 文件中程序的加载过程&lt;/h1&gt;
 &lt;p&gt;
@@ -72,7 +72,7 @@
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h1 id=&#34;汇编代码格式&#34;&gt;汇编代码格式&lt;/h1&gt;
+&lt;h1 id=&#34;程序设计框架&#34;&gt;程序设计框架&lt;/h1&gt;
 &lt;h2 id=&#34;1&#34;&gt;1&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ASSUME CS:CODE, DS:DATA
 
@@ -87,7 +87,7 @@ START:
 CODE ENDS
 
 END START
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;2&#34;&gt;2&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;子程序shej&#34;&gt;子程序she&amp;rsquo;j&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ASSUME CS:CODE, DS:DATA
 
 DATA SEGMENT
@@ -359,6 +359,15 @@ next:
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f41ee63b73.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f41ee63b73.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;call-和-rret指令----转移指令&#34;&gt;CALL 和 RRET指令 &amp;ndash; 转移指令&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f43768ae64.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f43768ae64.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -1800,7 +1809,7 @@ end start
 </ol>
 </li>
 <li>根据位移进行转换的 汇编指令 方便了程序段在内存中的浮动装配</li>
-<li>如果在源程序中出现了转移范围超界（gen）的问题在编译的时候，编译器将报错</li>
+<li>如果在源程序中出现了转移范围超界的问题在编译的时候，编译器将报错</li>
 </ol>
 <h1 id="dos-系统中-exe-文件中程序的加载过程">DOS 系统中 .EXE 文件中程序的加载过程</h1>
 <p>
@@ -1819,7 +1828,7 @@ end start
 </div>
 
 </p>
-<h1 id="汇编代码格式">汇编代码格式</h1>
+<h1 id="程序设计框架">程序设计框架</h1>
 <h2 id="1">1</h2>
 <pre tabindex="0"><code>ASSUME CS:CODE, DS:DATA
 
@@ -1834,7 +1843,7 @@ START:
 CODE ENDS
 
 END START
-</code></pre><h2 id="2">2</h2>
+</code></pre><h2 id="子程序shej">子程序she&rsquo;j</h2>
 <pre tabindex="0"><code>ASSUME CS:CODE, DS:DATA
 
 DATA SEGMENT
@@ -2106,6 +2115,15 @@ next:
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f41ee63b73.png">
 <img src="https://bu.dusays.com/2023/04/19/643f41ee63b73.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="call-和-rret指令----转移指令">CALL 和 RRET指令 &ndash; 转移指令</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f43768ae64.png">
+<img src="https://bu.dusays.com/2023/04/19/643f43768ae64.png" alt="image.png"  />
 </a>
 </div>
 
