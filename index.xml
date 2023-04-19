@@ -13429,7 +13429,7 @@ next:
 &lt;/p&gt;
 &lt;h1 id=&#34;部分知识点-1&#34;&gt;部分知识点&lt;/h1&gt;
 &lt;h2 id=&#34;指令&#34;&gt;指令&lt;/h2&gt;
-&lt;h3 id=&#34;mov-指令&#34;&gt;MOV 指令&lt;/h3&gt;
+&lt;h3 id=&#34;mov-指令----数据传送指令&#34;&gt;MOV 指令 &amp;ndash; 数据传送指令&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;寄存器、段寄存器、内存单元、立即数&lt;/li&gt;
 &lt;/ul&gt;
@@ -13471,6 +13471,40 @@ next:
 &lt;/a&gt;
 &lt;/div&gt;
 
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f380d73019.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f380d73019.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;jmp-指令----转移指令&#34;&gt;JMP 指令 &amp;ndash; 转移指令&lt;/h3&gt;
+&lt;h4 id=&#34;总结&#34;&gt;总结&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;段内段转移（8位）（IP）：依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段内近转移（16位）（IP）依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段内转移（16位）（IP）：转移地址在&lt;strong&gt;寄存器&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段内转移（16位）（IP）：转移地址在&lt;strong&gt;内存&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段间远转移（32位）（CS:IP）：转移的目的地址在&lt;strong&gt;指令&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
+&lt;li&gt;段间转移（32位）（CS:IP）：转移地址在&lt;strong&gt;内存&lt;/strong&gt;中的 jmp 指令
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;&#34;&gt;
+&lt;img src=&#34;&#34; alt=&#34;Uploading file&amp;amp;hellip;5yag9&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/21/641932d706e80.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/03/21/641932d706e80.jpg&#34; alt=&#34;5798aee6df9f1b2c11bb9ce45699eba.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
 &lt;/p&gt;
 &lt;h3 id=&#34;cmp-指令-与-标志寄存器&#34;&gt;CMP 指令 与 标志寄存器&lt;/h3&gt;
 &lt;p&gt;
@@ -13493,6 +13527,33 @@ next:
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/28/64226bfbc0fe5.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/03/28/64226bfbc0fe5.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;操作符&#34;&gt;操作符&lt;/h2&gt;
+&lt;h3 id=&#34;dup&#34;&gt;DUP&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f3867b741f.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f3867b741f.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f387d73b66.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f387d73b66.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;offset&#34;&gt;offset&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f39a1ed1db.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f39a1ed1db.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -13548,23 +13609,6 @@ next:
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;转移指令的原理&#34;&gt;转移指令的原理&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;段内段转移（8位）（IP）：依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
-&lt;li&gt;段内近转移（16位）（IP）依据&lt;strong&gt;位移&lt;/strong&gt;进行转移的 jmp 指令&lt;/li&gt;
-&lt;li&gt;段内转移（16位）（IP）：转移地址在&lt;strong&gt;寄存器&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
-&lt;li&gt;段内转移（16位）（IP）：转移地址在&lt;strong&gt;内存&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
-&lt;li&gt;段间远转移（32位）（CS:IP）：转移的目的地址在&lt;strong&gt;指令&lt;/strong&gt;中的 jmp 指令&lt;/li&gt;
-&lt;li&gt;段间转移（32位）（CS:IP）：转移地址在&lt;strong&gt;内存&lt;/strong&gt;中的 jmp 指令
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/21/641932d706e80.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/03/21/641932d706e80.jpg&#34; alt=&#34;5798aee6df9f1b2c11bb9ce45699eba.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;h2 id=&#34;标志寄存器结构图&#34;&gt;标志寄存器结构图&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -15017,7 +15061,7 @@ next:
 </p>
 <h1 id="部分知识点-1">部分知识点</h1>
 <h2 id="指令">指令</h2>
-<h3 id="mov-指令">MOV 指令</h3>
+<h3 id="mov-指令----数据传送指令">MOV 指令 &ndash; 数据传送指令</h3>
 <ul>
 <li>寄存器、段寄存器、内存单元、立即数</li>
 </ul>
@@ -15059,6 +15103,40 @@ next:
 </a>
 </div>
 
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f380d73019.png">
+<img src="https://bu.dusays.com/2023/04/19/643f380d73019.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="jmp-指令----转移指令">JMP 指令 &ndash; 转移指令</h3>
+<h4 id="总结">总结</h4>
+<ol>
+<li>段内段转移（8位）（IP）：依据<strong>位移</strong>进行转移的 jmp 指令</li>
+<li>段内近转移（16位）（IP）依据<strong>位移</strong>进行转移的 jmp 指令</li>
+<li>段内转移（16位）（IP）：转移地址在<strong>寄存器</strong>中的 jmp 指令</li>
+<li>段内转移（16位）（IP）：转移地址在<strong>内存</strong>中的 jmp 指令</li>
+<li>段间远转移（32位）（CS:IP）：转移的目的地址在<strong>指令</strong>中的 jmp 指令</li>
+<li>段间转移（32位）（CS:IP）：转移地址在<strong>内存</strong>中的 jmp 指令
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="">
+<img src="" alt="Uploading file&amp;hellip;5yag9"  />
+</a>
+</div>
+
+</li>
+</ol>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/21/641932d706e80.jpg">
+<img src="https://bu.dusays.com/2023/03/21/641932d706e80.jpg" alt="5798aee6df9f1b2c11bb9ce45699eba.jpg"  />
+</a>
+</div>
+
 </p>
 <h3 id="cmp-指令-与-标志寄存器">CMP 指令 与 标志寄存器</h3>
 <p>
@@ -15081,6 +15159,33 @@ next:
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/28/64226bfbc0fe5.png">
 <img src="https://bu.dusays.com/2023/03/28/64226bfbc0fe5.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="操作符">操作符</h2>
+<h3 id="dup">DUP</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f3867b741f.png">
+<img src="https://bu.dusays.com/2023/04/19/643f3867b741f.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f387d73b66.png">
+<img src="https://bu.dusays.com/2023/04/19/643f387d73b66.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="offset">offset</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f39a1ed1db.png">
+<img src="https://bu.dusays.com/2023/04/19/643f39a1ed1db.png" alt="image.png"  />
 </a>
 </div>
 
@@ -15136,23 +15241,6 @@ next:
 </div>
 
 </p>
-<h2 id="转移指令的原理">转移指令的原理</h2>
-<ol>
-<li>段内段转移（8位）（IP）：依据<strong>位移</strong>进行转移的 jmp 指令</li>
-<li>段内近转移（16位）（IP）依据<strong>位移</strong>进行转移的 jmp 指令</li>
-<li>段内转移（16位）（IP）：转移地址在<strong>寄存器</strong>中的 jmp 指令</li>
-<li>段内转移（16位）（IP）：转移地址在<strong>内存</strong>中的 jmp 指令</li>
-<li>段间远转移（32位）（CS:IP）：转移的目的地址在<strong>指令</strong>中的 jmp 指令</li>
-<li>段间转移（32位）（CS:IP）：转移地址在<strong>内存</strong>中的 jmp 指令
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/21/641932d706e80.jpg">
-<img src="https://bu.dusays.com/2023/03/21/641932d706e80.jpg" alt="5798aee6df9f1b2c11bb9ce45699eba.jpg"  />
-</a>
-</div>
-
-</li>
-</ol>
 <h2 id="标志寄存器结构图">标志寄存器结构图</h2>
 <p>
 <div class="post-img-view">
