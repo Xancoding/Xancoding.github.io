@@ -9882,6 +9882,12 @@ next:
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h2 id=&#34;中断过程&#34;&gt;中断过程&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;取得中断类型码 N&lt;/li&gt;
+&lt;li&gt;PUSHF TF=0，IF=0&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1 id=&#34;基本算法&#34;&gt;基本算法&lt;/h1&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -11883,6 +11889,12 @@ next:
 </div>
 
 </p>
+<h2 id="中断过程">中断过程</h2>
+<ol>
+<li>取得中断类型码 N</li>
+<li>PUSHF TF=0，IF=0</li>
+<li></li>
+</ol>
 <h1 id="基本算法">基本算法</h1>
 <p>
 <div class="post-img-view">
