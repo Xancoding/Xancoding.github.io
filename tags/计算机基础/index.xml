@@ -1464,6 +1464,16 @@ next:
 
 &lt;/p&gt;
 &lt;h3 id=&#34;jmp-指令----无条件转移指令&#34;&gt;JMP 指令 &amp;ndash; 无条件转移指令&lt;/h3&gt;
+&lt;h4 id=&#34;依据位移进行转移的-jmp-指令&#34;&gt;依据位移进行转移的 JMP 指令&lt;/h4&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/19/643f3eaf0f6fc.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/19/643f3eaf0f6fc.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h4 id=&#34;依据目的地址进行转移的-jmp-指令&#34;&gt;依据目的地址进行转移的 JMP 指令&lt;/h4&gt;
 &lt;h4 id=&#34;总结&#34;&gt;总结&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Label：标号&lt;/strong&gt;&lt;/li&gt;
@@ -3124,6 +3134,16 @@ next:
 
 </p>
 <h3 id="jmp-指令----无条件转移指令">JMP 指令 &ndash; 无条件转移指令</h3>
+<h4 id="依据位移进行转移的-jmp-指令">依据位移进行转移的 JMP 指令</h4>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/19/643f3eaf0f6fc.png">
+<img src="https://bu.dusays.com/2023/04/19/643f3eaf0f6fc.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h4 id="依据目的地址进行转移的-jmp-指令">依据目的地址进行转移的 JMP 指令</h4>
 <h4 id="总结">总结</h4>
 <ul>
 <li><strong>Label：标号</strong></li>
