@@ -2076,7 +2076,7 @@ next:
 assume cs:code, ds:data
 data segment
     array db 16, 16, 36, 46, 56, 66, 76, 86
-    result dw 0
+    result dw 0  ; 398--018EH
 data ends
 
 code segment
@@ -2091,7 +2091,7 @@ start:
 
 ; 功能：array 数组求和
 ; 参数：array
-; 返回：result 例--398--018EH
+; 返回：result 
 sum proc 
     mov cx, 8  ; 循环 8 次
     mov si, 0  ; 源地址
@@ -2121,7 +2121,8 @@ end start
 &lt;/p&gt;
 &lt;h2 id=&#34;max-min-ave&#34;&gt;MAX MIN AVE&lt;/h2&gt;
 &lt;h3 id=&#34;code-1&#34;&gt;Code&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;assume cs:code, ds:data
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;; 求最大值、最小值、平均值
+assume cs:code, ds:data
 data segment
     array db 0, 9, 88, 6, 5, 4, 5, 6
     max db 0  ; 88--58H
@@ -2230,7 +2231,7 @@ end start
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;count&#34;&gt;COUNT&lt;/h2&gt;
 &lt;h1 id=&#34;检测点答案部分&#34;&gt;检测点答案（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;检测点21&#34;&gt;检测点2.1&lt;/h2&gt;
 &lt;p&gt;（2）最多使用 4 条指令，编程计算 2 的 4 次方&lt;/p&gt;
@@ -4363,7 +4364,7 @@ next:
 assume cs:code, ds:data
 data segment
     array db 16, 16, 36, 46, 56, 66, 76, 86
-    result dw 0
+    result dw 0  ; 398--018EH
 data ends
 
 code segment
@@ -4378,7 +4379,7 @@ start:
 
 ; 功能：array 数组求和
 ; 参数：array
-; 返回：result 例--398--018EH
+; 返回：result 
 sum proc 
     mov cx, 8  ; 循环 8 次
     mov si, 0  ; 源地址
@@ -4408,7 +4409,8 @@ end start
 </p>
 <h2 id="max-min-ave">MAX MIN AVE</h2>
 <h3 id="code-1">Code</h3>
-<pre tabindex="0"><code>assume cs:code, ds:data
+<pre tabindex="0"><code>; 求最大值、最小值、平均值
+assume cs:code, ds:data
 data segment
     array db 0, 9, 88, 6, 5, 4, 5, 6
     max db 0  ; 88--58H
@@ -4517,7 +4519,7 @@ end start
 </div>
 
 </p>
-<h2 id="heading"></h2>
+<h2 id="count">COUNT</h2>
 <h1 id="检测点答案部分">检测点答案（部分）</h1>
 <h2 id="检测点21">检测点2.1</h2>
 <p>（2）最多使用 4 条指令，编程计算 2 的 4 次方</p>
