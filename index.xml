@@ -15102,7 +15102,7 @@ next:
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;sum&#34;&gt;SUM&lt;/h2&gt;
+&lt;h2 id=&#34;数组累加&#34;&gt;数组累加&lt;/h2&gt;
 &lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;; 数组累加
 assume cs:code, ds:data
@@ -15151,7 +15151,7 @@ end start
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;max-min-ave&#34;&gt;MAX MIN AVE&lt;/h2&gt;
+&lt;h2 id=&#34;求最大值最小值平均值&#34;&gt;求最大值、最小值、平均值&lt;/h2&gt;
 &lt;h3 id=&#34;code-1&#34;&gt;Code&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;; 求最大值、最小值、平均值
 assume cs:code, ds:data
@@ -15263,7 +15263,7 @@ end start
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;count&#34;&gt;COUNT&lt;/h2&gt;
+&lt;h2 id=&#34;找出符合条件数据并进行统计--以统计负数为例&#34;&gt;找出符合条件数据并进行统计&amp;ndash;以统计负数为例&lt;/h2&gt;
 &lt;h3 id=&#34;code-2&#34;&gt;Code&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;; 找出符合条件数据并进行统计--以统计负数为例
 assume cs:code, ds:data
@@ -15320,7 +15320,55 @@ end start
 &lt;/p&gt;
 &lt;h2 id=&#34;斐波那契数列前-20-项&#34;&gt;斐波那契数列前 20 项&lt;/h2&gt;
 &lt;h3 id=&#34;code-3&#34;&gt;Code&lt;/h3&gt;
-&lt;h3 id=&#34;result-3&#34;&gt;Result&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;; 求斐波那契数列前 20 项
+assume cs:code, ds:data
+data segment
+    array dw 20 dup(0)
+data ends
+
+code segment
+start:
+    mov ax, data
+    mov ds, ax
+
+    call func
+
+    mov ax, 4c00h
+    int 21h
+
+; 功能：求斐波那契数列前 20 项
+; 输出：array
+func proc
+    mov cx, 18
+    mov si, 0
+
+    ; fib[1]=1 &amp;amp;&amp;amp; fib[2]=1
+    mov word ptr array[si], 1
+    add si, 2
+    mov word ptr array[si], 1
+    add si, 2
+
+s:
+    mov ax, array[si-2]
+    add ax, array[si-4]
+    
+    mov array[si], ax
+    add si, 2
+    loop s
+
+    ret
+func endp
+code ends
+end start
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;result-3&#34;&gt;Result&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/23/6445010be0549.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/23/6445010be0549.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;检测点答案部分&#34;&gt;检测点答案（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;检测点21&#34;&gt;检测点2.1&lt;/h2&gt;
 &lt;p&gt;（2）最多使用 4 条指令，编程计算 2 的 4 次方&lt;/p&gt;
@@ -17449,7 +17497,7 @@ next:
 </div>
 
 </p>
-<h2 id="sum">SUM</h2>
+<h2 id="数组累加">数组累加</h2>
 <h3 id="code">Code</h3>
 <pre tabindex="0"><code>; 数组累加
 assume cs:code, ds:data
@@ -17498,7 +17546,7 @@ end start
 </div>
 
 </p>
-<h2 id="max-min-ave">MAX MIN AVE</h2>
+<h2 id="求最大值最小值平均值">求最大值、最小值、平均值</h2>
 <h3 id="code-1">Code</h3>
 <pre tabindex="0"><code>; 求最大值、最小值、平均值
 assume cs:code, ds:data
@@ -17610,7 +17658,7 @@ end start
 </div>
 
 </p>
-<h2 id="count">COUNT</h2>
+<h2 id="找出符合条件数据并进行统计--以统计负数为例">找出符合条件数据并进行统计&ndash;以统计负数为例</h2>
 <h3 id="code-2">Code</h3>
 <pre tabindex="0"><code>; 找出符合条件数据并进行统计--以统计负数为例
 assume cs:code, ds:data
@@ -17667,7 +17715,55 @@ end start
 </p>
 <h2 id="斐波那契数列前-20-项">斐波那契数列前 20 项</h2>
 <h3 id="code-3">Code</h3>
-<h3 id="result-3">Result</h3>
+<pre tabindex="0"><code>; 求斐波那契数列前 20 项
+assume cs:code, ds:data
+data segment
+    array dw 20 dup(0)
+data ends
+
+code segment
+start:
+    mov ax, data
+    mov ds, ax
+
+    call func
+
+    mov ax, 4c00h
+    int 21h
+
+; 功能：求斐波那契数列前 20 项
+; 输出：array
+func proc
+    mov cx, 18
+    mov si, 0
+
+    ; fib[1]=1 &amp;&amp; fib[2]=1
+    mov word ptr array[si], 1
+    add si, 2
+    mov word ptr array[si], 1
+    add si, 2
+
+s:
+    mov ax, array[si-2]
+    add ax, array[si-4]
+    
+    mov array[si], ax
+    add si, 2
+    loop s
+
+    ret
+func endp
+code ends
+end start
+</code></pre><h3 id="result-3">Result</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/23/6445010be0549.png">
+<img src="https://bu.dusays.com/2023/04/23/6445010be0549.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
 <h1 id="检测点答案部分">检测点答案（部分）</h1>
 <h2 id="检测点21">检测点2.1</h2>
 <p>（2）最多使用 4 条指令，编程计算 2 的 4 次方</p>
