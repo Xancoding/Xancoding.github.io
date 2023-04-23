@@ -11004,6 +11004,57 @@ next:
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h2 id=&#34;sum&#34;&gt;SUM&lt;/h2&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;; 数组累加
+assume cs:code, ds:data
+data segment
+    array db 16, 16, 36, 46, 56, 66, 76, 86
+    result dw 0
+data ends
+
+code segment
+start:
+    mov ax, data
+    mov ds, ax
+
+    call sum
+
+    mov ax, 4c00h
+    int 21h
+
+; 功能：array 数组求和
+; 参数：array
+; 返回：result 例--398--018EH
+sum proc 
+    mov cx, 8  ; 循环 8 次
+    mov si, 0  ; 源地址
+    mov di, 0  ; 目的地址
+
+    mov bh, 0
+s:
+    mov bl, array[si]
+    add result[di], bx
+    inc si
+
+    loop s
+
+    ret
+sum endp
+
+code ends
+end start
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;result&#34;&gt;Result&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/23/6444f2b8cc7d5.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/23/6444f2b8cc7d5.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;max-min-ave&#34;&gt;MAX MIN AVE&lt;/h2&gt;
+&lt;h3 id=&#34;code-1&#34;&gt;Code&lt;/h3&gt;
 &lt;h1 id=&#34;检测点答案部分&#34;&gt;检测点答案（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;检测点21&#34;&gt;检测点2.1&lt;/h2&gt;
 &lt;p&gt;（2）最多使用 4 条指令，编程计算 2 的 4 次方&lt;/p&gt;
@@ -13130,6 +13181,57 @@ next:
 </div>
 
 </p>
+<h2 id="sum">SUM</h2>
+<h3 id="code">Code</h3>
+<pre tabindex="0"><code>; 数组累加
+assume cs:code, ds:data
+data segment
+    array db 16, 16, 36, 46, 56, 66, 76, 86
+    result dw 0
+data ends
+
+code segment
+start:
+    mov ax, data
+    mov ds, ax
+
+    call sum
+
+    mov ax, 4c00h
+    int 21h
+
+; 功能：array 数组求和
+; 参数：array
+; 返回：result 例--398--018EH
+sum proc 
+    mov cx, 8  ; 循环 8 次
+    mov si, 0  ; 源地址
+    mov di, 0  ; 目的地址
+
+    mov bh, 0
+s:
+    mov bl, array[si]
+    add result[di], bx
+    inc si
+
+    loop s
+
+    ret
+sum endp
+
+code ends
+end start
+</code></pre><h3 id="result">Result</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/23/6444f2b8cc7d5.png">
+<img src="https://bu.dusays.com/2023/04/23/6444f2b8cc7d5.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="max-min-ave">MAX MIN AVE</h2>
+<h3 id="code-1">Code</h3>
 <h1 id="检测点答案部分">检测点答案（部分）</h1>
 <h2 id="检测点21">检测点2.1</h2>
 <p>（2）最多使用 4 条指令，编程计算 2 的 4 次方</p>
