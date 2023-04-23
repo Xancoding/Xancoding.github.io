@@ -2288,7 +2288,9 @@ end start
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;斐波那契数列前-20-项&#34;&gt;斐波那契数列前 20 项&lt;/h2&gt;
+&lt;h3 id=&#34;code-3&#34;&gt;Code&lt;/h3&gt;
+&lt;h3 id=&#34;result-3&#34;&gt;Result&lt;/h3&gt;
 &lt;h1 id=&#34;检测点答案部分&#34;&gt;检测点答案（部分）&lt;/h1&gt;
 &lt;h2 id=&#34;检测点21&#34;&gt;检测点2.1&lt;/h2&gt;
 &lt;p&gt;（2）最多使用 4 条指令，编程计算 2 的 4 次方&lt;/p&gt;
@@ -4633,7 +4635,9 @@ end start
 </div>
 
 </p>
-<h2 id="heading"></h2>
+<h2 id="斐波那契数列前-20-项">斐波那契数列前 20 项</h2>
+<h3 id="code-3">Code</h3>
+<h3 id="result-3">Result</h3>
 <h1 id="检测点答案部分">检测点答案（部分）</h1>
 <h2 id="检测点21">检测点2.1</h2>
 <p>（2）最多使用 4 条指令，编程计算 2 的 4 次方</p>
