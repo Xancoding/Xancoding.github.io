@@ -14293,6 +14293,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 &lt;/li&gt;
 &lt;li&gt;在汇编源程序中，数据不能以字母开头，所以要在前面加 0，如 0FFF0H&lt;/li&gt;
 &lt;li&gt;只有 BX、BP、SI、DI 这 4 个寄存器可以用在 &amp;ldquo;[&amp;hellip;]&amp;rdquo; 来进行内存单元的寻址&lt;/li&gt;
+&lt;li&gt;有效地址指的就是偏移地址&lt;/li&gt;
 &lt;li&gt;在汇编源程序中，指令 &lt;strong&gt;mov ax, [0]&lt;/strong&gt; 被编译器当作指令 &lt;strong&gt;mov ax, 0&lt;/strong&gt; 处理
 &lt;ol&gt;
 &lt;li&gt;Debug 将 &lt;strong&gt;[idata]&lt;/strong&gt; 解释为 一个内存单元&lt;/li&gt;
@@ -16582,6 +16583,7 @@ end start
 </li>
 <li>在汇编源程序中，数据不能以字母开头，所以要在前面加 0，如 0FFF0H</li>
 <li>只有 BX、BP、SI、DI 这 4 个寄存器可以用在 &ldquo;[&hellip;]&rdquo; 来进行内存单元的寻址</li>
+<li>有效地址指的就是偏移地址</li>
 <li>在汇编源程序中，指令 <strong>mov ax, [0]</strong> 被编译器当作指令 <strong>mov ax, 0</strong> 处理
 <ol>
 <li>Debug 将 <strong>[idata]</strong> 解释为 一个内存单元</li>
