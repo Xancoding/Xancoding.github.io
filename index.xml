@@ -1769,11 +1769,13 @@
       <pubDate>Mon, 24 Apr 2023 14:17:47 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-04-24-14-17-46/</guid>
-      <description>&lt;p&gt;当待排列的元素为一个对象时，我们常常通过在对象中重载运算符来达到排序的目的。&lt;br&gt;
+      <description>&lt;p&gt;当待排列的元素为一个对象时，我们既可以通过自定义比较函数，也可以通过重载运算符来达到目的。&lt;br&gt;
+下面我以在对象中重载运算符来达到排序的目的展开说明。&lt;br&gt;
 下面是针对 &lt;code&gt;sort函数&lt;/code&gt; 和 &lt;code&gt;Priority_queue优先队列&lt;/code&gt;，关于重载运算符所需要注意的要点&lt;/p&gt;
 &lt;h1 id=&#34;sort函数&#34;&gt;Sort函数&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;sort&lt;/code&gt;函数并不能直接重载大于号运算符。&lt;code&gt;sort&lt;/code&gt;函数默认使用小于号运算符来对元素进行排序，因此在对对象进行排序时，我们通常会&lt;strong&gt;重载小于号运算符&lt;/strong&gt;。&lt;br&gt;
-当第一个元素 &amp;lt; 第二个元素时，为&lt;code&gt;true&lt;/code&gt;，则最终的排序结果为升序
+&lt;p&gt;sort函数在默认情况下使用&lt;code&gt;std::less&lt;/code&gt;作为比较函数类，而&lt;code&gt;std::less&lt;/code&gt;定义了小于号&lt;code&gt;&amp;lt;&lt;/code&gt;运算符的重载。因此，在sort函数中如果不指定自定义的比较函数对象，就默认使用&lt;code&gt;std::less&lt;/code&gt;来进行排序，即升序排序。如果要实现降序排序，则需要提供自定义的比较函数对象，或者使用&lt;code&gt;std::greater&lt;/code&gt;作为比较函数类。&lt;br&gt;
+&lt;code&gt;sort&lt;/code&gt;函数并不能直接重载大于号运算符。&lt;code&gt;sort&lt;/code&gt;函数默认使用小于号运算符来对元素进行排序，因此在对对象进行排序时，我们通常会&lt;strong&gt;重载小于号运算符&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;当第一个元素 &amp;lt; 第二个元素时，为&lt;code&gt;true&lt;/code&gt;，则最终的排序结果为升序
 同理，当我把 &lt;code&gt;this-&amp;gt;age &amp;lt; other.age&lt;/code&gt; 修改为 &lt;code&gt;this-&amp;gt;age &amp;gt; other.age&lt;/code&gt;时，说明当第一个元素 &amp;gt; 第二个元素时，为&lt;code&gt;true&lt;/code&gt;，则结果为降序&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#include &amp;lt;iostream&amp;gt;  
 #include &amp;lt;vector&amp;gt;  
@@ -1817,16 +1819,27 @@ return 0;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Name:Charlie    Age:20
 Name:Alice      Age:25
 Name:Bob        Age:30
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;priority_queue堆优先队列&#34;&gt;Priority_queue堆优先队列&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;通过下述&lt;/p&gt;
+&lt;h1 id=&#34;priority_queue堆优先队列&#34;&gt;Priority_queue堆优先队列&lt;/h1&gt;
 &lt;p&gt;堆是一种数据结构，可以用数组或树实现，常用于实现优先队列、排序算法等。&lt;br&gt;
 优先队列（priority queue）就是堆（heap）的一种应用。
 C++中的优先队列实现就是堆优先队列，底层使用堆来实现。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;std::priority_queue&lt;/code&gt;是一个模板类，它的模板参数有三个，分别是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;T&lt;/code&gt;：指定队列中存储的元素类型。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Container&lt;/code&gt;：指定用于存储元素的容器类型，默认是&lt;code&gt;std::vector&amp;lt;T&amp;gt;&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Compare&lt;/code&gt;：指定用于比较元素优先级的比较函数类型，默认是&lt;code&gt;std::less&amp;lt;T&amp;gt;&lt;/code&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;std::less&amp;lt;T&amp;gt;&lt;/code&gt;和&lt;code&gt;std::greater&amp;lt;T&amp;gt;&lt;/code&gt;是STL中预定义的两个比较函数类，分别表示小于和大于。它们重载了小于号运算符&lt;code&gt;&amp;lt;&lt;/code&gt;和大于号运算符&lt;code&gt;&amp;gt;&lt;/code&gt;，用于比较元素的优先级。因此，当我们在定义&lt;code&gt;std::priority_queue&lt;/code&gt;时，使用&lt;code&gt;std::less&amp;lt;T&amp;gt;&lt;/code&gt;作为比较函数类时，实际上是默认按照小于号进行比较元素优先级；而使用&lt;code&gt;std::greater&amp;lt;T&amp;gt;&lt;/code&gt;作为比较函数类时，则是按照大于号进行比较元素优先级。&lt;/p&gt;
+&lt;p&gt;如果在使用&lt;code&gt;std::less&amp;lt;T&amp;gt;&lt;/code&gt;作为比较函数类时，重载大于号&lt;code&gt;&amp;gt;&lt;/code&gt;，或者在使用&lt;code&gt;std::greater&amp;lt;T&amp;gt;&lt;/code&gt;作为比较函数类时，重载小于号&lt;code&gt;&amp;lt;&lt;/code&gt;，都会导致编译错误，因为这些比较函数类内部的比较操作都是用小于号&lt;code&gt;&amp;lt;&lt;/code&gt;或者大于号&lt;code&gt;&amp;gt;&lt;/code&gt;实现的，而你重载了不符合预期的运算符，导致编译器无法正确地进行比较操作。&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<p>当待排列的元素为一个对象时，我们常常通过在对象中重载运算符来达到排序的目的。<br>
+      <content:encoded><![CDATA[<p>当待排列的元素为一个对象时，我们既可以通过自定义比较函数，也可以通过重载运算符来达到目的。<br>
+下面我以在对象中重载运算符来达到排序的目的展开说明。<br>
 下面是针对 <code>sort函数</code> 和 <code>Priority_queue优先队列</code>，关于重载运算符所需要注意的要点</p>
 <h1 id="sort函数">Sort函数</h1>
-<p><code>sort</code>函数并不能直接重载大于号运算符。<code>sort</code>函数默认使用小于号运算符来对元素进行排序，因此在对对象进行排序时，我们通常会<strong>重载小于号运算符</strong>。<br>
-当第一个元素 &lt; 第二个元素时，为<code>true</code>，则最终的排序结果为升序
+<p>sort函数在默认情况下使用<code>std::less</code>作为比较函数类，而<code>std::less</code>定义了小于号<code>&lt;</code>运算符的重载。因此，在sort函数中如果不指定自定义的比较函数对象，就默认使用<code>std::less</code>来进行排序，即升序排序。如果要实现降序排序，则需要提供自定义的比较函数对象，或者使用<code>std::greater</code>作为比较函数类。<br>
+<code>sort</code>函数并不能直接重载大于号运算符。<code>sort</code>函数默认使用小于号运算符来对元素进行排序，因此在对对象进行排序时，我们通常会<strong>重载小于号运算符</strong>。</p>
+<p>当第一个元素 &lt; 第二个元素时，为<code>true</code>，则最终的排序结果为升序
 同理，当我把 <code>this-&gt;age &lt; other.age</code> 修改为 <code>this-&gt;age &gt; other.age</code>时，说明当第一个元素 &gt; 第二个元素时，为<code>true</code>，则结果为降序</p>
 <pre tabindex="0"><code>#include &lt;iostream&gt;  
 #include &lt;vector&gt;  
@@ -1870,10 +1883,19 @@ return 0;
 <pre tabindex="0"><code>Name:Charlie    Age:20
 Name:Alice      Age:25
 Name:Bob        Age:30
-</code></pre><h1 id="priority_queue堆优先队列">Priority_queue堆优先队列</h1>
+</code></pre><p>通过下述</p>
+<h1 id="priority_queue堆优先队列">Priority_queue堆优先队列</h1>
 <p>堆是一种数据结构，可以用数组或树实现，常用于实现优先队列、排序算法等。<br>
 优先队列（priority queue）就是堆（heap）的一种应用。
 C++中的优先队列实现就是堆优先队列，底层使用堆来实现。</p>
+<p><code>std::priority_queue</code>是一个模板类，它的模板参数有三个，分别是：</p>
+<ol>
+<li><code>T</code>：指定队列中存储的元素类型。</li>
+<li><code>Container</code>：指定用于存储元素的容器类型，默认是<code>std::vector&lt;T&gt;</code>。</li>
+<li><code>Compare</code>：指定用于比较元素优先级的比较函数类型，默认是<code>std::less&lt;T&gt;</code>。</li>
+</ol>
+<p><code>std::less&lt;T&gt;</code>和<code>std::greater&lt;T&gt;</code>是STL中预定义的两个比较函数类，分别表示小于和大于。它们重载了小于号运算符<code>&lt;</code>和大于号运算符<code>&gt;</code>，用于比较元素的优先级。因此，当我们在定义<code>std::priority_queue</code>时，使用<code>std::less&lt;T&gt;</code>作为比较函数类时，实际上是默认按照小于号进行比较元素优先级；而使用<code>std::greater&lt;T&gt;</code>作为比较函数类时，则是按照大于号进行比较元素优先级。</p>
+<p>如果在使用<code>std::less&lt;T&gt;</code>作为比较函数类时，重载大于号<code>&gt;</code>，或者在使用<code>std::greater&lt;T&gt;</code>作为比较函数类时，重载小于号<code>&lt;</code>，都会导致编译错误，因为这些比较函数类内部的比较操作都是用小于号<code>&lt;</code>或者大于号<code>&gt;</code>实现的，而你重载了不符合预期的运算符，导致编译器无法正确地进行比较操作。</p>
 ]]></content:encoded>
     </item>
     
