@@ -4908,7 +4908,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 
 &lt;/p&gt;
 &lt;h1 id=&#34;点估计&#34;&gt;点估计&lt;/h1&gt;
-&lt;h3 id=&#34;点估计问题&#34;&gt;点估计问题&lt;/h3&gt;
+&lt;h2 id=&#34;点估计问题&#34;&gt;点估计问题&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/24/64467a47536ff.png&#34;&gt;
@@ -4934,7 +4934,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 
 &lt;/p&gt;
 &lt;h1 id=&#34;矩估计&#34;&gt;矩估计&lt;/h1&gt;
-&lt;h3 id=&#34;知识点&#34;&gt;知识点&lt;/h3&gt;
+&lt;h2 id=&#34;知识点&#34;&gt;知识点&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/24/64467bdd8e7f5.png&#34;&gt;
@@ -4943,7 +4943,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;理论基础&#34;&gt;理论基础&lt;/h3&gt;
+&lt;h2 id=&#34;理论基础&#34;&gt;理论基础&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/24/64467c4e595c1.png&#34;&gt;
@@ -4952,7 +4952,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;求解步骤&#34;&gt;求解步骤&lt;/h3&gt;
+&lt;h2 id=&#34;求解步骤&#34;&gt;求解步骤&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/24/64467ccfc4a64.png&#34;&gt;
@@ -4969,7 +4969,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;例1-26&#34;&gt;例1&lt;/h3&gt;
+&lt;h2 id=&#34;例1-26&#34;&gt;例1&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/24/64467d868336a.png&#34;&gt;
@@ -4994,7 +4994,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;例2-15&#34;&gt;例2&lt;/h3&gt;
+&lt;h2 id=&#34;例2-15&#34;&gt;例2&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/24/64467fe8caada.png&#34;&gt;
@@ -5019,7 +5019,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;例3-3&#34;&gt;例3&lt;/h3&gt;
+&lt;h2 id=&#34;例3-3&#34;&gt;例3&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/24/644681bfcffe8.png&#34;&gt;
@@ -5044,7 +5044,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h3 id=&#34;小结-16&#34;&gt;小结&lt;/h3&gt;
+&lt;h2 id=&#34;小结-16&#34;&gt;小结&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/24/644681c8df5b3.png&#34;&gt;
@@ -8905,7 +8905,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 
 </p>
 <h1 id="点估计">点估计</h1>
-<h3 id="点估计问题">点估计问题</h3>
+<h2 id="点估计问题">点估计问题</h2>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/24/64467a47536ff.png">
@@ -8931,7 +8931,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 
 </p>
 <h1 id="矩估计">矩估计</h1>
-<h3 id="知识点">知识点</h3>
+<h2 id="知识点">知识点</h2>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/24/64467bdd8e7f5.png">
@@ -8940,7 +8940,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 </div>
 
 </p>
-<h3 id="理论基础">理论基础</h3>
+<h2 id="理论基础">理论基础</h2>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/24/64467c4e595c1.png">
@@ -8949,7 +8949,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 </div>
 
 </p>
-<h3 id="求解步骤">求解步骤</h3>
+<h2 id="求解步骤">求解步骤</h2>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/24/64467ccfc4a64.png">
@@ -8966,7 +8966,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 </div>
 
 </p>
-<h3 id="例1-26">例1</h3>
+<h2 id="例1-26">例1</h2>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/24/64467d868336a.png">
@@ -8991,7 +8991,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 </div>
 
 </p>
-<h3 id="例2-15">例2</h3>
+<h2 id="例2-15">例2</h2>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/24/64467fe8caada.png">
@@ -9016,7 +9016,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 </div>
 
 </p>
-<h3 id="例3-3">例3</h3>
+<h2 id="例3-3">例3</h2>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/24/644681bfcffe8.png">
@@ -9041,7 +9041,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 </div>
 
 </p>
-<h3 id="小结-16">小结</h3>
+<h2 id="小结-16">小结</h2>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/24/644681c8df5b3.png">
