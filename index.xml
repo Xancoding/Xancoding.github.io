@@ -1818,6 +1818,9 @@ return 0;
 Name:Alice      Age:25
 Name:Bob        Age:30
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;priority_queue堆优先队列&#34;&gt;Priority_queue堆优先队列&lt;/h1&gt;
+&lt;p&gt;堆是一种数据结构，可以用数组或树实现，常用于实现优先队列、排序算法等。&lt;br&gt;
+优先队列（priority queue）就是堆（heap）的一种应用。
+C++中的优先队列实现就是堆优先队列，底层使用堆来实现。&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<p>当待排列的元素为一个对象时，我们常常通过在对象中重载运算符来达到排序的目的。<br>
 下面是针对 <code>sort函数</code> 和 <code>Priority_queue优先队列</code>，关于重载运算符所需要注意的要点</p>
@@ -1868,6 +1871,9 @@ return 0;
 Name:Alice      Age:25
 Name:Bob        Age:30
 </code></pre><h1 id="priority_queue堆优先队列">Priority_queue堆优先队列</h1>
+<p>堆是一种数据结构，可以用数组或树实现，常用于实现优先队列、排序算法等。<br>
+优先队列（priority queue）就是堆（heap）的一种应用。
+C++中的优先队列实现就是堆优先队列，底层使用堆来实现。</p>
 ]]></content:encoded>
     </item>
     
