@@ -6,7 +6,7 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 02 Apr 2023 18:00:40 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Apr 2023 14:17:47 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>年度计划</title>
       <link>https://xancoding.cn/posts/plan/</link>
@@ -1760,6 +1760,20 @@
 <p>有很多事，光是脑子里想到，明白重要性，是远远不够的。只有真正，实际经历过，你才会有一个全新的认识</p>
 <p>多跟别人交流，多接触新的东西。不同的思想的碰撞，往往会产生意想不到的妙处</p>
 <p>写文章，并不是字多就是好，言简意赅更应该得到推崇，重要的是要表达出自己的想法，在此基础上，字数做到越少越好</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;中的Sort函数与Priority_queue优先队列</title>
+      <link>https://xancoding.cn/posts/2023-04-24-14-17-46/</link>
+      <pubDate>Mon, 24 Apr 2023 14:17:47 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-04-24-14-17-46/</guid>
+      <description>&lt;p&gt;当待排列的元素为一个对象时，我们chang&amp;rsquo;chang&lt;/p&gt;
+&lt;h1 id=&#34;sort函数&#34;&gt;Sort函数&lt;/h1&gt;
+</description>
+      <content:encoded><![CDATA[<p>当待排列的元素为一个对象时，我们chang&rsquo;chang</p>
+<h1 id="sort函数">Sort函数</h1>
 ]]></content:encoded>
     </item>
     
