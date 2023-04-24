@@ -1871,6 +1871,11 @@ pq.pop();
   
 return 0;  
 }
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;输出结果：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;这是一个小根堆！！！
+Name:张三       Age:20
+Name:王五       Age:25
+Name:李四       Age:30
 &lt;/code&gt;&lt;/pre&gt;</description>
       <content:encoded><![CDATA[<p>当待排列的元素为一个对象时，我们既可以通过自定义比较函数，也可以通过重载运算符来达到目的。<br>
 下面我以在对象中重载运算符来达到排序的目的展开说明。<br>
@@ -1974,6 +1979,11 @@ pq.pop();
   
 return 0;  
 }
+</code></pre><p>输出结果：</p>
+<pre tabindex="0"><code>这是一个小根堆！！！
+Name:张三       Age:20
+Name:王五       Age:25
+Name:李四       Age:30
 </code></pre>]]></content:encoded>
     </item>
     
