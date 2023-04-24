@@ -1774,7 +1774,7 @@
 &lt;h1 id=&#34;sort函数&#34;&gt;Sort函数&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;sort&lt;/code&gt;函数并不能直接重载大于号运算符。&lt;code&gt;sort&lt;/code&gt;函数默认使用小于号运算符来对元素进行排序，因此在对对象进行排序时，我们通常会&lt;strong&gt;重载小于号运算符&lt;/strong&gt;。&lt;br&gt;
 当第一个元素 &amp;lt; 第二个元素时，为&lt;code&gt;true&lt;/code&gt;，则最终的排序结果为升序
-同理，当我把 &lt;code&gt;this-&amp;gt;age &amp;lt; other.age&lt;/code&gt; 修改为 &lt;code&gt;this-&amp;gt;age &amp;gt; other.age&lt;/code&gt;时，说明当第一个元素 &amp;lt; 第二个元素时，为&lt;code&gt;true&lt;/code&gt;，&lt;/p&gt;
+同理，当我把 &lt;code&gt;this-&amp;gt;age &amp;lt; other.age&lt;/code&gt; 修改为 &lt;code&gt;this-&amp;gt;age &amp;gt; other.age&lt;/code&gt;时，说明当第一个元素 &amp;gt; 第二个元素时，为&lt;code&gt;true&lt;/code&gt;，则结果为降序&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#include &amp;lt;iostream&amp;gt;  
 #include &amp;lt;vector&amp;gt;  
 using namespace std;  
@@ -1817,13 +1817,14 @@ return 0;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Name:Charlie    Age:20
 Name:Alice      Age:25
 Name:Bob        Age:30
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;priority_queue堆优先队列&#34;&gt;Priority_queue堆优先队列&lt;/h1&gt;
+</description>
       <content:encoded><![CDATA[<p>当待排列的元素为一个对象时，我们常常通过在对象中重载运算符来达到排序的目的。<br>
 下面是针对 <code>sort函数</code> 和 <code>Priority_queue优先队列</code>，关于重载运算符所需要注意的要点</p>
 <h1 id="sort函数">Sort函数</h1>
 <p><code>sort</code>函数并不能直接重载大于号运算符。<code>sort</code>函数默认使用小于号运算符来对元素进行排序，因此在对对象进行排序时，我们通常会<strong>重载小于号运算符</strong>。<br>
 当第一个元素 &lt; 第二个元素时，为<code>true</code>，则最终的排序结果为升序
-同理，当我把 <code>this-&gt;age &lt; other.age</code> 修改为 <code>this-&gt;age &gt; other.age</code>时，说明当第一个元素 &lt; 第二个元素时，为<code>true</code>，</p>
+同理，当我把 <code>this-&gt;age &lt; other.age</code> 修改为 <code>this-&gt;age &gt; other.age</code>时，说明当第一个元素 &gt; 第二个元素时，为<code>true</code>，则结果为降序</p>
 <pre tabindex="0"><code>#include &lt;iostream&gt;  
 #include &lt;vector&gt;  
 using namespace std;  
@@ -1866,7 +1867,8 @@ return 0;
 <pre tabindex="0"><code>Name:Charlie    Age:20
 Name:Alice      Age:25
 Name:Bob        Age:30
-</code></pre>]]></content:encoded>
+</code></pre><h1 id="priority_queue堆优先队列">Priority_queue堆优先队列</h1>
+]]></content:encoded>
     </item>
     
     <item>
