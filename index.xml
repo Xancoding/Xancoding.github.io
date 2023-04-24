@@ -6421,8 +6421,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h1 id=&#34;点估计与矩估计&#34;&gt;点估计与矩估计&lt;/h1&gt;
-&lt;h2 id=&#34;点估计&#34;&gt;点估计&lt;/h2&gt;
+&lt;h1 id=&#34;点估计&#34;&gt;点估计&lt;/h1&gt;
 &lt;h3 id=&#34;点估计问题&#34;&gt;点估计问题&lt;/h3&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -6448,7 +6447,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;矩估计&#34;&gt;矩估计&lt;/h2&gt;
+&lt;h1 id=&#34;矩估计&#34;&gt;矩估计&lt;/h1&gt;
 &lt;h3 id=&#34;知识点&#34;&gt;知识点&lt;/h3&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -6584,6 +6583,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h1 id=&#34;最大似然估计&#34;&gt;最大似然估计&lt;/h1&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1D741147G5/?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【梨米特】全网最适合大学生学习的《概率论与数理统计》课，概率统计知识点全解析（适合大一学习、考研复习基础）&lt;/a&gt;&lt;/li&gt;
@@ -10418,8 +10418,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 </div>
 
 </p>
-<h1 id="点估计与矩估计">点估计与矩估计</h1>
-<h2 id="点估计">点估计</h2>
+<h1 id="点估计">点估计</h1>
 <h3 id="点估计问题">点估计问题</h3>
 <p>
 <div class="post-img-view">
@@ -10445,7 +10444,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 </div>
 
 </p>
-<h2 id="矩估计">矩估计</h2>
+<h1 id="矩估计">矩估计</h1>
 <h3 id="知识点">知识点</h3>
 <p>
 <div class="post-img-view">
@@ -10581,6 +10580,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
 </div>
 
 </p>
+<h1 id="最大似然估计">最大似然估计</h1>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ol>
 <li><a href="https://www.bilibili.com/video/BV1D741147G5/?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b">【梨米特】全网最适合大学生学习的《概率论与数理统计》课，概率统计知识点全解析（适合大一学习、考研复习基础）</a></li>
