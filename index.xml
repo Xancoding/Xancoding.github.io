@@ -2557,10 +2557,10 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
 &lt;li&gt;一步一步来&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;师兄指导&#34;&gt;师兄指导&lt;/h1&gt;
-&lt;p&gt;这个是比较经典的深度学习入门教程，一个只有几分钟，看到六十集左右就行
-&lt;a href=&#34;https://www.bilibili.com/video/BV1FT4y1E74V?p=60&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&#34;&gt;https://www.bilibili.com/video/BV1FT4y1E74V?p=60&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;还有这个和上面类似，用代码如何实现简单的网络，暂时看第一课就行了
-&lt;a href=&#34;https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&#34;&gt;https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1FT4y1E74V?p=55&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# [双语字幕]吴恩达深度学习deeplearning.ai&lt;/a&gt; p1 &amp;ndash; p51&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&#34;&gt;# Pytorch 入门学习&lt;/a&gt; 第一课&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;深度学习&#34;&gt;深度学习&lt;/h1&gt;
 &lt;h2 id=&#34;前向传播和后向传播&#34;&gt;前向传播和后向传播&lt;/h2&gt;
 &lt;h2 id=&#34;偏差bias-和-方差variance&#34;&gt;偏差bias 和 方差variance&lt;/h2&gt;
@@ -2600,10 +2600,10 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
 <li>一步一步来</li>
 </ol>
 <h1 id="师兄指导">师兄指导</h1>
-<p>这个是比较经典的深度学习入门教程，一个只有几分钟，看到六十集左右就行
-<a href="https://www.bilibili.com/video/BV1FT4y1E74V?p=60&amp;vd_source=0cca15c3951bb93c37fc2758746d699d">https://www.bilibili.com/video/BV1FT4y1E74V?p=60&amp;vd_source=0cca15c3951bb93c37fc2758746d699d</a></p>
-<p>还有这个和上面类似，用代码如何实现简单的网络，暂时看第一课就行了
-<a href="https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;vd_source=0cca15c3951bb93c37fc2758746d699d">https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;vd_source=0cca15c3951bb93c37fc2758746d699d</a></p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1FT4y1E74V?p=55&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># [双语字幕]吴恩达深度学习deeplearning.ai</a> p1 &ndash; p51</li>
+<li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;vd_source=0cca15c3951bb93c37fc2758746d699d"># Pytorch 入门学习</a> 第一课</li>
+</ul>
 <h1 id="深度学习">深度学习</h1>
 <h2 id="前向传播和后向传播">前向传播和后向传播</h2>
 <h2 id="偏差bias-和-方差variance">偏差bias 和 方差variance</h2>
