@@ -6,7 +6,103 @@
     <description>Recent content in AI on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Mar 2023 18:41:26 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Mar 2023 08:24:56 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NLP--情感分析--学习指南</title>
+      <link>https://xancoding.cn/posts/2023-03-25-08-24-52/</link>
+      <pubDate>Sat, 25 Mar 2023 08:24:56 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-03-25-08-24-52/</guid>
+      <description>&lt;h1 id=&#34;环境配置&#34;&gt;环境配置&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;机器学习神经网络深度学习&#34;&gt;机器学习、神经网络、深度学习&lt;/h1&gt;
+&lt;p&gt;机器学习、神经网络、深度学习是三个相互关联的概念，它们都是人工智能领域的重要组成部分。&lt;/p&gt;
+&lt;p&gt;机器学习是一种通过算法让计算机系统自动学习规律或模式，从而对新数据进行预测的技术。机器学习可以分为监督学习、无监督学习、半监督学习和强化学习等不同类型，其中监督学习和无监督学习应用最为广泛。&lt;/p&gt;
+&lt;p&gt;神经网络是一种模拟人脑神经元结构和工作方式的计算模型。神经网络中的神经元通过对输入信号进行处理和传递，最终输出结果。神经网络广泛应用于语音识别、图像识别、自然语言处理等领域。&lt;/p&gt;
+&lt;p&gt;深度学习是一种基于神经网络的机器学习技术，通过多层神经网络的构建和训练，可以实现对大规模数据的高效处理和分析。深度学习已经在计算机视觉、自然语言处理、语音识别等领域取得了重大突破，成为人工智能领域的重要分支。&lt;/p&gt;
+&lt;p&gt;因此，可以说深度学习是神经网络的一种应用，而神经网络是机器学习的一种模型。三者之间的关系是机器学习是基础，神经网络是其重要分支，深度学习是基于神经网络的技术发展而来的。&lt;/p&gt;
+&lt;h1 id=&#34;学习思路&#34;&gt;学习思路&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;找时间熟悉编程语言和神经网络模型&lt;/li&gt;
+&lt;li&gt;然后再看论文&lt;/li&gt;
+&lt;li&gt;再想想如何改进&lt;/li&gt;
+&lt;li&gt;然后编程实现你的想法，做实验验证&lt;/li&gt;
+&lt;li&gt;最后写论文&lt;/li&gt;
+&lt;li&gt;一步一步来&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;学习资源&#34;&gt;学习资源&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1FT4y1E74V?p=55&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# [双语字幕]吴恩达深度学习deeplearning.ai&lt;/a&gt; p1 &amp;ndash; p51&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&#34;&gt;# Pytorch 入门学习&lt;/a&gt; 第一课&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;深度学习&#34;&gt;深度学习&lt;/h1&gt;
+&lt;h2 id=&#34;前向传播和后向传播&#34;&gt;前向传播和后向传播&lt;/h2&gt;
+&lt;p&gt;⚠️upload failed, check dev console&lt;/p&gt;
+&lt;h2 id=&#34;偏差bias-和-方差variance&#34;&gt;偏差bias 和 方差variance&lt;/h2&gt;
+&lt;p&gt;偏差是指模型在不同的训练数据上产生的误差的期望值与真实值之间的偏离程度，它度量了模型的拟合能力。如果一个模型的偏差很大，那么它的预测结果可能会偏离真实值，表现为欠拟合。&lt;/p&gt;
+&lt;p&gt;方差是指模型在不同的训练数据上产生的误差的方差，即模型的预测结果在不同数据集上的变化情况。它度量了模型的泛化能力。如果一个模型的方差很大，那么它的预测结果可能会对训练数据的变化很敏感，表现为过拟合。&lt;/p&gt;
+&lt;p&gt;在机器学习中，我们通常希望找到一个偏差和方差都较小的模型，以达到更好的性能。因此，在模型选择和调参时，需要根据具体情况调整模型的结构和超参数，以平衡偏差和方差的影响，以获得更好的泛化能力和性能。&lt;/p&gt;
+&lt;p&gt;如果模型在训练集和测试集上的性能都很差，那么可能存在欠拟合，即模型的偏差很大。如果模型在训练集上的性能很好，但在测试集上的性能很差，那么可能存在过拟合，即模型的方差很大。&lt;/p&gt;
+&lt;p&gt;减少方差而不影响偏差的方法：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;增加数据量：增加训练数据可以减少模型在训练集上的方差，从而提高模型的泛化能力。&lt;/li&gt;
+&lt;li&gt;使用正则化：正则化可以减少模型的复杂度，从而降低模型的方差。&lt;/li&gt;
+&lt;li&gt;使用集成方法：集成方法通过组合多个模型，可以降低模型的方差，提高模型的泛化能力。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;减少偏差而不影响方差的方法：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;增加模型复杂度：增加模型的复杂度可以减少模型在训练集上的偏差，提高模型的拟合能力。&lt;/li&gt;
+&lt;li&gt;使用更好的特征：使用更好的特征可以提高模型的表达能力，从而减少模型的偏差。&lt;/li&gt;
+&lt;li&gt;使用集成方法：集成方法通过组合多个模型，可以降低模型的偏差，提高模型的泛化能力。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;需要注意的是，减少偏差和减少方差是一种 trade-off（权衡），通常无法同时达到最佳状态。我们需要根据具体问题和数据集，平衡偏差和方差的影响，选择适合的模型和方法。通常，我们可以通过交叉验证等技术来选择最佳的模型和超参数，以达到平衡偏差和方差的目的。&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="环境配置">环境配置</h1>
+<p><a href="https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow</a></p>
+<h1 id="机器学习神经网络深度学习">机器学习、神经网络、深度学习</h1>
+<p>机器学习、神经网络、深度学习是三个相互关联的概念，它们都是人工智能领域的重要组成部分。</p>
+<p>机器学习是一种通过算法让计算机系统自动学习规律或模式，从而对新数据进行预测的技术。机器学习可以分为监督学习、无监督学习、半监督学习和强化学习等不同类型，其中监督学习和无监督学习应用最为广泛。</p>
+<p>神经网络是一种模拟人脑神经元结构和工作方式的计算模型。神经网络中的神经元通过对输入信号进行处理和传递，最终输出结果。神经网络广泛应用于语音识别、图像识别、自然语言处理等领域。</p>
+<p>深度学习是一种基于神经网络的机器学习技术，通过多层神经网络的构建和训练，可以实现对大规模数据的高效处理和分析。深度学习已经在计算机视觉、自然语言处理、语音识别等领域取得了重大突破，成为人工智能领域的重要分支。</p>
+<p>因此，可以说深度学习是神经网络的一种应用，而神经网络是机器学习的一种模型。三者之间的关系是机器学习是基础，神经网络是其重要分支，深度学习是基于神经网络的技术发展而来的。</p>
+<h1 id="学习思路">学习思路</h1>
+<ol>
+<li>找时间熟悉编程语言和神经网络模型</li>
+<li>然后再看论文</li>
+<li>再想想如何改进</li>
+<li>然后编程实现你的想法，做实验验证</li>
+<li>最后写论文</li>
+<li>一步一步来</li>
+</ol>
+<h1 id="学习资源">学习资源</h1>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1FT4y1E74V?p=55&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># [双语字幕]吴恩达深度学习deeplearning.ai</a> p1 &ndash; p51</li>
+<li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;vd_source=0cca15c3951bb93c37fc2758746d699d"># Pytorch 入门学习</a> 第一课</li>
+</ul>
+<h1 id="深度学习">深度学习</h1>
+<h2 id="前向传播和后向传播">前向传播和后向传播</h2>
+<p>⚠️upload failed, check dev console</p>
+<h2 id="偏差bias-和-方差variance">偏差bias 和 方差variance</h2>
+<p>偏差是指模型在不同的训练数据上产生的误差的期望值与真实值之间的偏离程度，它度量了模型的拟合能力。如果一个模型的偏差很大，那么它的预测结果可能会偏离真实值，表现为欠拟合。</p>
+<p>方差是指模型在不同的训练数据上产生的误差的方差，即模型的预测结果在不同数据集上的变化情况。它度量了模型的泛化能力。如果一个模型的方差很大，那么它的预测结果可能会对训练数据的变化很敏感，表现为过拟合。</p>
+<p>在机器学习中，我们通常希望找到一个偏差和方差都较小的模型，以达到更好的性能。因此，在模型选择和调参时，需要根据具体情况调整模型的结构和超参数，以平衡偏差和方差的影响，以获得更好的泛化能力和性能。</p>
+<p>如果模型在训练集和测试集上的性能都很差，那么可能存在欠拟合，即模型的偏差很大。如果模型在训练集上的性能很好，但在测试集上的性能很差，那么可能存在过拟合，即模型的方差很大。</p>
+<p>减少方差而不影响偏差的方法：</p>
+<ol>
+<li>增加数据量：增加训练数据可以减少模型在训练集上的方差，从而提高模型的泛化能力。</li>
+<li>使用正则化：正则化可以减少模型的复杂度，从而降低模型的方差。</li>
+<li>使用集成方法：集成方法通过组合多个模型，可以降低模型的方差，提高模型的泛化能力。</li>
+</ol>
+<p>减少偏差而不影响方差的方法：</p>
+<ol>
+<li>增加模型复杂度：增加模型的复杂度可以减少模型在训练集上的偏差，提高模型的拟合能力。</li>
+<li>使用更好的特征：使用更好的特征可以提高模型的表达能力，从而减少模型的偏差。</li>
+<li>使用集成方法：集成方法通过组合多个模型，可以降低模型的偏差，提高模型的泛化能力。</li>
+</ol>
+<p>需要注意的是，减少偏差和减少方差是一种 trade-off（权衡），通常无法同时达到最佳状态。我们需要根据具体问题和数据集，平衡偏差和方差的影响，选择适合的模型和方法。通常，我们可以通过交叉验证等技术来选择最佳的模型和超参数，以达到平衡偏差和方差的目的。</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>人工智能及其应用</title>
       <link>https://xancoding.cn/posts/2023-03-05-18-41-23/</link>
