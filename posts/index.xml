@@ -2563,7 +2563,14 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
 &lt;/ul&gt;
 &lt;h1 id=&#34;深度学习&#34;&gt;深度学习&lt;/h1&gt;
 &lt;h2 id=&#34;前向传播和后向传播&#34;&gt;前向传播和后向传播&lt;/h2&gt;
-&lt;p&gt;⚠️upload failed, check dev console&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/28/644b1bc5893e0.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/04/28/644b1bc5893e0.png&#34; alt=&#34;&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h2 id=&#34;偏差bias-和-方差variance&#34;&gt;偏差bias 和 方差variance&lt;/h2&gt;
 &lt;p&gt;偏差是指模型在不同的训练数据上产生的误差的期望值与真实值之间的偏离程度，它度量了模型的拟合能力。如果一个模型的偏差很大，那么它的预测结果可能会偏离真实值，表现为欠拟合。&lt;/p&gt;
 &lt;p&gt;方差是指模型在不同的训练数据上产生的误差的方差，即模型的预测结果在不同数据集上的变化情况。它度量了模型的泛化能力。如果一个模型的方差很大，那么它的预测结果可能会对训练数据的变化很敏感，表现为过拟合。&lt;/p&gt;
@@ -2607,7 +2614,14 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
 </ul>
 <h1 id="深度学习">深度学习</h1>
 <h2 id="前向传播和后向传播">前向传播和后向传播</h2>
-<p>⚠️upload failed, check dev console</p>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/28/644b1bc5893e0.png">
+<img src="https://bu.dusays.com/2023/04/28/644b1bc5893e0.png" alt=""  />
+</a>
+</div>
+
+</p>
 <h2 id="偏差bias-和-方差variance">偏差bias 和 方差variance</h2>
 <p>偏差是指模型在不同的训练数据上产生的误差的期望值与真实值之间的偏离程度，它度量了模型的拟合能力。如果一个模型的偏差很大，那么它的预测结果可能会偏离真实值，表现为欠拟合。</p>
 <p>方差是指模型在不同的训练数据上产生的误差的方差，即模型的预测结果在不同数据集上的变化情况。它度量了模型的泛化能力。如果一个模型的方差很大，那么它的预测结果可能会对训练数据的变化很敏感，表现为过拟合。</p>
