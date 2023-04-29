@@ -14,7 +14,9 @@
       
       <guid>https://xancoding.cn/posts/2023-03-25-08-24-52/</guid>
       <description>&lt;h1 id=&#34;环境配置&#34;&gt;环境配置&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;机器学习神经网络深度学习&#34;&gt;机器学习、神经网络、深度学习&lt;/h1&gt;
 &lt;p&gt;机器学习、神经网络、深度学习是三个相互关联的概念，它们都是人工智能领域的重要组成部分。&lt;/p&gt;
 &lt;p&gt;机器学习是一种通过算法让计算机系统自动学习规律或模式，从而对新数据进行预测的技术。机器学习可以分为监督学习、无监督学习、半监督学习和强化学习等不同类型，其中监督学习和无监督学习应用最为广泛。&lt;/p&gt;
@@ -65,7 +67,9 @@
 &lt;p&gt;需要注意的是，减少偏差和减少方差是一种 trade-off（权衡），通常无法同时达到最佳状态。我们需要根据具体问题和数据集，平衡偏差和方差的影响，选择适合的模型和方法。通常，我们可以通过交叉验证等技术来选择最佳的模型和超参数，以达到平衡偏差和方差的目的。&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="环境配置">环境配置</h1>
-<p><a href="https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow</a></p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow</a></li>
+</ul>
 <h1 id="机器学习神经网络深度学习">机器学习、神经网络、深度学习</h1>
 <p>机器学习、神经网络、深度学习是三个相互关联的概念，它们都是人工智能领域的重要组成部分。</p>
 <p>机器学习是一种通过算法让计算机系统自动学习规律或模式，从而对新数据进行预测的技术。机器学习可以分为监督学习、无监督学习、半监督学习和强化学习等不同类型，其中监督学习和无监督学习应用最为广泛。</p>
