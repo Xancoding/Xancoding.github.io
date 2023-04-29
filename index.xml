@@ -1769,8 +1769,266 @@
       <pubDate>Sun, 30 Apr 2023 01:10:21 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-04-30-01-10-03/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;学习：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;《概率论与数理统计》1&amp;ndash;7章&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;《电路》1&amp;ndash;4、6&amp;ndash;10章&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;《操作系统原理与实践》1&amp;ndash;4章&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;《算法设计与分析（第2版）》结课（第 12 周）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;《汇编语言》结课（第 8 周）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;《模拟电子技术基础》1&amp;ndash;5章&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;小林图解系统：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;四、内存管理（4.7 深入理解 Linux 物理内存管理）&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;六、调度算法&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;七、文件系统&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;九、网络系统（未看）&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;十、Linux 命令（未看）&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;OI Wiki&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Git 学习&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;LaTex 学习&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;菜鸟教程&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Python3 学习&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;深度学习 吴达恩 B站视频&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;书籍：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Life:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;《平凡的世界》&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;《明朝那些事》&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tech:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;《程序员的自我修养》p1&amp;ndash;p169&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;《深入理解计算机系统》p1&amp;ndash;p119、p399&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Outdoor&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;鹫峰徒步（0408）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;北京•门头沟•十里坪🏕️（0415&amp;ndash;0416）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;公园半程马拉松北京公开赛“北京•亦庄”南海子公园站（0422）01:46:07&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;北大拉卡拉杯 5+2（0429）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打卡北京高校&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;中国农业大学&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;中国石油大学&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;北京林业大学&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;北京大学&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;冥想&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <content:encoded><![CDATA[<ol>
+<li>
+<p>学习：</p>
+<ol>
+<li>
+<p>《概率论与数理统计》1&ndash;7章</p>
+</li>
+<li>
+<p>《电路》1&ndash;4、6&ndash;10章</p>
+</li>
+<li>
+<p>《操作系统原理与实践》1&ndash;4章</p>
+</li>
+<li>
+<p>《算法设计与分析（第2版）》结课（第 12 周）</p>
+</li>
+<li>
+<p>《汇编语言》结课（第 8 周）</p>
+</li>
+<li>
+<p>《模拟电子技术基础》1&ndash;5章</p>
+</li>
+<li>
+<p>小林图解系统：</p>
+<ol>
+<li>
+<p><strong>四、内存管理（4.7 深入理解 Linux 物理内存管理）</strong></p>
+</li>
+<li>
+<p><strong>六、调度算法</strong></p>
+</li>
+<li>
+<p><strong>七、文件系统</strong></p>
+</li>
+<li>
+<p><strong>九、网络系统（未看）</strong></p>
+</li>
+<li>
+<p><strong>十、Linux 命令（未看）</strong></p>
+</li>
+</ol>
+</li>
+<li>
+<p>OI Wiki</p>
+<ol>
+<li>
+<p>Git 学习</p>
+</li>
+<li>
+<p>LaTex 学习</p>
+</li>
+</ol>
+</li>
+<li>
+<p>菜鸟教程</p>
+<ol>
+<li>Python3 学习</li>
+</ol>
+</li>
+<li>
+<p>深度学习 吴达恩 B站视频</p>
+</li>
+</ol>
+</li>
+<li>
+<p>书籍：</p>
+<ol>
+<li>
+<p>Life:</p>
+<ol>
+<li>
+<p>《平凡的世界》</p>
+</li>
+<li>
+<p>《明朝那些事》</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Tech:</p>
+<ol>
+<li>
+<p>《程序员的自我修养》p1&ndash;p169</p>
+</li>
+<li>
+<p>《深入理解计算机系统》p1&ndash;p119、p399</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>Outdoor</p>
+<ol>
+<li>
+<p>鹫峰徒步（0408）</p>
+</li>
+<li>
+<p>北京•门头沟•十里坪🏕️（0415&ndash;0416）</p>
+</li>
+<li>
+<p>公园半程马拉松北京公开赛“北京•亦庄”南海子公园站（0422）01:46:07</p>
+</li>
+<li>
+<p>北大拉卡拉杯 5+2（0429）</p>
+</li>
+</ol>
+</li>
+<li>
+<p>打卡北京高校</p>
+<ol>
+<li>
+<p>中国农业大学</p>
+</li>
+<li>
+<p>中国石油大学</p>
+</li>
+<li>
+<p>北京林业大学</p>
+</li>
+<li>
+<p>北京大学</p>
+</li>
+</ol>
+</li>
+<li>
+<p>冥想</p>
+</li>
+</ol>
+]]></content:encoded>
     </item>
     
     <item>
