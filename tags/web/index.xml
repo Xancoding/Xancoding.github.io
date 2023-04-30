@@ -37,6 +37,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+&lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;VSCode&lt;/code&gt; 自动生成缺省的 &lt;code&gt;HTML&lt;/code&gt; 代码框架&lt;/li&gt;
 &lt;/ul&gt;
@@ -2019,6 +2020,7 @@ export {
 </ul>
 </li>
 </ul>
+<hr>
 <hr>
 <ul>
 <li><code>VSCode</code> 自动生成缺省的 <code>HTML</code> 代码框架</li>
