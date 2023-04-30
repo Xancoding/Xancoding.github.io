@@ -1764,7 +1764,7 @@
     </item>
     
     <item>
-      <title>2023 04 30 01 10 03</title>
+      <title>4 月总结</title>
       <link>https://xancoding.cn/posts/2023-04-30-01-10-03/</link>
       <pubDate>Sun, 30 Apr 2023 01:10:21 +0800</pubDate>
       
@@ -32989,10 +32989,10 @@ int main()
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/33463930/&#34;&gt;《操作系统导论》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/27096665/&#34;&gt;《现代操作系统》（原书第4版）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/5064311/&#34;&gt;《操作系统:精髓与设计原理》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://book.douban.com/subject/26912767/&#34;&gt;《深入理解计算机系统（原书第3版）》CSAPP&lt;/a&gt;&lt;/strong&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/33463930/&#34;&gt;《操作系统导论》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/27096665/&#34;&gt;《现代操作系统》（原书第4版）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/5064311/&#34;&gt;《操作系统:精髓与设计原理》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;&lt;a href=&#34;https://book.douban.com/subject/26912767/&#34;&gt;《深入理解计算机系统（原书第3版）》CSAPP&lt;/a&gt;&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;计算机组成 + 操作系统 + 汇编 + C语言 + Linux系统编程&lt;/strong&gt;
 &lt;!DOCTYPE HTML&gt;
@@ -34053,10 +34053,10 @@ int main()
 </ul>
 <hr>
 <ul>
-<li><a href="https://book.douban.com/subject/33463930/">《操作系统导论》</a></li>
-<li><a href="https://book.douban.com/subject/27096665/">《现代操作系统》（原书第4版）</a></li>
-<li><a href="https://book.douban.com/subject/5064311/">《操作系统:精髓与设计原理》</a></li>
-<li><strong><a href="https://book.douban.com/subject/26912767/">《深入理解计算机系统（原书第3版）》CSAPP</a></strong>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/33463930/">《操作系统导论》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/27096665/">《现代操作系统》（原书第4版）</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/5064311/">《操作系统:精髓与设计原理》</a></li>
+<li><input disabled="" type="checkbox"> <strong><a href="https://book.douban.com/subject/26912767/">《深入理解计算机系统（原书第3版）》CSAPP</a></strong>
 <ul>
 <li><strong>计算机组成 + 操作系统 + 汇编 + C语言 + Linux系统编程</strong>
 <!DOCTYPE HTML>
@@ -49149,15 +49149,16 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26941639/&#34;&gt;《网络是怎样连接的》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/25863515/&#34;&gt;《图解 HTTP》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/24737674/&#34;&gt;《图解TCP/IP（第5版）》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/35498120/&#34;&gt;《计算机网络（第8版）》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/30280001/&#34;&gt;《计算机网络：自顶向下方法》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/1088054/&#34;&gt;《TCP/IP详解 卷1：协议》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26268767/&#34;&gt;《Wireshark网络分析就这么简单》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26710788/&#34;&gt;《Wireshark网络分析的艺术》&lt;/a&gt;
-&lt;!DOCTYPE HTML&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/26941639/&#34;&gt;《网络是怎样连接的》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/25863515/&#34;&gt;《图解 HTTP》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/24737674/&#34;&gt;《图解TCP/IP（第5版）》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/35498120/&#34;&gt;《计算机网络（第8版）》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/30280001/&#34;&gt;《计算机网络：自顶向下方法》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/1088054/&#34;&gt;《TCP/IP详解 卷1：协议》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/26268767/&#34;&gt;《Wireshark网络分析就这么简单》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/26710788/&#34;&gt;《Wireshark网络分析的艺术》&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;!DOCTYPE HTML&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
     &lt;title&gt;&lt;/title&gt;
@@ -50884,8 +50885,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;/body&gt;
 &lt;/html&gt;
 
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="osi模型每层的数据单元名称">OSI模型每层的数据单元名称</h1>
 <ol>
@@ -51073,15 +51073,16 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 </ul>
 <hr>
 <ul>
-<li><a href="https://book.douban.com/subject/26941639/">《网络是怎样连接的》</a></li>
-<li><a href="https://book.douban.com/subject/25863515/">《图解 HTTP》</a></li>
-<li><a href="https://book.douban.com/subject/24737674/">《图解TCP/IP（第5版）》</a></li>
-<li><a href="https://book.douban.com/subject/35498120/">《计算机网络（第8版）》</a></li>
-<li><a href="https://book.douban.com/subject/30280001/">《计算机网络：自顶向下方法》</a></li>
-<li><a href="https://book.douban.com/subject/1088054/">《TCP/IP详解 卷1：协议》</a></li>
-<li><a href="https://book.douban.com/subject/26268767/">《Wireshark网络分析就这么简单》</a></li>
-<li><a href="https://book.douban.com/subject/26710788/">《Wireshark网络分析的艺术》</a>
-<!DOCTYPE HTML>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/26941639/">《网络是怎样连接的》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/25863515/">《图解 HTTP》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/24737674/">《图解TCP/IP（第5版）》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/35498120/">《计算机网络（第8版）》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/30280001/">《计算机网络：自顶向下方法》</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://book.douban.com/subject/1088054/">《TCP/IP详解 卷1：协议》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/26268767/">《Wireshark网络分析就这么简单》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/26710788/">《Wireshark网络分析的艺术》</a></li>
+</ul>
+<p><!DOCTYPE HTML>
 <html lang="en">
 <head>
     <title></title>
@@ -52808,8 +52809,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 </body>
 </html>
 
-</li>
-</ul>
+</p>
 ]]></content:encoded>
     </item>
     

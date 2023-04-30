@@ -4403,15 +4403,16 @@ Internet Control Message Protocol
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26941639/&#34;&gt;《网络是怎样连接的》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/25863515/&#34;&gt;《图解 HTTP》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/24737674/&#34;&gt;《图解TCP/IP（第5版）》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/35498120/&#34;&gt;《计算机网络（第8版）》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/30280001/&#34;&gt;《计算机网络：自顶向下方法》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/1088054/&#34;&gt;《TCP/IP详解 卷1：协议》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26268767/&#34;&gt;《Wireshark网络分析就这么简单》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26710788/&#34;&gt;《Wireshark网络分析的艺术》&lt;/a&gt;
-&lt;!DOCTYPE HTML&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/26941639/&#34;&gt;《网络是怎样连接的》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/25863515/&#34;&gt;《图解 HTTP》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/24737674/&#34;&gt;《图解TCP/IP（第5版）》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/35498120/&#34;&gt;《计算机网络（第8版）》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/30280001/&#34;&gt;《计算机网络：自顶向下方法》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/1088054/&#34;&gt;《TCP/IP详解 卷1：协议》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/26268767/&#34;&gt;《Wireshark网络分析就这么简单》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/26710788/&#34;&gt;《Wireshark网络分析的艺术》&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;!DOCTYPE HTML&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
     &lt;title&gt;&lt;/title&gt;
@@ -6138,8 +6139,7 @@ Internet Control Message Protocol
 &lt;/body&gt;
 &lt;/html&gt;
 
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="osi模型每层的数据单元名称">OSI模型每层的数据单元名称</h1>
 <ol>
@@ -6327,15 +6327,16 @@ Internet Control Message Protocol
 </ul>
 <hr>
 <ul>
-<li><a href="https://book.douban.com/subject/26941639/">《网络是怎样连接的》</a></li>
-<li><a href="https://book.douban.com/subject/25863515/">《图解 HTTP》</a></li>
-<li><a href="https://book.douban.com/subject/24737674/">《图解TCP/IP（第5版）》</a></li>
-<li><a href="https://book.douban.com/subject/35498120/">《计算机网络（第8版）》</a></li>
-<li><a href="https://book.douban.com/subject/30280001/">《计算机网络：自顶向下方法》</a></li>
-<li><a href="https://book.douban.com/subject/1088054/">《TCP/IP详解 卷1：协议》</a></li>
-<li><a href="https://book.douban.com/subject/26268767/">《Wireshark网络分析就这么简单》</a></li>
-<li><a href="https://book.douban.com/subject/26710788/">《Wireshark网络分析的艺术》</a>
-<!DOCTYPE HTML>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/26941639/">《网络是怎样连接的》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/25863515/">《图解 HTTP》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/24737674/">《图解TCP/IP（第5版）》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/35498120/">《计算机网络（第8版）》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/30280001/">《计算机网络：自顶向下方法》</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://book.douban.com/subject/1088054/">《TCP/IP详解 卷1：协议》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/26268767/">《Wireshark网络分析就这么简单》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/26710788/">《Wireshark网络分析的艺术》</a></li>
+</ul>
+<p><!DOCTYPE HTML>
 <html lang="en">
 <head>
     <title></title>
@@ -8062,8 +8063,7 @@ Internet Control Message Protocol
 </body>
 </html>
 
-</li>
-</ul>
+</p>
 ]]></content:encoded>
     </item>
     

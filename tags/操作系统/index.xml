@@ -203,10 +203,10 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/33463930/&#34;&gt;《操作系统导论》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/27096665/&#34;&gt;《现代操作系统》（原书第4版）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/5064311/&#34;&gt;《操作系统:精髓与设计原理》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://book.douban.com/subject/26912767/&#34;&gt;《深入理解计算机系统（原书第3版）》CSAPP&lt;/a&gt;&lt;/strong&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/33463930/&#34;&gt;《操作系统导论》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/27096665/&#34;&gt;《现代操作系统》（原书第4版）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/5064311/&#34;&gt;《操作系统:精髓与设计原理》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;&lt;a href=&#34;https://book.douban.com/subject/26912767/&#34;&gt;《深入理解计算机系统（原书第3版）》CSAPP&lt;/a&gt;&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;计算机组成 + 操作系统 + 汇编 + C语言 + Linux系统编程&lt;/strong&gt;
 &lt;!DOCTYPE HTML&gt;
@@ -1267,10 +1267,10 @@
 </ul>
 <hr>
 <ul>
-<li><a href="https://book.douban.com/subject/33463930/">《操作系统导论》</a></li>
-<li><a href="https://book.douban.com/subject/27096665/">《现代操作系统》（原书第4版）</a></li>
-<li><a href="https://book.douban.com/subject/5064311/">《操作系统:精髓与设计原理》</a></li>
-<li><strong><a href="https://book.douban.com/subject/26912767/">《深入理解计算机系统（原书第3版）》CSAPP</a></strong>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/33463930/">《操作系统导论》</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/27096665/">《现代操作系统》（原书第4版）</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/5064311/">《操作系统:精髓与设计原理》</a></li>
+<li><input disabled="" type="checkbox"> <strong><a href="https://book.douban.com/subject/26912767/">《深入理解计算机系统（原书第3版）》CSAPP</a></strong>
 <ul>
 <li><strong>计算机组成 + 操作系统 + 汇编 + C语言 + Linux系统编程</strong>
 <!DOCTYPE HTML>
