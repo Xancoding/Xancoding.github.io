@@ -26,6 +26,12 @@
     <loc>https://xancoding.cn/posts/</loc>
     <lastmod>2023-04-30T09:43:31+08:00</lastmod>
   </url><url>
+    <loc>https://xancoding.cn/tags/projects/</loc>
+    <lastmod>2023-04-30T09:43:31+08:00</lastmod>
+  </url><url>
+    <loc>https://xancoding.cn/tags/</loc>
+    <lastmod>2023-04-30T09:43:31+08:00</lastmod>
+  </url><url>
     <loc>https://xancoding.cn/</loc>
     <lastmod>2023-04-30T09:43:31+08:00</lastmod>
   </url><url>
@@ -33,9 +39,6 @@
     <lastmod>2023-04-30T09:39:00+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.cn/tags/hobby/</loc>
-    <lastmod>2023-04-30T09:39:00+08:00</lastmod>
-  </url><url>
-    <loc>https://xancoding.cn/tags/</loc>
     <lastmod>2023-04-30T09:39:00+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.cn/posts/2023-04-30-09-33-08/</loc>
@@ -263,13 +266,10 @@
     <loc>https://xancoding.cn/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2022-10-30T15:28:22+08:00</lastmod>
   </url><url>
-    <loc>https://xancoding.cn/posts/acw-django/</loc>
-    <lastmod>2022-10-29T18:23:59+08:00</lastmod>
-  </url><url>
     <loc>https://xancoding.cn/tags/django/</loc>
     <lastmod>2022-10-29T18:23:59+08:00</lastmod>
   </url><url>
-    <loc>https://xancoding.cn/tags/projects/</loc>
+    <loc>https://xancoding.cn/posts/acw-django/</loc>
     <lastmod>2022-10-29T18:23:59+08:00</lastmod>
   </url><url>
     <loc>https://xancoding.cn/posts/computer-network/</loc>

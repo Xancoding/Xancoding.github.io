@@ -6,9 +6,85 @@
     <description>Recent content in Projects on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 29 Oct 2022 18:23:59 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Apr 2023 09:43:31 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AcWing Django 框架课</title>
+      <title>Blog</title>
+      <link>https://xancoding.cn/posts/2023-04-30-09-43-30/</link>
+      <pubDate>Sun, 30 Apr 2023 09:43:31 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-04-30-09-43-30/</guid>
+      <description>&lt;h2 id=&#34;bloghttpsgithubcomxancodingxancodinggithubio&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/Xancoding.github.io&#34;&gt;Blog&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;搭建工具&#34;&gt;搭建工具&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Hugo &amp;amp; GitHub Pages &amp;amp; GitHub Action &amp;amp; Twikoo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Theme：PaperMod&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Tool：Obsidian &amp;amp; Git Bash&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tool-常用操作&#34;&gt;Tool 常用操作&lt;/h3&gt;
+&lt;h4 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;打开 &lt;code&gt;Obsidian&lt;/code&gt; 编辑器，通过 &lt;code&gt;ctrl + s&lt;/code&gt; 快捷键创建新博客&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl + d&lt;/code&gt;：删除当前文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl + t&lt;/code&gt;：打开新标签页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl + w&lt;/code&gt;：关闭当前标签页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl + o&lt;/code&gt;：切换或创建文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl + e&lt;/code&gt;：切换预览与编辑模式&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;各页面简介&#34;&gt;各页面简介&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Home：联系方式 &amp;amp; 文章&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Tags：文章标签&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Archives：文章归档&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;About：作者简介 &amp;amp; 博客简介&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Search：搜索文章&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;参考资料&#34;&gt;参考资料&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/&#34;&gt;Sulv&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://333rd.net/&#34;&gt;3rd&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shaohanyun.top/&#34;&gt;田少晗的个人博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/&#34;&gt;Hugo 博客写作最佳实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/&#34;&gt;Hugo + GitHub Action，搭建你的博客自动发布系统&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<h2 id="bloghttpsgithubcomxancodingxancodinggithubio"><a href="https://github.com/Xancoding/Xancoding.github.io">Blog</a></h2>
+<h3 id="搭建工具">搭建工具</h3>
+<ul>
+<li><code>Hugo &amp; GitHub Pages &amp; GitHub Action &amp; Twikoo</code></li>
+<li><code>Theme：PaperMod</code></li>
+<li><code>Tool：Obsidian &amp; Git Bash</code></li>
+</ul>
+<h3 id="tool-常用操作">Tool 常用操作</h3>
+<h4 id="obsidian">Obsidian</h4>
+<ol>
+<li>打开 <code>Obsidian</code> 编辑器，通过 <code>ctrl + s</code> 快捷键创建新博客</li>
+<li><code>ctrl + d</code>：删除当前文件</li>
+<li><code>ctrl + t</code>：打开新标签页</li>
+<li><code>ctrl + w</code>：关闭当前标签页</li>
+<li><code>ctrl + o</code>：切换或创建文件</li>
+<li><code>ctrl + e</code>：切换预览与编辑模式</li>
+</ol>
+<h3 id="各页面简介">各页面简介</h3>
+<ul>
+<li><code>Home：联系方式 &amp; 文章</code></li>
+<li><code>Tags：文章标签</code></li>
+<li><code>Archives：文章归档</code></li>
+<li><code>About：作者简介 &amp; 博客简介</code></li>
+<li><code>Search：搜索文章</code></li>
+</ul>
+<h3 id="参考资料">参考资料</h3>
+<ul>
+<li><a href="https://www.sulvblog.cn/">Sulv&rsquo;s Blog</a></li>
+<li><a href="https://333rd.net/">3rd&rsquo;s Blog</a></li>
+<li><a href="https://shaohanyun.top/">田少晗的个人博客</a></li>
+<li><a href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/">Hugo 博客写作最佳实践</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>WarOfWarlock--AcWing Django 框架课</title>
       <link>https://xancoding.cn/posts/acw-django/</link>
       <pubDate>Sat, 29 Oct 2022 18:23:59 +0800</pubDate>
       
