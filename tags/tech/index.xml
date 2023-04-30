@@ -36418,6 +36418,16 @@ export {
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/72/&#34;&gt;AcWing Django 框架课&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+&lt;h2 id=&#34;warofwarlockhttpsgithubcomxancodingwarofwarlock&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/WarOfWarlock&#34;&gt;WarOfWarlock&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;搭建工具&#34;&gt;搭建工具&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;HTML &amp;amp; CSS &amp;amp; JavaScript &amp;amp; Django&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;参考资料&#34;&gt;参考资料&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_django/&#34;&gt;AcWing Django 框架课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/72/&#34;&gt;AcWing Django框架课&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;django-项目创建&#34;&gt;Django 项目创建&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/solution/content/72577/&#34;&gt;2.1上课笔记 | 栎&lt;/a&gt;&lt;/li&gt;
@@ -40323,6 +40333,16 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 <li><a href="https://www.acwing.com/activity/content/punch_the_clock/72/">AcWing Django 框架课</a></li>
 </ul>
 <hr>
+<h2 id="warofwarlockhttpsgithubcomxancodingwarofwarlock"><a href="https://github.com/Xancoding/WarOfWarlock">WarOfWarlock</a></h2>
+<h3 id="搭建工具">搭建工具</h3>
+<ul>
+<li><code>HTML &amp; CSS &amp; JavaScript &amp; Django</code></li>
+</ul>
+<h3 id="参考资料">参考资料</h3>
+<ul>
+<li><a href="https://www.colopen-blog.com/Engineer/acw_django/">AcWing Django 框架课 | Colopen&rsquo;s blog</a></li>
+<li><a href="https://www.acwing.com/activity/content/punch_the_clock/72/">AcWing Django框架课</a></li>
+</ul>
 <h1 id="django-项目创建">Django 项目创建</h1>
 <ul>
 <li><a href="https://www.acwing.com/solution/content/72577/">2.1上课笔记 | 栎</a></li>
