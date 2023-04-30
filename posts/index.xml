@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 30 Apr 2023 09:20:36 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Apr 2023 09:25:28 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>年度计划</title>
       <link>https://xancoding.cn/posts/plan/</link>
@@ -1764,6 +1764,16 @@
     </item>
     
     <item>
+      <title>Run</title>
+      <link>https://xancoding.cn/posts/2023-04-30-09-25-28/</link>
+      <pubDate>Sun, 30 Apr 2023 09:25:28 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-04-30-09-25-28/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
       <title>Outdoor</title>
       <link>https://xancoding.cn/posts/2023-04-30-09-20-35/</link>
       <pubDate>Sun, 30 Apr 2023 09:20:36 +0800</pubDate>
@@ -1813,7 +1823,6 @@
 
 &lt;/p&gt;
 &lt;h2 id=&#34;我的装备&#34;&gt;我的装备&lt;/h2&gt;
-&lt;h2 id=&#34;outdoor&#34;&gt;Outdoor&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 三峰出雨衣 15D —— 闲鱼 112元&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; BLACK ICE 黑冰 户外运动P棉服 F8001 S码 —— 淘宝 543元 闲鱼 499元&lt;/li&gt;
@@ -1887,7 +1896,6 @@
 
 </p>
 <h2 id="我的装备">我的装备</h2>
-<h2 id="outdoor">Outdoor</h2>
 <ul>
 <li><input disabled="" type="checkbox"> 三峰出雨衣 15D —— 闲鱼 112元</li>
 <li><input disabled="" type="checkbox"> BLACK ICE 黑冰 户外运动P棉服 F8001 S码 —— 淘宝 543元 闲鱼 499元</li>
