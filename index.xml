@@ -60498,7 +60498,7 @@ docker rm CONTAINER_NAME # 删除容器
       <description>&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
 &lt;p&gt;𝑯𝒊, 𝑰&amp;rsquo;𝒎 ✨ &lt;a href=&#34;https://xancoding.cn/&#34;&gt;𝐗𝐚𝐧&lt;/a&gt; ✨,𝐚 𝐂𝐒 𝐬𝐭𝐮𝐝𝐞𝐧𝐭 𝐟𝐫𝐨𝐦 𝐍𝐂𝐄𝐏𝐔.&lt;/p&gt;
 &lt;p&gt;𝐌𝐲 ❤ 𝐡𝐨𝐛𝐛𝐢𝐞𝐬 ❤ 𝐚𝐫𝐞 𝐑𝐮𝐧𝐧𝐢𝐧𝐠, 𝐇𝐢𝐤𝐢𝐧𝐠, 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲, 𝐇𝐢𝐬𝐭𝐨𝐫𝐲 𝐚𝐧𝐝 𝐏𝐬𝐲𝐜𝐡𝐨𝐥𝐨𝐠𝐲.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.16personalities.com/profiles/2fb2622dae5d6&#34;&gt;ENFJ-A&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&#34;https://www.16personalities.com/profiles/2fb2622dae5d6&#34;&gt;ENFJ-A&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;motto&#34;&gt;Motto&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;The value of a college education is not the learning of many facts but the training of the mind to think.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
@@ -60514,22 +60514,6 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/ol&gt;
 &lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;Avoid premature optimization.&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;cloth-size&#34;&gt;Cloth size&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;肩宽 44cm&lt;/li&gt;
-&lt;li&gt;胸围 80cm&lt;/li&gt;
-&lt;li&gt;袖长 60cm&lt;/li&gt;
-&lt;li&gt;腰围 73cm&lt;/li&gt;
-&lt;li&gt;臀围 93cm
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/14/63c257e529c6d.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/14/63c257e529c6d.jpg&#34; alt=&#34;W020140804575490157571.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
@@ -60555,7 +60539,7 @@ docker rm CONTAINER_NAME # 删除容器
       <content:encoded><![CDATA[<h1 id="about-me">About me</h1>
 <p>𝑯𝒊, 𝑰&rsquo;𝒎 ✨ <a href="https://xancoding.cn/">𝐗𝐚𝐧</a> ✨,𝐚 𝐂𝐒 𝐬𝐭𝐮𝐝𝐞𝐧𝐭 𝐟𝐫𝐨𝐦 𝐍𝐂𝐄𝐏𝐔.</p>
 <p>𝐌𝐲 ❤ 𝐡𝐨𝐛𝐛𝐢𝐞𝐬 ❤ 𝐚𝐫𝐞 𝐑𝐮𝐧𝐧𝐢𝐧𝐠, 𝐇𝐢𝐤𝐢𝐧𝐠, 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲, 𝐇𝐢𝐬𝐭𝐨𝐫𝐲 𝐚𝐧𝐝 𝐏𝐬𝐲𝐜𝐡𝐨𝐥𝐨𝐠𝐲.</p>
-<p><a href="https://www.16personalities.com/profiles/2fb2622dae5d6">ENFJ-A</a></p>
+<p>A <a href="https://www.16personalities.com/profiles/2fb2622dae5d6">ENFJ-A</a></p>
 <h1 id="motto">Motto</h1>
 <ol>
 <li>The value of a college education is not the learning of many facts but the training of the mind to think.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
@@ -60571,22 +60555,6 @@ docker rm CONTAINER_NAME # 删除容器
 </ol>
 <ol start="5">
 <li>Avoid premature optimization.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></li>
-</ol>
-<h1 id="cloth-size">Cloth size</h1>
-<ol>
-<li>肩宽 44cm</li>
-<li>胸围 80cm</li>
-<li>袖长 60cm</li>
-<li>腰围 73cm</li>
-<li>臀围 93cm
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/14/63c257e529c6d.jpg">
-<img src="https://bu.dusays.com/2023/01/14/63c257e529c6d.jpg" alt="W020140804575490157571.jpg"  />
-</a>
-</div>
-
-</li>
 </ol>
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -60628,6 +60596,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/linw7/Skill-Tree&#34;&gt;后端开发核心知识&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aquadzn.github.io/learn-x-by-doing-y/?Project%5Bmenu%5D%5Bmain_language%5D=C%2FC%2B%2B&#34;&gt;A project based learning search engine&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;blogs&#34;&gt;Blogs&lt;/h1&gt;
 &lt;ul&gt;
@@ -60729,7 +60698,7 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/&#34;&gt;HackerNews&lt;/a&gt; 技术热点话题 新闻社区&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://meta.appinn.net/&#34;&gt;小众软件论坛&lt;/a&gt; 分享免费、小巧、有趣、实用软件&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://codenews.cc/&#34;&gt;CodeNews&lt;/a&gt; 一个专注于【技术发明创造】交流的社区&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://hellogithub.com/&#34;&gt;HelloGitHub&lt;/a&gt; 一个分享有趣、 入门级开源项目的平台&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hellogithub.com/&#34;&gt;HelloGitHub&lt;/a&gt; 一个分享有趣、 入门级开源项目的平台z&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="cs">CS</h1>
@@ -60743,6 +60712,7 @@ docker rm CONTAINER_NAME # 删除容器
 </ul>
 </li>
 <li><a href="https://github.com/linw7/Skill-Tree">后端开发核心知识</a></li>
+<li><a href="https://aquadzn.github.io/learn-x-by-doing-y/?Project%5Bmenu%5D%5Bmain_language%5D=C%2FC%2B%2B">A project based learning search engine</a></li>
 </ul>
 <h1 id="blogs">Blogs</h1>
 <ul>
@@ -60844,7 +60814,7 @@ docker rm CONTAINER_NAME # 删除容器
 <li><a href="https://news.ycombinator.com/">HackerNews</a> 技术热点话题 新闻社区</li>
 <li><a href="https://meta.appinn.net/">小众软件论坛</a> 分享免费、小巧、有趣、实用软件</li>
 <li><a href="https://codenews.cc/">CodeNews</a> 一个专注于【技术发明创造】交流的社区</li>
-<li><a href="https://hellogithub.com/">HelloGitHub</a> 一个分享有趣、 入门级开源项目的平台</li>
+<li><a href="https://hellogithub.com/">HelloGitHub</a> 一个分享有趣、 入门级开源项目的平台z</li>
 </ul>
 ]]></content:encoded>
     </item>
