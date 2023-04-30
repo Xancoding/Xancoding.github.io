@@ -1769,8 +1769,64 @@
       <pubDate>Sun, 30 Apr 2023 09:25:28 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-04-30-09-25-28/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
+      <description>&lt;h2 id=&#34;我的装备&#34;&gt;我的装备&lt;/h2&gt;
+&lt;h3 id=&#34;手表&#34;&gt;手表&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; COROS高驰 PACE2 竞技运动手表 —— 闲鱼 1200元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;跑鞋&#34;&gt;跑鞋&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 飞影PB 国庆配色 260mm —— 闲鱼 450元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Nike React Infinity Run 白蓝 260mm —— 闲鱼 271元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 锐步 Energy3 260mm —— 闲鱼 450元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;冬季装备&#34;&gt;冬季装备&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; QINKUNG长袖 M码 —— 闲鱼 78元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 必迈 V4热能紧身压缩衣 L码 —— 闲鱼 329元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 必迈 防风保暖夹克 恒星蓝 L码 —— 闲鱼  259元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;夏季装备&#34;&gt;夏季装备&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 特步国人竞速 短裤、背心 —— 闲鱼 259元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; QINKUNG短袖 M码 —— 官网 169元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; BMAI 必迈跑步竞速压缩短裤 3.5寸 黑练黑 —— 淘宝 173元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;帽子&#34;&gt;帽子🧢&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Nike运动帽 679421 —— 闲鱼 110元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; QINKUNG轻功 秋冬跑步高弹针织帽 —— 淘宝 99元&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<h2 id="我的装备">我的装备</h2>
+<h3 id="手表">手表</h3>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> COROS高驰 PACE2 竞技运动手表 —— 闲鱼 1200元</li>
+</ul>
+<h3 id="跑鞋">跑鞋</h3>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 飞影PB 国庆配色 260mm —— 闲鱼 450元</li>
+<li><input checked="" disabled="" type="checkbox"> Nike React Infinity Run 白蓝 260mm —— 闲鱼 271元</li>
+<li><input checked="" disabled="" type="checkbox"> 锐步 Energy3 260mm —— 闲鱼 450元</li>
+</ul>
+<h3 id="冬季装备">冬季装备</h3>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> QINKUNG长袖 M码 —— 闲鱼 78元</li>
+<li><input checked="" disabled="" type="checkbox"> 必迈 V4热能紧身压缩衣 L码 —— 闲鱼 329元</li>
+<li><input checked="" disabled="" type="checkbox"> 必迈 防风保暖夹克 恒星蓝 L码 —— 闲鱼  259元</li>
+</ul>
+<h3 id="夏季装备">夏季装备</h3>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 特步国人竞速 短裤、背心 —— 闲鱼 259元</li>
+<li><input checked="" disabled="" type="checkbox"> QINKUNG短袖 M码 —— 官网 169元</li>
+<li><input checked="" disabled="" type="checkbox"> BMAI 必迈跑步竞速压缩短裤 3.5寸 黑练黑 —— 淘宝 173元</li>
+</ul>
+<h3 id="帽子">帽子🧢</h3>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Nike运动帽 679421 —— 闲鱼 110元</li>
+<li><input checked="" disabled="" type="checkbox"> QINKUNG轻功 秋冬跑步高弹针织帽 —— 淘宝 99元</li>
+</ul>
+]]></content:encoded>
     </item>
     
     <item>
@@ -59652,20 +59708,6 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 小米充电宝 20000mAh 22.5W —— 京东 149元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 小米 原装二合一数据线 1m —— 京东 27元&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;run&#34;&gt;Run&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; COROS高驰 PACE2 竞技运动手表 —— 闲鱼 1200元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 特步国人竞速 短裤、背心 —— 闲鱼 259元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; QINKUNG长袖 M码 —— 闲鱼 78元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; QINKUNG短袖 M码 —— 官网 169元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Nike运动帽 679421 —— 闲鱼 110元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; QINKUNG轻功 秋冬跑步高弹针织帽 —— 淘宝 99元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 飞影PB 国庆配色 260mm —— 闲鱼 450元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Nike React Infinity Run 白蓝 260mm —— 闲鱼 271元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 锐步 Energy3 260mm —— 闲鱼 450元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 必迈 V4热能紧身压缩衣 L码 —— 闲鱼 329元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 必迈 防风保暖夹克 恒星蓝 L码 —— 闲鱼  259元&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2 id=&#34;first-aid-kit&#34;&gt;First aid kit&lt;/h2&gt;
 &lt;h3 id=&#34;outdoor&#34;&gt;Outdoor&lt;/h3&gt;
 &lt;h4 id=&#34;trauma&#34;&gt;Trauma&lt;/h4&gt;
@@ -60147,20 +60189,6 @@ docker rm CONTAINER_NAME # 删除容器
 <li><input checked="" disabled="" type="checkbox"> SAMSUNG 64GB U盘 —— 京东 87 元</li>
 <li><input checked="" disabled="" type="checkbox"> 小米充电宝 20000mAh 22.5W —— 京东 149元</li>
 <li><input checked="" disabled="" type="checkbox"> 小米 原装二合一数据线 1m —— 京东 27元</li>
-</ul>
-<h2 id="run">Run</h2>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> COROS高驰 PACE2 竞技运动手表 —— 闲鱼 1200元</li>
-<li><input checked="" disabled="" type="checkbox"> 特步国人竞速 短裤、背心 —— 闲鱼 259元</li>
-<li><input checked="" disabled="" type="checkbox"> QINKUNG长袖 M码 —— 闲鱼 78元</li>
-<li><input checked="" disabled="" type="checkbox"> QINKUNG短袖 M码 —— 官网 169元</li>
-<li><input checked="" disabled="" type="checkbox"> Nike运动帽 679421 —— 闲鱼 110元</li>
-<li><input checked="" disabled="" type="checkbox"> QINKUNG轻功 秋冬跑步高弹针织帽 —— 淘宝 99元</li>
-<li><input checked="" disabled="" type="checkbox"> 飞影PB 国庆配色 260mm —— 闲鱼 450元</li>
-<li><input checked="" disabled="" type="checkbox"> Nike React Infinity Run 白蓝 260mm —— 闲鱼 271元</li>
-<li><input checked="" disabled="" type="checkbox"> 锐步 Energy3 260mm —— 闲鱼 450元</li>
-<li><input checked="" disabled="" type="checkbox"> 必迈 V4热能紧身压缩衣 L码 —— 闲鱼 329元</li>
-<li><input checked="" disabled="" type="checkbox"> 必迈 防风保暖夹克 恒星蓝 L码 —— 闲鱼  259元</li>
 </ul>
 <h2 id="first-aid-kit">First aid kit</h2>
 <h3 id="outdoor">Outdoor</h3>
