@@ -60377,7 +60377,6 @@ docker rm CONTAINER_NAME # 删除容器
 &lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;Avoid premature optimization.&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;projects&#34;&gt;Projects&lt;/h1&gt;
 &lt;h1 id=&#34;宿舍备药&#34;&gt;宿舍备药&lt;/h1&gt;
 &lt;h2 id=&#34;运动损伤&#34;&gt;运动损伤&lt;/h2&gt;
 &lt;ol&gt;
@@ -60449,11 +60448,6 @@ docker rm CONTAINER_NAME # 删除容器
 
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;trackpad-repair&#34;&gt;Trackpad Repair&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;预计会需要3~5天时间&lt;/li&gt;
-&lt;li&gt;触控板、键盘、c面是一体报价，800左右&lt;/li&gt;
-&lt;/ol&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -60495,7 +60489,6 @@ docker rm CONTAINER_NAME # 删除容器
 <ol start="5">
 <li>Avoid premature optimization.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></li>
 </ol>
-<h1 id="projects">Projects</h1>
 <h1 id="宿舍备药">宿舍备药</h1>
 <h2 id="运动损伤">运动损伤</h2>
 <ol>
@@ -60566,11 +60559,6 @@ docker rm CONTAINER_NAME # 删除容器
 </div>
 
 </li>
-</ol>
-<h1 id="trackpad-repair">Trackpad Repair</h1>
-<ol>
-<li>预计会需要3~5天时间</li>
-<li>触控板、键盘、c面是一体报价，800左右</li>
 </ol>
 <div class="footnotes" role="doc-endnotes">
 <hr>
