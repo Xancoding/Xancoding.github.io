@@ -1104,6 +1104,7 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
       <description>&lt;h1 id=&#34;环境配置&#34;&gt;环境配置&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.jianshu.com/p/0e1d51a7549d&#34;&gt;# Python 数据科学入门教程：NLTK&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;机器学习神经网络深度学习&#34;&gt;机器学习、神经网络、深度学习&lt;/h1&gt;
 &lt;p&gt;机器学习、神经网络、深度学习是三个相互关联的概念，它们都是人工智能领域的重要组成部分。&lt;/p&gt;
@@ -1157,6 +1158,7 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
       <content:encoded><![CDATA[<h1 id="环境配置">环境配置</h1>
 <ul>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://www.jianshu.com/p/0e1d51a7549d"># Python 数据科学入门教程：NLTK</a></li>
 </ul>
 <h1 id="机器学习神经网络深度学习">机器学习、神经网络、深度学习</h1>
 <p>机器学习、神经网络、深度学习是三个相互关联的概念，它们都是人工智能领域的重要组成部分。</p>
