@@ -3375,7 +3375,7 @@ success
 &lt;li&gt;&lt;code&gt;docker attach my_docker_server&lt;/code&gt;：进入创建的&lt;code&gt;docker容器&lt;/code&gt;（服务器）&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;adduser acs&lt;/code&gt;：创建&lt;code&gt;acs&lt;/code&gt;用户&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;usermod -aG sudo acs&lt;/code&gt;：为&lt;code&gt;acs&lt;/code&gt;用户分配&lt;code&gt;sudo&lt;/code&gt;权限&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;scp .bashrc .vimrc .tmux.conf django&lt;/code&gt;：将本地服务器的&lt;code&gt;bash&lt;/code&gt;&amp;amp;&lt;code&gt;vim&lt;/code&gt;&amp;amp;&lt;code&gt;tmux&lt;/code&gt;配置文件传至&lt;code&gt;docker 容器&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;scp .bashrc .vimrc .tmux.conf django:&lt;/code&gt;：将本地服务器的&lt;code&gt;bash&lt;/code&gt;&amp;amp;&lt;code&gt;vim&lt;/code&gt;&amp;amp;&lt;code&gt;tmux&lt;/code&gt;配置文件传至&lt;code&gt;docker 容器&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;docker项目迁移&#34;&gt;Docker项目迁移&lt;/h3&gt;
 &lt;p&gt;第一步，登录容器，关闭所有运行中的任务&lt;/p&gt;
@@ -4577,7 +4577,7 @@ success
 <li><code>docker attach my_docker_server</code>：进入创建的<code>docker容器</code>（服务器）</li>
 <li><code>adduser acs</code>：创建<code>acs</code>用户</li>
 <li><code>usermod -aG sudo acs</code>：为<code>acs</code>用户分配<code>sudo</code>权限</li>
-<li><code>scp .bashrc .vimrc .tmux.conf django</code>：将本地服务器的<code>bash</code>&amp;<code>vim</code>&amp;<code>tmux</code>配置文件传至<code>docker 容器</code></li>
+<li><code>scp .bashrc .vimrc .tmux.conf django:</code>：将本地服务器的<code>bash</code>&amp;<code>vim</code>&amp;<code>tmux</code>配置文件传至<code>docker 容器</code></li>
 </ol>
 <h3 id="docker项目迁移">Docker项目迁移</h3>
 <p>第一步，登录容器，关闭所有运行中的任务</p>
