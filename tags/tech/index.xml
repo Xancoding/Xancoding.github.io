@@ -6,7 +6,7 @@
     <description>Recent content in Tech on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 30 Apr 2023 09:43:31 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 May 2023 17:40:45 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我获取信息的方式</title>
       <link>https://xancoding.cn/posts/get-info/</link>
@@ -782,6 +782,18 @@
 </ul>
 <p>我使用的图床是<a href="https://7bu.top/upload">去不图床</a>，借助 <code>PicGo</code>，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 <code>Obsidian</code> 中的 <code>Image auto upload Plugin</code> 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。<br>
 如今，只用把图片拖拽到 <code>Obsidian</code> 编辑器中，即可自动将图片通过 <code>PicGo</code> 上传到 <code>去不图床</code>，并生成链接，显示在 <code>Obsidian</code> 中。</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>ICS-PA</title>
+      <link>https://xancoding.cn/posts/2023-05-08-17-40-44/</link>
+      <pubDate>Mon, 08 May 2023 17:40:45 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-05-08-17-40-44/</guid>
+      <description>&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="heading"></h1>
 ]]></content:encoded>
     </item>
     
