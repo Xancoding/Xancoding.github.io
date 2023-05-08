@@ -794,10 +794,24 @@
       <description>&lt;p&gt;在完成 ICS-PA 的过程中，记录踩的一些坑（当然，绝大部分是没有 &lt;code&gt;RTFM &amp;amp; RTFW&lt;/code&gt; 造成的🤣&lt;/p&gt;
 &lt;h1 id=&#34;计算机系统基础&#34;&gt;计算机系统基础&lt;/h1&gt;
 &lt;h2 id=&#34;pa0---世界诞生的前夜-开发环境配置&#34;&gt;PA0 - 世界诞生的前夜: 开发环境配置&lt;/h2&gt;
+&lt;p&gt;在执行下述命令：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;apt-get install libsdl2-dev        # a library used later
+apt-get install llvm llvm-dev      # llvm project, which contains libraries used later
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;发现缺少依赖&lt;/p&gt;
+&lt;p&gt;执行下述命令，仍然没有效果&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;apt-get update
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在 &lt;code&gt;RTFM&lt;/code&gt; 后，发现是镜像源的问题，更改镜像源后，再次进行操作，发现成功安装&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<p>在完成 ICS-PA 的过程中，记录踩的一些坑（当然，绝大部分是没有 <code>RTFM &amp; RTFW</code> 造成的🤣</p>
 <h1 id="计算机系统基础">计算机系统基础</h1>
 <h2 id="pa0---世界诞生的前夜-开发环境配置">PA0 - 世界诞生的前夜: 开发环境配置</h2>
+<p>在执行下述命令：</p>
+<pre tabindex="0"><code>apt-get install libsdl2-dev        # a library used later
+apt-get install llvm llvm-dev      # llvm project, which contains libraries used later
+</code></pre><p>发现缺少依赖</p>
+<p>执行下述命令，仍然没有效果</p>
+<pre tabindex="0"><code>apt-get update
+</code></pre><p>在 <code>RTFM</code> 后，发现是镜像源的问题，更改镜像源后，再次进行操作，发现成功安装</p>
 ]]></content:encoded>
     </item>
     
