@@ -24198,8 +24198,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;li&gt;&lt;a href=&#34;https://wangdoc.com/bash/&#34;&gt;《Bash 脚本教程》&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://missing-semester-cn.github.io/2020/course-shell/&#34;&gt;第 1 讲 - 课程概览与 Shell | The missing semester of your CS education&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://missing-semester-cn.github.io/2020/shell-tools/&#34;&gt;第 2 讲 - Shell 工具和脚本 | The missing semester of your CS education&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/19556676&#34;&gt;终极 Shell——ZSH&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ohmyzsh/ohmyzsh&#34;&gt;快速入门 zsh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Bg411m7ND/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 优雅简洁的zim美化你的zsh终端，媲美甚至超越 ohmyzsh&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;shell是什么&#34;&gt;Shell是什么？&lt;/h3&gt;
@@ -25400,8 +25399,7 @@ docker rm CONTAINER_NAME # 删除容器
 <li><a href="https://wangdoc.com/bash/">《Bash 脚本教程》</a></li>
 <li><a href="https://missing-semester-cn.github.io/2020/course-shell/">第 1 讲 - 课程概览与 Shell | The missing semester of your CS education</a></li>
 <li><a href="https://missing-semester-cn.github.io/2020/shell-tools/">第 2 讲 - Shell 工具和脚本 | The missing semester of your CS education</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/19556676">终极 Shell——ZSH</a></li>
-<li><a href="https://github.com/ohmyzsh/ohmyzsh">快速入门 zsh</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Bg411m7ND/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 优雅简洁的zim美化你的zsh终端，媲美甚至超越 ohmyzsh</a></li>
 </ul>
 <hr>
 <h3 id="shell是什么">Shell是什么？</h3>
