@@ -48360,6 +48360,22 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;其中 $\epsilon &amp;gt; 0$ 是任意小的正数。这里的 $O$、$\Theta$ 和 $\Omega$ 表示渐进符号。&lt;/p&gt;
+&lt;h1 id=&#34;p--np--npc--np-hard&#34;&gt;P &amp;amp; NP &amp;amp; NPC &amp;amp; NP-Hard&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt; P(Polynomial,多项式)问题，P问题是可以在多项式时间内被解决的问题。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt; NP类问题（Nondeterminism Polynomial）：在多项式时间内“可验证”的问题。也就是说，不能判定这个问题到底有没有解，而是猜出一个解来在多项式时间内证明这个解是否正确。即该问题的猜测过程是不确定的，而对其某一个解的验证则能够在多项式时间内完成。直白的说，就是可以在多项式的时间里猜出一个解的问题。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;NPC（Nondeterminism Polynomial complete）：存在这样一个NP问题，所有的NP问题都可以约化成它。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;NP-hard问题（NPH，NP-Hard）是指那些至少和NP问题一样难的问题。也就是说，如果存在一个多项式时间算法能够解决一个NP-hard问题，那么所有的NP问题都可以在多项式时间内解决。需要注意的是，NP-hard问题并不一定是NP问题，它们可能不具备在多项式时间内验证解的正确性的性质。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;总之，NP完全问题和NP-hard问题都属于计算复杂度理论中难以解决的问题。它们之间的区别在于，NP完全问题既可以在多项式时间内验证解的正确性，又至少和其他NP问题一样难；而NP-hard问题只需满足后者的条件。&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Xancoding/Data-Structures-and-Algorithms&#34;&gt;数据结构与算法 | 我的笔记&lt;/a&gt;&lt;/li&gt;
@@ -49284,6 +49300,22 @@ $$T(n) = aT(n/b) + f(n)$$</p>
 </li>
 </ol>
 <p>其中 $\epsilon &gt; 0$ 是任意小的正数。这里的 $O$、$\Theta$ 和 $\Omega$ 表示渐进符号。</p>
+<h1 id="p--np--npc--np-hard">P &amp; NP &amp; NPC &amp; NP-Hard</h1>
+<ul>
+<li>
+<p> P(Polynomial,多项式)问题，P问题是可以在多项式时间内被解决的问题。</p>
+</li>
+<li>
+<p> NP类问题（Nondeterminism Polynomial）：在多项式时间内“可验证”的问题。也就是说，不能判定这个问题到底有没有解，而是猜出一个解来在多项式时间内证明这个解是否正确。即该问题的猜测过程是不确定的，而对其某一个解的验证则能够在多项式时间内完成。直白的说，就是可以在多项式的时间里猜出一个解的问题。</p>
+</li>
+<li>
+<p>NPC（Nondeterminism Polynomial complete）：存在这样一个NP问题，所有的NP问题都可以约化成它。</p>
+</li>
+<li>
+<p>NP-hard问题（NPH，NP-Hard）是指那些至少和NP问题一样难的问题。也就是说，如果存在一个多项式时间算法能够解决一个NP-hard问题，那么所有的NP问题都可以在多项式时间内解决。需要注意的是，NP-hard问题并不一定是NP问题，它们可能不具备在多项式时间内验证解的正确性的性质。</p>
+</li>
+</ul>
+<p>总之，NP完全问题和NP-hard问题都属于计算复杂度理论中难以解决的问题。它们之间的区别在于，NP完全问题既可以在多项式时间内验证解的正确性，又至少和其他NP问题一样难；而NP-hard问题只需满足后者的条件。</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://github.com/Xancoding/Data-Structures-and-Algorithms">数据结构与算法 | 我的笔记</a></li>
