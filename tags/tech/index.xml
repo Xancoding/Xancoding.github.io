@@ -48329,7 +48329,87 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
       <pubDate>Tue, 18 Oct 2022 17:16:53 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/data-structures-and-algorithms/</guid>
-      <description>&lt;h1 id=&#34;递推式的计算&#34;&gt;递推式的计算&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;分治法&#34;&gt;分治法&lt;/h1&gt;
+&lt;p&gt;分治法的关键步骤包括：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;分成子问题&lt;/li&gt;
+&lt;li&gt;递归处理子问题&lt;/li&gt;
+&lt;li&gt;子问题合并&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;描述算法时间增长率上限用 &lt;strong&gt;O&lt;/strong&gt; 符号，增长率下限用 &lt;strong&gt;Ω&lt;/strong&gt; 符号表示。&lt;/p&gt;
+&lt;p&gt;图灵机模型的基本结构包括 纸带,&lt;strong&gt;读写头&lt;/strong&gt;,&lt;strong&gt;有限状态自动机&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;NP问题是指可以在多项式的时间里验证一个解的问题&lt;/p&gt;
+&lt;p&gt;若一个问题可以找到一个能在多项式的时间里解决它的算法，该问题就属于P问题&lt;/p&gt;
+&lt;p&gt;NPC 问题不一定是个NP问题，只要保证所有的NP问题都可以约化到它即可。&lt;br&gt;
+NPC问题指的是NP问题中最难的问题之一，同时也是NP问题中的一个子集，因此只要能将所有的NP问题约化为它，它就是NP问题。&lt;/p&gt;
+&lt;p&gt;所有的P类问题都是NP问题的子集。&lt;/p&gt;
+&lt;p&gt;所有可计算问题都可以用递归模型和 &lt;strong&gt;图灵机&lt;/strong&gt; 模型求解&lt;/p&gt;
+&lt;p&gt;分治法是一种求解问题的策略，而递归是一种实现求解算法的技术&lt;/p&gt;
+&lt;p&gt;改进分治算法的途径有 &lt;strong&gt;减少子问题个数&lt;/strong&gt; 和 &lt;strong&gt;增加预处理&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;在分治法处理中，实践证明，采用 &lt;strong&gt;平衡子问题&lt;/strong&gt; 思想划分子问题总是有较好的结果。&lt;/p&gt;
+&lt;p&gt;在大整数乘法和矩阵乘中，可以采取降低  &lt;strong&gt;乘法&lt;/strong&gt; 的运算次数来降低时间复杂度&lt;/p&gt;
+&lt;p&gt;虽然动态规划算法通常用于解决具有重叠子问题的问题，但是这并不是动态规划的必要条件。&lt;/p&gt;
+&lt;p&gt;一个基于BSP模型的并行算法，假设有p台处理器，用于计算整数数组a[0..n-1]的所有元素之和，算法的时间复杂度为 &lt;strong&gt;O(n/p+p)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;分治法的设计思想是将一个难以直接解决的大问题分割成规模较小的子问题，分别解决子问题，最后将子问题的解组合起来形成原问题的解。这要求原问题和子问题 &lt;strong&gt;问题规模不同，问题性质相同&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;动态规划&#34;&gt;动态规划&lt;/h1&gt;
+&lt;p&gt;动态规划算法的两个基本要素是 &lt;strong&gt;子问题重叠&lt;/strong&gt; 性质和 &lt;strong&gt;最优子结构&lt;/strong&gt; 性质 。&lt;/p&gt;
+&lt;p&gt;问题的 &lt;strong&gt;子问题重叠&lt;/strong&gt; 是该问题可用动态规划算法或贪心算法求解的关键特征。&lt;/p&gt;
+&lt;p&gt;备忘录/填表方法是 &lt;strong&gt;动态规划法&lt;/strong&gt; 算法的变形&lt;/p&gt;
+&lt;p&gt;动态规划算法基本要素的是 &lt;strong&gt;子问题重叠&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;能采用动态规划求解的问题必须要满足的性质是 &lt;strong&gt;最优子结构&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;动态规划算法的关键步骤包括：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;确定状态和状态转移方程&lt;/li&gt;
+&lt;li&gt;确定初始状态和边界条件&lt;/li&gt;
+&lt;li&gt;确定子问题求解顺序&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;有重叠子问题并不是动态规划的必要条件&lt;/strong&gt;：
+这是正确的。动态规划算法的核心思想是将一个大问题分解成许多小问题，并使用这些小问题的解来构建大问题的解。通常情况下，这些小问题是相互独立的，但是如果它们之间存在重叠，也就是说它们具有相同的子问题，那么动态规划算法可以利用这些重叠来避免重复计算，从而提高效率。&lt;br&gt;
+然而，并不是所有的动态规划问题都具有重叠子问题。例如，有些动态规划问题只是简单地将一个问题分解成许多相互独立的子问题，而不是使用重叠子问题来避免重复计算。&lt;br&gt;
+因此，具有重叠子问题并不是动态规划算法的必要条件，但是如果存在重叠子问题，动态规划算法可以更加高效地解决问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;动态规划算法设计中必须包含标记函数&lt;/strong&gt;
+标记函数是指在动态规划算法中使用的一种技巧，用于记录某些子问题是否已经被求解过。当一个子问题被解决后，标记函数可以将其标记为已解决，从而在后续的计算中避免重复计算。标记函数通常用一个数组或哈希表来实现。&lt;br&gt;
+尽管标记函数在许多动态规划问题中都非常有用，但并不是所有的动态规划问题都需要使用标记函数。实际上，有些动态规划问题的状态转移方程不需要考虑子问题是否已经被求解过，因为它们的状态转移方程本身已经保证了没有重复计算的问题。&lt;br&gt;
+因此，动态规划算法设计中是否需要包含标记函数，取决于具体的问题和算法设计。在一些情况下，标记函数可以提高算法的效率，但在另一些情况下，它们可能不是必需的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;状态转移方程和标记函数是两个不同的概念，在动态规划算法中起着不同的作用。&lt;/strong&gt;
+状态转移方程是描述问题中子问题之间的转移关系，通常用来计算当前子问题的最优解。在动态规划算法中，我们将原问题分解成若干个子问题，并使用状态转移方程计算子问题的最优解，从而逐步构建出原问题的最优解。&lt;br&gt;
+标记函数则是用来标记子问题的解是否已经被计算过。在动态规划算法中，由于子问题之间存在重叠，可能会重复计算同一个子问题的解，导致算法效率下降。标记函数可以用来避免这种情况的发生，当一个子问题的解已经被计算过后，我们可以将其标记为已计算，避免重复计算。&lt;br&gt;
+在某些情况下，状态转移方程和标记函数可能是紧密相关的，例如在使用记忆化搜索优化动态规划算法时，我们通常会将已计算的子问题的解保存在一个表格中，作为标记函数来使用。但在其他情况下，状态转移方程和标记函数可能是相对独立的，可以根据具体问题和算法设计来灵活选择是否使用标记函数。&lt;/p&gt;
+&lt;h1 id=&#34;贪心法&#34;&gt;贪心法&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;n皇后问题&lt;/strong&gt; 不能使用贪心法解决&lt;/p&gt;
+&lt;p&gt;贪心算法的基本要素的是 &lt;strong&gt;定义最优解&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;回溯法&#34;&gt;回溯法&lt;/h1&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/12/645e4ab203f4e.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/12/645e4ab203f4e.jpg&#34; alt=&#34;回溯法.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+回溯法有“通用解题法”之称，它可以系统地搜索一个问题的所有解或任意解&lt;/p&gt;
+&lt;p&gt;回溯法是一种既带系统性又带有跳跃性的搜索算法&lt;/p&gt;
+&lt;p&gt;回溯算法在生成解空间的任一结点时，先判断该结点是否可能包含问题的解，如果肯定不包含，则跳过对该结点为根的子树的搜索，逐层向祖先结点回溯&lt;/p&gt;
+&lt;p&gt;回溯法的解空间树有 &lt;strong&gt;子集树&lt;/strong&gt;、&lt;strong&gt;排列树&lt;/strong&gt;、&lt;strong&gt;n 叉树&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;回溯法是一种 &lt;strong&gt;带剪枝&lt;/strong&gt; 的穷举法，它采用了 &lt;strong&gt;深度优先&lt;/strong&gt; 搜索方式，求得问题的 &lt;strong&gt;最优解&lt;/strong&gt; 或所有解&lt;/p&gt;
+&lt;p&gt;回溯法中用到的两种约束条件是 &lt;strong&gt;目标函数和约束函数&lt;/strong&gt; 两种&lt;/p&gt;
+&lt;p&gt;回溯法的效率不依赖于 &lt;strong&gt;确定解空间的时间后问题&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;剪枝函数&lt;/strong&gt; 函数是回溯法中为避免无效搜索采取的策略&lt;/p&gt;
+&lt;h1 id=&#34;分支限界法&#34;&gt;分支限界法&lt;/h1&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/12/645e4abaac35f.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/12/645e4abaac35f.jpg&#34; alt=&#34;分支限界法.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+优先队列式分枝限界法选取扩展结点的原则是 &lt;strong&gt;结点的优先级&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;采用最大效益优先搜索方式的算法是 &lt;strong&gt;分支限界法&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;分支限界法求解0/1背包问题时，活结点表的组织形式是 &lt;strong&gt;大根堆&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;常见的两种分支限界法为 &lt;strong&gt;队列式（FIFO）分支限界法与优先队列式分支限界法&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;分支限界法在问题的解空间树中，按 &lt;strong&gt;广度优先&lt;/strong&gt; 策略，从根结点出发搜索解空间树&lt;/p&gt;
+&lt;h1 id=&#34;递推式的计算&#34;&gt;递推式的计算&lt;/h1&gt;
 &lt;h2 id=&#34;主定理&#34;&gt;主定理&lt;/h2&gt;
 &lt;p&gt;假设 $T(n)$ 是一个递归算法的时间复杂度，其中 $n$ 是输入规模。假设算法分解问题时，将其划分为 $a$ 个子问题，每个子问题的规模为原问题的 $1/b$，且每个子问题的解需要 $f(n)$ 的时间。即：
 $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
@@ -48376,24 +48456,6 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;总之，NP完全问题和NP-hard问题都属于计算复杂度理论中难以解决的问题。它们之间的区别在于，NP完全问题既可以在多项式时间内验证解的正确性，又至少和其他NP问题一样难；而NP-hard问题只需满足后者的条件。&lt;/p&gt;
-&lt;h1 id=&#34;回溯法&#34;&gt;回溯法&lt;/h1&gt;
-&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/12/645e4ab203f4e.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/05/12/645e4ab203f4e.jpg&#34; alt=&#34;回溯法.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h1 id=&#34;分支限界法&#34;&gt;分支限界法&lt;/h1&gt;
-&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/12/645e4abaac35f.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/05/12/645e4abaac35f.jpg&#34; alt=&#34;分支限界法.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Xancoding/Data-Structures-and-Algorithms&#34;&gt;数据结构与算法 | 我的笔记&lt;/a&gt;&lt;/li&gt;
@@ -49287,7 +49349,87 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="递推式的计算">递推式的计算</h1>
+      <content:encoded><![CDATA[<h1 id="分治法">分治法</h1>
+<p>分治法的关键步骤包括：</p>
+<ol>
+<li>分成子问题</li>
+<li>递归处理子问题</li>
+<li>子问题合并</li>
+</ol>
+<p>描述算法时间增长率上限用 <strong>O</strong> 符号，增长率下限用 <strong>Ω</strong> 符号表示。</p>
+<p>图灵机模型的基本结构包括 纸带,<strong>读写头</strong>,<strong>有限状态自动机</strong>。</p>
+<p>NP问题是指可以在多项式的时间里验证一个解的问题</p>
+<p>若一个问题可以找到一个能在多项式的时间里解决它的算法，该问题就属于P问题</p>
+<p>NPC 问题不一定是个NP问题，只要保证所有的NP问题都可以约化到它即可。<br>
+NPC问题指的是NP问题中最难的问题之一，同时也是NP问题中的一个子集，因此只要能将所有的NP问题约化为它，它就是NP问题。</p>
+<p>所有的P类问题都是NP问题的子集。</p>
+<p>所有可计算问题都可以用递归模型和 <strong>图灵机</strong> 模型求解</p>
+<p>分治法是一种求解问题的策略，而递归是一种实现求解算法的技术</p>
+<p>改进分治算法的途径有 <strong>减少子问题个数</strong> 和 <strong>增加预处理</strong>。</p>
+<p>在分治法处理中，实践证明，采用 <strong>平衡子问题</strong> 思想划分子问题总是有较好的结果。</p>
+<p>在大整数乘法和矩阵乘中，可以采取降低  <strong>乘法</strong> 的运算次数来降低时间复杂度</p>
+<p>虽然动态规划算法通常用于解决具有重叠子问题的问题，但是这并不是动态规划的必要条件。</p>
+<p>一个基于BSP模型的并行算法，假设有p台处理器，用于计算整数数组a[0..n-1]的所有元素之和，算法的时间复杂度为 <strong>O(n/p+p)</strong></p>
+<p>分治法的设计思想是将一个难以直接解决的大问题分割成规模较小的子问题，分别解决子问题，最后将子问题的解组合起来形成原问题的解。这要求原问题和子问题 <strong>问题规模不同，问题性质相同</strong></p>
+<h1 id="动态规划">动态规划</h1>
+<p>动态规划算法的两个基本要素是 <strong>子问题重叠</strong> 性质和 <strong>最优子结构</strong> 性质 。</p>
+<p>问题的 <strong>子问题重叠</strong> 是该问题可用动态规划算法或贪心算法求解的关键特征。</p>
+<p>备忘录/填表方法是 <strong>动态规划法</strong> 算法的变形</p>
+<p>动态规划算法基本要素的是 <strong>子问题重叠</strong></p>
+<p>能采用动态规划求解的问题必须要满足的性质是 <strong>最优子结构</strong></p>
+<p>动态规划算法的关键步骤包括：</p>
+<ol>
+<li>确定状态和状态转移方程</li>
+<li>确定初始状态和边界条件</li>
+<li>确定子问题求解顺序</li>
+</ol>
+<p><strong>有重叠子问题并不是动态规划的必要条件</strong>：
+这是正确的。动态规划算法的核心思想是将一个大问题分解成许多小问题，并使用这些小问题的解来构建大问题的解。通常情况下，这些小问题是相互独立的，但是如果它们之间存在重叠，也就是说它们具有相同的子问题，那么动态规划算法可以利用这些重叠来避免重复计算，从而提高效率。<br>
+然而，并不是所有的动态规划问题都具有重叠子问题。例如，有些动态规划问题只是简单地将一个问题分解成许多相互独立的子问题，而不是使用重叠子问题来避免重复计算。<br>
+因此，具有重叠子问题并不是动态规划算法的必要条件，但是如果存在重叠子问题，动态规划算法可以更加高效地解决问题。</p>
+<p><strong>动态规划算法设计中必须包含标记函数</strong>
+标记函数是指在动态规划算法中使用的一种技巧，用于记录某些子问题是否已经被求解过。当一个子问题被解决后，标记函数可以将其标记为已解决，从而在后续的计算中避免重复计算。标记函数通常用一个数组或哈希表来实现。<br>
+尽管标记函数在许多动态规划问题中都非常有用，但并不是所有的动态规划问题都需要使用标记函数。实际上，有些动态规划问题的状态转移方程不需要考虑子问题是否已经被求解过，因为它们的状态转移方程本身已经保证了没有重复计算的问题。<br>
+因此，动态规划算法设计中是否需要包含标记函数，取决于具体的问题和算法设计。在一些情况下，标记函数可以提高算法的效率，但在另一些情况下，它们可能不是必需的。</p>
+<p><strong>状态转移方程和标记函数是两个不同的概念，在动态规划算法中起着不同的作用。</strong>
+状态转移方程是描述问题中子问题之间的转移关系，通常用来计算当前子问题的最优解。在动态规划算法中，我们将原问题分解成若干个子问题，并使用状态转移方程计算子问题的最优解，从而逐步构建出原问题的最优解。<br>
+标记函数则是用来标记子问题的解是否已经被计算过。在动态规划算法中，由于子问题之间存在重叠，可能会重复计算同一个子问题的解，导致算法效率下降。标记函数可以用来避免这种情况的发生，当一个子问题的解已经被计算过后，我们可以将其标记为已计算，避免重复计算。<br>
+在某些情况下，状态转移方程和标记函数可能是紧密相关的，例如在使用记忆化搜索优化动态规划算法时，我们通常会将已计算的子问题的解保存在一个表格中，作为标记函数来使用。但在其他情况下，状态转移方程和标记函数可能是相对独立的，可以根据具体问题和算法设计来灵活选择是否使用标记函数。</p>
+<h1 id="贪心法">贪心法</h1>
+<p><strong>n皇后问题</strong> 不能使用贪心法解决</p>
+<p>贪心算法的基本要素的是 <strong>定义最优解</strong></p>
+<h1 id="回溯法">回溯法</h1>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/12/645e4ab203f4e.jpg">
+<img src="https://bu.dusays.com/2023/05/12/645e4ab203f4e.jpg" alt="回溯法.jpg"  />
+</a>
+</div>
+
+
+回溯法有“通用解题法”之称，它可以系统地搜索一个问题的所有解或任意解</p>
+<p>回溯法是一种既带系统性又带有跳跃性的搜索算法</p>
+<p>回溯算法在生成解空间的任一结点时，先判断该结点是否可能包含问题的解，如果肯定不包含，则跳过对该结点为根的子树的搜索，逐层向祖先结点回溯</p>
+<p>回溯法的解空间树有 <strong>子集树</strong>、<strong>排列树</strong>、<strong>n 叉树</strong></p>
+<p>回溯法是一种 <strong>带剪枝</strong> 的穷举法，它采用了 <strong>深度优先</strong> 搜索方式，求得问题的 <strong>最优解</strong> 或所有解</p>
+<p>回溯法中用到的两种约束条件是 <strong>目标函数和约束函数</strong> 两种</p>
+<p>回溯法的效率不依赖于 <strong>确定解空间的时间后问题</strong></p>
+<p><strong>剪枝函数</strong> 函数是回溯法中为避免无效搜索采取的策略</p>
+<h1 id="分支限界法">分支限界法</h1>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/12/645e4abaac35f.jpg">
+<img src="https://bu.dusays.com/2023/05/12/645e4abaac35f.jpg" alt="分支限界法.jpg"  />
+</a>
+</div>
+
+
+优先队列式分枝限界法选取扩展结点的原则是 <strong>结点的优先级</strong></p>
+<p>采用最大效益优先搜索方式的算法是 <strong>分支限界法</strong></p>
+<p>分支限界法求解0/1背包问题时，活结点表的组织形式是 <strong>大根堆</strong></p>
+<p>常见的两种分支限界法为 <strong>队列式（FIFO）分支限界法与优先队列式分支限界法</strong></p>
+<p>分支限界法在问题的解空间树中，按 <strong>广度优先</strong> 策略，从根结点出发搜索解空间树</p>
+<h1 id="递推式的计算">递推式的计算</h1>
 <h2 id="主定理">主定理</h2>
 <p>假设 $T(n)$ 是一个递归算法的时间复杂度，其中 $n$ 是输入规模。假设算法分解问题时，将其划分为 $a$ 个子问题，每个子问题的规模为原问题的 $1/b$，且每个子问题的解需要 $f(n)$ 的时间。即：
 $$T(n) = aT(n/b) + f(n)$$</p>
@@ -49334,24 +49476,6 @@ $$T(n) = aT(n/b) + f(n)$$</p>
 </li>
 </ul>
 <p>总之，NP完全问题和NP-hard问题都属于计算复杂度理论中难以解决的问题。它们之间的区别在于，NP完全问题既可以在多项式时间内验证解的正确性，又至少和其他NP问题一样难；而NP-hard问题只需满足后者的条件。</p>
-<h1 id="回溯法">回溯法</h1>
-<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/12/645e4ab203f4e.jpg">
-<img src="https://bu.dusays.com/2023/05/12/645e4ab203f4e.jpg" alt="回溯法.jpg"  />
-</a>
-</div>
-
-</p>
-<h1 id="分支限界法">分支限界法</h1>
-<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/12/645e4abaac35f.jpg">
-<img src="https://bu.dusays.com/2023/05/12/645e4abaac35f.jpg" alt="分支限界法.jpg"  />
-</a>
-</div>
-
-</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://github.com/Xancoding/Data-Structures-and-Algorithms">数据结构与算法 | 我的笔记</a></li>
