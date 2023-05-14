@@ -53178,6 +53178,24 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;总之，NP完全问题和NP-hard问题都属于计算复杂度理论中难以解决的问题。它们之间的区别在于，NP完全问题既可以在多项式时间内验证解的正确性，又至少和其他NP问题一样难；而NP-hard问题只需满足后者的条件。&lt;/p&gt;
+&lt;h1 id=&#34;回溯法&#34;&gt;回溯法&lt;/h1&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/12/645e4ab203f4e.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/12/645e4ab203f4e.jpg&#34; alt=&#34;回溯法.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h1 id=&#34;分支限界法&#34;&gt;分支限界法&lt;/h1&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/12/645e4abaac35f.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/12/645e4abaac35f.jpg&#34; alt=&#34;分支限界法.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Xancoding/Data-Structures-and-Algorithms&#34;&gt;数据结构与算法 | 我的笔记&lt;/a&gt;&lt;/li&gt;
@@ -54118,6 +54136,24 @@ $$T(n) = aT(n/b) + f(n)$$</p>
 </li>
 </ul>
 <p>总之，NP完全问题和NP-hard问题都属于计算复杂度理论中难以解决的问题。它们之间的区别在于，NP完全问题既可以在多项式时间内验证解的正确性，又至少和其他NP问题一样难；而NP-hard问题只需满足后者的条件。</p>
+<h1 id="回溯法">回溯法</h1>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/12/645e4ab203f4e.jpg">
+<img src="https://bu.dusays.com/2023/05/12/645e4ab203f4e.jpg" alt="回溯法.jpg"  />
+</a>
+</div>
+
+</p>
+<h1 id="分支限界法">分支限界法</h1>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/12/645e4abaac35f.jpg">
+<img src="https://bu.dusays.com/2023/05/12/645e4abaac35f.jpg" alt="分支限界法.jpg"  />
+</a>
+</div>
+
+</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://github.com/Xancoding/Data-Structures-and-Algorithms">数据结构与算法 | 我的笔记</a></li>
