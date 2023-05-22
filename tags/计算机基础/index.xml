@@ -17016,6 +17016,7 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 &lt;p&gt;一个基于BSP模型的并行算法，假设有p台处理器，用于计算整数数组a[0..n-1]的所有元素之和，算法的时间复杂度为 &lt;strong&gt;O(n/p+p)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;分支限界法与回溯法都是在问题的解空间树T上搜索问题的解，二者 &lt;strong&gt;求解目标不同，搜索方式也不同&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;回溯法&lt;/strong&gt; 的求解目标是找出T中满足约束条件的 &lt;strong&gt;所有解&lt;/strong&gt; ，而 &lt;strong&gt;分支限界法&lt;/strong&gt; 的求解目标则是找出 &lt;strong&gt;满足约束条件的一个解&lt;/strong&gt; ，或是在满足约束条件的解中找出使某一目标函数值达到 &lt;strong&gt;极大或极小的解&lt;/strong&gt; ，即在某种意义下的 &lt;strong&gt;最优解&lt;/strong&gt; 。&lt;/p&gt;
+&lt;p&gt;回溯算法和分支限界法的问题的解空间树是 &lt;strong&gt;无需构造&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;简述五大算法的基本思想及算法结构&#34;&gt;简述五大算法的基本思想及算法结构&lt;/h1&gt;
 &lt;p&gt;五大算法基本思想包括分治，动态规划，贪心，回溯和分支限界法。&lt;/p&gt;
 &lt;ol&gt;
@@ -18121,6 +18122,7 @@ $$T(n) = aT(n/b) + f(n)$$</p>
 <p>一个基于BSP模型的并行算法，假设有p台处理器，用于计算整数数组a[0..n-1]的所有元素之和，算法的时间复杂度为 <strong>O(n/p+p)</strong></p>
 <p>分支限界法与回溯法都是在问题的解空间树T上搜索问题的解，二者 <strong>求解目标不同，搜索方式也不同</strong></p>
 <p><strong>回溯法</strong> 的求解目标是找出T中满足约束条件的 <strong>所有解</strong> ，而 <strong>分支限界法</strong> 的求解目标则是找出 <strong>满足约束条件的一个解</strong> ，或是在满足约束条件的解中找出使某一目标函数值达到 <strong>极大或极小的解</strong> ，即在某种意义下的 <strong>最优解</strong> 。</p>
+<p>回溯算法和分支限界法的问题的解空间树是 <strong>无需构造</strong></p>
 <h1 id="简述五大算法的基本思想及算法结构">简述五大算法的基本思想及算法结构</h1>
 <p>五大算法基本思想包括分治，动态规划，贪心，回溯和分支限界法。</p>
 <ol>
