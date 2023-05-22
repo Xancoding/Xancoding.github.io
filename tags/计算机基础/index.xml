@@ -16865,11 +16865,10 @@ g++ add.o main.o -o program
 &lt;p&gt;分治法的设计思想是将一个难以直接解决的大问题分割成规模较小的子问题，分别解决子问题，最后将子问题的解组合起来形成原问题的解。这要求原问题和子问题 &lt;strong&gt;问题规模不同，问题性质相同&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;动态规划&#34;&gt;动态规划&lt;/h1&gt;
 &lt;p&gt;虽然动态规划算法通常用于解决具有&lt;strong&gt;重叠子问题&lt;/strong&gt;的问题，但是这并不是动态规划的必要条件。&lt;/p&gt;
-&lt;p&gt;动态规划算法的两个基本要素是 &lt;strong&gt;子问题重叠&lt;/strong&gt; 性质和 &lt;strong&gt;最优子结构&lt;/strong&gt; 性质 。&lt;/p&gt;
+&lt;p&gt;动态规划算法的两个基本要素是 &lt;strong&gt;无后效性&lt;/strong&gt; 性质和 &lt;strong&gt;最优子结构&lt;/strong&gt; 性质 。&lt;/p&gt;
 &lt;p&gt;问题的 &lt;strong&gt;子问题重叠&lt;/strong&gt; 是该问题可用动态规划算法或贪心算法求解的关键特征。&lt;/p&gt;
 &lt;p&gt;备忘录/填表方法是 &lt;strong&gt;动态规划法&lt;/strong&gt; 算法的变形&lt;/p&gt;
 &lt;p&gt;动态规划算法基本要素的是 &lt;strong&gt;子问题重叠&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;能采用动态规划求解的问题必须要满足的性质是 &lt;strong&gt;最优子结构&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;动态规划算法的关键步骤包括：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;确定状态和状态转移方程&lt;/li&gt;
@@ -16907,7 +16906,7 @@ g++ add.o main.o -o program
 &lt;p&gt;回溯法的解空间树有 &lt;strong&gt;子集树&lt;/strong&gt;、&lt;strong&gt;排列树&lt;/strong&gt;、&lt;strong&gt;n 叉树&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;回溯法是一种 &lt;strong&gt;带剪枝&lt;/strong&gt; 的穷举法，它采用了 &lt;strong&gt;深度优先&lt;/strong&gt; 搜索方式，求得问题的 &lt;strong&gt;最优解&lt;/strong&gt; 或所有解&lt;/p&gt;
 &lt;p&gt;回溯法中用到的两种约束条件是 &lt;strong&gt;目标函数和约束函数&lt;/strong&gt; 两种&lt;/p&gt;
-&lt;p&gt;回溯法的效率不依赖于 &lt;strong&gt;确定解空间的时间后问题&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;回溯法的效率不依赖于 &lt;strong&gt;确定解空间的时间&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;剪枝函数&lt;/strong&gt; 函数是回溯法中为避免无效搜索采取的策略&lt;/p&gt;
 &lt;h1 id=&#34;分支限界法&#34;&gt;分支限界法&lt;/h1&gt;
 &lt;p&gt;限重 15
@@ -17922,11 +17921,10 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 <p>分治法的设计思想是将一个难以直接解决的大问题分割成规模较小的子问题，分别解决子问题，最后将子问题的解组合起来形成原问题的解。这要求原问题和子问题 <strong>问题规模不同，问题性质相同</strong></p>
 <h1 id="动态规划">动态规划</h1>
 <p>虽然动态规划算法通常用于解决具有<strong>重叠子问题</strong>的问题，但是这并不是动态规划的必要条件。</p>
-<p>动态规划算法的两个基本要素是 <strong>子问题重叠</strong> 性质和 <strong>最优子结构</strong> 性质 。</p>
+<p>动态规划算法的两个基本要素是 <strong>无后效性</strong> 性质和 <strong>最优子结构</strong> 性质 。</p>
 <p>问题的 <strong>子问题重叠</strong> 是该问题可用动态规划算法或贪心算法求解的关键特征。</p>
 <p>备忘录/填表方法是 <strong>动态规划法</strong> 算法的变形</p>
 <p>动态规划算法基本要素的是 <strong>子问题重叠</strong></p>
-<p>能采用动态规划求解的问题必须要满足的性质是 <strong>最优子结构</strong></p>
 <p>动态规划算法的关键步骤包括：</p>
 <ol>
 <li>确定状态和状态转移方程</li>
@@ -17964,7 +17962,7 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 <p>回溯法的解空间树有 <strong>子集树</strong>、<strong>排列树</strong>、<strong>n 叉树</strong></p>
 <p>回溯法是一种 <strong>带剪枝</strong> 的穷举法，它采用了 <strong>深度优先</strong> 搜索方式，求得问题的 <strong>最优解</strong> 或所有解</p>
 <p>回溯法中用到的两种约束条件是 <strong>目标函数和约束函数</strong> 两种</p>
-<p>回溯法的效率不依赖于 <strong>确定解空间的时间后问题</strong></p>
+<p>回溯法的效率不依赖于 <strong>确定解空间的时间</strong></p>
 <p><strong>剪枝函数</strong> 函数是回溯法中为避免无效搜索采取的策略</p>
 <h1 id="分支限界法">分支限界法</h1>
 <p>限重 15
