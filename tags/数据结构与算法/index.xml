@@ -28,7 +28,6 @@
 &lt;h1 id=&#34;动态规划&#34;&gt;动态规划&lt;/h1&gt;
 &lt;p&gt;虽然动态规划算法通常用于解决具有&lt;strong&gt;重叠子问题&lt;/strong&gt;的问题，但是这并不是动态规划的必要条件。&lt;/p&gt;
 &lt;p&gt;动态规划算法的两个基本要素是 &lt;strong&gt;无后效性&lt;/strong&gt; 性质和 &lt;strong&gt;最优子结构&lt;/strong&gt; 性质 。&lt;/p&gt;
-&lt;p&gt;问题的 &lt;strong&gt;子问题重叠&lt;/strong&gt; 是该问题可用动态规划算法或贪心算法求解的关键特征。&lt;/p&gt;
 &lt;p&gt;备忘录/填表方法是 &lt;strong&gt;动态规划法&lt;/strong&gt; 算法的变形&lt;/p&gt;
 &lt;p&gt;动态规划算法基本要素的是 &lt;strong&gt;子问题重叠&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;动态规划算法的关键步骤包括：&lt;/p&gt;
@@ -145,24 +144,12 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 &lt;h1 id=&#34;p--np--npc--np-hard&#34;&gt;P &amp;amp; NP &amp;amp; NPC &amp;amp; NP-Hard&lt;/h1&gt;
 &lt;p&gt;NP问题是指可以在多项式的时间里验证一个解的问题&lt;/p&gt;
 &lt;p&gt;若一个问题可以找到一个能在多项式的时间里解决它的算法，该问题就属于P问题&lt;/p&gt;
-&lt;p&gt;NPC 问题不一定是个NP问题，只要保证所有的NP问题都可以约化到它即可。&lt;/p&gt;
 &lt;p&gt;NPC问题指的是NP问题中最难的问题之一，同时也是NP问题中的一个子集，因此只要能将所有的NP问题约化为它，它就是NP问题。&lt;/p&gt;
 &lt;p&gt;所有的P类问题都是NP问题的子集。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt; P(Polynomial,多项式)问题，P问题是可以在多项式时间内被解决的问题。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt; NP类问题（Nondeterminism Polynomial）：在多项式时间内“可验证”的问题。也就是说，不能判定这个问题到底有没有解，而是猜出一个解来在多项式时间内证明这个解是否正确。即该问题的猜测过程是不确定的，而对其某一个解的验证则能够在多项式时间内完成。直白的说，就是可以在多项式的时间里猜出一个解的问题。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;NPC（Nondeterminism Polynomial complete）：存在这样一个NP问题，所有的NP问题都可以约化成它。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;NP-hard问题（NPH，NP-Hard）是指那些至少和NP问题一样难的问题。也就是说，如果存在一个多项式时间算法能够解决一个NP-hard问题，那么所有的NP问题都可以在多项式时间内解决。需要注意的是，NP-hard问题并不一定是NP问题，它们可能不具备在多项式时间内验证解的正确性的性质。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;总之，NP完全问题和NP-hard问题都属于计算复杂度理论中难以解决的问题。它们之间的区别在于，NP完全问题既可以在多项式时间内验证解的正确性，又至少和其他NP问题一样难；而NP-hard问题只需满足后者的条件。&lt;/p&gt;
+&lt;p&gt;P:  能在多项式时间内解决的问题&lt;/p&gt;
+&lt;p&gt;NP: 不能在多项式时间内解决或不确定能不能在多项式时间内解决，但 能在多项式时间验证的问题&lt;/p&gt;
+&lt;p&gt;NPC: NP完全问题， 所有NP问题在多项式时间内都能约化(Reducibility)到它的NP问题 ，即解决了此NPC问题，所有NP问题也都得到解决。&lt;/p&gt;
+&lt;p&gt;NP hard:NP难问题， 所有NP问题在多项式时间内都能约化(Reducibility)到它的问题(不一定是NP问题)。&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/22/646b67bd57092.png&#34;&gt;
@@ -179,6 +166,8 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 &lt;p&gt;分支限界法与回溯法都是在问题的解空间树T上搜索问题的解，二者 &lt;strong&gt;求解目标不同，搜索方式也不同&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;回溯法&lt;/strong&gt; 的求解目标是找出T中满足约束条件的 &lt;strong&gt;所有解&lt;/strong&gt; ，而 &lt;strong&gt;分支限界法&lt;/strong&gt; 的求解目标则是找出 &lt;strong&gt;满足约束条件的一个解&lt;/strong&gt; ，或是在满足约束条件的解中找出使某一目标函数值达到 &lt;strong&gt;极大或极小的解&lt;/strong&gt; ，即在某种意义下的 &lt;strong&gt;最优解&lt;/strong&gt; 。&lt;/p&gt;
 &lt;p&gt;回溯算法和分支限界法的问题的解空间树是 &lt;strong&gt;无需构造&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;分支限界法与回溯法的相同点是在状态空间树上搜索，不同点之一是分支限界法采用 &lt;strong&gt;广度优先或最小代价优先&lt;/strong&gt; 搜索 。&lt;/p&gt;
+&lt;p&gt;问题的 &lt;strong&gt;最优子结构&lt;/strong&gt; 是该问题可用动态规划算法或贪心算法求解的关键特征。&lt;/p&gt;
 &lt;h1 id=&#34;简述五大算法的基本思想及算法结构&#34;&gt;简述五大算法的基本思想及算法结构&lt;/h1&gt;
 &lt;p&gt;五大算法基本思想包括分治，动态规划，贪心，回溯和分支限界法。&lt;/p&gt;
 &lt;ol&gt;
@@ -1134,7 +1123,6 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 <h1 id="动态规划">动态规划</h1>
 <p>虽然动态规划算法通常用于解决具有<strong>重叠子问题</strong>的问题，但是这并不是动态规划的必要条件。</p>
 <p>动态规划算法的两个基本要素是 <strong>无后效性</strong> 性质和 <strong>最优子结构</strong> 性质 。</p>
-<p>问题的 <strong>子问题重叠</strong> 是该问题可用动态规划算法或贪心算法求解的关键特征。</p>
 <p>备忘录/填表方法是 <strong>动态规划法</strong> 算法的变形</p>
 <p>动态规划算法基本要素的是 <strong>子问题重叠</strong></p>
 <p>动态规划算法的关键步骤包括：</p>
@@ -1251,24 +1239,12 @@ $$T(n) = aT(n/b) + f(n)$$</p>
 <h1 id="p--np--npc--np-hard">P &amp; NP &amp; NPC &amp; NP-Hard</h1>
 <p>NP问题是指可以在多项式的时间里验证一个解的问题</p>
 <p>若一个问题可以找到一个能在多项式的时间里解决它的算法，该问题就属于P问题</p>
-<p>NPC 问题不一定是个NP问题，只要保证所有的NP问题都可以约化到它即可。</p>
 <p>NPC问题指的是NP问题中最难的问题之一，同时也是NP问题中的一个子集，因此只要能将所有的NP问题约化为它，它就是NP问题。</p>
 <p>所有的P类问题都是NP问题的子集。</p>
-<ul>
-<li>
-<p> P(Polynomial,多项式)问题，P问题是可以在多项式时间内被解决的问题。</p>
-</li>
-<li>
-<p> NP类问题（Nondeterminism Polynomial）：在多项式时间内“可验证”的问题。也就是说，不能判定这个问题到底有没有解，而是猜出一个解来在多项式时间内证明这个解是否正确。即该问题的猜测过程是不确定的，而对其某一个解的验证则能够在多项式时间内完成。直白的说，就是可以在多项式的时间里猜出一个解的问题。</p>
-</li>
-<li>
-<p>NPC（Nondeterminism Polynomial complete）：存在这样一个NP问题，所有的NP问题都可以约化成它。</p>
-</li>
-<li>
-<p>NP-hard问题（NPH，NP-Hard）是指那些至少和NP问题一样难的问题。也就是说，如果存在一个多项式时间算法能够解决一个NP-hard问题，那么所有的NP问题都可以在多项式时间内解决。需要注意的是，NP-hard问题并不一定是NP问题，它们可能不具备在多项式时间内验证解的正确性的性质。</p>
-</li>
-</ul>
-<p>总之，NP完全问题和NP-hard问题都属于计算复杂度理论中难以解决的问题。它们之间的区别在于，NP完全问题既可以在多项式时间内验证解的正确性，又至少和其他NP问题一样难；而NP-hard问题只需满足后者的条件。</p>
+<p>P:  能在多项式时间内解决的问题</p>
+<p>NP: 不能在多项式时间内解决或不确定能不能在多项式时间内解决，但 能在多项式时间验证的问题</p>
+<p>NPC: NP完全问题， 所有NP问题在多项式时间内都能约化(Reducibility)到它的NP问题 ，即解决了此NPC问题，所有NP问题也都得到解决。</p>
+<p>NP hard:NP难问题， 所有NP问题在多项式时间内都能约化(Reducibility)到它的问题(不一定是NP问题)。</p>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/22/646b67bd57092.png">
@@ -1285,6 +1261,8 @@ $$T(n) = aT(n/b) + f(n)$$</p>
 <p>分支限界法与回溯法都是在问题的解空间树T上搜索问题的解，二者 <strong>求解目标不同，搜索方式也不同</strong></p>
 <p><strong>回溯法</strong> 的求解目标是找出T中满足约束条件的 <strong>所有解</strong> ，而 <strong>分支限界法</strong> 的求解目标则是找出 <strong>满足约束条件的一个解</strong> ，或是在满足约束条件的解中找出使某一目标函数值达到 <strong>极大或极小的解</strong> ，即在某种意义下的 <strong>最优解</strong> 。</p>
 <p>回溯算法和分支限界法的问题的解空间树是 <strong>无需构造</strong></p>
+<p>分支限界法与回溯法的相同点是在状态空间树上搜索，不同点之一是分支限界法采用 <strong>广度优先或最小代价优先</strong> 搜索 。</p>
+<p>问题的 <strong>最优子结构</strong> 是该问题可用动态规划算法或贪心算法求解的关键特征。</p>
 <h1 id="简述五大算法的基本思想及算法结构">简述五大算法的基本思想及算法结构</h1>
 <p>五大算法基本思想包括分治，动态规划，贪心，回溯和分支限界法。</p>
 <ol>
