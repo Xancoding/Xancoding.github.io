@@ -125,6 +125,16 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;其中 $\epsilon &amp;gt; 0$ 是任意小的正数。这里的 $O$、$\Theta$ 和 $\Omega$ 表示渐进符号。&lt;/p&gt;
+&lt;h3 id=&#34;主定理没有覆盖所有情况&#34;&gt;主定理没有覆盖所有情况&lt;/h3&gt;
+&lt;p&gt;如果情况一和三的渐进小于或大于不是多项式意义上的，而是logn之类的，就不能应用主定理。
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/22/646b5aefbc0f8.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/22/646b5aefbc0f8.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;p--np--npc--np-hard&#34;&gt;P &amp;amp; NP &amp;amp; NPC &amp;amp; NP-Hard&lt;/h1&gt;
 &lt;p&gt;NP问题是指可以在多项式的时间里验证一个解的问题&lt;/p&gt;
 &lt;p&gt;若一个问题可以找到一个能在多项式的时间里解决它的算法，该问题就属于P问题&lt;/p&gt;
@@ -1156,6 +1166,16 @@ $$T(n) = aT(n/b) + f(n)$$</p>
 </li>
 </ol>
 <p>其中 $\epsilon &gt; 0$ 是任意小的正数。这里的 $O$、$\Theta$ 和 $\Omega$ 表示渐进符号。</p>
+<h3 id="主定理没有覆盖所有情况">主定理没有覆盖所有情况</h3>
+<p>如果情况一和三的渐进小于或大于不是多项式意义上的，而是logn之类的，就不能应用主定理。
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/22/646b5aefbc0f8.png">
+<img src="https://bu.dusays.com/2023/05/22/646b5aefbc0f8.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
 <h1 id="p--np--npc--np-hard">P &amp; NP &amp; NPC &amp; NP-Hard</h1>
 <p>NP问题是指可以在多项式的时间里验证一个解的问题</p>
 <p>若一个问题可以找到一个能在多项式的时间里解决它的算法，该问题就属于P问题</p>
