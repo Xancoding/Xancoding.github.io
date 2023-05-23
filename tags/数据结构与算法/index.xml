@@ -139,6 +139,22 @@
 &lt;/a&gt;
 &lt;/div&gt;
 
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/23/646c2872318d4.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/23/646c2872318d4.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/23/646c288c5076e.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/23/646c288c5076e.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
 &lt;/p&gt;
 &lt;h1 id=&#34;递推式的计算&#34;&gt;递推式的计算&lt;/h1&gt;
 &lt;h2 id=&#34;主定理&#34;&gt;主定理&lt;/h2&gt;
@@ -1295,6 +1311,22 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/23/646c21c925f65.png">
 <img src="https://bu.dusays.com/2023/05/23/646c21c925f65.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/23/646c2872318d4.png">
+<img src="https://bu.dusays.com/2023/05/23/646c2872318d4.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/23/646c288c5076e.png">
+<img src="https://bu.dusays.com/2023/05/23/646c288c5076e.png" alt="image.png"  />
 </a>
 </div>
 
