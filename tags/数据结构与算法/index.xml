@@ -168,6 +168,22 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 &lt;p&gt;回溯算法和分支限界法的问题的解空间树是 &lt;strong&gt;无需构造&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;分支限界法与回溯法的相同点是在状态空间树上搜索，不同点之一是分支限界法采用 &lt;strong&gt;广度优先或最小代价优先&lt;/strong&gt; 搜索 。&lt;/p&gt;
 &lt;p&gt;问题的 &lt;strong&gt;最优子结构&lt;/strong&gt; 是该问题可用动态规划算法或贪心算法求解的关键特征。&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/23/646c01a0bdd80.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/23/646c01a0bdd80.jpg&#34; alt=&#34;2aad65928634f9048d80de139af443f.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/23/646c01a20cec5.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/23/646c01a20cec5.jpg&#34; alt=&#34;2aad65928634f9048d80de139af443f.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;简述五大算法的基本思想及算法结构&#34;&gt;简述五大算法的基本思想及算法结构&lt;/h1&gt;
 &lt;p&gt;五大算法基本思想包括分治，动态规划，贪心，回溯和分支限界法。&lt;/p&gt;
 &lt;ol&gt;
@@ -1263,6 +1279,22 @@ $$T(n) = aT(n/b) + f(n)$$</p>
 <p>回溯算法和分支限界法的问题的解空间树是 <strong>无需构造</strong></p>
 <p>分支限界法与回溯法的相同点是在状态空间树上搜索，不同点之一是分支限界法采用 <strong>广度优先或最小代价优先</strong> 搜索 。</p>
 <p>问题的 <strong>最优子结构</strong> 是该问题可用动态规划算法或贪心算法求解的关键特征。</p>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/23/646c01a0bdd80.jpg">
+<img src="https://bu.dusays.com/2023/05/23/646c01a0bdd80.jpg" alt="2aad65928634f9048d80de139af443f.jpg"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/23/646c01a20cec5.jpg">
+<img src="https://bu.dusays.com/2023/05/23/646c01a20cec5.jpg" alt="2aad65928634f9048d80de139af443f.jpg"  />
+</a>
+</div>
+
+</p>
 <h1 id="简述五大算法的基本思想及算法结构">简述五大算法的基本思想及算法结构</h1>
 <p>五大算法基本思想包括分治，动态规划，贪心，回溯和分支限界法。</p>
 <ol>
