@@ -48419,6 +48419,30 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;p&gt;回溯法中用到的两种约束条件是 &lt;strong&gt;目标函数和约束函数&lt;/strong&gt; 两种&lt;/p&gt;
 &lt;p&gt;回溯法的效率不依赖于 &lt;strong&gt;确定解空间的时间&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;剪枝函数&lt;/strong&gt; 函数是回溯法中为避免无效搜索采取的策略&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/23/646c2fc2cc365.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/23/646c2fc2cc365.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/23/646c2ff5b080d.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/23/646c2ff5b080d.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/23/646c3004577e2.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/23/646c3004577e2.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;分支限界法&#34;&gt;分支限界法&lt;/h1&gt;
 &lt;p&gt;限重 15
 
@@ -49604,6 +49628,30 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 <p>回溯法中用到的两种约束条件是 <strong>目标函数和约束函数</strong> 两种</p>
 <p>回溯法的效率不依赖于 <strong>确定解空间的时间</strong></p>
 <p><strong>剪枝函数</strong> 函数是回溯法中为避免无效搜索采取的策略</p>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/23/646c2fc2cc365.png">
+<img src="https://bu.dusays.com/2023/05/23/646c2fc2cc365.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/23/646c2ff5b080d.png">
+<img src="https://bu.dusays.com/2023/05/23/646c2ff5b080d.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/23/646c3004577e2.png">
+<img src="https://bu.dusays.com/2023/05/23/646c3004577e2.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
 <h1 id="分支限界法">分支限界法</h1>
 <p>限重 15
 
