@@ -48431,7 +48431,15 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;p&gt;采用最大效益优先搜索方式的算法是 &lt;strong&gt;分支限界法&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;分支限界法求解0/1背包问题时，活结点表的组织形式是 &lt;strong&gt;大根堆&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;常见的两种分支限界法为 &lt;strong&gt;队列式（FIFO）分支限界法与优先队列式分支限界法&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;分支限界法在问题的解空间树中，按 &lt;strong&gt;广度优先&lt;/strong&gt; 策略，从根结点出发搜索解空间树&lt;/p&gt;
+&lt;p&gt;分支限界法在问题的解空间树中，按 &lt;strong&gt;广度优先&lt;/strong&gt; 策略，从根结点出发搜索解空间树
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/23/646c21c925f65.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/23/646c21c925f65.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;递推式的计算&#34;&gt;递推式的计算&lt;/h1&gt;
 &lt;h2 id=&#34;主定理&#34;&gt;主定理&lt;/h2&gt;
 &lt;p&gt;假设 $T(n)$ 是一个递归算法的时间复杂度，其中 $n$ 是输入规模。假设算法分解问题时，将其划分为 $a$ 个子问题，每个子问题的规模为原问题的 $1/b$，且每个子问题的解需要 $f(n)$ 的时间。即：
@@ -49582,7 +49590,15 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 <p>采用最大效益优先搜索方式的算法是 <strong>分支限界法</strong></p>
 <p>分支限界法求解0/1背包问题时，活结点表的组织形式是 <strong>大根堆</strong></p>
 <p>常见的两种分支限界法为 <strong>队列式（FIFO）分支限界法与优先队列式分支限界法</strong></p>
-<p>分支限界法在问题的解空间树中，按 <strong>广度优先</strong> 策略，从根结点出发搜索解空间树</p>
+<p>分支限界法在问题的解空间树中，按 <strong>广度优先</strong> 策略，从根结点出发搜索解空间树
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/23/646c21c925f65.png">
+<img src="https://bu.dusays.com/2023/05/23/646c21c925f65.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
 <h1 id="递推式的计算">递推式的计算</h1>
 <h2 id="主定理">主定理</h2>
 <p>假设 $T(n)$ 是一个递归算法的时间复杂度，其中 $n$ 是输入规模。假设算法分解问题时，将其划分为 $a$ 个子问题，每个子问题的规模为原问题的 $1/b$，且每个子问题的解需要 $f(n)$ 的时间。即：
