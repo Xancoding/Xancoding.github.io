@@ -53262,11 +53262,20 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;li&gt;递归处理子问题&lt;/li&gt;
 &lt;li&gt;子问题合并&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;子问题 &lt;strong&gt;相互独立&lt;/strong&gt;，即子问题之间不包含公共的子问题&lt;/p&gt;
 &lt;p&gt;分治法是一种求解问题的策略，而递归是一种实现求解算法的技术&lt;/p&gt;
 &lt;p&gt;改进分治算法的途径有 &lt;strong&gt;减少子问题个数&lt;/strong&gt; 和 &lt;strong&gt;增加预处理&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;在分治法处理中，实践证明，采用 &lt;strong&gt;平衡子问题&lt;/strong&gt; 思想划分子问题总是有较好的结果。&lt;/p&gt;
 &lt;p&gt;在大整数乘法和矩阵乘中，可以采取降低  &lt;strong&gt;乘法&lt;/strong&gt; 的运算次数来降低时间复杂度&lt;/p&gt;
 &lt;p&gt;分治法的设计思想是将一个难以直接解决的大问题分割成规模较小的子问题，分别解决子问题，最后将子问题的解组合起来形成原问题的解。这要求原问题和子问题 &lt;strong&gt;问题规模不同，问题性质相同&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/23/646c2b59810a2.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/23/646c2b59810a2.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;动态规划&#34;&gt;动态规划&lt;/h1&gt;
 &lt;p&gt;虽然动态规划算法通常用于解决具有&lt;strong&gt;重叠子问题&lt;/strong&gt;的问题，但是这并不是动态规划的必要条件。&lt;/p&gt;
 &lt;p&gt;动态规划算法的两个基本要素是 &lt;strong&gt;无后效性&lt;/strong&gt; 性质和 &lt;strong&gt;最优子结构&lt;/strong&gt; 性质 。&lt;/p&gt;
@@ -53333,6 +53342,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;h1 id=&#34;贪心法&#34;&gt;贪心法&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;n皇后问题&lt;/strong&gt; 不能使用贪心法解决&lt;/p&gt;
 &lt;p&gt;贪心算法的基本要素的是 &lt;strong&gt;定义最优解&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;问题的 &lt;strong&gt;最优子结构性质&lt;/strong&gt; 是该问题可以用 &lt;strong&gt;动态规划&lt;/strong&gt; 或 &lt;strong&gt;贪心&lt;/strong&gt; 求解的关键特征&lt;/p&gt;
 &lt;h1 id=&#34;回溯法&#34;&gt;回溯法&lt;/h1&gt;
 &lt;p&gt;请画出用回溯法解n=3的0-1背包问题的解空间树和当三个物品的重量为{16, 15, 15}，价值为{45, 25, 25}，背包容量为30时搜索空间树
 
@@ -54437,11 +54447,20 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 <li>递归处理子问题</li>
 <li>子问题合并</li>
 </ol>
+<p>子问题 <strong>相互独立</strong>，即子问题之间不包含公共的子问题</p>
 <p>分治法是一种求解问题的策略，而递归是一种实现求解算法的技术</p>
 <p>改进分治算法的途径有 <strong>减少子问题个数</strong> 和 <strong>增加预处理</strong>。</p>
 <p>在分治法处理中，实践证明，采用 <strong>平衡子问题</strong> 思想划分子问题总是有较好的结果。</p>
 <p>在大整数乘法和矩阵乘中，可以采取降低  <strong>乘法</strong> 的运算次数来降低时间复杂度</p>
 <p>分治法的设计思想是将一个难以直接解决的大问题分割成规模较小的子问题，分别解决子问题，最后将子问题的解组合起来形成原问题的解。这要求原问题和子问题 <strong>问题规模不同，问题性质相同</strong></p>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/23/646c2b59810a2.png">
+<img src="https://bu.dusays.com/2023/05/23/646c2b59810a2.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
 <h1 id="动态规划">动态规划</h1>
 <p>虽然动态规划算法通常用于解决具有<strong>重叠子问题</strong>的问题，但是这并不是动态规划的必要条件。</p>
 <p>动态规划算法的两个基本要素是 <strong>无后效性</strong> 性质和 <strong>最优子结构</strong> 性质 。</p>
@@ -54508,6 +54527,7 @@ $$T(n) = aT(n/b) + f(n)$$&lt;/p&gt;
 <h1 id="贪心法">贪心法</h1>
 <p><strong>n皇后问题</strong> 不能使用贪心法解决</p>
 <p>贪心算法的基本要素的是 <strong>定义最优解</strong></p>
+<p>问题的 <strong>最优子结构性质</strong> 是该问题可以用 <strong>动态规划</strong> 或 <strong>贪心</strong> 求解的关键特征</p>
 <h1 id="回溯法">回溯法</h1>
 <p>请画出用回溯法解n=3的0-1背包问题的解空间树和当三个物品的重量为{16, 15, 15}，价值为{45, 25, 25}，背包容量为30时搜索空间树
 
