@@ -1921,7 +1921,21 @@ apt-get install llvm llvm-dev      # llvm project, which contains libraries used
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在 &lt;code&gt;RTFM&lt;/code&gt; 后，发现是镜像源的问题，更改镜像源后，再次进行操作，发现可以成功安装&lt;/p&gt;
 &lt;h2 id=&#34;pa1---开天辟地的篇章最简单的计算机&#34;&gt;PA1 - 开天辟地的篇章：最简单的计算机&lt;/h2&gt;
 &lt;h3 id=&#34;在开始愉快的pa之旅之前&#34;&gt;在开始愉快的PA之旅之前&lt;/h3&gt;
-&lt;p&gt;开头简简单单的运行一个已经完成的 &lt;a href=&#34;https://github.com/NJU-ProjectN/fceux-am&#34;&gt;红白机模拟器项目FCEUX&lt;/a&gt; ，前前后后就搞了一个多小时，出师未捷身先死了属于是。果然还是没有 &lt;code&gt;RTFM&lt;/code&gt; 的锅。问题是这样的：我在 PA0 里配置的环境变量是 &lt;code&gt;bash&lt;/code&gt; 的，而之后我又将我的 &lt;code&gt;Shell&lt;/code&gt; 从 &lt;code&gt;bash&lt;/code&gt; 更换到了 &lt;code&gt;zsh&lt;/code&gt;，却没有重新配置环境变量。而 &lt;code&gt;Makefile&lt;/code&gt; 中的&lt;/p&gt;
+&lt;p&gt;开头简简单单的运行一个已经完成的 &lt;a href=&#34;https://github.com/NJU-ProjectN/fceux-am&#34;&gt;红白机模拟器项目FCEUX&lt;/a&gt; ，前前后后就搞了一个多小时，出师未捷身先死了属于是。果然还是没有 &lt;code&gt;RTFM&lt;/code&gt; 的锅。问题是这样的：我在 PA0 里配置的环境变量是 &lt;code&gt;bash&lt;/code&gt; 的，而之后我又将我的 &lt;code&gt;Shell&lt;/code&gt; 从 &lt;code&gt;bash&lt;/code&gt; 更换到了 &lt;code&gt;zsh&lt;/code&gt;，却没有重新配置环境变量。而 &lt;code&gt;Makefile&lt;/code&gt; 中的 &lt;code&gt;AM_HOME&lt;/code&gt; 实际上使用了 系统环境变量，所以我无法将程序跑起来。&lt;/p&gt;
+&lt;p&gt;解决方法：在 &lt;code&gt;.zshrc&lt;/code&gt; 下手动加入环境变量的配置&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;export NEMU_HOME=/home/xan/Desktop/ics2022/nemu                                                                                                                                     
+
+export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后，在命令行界面运行命令 &lt;code&gt;source ./.zshrc&lt;/code&gt; 即可&lt;/p&gt;
+&lt;p&gt;最后再放一下成功运行马里奥的界面😁
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/24/646d92399c89d.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/24/646d92399c89d.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<p>本文是为了我在完成 ICS-PA 的过程中，踩的一些坑（当然，绝大部分是没有 <code>RTFM &amp; RTFW</code> 造成的🤣</p>
 <h1 id="计算机系统基础">计算机系统基础</h1>
@@ -1935,7 +1949,21 @@ apt-get install llvm llvm-dev      # llvm project, which contains libraries used
 </code></pre><p>在 <code>RTFM</code> 后，发现是镜像源的问题，更改镜像源后，再次进行操作，发现可以成功安装</p>
 <h2 id="pa1---开天辟地的篇章最简单的计算机">PA1 - 开天辟地的篇章：最简单的计算机</h2>
 <h3 id="在开始愉快的pa之旅之前">在开始愉快的PA之旅之前</h3>
-<p>开头简简单单的运行一个已经完成的 <a href="https://github.com/NJU-ProjectN/fceux-am">红白机模拟器项目FCEUX</a> ，前前后后就搞了一个多小时，出师未捷身先死了属于是。果然还是没有 <code>RTFM</code> 的锅。问题是这样的：我在 PA0 里配置的环境变量是 <code>bash</code> 的，而之后我又将我的 <code>Shell</code> 从 <code>bash</code> 更换到了 <code>zsh</code>，却没有重新配置环境变量。而 <code>Makefile</code> 中的</p>
+<p>开头简简单单的运行一个已经完成的 <a href="https://github.com/NJU-ProjectN/fceux-am">红白机模拟器项目FCEUX</a> ，前前后后就搞了一个多小时，出师未捷身先死了属于是。果然还是没有 <code>RTFM</code> 的锅。问题是这样的：我在 PA0 里配置的环境变量是 <code>bash</code> 的，而之后我又将我的 <code>Shell</code> 从 <code>bash</code> 更换到了 <code>zsh</code>，却没有重新配置环境变量。而 <code>Makefile</code> 中的 <code>AM_HOME</code> 实际上使用了 系统环境变量，所以我无法将程序跑起来。</p>
+<p>解决方法：在 <code>.zshrc</code> 下手动加入环境变量的配置</p>
+<pre tabindex="0"><code>export NEMU_HOME=/home/xan/Desktop/ics2022/nemu                                                                                                                                     
+
+export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
+</code></pre><p>然后，在命令行界面运行命令 <code>source ./.zshrc</code> 即可</p>
+<p>最后再放一下成功运行马里奥的界面😁
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/24/646d92399c89d.png">
+<img src="https://bu.dusays.com/2023/05/24/646d92399c89d.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
 ]]></content:encoded>
     </item>
     
