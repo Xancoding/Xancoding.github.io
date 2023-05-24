@@ -1936,6 +1936,15 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;p&gt;在配置 &lt;code&gt;ccache&lt;/code&gt; 的时候又粗心了，&lt;code&gt;.zshrc&lt;/code&gt; 中的 &lt;code&gt;export PATH=&amp;quot;/usr/lib/ccache:$PATH&amp;quot;&lt;/code&gt;，楞是写成了 &lt;code&gt;export PATH=&amp;quot;/usr/lib/cache:$PATH&lt;/code&gt;，怪不得总是不行。好在折腾了一个来小时后，终于成功发现，修改后果然成功
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/24/646da78b2639c.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/24/646da78b2639c.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<p>本文是为了我在完成 ICS-PA 的过程中，踩的一些坑（当然，绝大部分是没有 <code>RTFM &amp; RTFW</code> 造成的🤣</p>
 <h1 id="计算机系统基础">计算机系统基础</h1>
@@ -1960,6 +1969,15 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/24/646d92399c89d.png">
 <img src="https://bu.dusays.com/2023/05/24/646d92399c89d.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<p>在配置 <code>ccache</code> 的时候又粗心了，<code>.zshrc</code> 中的 <code>export PATH=&quot;/usr/lib/ccache:$PATH&quot;</code>，楞是写成了 <code>export PATH=&quot;/usr/lib/cache:$PATH</code>，怪不得总是不行。好在折腾了一个来小时后，终于成功发现，修改后果然成功
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/24/646da78b2639c.png">
+<img src="https://bu.dusays.com/2023/05/24/646da78b2639c.png" alt="image.png"  />
 </a>
 </div>
 
