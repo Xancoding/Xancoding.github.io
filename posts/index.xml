@@ -1945,6 +1945,24 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h3 id=&#34;rtfsc&#34;&gt;RTFSC&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/24/646e2c11edb4f.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/24/646e2c11edb4f.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+在解决上述问题的时候，偷了下懒，直接去网上🔍思路，感觉还是挺妙的，找问题看源码的过程。下次还是自己去解决，相信自己能做到的，下文是出问题的地方的修改解决完后的界面。
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/24/646e2bfe4d301.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/24/646e2bfe4d301.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<p>本文是为了我在完成 ICS-PA 的过程中，踩的一些坑（当然，绝大部分是没有 <code>RTFM &amp; RTFW</code> 造成的🤣</p>
 <h1 id="计算机系统基础">计算机系统基础</h1>
@@ -1978,6 +1996,24 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/24/646da78b2639c.png">
 <img src="https://bu.dusays.com/2023/05/24/646da78b2639c.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="rtfsc">RTFSC</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/24/646e2c11edb4f.png">
+<img src="https://bu.dusays.com/2023/05/24/646e2c11edb4f.png" alt="image.png"  />
+</a>
+</div>
+
+
+在解决上述问题的时候，偷了下懒，直接去网上🔍思路，感觉还是挺妙的，找问题看源码的过程。下次还是自己去解决，相信自己能做到的，下文是出问题的地方的修改解决完后的界面。
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/24/646e2bfe4d301.png">
+<img src="https://bu.dusays.com/2023/05/24/646e2bfe4d301.png" alt="image.png"  />
 </a>
 </div>
 
