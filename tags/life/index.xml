@@ -3429,119 +3429,141 @@
       <pubDate>Thu, 26 Jan 2023 11:14:43 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-01-26-11-14-43/</guid>
-      <description>&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/26/63d1f0720ad8d.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/26/63d1f0720ad8d.jpg&#34; alt=&#34;814db943c8ac87e6129a38084d36189.jpg&#34;  /&gt;
-&lt;/a&gt;
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&#34;&gt;
+    &lt;script src=&#34;https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js&#34;&gt;&lt;/script&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/css/nanogallery2.min.css&#34;&gt;
+    &lt;script src=&#34;https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/jquery.nanogallery2.min.js&#34;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div data-nanogallery2=&#39;{
+	 &#34;thumbnailDisplayTransition&#34;:          &#34;none&#34;,
+     &#34;thumbnailDisplayTransitionDuration&#34;:  500,
+     &#34;thumbnailDisplayInterval&#34;:            30,
+     &#34;galleryDisplayTransition&#34;:            &#34;none&#34;,
+     &#34;galleryDisplayTransitionDuration&#34;:    500,
+     &#34;galleryDisplayMode&#34;: &#34;rows&#34;,
+     &#34;thumbnailDisplayOutsideScreen&#34;: &#34;false&#34;,
+     &#34;eventsDebounceDelay&#34;: 10,
+     &#34;thumbnailL1BorderHorizontal&#34;: 0,
+     &#34;thumbnailL1BorderVertical&#34;: 0,
+     &#34;thumbnailLabel&#34;: {
+        &#34;titleFontSize&#34;: &#34;0.6em&#34;
+     },
+     &#34;thumbnailHoverEffect2&#34;: &#34;image_scale_1.00_1.10|label_backgroundColor_rgba(0,0,0,0)_rgba(255,255,255,0)&#34;,
+     &#34;galleryTheme&#34;: {
+        &#34;thumbnail&#34;: {
+            &#34;borderRadius&#34;: &#34;8px&#34;
+        }
+     },
+     &#34;thumbnailToolbarImage&#34;: {
+        &#34;topLeft&#34;: &#34;&#34;,
+        &#34;topRight&#34;: &#34;&#34;,
+        &#34;bottomLeft&#34;: &#34;&#34;,
+        &#34;bottomRight&#34;: &#34;&#34;
+     },
+     &#34;viewerToolbar&#34;:   {
+        &#34;display&#34;: true,
+        &#34;standard&#34;: &#34;label&#34;
+     },
+     &#34;viewerTools&#34;:     {
+        &#34;topLeft&#34;:    &#34;pageCounter, playPauseButton&#34;,
+        &#34;topRight&#34;:   &#34;downloadButton, rotateLeft, zoomButton, fullscreenButton, closeButton&#34;
+     },
+     &#34;viewerGalleryTWidth&#34;: 40,
+     &#34;viewerGalleryTHeight&#34;: 40
+}&#39;&gt;
+    
+&lt;a href=&#34;https://bu.dusays.com/2023/01/26/63d1f0720ad8d.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/26/63d1f0720ad8d.jpg&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://bu.dusays.com/2023/01/26/63d1f077d1a00.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/26/63d1f077d1a00.jpg&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://bu.dusays.com/2023/01/26/63d1f082ea677.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/26/63d1f082ea677.jpg&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://bu.dusays.com/2023/01/26/63d1f0ba11137.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/26/63d1f0ba11137.jpg&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://bu.dusays.com/2023/01/26/63d1f08a6d71e.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/26/63d1f08a6d71e.jpg&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://bu.dusays.com/2023/01/26/63d1f0a058fbb.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/26/63d1f0a058fbb.jpg&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://bu.dusays.com/2023/01/26/63d1f0a24bb49.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/26/63d1f0a24bb49.jpg&#34;&gt;&lt;/a&gt;
+
+
 &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/26/63d1f077d1a00.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/26/63d1f077d1a00.jpg&#34; alt=&#34;dd442c694d301b0a1bddce1aa8a2452.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/26/63d1f082ea677.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/26/63d1f082ea677.jpg&#34; alt=&#34;6c020eef0c4b191e12fbc70b0187fb1.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/26/63d1f0ba11137.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/26/63d1f0ba11137.jpg&#34; alt=&#34;856d0ee7d61a442148dd10940dfcac1.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/26/63d1f08a6d71e.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/26/63d1f08a6d71e.jpg&#34; alt=&#34;ef9dd9b74d3d6ce38af352706b4060a.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/26/63d1f0a058fbb.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/26/63d1f0a058fbb.jpg&#34; alt=&#34;2d966291652565cb0a0ec6f5e70800d.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/26/63d1f0a24bb49.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/26/63d1f0a24bb49.jpg&#34; alt=&#34;f80c567e25445cacc443344794b196b.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/26/63d1f0720ad8d.jpg">
-<img src="https://bu.dusays.com/2023/01/26/63d1f0720ad8d.jpg" alt="814db943c8ac87e6129a38084d36189.jpg"  />
-</a>
+      <content:encoded><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/css/nanogallery2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/jquery.nanogallery2.min.js"></script>
+</head>
+<body>
+
+<div data-nanogallery2='{
+	 "thumbnailDisplayTransition":          "none",
+     "thumbnailDisplayTransitionDuration":  500,
+     "thumbnailDisplayInterval":            30,
+     "galleryDisplayTransition":            "none",
+     "galleryDisplayTransitionDuration":    500,
+     "galleryDisplayMode": "rows",
+     "thumbnailDisplayOutsideScreen": "false",
+     "eventsDebounceDelay": 10,
+     "thumbnailL1BorderHorizontal": 0,
+     "thumbnailL1BorderVertical": 0,
+     "thumbnailLabel": {
+        "titleFontSize": "0.6em"
+     },
+     "thumbnailHoverEffect2": "image_scale_1.00_1.10|label_backgroundColor_rgba(0,0,0,0)_rgba(255,255,255,0)",
+     "galleryTheme": {
+        "thumbnail": {
+            "borderRadius": "8px"
+        }
+     },
+     "thumbnailToolbarImage": {
+        "topLeft": "",
+        "topRight": "",
+        "bottomLeft": "",
+        "bottomRight": ""
+     },
+     "viewerToolbar":   {
+        "display": true,
+        "standard": "label"
+     },
+     "viewerTools":     {
+        "topLeft":    "pageCounter, playPauseButton",
+        "topRight":   "downloadButton, rotateLeft, zoomButton, fullscreenButton, closeButton"
+     },
+     "viewerGalleryTWidth": 40,
+     "viewerGalleryTHeight": 40
+}'>
+    
+<a href="https://bu.dusays.com/2023/01/26/63d1f0720ad8d.jpg" data-ngThumb="https://bu.dusays.com/2023/01/26/63d1f0720ad8d.jpg"></a>
+
+<a href="https://bu.dusays.com/2023/01/26/63d1f077d1a00.jpg" data-ngThumb="https://bu.dusays.com/2023/01/26/63d1f077d1a00.jpg"></a>
+
+<a href="https://bu.dusays.com/2023/01/26/63d1f082ea677.jpg" data-ngThumb="https://bu.dusays.com/2023/01/26/63d1f082ea677.jpg"></a>
+
+<a href="https://bu.dusays.com/2023/01/26/63d1f0ba11137.jpg" data-ngThumb="https://bu.dusays.com/2023/01/26/63d1f0ba11137.jpg"></a>
+
+<a href="https://bu.dusays.com/2023/01/26/63d1f08a6d71e.jpg" data-ngThumb="https://bu.dusays.com/2023/01/26/63d1f08a6d71e.jpg"></a>
+
+<a href="https://bu.dusays.com/2023/01/26/63d1f0a058fbb.jpg" data-ngThumb="https://bu.dusays.com/2023/01/26/63d1f0a058fbb.jpg"></a>
+
+<a href="https://bu.dusays.com/2023/01/26/63d1f0a24bb49.jpg" data-ngThumb="https://bu.dusays.com/2023/01/26/63d1f0a24bb49.jpg"></a>
+
+
 </div>
+</body>
+</html>
 
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/26/63d1f077d1a00.jpg">
-<img src="https://bu.dusays.com/2023/01/26/63d1f077d1a00.jpg" alt="dd442c694d301b0a1bddce1aa8a2452.jpg"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/26/63d1f082ea677.jpg">
-<img src="https://bu.dusays.com/2023/01/26/63d1f082ea677.jpg" alt="6c020eef0c4b191e12fbc70b0187fb1.jpg"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/26/63d1f0ba11137.jpg">
-<img src="https://bu.dusays.com/2023/01/26/63d1f0ba11137.jpg" alt="856d0ee7d61a442148dd10940dfcac1.jpg"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/26/63d1f08a6d71e.jpg">
-<img src="https://bu.dusays.com/2023/01/26/63d1f08a6d71e.jpg" alt="ef9dd9b74d3d6ce38af352706b4060a.jpg"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/26/63d1f0a058fbb.jpg">
-<img src="https://bu.dusays.com/2023/01/26/63d1f0a058fbb.jpg" alt="2d966291652565cb0a0ec6f5e70800d.jpg"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/26/63d1f0a24bb49.jpg">
-<img src="https://bu.dusays.com/2023/01/26/63d1f0a24bb49.jpg" alt="f80c567e25445cacc443344794b196b.jpg"  />
-</a>
-</div>
-
-</p>
 ]]></content:encoded>
     </item>
     
@@ -3551,55 +3573,125 @@
       <pubDate>Mon, 23 Jan 2023 22:40:50 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-01-23-22-40-50/</guid>
-      <description>&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/23/63ce9cca663f6.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/23/63ce9cca663f6.jpg&#34; alt=&#34;893a80119db7518eb654c87d196bea8.jpg&#34;  /&gt;
-&lt;/a&gt;
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&#34;&gt;
+    &lt;script src=&#34;https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js&#34;&gt;&lt;/script&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/css/nanogallery2.min.css&#34;&gt;
+    &lt;script src=&#34;https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/jquery.nanogallery2.min.js&#34;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div data-nanogallery2=&#39;{
+	 &#34;thumbnailDisplayTransition&#34;:          &#34;none&#34;,
+     &#34;thumbnailDisplayTransitionDuration&#34;:  500,
+     &#34;thumbnailDisplayInterval&#34;:            30,
+     &#34;galleryDisplayTransition&#34;:            &#34;none&#34;,
+     &#34;galleryDisplayTransitionDuration&#34;:    500,
+     &#34;galleryDisplayMode&#34;: &#34;rows&#34;,
+     &#34;thumbnailDisplayOutsideScreen&#34;: &#34;false&#34;,
+     &#34;eventsDebounceDelay&#34;: 10,
+     &#34;thumbnailL1BorderHorizontal&#34;: 0,
+     &#34;thumbnailL1BorderVertical&#34;: 0,
+     &#34;thumbnailLabel&#34;: {
+        &#34;titleFontSize&#34;: &#34;0.6em&#34;
+     },
+     &#34;thumbnailHoverEffect2&#34;: &#34;image_scale_1.00_1.10|label_backgroundColor_rgba(0,0,0,0)_rgba(255,255,255,0)&#34;,
+     &#34;galleryTheme&#34;: {
+        &#34;thumbnail&#34;: {
+            &#34;borderRadius&#34;: &#34;8px&#34;
+        }
+     },
+     &#34;thumbnailToolbarImage&#34;: {
+        &#34;topLeft&#34;: &#34;&#34;,
+        &#34;topRight&#34;: &#34;&#34;,
+        &#34;bottomLeft&#34;: &#34;&#34;,
+        &#34;bottomRight&#34;: &#34;&#34;
+     },
+     &#34;viewerToolbar&#34;:   {
+        &#34;display&#34;: true,
+        &#34;standard&#34;: &#34;label&#34;
+     },
+     &#34;viewerTools&#34;:     {
+        &#34;topLeft&#34;:    &#34;pageCounter, playPauseButton&#34;,
+        &#34;topRight&#34;:   &#34;downloadButton, rotateLeft, zoomButton, fullscreenButton, closeButton&#34;
+     },
+     &#34;viewerGalleryTWidth&#34;: 40,
+     &#34;viewerGalleryTHeight&#34;: 40
+}&#39;&gt;
+    
+&lt;a href=&#34;https://bu.dusays.com/2023/01/23/63ce9cca663f6.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/23/63ce9cca663f6.jpg&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://bu.dusays.com/2023/01/23/63ce9cd98e59e.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/23/63ce9cd98e59e.jpg&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://bu.dusays.com/2023/01/23/63ce9cdd2a8d8.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/23/63ce9cdd2a8d8.jpg&#34;&gt;&lt;/a&gt;
+
+
 &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/23/63ce9cd98e59e.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/23/63ce9cd98e59e.jpg&#34; alt=&#34;8ef3c6fafcd4e750ad3dbe2347781c3.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/23/63ce9cdd2a8d8.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/23/63ce9cdd2a8d8.jpg&#34; alt=&#34;e48aa97ad04cfd033de8e70cc7c265b.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/23/63ce9cca663f6.jpg">
-<img src="https://bu.dusays.com/2023/01/23/63ce9cca663f6.jpg" alt="893a80119db7518eb654c87d196bea8.jpg"  />
-</a>
+      <content:encoded><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/css/nanogallery2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/jquery.nanogallery2.min.js"></script>
+</head>
+<body>
+
+<div data-nanogallery2='{
+	 "thumbnailDisplayTransition":          "none",
+     "thumbnailDisplayTransitionDuration":  500,
+     "thumbnailDisplayInterval":            30,
+     "galleryDisplayTransition":            "none",
+     "galleryDisplayTransitionDuration":    500,
+     "galleryDisplayMode": "rows",
+     "thumbnailDisplayOutsideScreen": "false",
+     "eventsDebounceDelay": 10,
+     "thumbnailL1BorderHorizontal": 0,
+     "thumbnailL1BorderVertical": 0,
+     "thumbnailLabel": {
+        "titleFontSize": "0.6em"
+     },
+     "thumbnailHoverEffect2": "image_scale_1.00_1.10|label_backgroundColor_rgba(0,0,0,0)_rgba(255,255,255,0)",
+     "galleryTheme": {
+        "thumbnail": {
+            "borderRadius": "8px"
+        }
+     },
+     "thumbnailToolbarImage": {
+        "topLeft": "",
+        "topRight": "",
+        "bottomLeft": "",
+        "bottomRight": ""
+     },
+     "viewerToolbar":   {
+        "display": true,
+        "standard": "label"
+     },
+     "viewerTools":     {
+        "topLeft":    "pageCounter, playPauseButton",
+        "topRight":   "downloadButton, rotateLeft, zoomButton, fullscreenButton, closeButton"
+     },
+     "viewerGalleryTWidth": 40,
+     "viewerGalleryTHeight": 40
+}'>
+    
+<a href="https://bu.dusays.com/2023/01/23/63ce9cca663f6.jpg" data-ngThumb="https://bu.dusays.com/2023/01/23/63ce9cca663f6.jpg"></a>
+
+<a href="https://bu.dusays.com/2023/01/23/63ce9cd98e59e.jpg" data-ngThumb="https://bu.dusays.com/2023/01/23/63ce9cd98e59e.jpg"></a>
+
+<a href="https://bu.dusays.com/2023/01/23/63ce9cdd2a8d8.jpg" data-ngThumb="https://bu.dusays.com/2023/01/23/63ce9cdd2a8d8.jpg"></a>
+
+
 </div>
+</body>
+</html>
 
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/23/63ce9cd98e59e.jpg">
-<img src="https://bu.dusays.com/2023/01/23/63ce9cd98e59e.jpg" alt="8ef3c6fafcd4e750ad3dbe2347781c3.jpg"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/23/63ce9cdd2a8d8.jpg">
-<img src="https://bu.dusays.com/2023/01/23/63ce9cdd2a8d8.jpg" alt="e48aa97ad04cfd033de8e70cc7c265b.jpg"  />
-</a>
-</div>
-
-</p>
 ]]></content:encoded>
     </item>
     
@@ -3609,119 +3701,141 @@
       <pubDate>Wed, 18 Jan 2023 12:29:48 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-01-18-12-29-48/</guid>
-      <description>&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/18/63c775e2b61f0.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/18/63c775e2b61f0.jpg&#34; alt=&#34;21145248dd5eab47f033cc129acd9be.jpg&#34;  /&gt;
-&lt;/a&gt;
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&#34;&gt;
+    &lt;script src=&#34;https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js&#34;&gt;&lt;/script&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/css/nanogallery2.min.css&#34;&gt;
+    &lt;script src=&#34;https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/jquery.nanogallery2.min.js&#34;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div data-nanogallery2=&#39;{
+	 &#34;thumbnailDisplayTransition&#34;:          &#34;none&#34;,
+     &#34;thumbnailDisplayTransitionDuration&#34;:  500,
+     &#34;thumbnailDisplayInterval&#34;:            30,
+     &#34;galleryDisplayTransition&#34;:            &#34;none&#34;,
+     &#34;galleryDisplayTransitionDuration&#34;:    500,
+     &#34;galleryDisplayMode&#34;: &#34;rows&#34;,
+     &#34;thumbnailDisplayOutsideScreen&#34;: &#34;false&#34;,
+     &#34;eventsDebounceDelay&#34;: 10,
+     &#34;thumbnailL1BorderHorizontal&#34;: 0,
+     &#34;thumbnailL1BorderVertical&#34;: 0,
+     &#34;thumbnailLabel&#34;: {
+        &#34;titleFontSize&#34;: &#34;0.6em&#34;
+     },
+     &#34;thumbnailHoverEffect2&#34;: &#34;image_scale_1.00_1.10|label_backgroundColor_rgba(0,0,0,0)_rgba(255,255,255,0)&#34;,
+     &#34;galleryTheme&#34;: {
+        &#34;thumbnail&#34;: {
+            &#34;borderRadius&#34;: &#34;8px&#34;
+        }
+     },
+     &#34;thumbnailToolbarImage&#34;: {
+        &#34;topLeft&#34;: &#34;&#34;,
+        &#34;topRight&#34;: &#34;&#34;,
+        &#34;bottomLeft&#34;: &#34;&#34;,
+        &#34;bottomRight&#34;: &#34;&#34;
+     },
+     &#34;viewerToolbar&#34;:   {
+        &#34;display&#34;: true,
+        &#34;standard&#34;: &#34;label&#34;
+     },
+     &#34;viewerTools&#34;:     {
+        &#34;topLeft&#34;:    &#34;pageCounter, playPauseButton&#34;,
+        &#34;topRight&#34;:   &#34;downloadButton, rotateLeft, zoomButton, fullscreenButton, closeButton&#34;
+     },
+     &#34;viewerGalleryTWidth&#34;: 40,
+     &#34;viewerGalleryTHeight&#34;: 40
+}&#39;&gt;
+    
+&lt;a href=&#34;https://bu.dusays.com/2023/01/18/63c775e2b61f0.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/18/63c775e2b61f0.jpg&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://bu.dusays.com/2023/01/18/63c775e7d4d1f.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/18/63c775e7d4d1f.jpg&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://bu.dusays.com/2023/01/18/63c775eb4e3cd.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/18/63c775eb4e3cd.jpg&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://bu.dusays.com/2023/01/18/63c775ee4e9b3.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/18/63c775ee4e9b3.jpg&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://bu.dusays.com/2023/01/18/63c775f7e4d82.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/18/63c775f7e4d82.jpg&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://bu.dusays.com/2023/01/18/63c77607ad5f1.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/18/63c77607ad5f1.jpg&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://bu.dusays.com/2023/01/18/63c7766b73709.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2023/01/18/63c7766b73709.jpg&#34;&gt;&lt;/a&gt;
+
+
 &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/18/63c775e7d4d1f.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/18/63c775e7d4d1f.jpg&#34; alt=&#34;c74e90e1504fa2d055b862be8523ac9.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/18/63c775eb4e3cd.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/18/63c775eb4e3cd.jpg&#34; alt=&#34;a3217785bc755d08cda79f5546441a7.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/18/63c775ee4e9b3.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/18/63c775ee4e9b3.jpg&#34; alt=&#34;36f143562ee3f4954b576f2a8bfc116.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/18/63c775f7e4d82.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/18/63c775f7e4d82.jpg&#34; alt=&#34;985e16b2ed281a5c30b5a8076d7799d.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/18/63c77607ad5f1.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/18/63c77607ad5f1.jpg&#34; alt=&#34;acf8bac3e3fd368d96169c9c86533a4.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/18/63c7766b73709.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/18/63c7766b73709.jpg&#34; alt=&#34;108beb5916a35e96362418b89250b3f.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/18/63c775e2b61f0.jpg">
-<img src="https://bu.dusays.com/2023/01/18/63c775e2b61f0.jpg" alt="21145248dd5eab47f033cc129acd9be.jpg"  />
-</a>
+      <content:encoded><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/css/nanogallery2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/jquery.nanogallery2.min.js"></script>
+</head>
+<body>
+
+<div data-nanogallery2='{
+	 "thumbnailDisplayTransition":          "none",
+     "thumbnailDisplayTransitionDuration":  500,
+     "thumbnailDisplayInterval":            30,
+     "galleryDisplayTransition":            "none",
+     "galleryDisplayTransitionDuration":    500,
+     "galleryDisplayMode": "rows",
+     "thumbnailDisplayOutsideScreen": "false",
+     "eventsDebounceDelay": 10,
+     "thumbnailL1BorderHorizontal": 0,
+     "thumbnailL1BorderVertical": 0,
+     "thumbnailLabel": {
+        "titleFontSize": "0.6em"
+     },
+     "thumbnailHoverEffect2": "image_scale_1.00_1.10|label_backgroundColor_rgba(0,0,0,0)_rgba(255,255,255,0)",
+     "galleryTheme": {
+        "thumbnail": {
+            "borderRadius": "8px"
+        }
+     },
+     "thumbnailToolbarImage": {
+        "topLeft": "",
+        "topRight": "",
+        "bottomLeft": "",
+        "bottomRight": ""
+     },
+     "viewerToolbar":   {
+        "display": true,
+        "standard": "label"
+     },
+     "viewerTools":     {
+        "topLeft":    "pageCounter, playPauseButton",
+        "topRight":   "downloadButton, rotateLeft, zoomButton, fullscreenButton, closeButton"
+     },
+     "viewerGalleryTWidth": 40,
+     "viewerGalleryTHeight": 40
+}'>
+    
+<a href="https://bu.dusays.com/2023/01/18/63c775e2b61f0.jpg" data-ngThumb="https://bu.dusays.com/2023/01/18/63c775e2b61f0.jpg"></a>
+
+<a href="https://bu.dusays.com/2023/01/18/63c775e7d4d1f.jpg" data-ngThumb="https://bu.dusays.com/2023/01/18/63c775e7d4d1f.jpg"></a>
+
+<a href="https://bu.dusays.com/2023/01/18/63c775eb4e3cd.jpg" data-ngThumb="https://bu.dusays.com/2023/01/18/63c775eb4e3cd.jpg"></a>
+
+<a href="https://bu.dusays.com/2023/01/18/63c775ee4e9b3.jpg" data-ngThumb="https://bu.dusays.com/2023/01/18/63c775ee4e9b3.jpg"></a>
+
+<a href="https://bu.dusays.com/2023/01/18/63c775f7e4d82.jpg" data-ngThumb="https://bu.dusays.com/2023/01/18/63c775f7e4d82.jpg"></a>
+
+<a href="https://bu.dusays.com/2023/01/18/63c77607ad5f1.jpg" data-ngThumb="https://bu.dusays.com/2023/01/18/63c77607ad5f1.jpg"></a>
+
+<a href="https://bu.dusays.com/2023/01/18/63c7766b73709.jpg" data-ngThumb="https://bu.dusays.com/2023/01/18/63c7766b73709.jpg"></a>
+
+
 </div>
+</body>
+</html>
 
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/18/63c775e7d4d1f.jpg">
-<img src="https://bu.dusays.com/2023/01/18/63c775e7d4d1f.jpg" alt="c74e90e1504fa2d055b862be8523ac9.jpg"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/18/63c775eb4e3cd.jpg">
-<img src="https://bu.dusays.com/2023/01/18/63c775eb4e3cd.jpg" alt="a3217785bc755d08cda79f5546441a7.jpg"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/18/63c775ee4e9b3.jpg">
-<img src="https://bu.dusays.com/2023/01/18/63c775ee4e9b3.jpg" alt="36f143562ee3f4954b576f2a8bfc116.jpg"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/18/63c775f7e4d82.jpg">
-<img src="https://bu.dusays.com/2023/01/18/63c775f7e4d82.jpg" alt="985e16b2ed281a5c30b5a8076d7799d.jpg"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/18/63c77607ad5f1.jpg">
-<img src="https://bu.dusays.com/2023/01/18/63c77607ad5f1.jpg" alt="acf8bac3e3fd368d96169c9c86533a4.jpg"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/18/63c7766b73709.jpg">
-<img src="https://bu.dusays.com/2023/01/18/63c7766b73709.jpg" alt="108beb5916a35e96362418b89250b3f.jpg"  />
-</a>
-</div>
-
-</p>
 ]]></content:encoded>
     </item>
     

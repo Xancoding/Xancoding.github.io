@@ -350,13 +350,9 @@
 
 &lt;a href=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34;&gt;&lt;/a&gt;
 
-&lt;a href=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34;&gt;香克斯&lt;/a&gt;
-
 &lt;a href=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34;&gt;&lt;/a&gt;
 
 &lt;a href=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34;&gt;&lt;/a&gt;
-
-&lt;a href=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34;&gt;香克斯&lt;/a&gt;
 
 &lt;a href=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34;&gt;&lt;/a&gt;
 
@@ -369,8 +365,21 @@
 
 &lt;h3 id=&#34;参考资料&#34;&gt;参考资料&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/&#34;&gt;Sulv&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://333rd.net/&#34;&gt;3rd&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/&#34;&gt;Sulv&amp;rsquo;s Blog&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/hugo_gallery/&#34;&gt;# Hugo博客添加相册功能&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/shortcodes/&#34;&gt;# Hugo博客自定义shortcodes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/hugo_toc_side/&#34;&gt;# Hugo博客目录放在侧边 | PaperMod主题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/hugo_archives_chinese/&#34;&gt;# Hugo博客时间轴中文化&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/hugo_twikoo/&#34;&gt;# Hugo博客添加Twikoo评论&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/hugo_seo/&#34;&gt;# Hugo博客seo优化&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://333rd.net/&#34;&gt;3rd&amp;rsquo;s Blog&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://333rd.net/posts/tech/hugo%E4%BE%A7%E8%BE%B9%E7%9B%AE%E5%BD%95/&#34;&gt;# Hugo侧边目录&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://shaohanyun.top/&#34;&gt;田少晗的个人博客&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/&#34;&gt;Hugo 博客写作最佳实践&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/&#34;&gt;Hugo + GitHub Action，搭建你的博客自动发布系统&lt;/a&gt;&lt;/li&gt;
@@ -713,13 +722,9 @@
 
 <a href="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png" data-ngThumb="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png"></a>
 
-<a href="https://www.sulvblog.cn/image/16_IMG_20220430_202353.png" data-ngThumb="https://www.sulvblog.cn/image/16_IMG_20220430_202353.png">香克斯</a>
-
 <a href="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png" data-ngThumb="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png"></a>
 
 <a href="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png" data-ngThumb="https://www.sulvblog.cn/image/19_IMG_20220430_200901.png"></a>
-
-<a href="https://www.sulvblog.cn/image/16_IMG_20220430_202353.png" data-ngThumb="https://www.sulvblog.cn/image/16_IMG_20220430_202353.png">香克斯</a>
 
 <a href="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png" data-ngThumb="https://www.sulvblog.cn/image/17_IMG_20220430_202228.png"></a>
 
@@ -732,8 +737,21 @@
 
 <h3 id="参考资料">参考资料</h3>
 <ul>
-<li><a href="https://www.sulvblog.cn/">Sulv&rsquo;s Blog</a></li>
-<li><a href="https://333rd.net/">3rd&rsquo;s Blog</a></li>
+<li><a href="https://www.sulvblog.cn/">Sulv&rsquo;s Blog</a>
+<ol>
+<li><a href="https://www.sulvblog.cn/posts/blog/hugo_gallery/"># Hugo博客添加相册功能</a></li>
+<li><a href="https://www.sulvblog.cn/posts/blog/shortcodes/"># Hugo博客自定义shortcodes</a></li>
+<li><a href="https://www.sulvblog.cn/posts/blog/hugo_toc_side/"># Hugo博客目录放在侧边 | PaperMod主题</a></li>
+<li><a href="https://www.sulvblog.cn/posts/blog/hugo_archives_chinese/"># Hugo博客时间轴中文化</a></li>
+<li><a href="https://www.sulvblog.cn/posts/blog/hugo_twikoo/"># Hugo博客添加Twikoo评论</a></li>
+<li><a href="https://www.sulvblog.cn/posts/blog/hugo_seo/"># Hugo博客seo优化</a></li>
+</ol>
+</li>
+<li><a href="https://333rd.net/">3rd&rsquo;s Blog</a>
+<ol>
+<li><a href="https://333rd.net/posts/tech/hugo%E4%BE%A7%E8%BE%B9%E7%9B%AE%E5%BD%95/"># Hugo侧边目录</a></li>
+</ol>
+</li>
 <li><a href="https://shaohanyun.top/">田少晗的个人博客</a></li>
 <li><a href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/">Hugo 博客写作最佳实践</a></li>
 <li><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a></li>
