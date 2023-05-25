@@ -938,6 +938,8 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;li&gt;&lt;code&gt;About：作者简介 &amp;amp; 博客简介&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Search：搜索文章&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;自定义-shortcodes&#34;&gt;自定义 shortcodes&lt;/h3&gt;
+&lt;h4 id=&#34;bil&#34;&gt;bil&lt;/h4&gt;
 &lt;h3 id=&#34;参考资料&#34;&gt;参考资料&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/&#34;&gt;Sulv&amp;rsquo;s Blog&lt;/a&gt;&lt;/li&gt;
@@ -972,6 +974,8 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 <li><code>About：作者简介 &amp; 博客简介</code></li>
 <li><code>Search：搜索文章</code></li>
 </ul>
+<h3 id="自定义-shortcodes">自定义 shortcodes</h3>
+<h4 id="bil">bil</h4>
 <h3 id="参考资料">参考资料</h3>
 <ul>
 <li><a href="https://www.sulvblog.cn/">Sulv&rsquo;s Blog</a></li>
