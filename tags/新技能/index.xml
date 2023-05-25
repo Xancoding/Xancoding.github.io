@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 15 Nov 2022 12:54:07 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/%E6%96%B0%E6%8A%80%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C&#43;&#43; 学习路线</title>
-      <link>https://xancoding.cn/posts/learning-cpp/</link>
+      <link>https://xancoding.cn/posts/2022-11-15-12-54-07/</link>
       <pubDate>Tue, 15 Nov 2022 12:54:07 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/learning-cpp/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-15-12-54-07/</guid>
       <description>&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Ay4y1i7Z6/?vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【中英字幕】C++ | The Cherno&lt;/a&gt;&lt;/li&gt;
@@ -5925,10 +5925,10 @@ int main()
     
     <item>
       <title>Linux 网络编程</title>
-      <link>https://xancoding.cn/posts/linux-network-programming/</link>
+      <link>https://xancoding.cn/posts/2022-11-15-12-50-59/</link>
       <pubDate>Tue, 15 Nov 2022 12:50:59 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/linux-network-programming/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-15-12-50-59/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/4889838/&#34;&gt;《鸟哥的Linux私房菜》&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/25911735/&#34;&gt;《TCP/IP网络编程》&lt;/a&gt;&lt;/li&gt;
@@ -8109,10 +8109,10 @@ int main()
     
     <item>
       <title>计算机网络课程大作业</title>
-      <link>https://xancoding.cn/posts/wireshark/</link>
+      <link>https://xancoding.cn/posts/2022-11-12-11-38-21/</link>
       <pubDate>Sat, 12 Nov 2022 11:38:21 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/wireshark/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-12-11-38-21/</guid>
       <description>&lt;h1 id=&#34;要求&#34;&gt;要求&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;团队合作、合理分工、按组为单位进行&lt;/li&gt;
@@ -10129,10 +10129,10 @@ Internet Control Message Protocol
     
     <item>
       <title>AcWing Web 应用课</title>
-      <link>https://xancoding.cn/posts/acw-web/</link>
+      <link>https://xancoding.cn/posts/2022-11-02-15-49-03/</link>
       <pubDate>Wed, 02 Nov 2022 15:49:03 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/acw-web/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-02-15-49-03/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_web/&#34;&gt;AcWing Web 应用课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/1150/&#34;&gt;AcWing Web 应用课&lt;/a&gt;
@@ -14115,10 +14115,10 @@ export {
     
     <item>
       <title>WarOfWarlock--AcWing Django 框架课</title>
-      <link>https://xancoding.cn/posts/acw-django/</link>
+      <link>https://xancoding.cn/posts/2022-10-29-18-23-59/</link>
       <pubDate>Sat, 29 Oct 2022 18:23:59 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/acw-django/</guid>
+      <guid>https://xancoding.cn/posts/2022-10-29-18-23-59/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_django/&#34;&gt;AcWing Django 框架课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/72/&#34;&gt;AcWing Django 框架课&lt;/a&gt;&lt;/li&gt;
@@ -21953,10 +21953,10 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
     
     <item>
       <title>正则表达式学习记</title>
-      <link>https://xancoding.cn/posts/regular-expression/</link>
+      <link>https://xancoding.cn/posts/2022-10-17-12-55-47/</link>
       <pubDate>Mon, 17 Oct 2022 12:55:47 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/regular-expression/</guid>
+      <guid>https://xancoding.cn/posts/2022-10-17-12-55-47/</guid>
       <description>&lt;h1 id=&#34;正则表达式是什么&#34;&gt;正则表达式是什么？&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;正则表达式，又称规则表达式，通常被用来检索、替换那些符合某个规则的文本&lt;/strong&gt;&lt;/p&gt;
@@ -22903,10 +22903,10 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
     
     <item>
       <title>LaTex学习记</title>
-      <link>https://xancoding.cn/posts/latex/</link>
+      <link>https://xancoding.cn/posts/2022-10-17-12-55-19/</link>
       <pubDate>Mon, 17 Oct 2022 12:55:19 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/latex/</guid>
+      <guid>https://xancoding.cn/posts/2022-10-17-12-55-19/</guid>
       <description>&lt;h1 id=&#34;latex是什么&#34;&gt;LaTex是什么？&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;LaTeX&lt;/code&gt;是一种基于&lt;code&gt;ΤΕΧ&lt;/code&gt;的排版系统，常被用于排版期刊文章、书籍、学位论文&lt;/p&gt;
@@ -23395,10 +23395,10 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
     
     <item>
       <title>Markdown学习记</title>
-      <link>https://xancoding.cn/posts/markdown/</link>
+      <link>https://xancoding.cn/posts/2022-10-17-12-54-56/</link>
       <pubDate>Mon, 17 Oct 2022 12:54:56 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/markdown/</guid>
+      <guid>https://xancoding.cn/posts/2022-10-17-12-54-56/</guid>
       <description>&lt;h1 id=&#34;markdown是什么&#34;&gt;Markdown是什么？&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。&lt;/strong&gt;&lt;/p&gt;
@@ -24171,10 +24171,10 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
     
     <item>
       <title>AcWing Linux 基础课</title>
-      <link>https://xancoding.cn/posts/acw-linux/</link>
+      <link>https://xancoding.cn/posts/2022-10-16-14-23-58/</link>
       <pubDate>Sun, 16 Oct 2022 14:23:58 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/acw-linux/</guid>
+      <guid>https://xancoding.cn/posts/2022-10-16-14-23-58/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_linux/&#34;&gt;AcWing Linux 基础课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/57/&#34;&gt;AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;
@@ -26581,10 +26581,10 @@ docker rm CONTAINER_NAME # 删除容器
     
     <item>
       <title>双拼学习记</title>
-      <link>https://xancoding.cn/posts/double-sepll/</link>
+      <link>https://xancoding.cn/posts/2022-10-14-17-02-41/</link>
       <pubDate>Fri, 14 Oct 2022 17:02:41 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/double-sepll/</guid>
+      <guid>https://xancoding.cn/posts/2022-10-14-17-02-41/</guid>
       <description>&lt;h1 id=&#34;双拼是什么&#34;&gt;双拼是什么？&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;双拼是汉语拼音输入法的一种编码方案&lt;/strong&gt;&lt;/p&gt;

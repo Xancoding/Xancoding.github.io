@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 08 May 2023 17:40:45 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我获取信息的方式</title>
-      <link>https://xancoding.cn/posts/get-info/</link>
+      <link>https://xancoding.cn/posts/2022-10-12-22-42-04/</link>
       <pubDate>Wed, 12 Oct 2022 22:42:04 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/get-info/</guid>
+      <guid>https://xancoding.cn/posts/2022-10-12-22-42-04/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;这个时代不缺信息，因为信息太多了，缺的是时间&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子&lt;/strong&gt;&lt;/p&gt;
@@ -447,10 +447,10 @@
     
     <item>
       <title>我输出信息的途径</title>
-      <link>https://xancoding.cn/posts/digital-garden/</link>
+      <link>https://xancoding.cn/posts/2022-10-30-15-28-22/</link>
       <pubDate>Sun, 30 Oct 2022 15:28:22 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/digital-garden/</guid>
+      <guid>https://xancoding.cn/posts/2022-10-30-15-28-22/</guid>
       <description>&lt;h1 id=&#34;知识管理&#34;&gt;知识管理&lt;/h1&gt;
 &lt;h2 id=&#34;个人网站&#34;&gt;个人网站&lt;/h2&gt;
 &lt;p&gt;前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。&lt;/p&gt;
@@ -791,10 +791,10 @@
     
     <item>
       <title>ICS-PA</title>
-      <link>https://xancoding.cn/posts/2023-05-08-17-40-44/</link>
+      <link>https://xancoding.cn/posts/2023-05-08-17-40-45/</link>
       <pubDate>Mon, 08 May 2023 17:40:45 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-05-08-17-40-44/</guid>
+      <guid>https://xancoding.cn/posts/2023-05-08-17-40-45/</guid>
       <description>&lt;p&gt;本文是为了我在完成 ICS-PA 的过程中，踩的一些坑（当然，绝大部分是没有 &lt;code&gt;RTFM &amp;amp; RTFW&lt;/code&gt; 造成的🤣&lt;/p&gt;
 &lt;h1 id=&#34;计算机系统基础&#34;&gt;计算机系统基础&lt;/h1&gt;
 &lt;h2 id=&#34;pa0---世界诞生的前夜-开发环境配置&#34;&gt;PA0 - 世界诞生的前夜: 开发环境配置&lt;/h2&gt;
@@ -909,10 +909,10 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
     
     <item>
       <title>Blog</title>
-      <link>https://xancoding.cn/posts/2023-04-30-09-43-30/</link>
+      <link>https://xancoding.cn/posts/2023-04-30-09-43-31/</link>
       <pubDate>Sun, 30 Apr 2023 09:43:31 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-04-30-09-43-30/</guid>
+      <guid>https://xancoding.cn/posts/2023-04-30-09-43-31/</guid>
       <description>&lt;h2 id=&#34;bloghttpsgithubcomxancodingxancodinggithubio&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/Xancoding.github.io&#34;&gt;Blog&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;搭建工具&#34;&gt;搭建工具&lt;/h3&gt;
 &lt;ul&gt;
@@ -985,10 +985,10 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
     
     <item>
       <title>模拟电子技术基础</title>
-      <link>https://xancoding.cn/posts/2023-03-26-19-25-13/</link>
+      <link>https://xancoding.cn/posts/2023-03-26-19-25-14/</link>
       <pubDate>Sun, 26 Mar 2023 19:25:14 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-03-26-19-25-13/</guid>
+      <guid>https://xancoding.cn/posts/2023-03-26-19-25-14/</guid>
       <description>&lt;h2 id=&#34;第1章测试&#34;&gt;第1章测试&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;本征激发体现了半导体的 &lt;strong&gt;热敏&lt;/strong&gt; 特性。&lt;/li&gt;
@@ -1219,10 +1219,10 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
     
     <item>
       <title>NLP--情感分析--学习指南</title>
-      <link>https://xancoding.cn/posts/2023-03-25-08-24-52/</link>
+      <link>https://xancoding.cn/posts/2023-03-25-08-24-56/</link>
       <pubDate>Sat, 25 Mar 2023 08:24:56 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-03-25-08-24-52/</guid>
+      <guid>https://xancoding.cn/posts/2023-03-25-08-24-56/</guid>
       <description>&lt;h1 id=&#34;环境配置&#34;&gt;环境配置&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow&lt;/a&gt;&lt;/li&gt;
@@ -1335,10 +1335,10 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
     
     <item>
       <title>概率论与数理统计</title>
-      <link>https://xancoding.cn/posts/2023-03-14-13-19-12/</link>
+      <link>https://xancoding.cn/posts/2023-03-14-13-19-15/</link>
       <pubDate>Tue, 14 Mar 2023 13:19:15 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-03-14-13-19-12/</guid>
+      <guid>https://xancoding.cn/posts/2023-03-14-13-19-15/</guid>
       <description>&lt;h1 id=&#34;tips&#34;&gt;Tips&lt;/h1&gt;
 &lt;p&gt;如果A，B为一次实验中互不相容的两个事件。连续试验时，A发生在B之前的概率为：&lt;/p&gt;
 &lt;p&gt;$${P(A) \over (P(A)+P(B))}$$&lt;/p&gt;
@@ -9321,10 +9321,10 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
     
     <item>
       <title>人工智能及其应用</title>
-      <link>https://xancoding.cn/posts/2023-03-05-18-41-23/</link>
+      <link>https://xancoding.cn/posts/2023-03-05-18-41-26/</link>
       <pubDate>Sun, 05 Mar 2023 18:41:26 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-03-05-18-41-23/</guid>
+      <guid>https://xancoding.cn/posts/2023-03-05-18-41-26/</guid>
       <description>&lt;h1 id=&#34;模糊理论&#34;&gt;模糊理论&lt;/h1&gt;
 &lt;h2 id=&#34;模糊集合和模糊子集&#34;&gt;模糊集合和模糊子集&lt;/h2&gt;
 &lt;p&gt;一个模糊集合可以表示为一个元素集合和一个隶属度函数的有序对，即 $A = (X, \mu_A)$，其中 $X$ 是元素集合，$\mu_A$ 是 $X$ 上的隶属度函数。隶属度函数 $\mu_A(x)$ 给出了 $x$ 属于 $A$ 的程度，通常取值在 $[0,1]$ 之间。因此，可以用以下符号表示模糊集合 $A$：&lt;/p&gt;
@@ -9525,10 +9525,10 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
     
     <item>
       <title>线性代数</title>
-      <link>https://xancoding.cn/posts/linear-algebra/</link>
+      <link>https://xancoding.cn/posts/2022-12-15-08-38-27/</link>
       <pubDate>Thu, 15 Dec 2022 08:38:27 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/linear-algebra/</guid>
+      <guid>https://xancoding.cn/posts/2022-12-15-08-38-27/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/45707832&#34;&gt;MIT线性代数 | 笔记&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ix411f7Yp?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;MIT线性代数 | Vedio&lt;/a&gt;&lt;/li&gt;
@@ -9547,10 +9547,10 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
     
     <item>
       <title>计算机系统基础</title>
-      <link>https://xancoding.cn/posts/computer-system-fundamentals/</link>
+      <link>https://xancoding.cn/posts/2022-11-15-21-37-17/</link>
       <pubDate>Tue, 15 Nov 2022 21:37:17 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/computer-system-fundamentals/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-15-21-37-17/</guid>
       <description>&lt;h1 id=&#34;计算机系统基础一程序的表示转换与链接&#34;&gt;计算机系统基础(一)——程序的表示、转换与链接&lt;/h1&gt;
 &lt;h2 id=&#34;原码移码补码&#34;&gt;原码&amp;amp;移码&amp;amp;补码&lt;/h2&gt;
 &lt;ol&gt;
@@ -10269,10 +10269,10 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
     
     <item>
       <title>计算机程序的构造和解释</title>
-      <link>https://xancoding.cn/posts/sicp/</link>
+      <link>https://xancoding.cn/posts/2022-11-15-14-34-16/</link>
       <pubDate>Tue, 15 Nov 2022 14:34:16 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/sicp/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-15-14-34-16/</guid>
       <description>&lt;h1 id=&#34;为什么-sicp-非常重要&#34;&gt;为什么 SICP 非常重要&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;它将注意力重点放在了抽象的核心思想之上 —— 从特定问题直至构建软件工具，帮助你探求一般性的规律&lt;/strong&gt;&lt;/p&gt;
@@ -10763,10 +10763,10 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&gt;0$$
     
     <item>
       <title>汇编语言</title>
-      <link>https://xancoding.cn/posts/assembly-language/</link>
+      <link>https://xancoding.cn/posts/2022-11-15-13-16-12/</link>
       <pubDate>Tue, 15 Nov 2022 13:16:12 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/assembly-language/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-15-13-16-12/</guid>
       <description>&lt;h1 id=&#34;汇编语言是什么&#34;&gt;汇编语言是什么？&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;汇编语言是任何一种用于电子计算机、微处理器、微控制器，或其他可编程器件的低级语言&lt;/strong&gt;&lt;/p&gt;
@@ -16295,10 +16295,10 @@ end start
     
     <item>
       <title>C&#43;&#43; 学习路线</title>
-      <link>https://xancoding.cn/posts/learning-cpp/</link>
+      <link>https://xancoding.cn/posts/2022-11-15-12-54-07/</link>
       <pubDate>Tue, 15 Nov 2022 12:54:07 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/learning-cpp/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-15-12-54-07/</guid>
       <description>&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Ay4y1i7Z6/?vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【中英字幕】C++ | The Cherno&lt;/a&gt;&lt;/li&gt;
@@ -22211,10 +22211,10 @@ int main()
     
     <item>
       <title>Linux 网络编程</title>
-      <link>https://xancoding.cn/posts/linux-network-programming/</link>
+      <link>https://xancoding.cn/posts/2022-11-15-12-50-59/</link>
       <pubDate>Tue, 15 Nov 2022 12:50:59 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/linux-network-programming/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-15-12-50-59/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/4889838/&#34;&gt;《鸟哥的Linux私房菜》&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/25911735/&#34;&gt;《TCP/IP网络编程》&lt;/a&gt;&lt;/li&gt;
@@ -24395,10 +24395,10 @@ int main()
     
     <item>
       <title>计算机组成原理</title>
-      <link>https://xancoding.cn/posts/principles-of-computer-composition/</link>
+      <link>https://xancoding.cn/posts/2022-11-15-12-47-32/</link>
       <pubDate>Tue, 15 Nov 2022 12:47:32 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/principles-of-computer-composition/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-15-12-47-32/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1EW411u7th?vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;计算机科学速成 [40 集全/精校] - Crash Course Computer Science&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1BE411D7ii/?spm_id_from=333.337.search-card.all.click&#34;&gt;王道计算机考研 计算机组成原理&lt;/a&gt;&lt;/li&gt;
@@ -26189,10 +26189,10 @@ int main()
     
     <item>
       <title>数据库</title>
-      <link>https://xancoding.cn/posts/database/</link>
+      <link>https://xancoding.cn/posts/2022-11-15-12-38-04/</link>
       <pubDate>Tue, 15 Nov 2022 12:38:04 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/database/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-15-12-38-04/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1PJ411F78b?spm_id_from=333.999.0.0&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;哈工大数据库系统&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Rv41177Af?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【尚硅谷】Redis&lt;/a&gt;&lt;/li&gt;
@@ -28391,10 +28391,10 @@ int main()
     
     <item>
       <title>操作系统</title>
-      <link>https://xancoding.cn/posts/os/</link>
+      <link>https://xancoding.cn/posts/2022-11-15-12-04-42/</link>
       <pubDate>Tue, 15 Nov 2022 12:04:42 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/os/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-15-12-04-42/</guid>
       <description>&lt;h1 id=&#34;链接&#34;&gt;链接&lt;/h1&gt;
 &lt;h2 id=&#34;程序设计时&#34;&gt;程序设计时&lt;/h2&gt;
 &lt;p&gt;在这种情况下，我们将所有的源代码都放在一个文件中，例如 &lt;code&gt;main.cpp&lt;/code&gt;：&lt;/p&gt;
@@ -30629,10 +30629,10 @@ g++ add.o main.o -o program
     
     <item>
       <title>计算机网络课程大作业</title>
-      <link>https://xancoding.cn/posts/wireshark/</link>
+      <link>https://xancoding.cn/posts/2022-11-12-11-38-21/</link>
       <pubDate>Sat, 12 Nov 2022 11:38:21 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/wireshark/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-12-11-38-21/</guid>
       <description>&lt;h1 id=&#34;要求&#34;&gt;要求&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;团队合作、合理分工、按组为单位进行&lt;/li&gt;
@@ -32649,10 +32649,10 @@ Internet Control Message Protocol
     
     <item>
       <title>AcWing Web 应用课</title>
-      <link>https://xancoding.cn/posts/acw-web/</link>
+      <link>https://xancoding.cn/posts/2022-11-02-15-49-03/</link>
       <pubDate>Wed, 02 Nov 2022 15:49:03 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/acw-web/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-02-15-49-03/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_web/&#34;&gt;AcWing Web 应用课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/1150/&#34;&gt;AcWing Web 应用课&lt;/a&gt;
@@ -36635,10 +36635,10 @@ export {
     
     <item>
       <title>如何为你的文章配图？</title>
-      <link>https://xancoding.cn/posts/blog-drawing/</link>
+      <link>https://xancoding.cn/posts/2022-10-31-18-01-02/</link>
       <pubDate>Mon, 31 Oct 2022 18:01:02 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/blog-drawing/</guid>
+      <guid>https://xancoding.cn/posts/2022-10-31-18-01-02/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;画图的工具并不重要，重要的其实是你应该如何形成自己的规则体系，想要为博客配图并不是一件困难的事情，比较困难的是长期坚持并且经常思考，对自己形成的规则不断改善，最终就一定能够做好。&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -36707,10 +36707,10 @@ export {
     
     <item>
       <title>WarOfWarlock--AcWing Django 框架课</title>
-      <link>https://xancoding.cn/posts/acw-django/</link>
+      <link>https://xancoding.cn/posts/2022-10-29-18-23-59/</link>
       <pubDate>Sat, 29 Oct 2022 18:23:59 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/acw-django/</guid>
+      <guid>https://xancoding.cn/posts/2022-10-29-18-23-59/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_django/&#34;&gt;AcWing Django 框架课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/72/&#34;&gt;AcWing Django 框架课&lt;/a&gt;&lt;/li&gt;
@@ -44545,10 +44545,10 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
     
     <item>
       <title>计算机网络</title>
-      <link>https://xancoding.cn/posts/computer-network/</link>
+      <link>https://xancoding.cn/posts/2022-10-18-18-34-30/</link>
       <pubDate>Tue, 18 Oct 2022 18:34:30 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/computer-network/</guid>
+      <guid>https://xancoding.cn/posts/2022-10-18-18-34-30/</guid>
       <description>&lt;h1 id=&#34;osi模型每层的数据单元名称&#34;&gt;OSI模型每层的数据单元名称&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;第一层：物理层；二进制比特流传输；bit（比特流）&lt;/li&gt;
@@ -48401,10 +48401,10 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
     
     <item>
       <title>数据结构与算法</title>
-      <link>https://xancoding.cn/posts/data-structures-and-algorithms/</link>
+      <link>https://xancoding.cn/posts/2022-10-18-17-16-53/</link>
       <pubDate>Tue, 18 Oct 2022 17:16:53 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/data-structures-and-algorithms/</guid>
+      <guid>https://xancoding.cn/posts/2022-10-18-17-16-53/</guid>
       <description>&lt;h1 id=&#34;分治法&#34;&gt;分治法&lt;/h1&gt;
 &lt;p&gt;分治法的关键步骤包括：&lt;/p&gt;
 &lt;ol&gt;
@@ -50827,10 +50827,10 @@ $$T(n) = aT(n/b) + f(n)$$</p>
     
     <item>
       <title>AcWing Linux 基础课</title>
-      <link>https://xancoding.cn/posts/acw-linux/</link>
+      <link>https://xancoding.cn/posts/2022-10-16-14-23-58/</link>
       <pubDate>Sun, 16 Oct 2022 14:23:58 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/acw-linux/</guid>
+      <guid>https://xancoding.cn/posts/2022-10-16-14-23-58/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_linux/&#34;&gt;AcWing Linux 基础课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/57/&#34;&gt;AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;

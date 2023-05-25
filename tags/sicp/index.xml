@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 15 Nov 2022 14:34:16 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/sicp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>计算机程序的构造和解释</title>
-      <link>https://xancoding.cn/posts/sicp/</link>
+      <link>https://xancoding.cn/posts/2022-11-15-14-34-16/</link>
       <pubDate>Tue, 15 Nov 2022 14:34:16 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/sicp/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-15-14-34-16/</guid>
       <description>&lt;h1 id=&#34;为什么-sicp-非常重要&#34;&gt;为什么 SICP 非常重要&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;它将注意力重点放在了抽象的核心思想之上 —— 从特定问题直至构建软件工具，帮助你探求一般性的规律&lt;/strong&gt;&lt;/p&gt;

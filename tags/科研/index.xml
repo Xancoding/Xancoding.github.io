@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 25 Mar 2023 08:24:56 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/%E7%A7%91%E7%A0%94/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NLP--情感分析--学习指南</title>
-      <link>https://xancoding.cn/posts/2023-03-25-08-24-52/</link>
+      <link>https://xancoding.cn/posts/2023-03-25-08-24-56/</link>
       <pubDate>Sat, 25 Mar 2023 08:24:56 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-03-25-08-24-52/</guid>
+      <guid>https://xancoding.cn/posts/2023-03-25-08-24-56/</guid>
       <description>&lt;h1 id=&#34;环境配置&#34;&gt;环境配置&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow&lt;/a&gt;&lt;/li&gt;

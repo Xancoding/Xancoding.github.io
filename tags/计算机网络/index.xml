@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 15 Nov 2022 12:50:59 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux 网络编程</title>
-      <link>https://xancoding.cn/posts/linux-network-programming/</link>
+      <link>https://xancoding.cn/posts/2022-11-15-12-50-59/</link>
       <pubDate>Tue, 15 Nov 2022 12:50:59 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/linux-network-programming/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-15-12-50-59/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/4889838/&#34;&gt;《鸟哥的Linux私房菜》&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/25911735/&#34;&gt;《TCP/IP网络编程》&lt;/a&gt;&lt;/li&gt;
@@ -2193,10 +2193,10 @@
     
     <item>
       <title>计算机网络课程大作业</title>
-      <link>https://xancoding.cn/posts/wireshark/</link>
+      <link>https://xancoding.cn/posts/2022-11-12-11-38-21/</link>
       <pubDate>Sat, 12 Nov 2022 11:38:21 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/wireshark/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-12-11-38-21/</guid>
       <description>&lt;h1 id=&#34;要求&#34;&gt;要求&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;团队合作、合理分工、按组为单位进行&lt;/li&gt;
@@ -4213,10 +4213,10 @@ Internet Control Message Protocol
     
     <item>
       <title>计算机网络</title>
-      <link>https://xancoding.cn/posts/computer-network/</link>
+      <link>https://xancoding.cn/posts/2022-10-18-18-34-30/</link>
       <pubDate>Tue, 18 Oct 2022 18:34:30 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/computer-network/</guid>
+      <guid>https://xancoding.cn/posts/2022-10-18-18-34-30/</guid>
       <description>&lt;h1 id=&#34;osi模型每层的数据单元名称&#34;&gt;OSI模型每层的数据单元名称&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;第一层：物理层；二进制比特流传输；bit（比特流）&lt;/li&gt;

@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 25 Mar 2023 08:24:56 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NLP--情感分析--学习指南</title>
-      <link>https://xancoding.cn/posts/2023-03-25-08-24-52/</link>
+      <link>https://xancoding.cn/posts/2023-03-25-08-24-56/</link>
       <pubDate>Sat, 25 Mar 2023 08:24:56 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-03-25-08-24-52/</guid>
+      <guid>https://xancoding.cn/posts/2023-03-25-08-24-56/</guid>
       <description>&lt;h1 id=&#34;环境配置&#34;&gt;环境配置&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow&lt;/a&gt;&lt;/li&gt;
@@ -125,10 +125,10 @@
     
     <item>
       <title>人工智能及其应用</title>
-      <link>https://xancoding.cn/posts/2023-03-05-18-41-23/</link>
+      <link>https://xancoding.cn/posts/2023-03-05-18-41-26/</link>
       <pubDate>Sun, 05 Mar 2023 18:41:26 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-03-05-18-41-23/</guid>
+      <guid>https://xancoding.cn/posts/2023-03-05-18-41-26/</guid>
       <description>&lt;h1 id=&#34;模糊理论&#34;&gt;模糊理论&lt;/h1&gt;
 &lt;h2 id=&#34;模糊集合和模糊子集&#34;&gt;模糊集合和模糊子集&lt;/h2&gt;
 &lt;p&gt;一个模糊集合可以表示为一个元素集合和一个隶属度函数的有序对，即 $A = (X, \mu_A)$，其中 $X$ 是元素集合，$\mu_A$ 是 $X$ 上的隶属度函数。隶属度函数 $\mu_A(x)$ 给出了 $x$ 属于 $A$ 的程度，通常取值在 $[0,1]$ 之间。因此，可以用以下符号表示模糊集合 $A$：&lt;/p&gt;
