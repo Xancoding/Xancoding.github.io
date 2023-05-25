@@ -1280,7 +1280,11 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;li&gt;&lt;a href=&#34;https://333rd.net/posts/tech/hugo%E4%BE%A7%E8%BE%B9%E7%9B%AE%E5%BD%95/&#34;&gt;# Hugo侧边目录&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://shaohanyun.top/&#34;&gt;田少晗的个人博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shaohanyun.top/&#34;&gt;田少晗的个人博客&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://shaohanyun.top/posts/env/hugo_mathjax/&#34;&gt;# Hugo博客添加LaTeX语法支持&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/&#34;&gt;Hugo 博客写作最佳实践&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/&#34;&gt;Hugo + GitHub Action，搭建你的博客自动发布系统&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1652,7 +1656,11 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 <li><a href="https://333rd.net/posts/tech/hugo%E4%BE%A7%E8%BE%B9%E7%9B%AE%E5%BD%95/"># Hugo侧边目录</a></li>
 </ol>
 </li>
-<li><a href="https://shaohanyun.top/">田少晗的个人博客</a></li>
+<li><a href="https://shaohanyun.top/">田少晗的个人博客</a>
+<ol>
+<li><a href="https://shaohanyun.top/posts/env/hugo_mathjax/"># Hugo博客添加LaTeX语法支持</a></li>
+</ol>
+</li>
 <li><a href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/">Hugo 博客写作最佳实践</a></li>
 <li><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a></li>
 </ul>
