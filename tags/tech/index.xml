@@ -5,7 +5,7 @@
     <link>https://xancoding.cn/tags/tech/</link>
     <description>Recent content in Tech on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <lastBuildDate>Mon, 29 May 2023 17:24:38 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C&#43;&#43; Project</title>
@@ -21,16 +21,19 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.yuque.com/jackyao/ifeq8i/vyigt9?#%20%E3%80%8AC/C++%E5%88%B7%E9%A2%98%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7%E3%80%8B&#34;&gt;# C/C++刷题常用技巧&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1XB4y1b7Fy/?spm_id_from=333.788&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# C/C++项目实战（数据库）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://github.com/SYaoJun/CPPInterview/blob/master/Basic/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8E%9F%E7%90%86.md&#34;&gt;# 数据库原理&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;大纲&#34;&gt;大纲&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;1.&lt;/span&gt; 开发环境
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; git     # 版本管理工具
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; cmake   # 代码构建工具，管理源文件和依赖
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; gcc     # 编译器
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; Git     # 版本管理工具
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; Cmake   # 代码构建工具，管理源文件和依赖
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; Gcc     # 编译器
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; Clion   # 编辑器
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; postman # 接口测试工具
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; mysql   # 数据库
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;2.&lt;/span&gt; 目录结构
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; Postman # 模拟客户端
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; MySQL(navicat)   # 在 docker Container 中起一个 mySQL 数据库，并可以在 navicat 中进行可视化操作
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; Docker  # 部署
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;1.&lt;/span&gt; 目录结构
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; build   # 项目编译目录
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; debug 
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; release 
@@ -38,13 +41,20 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; src     # .cpp  源文件目录
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; docs    # 需求设计文档
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; others
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;3.&lt;/span&gt; 设计模式
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;2.&lt;/span&gt; 设计模式
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 单例模式
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 构造函数私有
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 实例只有一份
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 工厂模式
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 一个类别对应一个工厂
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 不需要亲自创建对象，只需要从工厂中去取
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;3.&lt;/span&gt; 数据库
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; MySQL 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 关系型
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 支持事务
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 行锁
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 支持种存储引擎InnoDB，MyISAM，Memory
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; B+树索引
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;init-project&#34;&gt;init-project&lt;/h1&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -142,16 +152,19 @@
 </ul>
 </li>
 <li><a href="https://www.yuque.com/jackyao/ifeq8i/vyigt9?#%20%E3%80%8AC/C++%E5%88%B7%E9%A2%98%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7%E3%80%8B"># C/C++刷题常用技巧</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1XB4y1b7Fy/?spm_id_from=333.788&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># C/C++项目实战（数据库）</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://github.com/SYaoJun/CPPInterview/blob/master/Basic/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8E%9F%E7%90%86.md"># 数据库原理</a></li>
 </ul>
 <h1 id="大纲">大纲</h1>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">1.</span> 开发环境
-</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> git     # 版本管理工具
-</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> cmake   # 代码构建工具，管理源文件和依赖
-</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> gcc     # 编译器
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> Git     # 版本管理工具
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> Cmake   # 代码构建工具，管理源文件和依赖
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> Gcc     # 编译器
 </span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> Clion   # 编辑器
-</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> postman # 接口测试工具
-</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> mysql   # 数据库
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">2.</span> 目录结构
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> Postman # 模拟客户端
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> MySQL(navicat)   # 在 docker Container 中起一个 mySQL 数据库，并可以在 navicat 中进行可视化操作
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> Docker  # 部署
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">1.</span> 目录结构
 </span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> build   # 项目编译目录
 </span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> debug 
 </span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> release 
@@ -159,13 +172,20 @@
 </span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> src     # .cpp  源文件目录
 </span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> docs    # 需求设计文档
 </span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> others
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">3.</span> 设计模式
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">2.</span> 设计模式
 </span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> 单例模式
 </span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> 构造函数私有
 </span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> 实例只有一份
 </span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> 工厂模式
 </span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> 一个类别对应一个工厂
 </span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> 不需要亲自创建对象，只需要从工厂中去取
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">3.</span> 数据库
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> MySQL 
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> 关系型
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> 支持事务
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> 行锁
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> 支持种存储引擎InnoDB，MyISAM，Memory
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> B+树索引
 </span></span></code></pre></div><h1 id="init-project">init-project</h1>
 <p>
 <div class="post-img-view">
@@ -1375,10 +1395,13 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
       <pubDate>Sat, 25 Mar 2023 08:24:56 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-03-25-08-24-56/</guid>
-      <description>&lt;h1 id=&#34;环境配置&#34;&gt;环境配置&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;入门学习&#34;&gt;入门学习&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1FT4y1E74V?p=55&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# [双语字幕]吴恩达深度学习deeplearning.ai&lt;/a&gt; p1 &amp;ndash; p51&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.jianshu.com/p/0e1d51a7549d&#34;&gt;# Python 数据科学入门教程：NLTK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&#34;&gt;# Pytorch 入门学习&lt;/a&gt; 第一课&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1FT4y1E74V/?p=52&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;1.6 Dropout 正则化_哔哩哔哩_bilibili&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;机器学习神经网络深度学习&#34;&gt;机器学习、神经网络、深度学习&lt;/h1&gt;
 &lt;p&gt;机器学习、神经网络、深度学习是三个相互关联的概念，它们都是人工智能领域的重要组成部分。&lt;/p&gt;
@@ -1395,11 +1418,6 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
 &lt;li&gt;最后写论文&lt;/li&gt;
 &lt;li&gt;一步一步来&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;学习资源&#34;&gt;学习资源&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1FT4y1E74V?p=55&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# [双语字幕]吴恩达深度学习deeplearning.ai&lt;/a&gt; p1 &amp;ndash; p51&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&#34;&gt;# Pytorch 入门学习&lt;/a&gt; 第一课&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h1 id=&#34;深度学习&#34;&gt;深度学习&lt;/h1&gt;
 &lt;h2 id=&#34;前向传播和后向传播&#34;&gt;前向传播和后向传播&lt;/h2&gt;
 &lt;p&gt;
@@ -1429,10 +1447,13 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
 &lt;/ol&gt;
 &lt;p&gt;需要注意的是，减少偏差和减少方差是一种 trade-off（权衡），通常无法同时达到最佳状态。我们需要根据具体问题和数据集，平衡偏差和方差的影响，选择适合的模型和方法。通常，我们可以通过交叉验证等技术来选择最佳的模型和超参数，以达到平衡偏差和方差的目的。&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="环境配置">环境配置</h1>
+      <content:encoded><![CDATA[<h1 id="入门学习">入门学习</h1>
 <ul>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1FT4y1E74V?p=55&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># [双语字幕]吴恩达深度学习deeplearning.ai</a> p1 &ndash; p51</li>
 <li><input disabled="" type="checkbox"> <a href="https://www.jianshu.com/p/0e1d51a7549d"># Python 数据科学入门教程：NLTK</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;vd_source=0cca15c3951bb93c37fc2758746d699d"># Pytorch 入门学习</a> 第一课</li>
+<li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1FT4y1E74V/?p=52&amp;vd_source=ae16ff6478eb15c1b87880540263910b">1.6 Dropout 正则化_哔哩哔哩_bilibili</a></li>
 </ul>
 <h1 id="机器学习神经网络深度学习">机器学习、神经网络、深度学习</h1>
 <p>机器学习、神经网络、深度学习是三个相互关联的概念，它们都是人工智能领域的重要组成部分。</p>
@@ -1449,11 +1470,6 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
 <li>最后写论文</li>
 <li>一步一步来</li>
 </ol>
-<h1 id="学习资源">学习资源</h1>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1FT4y1E74V?p=55&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># [双语字幕]吴恩达深度学习deeplearning.ai</a> p1 &ndash; p51</li>
-<li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;vd_source=0cca15c3951bb93c37fc2758746d699d"># Pytorch 入门学习</a> 第一课</li>
-</ul>
 <h1 id="深度学习">深度学习</h1>
 <h2 id="前向传播和后向传播">前向传播和后向传播</h2>
 <p>
