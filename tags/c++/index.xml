@@ -14,7 +14,12 @@
       
       <guid>https://xancoding.cn/posts/2023-05-29-17-24-38/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1bd4y1D7on/?spm_id_from=333.788&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# C/C++项目实战（前置知识）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1bd4y1D7on/?spm_id_from=333.788&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# C/C++项目实战（前置知识）&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 单例模式&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 工厂模式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;大纲&#34;&gt;大纲&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;1.&lt;/span&gt; 开发环境
@@ -52,16 +57,16 @@
 &lt;p&gt;添加 &lt;code&gt;Release&lt;/code&gt; 模块，并将 &lt;code&gt;Debug&lt;/code&gt; 和 &lt;code&gt;Release&lt;/code&gt; 模块移至 &lt;code&gt;build&lt;/code&gt; 目录下
 
 &lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/29/64748e4743824.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/05/29/64748e4743824.png&#34; alt=&#34;1.png&#34;  /&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/29/64748ec74bc6c.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/29/64748ec74bc6c.png&#34; alt=&#34;1.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
 
 
 &lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/29/64748c9c125f2.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/05/29/64748c9c125f2.png&#34; alt=&#34;2.png&#34;  /&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/29/64748ec74bc31.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/29/64748ec74bc31.png&#34; alt=&#34;2.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -129,7 +134,12 @@
 在这个例子中，命令&lt;code&gt;aux_source_directory(src DIR_SRCS)&lt;/code&gt;表示你想从&lt;code&gt;./src&lt;/code&gt;目录收集所有的源文件，并将它们赋值给变量&lt;code&gt;DIR_SRCS&lt;/code&gt;。&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<ul>
-<li><a href="https://www.bilibili.com/video/BV1bd4y1D7on/?spm_id_from=333.788&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># C/C++项目实战（前置知识）</a></li>
+<li><a href="https://www.bilibili.com/video/BV1bd4y1D7on/?spm_id_from=333.788&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># C/C++项目实战（前置知识）</a>
+<ul>
+<li><input disabled="" type="checkbox"> 单例模式</li>
+<li><input disabled="" type="checkbox"> 工厂模式</li>
+</ul>
+</li>
 </ul>
 <h1 id="大纲">大纲</h1>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">1.</span> 开发环境
@@ -167,16 +177,16 @@
 <p>添加 <code>Release</code> 模块，并将 <code>Debug</code> 和 <code>Release</code> 模块移至 <code>build</code> 目录下
 
 <div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/29/64748e4743824.png">
-<img src="https://bu.dusays.com/2023/05/29/64748e4743824.png" alt="1.png"  />
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/29/64748ec74bc6c.png">
+<img src="https://bu.dusays.com/2023/05/29/64748ec74bc6c.png" alt="1.png"  />
 </a>
 </div>
 
 
 
 <div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/29/64748c9c125f2.png">
-<img src="https://bu.dusays.com/2023/05/29/64748c9c125f2.png" alt="2.png"  />
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/29/64748ec74bc31.png">
+<img src="https://bu.dusays.com/2023/05/29/64748ec74bc31.png" alt="2.png"  />
 </a>
 </div>
 
