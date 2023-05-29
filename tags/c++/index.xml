@@ -32,18 +32,30 @@
 	- src     # .cpp  源文件目录
 	- docs    # 需求设计文档
 	- others
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;项目的初始构建&#34;&gt;项目的初始构建&lt;/h1&gt;
-&lt;p&gt;添加 &lt;code&gt;Release&lt;/code&gt; 模块，并将 &lt;code&gt;Debug&lt;/code&gt; 和 &lt;code&gt;Release&lt;/code&gt; 模块移至 &lt;code&gt;build&lt;/code&gt; 目录下
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/29/6474731d57da0.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/05/29/6474731d57da0.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
+3. 设计模式
+	- 单例模式
+		- 构造函数私有
+		- 实例只有一份
+	- 工厂模式
+		- 一个类别对应一个工厂
+		- 不需要亲自创建对象，只需要从工厂中去取
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;init-project&#34;&gt;init-project&lt;/h1&gt;
+&lt;p&gt;添加 &lt;code&gt;Release&lt;/code&gt; 模块，并将 &lt;code&gt;Debug&lt;/code&gt; 和 &lt;code&gt;Release&lt;/code&gt; 模块移至 &lt;code&gt;build&lt;/code&gt; 目录下&lt;/p&gt;
 &lt;h2 id=&#34;cmakelist&#34;&gt;CMakelist&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;include_directories([AFTER|BEFORE] [SYSTEM] directory1 [directory2 ...])&lt;/code&gt;&lt;br&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cmake_minimum_required(VERSION 3.25)  
+project(new_project)  
+  
+# C++ 17  
+set(CMAKE_CXX_STANDARD 17)  
+# 添加头文件  
+include_directories(include)  
+  
+# 添加源文件  
+aux_source_directory(./src DIR_SRCS)  
+  
+# 所有需要编译的可执行文件  
+add_executable(new_project ${DIR_SRCS})
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;include_directories([AFTER|BEFORE] [SYSTEM] directory1 [directory2 ...])&lt;/code&gt;&lt;br&gt;
 在这个例子中，命令&lt;code&gt;include_directories(include)&lt;/code&gt;表示你想将&lt;code&gt;include&lt;/code&gt;目录添加到包含路径中。这意味着编译器在编译源文件时会在&lt;code&gt;include&lt;/code&gt;目录中搜索头文件。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;aux_source_directory(&amp;lt;dir&amp;gt; &amp;lt;variable&amp;gt;)&lt;/code&gt;&lt;br&gt;
 在这个例子中，命令&lt;code&gt;aux_source_directory(src DIR_SRCS)&lt;/code&gt;表示你想从&lt;code&gt;./src&lt;/code&gt;目录收集所有的源文件，并将它们赋值给变量&lt;code&gt;DIR_SRCS&lt;/code&gt;。&lt;/p&gt;
@@ -67,18 +79,30 @@
 	- src     # .cpp  源文件目录
 	- docs    # 需求设计文档
 	- others
-</code></pre><h1 id="项目的初始构建">项目的初始构建</h1>
-<p>添加 <code>Release</code> 模块，并将 <code>Debug</code> 和 <code>Release</code> 模块移至 <code>build</code> 目录下
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/29/6474731d57da0.png">
-<img src="https://bu.dusays.com/2023/05/29/6474731d57da0.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
+3. 设计模式
+	- 单例模式
+		- 构造函数私有
+		- 实例只有一份
+	- 工厂模式
+		- 一个类别对应一个工厂
+		- 不需要亲自创建对象，只需要从工厂中去取
+</code></pre><h1 id="init-project">init-project</h1>
+<p>添加 <code>Release</code> 模块，并将 <code>Debug</code> 和 <code>Release</code> 模块移至 <code>build</code> 目录下</p>
 <h2 id="cmakelist">CMakelist</h2>
-<p><code>include_directories([AFTER|BEFORE] [SYSTEM] directory1 [directory2 ...])</code><br>
+<pre tabindex="0"><code>cmake_minimum_required(VERSION 3.25)  
+project(new_project)  
+  
+# C++ 17  
+set(CMAKE_CXX_STANDARD 17)  
+# 添加头文件  
+include_directories(include)  
+  
+# 添加源文件  
+aux_source_directory(./src DIR_SRCS)  
+  
+# 所有需要编译的可执行文件  
+add_executable(new_project ${DIR_SRCS})
+</code></pre><p><code>include_directories([AFTER|BEFORE] [SYSTEM] directory1 [directory2 ...])</code><br>
 在这个例子中，命令<code>include_directories(include)</code>表示你想将<code>include</code>目录添加到包含路径中。这意味着编译器在编译源文件时会在<code>include</code>目录中搜索头文件。</p>
 <p><code>aux_source_directory(&lt;dir&gt; &lt;variable&gt;)</code><br>
 在这个例子中，命令<code>aux_source_directory(src DIR_SRCS)</code>表示你想从<code>./src</code>目录收集所有的源文件，并将它们赋值给变量<code>DIR_SRCS</code>。</p>
