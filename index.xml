@@ -6,7 +6,7 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 May 2023 12:54:18 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 May 2023 17:24:38 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>年度计划</title>
       <link>https://xancoding.cn/posts/2022-11-20-22-11-28/</link>
@@ -350,6 +350,70 @@
     </item>
     
     <item>
+      <title>C&#43;&#43; Project</title>
+      <link>https://xancoding.cn/posts/2023-05-29-17-24-38/</link>
+      <pubDate>Mon, 29 May 2023 17:24:38 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-05-29-17-24-38/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1bd4y1D7on/?spm_id_from=333.788&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# C/C++项目实战（前置知识）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;大纲&#34;&gt;大纲&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. 开发环境
+	- git     # 版本管理工具
+	- cmake   # 代码构建工具
+	- gcc     # 编译器
+	- Clion   # 编辑器
+	- postman # 接口测试工具
+	- mysql   # 数据库
+2. 目录结构
+	- build   
+	- include 
+	- src 
+	- docs 
+	- others
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;项目的初始构建&#34;&gt;项目的初始构建&lt;/h1&gt;
+&lt;p&gt;添加 &lt;code&gt;Release&lt;/code&gt; 模块，并将 &lt;code&gt;Debug&lt;/code&gt; 和 &lt;code&gt;Release&lt;/code&gt; 模块移至 &lt;code&gt;build&lt;/code&gt; 目录下
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/29/6474731d57da0.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/29/6474731d57da0.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://www.bilibili.com/video/BV1bd4y1D7on/?spm_id_from=333.788&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># C/C++项目实战（前置知识）</a></li>
+</ul>
+<h1 id="大纲">大纲</h1>
+<pre tabindex="0"><code>1. 开发环境
+	- git     # 版本管理工具
+	- cmake   # 代码构建工具
+	- gcc     # 编译器
+	- Clion   # 编辑器
+	- postman # 接口测试工具
+	- mysql   # 数据库
+2. 目录结构
+	- build   
+	- include 
+	- src 
+	- docs 
+	- others
+</code></pre><h1 id="项目的初始构建">项目的初始构建</h1>
+<p>添加 <code>Release</code> 模块，并将 <code>Debug</code> 和 <code>Release</code> 模块移至 <code>build</code> 目录下
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/29/6474731d57da0.png">
+<img src="https://bu.dusays.com/2023/05/29/6474731d57da0.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
       <title>大一&amp;大二 总结</title>
       <link>https://xancoding.cn/posts/2023-05-29-12-54-17/</link>
       <pubDate>Mon, 29 May 2023 12:54:18 +0800</pubDate>
@@ -381,7 +445,8 @@
 &lt;p&gt;大二上，开始去读一些经典的书籍，算是步入正轨了，但也还是缺乏实践，同时缺少整体的一个规划，应该不只是读 计网 的书的，最佳的做法是 多一点涉猎，多一点实践，不过也不该苛责太多。那时候的我，也是做的不错的啦😁。&lt;/p&gt;
 &lt;p&gt;大二下，课很多&amp;hellip;可能花在真正我觉得有意义上的事上的时间不多，更多的是 电路 和 模电 这两门 我认为日后对自己没什么帮助的课上。不过，既来之则安之，至少，我在学习自己想学的东西都时候，收获了快乐，我是在进步的！！况且，我对那两门课也没有很反感，这不就也很好嘛。只能说，慢慢来吧，&lt;u&gt;&lt;strong&gt;勿在浮沙筑高台&lt;/strong&gt;&lt;/u&gt;💪。&lt;/p&gt;
 &lt;p&gt;至此，2022 年 2 月 &amp;ndash; 2023 年 5 月 $Over$。&lt;/p&gt;
-&lt;p&gt;最后，写一写自己的职业规划好了，以后大的方向是 考个 985，定向选调生。&lt;/p&gt;
+&lt;p&gt;最后，写一写自己的职业规划好了，以后大的方向还是有两个选择，一是 考个 985，走定向选调生；二是 本科 考公，考虑 在职研究生这一条路（不过还没有充分了解，我了解了解，再做打算（尽快尽快😴&lt;/p&gt;
+&lt;p&gt;等了解完之后，我再写篇博客具体讲讲各自的优劣好了（确信，尽快🤗&lt;/p&gt;
 &lt;p&gt;$写于 2023 年 5 月 29 日$&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="大一上">大一上</h1>
@@ -410,7 +475,8 @@
 <p>大二上，开始去读一些经典的书籍，算是步入正轨了，但也还是缺乏实践，同时缺少整体的一个规划，应该不只是读 计网 的书的，最佳的做法是 多一点涉猎，多一点实践，不过也不该苛责太多。那时候的我，也是做的不错的啦😁。</p>
 <p>大二下，课很多&hellip;可能花在真正我觉得有意义上的事上的时间不多，更多的是 电路 和 模电 这两门 我认为日后对自己没什么帮助的课上。不过，既来之则安之，至少，我在学习自己想学的东西都时候，收获了快乐，我是在进步的！！况且，我对那两门课也没有很反感，这不就也很好嘛。只能说，慢慢来吧，<u><strong>勿在浮沙筑高台</strong></u>💪。</p>
 <p>至此，2022 年 2 月 &ndash; 2023 年 5 月 $Over$。</p>
-<p>最后，写一写自己的职业规划好了，以后大的方向是 考个 985，定向选调生。</p>
+<p>最后，写一写自己的职业规划好了，以后大的方向还是有两个选择，一是 考个 985，走定向选调生；二是 本科 考公，考虑 在职研究生这一条路（不过还没有充分了解，我了解了解，再做打算（尽快尽快😴</p>
+<p>等了解完之后，我再写篇博客具体讲讲各自的优劣好了（确信，尽快🤗</p>
 <p>$写于 2023 年 5 月 29 日$</p>
 ]]></content:encoded>
     </item>

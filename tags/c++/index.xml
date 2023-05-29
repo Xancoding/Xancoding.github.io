@@ -6,7 +6,71 @@
     <description>Recent content in C&#43;&#43; on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Nov 2022 12:54:07 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 May 2023 17:24:38 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43; Project</title>
+      <link>https://xancoding.cn/posts/2023-05-29-17-24-38/</link>
+      <pubDate>Mon, 29 May 2023 17:24:38 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-05-29-17-24-38/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1bd4y1D7on/?spm_id_from=333.788&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# C/C++项目实战（前置知识）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;大纲&#34;&gt;大纲&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. 开发环境
+	- git     # 版本管理工具
+	- cmake   # 代码构建工具
+	- gcc     # 编译器
+	- Clion   # 编辑器
+	- postman # 接口测试工具
+	- mysql   # 数据库
+2. 目录结构
+	- build   
+	- include 
+	- src 
+	- docs 
+	- others
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;项目的初始构建&#34;&gt;项目的初始构建&lt;/h1&gt;
+&lt;p&gt;添加 &lt;code&gt;Release&lt;/code&gt; 模块，并将 &lt;code&gt;Debug&lt;/code&gt; 和 &lt;code&gt;Release&lt;/code&gt; 模块移至 &lt;code&gt;build&lt;/code&gt; 目录下
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/29/6474731d57da0.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/29/6474731d57da0.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://www.bilibili.com/video/BV1bd4y1D7on/?spm_id_from=333.788&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># C/C++项目实战（前置知识）</a></li>
+</ul>
+<h1 id="大纲">大纲</h1>
+<pre tabindex="0"><code>1. 开发环境
+	- git     # 版本管理工具
+	- cmake   # 代码构建工具
+	- gcc     # 编译器
+	- Clion   # 编辑器
+	- postman # 接口测试工具
+	- mysql   # 数据库
+2. 目录结构
+	- build   
+	- include 
+	- src 
+	- docs 
+	- others
+</code></pre><h1 id="项目的初始构建">项目的初始构建</h1>
+<p>添加 <code>Release</code> 模块，并将 <code>Debug</code> 和 <code>Release</code> 模块移至 <code>build</code> 目录下
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/29/6474731d57da0.png">
+<img src="https://bu.dusays.com/2023/05/29/6474731d57da0.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>C&#43;&#43; 学习路线</title>
       <link>https://xancoding.cn/posts/2022-11-15-12-54-07/</link>
