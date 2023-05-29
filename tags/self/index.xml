@@ -1,0 +1,1429 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Self on Xan&#39;s Blog</title>
+    <link>https://xancoding.cn/tags/self/</link>
+    <description>Recent content in Self on Xan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Jan 2023 12:42:38 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/self/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的电脑常用工具</title>
+      <link>https://xancoding.cn/posts/2023-01-15-12-42-38/</link>
+      <pubDate>Sun, 15 Jan 2023 12:42:38 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-01-15-12-42-38/</guid>
+      <description>&lt;h1 id=&#34;桌面&#34;&gt;桌面&lt;/h1&gt;
+&lt;h2 id=&#34;wallpaper-engine&#34;&gt;Wallpaper Engine&lt;/h2&gt;
+&lt;p&gt;这是STEAM平台上的一款动态壁纸软件，可以在创意工坊中找到自己感兴趣的壁纸
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38603de093.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38603de093.png&#34; alt=&#34;unnamed.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c3863682391.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;目前正在使用的壁纸&lt;/div&gt; 
+ &lt;/center&gt;
+&lt;h2 id=&#34;win-10-开始菜单&#34;&gt;Win 10 开始菜单&lt;/h2&gt;
+&lt;p&gt;我不太习惯把应用的快捷方式直接放在桌面上，我将应用放在了开始菜单的位置。&lt;br&gt;
+在需要打开某一个应用时，只需在键盘上敲击 &lt;code&gt;windows键&lt;/code&gt;，即可跳出下图的界面，我就可以在在上面打开所需的应用了
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png&#34; alt=&#34;Snipaste_2023-01-15_12-59-45.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+如果是常用的网页，我会借助 Chrome浏览器的&lt;code&gt;创建快捷方式&lt;/code&gt;，将其创建为应用，并固定到开始界面
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3895150e18.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3895150e18.png&#34; alt=&#34;Snipaste_2023-01-15_13-03-35.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h1 id=&#34;生产力&#34;&gt;生产力&lt;/h1&gt;
+&lt;h2 id=&#34;搜索&#34;&gt;搜索&lt;/h2&gt;
+&lt;h3 id=&#34;everything&#34;&gt;Everything&lt;/h3&gt;
+&lt;p&gt;通过文件、文件夹名称快速搜索软件，比 &lt;code&gt;Windows&lt;/code&gt; 自带的搜索速度快上不少，使用起来很是方便
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3898a92a8a.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3898a92a8a.png&#34; alt=&#34;Snipaste_2023-01-15_13-04-59.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;wox&#34;&gt;Wox&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1tT4y1J74V/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;Windows效率搜索神器Wox快速教程&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;安装好后，可以通过 &lt;code&gt;alt + 空格键&lt;/code&gt; 调出搜索栏，通过&lt;code&gt;Esc&lt;/code&gt; 退出。调出输入框后，可以通过在地址栏中输入快捷字词，实现在特定网站中搜索内容，或使用其他搜索引擎进行搜索，如下所示，和&lt;a href=&#34;https://xancoding.cn/posts/get-info/#%e5%bf%ab%e6%8d%b7%e5%ad%97%e8%af%8d%e6%90%9c%e7%b4%a2&#34;&gt;这里&lt;/a&gt;的效果差不多。
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38ab68f665.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38ab68f665.png&#34; alt=&#34;Snipaste_2023-01-15_13-10-07.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+除此之外，由于借助了 &lt;code&gt;Everything&lt;/code&gt; 的帮助，也可以直接搜索电脑中的文件以及文件夹，如下所示：
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38c00cd205.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38c00cd205.png&#34; alt=&#34;Snipaste_2023-01-15_13-15-26.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;截图&#34;&gt;截图&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Snipaste&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Snipaste 是&lt;strong&gt;一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上&lt;/strong&gt;！&lt;br&gt;
+我使用它用于截图和取色。
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38cad0588a.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38cad0588a.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;压缩解压缩&#34;&gt;压缩解压缩&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;7-Zip&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;7-Zip&lt;/code&gt;是一款高压缩比的压缩软件，不仅支持独有的&lt;em&gt;7z&lt;/em&gt;文件格式，而且还支持各种其它压缩文件格式，其中包括&lt;strong&gt;ZIP、RAR、CAB、GZIP、BZIP2和TAR&lt;/strong&gt;等格式。
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38d1fb0cd7.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38d1fb0cd7.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;图床&#34;&gt;图床&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;去不图床 &amp;amp; PicGo &amp;amp; Image auto upload Plugin&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我使用的图床是&lt;a href=&#34;https://7bu.top/upload&#34;&gt;去不图床&lt;/a&gt;，借助 &lt;code&gt;PicGo&lt;/code&gt;，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 &lt;code&gt;Obsidian&lt;/code&gt; 中的 &lt;code&gt;Image auto upload Plugin&lt;/code&gt; 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。&lt;br&gt;
+如今，只用把图片拖拽到 &lt;code&gt;Obsidian&lt;/code&gt; 编辑器中，即可自动将图片通过 &lt;code&gt;PicGo&lt;/code&gt; 上传到 &lt;code&gt;去不图床&lt;/code&gt;，并生成链接，显示在 &lt;code&gt;Obsidian&lt;/code&gt; 中。&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="桌面">桌面</h1>
+<h2 id="wallpaper-engine">Wallpaper Engine</h2>
+<p>这是STEAM平台上的一款动态壁纸软件，可以在创意工坊中找到自己感兴趣的壁纸
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38603de093.png">
+<img src="https://bu.dusays.com/2023/01/15/63c38603de093.png" alt="unnamed.png"  />
+</a>
+</div>
+
+</p>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c3863682391.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">目前正在使用的壁纸</div> 
+ </center>
+<h2 id="win-10-开始菜单">Win 10 开始菜单</h2>
+<p>我不太习惯把应用的快捷方式直接放在桌面上，我将应用放在了开始菜单的位置。<br>
+在需要打开某一个应用时，只需在键盘上敲击 <code>windows键</code>，即可跳出下图的界面，我就可以在在上面打开所需的应用了
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png">
+<img src="https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png" alt="Snipaste_2023-01-15_12-59-45.png"  />
+</a>
+</div>
+
+
+如果是常用的网页，我会借助 Chrome浏览器的<code>创建快捷方式</code>，将其创建为应用，并固定到开始界面
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3895150e18.png">
+<img src="https://bu.dusays.com/2023/01/15/63c3895150e18.png" alt="Snipaste_2023-01-15_13-03-35.png"  />
+</a>
+</div>
+
+</p>
+<h1 id="生产力">生产力</h1>
+<h2 id="搜索">搜索</h2>
+<h3 id="everything">Everything</h3>
+<p>通过文件、文件夹名称快速搜索软件，比 <code>Windows</code> 自带的搜索速度快上不少，使用起来很是方便
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3898a92a8a.png">
+<img src="https://bu.dusays.com/2023/01/15/63c3898a92a8a.png" alt="Snipaste_2023-01-15_13-04-59.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="wox">Wox</h3>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1tT4y1J74V/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">Windows效率搜索神器Wox快速教程</a></li>
+</ul>
+<p>安装好后，可以通过 <code>alt + 空格键</code> 调出搜索栏，通过<code>Esc</code> 退出。调出输入框后，可以通过在地址栏中输入快捷字词，实现在特定网站中搜索内容，或使用其他搜索引擎进行搜索，如下所示，和<a href="https://xancoding.cn/posts/get-info/#%e5%bf%ab%e6%8d%b7%e5%ad%97%e8%af%8d%e6%90%9c%e7%b4%a2">这里</a>的效果差不多。
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38ab68f665.png">
+<img src="https://bu.dusays.com/2023/01/15/63c38ab68f665.png" alt="Snipaste_2023-01-15_13-10-07.png"  />
+</a>
+</div>
+
+
+除此之外，由于借助了 <code>Everything</code> 的帮助，也可以直接搜索电脑中的文件以及文件夹，如下所示：
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38c00cd205.png">
+<img src="https://bu.dusays.com/2023/01/15/63c38c00cd205.png" alt="Snipaste_2023-01-15_13-15-26.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="截图">截图</h2>
+<ul>
+<li><code>Snipaste</code></li>
+</ul>
+<p>Snipaste 是<strong>一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上</strong>！<br>
+我使用它用于截图和取色。
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38cad0588a.png">
+<img src="https://bu.dusays.com/2023/01/15/63c38cad0588a.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="压缩解压缩">压缩解压缩</h2>
+<ul>
+<li><code>7-Zip</code></li>
+</ul>
+<p><code>7-Zip</code>是一款高压缩比的压缩软件，不仅支持独有的<em>7z</em>文件格式，而且还支持各种其它压缩文件格式，其中包括<strong>ZIP、RAR、CAB、GZIP、BZIP2和TAR</strong>等格式。
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38d1fb0cd7.png">
+<img src="https://bu.dusays.com/2023/01/15/63c38d1fb0cd7.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="图床">图床</h2>
+<ul>
+<li><code>去不图床 &amp; PicGo &amp; Image auto upload Plugin</code></li>
+</ul>
+<p>我使用的图床是<a href="https://7bu.top/upload">去不图床</a>，借助 <code>PicGo</code>，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 <code>Obsidian</code> 中的 <code>Image auto upload Plugin</code> 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。<br>
+如今，只用把图片拖拽到 <code>Obsidian</code> 编辑器中，即可自动将图片通过 <code>PicGo</code> 上传到 <code>去不图床</code>，并生成链接，显示在 <code>Obsidian</code> 中。</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>一些关于自学的感悟</title>
+      <link>https://xancoding.cn/posts/2022-11-14-15-56-45/</link>
+      <pubDate>Mon, 14 Nov 2022 15:56:45 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2022-11-14-15-56-45/</guid>
+      <description>&lt;h1 id=&#34;正确的方法&#34;&gt;正确的方法&lt;/h1&gt;
+&lt;h2 id=&#34;学习媒介&#34;&gt;学习媒介&lt;/h2&gt;
+&lt;p&gt;学习的最佳媒介在我看来，还是以 &lt;strong&gt;文字&lt;/strong&gt; 为最佳&lt;/p&gt;
+&lt;p&gt;视频，会是很多人学习的途径，我也曾在很长的一段时间内通过视频来进行学习 ，但效率不高（PS：也许是我个人学习方法不佳的原因）&lt;/p&gt;
+&lt;p&gt;我认为视频这种媒介有以下的一些弊端：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;看视频难以进入深层次的思考&lt;/strong&gt;。观看视频的过程是被动的，在这个过程中，你需要跟上视频播放的节奏，这自然压缩了主动思考的可能。再而言之，看视频是一种相对容易的方式，因为你只需要借助记忆力（简单的复制到自己的脑子里），而比较少的运用其他的思维能力（深入的理解，将其变成自己的东西）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;看视频带来更低的时间效率&lt;/strong&gt;。同一段文字，读和看的速度不是一个层面的。而看视频，就相当于别人读给你听，时间效率自然是比不了阅读文字&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;视频带来更多的干扰因素&lt;/strong&gt;。在观看视频过程中，大脑需要同时处理图像信息、语言信息和文字信息，这无形中增加了大脑的负担。在这种情况下，你就根本不能指望自己的🧠可以进入深层次的思考&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;当然，具体情况还是要具体分析，有一些知识通过视频可以更为形象的表示出来，这也不可否认。我的核心观点是，学习的主要媒介应是以文字为主的。视频，作为补充的学习媒介还是可以的。&lt;/p&gt;
+&lt;h2 id=&#34;如何开始新知识的学习&#34;&gt;如何开始新知识的学习？&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;要&lt;strong&gt;带有目的&lt;/strong&gt;去学，&lt;strong&gt;带有问题&lt;/strong&gt;去学，而不能是盲目的去学&lt;/li&gt;
+&lt;li&gt;在开始一个新东西的学习时，先问问自己几个问题：我为什么要学它？我需要学到什么程度？—— 这直接决定了你后面要以什么样的态度去对待它&lt;/li&gt;
+&lt;li&gt;在学习一个新东西时，要&lt;strong&gt;先对其知识体系有个大致的了解&lt;/strong&gt;，先有了全面的认识之后，再对细枝末节做深入的了解。否则，很容易陷入找不到重点，不知道在学什么，不能很好的形成体系等等问题。当然，对细枝末节的了解，也是要有优先级之分的&lt;/li&gt;
+&lt;li&gt;在开始之前，准备工作是必不可少的。你需要&lt;strong&gt;尽可能的找到你所需要的所有资源&lt;/strong&gt;，可以从问答论坛、搜索引擎、好友推荐等等途径，主要是筛选学习过程中所要读的书籍，包括入门以及深入学习的书籍&lt;/li&gt;
+&lt;li&gt;同时，阅读书籍也不能采取从头看到尾的做法，而是根据自己的情况，做一些取舍。同时看多本书籍也是不错的选择，它们往往会给你带来不一样的启发&lt;/li&gt;
+&lt;li&gt;还要学会&lt;strong&gt;边读边做&lt;/strong&gt;，通过一些具体的项目带动学习。这在学习技术方面的知识时，尤其重要。毕竟，你学习它，为的是最后的应用&lt;/li&gt;
+&lt;li&gt;学习应该是阶梯式的，要懂得&lt;strong&gt;循序渐进&lt;/strong&gt;，不能一开始就是困难模式。这不仅会打击自己的自信心，也不利于后续的学习&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;如何知道自己是否掌握&#34;&gt;如何知道自己是否掌握？&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;你要先能在脑子里有个清楚的脉络，多多问自己问题，从 WHY 到 HOW，再到 WHY。发现自己卡壳的地方，要借助搜索引擎、书籍或是别的途径及时解决&lt;/li&gt;
+&lt;li&gt;写下来——知识点可能会很杂很乱，有时候做一个知识导图可以很好的帮助理解。过一段时间，当因为不怎么用到某一个知识点而忘得差不多时，你自己写的文字或者做的图，可以很好的帮助你回忆起来——前提是这是你经过思考的出的，而不只是复制粘贴——那将毫无用处。我是通过 &lt;strong&gt;Obsidian&lt;/strong&gt; 来记录自己的学习记录的。维护一个自己的博客，用来记录自己的学习过程，存放自己用来学习的资源，在我看来也是不错的&lt;/li&gt;
+&lt;li&gt;讲出来——你可以跟别人（也可以自己跟自己讲）将你最近学到的东西。通过语言的形式，用嘴讲出来（一定是用嘴讲，而不只是停留在脑子里想）。每当这个时候，你都会意识到自己以为掌握的东西，实际上并没有。多数时候，你会讲述的很混乱。但不必灰心，多尝试尝试，自然会理顺的。当你可以流利的讲出来时，自然就说明它已经成为了你自己的东西&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;良好的心态&#34;&gt;良好的心态&lt;/h1&gt;
+&lt;p&gt;在我看来，除了方法，人的情绪也同样不可忽略，甚至是更重要的部分&lt;/p&gt;
+&lt;p&gt;人在很大的程度上，还是以感性为主的。许多事，在你理性的大脑看来，是不可取的；但是，感性的大脑常常会占据上风&lt;/p&gt;
+&lt;p&gt;忽然想到，自己之前看到的一个言论，感觉还蛮有意思的——我们的身体并没有随着社会的进步做出及时的进化，我们相当于用着几千年之前的原始人的身体生活在如今现代化的社会里，这也给从众心理、懒惰、容易肥胖等等看似不合理的现象提供了一个解释&lt;/p&gt;
+&lt;p&gt;学习是个枯燥的过程，特别是未知而又困难的挑战，更容易让人退缩。这里就简单说说我个人的一些想法吧：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;排除所有不必要的干扰&lt;/strong&gt;，如减少手机的使用、减少查看消息的频率、不去浏览任何借助推荐算法生成的信息流等等。做到这几点，你就可以有 &lt;strong&gt;长时间&lt;/strong&gt; 的 &lt;strong&gt;连续&lt;/strong&gt; 的自我支配时间啦（不过，我还是觉得每天的时间不够）&lt;/li&gt;
+&lt;li&gt;当然，&lt;strong&gt;社交也是必须的&lt;/strong&gt;。我觉得，从更深的层面来看，是因为人是群居动物，长时间的独身一人不交流，至少对我来说，还是无法忍受的。每天抽出些许时间，跟身边的人聊聊天，说些有的没没的，也是必不可少的&lt;/li&gt;
+&lt;li&gt;摆正心态，&lt;strong&gt;从来都没有什么捷径&lt;/strong&gt;，要打好基础。我觉得这个我感触很大，回顾之前自己的学习，很大程度上都是不扎实的。你觉得省下来的时间，往往会在将来给你带来更大的损失&lt;/li&gt;
+&lt;li&gt;走的慢没关系，只要每天都在前进，那就够了&lt;/li&gt;
+&lt;li&gt;学会&lt;strong&gt;肯定自己&lt;/strong&gt;，你努力的每一分钟，都有它的意义。人总是会在对比中贬低自己，所有的不愉快都是在比较中得来的。要明白，你对自己的看法，会在无形中影响你自己成为什么样的人。无论怎么说，要积极的看自己&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;一些我自己的碎碎念&#34;&gt;一些我自己的碎碎念&lt;/h1&gt;
+&lt;p&gt;有很多事，光是脑子里想到，明白重要性，是远远不够的。只有真正，实际经历过，你才会有一个全新的认识&lt;/p&gt;
+&lt;p&gt;多跟别人交流，多接触新的东西。不同的思想的碰撞，往往会产生意想不到的妙处&lt;/p&gt;
+&lt;p&gt;写文章，并不是字多就是好，言简意赅更应该得到推崇，重要的是要表达出自己的想法，在此基础上，字数做到越少越好&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="正确的方法">正确的方法</h1>
+<h2 id="学习媒介">学习媒介</h2>
+<p>学习的最佳媒介在我看来，还是以 <strong>文字</strong> 为最佳</p>
+<p>视频，会是很多人学习的途径，我也曾在很长的一段时间内通过视频来进行学习 ，但效率不高（PS：也许是我个人学习方法不佳的原因）</p>
+<p>我认为视频这种媒介有以下的一些弊端：</p>
+<ol>
+<li><strong>看视频难以进入深层次的思考</strong>。观看视频的过程是被动的，在这个过程中，你需要跟上视频播放的节奏，这自然压缩了主动思考的可能。再而言之，看视频是一种相对容易的方式，因为你只需要借助记忆力（简单的复制到自己的脑子里），而比较少的运用其他的思维能力（深入的理解，将其变成自己的东西）</li>
+<li><strong>看视频带来更低的时间效率</strong>。同一段文字，读和看的速度不是一个层面的。而看视频，就相当于别人读给你听，时间效率自然是比不了阅读文字</li>
+<li><strong>视频带来更多的干扰因素</strong>。在观看视频过程中，大脑需要同时处理图像信息、语言信息和文字信息，这无形中增加了大脑的负担。在这种情况下，你就根本不能指望自己的🧠可以进入深层次的思考</li>
+</ol>
+<p>当然，具体情况还是要具体分析，有一些知识通过视频可以更为形象的表示出来，这也不可否认。我的核心观点是，学习的主要媒介应是以文字为主的。视频，作为补充的学习媒介还是可以的。</p>
+<h2 id="如何开始新知识的学习">如何开始新知识的学习？</h2>
+<ol>
+<li>要<strong>带有目的</strong>去学，<strong>带有问题</strong>去学，而不能是盲目的去学</li>
+<li>在开始一个新东西的学习时，先问问自己几个问题：我为什么要学它？我需要学到什么程度？—— 这直接决定了你后面要以什么样的态度去对待它</li>
+<li>在学习一个新东西时，要<strong>先对其知识体系有个大致的了解</strong>，先有了全面的认识之后，再对细枝末节做深入的了解。否则，很容易陷入找不到重点，不知道在学什么，不能很好的形成体系等等问题。当然，对细枝末节的了解，也是要有优先级之分的</li>
+<li>在开始之前，准备工作是必不可少的。你需要<strong>尽可能的找到你所需要的所有资源</strong>，可以从问答论坛、搜索引擎、好友推荐等等途径，主要是筛选学习过程中所要读的书籍，包括入门以及深入学习的书籍</li>
+<li>同时，阅读书籍也不能采取从头看到尾的做法，而是根据自己的情况，做一些取舍。同时看多本书籍也是不错的选择，它们往往会给你带来不一样的启发</li>
+<li>还要学会<strong>边读边做</strong>，通过一些具体的项目带动学习。这在学习技术方面的知识时，尤其重要。毕竟，你学习它，为的是最后的应用</li>
+<li>学习应该是阶梯式的，要懂得<strong>循序渐进</strong>，不能一开始就是困难模式。这不仅会打击自己的自信心，也不利于后续的学习</li>
+</ol>
+<h2 id="如何知道自己是否掌握">如何知道自己是否掌握？</h2>
+<ol>
+<li>你要先能在脑子里有个清楚的脉络，多多问自己问题，从 WHY 到 HOW，再到 WHY。发现自己卡壳的地方，要借助搜索引擎、书籍或是别的途径及时解决</li>
+<li>写下来——知识点可能会很杂很乱，有时候做一个知识导图可以很好的帮助理解。过一段时间，当因为不怎么用到某一个知识点而忘得差不多时，你自己写的文字或者做的图，可以很好的帮助你回忆起来——前提是这是你经过思考的出的，而不只是复制粘贴——那将毫无用处。我是通过 <strong>Obsidian</strong> 来记录自己的学习记录的。维护一个自己的博客，用来记录自己的学习过程，存放自己用来学习的资源，在我看来也是不错的</li>
+<li>讲出来——你可以跟别人（也可以自己跟自己讲）将你最近学到的东西。通过语言的形式，用嘴讲出来（一定是用嘴讲，而不只是停留在脑子里想）。每当这个时候，你都会意识到自己以为掌握的东西，实际上并没有。多数时候，你会讲述的很混乱。但不必灰心，多尝试尝试，自然会理顺的。当你可以流利的讲出来时，自然就说明它已经成为了你自己的东西</li>
+</ol>
+<h1 id="良好的心态">良好的心态</h1>
+<p>在我看来，除了方法，人的情绪也同样不可忽略，甚至是更重要的部分</p>
+<p>人在很大的程度上，还是以感性为主的。许多事，在你理性的大脑看来，是不可取的；但是，感性的大脑常常会占据上风</p>
+<p>忽然想到，自己之前看到的一个言论，感觉还蛮有意思的——我们的身体并没有随着社会的进步做出及时的进化，我们相当于用着几千年之前的原始人的身体生活在如今现代化的社会里，这也给从众心理、懒惰、容易肥胖等等看似不合理的现象提供了一个解释</p>
+<p>学习是个枯燥的过程，特别是未知而又困难的挑战，更容易让人退缩。这里就简单说说我个人的一些想法吧：</p>
+<ol>
+<li><strong>排除所有不必要的干扰</strong>，如减少手机的使用、减少查看消息的频率、不去浏览任何借助推荐算法生成的信息流等等。做到这几点，你就可以有 <strong>长时间</strong> 的 <strong>连续</strong> 的自我支配时间啦（不过，我还是觉得每天的时间不够）</li>
+<li>当然，<strong>社交也是必须的</strong>。我觉得，从更深的层面来看，是因为人是群居动物，长时间的独身一人不交流，至少对我来说，还是无法忍受的。每天抽出些许时间，跟身边的人聊聊天，说些有的没没的，也是必不可少的</li>
+<li>摆正心态，<strong>从来都没有什么捷径</strong>，要打好基础。我觉得这个我感触很大，回顾之前自己的学习，很大程度上都是不扎实的。你觉得省下来的时间，往往会在将来给你带来更大的损失</li>
+<li>走的慢没关系，只要每天都在前进，那就够了</li>
+<li>学会<strong>肯定自己</strong>，你努力的每一分钟，都有它的意义。人总是会在对比中贬低自己，所有的不愉快都是在比较中得来的。要明白，你对自己的看法，会在无形中影响你自己成为什么样的人。无论怎么说，要积极的看自己</li>
+</ol>
+<h1 id="一些我自己的碎碎念">一些我自己的碎碎念</h1>
+<p>有很多事，光是脑子里想到，明白重要性，是远远不够的。只有真正，实际经历过，你才会有一个全新的认识</p>
+<p>多跟别人交流，多接触新的东西。不同的思想的碰撞，往往会产生意想不到的妙处</p>
+<p>写文章，并不是字多就是好，言简意赅更应该得到推崇，重要的是要表达出自己的想法，在此基础上，字数做到越少越好</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>我输出信息的途径</title>
+      <link>https://xancoding.cn/posts/2022-10-30-15-28-22/</link>
+      <pubDate>Sun, 30 Oct 2022 15:28:22 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2022-10-30-15-28-22/</guid>
+      <description>&lt;h1 id=&#34;知识管理&#34;&gt;知识管理&lt;/h1&gt;
+&lt;h2 id=&#34;个人网站&#34;&gt;个人网站&lt;/h2&gt;
+&lt;p&gt;前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。&lt;/p&gt;
+&lt;h2 id=&#34;知识管理工具&#34;&gt;知识管理工具&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Obsidian&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我的笔记记录工作，都是在 &lt;code&gt;obsidian&lt;/code&gt; 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到&lt;code&gt;github&lt;/code&gt;、编译博客的源文件再发表等等&lt;/p&gt;
+&lt;h3 id=&#34;obsidian-插件推荐&#34;&gt;Obsidian 插件推荐&lt;/h3&gt;
+&lt;h4 id=&#34;hypothesis&#34;&gt;Hypothes.is&lt;/h4&gt;
+&lt;p&gt;在日常浏览网页内容时，可以对感兴趣的内容进行高亮批注，并可自动同步到 Obsidian&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://seviche.cc/2022-05-25-hypothesis#1-%E5%AE%89%E8%A3%85-hypothesis-%E6%8F%92%E4%BB%B6&#34;&gt;Hypothesis 使用小记&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;简单的幻灯片演示&#34;&gt;简单的幻灯片演示&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/412523896&#34;&gt;用obsidian做ppt【玩转Obsidian的保姆级教程】&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;epub-reader&#34;&gt;EPUB Reader&lt;/h4&gt;
+&lt;p&gt;在 &lt;code&gt;Obsidian&lt;/code&gt; 中可以阅读 &lt;code&gt;Epub&lt;/code&gt; 电子书&lt;/p&gt;
+&lt;h1 id=&#34;灵感与想法&#34;&gt;灵感与想法&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;flomo 浮墨笔记&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录&lt;/p&gt;
+&lt;p&gt;在想回顾时，可以方便知晓过去的想法
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png&#34; alt=&#34;Snipaste_2023-01-13_13-42-13.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h1 id=&#34;信息暂存&#34;&gt;信息暂存&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;语雀&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我会将部分的信息暂存在语雀中，记录下来，在需要用的时候再去语雀上找来用
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png&#34; alt=&#34;Snipaste_2023-01-13_13-53-41.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/384309878/answer/2713962647&#34;&gt;什么是 Zettelkasten 卡片盒笔记法？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA5MzUzODA1OA==&amp;amp;mid=2247483947&amp;amp;idx=1&amp;amp;sn=2cccb76ee58ddd11541d91c4b283b594&amp;amp;chksm=905d104ea72a9958d71c70313d5a4799641aa903e62f32ac1038ec5fb8c903fc7db36c261d26&amp;amp;scene=178&amp;amp;cur_album_id=1477367917246726144#rd&#34;&gt;卢曼：与卡片盒交流&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/my-notes-taking-tools-and-experience/&#34;&gt;我的知识管理工具和经验&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/obsidian-for-programmer/&#34;&gt;我的 Obsidian 使用经验&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.owenyoung.com/blog/about-notes/&#34;&gt;不要再碎片化笔记了 - 关于笔记的思考&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://space.bilibili.com/477825203/channel/collectiondetail?sid=365656&#34;&gt;程序员的喵喵 | Obsidian 使用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Di4y1y7df/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=03fea8b80d1864616f56adac92aa2617&#34;&gt;【中文字幕】Zettelkasten笔记系统的搭建 | 手把手教学 | Zettelkasten in Obsidian&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="知识管理">知识管理</h1>
+<h2 id="个人网站">个人网站</h2>
+<p>前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。</p>
+<h2 id="知识管理工具">知识管理工具</h2>
+<ul>
+<li><code>Obsidian</code></li>
+</ul>
+<p>我的笔记记录工作，都是在 <code>obsidian</code> 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到<code>github</code>、编译博客的源文件再发表等等</p>
+<h3 id="obsidian-插件推荐">Obsidian 插件推荐</h3>
+<h4 id="hypothesis">Hypothes.is</h4>
+<p>在日常浏览网页内容时，可以对感兴趣的内容进行高亮批注，并可自动同步到 Obsidian</p>
+<p><a href="https://seviche.cc/2022-05-25-hypothesis#1-%E5%AE%89%E8%A3%85-hypothesis-%E6%8F%92%E4%BB%B6">Hypothesis 使用小记</a></p>
+<h4 id="简单的幻灯片演示">简单的幻灯片演示</h4>
+<p><a href="https://zhuanlan.zhihu.com/p/412523896">用obsidian做ppt【玩转Obsidian的保姆级教程】</a></p>
+<h4 id="epub-reader">EPUB Reader</h4>
+<p>在 <code>Obsidian</code> 中可以阅读 <code>Epub</code> 电子书</p>
+<h1 id="灵感与想法">灵感与想法</h1>
+<ul>
+<li><code>flomo 浮墨笔记</code></li>
+</ul>
+<p>在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录</p>
+<p>在想回顾时，可以方便知晓过去的想法
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png">
+<img src="https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png" alt="Snipaste_2023-01-13_13-42-13.png"  />
+</a>
+</div>
+
+</p>
+<h1 id="信息暂存">信息暂存</h1>
+<ul>
+<li><code>语雀</code></li>
+</ul>
+<p>我会将部分的信息暂存在语雀中，记录下来，在需要用的时候再去语雀上找来用
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png">
+<img src="https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png" alt="Snipaste_2023-01-13_13-53-41.png"  />
+</a>
+</div>
+
+</p>
+<h1 id="推荐阅读">推荐阅读</h1>
+<ul>
+<li><a href="https://www.zhihu.com/question/384309878/answer/2713962647">什么是 Zettelkasten 卡片盒笔记法？</a></li>
+<li><a href="https://mp.weixin.qq.com/s?__biz=MzA5MzUzODA1OA==&amp;mid=2247483947&amp;idx=1&amp;sn=2cccb76ee58ddd11541d91c4b283b594&amp;chksm=905d104ea72a9958d71c70313d5a4799641aa903e62f32ac1038ec5fb8c903fc7db36c261d26&amp;scene=178&amp;cur_album_id=1477367917246726144#rd">卢曼：与卡片盒交流</a></li>
+<li><a href="https://catcoding.me/p/my-notes-taking-tools-and-experience/">我的知识管理工具和经验</a></li>
+<li><a href="https://catcoding.me/p/obsidian-for-programmer/">我的 Obsidian 使用经验</a></li>
+<li><a href="https://www.owenyoung.com/blog/about-notes/">不要再碎片化笔记了 - 关于笔记的思考</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://space.bilibili.com/477825203/channel/collectiondetail?sid=365656">程序员的喵喵 | Obsidian 使用</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Di4y1y7df/?spm_id_from=333.337.search-card.all.click&amp;vd_source=03fea8b80d1864616f56adac92aa2617">【中文字幕】Zettelkasten笔记系统的搭建 | 手把手教学 | Zettelkasten in Obsidian</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>我管理时间的方法</title>
+      <link>https://xancoding.cn/posts/2022-10-14-16-07-09/</link>
+      <pubDate>Fri, 14 Oct 2022 16:07:09 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2022-10-14-16-07-09/</guid>
+      <description>&lt;h1 id=&#34;管理好你自己的时间&#34;&gt;管理好你自己的时间&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Todo清单&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我目前在用的软件是&lt;code&gt;Todo清单&lt;/code&gt;，优势在于多设备云端同步（需要付费使用）、具备番茄钟功能、可以用来安排每日的待办清单&lt;/p&gt;
+&lt;h2 id=&#34;安排好你的待办清单&#34;&gt;安排好你的待办清单&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;思考以下几点：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 有哪些工作需要完成？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.我有多少时间可以用来完成这些工作？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.工作事项是否有逻辑顺序以及优先级&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;每一天你都会受到很多的干扰，看到APP上的一个个红点，消息通知从屏幕上弹出。注意力在一次次的查看信息中被逐渐消磨，时间也变得碎片化，难以静下心来专注于某件事。有些干扰无可避免，但只要愿意付出努力，大部分的干扰可以得到排除。&lt;/p&gt;
+&lt;p&gt;白天我会尽量避免受到干扰，所有的社交软件，它们是工作效率的最大杀手。我控制自己在上午以及下午的大块时间中忽略来自社交网络的信息，将消息的查看集中在中午以及晚上的特定时间，做一个统一的查看。&lt;/p&gt;
+&lt;p&gt;每天的晚上，我会花些的时间，把第二天的工作做个大致的安排，写到待办事项中，第二天再用番茄工作法进行专注执行。记得让自己的计划保持比较高的自由度，要留有足够的时间余量。&lt;/p&gt;
+&lt;h2 id=&#34;番茄工作法&#34;&gt;番茄工作法&lt;/h2&gt;
+&lt;p&gt;番茄工作法这个名词我之前便有听说过，但一直未尝试着去做过，直到最近从《软技能》一书中再次看到，感觉不错，便开始了尝试。在经过一个星期的体验后，它确实提高了我的效率，让我能够更好的对自己的时间做出规划。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;它的基本思路是：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;你规划出打算一天之内完成的工作，然后设置一个时长25分钟的定时器，去完成计划中的第一项任务；在这25分钟之内，你只专注于这一项任务，心无旁骛。一旦有干扰，可以用各种方法屏蔽掉干扰，但是通常你要努力保证自己完全不被打扰。总之，你不希望自己的专注的工作状态被打断。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;在25分钟结束的时候，设置一个5分钟的定时器，休息一下。这就是所谓的一个“番茄钟”。每4个番茄钟后，你都需要休息一会儿，通常为15分钟。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;值得注意的是，使用番茄工作法所要做的并不只是集中注意力25分钟这么简单。通过使用番茄工作法，你可以&lt;strong&gt;高效跟踪自己一天完成的番茄钟的数量&lt;/strong&gt;，并为此设定目标。开始的几天，你可能无法对自己能完成的工作做一个很好的估计。但相信在使用番茄工作法一段时间后，你可以做到较为准确的估计，并能完成通过番茄钟的数量，评估自己完成的工作。&lt;/p&gt;
+&lt;p&gt;通过使用番茄钟，你可以&lt;strong&gt;定量的描述自己的工作状态&lt;/strong&gt;，而不再像过去那样只是凭借感觉。你可以把每周看作是由有限个番茄钟组成的，知道了自己一周大概能完成的番茄钟的数量后，你也会认识到应该如何通过设置任务的优先级，来&lt;strong&gt;合理分配自己的时间&lt;/strong&gt;。你不会再过高的幻想自己会在一周的时间里完成超出自己实际许多的任务，并在每周结束时，因未能完成而感到沮丧。&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1e89d7f3f.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/10/30/635e1e89d7f3f.png&#34; alt=&#34;Pomodoro&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;当你在一天中为自己设置了&lt;strong&gt;x&lt;/strong&gt;个番茄钟的工作目标（这一目标你完全可控）并且达成的时候，你就可以知道自己一天到底可以完成多少工作，这会让自己感觉良好，更重要的是，还能让自己放松身心。它不仅能帮你完成更多的工作，还能让你尽情享受业余时间——因为你已经通过番茄钟完成了一天的任务，在剩下的时间里，你完全可以自由安排消磨时间，而不会再有任何的心理负担。&lt;/p&gt;
+&lt;p&gt;最后的最后，一定记得要&lt;strong&gt;对自己的能力做一个合理的预期&lt;/strong&gt;，你每周工作40小时并不意味着你能完成80个番茄钟。找到适合你的番茄钟数量，过度的加量会适得其反。&lt;/p&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://todo.evestudio.cn/&#34;&gt;Todo清单&lt;/a&gt; 一款跨平台待办事项与时间管理应用&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/468627225?utm_campaign=shareopn&amp;amp;utm_medium=social&amp;amp;utm_oi=1205113084614000640&amp;amp;utm_psn=1564268556828737536&amp;amp;utm_source=wechat_session&#34;&gt;如何用Todo清单度过余生的每一天？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://geekplux.com/posts/farewell_social_network&#34;&gt;告别社交网络有多难&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://geekplux.com/newsletters/28&#34;&gt;社交网络名存实亡&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.axios.com/2022/07/25/sunset-social-network-facebook-tiktok&#34;&gt;Sunset of the social network&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/26835090/&#34;&gt;《软技能》&lt;/a&gt; 生产力篇
+&lt;!DOCTYPE HTML&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;style&gt;
+        .post-preview {
+            max-width: 780px;
+            height: 200px;
+            margin: 1em auto;
+            position: relative;
+            display: flex;
+             
+            background: var(--entry);
+            border-radius: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .25), 0 0 2px rgba(0, 0, 0, .25);
+        }
+
+        .dark .post-preview {
+             
+            background: var(--entry);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .5), 0 0 2px rgba(0, 0, 0, .5);
+        }
+
+        .post-preview--meta {
+            width: 80%;
+            padding: 23px;
+            overflow: hidden;
+        }
+
+        .post-preview--middle {
+            line-height: 28px;
+        }
+
+        .post-preview--title {
+            font-size: 22px;
+            margin: 0 !important;
+        }
+
+        .post-preview--title a {
+            text-decoration: none;
+        }
+
+        .post-preview--date {
+            font-size: 14px;
+            color: #999;
+        }
+
+        .post-preview--excerpt {
+            font-size: 14px;
+            line-height: 1.825;
+        }
+
+        .post-preview--excerpt p {
+            display: inline;
+            margin: 0;
+        }
+
+        .post-preview--image {
+            height: 200px !important;
+            width: 25%;
+            float: right;
+            border-radius: 0 15px 15px 0;
+        }
+
+        .post-preview img {
+            margin: unset;
+            width: 20%;
+            border-radius: 0 15px 15px 0;
+        }
+
+        @media (max-width: 550px) {
+            .post-preview {
+                width: 95%;
+            }
+
+            .post-preview--excerpt {
+                display: none;
+            }
+
+            .post-preview--middle {
+                line-height: 19px;
+            }
+        }
+
+        .rating {
+            display: block;
+            line-height: 15px;
+        }
+
+        .rating-star {
+            display: inline-block;
+            width: 75px;
+            height: 15px;
+            background-repeat: no-repeat;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
+            overflow: hidden;
+        }
+
+        .allstar10 {
+            background-position: 0px 0px;
+        }
+
+        .allstar9 {
+            background-position: 0px -15px;
+        }
+
+        .allstar8 {
+            background-position: 0px -30px;
+        }
+
+        .allstar7 {
+            background-position: 0px -45px;
+        }
+
+        .allstar6 {
+            background-position: 0px -60px;
+        }
+
+        .allstar5 {
+            background-position: 0px -75px;
+        }
+
+        .allstar4 {
+            background-position: 0px -90px;
+        }
+
+        .allstar3 {
+            background-position: 0px -105px;
+        }
+
+        .allstar2 {
+            background-position: 0px -120px;
+        }
+
+        .allstar1 {
+            background-position: 0px -135px;
+        }
+
+        .allstar0 {
+            background-position: 0px -150px;
+        }
+
+
+        .rating-average {
+            color: #777;
+            display: inline-block;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+    &lt;/style&gt;
+    &lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34;
+            integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+    &lt;script type=&#34;text/javascript&#34;&gt;
+        $(document).ready(function () {
+            $(&#39;.douban_item&#39;).each(function () {
+                var _this = $(this);
+                var strs = _this.attr(&#39;urlstring&#39;).toString();
+                var db_reg = /^https\:\/\/(movie|book)\.douban\.com\/subject\/([0-9]+)\/?/;
+                if (db_reg.test(strs)) {
+                    var db_type = strs.replace(db_reg, &#34;$1&#34;);
+                    var db_id = strs.replace(db_reg, &#34;$2&#34;).toString();
+                    var db_api = &#34;https://douban.edui.fun/&#34;;
+                    if (db_type === &#39;movie&#39;) {
+                        var ls_item = &#39;movie&#39; + db_id;
+                        var url = db_api + &#34;movies/&#34; + db_id;
+                        if (localStorage.getItem(ls_item) == null || localStorage.getItem(ls_item) === &#39;undefined&#39;) {
+                            $.ajax({
+                                url: url, type: &#39;GET&#39;, dataType: &#34;json&#34;, success: function (data) {
+                                    localStorage.setItem(ls_item, JSON.stringify(data));
+                                    movieShow(_this, ls_item, strs)
+                                }
+                            })
+                        } else {
+                            movieShow(_this, ls_item, strs)
+                        }
+                    } else if (db_type === &#39;book&#39;) {
+                        var ls_item = &#39;book&#39; + db_id;
+                        var url = db_api + &#34;v2/book/id/&#34; + db_id;
+                        if (localStorage.getItem(ls_item) == null || localStorage.getItem(ls_item) === &#39;undefined&#39;) {
+                            $.ajax({
+                                url: url, type: &#39;GET&#39;, dataType: &#39;json&#39;, success: function (data) {
+                                    localStorage.setItem(&#39;book&#39; + db_id, JSON.stringify(data));
+                                    bookShow(_this, ls_item, strs)
+                                }
+                            })
+                        } else {
+                            bookShow(_this, ls_item, strs)
+                        }
+                    }
+                }
+            });
+        });
+
+        function movieShow(_this, ls_item, str) {
+            var storage = localStorage.getItem(ls_item);
+            var data = JSON.parse(storage);
+            var db_star = Math.ceil(data.rating);
+            $(&#34;&lt;div class=&#39;post-preview&#39;&gt;&lt;div class=&#39;post-preview--meta&#39;&gt;&lt;div class=&#39;post-preview--middle&#39;&gt;&lt;div class=&#39;post-preview--title&#39;&gt;&lt;a target=&#39;_blank&#39; style=&#39;box-shadow: none; font-weight: bolder;&#39; href=&#39;&#34; + str + &#34;&#39;&gt;&#34; + data.name + &#34;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#39;rating&#39;&gt;&lt;div class=&#39;rating-star allstar&#34; + db_star + &#34;&#39;&gt;&lt;/div&gt;&lt;div class=&#39;rating-average&#39;&gt;&#34; + data.rating + &#34;&lt;/div&gt;&lt;/div&gt;&lt;time class=&#39;post-preview--date&#39;&gt;导演：&#34; + data.director + &#34; / 类型：&#34; + data.genre + &#34; / &#34; + data.year + &#34;&lt;/time&gt;&lt;section style=&#39;max-height:75px;overflow:hidden;&#39; class=&#39;post-preview--excerpt&#39;&gt;&#34; + data.intro.replace(/\s*/g, &#34;&#34;) + &#34;&lt;/section&gt;&lt;/div&gt;&lt;/div&gt;&lt;img referrerpolicy=&#39;no-referrer&#39; loading=&#39;lazy&#39; class=&#39;post-preview--image&#39; src=&#34; + data.img + &#34;&gt;&lt;/div&gt;&#34;).replaceAll(_this)
+        }
+
+        function bookShow(_this, ls_item, str) {
+            var storage = localStorage.getItem(ls_item);
+            var data = JSON.parse(storage);
+            var db_star = Math.ceil(data.rating.average);
+            $(&#34;&lt;div class=&#39;post-preview&#39;&gt;&lt;div class=&#39;post-preview--meta&#39;&gt;&lt;div class=&#39;post-preview--middle&#39;&gt;&lt;div class=&#39;post-preview--title&#39;&gt;&lt;a target=&#39;_blank&#39; style=&#39;box-shadow: none; font-weight: bolder;&#39; href=&#39;&#34; + str + &#34;&#39;&gt;&#34; + data.title + &#34;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#39;rating&#39;&gt;&lt;div class=&#39;rating-star allstar&#34; + db_star + &#34;&#39;&gt;&lt;/div&gt;&lt;div class=&#39;rating-average&#39;&gt;&#34; + data.rating.average + &#34;&lt;/div&gt;&lt;/div&gt;&lt;time class=&#39;post-preview--date&#39;&gt;&#34; + data.author + &#34; / &#34;+ data.publisher +&#34; / &#34;+ data.pubdate +&#34; &lt;/time&gt;&lt;section style=&#39;max-height:75px;overflow:hidden;&#39; class=&#39;post-preview--excerpt&#39;&gt;&#34; + data.summary.replace(/\s*/g, &#34;&#34;) + &#34;&lt;/section&gt;&lt;/div&gt;&lt;/div&gt;&lt;img referrerpolicy=&#39;no-referrer&#39; loading=&#39;lazy&#39; class=&#39;post-preview--image&#39; src=&#34; + data.images.medium + &#34;&gt;&lt;/div&gt;&#34;).replaceAll(_this)
+        }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;douban_show&#34;&gt;
+    &lt;div id=&#34;dbhttps://book.douban.com/subject/26835090/&#34; urlstring=&#34;https://book.douban.com/subject/26835090/&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="管理好你自己的时间">管理好你自己的时间</h1>
+<ul>
+<li><code>Todo清单</code></li>
+</ul>
+<p>我目前在用的软件是<code>Todo清单</code>，优势在于多设备云端同步（需要付费使用）、具备番茄钟功能、可以用来安排每日的待办清单</p>
+<h2 id="安排好你的待办清单">安排好你的待办清单</h2>
+<blockquote>
+<p>思考以下几点：</p>
+<p><strong>1. 有哪些工作需要完成？</strong></p>
+<p><strong>2.我有多少时间可以用来完成这些工作？</strong></p>
+<p><strong>3.工作事项是否有逻辑顺序以及优先级</strong></p>
+</blockquote>
+<p>每一天你都会受到很多的干扰，看到APP上的一个个红点，消息通知从屏幕上弹出。注意力在一次次的查看信息中被逐渐消磨，时间也变得碎片化，难以静下心来专注于某件事。有些干扰无可避免，但只要愿意付出努力，大部分的干扰可以得到排除。</p>
+<p>白天我会尽量避免受到干扰，所有的社交软件，它们是工作效率的最大杀手。我控制自己在上午以及下午的大块时间中忽略来自社交网络的信息，将消息的查看集中在中午以及晚上的特定时间，做一个统一的查看。</p>
+<p>每天的晚上，我会花些的时间，把第二天的工作做个大致的安排，写到待办事项中，第二天再用番茄工作法进行专注执行。记得让自己的计划保持比较高的自由度，要留有足够的时间余量。</p>
+<h2 id="番茄工作法">番茄工作法</h2>
+<p>番茄工作法这个名词我之前便有听说过，但一直未尝试着去做过，直到最近从《软技能》一书中再次看到，感觉不错，便开始了尝试。在经过一个星期的体验后，它确实提高了我的效率，让我能够更好的对自己的时间做出规划。</p>
+<blockquote>
+<p>它的基本思路是：</p>
+<p><strong>你规划出打算一天之内完成的工作，然后设置一个时长25分钟的定时器，去完成计划中的第一项任务；在这25分钟之内，你只专注于这一项任务，心无旁骛。一旦有干扰，可以用各种方法屏蔽掉干扰，但是通常你要努力保证自己完全不被打扰。总之，你不希望自己的专注的工作状态被打断。</strong></p>
+<p><strong>在25分钟结束的时候，设置一个5分钟的定时器，休息一下。这就是所谓的一个“番茄钟”。每4个番茄钟后，你都需要休息一会儿，通常为15分钟。</strong></p>
+</blockquote>
+<p>值得注意的是，使用番茄工作法所要做的并不只是集中注意力25分钟这么简单。通过使用番茄工作法，你可以<strong>高效跟踪自己一天完成的番茄钟的数量</strong>，并为此设定目标。开始的几天，你可能无法对自己能完成的工作做一个很好的估计。但相信在使用番茄工作法一段时间后，你可以做到较为准确的估计，并能完成通过番茄钟的数量，评估自己完成的工作。</p>
+<p>通过使用番茄钟，你可以<strong>定量的描述自己的工作状态</strong>，而不再像过去那样只是凭借感觉。你可以把每周看作是由有限个番茄钟组成的，知道了自己一周大概能完成的番茄钟的数量后，你也会认识到应该如何通过设置任务的优先级，来<strong>合理分配自己的时间</strong>。你不会再过高的幻想自己会在一周的时间里完成超出自己实际许多的任务，并在每周结束时，因未能完成而感到沮丧。</p>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1e89d7f3f.png">
+<img src="https://bu.dusays.com/2022/10/30/635e1e89d7f3f.png" alt="Pomodoro"  />
+</a>
+</div>
+
+</p>
+<p>当你在一天中为自己设置了<strong>x</strong>个番茄钟的工作目标（这一目标你完全可控）并且达成的时候，你就可以知道自己一天到底可以完成多少工作，这会让自己感觉良好，更重要的是，还能让自己放松身心。它不仅能帮你完成更多的工作，还能让你尽情享受业余时间——因为你已经通过番茄钟完成了一天的任务，在剩下的时间里，你完全可以自由安排消磨时间，而不会再有任何的心理负担。</p>
+<p>最后的最后，一定记得要<strong>对自己的能力做一个合理的预期</strong>，你每周工作40小时并不意味着你能完成80个番茄钟。找到适合你的番茄钟数量，过度的加量会适得其反。</p>
+<h1 id="推荐阅读">推荐阅读</h1>
+<ul>
+<li><a href="https://todo.evestudio.cn/">Todo清单</a> 一款跨平台待办事项与时间管理应用</li>
+<li><a href="https://zhuanlan.zhihu.com/p/468627225?utm_campaign=shareopn&amp;utm_medium=social&amp;utm_oi=1205113084614000640&amp;utm_psn=1564268556828737536&amp;utm_source=wechat_session">如何用Todo清单度过余生的每一天？</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://geekplux.com/posts/farewell_social_network">告别社交网络有多难</a></li>
+<li><a href="https://geekplux.com/newsletters/28">社交网络名存实亡</a></li>
+<li><a href="https://www.axios.com/2022/07/25/sunset-social-network-facebook-tiktok">Sunset of the social network</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://book.douban.com/subject/26835090/">《软技能》</a> 生产力篇
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        .post-preview {
+            max-width: 780px;
+            height: 200px;
+            margin: 1em auto;
+            position: relative;
+            display: flex;
+             
+            background: var(--entry);
+            border-radius: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .25), 0 0 2px rgba(0, 0, 0, .25);
+        }
+
+        .dark .post-preview {
+             
+            background: var(--entry);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .5), 0 0 2px rgba(0, 0, 0, .5);
+        }
+
+        .post-preview--meta {
+            width: 80%;
+            padding: 23px;
+            overflow: hidden;
+        }
+
+        .post-preview--middle {
+            line-height: 28px;
+        }
+
+        .post-preview--title {
+            font-size: 22px;
+            margin: 0 !important;
+        }
+
+        .post-preview--title a {
+            text-decoration: none;
+        }
+
+        .post-preview--date {
+            font-size: 14px;
+            color: #999;
+        }
+
+        .post-preview--excerpt {
+            font-size: 14px;
+            line-height: 1.825;
+        }
+
+        .post-preview--excerpt p {
+            display: inline;
+            margin: 0;
+        }
+
+        .post-preview--image {
+            height: 200px !important;
+            width: 25%;
+            float: right;
+            border-radius: 0 15px 15px 0;
+        }
+
+        .post-preview img {
+            margin: unset;
+            width: 20%;
+            border-radius: 0 15px 15px 0;
+        }
+
+        @media (max-width: 550px) {
+            .post-preview {
+                width: 95%;
+            }
+
+            .post-preview--excerpt {
+                display: none;
+            }
+
+            .post-preview--middle {
+                line-height: 19px;
+            }
+        }
+
+        .rating {
+            display: block;
+            line-height: 15px;
+        }
+
+        .rating-star {
+            display: inline-block;
+            width: 75px;
+            height: 15px;
+            background-repeat: no-repeat;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
+            overflow: hidden;
+        }
+
+        .allstar10 {
+            background-position: 0px 0px;
+        }
+
+        .allstar9 {
+            background-position: 0px -15px;
+        }
+
+        .allstar8 {
+            background-position: 0px -30px;
+        }
+
+        .allstar7 {
+            background-position: 0px -45px;
+        }
+
+        .allstar6 {
+            background-position: 0px -60px;
+        }
+
+        .allstar5 {
+            background-position: 0px -75px;
+        }
+
+        .allstar4 {
+            background-position: 0px -90px;
+        }
+
+        .allstar3 {
+            background-position: 0px -105px;
+        }
+
+        .allstar2 {
+            background-position: 0px -120px;
+        }
+
+        .allstar1 {
+            background-position: 0px -135px;
+        }
+
+        .allstar0 {
+            background-position: 0px -150px;
+        }
+
+
+        .rating-average {
+            color: #777;
+            display: inline-block;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.douban_item').each(function () {
+                var _this = $(this);
+                var strs = _this.attr('urlstring').toString();
+                var db_reg = /^https\:\/\/(movie|book)\.douban\.com\/subject\/([0-9]+)\/?/;
+                if (db_reg.test(strs)) {
+                    var db_type = strs.replace(db_reg, "$1");
+                    var db_id = strs.replace(db_reg, "$2").toString();
+                    var db_api = "https://douban.edui.fun/";
+                    if (db_type === 'movie') {
+                        var ls_item = 'movie' + db_id;
+                        var url = db_api + "movies/" + db_id;
+                        if (localStorage.getItem(ls_item) == null || localStorage.getItem(ls_item) === 'undefined') {
+                            $.ajax({
+                                url: url, type: 'GET', dataType: "json", success: function (data) {
+                                    localStorage.setItem(ls_item, JSON.stringify(data));
+                                    movieShow(_this, ls_item, strs)
+                                }
+                            })
+                        } else {
+                            movieShow(_this, ls_item, strs)
+                        }
+                    } else if (db_type === 'book') {
+                        var ls_item = 'book' + db_id;
+                        var url = db_api + "v2/book/id/" + db_id;
+                        if (localStorage.getItem(ls_item) == null || localStorage.getItem(ls_item) === 'undefined') {
+                            $.ajax({
+                                url: url, type: 'GET', dataType: 'json', success: function (data) {
+                                    localStorage.setItem('book' + db_id, JSON.stringify(data));
+                                    bookShow(_this, ls_item, strs)
+                                }
+                            })
+                        } else {
+                            bookShow(_this, ls_item, strs)
+                        }
+                    }
+                }
+            });
+        });
+
+        function movieShow(_this, ls_item, str) {
+            var storage = localStorage.getItem(ls_item);
+            var data = JSON.parse(storage);
+            var db_star = Math.ceil(data.rating);
+            $("<div class='post-preview'><div class='post-preview--meta'><div class='post-preview--middle'><div class='post-preview--title'><a target='_blank' style='box-shadow: none; font-weight: bolder;' href='" + str + "'>" + data.name + "</a></div><div class='rating'><div class='rating-star allstar" + db_star + "'></div><div class='rating-average'>" + data.rating + "</div></div><time class='post-preview--date'>导演：" + data.director + " / 类型：" + data.genre + " / " + data.year + "</time><section style='max-height:75px;overflow:hidden;' class='post-preview--excerpt'>" + data.intro.replace(/\s*/g, "") + "</section></div></div><img referrerpolicy='no-referrer' loading='lazy' class='post-preview--image' src=" + data.img + "></div>").replaceAll(_this)
+        }
+
+        function bookShow(_this, ls_item, str) {
+            var storage = localStorage.getItem(ls_item);
+            var data = JSON.parse(storage);
+            var db_star = Math.ceil(data.rating.average);
+            $("<div class='post-preview'><div class='post-preview--meta'><div class='post-preview--middle'><div class='post-preview--title'><a target='_blank' style='box-shadow: none; font-weight: bolder;' href='" + str + "'>" + data.title + "</a></div><div class='rating'><div class='rating-star allstar" + db_star + "'></div><div class='rating-average'>" + data.rating.average + "</div></div><time class='post-preview--date'>" + data.author + " / "+ data.publisher +" / "+ data.pubdate +" </time><section style='max-height:75px;overflow:hidden;' class='post-preview--excerpt'>" + data.summary.replace(/\s*/g, "") + "</section></div></div><img referrerpolicy='no-referrer' loading='lazy' class='post-preview--image' src=" + data.images.medium + "></div>").replaceAll(_this)
+        }
+    </script>
+</head>
+<body>
+<div class="douban_show">
+    <div id="dbhttps://book.douban.com/subject/26835090/" urlstring="https://book.douban.com/subject/26835090/" class="douban_item post-preview"></div>
+</div>
+</body>
+</html>
+
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>我获取信息的方式</title>
+      <link>https://xancoding.cn/posts/2022-10-12-22-42-04/</link>
+      <pubDate>Wed, 12 Oct 2022 22:42:04 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2022-10-12-22-42-04/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;这个时代不缺信息，因为信息太多了，缺的是时间&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;博客&#34;&gt;博客&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Inoreader &amp;amp; RSSHub Radar&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;什么是rss&#34;&gt;什么是RSS?&lt;/h2&gt;
+&lt;p&gt;RSS 英文全称为 Really Simple Syndication，即简易资讯聚合。其实叫什么并不重要，我们只用知道它是一个&lt;strong&gt;能让你在一个地方订阅&lt;/strong&gt;各种感兴趣网站的工具。&lt;/p&gt;
+&lt;p&gt;RSS的核心是&lt;strong&gt;资讯聚合&lt;/strong&gt;，由&lt;strong&gt;用户自己决定信息源&lt;/strong&gt;。我们可以通过订阅网站的RSS源，主动获得想要的资讯，去挖掘一些自己真正感兴趣的东西。&lt;/p&gt;
+&lt;h2 id=&#34;如何使用rss&#34;&gt;如何使用RSS?&lt;/h2&gt;
+&lt;p&gt;利用RSS获取信息，只需要在目标网站上找到RSS链接，并把它添加到RSS阅读器中。&lt;/p&gt;
+&lt;p&gt;我使用的工具是&lt;code&gt;Inoreader RSS 阅读器 （需翻墙） + RSSHub Radar 浏览器插件&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Inoreader&lt;/code&gt; 吸引我的点是它支持PC端和手机端的同步，并且PC端可以直接通过浏览器插件使用，使我在手机和电脑上都可以查看消息。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;RSSHub Radar&lt;/code&gt; 的出现，完美解决了不是所有的网页都提供RSS源这一痛点，它可以自动生成网站的RSS源以供订阅，非常方便。&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1cf8e7955.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/10/30/635e1cf8e7955.png&#34; alt=&#34;RSSHub Radar&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;我通过使用RSS来订阅我感兴趣的个人博客，我订阅的博客网站在 &lt;code&gt;Links&lt;/code&gt; 页面下的 &lt;a href=&#34;https://xancoding.cn/links/#blogs&#34;&gt;Blog&lt;/a&gt; 那一栏。&lt;/p&gt;
+&lt;h1 id=&#34;播客&#34;&gt;播客&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;小宇宙&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;播客也是一个很好的信息源，可以在做一些不用🧠的事时听，适合用来拓宽自己的知识面，对一些自己之前完全没有接触过的领域做一个初步的了解，抑或是单纯用以放松也不错。我的使用场景通常是在吃饭或是上下课的路上。&lt;br&gt;
+我目前在使用的播客软件是&lt;a href=&#34;https://www.xiaoyuzhoufm.com/&#34;&gt;小宇宙&lt;/a&gt;，体验不错。&lt;/p&gt;
+&lt;h1 id=&#34;书籍&#34;&gt;书籍&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Neat Reader &amp;amp; Sumatra PDF &amp;amp; Jiumo Search 鸠摩搜索 &amp;amp; 微信读书 &amp;amp; Z-Library &amp;amp; LoreFree &amp;amp; 学校图书馆&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;Neat Reader&lt;/code&gt; 是一款&lt;code&gt;EPUB&lt;/code&gt;阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 &lt;a href=&#34;https://zh.z-lib.org/&#34;&gt;Z-Library&lt;/a&gt; or &lt;a href=&#34;https://lorefree.com/&#34;&gt;LoreFree&lt;/a&gt;  or &lt;a href=&#34;https://www.jiumodiary.com/&#34;&gt;Jiumo Search 鸠摩搜索&lt;/a&gt; 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 &lt;a href=&#34;https://www.neat-reader.com/&#34;&gt;Neat Reader&lt;/a&gt; 阅读。&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1cf8284ec.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/10/30/635e1cf8284ec.png&#34; alt=&#34;neatReader&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 &lt;a href=&#34;https://www.sumatrapdfreader.org/free-pdf-reader&#34;&gt;Sumatra PDF&lt;/a&gt; 上阅读&lt;/p&gt;
+&lt;p&gt;手机上的话，我会使用微信读书，把找到的电子书上传到书架后进行阅读&lt;/p&gt;
+&lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）&lt;/p&gt;
+&lt;h1 id=&#34;chatgpt--搜索引擎&#34;&gt;ChatGPT + 搜索引擎&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Chrome（需翻墙） &amp;amp; AdblockPlus &amp;amp; uBlacklist | Personal Blocklist &amp;amp; ChatGPT for Google &amp;amp; Vimium&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;在搜索引擎体验上， Google （强推，体验极佳） &amp;gt; Bing （偶尔用用） &amp;raquo; Baidu （完全不考虑）&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;chrome-浏览器设置&#34;&gt;Chrome 浏览器设置&lt;/h2&gt;
+&lt;h3 id=&#34;快捷字词搜索&#34;&gt;快捷字词搜索&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Chrome&lt;/code&gt; 浏览器可以通过在地址栏中输入快捷字词，实现在特定网站中搜索内容，或使用其他搜索引擎进行搜索&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在 Chrome 浏览器右上角找到 &lt;code&gt;设置&lt;/code&gt;，
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371ac394f6db.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371ac394f6db.png&#34; alt=&#34;search&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;li&gt;点击 &lt;code&gt;搜索引擎&lt;/code&gt;，并在之后点击 &lt;code&gt;管理搜索引擎和网站搜索&lt;/code&gt;
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371ace7ade0d.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371ace7ade0d.png&#34; alt=&#34;search&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;li&gt;更改快捷键，或者新增新的快捷键
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371af38b5c49.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371af38b5c49.png&#34; alt=&#34;1&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371af5ca10f1.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371af5ca10f1.png&#34; alt=&#34;2&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371af6d813e6.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371af6d813e6.png&#34; alt=&#34;3&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;li&gt;在完成上述操作后，就可以通过在地址栏中输入快捷字词实现愉快的简便搜索啦🥳&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1cfa54e5d.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/10/30/635e1cfa54e5d.png&#34; alt=&#34;search2&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;chrome-浏览器插件&#34;&gt;Chrome 浏览器插件&lt;/h2&gt;
+&lt;p&gt;Chrome 浏览器简洁的界面深得我心，在安装一部分插件后，搜索体验更是极佳😍&lt;/p&gt;
+&lt;h3 id=&#34;广告屏蔽&#34;&gt;广告屏蔽&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;AdblockPlus&lt;/code&gt; 由用户手动设置拦截网页上不想看到的内容，我使用这个插件把一些网站我不想要看到的内容进行屏蔽，以获得更为简洁的体验&lt;br&gt;
+屏蔽前：
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371b01858fd4.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371b01858fd4.png&#34; alt=&#34;1&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+屏蔽后：
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371b05a8a732.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371b05a8a732.png&#34; alt=&#34;2&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+小声BB：启动这个插件，在使用过程中，可能会碰到部分网页显示异常的情况，这个时候需要把该网页加入白名单来保证网页正常显示
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371b54d0642a.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371b54d0642a.png&#34; alt=&#34;3&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;搜索内容屏蔽&#34;&gt;搜索内容屏蔽&lt;/h3&gt;
+&lt;h4 id=&#34;ublacklist&#34;&gt;uBlacklist&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;uBlacklist&lt;/code&gt; 在搜索时屏蔽特定网站，做到对低质内容的过滤&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;点击 &lt;code&gt;选项&lt;/code&gt;
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371b3521b290.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371b3521b290.png&#34; alt=&#34;1&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;li&gt;在箭头所示部分增加过滤规则并保存
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371b35c32ad8.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371b35c32ad8.png&#34; alt=&#34;2&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+以下是我添加的一些过滤规则：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;*://www.csdn.net/*
+*://bbs.csdn.net/*
+*://blog.csdn.net/*
+*://zhidao.baidu.com/*
+*://www.cnblogs.com/*
+
+*://z.sogou.com/*
+*://wenku.baidu.com/*
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;2022-11-14 更新：不知道是为什么，最近一段时间这个插件失效了&lt;/p&gt;
+&lt;h4 id=&#34;personal-blocklist&#34;&gt;Personal Blocklist&lt;/h4&gt;
+&lt;p&gt;使用方法和 &lt;code&gt;uBlacklist&lt;/code&gt; 差不多，目前使用来看效果不错&lt;/p&gt;
+&lt;h3 id=&#34;chatgpt-for-google&#34;&gt;ChatGPT for Google&lt;/h3&gt;
+&lt;p&gt;首先安装该拓展程序：&lt;a href=&#34;https://chrome.google.com/webstore/detail/chatgpt-for-google/jgjaeacdkonaoafenlfkkkmbaopkbilf?hl=zh-CN&#34;&gt;https://chrome.google.com/webstore/detail/chatgpt-for-google/jgjaeacdkonaoafenlfkkkmbaopkbilf?hl=zh-CN&lt;/a&gt;
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0cc66cba50.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/13/63c0cc66cba50.png&#34; alt=&#34;Snipaste_2023-01-13_11-13-13.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+之后使用 Google 搜索时，右侧便会自动出现chatGPT的回答，如搜索&lt;code&gt;C++虚函数是什么？&lt;/code&gt;，就会出现如下所示的结果：
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0cda30c70c.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/13/63c0cda30c70c.png&#34; alt=&#34;Snipaste_2023-01-13_11-18-47.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;vimium&#34;&gt;Vimium&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Vimium是一款Chrome插件，它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这个插件我已经有一篇&lt;a href=&#34;https://xancoding.cn/posts/vimium/&#34;&gt;文章&lt;/a&gt;进行更为详细的讲解了，这里就不再展开来说了&lt;/p&gt;
+&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/349349861&#34;&gt;知道RSS的人越少，我就越希望它能被人知道！&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/VUhz2Tg08UqYSAZB6nU9MQ&#34;&gt;RSS 二十年&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rss-source.com/&#34;&gt;RSS Source | RSS订阅源推荐&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://haoeric.github.io/Google-search-grammar/&#34;&gt;Practical Google Search Tips&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/get-better-info/&#34;&gt;优化自己的信息源&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/question/49684783/answer/2305132342&#34;&gt;中文互联网的产出在渐渐枯萎&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/589201080&#34;&gt;ChatGPT 使用指南&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <content:encoded><![CDATA[<blockquote>
+<p><strong>这个时代不缺信息，因为信息太多了，缺的是时间</strong></p>
+<p><strong>整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子</strong></p>
+<p><strong>获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息</strong></p>
+</blockquote>
+<h1 id="博客">博客</h1>
+<ul>
+<li><code>Inoreader &amp; RSSHub Radar</code></li>
+</ul>
+<h2 id="什么是rss">什么是RSS?</h2>
+<p>RSS 英文全称为 Really Simple Syndication，即简易资讯聚合。其实叫什么并不重要，我们只用知道它是一个<strong>能让你在一个地方订阅</strong>各种感兴趣网站的工具。</p>
+<p>RSS的核心是<strong>资讯聚合</strong>，由<strong>用户自己决定信息源</strong>。我们可以通过订阅网站的RSS源，主动获得想要的资讯，去挖掘一些自己真正感兴趣的东西。</p>
+<h2 id="如何使用rss">如何使用RSS?</h2>
+<p>利用RSS获取信息，只需要在目标网站上找到RSS链接，并把它添加到RSS阅读器中。</p>
+<p>我使用的工具是<code>Inoreader RSS 阅读器 （需翻墙） + RSSHub Radar 浏览器插件</code>。</p>
+<p><code>Inoreader</code> 吸引我的点是它支持PC端和手机端的同步，并且PC端可以直接通过浏览器插件使用，使我在手机和电脑上都可以查看消息。</p>
+<p><code>RSSHub Radar</code> 的出现，完美解决了不是所有的网页都提供RSS源这一痛点，它可以自动生成网站的RSS源以供订阅，非常方便。</p>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1cf8e7955.png">
+<img src="https://bu.dusays.com/2022/10/30/635e1cf8e7955.png" alt="RSSHub Radar"  />
+</a>
+</div>
+
+</p>
+<p>我通过使用RSS来订阅我感兴趣的个人博客，我订阅的博客网站在 <code>Links</code> 页面下的 <a href="https://xancoding.cn/links/#blogs">Blog</a> 那一栏。</p>
+<h1 id="播客">播客</h1>
+<ul>
+<li><code>小宇宙</code></li>
+</ul>
+<p>播客也是一个很好的信息源，可以在做一些不用🧠的事时听，适合用来拓宽自己的知识面，对一些自己之前完全没有接触过的领域做一个初步的了解，抑或是单纯用以放松也不错。我的使用场景通常是在吃饭或是上下课的路上。<br>
+我目前在使用的播客软件是<a href="https://www.xiaoyuzhoufm.com/">小宇宙</a>，体验不错。</p>
+<h1 id="书籍">书籍</h1>
+<ul>
+<li><code>Neat Reader &amp; Sumatra PDF &amp; Jiumo Search 鸠摩搜索 &amp; 微信读书 &amp; Z-Library &amp; LoreFree &amp; 学校图书馆</code></li>
+</ul>
+<p><code>Neat Reader</code> 是一款<code>EPUB</code>阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 <a href="https://zh.z-lib.org/">Z-Library</a> or <a href="https://lorefree.com/">LoreFree</a>  or <a href="https://www.jiumodiary.com/">Jiumo Search 鸠摩搜索</a> 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 <a href="https://www.neat-reader.com/">Neat Reader</a> 阅读。</p>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1cf8284ec.png">
+<img src="https://bu.dusays.com/2022/10/30/635e1cf8284ec.png" alt="neatReader"  />
+</a>
+</div>
+
+</p>
+<p>如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 <a href="https://www.sumatrapdfreader.org/free-pdf-reader">Sumatra PDF</a> 上阅读</p>
+<p>手机上的话，我会使用微信读书，把找到的电子书上传到书架后进行阅读</p>
+<p>不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）</p>
+<h1 id="chatgpt--搜索引擎">ChatGPT + 搜索引擎</h1>
+<ul>
+<li><code>Chrome（需翻墙） &amp; AdblockPlus &amp; uBlacklist | Personal Blocklist &amp; ChatGPT for Google &amp; Vimium</code></li>
+<li><strong>在搜索引擎体验上， Google （强推，体验极佳） &gt; Bing （偶尔用用） &raquo; Baidu （完全不考虑）</strong></li>
+</ul>
+<h2 id="chrome-浏览器设置">Chrome 浏览器设置</h2>
+<h3 id="快捷字词搜索">快捷字词搜索</h3>
+<p><code>Chrome</code> 浏览器可以通过在地址栏中输入快捷字词，实现在特定网站中搜索内容，或使用其他搜索引擎进行搜索</p>
+<ol>
+<li>在 Chrome 浏览器右上角找到 <code>设置</code>，
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371ac394f6db.png">
+<img src="https://bu.dusays.com/2022/11/14/6371ac394f6db.png" alt="search"  />
+</a>
+</div>
+
+</li>
+<li>点击 <code>搜索引擎</code>，并在之后点击 <code>管理搜索引擎和网站搜索</code>
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371ace7ade0d.png">
+<img src="https://bu.dusays.com/2022/11/14/6371ace7ade0d.png" alt="search"  />
+</a>
+</div>
+
+</li>
+<li>更改快捷键，或者新增新的快捷键
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371af38b5c49.png">
+<img src="https://bu.dusays.com/2022/11/14/6371af38b5c49.png" alt="1"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371af5ca10f1.png">
+<img src="https://bu.dusays.com/2022/11/14/6371af5ca10f1.png" alt="2"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371af6d813e6.png">
+<img src="https://bu.dusays.com/2022/11/14/6371af6d813e6.png" alt="3"  />
+</a>
+</div>
+
+</li>
+<li>在完成上述操作后，就可以通过在地址栏中输入快捷字词实现愉快的简便搜索啦🥳</li>
+</ol>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1cfa54e5d.png">
+<img src="https://bu.dusays.com/2022/10/30/635e1cfa54e5d.png" alt="search2"  />
+</a>
+</div>
+
+</p>
+<h2 id="chrome-浏览器插件">Chrome 浏览器插件</h2>
+<p>Chrome 浏览器简洁的界面深得我心，在安装一部分插件后，搜索体验更是极佳😍</p>
+<h3 id="广告屏蔽">广告屏蔽</h3>
+<p><code>AdblockPlus</code> 由用户手动设置拦截网页上不想看到的内容，我使用这个插件把一些网站我不想要看到的内容进行屏蔽，以获得更为简洁的体验<br>
+屏蔽前：
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371b01858fd4.png">
+<img src="https://bu.dusays.com/2022/11/14/6371b01858fd4.png" alt="1"  />
+</a>
+</div>
+
+
+屏蔽后：
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371b05a8a732.png">
+<img src="https://bu.dusays.com/2022/11/14/6371b05a8a732.png" alt="2"  />
+</a>
+</div>
+
+
+小声BB：启动这个插件，在使用过程中，可能会碰到部分网页显示异常的情况，这个时候需要把该网页加入白名单来保证网页正常显示
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371b54d0642a.png">
+<img src="https://bu.dusays.com/2022/11/14/6371b54d0642a.png" alt="3"  />
+</a>
+</div>
+
+</p>
+<h3 id="搜索内容屏蔽">搜索内容屏蔽</h3>
+<h4 id="ublacklist">uBlacklist</h4>
+<p><code>uBlacklist</code> 在搜索时屏蔽特定网站，做到对低质内容的过滤</p>
+<ol>
+<li>点击 <code>选项</code>
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371b3521b290.png">
+<img src="https://bu.dusays.com/2022/11/14/6371b3521b290.png" alt="1"  />
+</a>
+</div>
+
+</li>
+<li>在箭头所示部分增加过滤规则并保存
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371b35c32ad8.png">
+<img src="https://bu.dusays.com/2022/11/14/6371b35c32ad8.png" alt="2"  />
+</a>
+</div>
+
+
+以下是我添加的一些过滤规则：</li>
+</ol>
+<pre tabindex="0"><code>*://www.csdn.net/*
+*://bbs.csdn.net/*
+*://blog.csdn.net/*
+*://zhidao.baidu.com/*
+*://www.cnblogs.com/*
+
+*://z.sogou.com/*
+*://wenku.baidu.com/*
+</code></pre><p>2022-11-14 更新：不知道是为什么，最近一段时间这个插件失效了</p>
+<h4 id="personal-blocklist">Personal Blocklist</h4>
+<p>使用方法和 <code>uBlacklist</code> 差不多，目前使用来看效果不错</p>
+<h3 id="chatgpt-for-google">ChatGPT for Google</h3>
+<p>首先安装该拓展程序：<a href="https://chrome.google.com/webstore/detail/chatgpt-for-google/jgjaeacdkonaoafenlfkkkmbaopkbilf?hl=zh-CN">https://chrome.google.com/webstore/detail/chatgpt-for-google/jgjaeacdkonaoafenlfkkkmbaopkbilf?hl=zh-CN</a>
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0cc66cba50.png">
+<img src="https://bu.dusays.com/2023/01/13/63c0cc66cba50.png" alt="Snipaste_2023-01-13_11-13-13.png"  />
+</a>
+</div>
+
+
+之后使用 Google 搜索时，右侧便会自动出现chatGPT的回答，如搜索<code>C++虚函数是什么？</code>，就会出现如下所示的结果：
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0cda30c70c.png">
+<img src="https://bu.dusays.com/2023/01/13/63c0cda30c70c.png" alt="Snipaste_2023-01-13_11-18-47.png"  />
+</a>
+</div>
+
+</p>
+<h3 id="vimium">Vimium</h3>
+<p><strong>Vimium是一款Chrome插件，它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面</strong></p>
+<p>这个插件我已经有一篇<a href="https://xancoding.cn/posts/vimium/">文章</a>进行更为详细的讲解了，这里就不再展开来说了</p>
+<h1 id="推荐阅读">推荐阅读</h1>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/349349861">知道RSS的人越少，我就越希望它能被人知道！</a></li>
+<li><a href="https://mp.weixin.qq.com/s/VUhz2Tg08UqYSAZB6nU9MQ">RSS 二十年</a></li>
+<li><a href="https://rss-source.com/">RSS Source | RSS订阅源推荐</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="http://haoeric.github.io/Google-search-grammar/">Practical Google Search Tips</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="https://catcoding.me/p/get-better-info/">优化自己的信息源</a></li>
+<li><a href="https://www.zhihu.com/question/49684783/answer/2305132342">中文互联网的产出在渐渐枯萎</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/589201080">ChatGPT 使用指南</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
