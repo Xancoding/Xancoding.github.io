@@ -19,7 +19,7 @@
 &lt;h1 id=&#34;大纲&#34;&gt;大纲&lt;/h1&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. 开发环境
 	- git     # 版本管理工具
-	- cmake   # 代码构建工具
+	- cmake   # 代码构建工具，管理源文件和依赖
 	- gcc     # 编译器
 	- Clion   # 编辑器
 	- postman # 接口测试工具
@@ -30,7 +30,7 @@
 		- release 
 	- include # .h 头文件目录
 	- src     # .cpp  源文件目录
-	- docs 
+	- docs    # 需求设计文档
 	- others
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;项目的初始构建&#34;&gt;项目的初始构建&lt;/h1&gt;
 &lt;p&gt;添加 &lt;code&gt;Release&lt;/code&gt; 模块，并将 &lt;code&gt;Debug&lt;/code&gt; 和 &lt;code&gt;Release&lt;/code&gt; 模块移至 &lt;code&gt;build&lt;/code&gt; 目录下
@@ -49,7 +49,7 @@
 <h1 id="大纲">大纲</h1>
 <pre tabindex="0"><code>1. 开发环境
 	- git     # 版本管理工具
-	- cmake   # 代码构建工具
+	- cmake   # 代码构建工具，管理源文件和依赖
 	- gcc     # 编译器
 	- Clion   # 编辑器
 	- postman # 接口测试工具
@@ -60,7 +60,7 @@
 		- release 
 	- include # .h 头文件目录
 	- src     # .cpp  源文件目录
-	- docs 
+	- docs    # 需求设计文档
 	- others
 </code></pre><h1 id="项目的初始构建">项目的初始构建</h1>
 <p>添加 <code>Release</code> 模块，并将 <code>Debug</code> 和 <code>Release</code> 模块移至 <code>build</code> 目录下
