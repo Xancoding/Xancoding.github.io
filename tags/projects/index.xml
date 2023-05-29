@@ -40,8 +40,32 @@
 		- 一个类别对应一个工厂
 		- 不需要亲自创建对象，只需要从工厂中去取
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;init-project&#34;&gt;init-project&lt;/h1&gt;
+&lt;h2 id=&#34;build&#34;&gt;build&lt;/h2&gt;
 &lt;p&gt;添加 &lt;code&gt;Release&lt;/code&gt; 模块，并将 &lt;code&gt;Debug&lt;/code&gt; 和 &lt;code&gt;Release&lt;/code&gt; 模块移至 &lt;code&gt;build&lt;/code&gt; 目录下&lt;/p&gt;
-&lt;h2 id=&#34;cmakelist&#34;&gt;CMakelist&lt;/h2&gt;
+&lt;h2 id=&#34;include&#34;&gt;include&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;include/User.h&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;//  
+// Created by 24398 on 2023/5/29.  
+//  
+  
+#ifndef NEW_PROJECT_USER_H  
+#define NEW_PROJECT_USER_H  
+# include &amp;lt;string&amp;gt;  
+  
+class User {  
+private:  
+int age{};  
+std::string name{};  
+  
+public:  
+std::string get_name();  
+  
+User(std::string name_);  
+};  
+  
+#endif //NEW_PROJECT_USER_H
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;search&#34;&gt;[[search]]&lt;/h2&gt;
+&lt;h2 id=&#34;cmakeliststxt&#34;&gt;CMakelists.txt&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cmake_minimum_required(VERSION 3.25)  
 project(new_project)  
   
@@ -87,8 +111,32 @@ add_executable(new_project ${DIR_SRCS})
 		- 一个类别对应一个工厂
 		- 不需要亲自创建对象，只需要从工厂中去取
 </code></pre><h1 id="init-project">init-project</h1>
+<h2 id="build">build</h2>
 <p>添加 <code>Release</code> 模块，并将 <code>Debug</code> 和 <code>Release</code> 模块移至 <code>build</code> 目录下</p>
-<h2 id="cmakelist">CMakelist</h2>
+<h2 id="include">include</h2>
+<p><code>include/User.h</code></p>
+<pre tabindex="0"><code>//  
+// Created by 24398 on 2023/5/29.  
+//  
+  
+#ifndef NEW_PROJECT_USER_H  
+#define NEW_PROJECT_USER_H  
+# include &lt;string&gt;  
+  
+class User {  
+private:  
+int age{};  
+std::string name{};  
+  
+public:  
+std::string get_name();  
+  
+User(std::string name_);  
+};  
+  
+#endif //NEW_PROJECT_USER_H
+</code></pre><h2 id="search">[[search]]</h2>
+<h2 id="cmakeliststxt">CMakelists.txt</h2>
 <pre tabindex="0"><code>cmake_minimum_required(VERSION 3.25)  
 project(new_project)  
   
