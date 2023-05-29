@@ -382,8 +382,32 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 一个类别对应一个工厂
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 不需要亲自创建对象，只需要从工厂中去取
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;init-project&#34;&gt;init-project&lt;/h1&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/29/64748c8482b68.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/29/64748c8482b68.png&#34; alt=&#34;3.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h2 id=&#34;build&#34;&gt;build&lt;/h2&gt;
-&lt;p&gt;添加 &lt;code&gt;Release&lt;/code&gt; 模块，并将 &lt;code&gt;Debug&lt;/code&gt; 和 &lt;code&gt;Release&lt;/code&gt; 模块移至 &lt;code&gt;build&lt;/code&gt; 目录下&lt;/p&gt;
+&lt;p&gt;添加 &lt;code&gt;Release&lt;/code&gt; 模块，并将 &lt;code&gt;Debug&lt;/code&gt; 和 &lt;code&gt;Release&lt;/code&gt; 模块移至 &lt;code&gt;build&lt;/code&gt; 目录下
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/29/64748c9c125f2.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/29/64748c9c125f2.png&#34; alt=&#34;1.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/29/64748c9c125f2.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/05/29/64748c9c125f2.png&#34; alt=&#34;2.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h2 id=&#34;include&#34;&gt;include&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;User.h&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;//  
@@ -473,8 +497,32 @@
 </span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> 一个类别对应一个工厂
 </span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> 不需要亲自创建对象，只需要从工厂中去取
 </span></span></code></pre></div><h1 id="init-project">init-project</h1>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/29/64748c8482b68.png">
+<img src="https://bu.dusays.com/2023/05/29/64748c8482b68.png" alt="3.png"  />
+</a>
+</div>
+
+</p>
 <h2 id="build">build</h2>
-<p>添加 <code>Release</code> 模块，并将 <code>Debug</code> 和 <code>Release</code> 模块移至 <code>build</code> 目录下</p>
+<p>添加 <code>Release</code> 模块，并将 <code>Debug</code> 和 <code>Release</code> 模块移至 <code>build</code> 目录下
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/29/64748c9c125f2.png">
+<img src="https://bu.dusays.com/2023/05/29/64748c9c125f2.png" alt="1.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/29/64748c9c125f2.png">
+<img src="https://bu.dusays.com/2023/05/29/64748c9c125f2.png" alt="2.png"  />
+</a>
+</div>
+
+</p>
 <h2 id="include">include</h2>
 <p><code>User.h</code></p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#007f7f">//  
