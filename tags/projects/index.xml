@@ -26,8 +26,8 @@
 	- mysql   # 数据库
 2. 目录结构
 	- build   
-	- include 
-	- src 
+	- include # .h 头文件
+	- src     # .cpp 源文件
 	- docs 
 	- others
 &lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;项目的初始构建&#34;&gt;项目的初始构建&lt;/h1&gt;
@@ -54,8 +54,8 @@
 	- mysql   # 数据库
 2. 目录结构
 	- build   
-	- include 
-	- src 
+	- include # .h 头文件
+	- src     # .cpp 源文件
 	- docs 
 	- others
 </code></pre><h1 id="项目的初始构建">项目的初始构建</h1>
