@@ -17,69 +17,89 @@
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1bd4y1D7on/?spm_id_from=333.788&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# C/C++项目实战（前置知识）&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;大纲&#34;&gt;大纲&lt;/h1&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. 开发环境
-	- git     # 版本管理工具
-	- cmake   # 代码构建工具，管理源文件和依赖
-	- gcc     # 编译器
-	- Clion   # 编辑器
-	- postman # 接口测试工具
-	- mysql   # 数据库
-2. 目录结构
-	- build   # 项目编译目录
-		- debug 
-		- release 
-	- include # .h 头文件目录
-	- src     # .cpp  源文件目录
-	- docs    # 需求设计文档
-	- others
-3. 设计模式
-	- 单例模式
-		- 构造函数私有
-		- 实例只有一份
-	- 工厂模式
-		- 一个类别对应一个工厂
-		- 不需要亲自创建对象，只需要从工厂中去取
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;init-project&#34;&gt;init-project&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;1.&lt;/span&gt; 开发环境
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; git     # 版本管理工具
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; cmake   # 代码构建工具，管理源文件和依赖
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; gcc     # 编译器
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; Clion   # 编辑器
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; postman # 接口测试工具
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; mysql   # 数据库
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;2.&lt;/span&gt; 目录结构
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; build   # 项目编译目录
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; debug 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; release 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; include # .h 头文件目录
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; src     # .cpp  源文件目录
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; docs    # 需求设计文档
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; others
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;3.&lt;/span&gt; 设计模式
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 单例模式
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 构造函数私有
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 实例只有一份
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 工厂模式
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 一个类别对应一个工厂
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;-&lt;/span&gt; 不需要亲自创建对象，只需要从工厂中去取
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;init-project&#34;&gt;init-project&lt;/h1&gt;
 &lt;h2 id=&#34;build&#34;&gt;build&lt;/h2&gt;
 &lt;p&gt;添加 &lt;code&gt;Release&lt;/code&gt; 模块，并将 &lt;code&gt;Debug&lt;/code&gt; 和 &lt;code&gt;Release&lt;/code&gt; 模块移至 &lt;code&gt;build&lt;/code&gt; 目录下&lt;/p&gt;
 &lt;h2 id=&#34;include&#34;&gt;include&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;include/User.h&lt;/code&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;//  
-// Created by 24398 on 2023/5/29.  
-//  
-  
-#ifndef NEW_PROJECT_USER_H  
-#define NEW_PROJECT_USER_H  
-# include &amp;lt;string&amp;gt;  
-  
-class User {  
-private:  
-int age{};  
-std::string name{};  
-  
-public:  
-std::string get_name();  
-  
-User(std::string name_);  
-};  
-  
-#endif //NEW_PROJECT_USER_H
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;search&#34;&gt;[[search]]&lt;/h2&gt;
-&lt;h2 id=&#34;cmakeliststxt&#34;&gt;CMakelists.txt&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cmake_minimum_required(VERSION 3.25)  
-project(new_project)  
-  
-# C++ 17  
-set(CMAKE_CXX_STANDARD 17)  
-# 添加头文件  
-include_directories(include)  
-  
-# 添加源文件  
-aux_source_directory(./src DIR_SRCS)  
-  
-# 所有需要编译的可执行文件  
-add_executable(new_project ${DIR_SRCS})
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;include_directories([AFTER|BEFORE] [SYSTEM] directory1 [directory2 ...])&lt;/code&gt;&lt;br&gt;
+&lt;p&gt;&lt;code&gt;User.h&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;//  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;// Created by 24398 on 2023/5/29.  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;//  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#ifndef NEW_PROJECT_USER_H  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#define NEW_PROJECT_USER_H  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;# include &amp;lt;string&amp;gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;class&lt;/span&gt; User {  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;private&lt;/span&gt;:  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;int&lt;/span&gt; age{};  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;std::string name{};  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;public&lt;/span&gt;:  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;std::string get_name();  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;User(std::string name_);  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;};  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#endif &lt;/span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;//NEW_PROJECT_USER_H
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;src&#34;&gt;src&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;main.cpp&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;lt;iostream&amp;gt;  &lt;/span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;#34;User.h&amp;#34;  &lt;/span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;int&lt;/span&gt; main() {  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;auto&lt;/span&gt; *user = &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;new&lt;/span&gt; User(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;John&amp;#34;&lt;/span&gt;);  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;std::cout &amp;lt;&amp;lt; user-&amp;gt;get_name() &amp;lt;&amp;lt; std::endl;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;0&lt;/span&gt;;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;User.cpp&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;//  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;// Created by 24398 on 2023/5/29.  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;//  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;#34;User.h&amp;#34;  &lt;/span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;User::User(std::string name_): name(name_){};  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;std::string User::get_name() {  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;this&lt;/span&gt;-&amp;gt;name;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;cmakeliststxt&#34;&gt;CMakelists.txt&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Cmake&#34; data-lang=&#34;Cmake&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;cmake_minimum_required&lt;/span&gt;(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;VERSION&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;3.25&lt;/span&gt;)  &lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;project&lt;/span&gt;(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;new_project&lt;/span&gt;)  &lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;# C++ 17  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;set&lt;/span&gt;(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;CMAKE_CXX_STANDARD&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;17&lt;/span&gt;)  &lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;# 添加头文件  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;include_directories&lt;/span&gt;(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;include&lt;/span&gt;)  &lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;# 添加源文件  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;aux_source_directory&lt;/span&gt;(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;./src&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;DIR_SRCS&lt;/span&gt;)  &lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;# 所有需要编译的可执行文件  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;add_executable&lt;/span&gt;(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;new_project&lt;/span&gt; ${DIR_SRCS})&lt;span style=&#34;color:#f00&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;include_directories([AFTER|BEFORE] [SYSTEM] directory1 [directory2 ...])&lt;/code&gt;&lt;br&gt;
 在这个例子中，命令&lt;code&gt;include_directories(include)&lt;/code&gt;表示你想将&lt;code&gt;include&lt;/code&gt;目录添加到包含路径中。这意味着编译器在编译源文件时会在&lt;code&gt;include&lt;/code&gt;目录中搜索头文件。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;aux_source_directory(&amp;lt;dir&amp;gt; &amp;lt;variable&amp;gt;)&lt;/code&gt;&lt;br&gt;
 在这个例子中，命令&lt;code&gt;aux_source_directory(src DIR_SRCS)&lt;/code&gt;表示你想从&lt;code&gt;./src&lt;/code&gt;目录收集所有的源文件，并将它们赋值给变量&lt;code&gt;DIR_SRCS&lt;/code&gt;。&lt;/p&gt;
@@ -88,69 +108,89 @@ add_executable(new_project ${DIR_SRCS})
 <li><a href="https://www.bilibili.com/video/BV1bd4y1D7on/?spm_id_from=333.788&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># C/C++项目实战（前置知识）</a></li>
 </ul>
 <h1 id="大纲">大纲</h1>
-<pre tabindex="0"><code>1. 开发环境
-	- git     # 版本管理工具
-	- cmake   # 代码构建工具，管理源文件和依赖
-	- gcc     # 编译器
-	- Clion   # 编辑器
-	- postman # 接口测试工具
-	- mysql   # 数据库
-2. 目录结构
-	- build   # 项目编译目录
-		- debug 
-		- release 
-	- include # .h 头文件目录
-	- src     # .cpp  源文件目录
-	- docs    # 需求设计文档
-	- others
-3. 设计模式
-	- 单例模式
-		- 构造函数私有
-		- 实例只有一份
-	- 工厂模式
-		- 一个类别对应一个工厂
-		- 不需要亲自创建对象，只需要从工厂中去取
-</code></pre><h1 id="init-project">init-project</h1>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">1.</span> 开发环境
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> git     # 版本管理工具
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> cmake   # 代码构建工具，管理源文件和依赖
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> gcc     # 编译器
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> Clion   # 编辑器
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> postman # 接口测试工具
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> mysql   # 数据库
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">2.</span> 目录结构
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> build   # 项目编译目录
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> debug 
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> release 
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> include # .h 头文件目录
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> src     # .cpp  源文件目录
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> docs    # 需求设计文档
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> others
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">3.</span> 设计模式
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> 单例模式
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> 构造函数私有
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> 实例只有一份
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">-</span> 工厂模式
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> 一个类别对应一个工厂
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">-</span> 不需要亲自创建对象，只需要从工厂中去取
+</span></span></code></pre></div><h1 id="init-project">init-project</h1>
 <h2 id="build">build</h2>
 <p>添加 <code>Release</code> 模块，并将 <code>Debug</code> 和 <code>Release</code> 模块移至 <code>build</code> 目录下</p>
 <h2 id="include">include</h2>
-<p><code>include/User.h</code></p>
-<pre tabindex="0"><code>//  
-// Created by 24398 on 2023/5/29.  
-//  
-  
-#ifndef NEW_PROJECT_USER_H  
-#define NEW_PROJECT_USER_H  
-# include &lt;string&gt;  
-  
-class User {  
-private:  
-int age{};  
-std::string name{};  
-  
-public:  
-std::string get_name();  
-  
-User(std::string name_);  
-};  
-  
-#endif //NEW_PROJECT_USER_H
-</code></pre><h2 id="search">[[search]]</h2>
-<h2 id="cmakeliststxt">CMakelists.txt</h2>
-<pre tabindex="0"><code>cmake_minimum_required(VERSION 3.25)  
-project(new_project)  
-  
-# C++ 17  
-set(CMAKE_CXX_STANDARD 17)  
-# 添加头文件  
-include_directories(include)  
-  
-# 添加源文件  
-aux_source_directory(./src DIR_SRCS)  
-  
-# 所有需要编译的可执行文件  
-add_executable(new_project ${DIR_SRCS})
-</code></pre><p><code>include_directories([AFTER|BEFORE] [SYSTEM] directory1 [directory2 ...])</code><br>
+<p><code>User.h</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#007f7f">//  
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// Created by 24398 on 2023/5/29.  
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">//  
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  
+</span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#ifndef NEW_PROJECT_USER_H  
+</span></span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#define NEW_PROJECT_USER_H  
+</span></span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold"># include &lt;string&gt;  
+</span></span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold"></span>  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">class</span> User {  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">private</span>:  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">int</span> age{};  
+</span></span><span style="display:flex;"><span>std::string name{};  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">public</span>:  
+</span></span><span style="display:flex;"><span>std::string get_name();  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>User(std::string name_);  
+</span></span><span style="display:flex;"><span>};  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#endif </span><span style="color:#007f7f">//NEW_PROJECT_USER_H
+</span></span></span></code></pre></div><h2 id="src">src</h2>
+<p><code>main.cpp</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#include</span> <span style="color:#0f0;font-weight:bold">&lt;iostream&gt;  </span><span style="color:#0f0;font-weight:bold">
+</span></span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#include</span> <span style="color:#0f0;font-weight:bold">&#34;User.h&#34;  </span><span style="color:#0f0;font-weight:bold">
+</span></span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold"></span>  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">int</span> main() {  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">auto</span> *user = <span style="color:#fff;font-weight:bold">new</span> User(<span style="color:#0ff;font-weight:bold">&#34;John&#34;</span>);  
+</span></span><span style="display:flex;"><span>std::cout &lt;&lt; user-&gt;get_name() &lt;&lt; std::endl;  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">return</span> <span style="color:#ff0;font-weight:bold">0</span>;  
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><code>User.cpp</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#007f7f">//  
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">// Created by 24398 on 2023/5/29.  
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f">//  
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#0f0;font-weight:bold">#include</span> <span style="color:#0f0;font-weight:bold">&#34;User.h&#34;  </span><span style="color:#0f0;font-weight:bold">
+</span></span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold"></span>  
+</span></span><span style="display:flex;"><span>User::User(std::string name_): name(name_){};  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>std::string User::get_name() {  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">this</span>-&gt;name;  
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="cmakeliststxt">CMakelists.txt</h2>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Cmake" data-lang="Cmake"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">cmake_minimum_required</span>(<span style="color:#0ff;font-weight:bold">VERSION</span> <span style="color:#0ff;font-weight:bold">3.25</span>)  <span style="color:#f00">
+</span></span></span><span style="display:flex;"><span><span style="color:#f00"></span><span style="color:#fff;font-weight:bold">project</span>(<span style="color:#0ff;font-weight:bold">new_project</span>)  <span style="color:#f00">
+</span></span></span><span style="display:flex;"><span><span style="color:#f00"></span>  <span style="color:#f00">
+</span></span></span><span style="display:flex;"><span><span style="color:#f00"></span><span style="color:#007f7f"># C++ 17  
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#fff;font-weight:bold">set</span>(<span style="color:#0ff;font-weight:bold">CMAKE_CXX_STANDARD</span> <span style="color:#0ff;font-weight:bold">17</span>)  <span style="color:#f00">
+</span></span></span><span style="display:flex;"><span><span style="color:#f00"></span><span style="color:#007f7f"># 添加头文件  
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#fff;font-weight:bold">include_directories</span>(<span style="color:#0ff;font-weight:bold">include</span>)  <span style="color:#f00">
+</span></span></span><span style="display:flex;"><span><span style="color:#f00"></span>  <span style="color:#f00">
+</span></span></span><span style="display:flex;"><span><span style="color:#f00"></span><span style="color:#007f7f"># 添加源文件  
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#fff;font-weight:bold">aux_source_directory</span>(<span style="color:#0ff;font-weight:bold">./src</span> <span style="color:#0ff;font-weight:bold">DIR_SRCS</span>)  <span style="color:#f00">
+</span></span></span><span style="display:flex;"><span><span style="color:#f00"></span>  <span style="color:#f00">
+</span></span></span><span style="display:flex;"><span><span style="color:#f00"></span><span style="color:#007f7f"># 所有需要编译的可执行文件  
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#fff;font-weight:bold">add_executable</span>(<span style="color:#0ff;font-weight:bold">new_project</span> ${DIR_SRCS})<span style="color:#f00">
+</span></span></span></code></pre></div><p><code>include_directories([AFTER|BEFORE] [SYSTEM] directory1 [directory2 ...])</code><br>
 在这个例子中，命令<code>include_directories(include)</code>表示你想将<code>include</code>目录添加到包含路径中。这意味着编译器在编译源文件时会在<code>include</code>目录中搜索头文件。</p>
 <p><code>aux_source_directory(&lt;dir&gt; &lt;variable&gt;)</code><br>
 在这个例子中，命令<code>aux_source_directory(src DIR_SRCS)</code>表示你想从<code>./src</code>目录收集所有的源文件，并将它们赋值给变量<code>DIR_SRCS</code>。</p>
