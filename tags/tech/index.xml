@@ -1496,6 +1496,7 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
       
       <guid>https://xancoding.cn/posts/2023-03-14-13-19-12/</guid>
       <description>&lt;p&gt;书本的 &lt;strong&gt;&lt;u&gt;第七章 参数估计&lt;/u&gt;&lt;/strong&gt; 和 &lt;strong&gt;&lt;u&gt;第八章 假设检验&lt;/u&gt;&lt;/strong&gt; 没有做整理，还是看书理解的快一些🤔&lt;/p&gt;
+&lt;p&gt;《概率论与数理统计（第四版）》P172 表 7-1 正态总体均值、方差的置信区间与单侧置信限（置信水平为 1-α）&lt;/p&gt;
 &lt;h1 id=&#34;概率论的基本概念&#34;&gt;概率论的基本概念&lt;/h1&gt;
 &lt;h2 id=&#34;条件概率&#34;&gt;条件概率&lt;/h2&gt;
 &lt;h3 id=&#34;公式&#34;&gt;公式&lt;/h3&gt;
@@ -5483,6 +5484,7 @@ $$f(x)=\frac{1}{\lambda} e^{-\frac{x}{\lambda}}\ ,x&amp;gt;0$$
 &lt;/ol&gt;
 </description>
       <content:encoded><![CDATA[<p>书本的 <strong><u>第七章 参数估计</u></strong> 和 <strong><u>第八章 假设检验</u></strong> 没有做整理，还是看书理解的快一些🤔</p>
+<p>《概率论与数理统计（第四版）》P172 表 7-1 正态总体均值、方差的置信区间与单侧置信限（置信水平为 1-α）</p>
 <h1 id="概率论的基本概念">概率论的基本概念</h1>
 <h2 id="条件概率">条件概率</h2>
 <h3 id="公式">公式</h3>
