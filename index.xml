@@ -498,11 +498,6 @@
 &lt;p&gt;如果一个程序为多个程序所共享，那么该程序的代码在执行的过程中不能被修改，即程序应该是 &lt;strong&gt;可重入码&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;采用交换技术获得的好处是以牺牲  &lt;strong&gt;处理器时间&lt;/strong&gt; 为代价的&lt;/p&gt;
 &lt;p&gt;把作业装入内存时进行地址变换的方式称为 &lt;strong&gt;静态重定位&lt;/strong&gt;  ；而在作业执行期间，当访问到指令或数据时才进行地址变换的方式称为 &lt;strong&gt;动态重定位&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;如果IO花费的时间比CPU处理时间短的多,则缓冲区 &lt;strong&gt;几乎无效&lt;/strong&gt;&lt;br&gt;
-这里的意思指，在处理器处理完成之前，数据已经传入，即 IO 与 CPU 的速度差距被消除了，无需缓冲&lt;/p&gt;
-&lt;p&gt;在进行设备分配时所需的数据表格有 &lt;strong&gt;设备控制表（DCT），控制器控制表（COCT），通道控制表（CHCT）和系统设备表（SDT）&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从资源管理角度，设备分成 &lt;strong&gt;独占设备、共享设备、虚拟设备&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;常用的IO控制方式有 轮询、中断、DMA、通道&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/01/647855103de8d.png&#34;&gt;
@@ -510,8 +505,14 @@
 &lt;/a&gt;
 &lt;/div&gt;
 
-
-
+&lt;/p&gt;
+&lt;h1 id=&#34;第四章-设备管理&#34;&gt;第四章 设备管理&lt;/h1&gt;
+&lt;p&gt;如果IO花费的时间比CPU处理时间短的多,则缓冲区 &lt;strong&gt;几乎无效&lt;/strong&gt;&lt;br&gt;
+这里的意思指，在处理器处理完成之前，数据已经传入，即 IO 与 CPU 的速度差距被消除了，无需缓冲&lt;/p&gt;
+&lt;p&gt;在进行设备分配时所需的数据表格有 &lt;strong&gt;设备控制表（DCT），控制器控制表（COCT），通道控制表（CHCT）和系统设备表（SDT）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从资源管理角度，设备分成 &lt;strong&gt;独占设备、共享设备、虚拟设备&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;常用的IO控制方式有 &lt;strong&gt;轮询、中断、DMA、IO通道&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/01/64785a5fd41fd.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/06/01/64785a5fd41fd.png&#34; alt=&#34;image.png&#34;  /&gt;
@@ -527,6 +528,19 @@
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h1 id=&#34;第五章-文件管理&#34;&gt;第五章 文件管理&lt;/h1&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/01/64785d387d47b.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/01/64785d387d47b.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;文件系统用 &lt;strong&gt;目录&lt;/strong&gt; 组织文件&lt;/p&gt;
+&lt;p&gt;逻辑文件有 &lt;strong&gt;记录式文件、流式文件&lt;/strong&gt; 两种&lt;/p&gt;
+&lt;p&gt;文件的物理结构有 &lt;strong&gt;顺序结构、链接结构、索引结构&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;允许多个用户共同使用同一个文件称为 &lt;strong&gt;文件共享&lt;/strong&gt;&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="第一章-概述">第一章 概述</h1>
 <p>操作系统的 4 大资源管理功能是 <strong>处理机管理功能、存储器管理功能、设备管理功能、文件管理功能</strong></p>
@@ -571,11 +585,6 @@
 <p>如果一个程序为多个程序所共享，那么该程序的代码在执行的过程中不能被修改，即程序应该是 <strong>可重入码</strong>。</p>
 <p>采用交换技术获得的好处是以牺牲  <strong>处理器时间</strong> 为代价的</p>
 <p>把作业装入内存时进行地址变换的方式称为 <strong>静态重定位</strong>  ；而在作业执行期间，当访问到指令或数据时才进行地址变换的方式称为 <strong>动态重定位</strong></p>
-<p>如果IO花费的时间比CPU处理时间短的多,则缓冲区 <strong>几乎无效</strong><br>
-这里的意思指，在处理器处理完成之前，数据已经传入，即 IO 与 CPU 的速度差距被消除了，无需缓冲</p>
-<p>在进行设备分配时所需的数据表格有 <strong>设备控制表（DCT），控制器控制表（COCT），通道控制表（CHCT）和系统设备表（SDT）</strong></p>
-<p>从资源管理角度，设备分成 <strong>独占设备、共享设备、虚拟设备</strong></p>
-<p>常用的IO控制方式有 轮询、中断、DMA、通道</p>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/01/647855103de8d.png">
@@ -583,8 +592,14 @@
 </a>
 </div>
 
-
-
+</p>
+<h1 id="第四章-设备管理">第四章 设备管理</h1>
+<p>如果IO花费的时间比CPU处理时间短的多,则缓冲区 <strong>几乎无效</strong><br>
+这里的意思指，在处理器处理完成之前，数据已经传入，即 IO 与 CPU 的速度差距被消除了，无需缓冲</p>
+<p>在进行设备分配时所需的数据表格有 <strong>设备控制表（DCT），控制器控制表（COCT），通道控制表（CHCT）和系统设备表（SDT）</strong></p>
+<p>从资源管理角度，设备分成 <strong>独占设备、共享设备、虚拟设备</strong></p>
+<p>常用的IO控制方式有 <strong>轮询、中断、DMA、IO通道</strong></p>
+<p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/01/64785a5fd41fd.png">
 <img src="https://bu.dusays.com/2023/06/01/64785a5fd41fd.png" alt="image.png"  />
@@ -600,6 +615,19 @@
 </div>
 
 </p>
+<h1 id="第五章-文件管理">第五章 文件管理</h1>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/01/64785d387d47b.png">
+<img src="https://bu.dusays.com/2023/06/01/64785d387d47b.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<p>文件系统用 <strong>目录</strong> 组织文件</p>
+<p>逻辑文件有 <strong>记录式文件、流式文件</strong> 两种</p>
+<p>文件的物理结构有 <strong>顺序结构、链接结构、索引结构</strong></p>
+<p>允许多个用户共同使用同一个文件称为 <strong>文件共享</strong></p>
 ]]></content:encoded>
     </item>
     
