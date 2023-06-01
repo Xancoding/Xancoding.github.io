@@ -496,7 +496,7 @@
 &lt;p&gt;把作业地址空间使用的逻辑地址变成 内存的物理地址称为 &lt;strong&gt;重定位&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;可重入码是一种允许多个进程同时访问的代码。为了使各进程访问的代码相同，故不允许对其进行修改！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如果一个程序为多个程序所共享，那么该程序的代码在执行的过程中不能被修改，即程序应该是 &lt;strong&gt;可重入码&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;采用交换技术获得的好处是以牺牲  处理器时间 为代价的&lt;/p&gt;
+&lt;p&gt;采用交换技术获得的好处是以牺牲  &lt;strong&gt;处理器时间&lt;/strong&gt; 为代价的&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/01/647855103de8d.png&#34;&gt;
@@ -547,7 +547,7 @@
 <p>把作业地址空间使用的逻辑地址变成 内存的物理地址称为 <strong>重定位</strong></p>
 <p><strong>可重入码是一种允许多个进程同时访问的代码。为了使各进程访问的代码相同，故不允许对其进行修改！</strong></p>
 <p>如果一个程序为多个程序所共享，那么该程序的代码在执行的过程中不能被修改，即程序应该是 <strong>可重入码</strong>。</p>
-<p>采用交换技术获得的好处是以牺牲  处理器时间 为代价的</p>
+<p>采用交换技术获得的好处是以牺牲  <strong>处理器时间</strong> 为代价的</p>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/01/647855103de8d.png">
