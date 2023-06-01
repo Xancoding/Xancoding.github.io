@@ -501,6 +501,8 @@
 &lt;p&gt;如果IO花费的时间比CPU处理时间短的多,则缓冲区 &lt;strong&gt;几乎无效&lt;/strong&gt;&lt;br&gt;
 这里的意思指，在处理器处理完成之前，数据已经传入，即 IO 与 CPU 的速度差距被消除了，无需缓冲&lt;/p&gt;
 &lt;p&gt;在进行设备分配时所需的数据表格有 &lt;strong&gt;设备控制表（DCT），控制器控制表（COCT），通道控制表（CHCT）和系统设备表（SDT）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从资源管理角度，设备分成 &lt;strong&gt;独占设备、共享设备、虚拟设备&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;常用的IO控制方式有 轮询、中断、DMA、通道&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/01/647855103de8d.png&#34;&gt;
@@ -572,6 +574,8 @@
 <p>如果IO花费的时间比CPU处理时间短的多,则缓冲区 <strong>几乎无效</strong><br>
 这里的意思指，在处理器处理完成之前，数据已经传入，即 IO 与 CPU 的速度差距被消除了，无需缓冲</p>
 <p>在进行设备分配时所需的数据表格有 <strong>设备控制表（DCT），控制器控制表（COCT），通道控制表（CHCT）和系统设备表（SDT）</strong></p>
+<p>从资源管理角度，设备分成 <strong>独占设备、共享设备、虚拟设备</strong></p>
+<p>常用的IO控制方式有 轮询、中断、DMA、通道</p>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/01/647855103de8d.png">
