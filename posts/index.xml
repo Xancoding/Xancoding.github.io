@@ -482,6 +482,7 @@
 &lt;p&gt;在为多道程序所提供的可共享的系统资源不足时，可能出现死锁。但是，不适当的 &lt;strong&gt;进程推进顺序&lt;/strong&gt; 也 可能产生死锁。&lt;/p&gt;
 &lt;p&gt;在分时操作系统中,进程调度经常采用 &lt;strong&gt;时间片轮转&lt;/strong&gt; 算法&lt;/p&gt;
 &lt;p&gt;产生系统死锁的四个必要条件是：互斥、 &lt;strong&gt;请求与保持&lt;/strong&gt;  、循环等待和不剥夺&lt;/p&gt;
+&lt;p&gt;银行家算法在解决死锁问题中是用于 &lt;strong&gt;避免死锁&lt;/strong&gt; 的&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/01/647848f467641.png&#34;&gt;
@@ -518,6 +519,7 @@
 <p>在为多道程序所提供的可共享的系统资源不足时，可能出现死锁。但是，不适当的 <strong>进程推进顺序</strong> 也 可能产生死锁。</p>
 <p>在分时操作系统中,进程调度经常采用 <strong>时间片轮转</strong> 算法</p>
 <p>产生系统死锁的四个必要条件是：互斥、 <strong>请求与保持</strong>  、循环等待和不剥夺</p>
+<p>银行家算法在解决死锁问题中是用于 <strong>避免死锁</strong> 的</p>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/01/647848f467641.png">
