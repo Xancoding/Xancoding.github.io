@@ -456,36 +456,11 @@
       
       <guid>https://xancoding.cn/posts/2023-06-01-13-33-45/</guid>
       <description>&lt;h1 id=&#34;第一章-概述&#34;&gt;第一章 概述&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;内容提要
-&lt;ul&gt;
-&lt;li&gt;操作系统的定义&lt;/li&gt;
-&lt;li&gt;操作系统的发展&lt;/li&gt;
-&lt;li&gt;3种基本的操作系统&lt;/li&gt;
-&lt;li&gt;操作系统4个基本特征&lt;/li&gt;
-&lt;li&gt;操作系统5种功能&lt;/li&gt;
-&lt;li&gt;操作系统结构&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;C BAD C D A
 进程管理、内存管理、设备管理、文件管理
 程序的并发执行、资源共享
 系统调用、库函数、中断&lt;/p&gt;
 &lt;h1 id=&#34;第二章-进程管理&#34;&gt;第二章 进程管理&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;内容提要
-&lt;ul&gt;
-&lt;li&gt;进程的定义及特征&lt;/li&gt;
-&lt;li&gt;进程状态及引起状态变化的典型原因&lt;/li&gt;
-&lt;li&gt;进程控制&lt;/li&gt;
-&lt;li&gt;进程同步与互斥&lt;/li&gt;
-&lt;li&gt;进程通信&lt;/li&gt;
-&lt;li&gt;死锁&lt;/li&gt;
-&lt;li&gt;线程&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;P（S）：将信号量S的值减1，即S=S-1；&lt;/p&gt;
 &lt;p&gt;如果S&amp;gt;=0，则该进程继续执行；否则该进程置为等待状态，排入等待队列。&lt;/p&gt;
 &lt;p&gt;V（S）：将信号量S的值加1，即S=S+1；&lt;/p&gt;
@@ -493,36 +468,11 @@
 &lt;p&gt;B B B C C&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="第一章-概述">第一章 概述</h1>
-<ul>
-<li>内容提要
-<ul>
-<li>操作系统的定义</li>
-<li>操作系统的发展</li>
-<li>3种基本的操作系统</li>
-<li>操作系统4个基本特征</li>
-<li>操作系统5种功能</li>
-<li>操作系统结构</li>
-</ul>
-</li>
-</ul>
 <p>C BAD C D A
 进程管理、内存管理、设备管理、文件管理
 程序的并发执行、资源共享
 系统调用、库函数、中断</p>
 <h1 id="第二章-进程管理">第二章 进程管理</h1>
-<ul>
-<li>内容提要
-<ul>
-<li>进程的定义及特征</li>
-<li>进程状态及引起状态变化的典型原因</li>
-<li>进程控制</li>
-<li>进程同步与互斥</li>
-<li>进程通信</li>
-<li>死锁</li>
-<li>线程</li>
-</ul>
-</li>
-</ul>
 <p>P（S）：将信号量S的值减1，即S=S-1；</p>
 <p>如果S&gt;=0，则该进程继续执行；否则该进程置为等待状态，排入等待队列。</p>
 <p>V（S）：将信号量S的值加1，即S=S+1；</p>
