@@ -473,6 +473,20 @@
 程序的并发执行、资源共享
 系统调用、库函数、中断&lt;/p&gt;
 &lt;h1 id=&#34;第二章-进程管理&#34;&gt;第二章 进程管理&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;内容提要
+&lt;ul&gt;
+&lt;li&gt;进程的定义及特征&lt;/li&gt;
+&lt;li&gt;进程状态及引起状态变化的典型原因&lt;/li&gt;
+&lt;li&gt;进程控制&lt;/li&gt;
+&lt;li&gt;进程同步与互斥&lt;/li&gt;
+&lt;li&gt;进程通信&lt;/li&gt;
+&lt;li&gt;死锁&lt;/li&gt;
+&lt;li&gt;线程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;B&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="第一章-概述">第一章 概述</h1>
 <ul>
@@ -492,6 +506,20 @@
 程序的并发执行、资源共享
 系统调用、库函数、中断</p>
 <h1 id="第二章-进程管理">第二章 进程管理</h1>
+<ul>
+<li>内容提要
+<ul>
+<li>进程的定义及特征</li>
+<li>进程状态及引起状态变化的典型原因</li>
+<li>进程控制</li>
+<li>进程同步与互斥</li>
+<li>进程通信</li>
+<li>死锁</li>
+<li>线程</li>
+</ul>
+</li>
+</ul>
+<p>B</p>
 ]]></content:encoded>
     </item>
     
