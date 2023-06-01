@@ -6,7 +6,7 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 31 May 2023 09:00:40 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jun 2023 13:33:46 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>年度计划</title>
       <link>https://xancoding.cn/posts/2022-11-20-22-11-28/</link>
@@ -446,6 +446,52 @@
 <li>使用集成方法：集成方法通过组合多个模型，可以降低模型的偏差，提高模型的泛化能力。</li>
 </ol>
 <p>需要注意的是，减少偏差和减少方差是一种 trade-off（权衡），通常无法同时达到最佳状态。我们需要根据具体问题和数据集，平衡偏差和方差的影响，选择适合的模型和方法。通常，我们可以通过交叉验证等技术来选择最佳的模型和超参数，以达到平衡偏差和方差的目的。</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>操作系统--期末复习</title>
+      <link>https://xancoding.cn/posts/2023-06-01-13-33-45/</link>
+      <pubDate>Thu, 01 Jun 2023 13:33:46 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-06-01-13-33-45/</guid>
+      <description>&lt;h1 id=&#34;第一章-概述&#34;&gt;第一章 概述&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;内容提要
+&lt;ul&gt;
+&lt;li&gt;操作系统的定义&lt;/li&gt;
+&lt;li&gt;操作系统的发展&lt;/li&gt;
+&lt;li&gt;3种基本的操作系统&lt;/li&gt;
+&lt;li&gt;操作系统4个基本特征&lt;/li&gt;
+&lt;li&gt;操作系统5种功能&lt;/li&gt;
+&lt;li&gt;操作系统结构&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;C BAD C D A
+进程管理、内存管理、设备管理、文件管理
+程序的并发执行、资源共享
+系统调用、库函数、中断&lt;/p&gt;
+&lt;h1 id=&#34;第二章-进程管理&#34;&gt;第二章 进程管理&lt;/h1&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="第一章-概述">第一章 概述</h1>
+<ul>
+<li>内容提要
+<ul>
+<li>操作系统的定义</li>
+<li>操作系统的发展</li>
+<li>3种基本的操作系统</li>
+<li>操作系统4个基本特征</li>
+<li>操作系统5种功能</li>
+<li>操作系统结构</li>
+</ul>
+</li>
+</ul>
+<p>C BAD C D A
+进程管理、内存管理、设备管理、文件管理
+程序的并发执行、资源共享
+系统调用、库函数、中断</p>
+<h1 id="第二章-进程管理">第二章 进程管理</h1>
 ]]></content:encoded>
     </item>
     
