@@ -483,6 +483,7 @@
 &lt;p&gt;在分时操作系统中,进程调度经常采用 &lt;strong&gt;时间片轮转&lt;/strong&gt; 算法&lt;/p&gt;
 &lt;p&gt;产生系统死锁的四个必要条件是：互斥、 &lt;strong&gt;请求与保持&lt;/strong&gt;  、循环等待和不剥夺&lt;/p&gt;
 &lt;p&gt;银行家算法在解决死锁问题中是用于 &lt;strong&gt;避免死锁&lt;/strong&gt; 的&lt;/p&gt;
+&lt;p&gt;进程主要由 &lt;strong&gt;PCB、数据段、程序段&lt;/strong&gt; 三部分内容组成，其中 &lt;strong&gt;PCB&lt;/strong&gt; 是进程存在的唯一标志，而 &lt;strong&gt;代码段&lt;/strong&gt; 也可以为其他进程共享&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/01/647848f467641.png&#34;&gt;
@@ -520,6 +521,7 @@
 <p>在分时操作系统中,进程调度经常采用 <strong>时间片轮转</strong> 算法</p>
 <p>产生系统死锁的四个必要条件是：互斥、 <strong>请求与保持</strong>  、循环等待和不剥夺</p>
 <p>银行家算法在解决死锁问题中是用于 <strong>避免死锁</strong> 的</p>
+<p>进程主要由 <strong>PCB、数据段、程序段</strong> 三部分内容组成，其中 <strong>PCB</strong> 是进程存在的唯一标志，而 <strong>代码段</strong> 也可以为其他进程共享</p>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/01/647848f467641.png">
