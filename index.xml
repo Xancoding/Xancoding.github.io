@@ -484,6 +484,7 @@
 &lt;p&gt;产生系统死锁的四个必要条件是：互斥、 &lt;strong&gt;请求与保持&lt;/strong&gt;  、循环等待和不剥夺&lt;/p&gt;
 &lt;p&gt;银行家算法在解决死锁问题中是用于 &lt;strong&gt;避免死锁&lt;/strong&gt; 的&lt;/p&gt;
 &lt;p&gt;进程主要由 &lt;strong&gt;PCB、数据段、程序段&lt;/strong&gt; 三部分内容组成，其中 &lt;strong&gt;PCB&lt;/strong&gt; 是进程存在的唯一标志，而 &lt;strong&gt;代码段&lt;/strong&gt; 也可以为其他进程共享&lt;/p&gt;
+&lt;p&gt;在引入线程的操作系统中，&lt;strong&gt;线程&lt;/strong&gt;是CPU调度和运行的基本单位，但不是说线程可以脱离进程运行，所以线程不是能独立运行的基本单位&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/01/647848f467641.png&#34;&gt;
@@ -520,6 +521,7 @@
 &lt;p&gt;在进行设备分配时所需的数据表格有 &lt;strong&gt;设备控制表（DCT），控制器控制表（COCT），通道控制表（CHCT）和系统设备表（SDT）&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;从资源管理角度，设备分成 &lt;strong&gt;独占设备、共享设备、虚拟设备&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;常用的IO控制方式有 &lt;strong&gt;轮询、中断、DMA、IO通道&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;通道是一种 &lt;strong&gt;IO专用处理机&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/01/64785a5fd41fd.png&#34;&gt;
@@ -579,6 +581,7 @@
 <p>产生系统死锁的四个必要条件是：互斥、 <strong>请求与保持</strong>  、循环等待和不剥夺</p>
 <p>银行家算法在解决死锁问题中是用于 <strong>避免死锁</strong> 的</p>
 <p>进程主要由 <strong>PCB、数据段、程序段</strong> 三部分内容组成，其中 <strong>PCB</strong> 是进程存在的唯一标志，而 <strong>代码段</strong> 也可以为其他进程共享</p>
+<p>在引入线程的操作系统中，<strong>线程</strong>是CPU调度和运行的基本单位，但不是说线程可以脱离进程运行，所以线程不是能独立运行的基本单位</p>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/01/647848f467641.png">
@@ -615,6 +618,7 @@
 <p>在进行设备分配时所需的数据表格有 <strong>设备控制表（DCT），控制器控制表（COCT），通道控制表（CHCT）和系统设备表（SDT）</strong></p>
 <p>从资源管理角度，设备分成 <strong>独占设备、共享设备、虚拟设备</strong></p>
 <p>常用的IO控制方式有 <strong>轮询、中断、DMA、IO通道</strong></p>
+<p>通道是一种 <strong>IO专用处理机</strong></p>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/01/64785a5fd41fd.png">
