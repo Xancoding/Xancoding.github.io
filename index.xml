@@ -491,6 +491,14 @@
 &lt;/a&gt;
 &lt;/div&gt;
 
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/02/6479504360737.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/02/6479504360737.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
 &lt;/p&gt;
 &lt;h1 id=&#34;第三章-存储器管理&#34;&gt;第三章 存储器管理&lt;/h1&gt;
 &lt;p&gt;把作业地址空间使用的逻辑地址变成 内存的物理地址称为 &lt;strong&gt;重定位&lt;/strong&gt;&lt;/p&gt;
@@ -575,6 +583,14 @@
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/01/647848f467641.png">
 <img src="https://bu.dusays.com/2023/06/01/647848f467641.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/02/6479504360737.png">
+<img src="https://bu.dusays.com/2023/06/02/6479504360737.png" alt="image.png"  />
 </a>
 </div>
 
