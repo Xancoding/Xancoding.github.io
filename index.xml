@@ -458,7 +458,7 @@
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;进程同步、互斥问题&lt;/strong&gt;：PV操作伪代码&lt;strong&gt;个人手写笔记 p5&amp;ndash;p8&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;进程的安全序列、银行家算法的思想、资源分配图&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;文件系统 空闲空间管理 &lt;strong&gt;分组计数法&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;第一章-概述&#34;&gt;第一章 概述&lt;/h1&gt;
 &lt;p&gt;操作系统的 4 大资源管理功能是 &lt;strong&gt;处理机管理功能、存储器管理功能、设备管理功能、文件管理功能&lt;/strong&gt;&lt;/p&gt;
@@ -524,8 +524,6 @@
 &lt;p&gt;如果IO花费的时间比CPU处理时间短的多,则缓冲区 &lt;strong&gt;几乎无效&lt;/strong&gt;&lt;br&gt;
 这里的意思指，在处理器处理完成之前，数据已经传入，即 IO 与 CPU 的速度差距被消除了，无需缓冲&lt;/p&gt;
 &lt;p&gt;在进行设备分配时所需的数据表格有 &lt;strong&gt;设备控制表（DCT），控制器控制表（COCT），通道控制表（CHCT）和系统设备表（SDT）&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;从资源管理角度，设备分成 &lt;strong&gt;独占设备、共享设备、虚拟设备&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;常用的IO控制方式有 &lt;strong&gt;轮询、中断、DMA、IO通道&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;通道是一种 &lt;strong&gt;IO专用处理机&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -553,14 +551,12 @@
 
 &lt;/p&gt;
 &lt;p&gt;文件系统用 &lt;strong&gt;目录&lt;/strong&gt; 组织文件&lt;/p&gt;
-&lt;p&gt;逻辑文件有 &lt;strong&gt;记录式文件、流式文件&lt;/strong&gt; 两种&lt;/p&gt;
-&lt;p&gt;文件的物理结构有 &lt;strong&gt;顺序结构、链接结构、索引结构&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;允许多个用户共同使用同一个文件称为 &lt;strong&gt;文件共享&lt;/strong&gt;&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<ul>
 <li><strong>进程同步、互斥问题</strong>：PV操作伪代码<strong>个人手写笔记 p5&ndash;p8</strong></li>
 <li>进程的安全序列、银行家算法的思想、资源分配图</li>
-<li></li>
+<li>文件系统 空闲空间管理 <strong>分组计数法</strong></li>
 </ul>
 <h1 id="第一章-概述">第一章 概述</h1>
 <p>操作系统的 4 大资源管理功能是 <strong>处理机管理功能、存储器管理功能、设备管理功能、文件管理功能</strong></p>
@@ -626,8 +622,6 @@
 <p>如果IO花费的时间比CPU处理时间短的多,则缓冲区 <strong>几乎无效</strong><br>
 这里的意思指，在处理器处理完成之前，数据已经传入，即 IO 与 CPU 的速度差距被消除了，无需缓冲</p>
 <p>在进行设备分配时所需的数据表格有 <strong>设备控制表（DCT），控制器控制表（COCT），通道控制表（CHCT）和系统设备表（SDT）</strong></p>
-<p>从资源管理角度，设备分成 <strong>独占设备、共享设备、虚拟设备</strong></p>
-<p>常用的IO控制方式有 <strong>轮询、中断、DMA、IO通道</strong></p>
 <p>通道是一种 <strong>IO专用处理机</strong></p>
 <p>
 <div class="post-img-view">
@@ -655,8 +649,6 @@
 
 </p>
 <p>文件系统用 <strong>目录</strong> 组织文件</p>
-<p>逻辑文件有 <strong>记录式文件、流式文件</strong> 两种</p>
-<p>文件的物理结构有 <strong>顺序结构、链接结构、索引结构</strong></p>
 <p>允许多个用户共同使用同一个文件称为 <strong>文件共享</strong></p>
 ]]></content:encoded>
     </item>
