@@ -456,7 +456,7 @@
       
       <guid>https://xancoding.cn/posts/2023-06-01-13-33-45/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;进程同步（运用信号量描述同步问题、PV 操作）&lt;/li&gt;
+&lt;li&gt;进程同步（运用信号量描述同步问题、PV 操作）&lt;strong&gt;个人手写笔记 p5&amp;ndash;p8&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;进程的安全序列、银行家算法的思想、资源分配图&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;第一章-概述&#34;&gt;第一章 概述&lt;/h1&gt;
@@ -557,7 +557,7 @@
 &lt;p&gt;允许多个用户共同使用同一个文件称为 &lt;strong&gt;文件共享&lt;/strong&gt;&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<ul>
-<li>进程同步（运用信号量描述同步问题、PV 操作）</li>
+<li>进程同步（运用信号量描述同步问题、PV 操作）<strong>个人手写笔记 p5&ndash;p8</strong></li>
 <li>进程的安全序列、银行家算法的思想、资源分配图</li>
 </ul>
 <h1 id="第一章-概述">第一章 概述</h1>
