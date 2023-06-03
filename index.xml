@@ -460,6 +460,13 @@
 &lt;li&gt;进程的安全序列、银行家算法的思想、资源分配图&lt;/li&gt;
 &lt;li&gt;文件系统 空闲空间管理 &lt;strong&gt;分组计数法&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;RAID&lt;/li&gt;
+&lt;li&gt;页面置换算法
+&lt;ul&gt;
+&lt;li&gt;OPT&lt;/li&gt;
+&lt;li&gt;FIFO&lt;/li&gt;
+&lt;li&gt;LRU&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;第一章-概述&#34;&gt;第一章 概述&lt;/h1&gt;
 &lt;p&gt;操作系统的 4 大资源管理功能是 &lt;strong&gt;处理机管理功能、存储器管理功能、设备管理功能、文件管理功能&lt;/strong&gt;&lt;/p&gt;
@@ -511,7 +518,6 @@
 &lt;p&gt;把作业地址空间使用的逻辑地址变成 内存的物理地址称为 &lt;strong&gt;重定位&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;可重入码是一种允许多个进程同时访问的代码。为了使各进程访问的代码相同，故不允许对其进行修改！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如果一个程序为多个程序所共享，那么该程序的代码在执行的过程中不能被修改，即程序应该是 &lt;strong&gt;可重入码&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;采用交换技术获得的好处是以牺牲  &lt;strong&gt;处理器时间&lt;/strong&gt; 为代价的&lt;/p&gt;
 &lt;p&gt;把作业装入内存时进行地址变换的方式称为 &lt;strong&gt;静态重定位&lt;/strong&gt;  ；而在作业执行期间，当访问到指令或数据时才进行地址变换的方式称为 &lt;strong&gt;动态重定位&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -525,6 +531,31 @@
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b3102d2951.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b3102d2951.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;页面置换算法&#34;&gt;页面置换算法&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b456baacf9.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b456baacf9.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b459520a40.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b459520a40.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b45a5be207.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b45a5be207.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -615,6 +646,13 @@
 <li>进程的安全序列、银行家算法的思想、资源分配图</li>
 <li>文件系统 空闲空间管理 <strong>分组计数法</strong></li>
 <li>RAID</li>
+<li>页面置换算法
+<ul>
+<li>OPT</li>
+<li>FIFO</li>
+<li>LRU</li>
+</ul>
+</li>
 </ul>
 <h1 id="第一章-概述">第一章 概述</h1>
 <p>操作系统的 4 大资源管理功能是 <strong>处理机管理功能、存储器管理功能、设备管理功能、文件管理功能</strong></p>
@@ -666,7 +704,6 @@
 <p>把作业地址空间使用的逻辑地址变成 内存的物理地址称为 <strong>重定位</strong></p>
 <p><strong>可重入码是一种允许多个进程同时访问的代码。为了使各进程访问的代码相同，故不允许对其进行修改！</strong></p>
 <p>如果一个程序为多个程序所共享，那么该程序的代码在执行的过程中不能被修改，即程序应该是 <strong>可重入码</strong>。</p>
-<p>采用交换技术获得的好处是以牺牲  <strong>处理器时间</strong> 为代价的</p>
 <p>把作业装入内存时进行地址变换的方式称为 <strong>静态重定位</strong>  ；而在作业执行期间，当访问到指令或数据时才进行地址变换的方式称为 <strong>动态重定位</strong></p>
 <p>
 <div class="post-img-view">
@@ -680,6 +717,31 @@
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b3102d2951.png">
 <img src="https://bu.dusays.com/2023/06/03/647b3102d2951.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="页面置换算法">页面置换算法</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b456baacf9.png">
+<img src="https://bu.dusays.com/2023/06/03/647b456baacf9.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b459520a40.png">
+<img src="https://bu.dusays.com/2023/06/03/647b459520a40.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b45a5be207.png">
+<img src="https://bu.dusays.com/2023/06/03/647b45a5be207.png" alt="image.png"  />
 </a>
 </div>
 
