@@ -514,6 +514,47 @@
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h2 id=&#34;进程调度算法&#34;&gt;进程调度算法&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b4f43ec567.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b4f43ec567.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b4f7af3947.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b4f7af3947.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b4fa20c552.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b4fa20c552.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b506324dde.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b506324dde.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b50dc12102.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b50dc12102.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 &lt;h1 id=&#34;第三章-存储器管理&#34;&gt;第三章 存储器管理&lt;/h1&gt;
 &lt;p&gt;把作业地址空间使用的逻辑地址变成 内存的物理地址称为 &lt;strong&gt;重定位&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;可重入码是一种允许多个进程同时访问的代码。为了使各进程访问的代码相同，故不允许对其进行修改！&lt;/strong&gt;&lt;/p&gt;
@@ -696,6 +737,47 @@
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/02/6479504360737.png">
 <img src="https://bu.dusays.com/2023/06/02/6479504360737.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="进程调度算法">进程调度算法</h2>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b4f43ec567.png">
+<img src="https://bu.dusays.com/2023/06/03/647b4f43ec567.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b4f7af3947.png">
+<img src="https://bu.dusays.com/2023/06/03/647b4f7af3947.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b4fa20c552.png">
+<img src="https://bu.dusays.com/2023/06/03/647b4fa20c552.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b506324dde.png">
+<img src="https://bu.dusays.com/2023/06/03/647b506324dde.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b50dc12102.png">
+<img src="https://bu.dusays.com/2023/06/03/647b50dc12102.png" alt="image.png"  />
 </a>
 </div>
 
