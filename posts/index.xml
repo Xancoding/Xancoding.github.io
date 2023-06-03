@@ -510,6 +510,14 @@
 &lt;/a&gt;
 &lt;/div&gt;
 
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b5a4331ae3.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b5a4331ae3.jpg&#34; alt=&#34;0b639987624a2fd3590a7829139096f.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
 &lt;/p&gt;
 &lt;h2 id=&#34;进程调度算法&#34;&gt;进程调度算法&lt;/h2&gt;
 &lt;p&gt;
@@ -732,6 +740,14 @@
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b59f414fa5.png">
 <img src="https://bu.dusays.com/2023/06/03/647b59f414fa5.png" alt="甘特图.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b5a4331ae3.jpg">
+<img src="https://bu.dusays.com/2023/06/03/647b5a4331ae3.jpg" alt="0b639987624a2fd3590a7829139096f.jpg"  />
 </a>
 </div>
 
