@@ -459,6 +459,7 @@
 &lt;li&gt;&lt;strong&gt;进程同步、互斥问题&lt;/strong&gt;：PV操作伪代码&lt;strong&gt;个人手写笔记 p5&amp;ndash;p8&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;进程的安全序列、银行家算法的思想、资源分配图&lt;/li&gt;
 &lt;li&gt;文件系统 空闲空间管理 &lt;strong&gt;分组计数法&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;RAID&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;第一章-概述&#34;&gt;第一章 概述&lt;/h1&gt;
 &lt;p&gt;操作系统的 4 大资源管理功能是 &lt;strong&gt;处理机管理功能、存储器管理功能、设备管理功能、文件管理功能&lt;/strong&gt;&lt;/p&gt;
@@ -521,11 +522,25 @@
 
 &lt;/p&gt;
 &lt;h1 id=&#34;第四章-设备管理&#34;&gt;第四章 设备管理&lt;/h1&gt;
-&lt;p&gt;如果IO花费的时间比CPU处理时间短的多,则缓冲区 &lt;strong&gt;几乎无效&lt;/strong&gt;&lt;br&gt;
-这里的意思指，在处理器处理完成之前，数据已经传入，即 IO 与 CPU 的速度差距被消除了，无需缓冲&lt;/p&gt;
 &lt;p&gt;在进行设备分配时所需的数据表格有 &lt;strong&gt;设备控制表（DCT），控制器控制表（COCT），通道控制表（CHCT）和系统设备表（SDT）&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;通道是一种 &lt;strong&gt;IO专用处理机&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b1b4f04347.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b1b4f04347.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b1acad5f4b.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b1acad5f4b.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/01/64785a5fd41fd.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/06/01/64785a5fd41fd.png&#34; alt=&#34;image.png&#34;  /&gt;
@@ -537,6 +552,22 @@
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/01/64785af95b6fe.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/06/01/64785af95b6fe.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b1b8c01006.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b1b8c01006.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b1bc18e55d.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b1bc18e55d.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -557,6 +588,7 @@
 <li><strong>进程同步、互斥问题</strong>：PV操作伪代码<strong>个人手写笔记 p5&ndash;p8</strong></li>
 <li>进程的安全序列、银行家算法的思想、资源分配图</li>
 <li>文件系统 空闲空间管理 <strong>分组计数法</strong></li>
+<li>RAID</li>
 </ul>
 <h1 id="第一章-概述">第一章 概述</h1>
 <p>操作系统的 4 大资源管理功能是 <strong>处理机管理功能、存储器管理功能、设备管理功能、文件管理功能</strong></p>
@@ -619,11 +651,25 @@
 
 </p>
 <h1 id="第四章-设备管理">第四章 设备管理</h1>
-<p>如果IO花费的时间比CPU处理时间短的多,则缓冲区 <strong>几乎无效</strong><br>
-这里的意思指，在处理器处理完成之前，数据已经传入，即 IO 与 CPU 的速度差距被消除了，无需缓冲</p>
 <p>在进行设备分配时所需的数据表格有 <strong>设备控制表（DCT），控制器控制表（COCT），通道控制表（CHCT）和系统设备表（SDT）</strong></p>
 <p>通道是一种 <strong>IO专用处理机</strong></p>
 <p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b1b4f04347.png">
+<img src="https://bu.dusays.com/2023/06/03/647b1b4f04347.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b1acad5f4b.png">
+<img src="https://bu.dusays.com/2023/06/03/647b1acad5f4b.png" alt="image.png"  />
+</a>
+</div>
+
+
+
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/01/64785a5fd41fd.png">
 <img src="https://bu.dusays.com/2023/06/01/64785a5fd41fd.png" alt="image.png"  />
@@ -635,6 +681,22 @@
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/01/64785af95b6fe.png">
 <img src="https://bu.dusays.com/2023/06/01/64785af95b6fe.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b1b8c01006.png">
+<img src="https://bu.dusays.com/2023/06/03/647b1b8c01006.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b1bc18e55d.png">
+<img src="https://bu.dusays.com/2023/06/03/647b1bc18e55d.png" alt="image.png"  />
 </a>
 </div>
 
