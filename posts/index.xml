@@ -455,7 +455,10 @@
       <pubDate>Thu, 01 Jun 2023 13:33:46 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-06-01-13-33-45/</guid>
-      <description>&lt;h1 id=&#34;第一章-概述&#34;&gt;第一章 概述&lt;/h1&gt;
+      <description>&lt;ul&gt;
+&lt;li&gt;进程同步（运用信号量描述同步问题、PV 操作）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;第一章-概述&#34;&gt;第一章 概述&lt;/h1&gt;
 &lt;p&gt;操作系统的 4 大资源管理功能是 &lt;strong&gt;处理机管理功能、存储器管理功能、设备管理功能、文件管理功能&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;现代操作系统的两个最基本特征是 &lt;strong&gt;并发性、共享性&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;用户和操作系统之间的接口主要分为 &lt;strong&gt;命令行界面（CLI）、图形用户界面(GUI)、系统调用&lt;/strong&gt;&lt;/p&gt;
@@ -552,7 +555,10 @@
 &lt;p&gt;文件的物理结构有 &lt;strong&gt;顺序结构、链接结构、索引结构&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;允许多个用户共同使用同一个文件称为 &lt;strong&gt;文件共享&lt;/strong&gt;&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="第一章-概述">第一章 概述</h1>
+      <content:encoded><![CDATA[<ul>
+<li>进程同步（运用信号量描述同步问题、PV 操作）</li>
+</ul>
+<h1 id="第一章-概述">第一章 概述</h1>
 <p>操作系统的 4 大资源管理功能是 <strong>处理机管理功能、存储器管理功能、设备管理功能、文件管理功能</strong></p>
 <p>现代操作系统的两个最基本特征是 <strong>并发性、共享性</strong></p>
 <p>用户和操作系统之间的接口主要分为 <strong>命令行界面（CLI）、图形用户界面(GUI)、系统调用</strong></p>
