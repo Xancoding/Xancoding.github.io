@@ -579,7 +579,25 @@
 &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;/p&gt;
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b41de0413c.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b41de0413c.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b42d048491.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b42d048491.png&#34; alt=&#34;Snipaste_2023-06-03_21-14-58.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+当用户按键时，键盘接口会得到一个代表该按键的键盘扫描码，同时产生一个中断请求。键盘中断服务程序先从键盘接口取得按键的扫描码，然后根据其扫描码判断用户所按的键并作相应的处理，最后通知中断控制器本次中断结束并实现中断返回。&lt;br&gt;
+因此，本地用户通过键盘登录系统时，首先获得键盘输入信息的程序是中断处理程序。&lt;/p&gt;
 &lt;h1 id=&#34;第五章-文件管理&#34;&gt;第五章 文件管理&lt;/h1&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -716,7 +734,25 @@
 </a>
 </div>
 
-</p>
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b41de0413c.png">
+<img src="https://bu.dusays.com/2023/06/03/647b41de0413c.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b42d048491.png">
+<img src="https://bu.dusays.com/2023/06/03/647b42d048491.png" alt="Snipaste_2023-06-03_21-14-58.png"  />
+</a>
+</div>
+
+
+当用户按键时，键盘接口会得到一个代表该按键的键盘扫描码，同时产生一个中断请求。键盘中断服务程序先从键盘接口取得按键的扫描码，然后根据其扫描码判断用户所按的键并作相应的处理，最后通知中断控制器本次中断结束并实现中断返回。<br>
+因此，本地用户通过键盘登录系统时，首先获得键盘输入信息的程序是中断处理程序。</p>
 <h1 id="第五章-文件管理">第五章 文件管理</h1>
 <p>
 <div class="post-img-view">
