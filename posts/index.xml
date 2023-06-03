@@ -457,16 +457,8 @@
       <guid>https://xancoding.cn/posts/2023-06-01-13-33-45/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;进程同步、互斥问题&lt;/strong&gt;：PV操作伪代码&lt;strong&gt;个人手写笔记 p5&amp;ndash;p8&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;进程的安全序列、银行家算法的思想、资源分配图&lt;/li&gt;
 &lt;li&gt;文件系统 空闲空间管理 &lt;strong&gt;分组计数法&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;RAID&lt;/li&gt;
-&lt;li&gt;页面置换算法
-&lt;ul&gt;
-&lt;li&gt;OPT&lt;/li&gt;
-&lt;li&gt;FIFO&lt;/li&gt;
-&lt;li&gt;LRU&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;第一章-概述&#34;&gt;第一章 概述&lt;/h1&gt;
 &lt;p&gt;操作系统的 4 大资源管理功能是 &lt;strong&gt;处理机管理功能、存储器管理功能、设备管理功能、文件管理功能&lt;/strong&gt;&lt;/p&gt;
@@ -682,16 +674,8 @@
 </description>
       <content:encoded><![CDATA[<ul>
 <li><strong>进程同步、互斥问题</strong>：PV操作伪代码<strong>个人手写笔记 p5&ndash;p8</strong></li>
-<li>进程的安全序列、银行家算法的思想、资源分配图</li>
 <li>文件系统 空闲空间管理 <strong>分组计数法</strong></li>
 <li>RAID</li>
-<li>页面置换算法
-<ul>
-<li>OPT</li>
-<li>FIFO</li>
-<li>LRU</li>
-</ul>
-</li>
 </ul>
 <h1 id="第一章-概述">第一章 概述</h1>
 <p>操作系统的 4 大资源管理功能是 <strong>处理机管理功能、存储器管理功能、设备管理功能、文件管理功能</strong></p>
