@@ -477,7 +477,6 @@
 &lt;p&gt;如果S&amp;gt;=0，则该进程继续执行；否则该进程置为等待状态，排入等待队列。&lt;/p&gt;
 &lt;p&gt;V（S）：将信号量S的值加1，即S=S+1；&lt;/p&gt;
 &lt;p&gt;如果S&amp;gt;0，则该进程继续执行；否则释放队列中第一个等待信号量的进程。&lt;/p&gt;
-&lt;p&gt;每个进程中访问临界资源的&lt;strong&gt;那段程序&lt;/strong&gt;称为 &lt;strong&gt;临界区&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;引起创建进程的事件：&lt;/p&gt;
 &lt;p&gt;1、用户登录&lt;/p&gt;
 &lt;p&gt;2、作业调度&lt;/p&gt;
@@ -493,8 +492,6 @@
 &lt;/ol&gt;
 &lt;p&gt;进程状态包括就绪，运行，等待；有进程处于就绪状态，则必有进程处于运行状态，不一定有进程处于等待状态。故10个进程处于就绪状态，则至少有1个进程处于运行状态。&lt;/p&gt;
 &lt;p&gt;在为多道程序所提供的可共享的系统资源不足时，可能出现死锁。但是，不适当的 &lt;strong&gt;进程推进顺序&lt;/strong&gt; 也 可能产生死锁。&lt;/p&gt;
-&lt;p&gt;在分时操作系统中,进程调度经常采用 &lt;strong&gt;时间片轮转&lt;/strong&gt; 算法&lt;/p&gt;
-&lt;p&gt;产生系统死锁的四个必要条件是：互斥、 &lt;strong&gt;请求与保持&lt;/strong&gt;  、循环等待和不剥夺&lt;/p&gt;
 &lt;p&gt;银行家算法在解决死锁问题中是用于 &lt;strong&gt;避免死锁&lt;/strong&gt; 的&lt;/p&gt;
 &lt;p&gt;进程主要由 &lt;strong&gt;PCB、数据段、程序段&lt;/strong&gt; 三部分内容组成，其中 &lt;strong&gt;PCB&lt;/strong&gt; 是进程存在的唯一标志，而 &lt;strong&gt;代码段&lt;/strong&gt; 也可以为其他进程共享&lt;/p&gt;
 &lt;p&gt;在引入线程的操作系统中，&lt;strong&gt;线程&lt;/strong&gt;是CPU调度和运行的基本单位，但不是说线程可以脱离进程运行，所以线程不是能独立运行的基本单位&lt;/p&gt;
@@ -547,6 +544,7 @@
 &lt;/div&gt;
 
 
+&lt;strong&gt;带权周转时间是&lt;/strong&gt;指作业的&lt;strong&gt;周转时间&lt;/strong&gt;与系统为它提供服务的&lt;strong&gt;时间&lt;/strong&gt;(运行时间)之比
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b50dc12102.png&#34;&gt;
@@ -704,7 +702,6 @@
 <p>如果S&gt;=0，则该进程继续执行；否则该进程置为等待状态，排入等待队列。</p>
 <p>V（S）：将信号量S的值加1，即S=S+1；</p>
 <p>如果S&gt;0，则该进程继续执行；否则释放队列中第一个等待信号量的进程。</p>
-<p>每个进程中访问临界资源的<strong>那段程序</strong>称为 <strong>临界区</strong></p>
 <p>引起创建进程的事件：</p>
 <p>1、用户登录</p>
 <p>2、作业调度</p>
@@ -720,8 +717,6 @@
 </ol>
 <p>进程状态包括就绪，运行，等待；有进程处于就绪状态，则必有进程处于运行状态，不一定有进程处于等待状态。故10个进程处于就绪状态，则至少有1个进程处于运行状态。</p>
 <p>在为多道程序所提供的可共享的系统资源不足时，可能出现死锁。但是，不适当的 <strong>进程推进顺序</strong> 也 可能产生死锁。</p>
-<p>在分时操作系统中,进程调度经常采用 <strong>时间片轮转</strong> 算法</p>
-<p>产生系统死锁的四个必要条件是：互斥、 <strong>请求与保持</strong>  、循环等待和不剥夺</p>
 <p>银行家算法在解决死锁问题中是用于 <strong>避免死锁</strong> 的</p>
 <p>进程主要由 <strong>PCB、数据段、程序段</strong> 三部分内容组成，其中 <strong>PCB</strong> 是进程存在的唯一标志，而 <strong>代码段</strong> 也可以为其他进程共享</p>
 <p>在引入线程的操作系统中，<strong>线程</strong>是CPU调度和运行的基本单位，但不是说线程可以脱离进程运行，所以线程不是能独立运行的基本单位</p>
@@ -774,6 +769,7 @@
 </div>
 
 
+<strong>带权周转时间是</strong>指作业的<strong>周转时间</strong>与系统为它提供服务的<strong>时间</strong>(运行时间)之比
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b50dc12102.png">
