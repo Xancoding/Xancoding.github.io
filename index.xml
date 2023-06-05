@@ -457,7 +457,6 @@
       <guid>https://xancoding.cn/posts/2023-06-01-13-33-45/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;进程同步、互斥问题&lt;/strong&gt;：PV操作伪代码&lt;/li&gt;
-&lt;li&gt;RAID&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;第一章-概述&#34;&gt;第一章 概述&lt;/h1&gt;
 &lt;p&gt;操作系统的 4 大资源管理功能是 &lt;strong&gt;处理机管理、存储器管理功能、设备管理功能、文件管理、用户接口&lt;/strong&gt;&lt;/p&gt;
@@ -698,7 +697,6 @@
 </description>
       <content:encoded><![CDATA[<ul>
 <li><strong>进程同步、互斥问题</strong>：PV操作伪代码</li>
-<li>RAID</li>
 </ul>
 <h1 id="第一章-概述">第一章 概述</h1>
 <p>操作系统的 4 大资源管理功能是 <strong>处理机管理、存储器管理功能、设备管理功能、文件管理、用户接口</strong></p>
