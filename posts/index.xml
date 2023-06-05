@@ -456,7 +456,7 @@
       
       <guid>https://xancoding.cn/posts/2023-06-01-13-33-45/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;进程同步、互斥问题&lt;/strong&gt;：PV操作伪代码&lt;strong&gt;个人手写笔记 p5&amp;ndash;p8&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;进程同步、互斥问题&lt;/strong&gt;：PV操作伪代码&lt;/li&gt;
 &lt;li&gt;RAID&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;第一章-概述&#34;&gt;第一章 概述&lt;/h1&gt;
@@ -697,7 +697,7 @@
 &lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<ul>
-<li><strong>进程同步、互斥问题</strong>：PV操作伪代码<strong>个人手写笔记 p5&ndash;p8</strong></li>
+<li><strong>进程同步、互斥问题</strong>：PV操作伪代码</li>
 <li>RAID</li>
 </ul>
 <h1 id="第一章-概述">第一章 概述</h1>
