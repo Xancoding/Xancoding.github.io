@@ -461,9 +461,10 @@
 &lt;li&gt;RAID&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;第一章-概述&#34;&gt;第一章 概述&lt;/h1&gt;
-&lt;p&gt;操作系统的 4 大资源管理功能是 &lt;strong&gt;处理机管理功能、存储器管理功能、设备管理功能、文件管理功能&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;操作系统的 4 大资源管理功能是 &lt;strong&gt;处理机管理、存储器管理功能、设备管理功能、文件管理、用户接口&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;用户和操作系统之间的接口主要分为 &lt;strong&gt;命令接口、图形接口、程序接口&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;操作系统的 个基本特征是 &lt;strong&gt;并发、共享、虚拟、异步&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;现代操作系统的两个最基本特征是 &lt;strong&gt;并发性、共享性&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;用户和操作系统之间的接口主要分为 &lt;strong&gt;命令行界面（CLI）、图形用户界面(GUI)、系统调用&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&#34;第二章-进程管理&#34;&gt;第二章 进程管理&lt;/h1&gt;
 &lt;p&gt;P（S）：将信号量S的值减1，即S=S-1；&lt;/p&gt;
 &lt;p&gt;如果S&amp;gt;=0，则该进程继续执行；否则该进程置为等待状态，排入等待队列。&lt;/p&gt;
@@ -677,6 +678,8 @@
 当用户按键时，键盘接口会得到一个代表该按键的键盘扫描码，同时产生一个中断请求。键盘中断服务程序先从键盘接口取得按键的扫描码，然后根据其扫描码判断用户所按的键并作相应的处理，最后通知中断控制器本次中断结束并实现中断返回。&lt;br&gt;
 因此，本地用户通过键盘登录系统时，首先获得键盘输入信息的程序是中断处理程序。&lt;/p&gt;
 &lt;h1 id=&#34;第五章-文件管理&#34;&gt;第五章 文件管理&lt;/h1&gt;
+&lt;p&gt;文件系统用 &lt;strong&gt;目录&lt;/strong&gt; 组织文件&lt;/p&gt;
+&lt;p&gt;允许多个用户共同使用同一个文件称为 &lt;strong&gt;文件共享&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/01/64785d387d47b.png&#34;&gt;
@@ -684,9 +687,15 @@
 &lt;/a&gt;
 &lt;/div&gt;
 
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/03/647b5ddf6ce54.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/03/647b5ddf6ce54.png&#34; alt=&#34;位式图.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
 &lt;/p&gt;
-&lt;p&gt;文件系统用 &lt;strong&gt;目录&lt;/strong&gt; 组织文件&lt;/p&gt;
-&lt;p&gt;允许多个用户共同使用同一个文件称为 &lt;strong&gt;文件共享&lt;/strong&gt;&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<ul>
 <li><strong>进程同步、互斥问题</strong>：PV操作伪代码<strong>个人手写笔记 p5&ndash;p8</strong></li>
@@ -694,9 +703,10 @@
 <li>RAID</li>
 </ul>
 <h1 id="第一章-概述">第一章 概述</h1>
-<p>操作系统的 4 大资源管理功能是 <strong>处理机管理功能、存储器管理功能、设备管理功能、文件管理功能</strong></p>
+<p>操作系统的 4 大资源管理功能是 <strong>处理机管理、存储器管理功能、设备管理功能、文件管理、用户接口</strong></p>
+<p>用户和操作系统之间的接口主要分为 <strong>命令接口、图形接口、程序接口</strong></p>
+<p>操作系统的 个基本特征是 <strong>并发、共享、虚拟、异步</strong></p>
 <p>现代操作系统的两个最基本特征是 <strong>并发性、共享性</strong></p>
-<p>用户和操作系统之间的接口主要分为 <strong>命令行界面（CLI）、图形用户界面(GUI)、系统调用</strong></p>
 <h1 id="第二章-进程管理">第二章 进程管理</h1>
 <p>P（S）：将信号量S的值减1，即S=S-1；</p>
 <p>如果S&gt;=0，则该进程继续执行；否则该进程置为等待状态，排入等待队列。</p>
@@ -910,6 +920,8 @@
 当用户按键时，键盘接口会得到一个代表该按键的键盘扫描码，同时产生一个中断请求。键盘中断服务程序先从键盘接口取得按键的扫描码，然后根据其扫描码判断用户所按的键并作相应的处理，最后通知中断控制器本次中断结束并实现中断返回。<br>
 因此，本地用户通过键盘登录系统时，首先获得键盘输入信息的程序是中断处理程序。</p>
 <h1 id="第五章-文件管理">第五章 文件管理</h1>
+<p>文件系统用 <strong>目录</strong> 组织文件</p>
+<p>允许多个用户共同使用同一个文件称为 <strong>文件共享</strong></p>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/01/64785d387d47b.png">
@@ -917,9 +929,15 @@
 </a>
 </div>
 
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/03/647b5ddf6ce54.png">
+<img src="https://bu.dusays.com/2023/06/03/647b5ddf6ce54.png" alt="位式图.png"  />
+</a>
+</div>
+
 </p>
-<p>文件系统用 <strong>目录</strong> 组织文件</p>
-<p>允许多个用户共同使用同一个文件称为 <strong>文件共享</strong></p>
 ]]></content:encoded>
     </item>
     
