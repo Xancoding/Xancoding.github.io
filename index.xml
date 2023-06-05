@@ -456,7 +456,7 @@
       
       <guid>https://xancoding.cn/posts/2023-06-01-13-33-45/</guid>
       <description>&lt;h1 id=&#34;第一章-概述&#34;&gt;第一章 概述&lt;/h1&gt;
-&lt;p&gt;操作系统的 4 大资源管理功能是 &lt;strong&gt;处理机管理、存储器管理功能、设备管理功能、文件管理、用户接口&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;操作系统的 5 大资源管理功能是 &lt;strong&gt;处理机管理、存储器管理功能、设备管理功能、文件管理、用户接口&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;用户和操作系统之间的接口主要分为 &lt;strong&gt;命令接口、图形接口、程序接口&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;操作系统的 个基本特征是 &lt;strong&gt;并发、共享、虚拟、异步&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;现代操作系统的两个最基本特征是 &lt;strong&gt;并发性、共享性&lt;/strong&gt;&lt;/p&gt;
@@ -693,7 +693,7 @@
 &lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="第一章-概述">第一章 概述</h1>
-<p>操作系统的 4 大资源管理功能是 <strong>处理机管理、存储器管理功能、设备管理功能、文件管理、用户接口</strong></p>
+<p>操作系统的 5 大资源管理功能是 <strong>处理机管理、存储器管理功能、设备管理功能、文件管理、用户接口</strong></p>
 <p>用户和操作系统之间的接口主要分为 <strong>命令接口、图形接口、程序接口</strong></p>
 <p>操作系统的 个基本特征是 <strong>并发、共享、虚拟、异步</strong></p>
 <p>现代操作系统的两个最基本特征是 <strong>并发性、共享性</strong></p>
