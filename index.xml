@@ -355,7 +355,11 @@
       <pubDate>Sat, 25 Mar 2023 08:24:56 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-03-25-08-24-56/</guid>
-      <description>&lt;h1 id=&#34;入门学习&#34;&gt;入门学习&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;学习视频&#34;&gt;学习视频&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1iT4y1d7zP/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 零基础多图详解图神经网络（GNN/GCN）【论文精读】&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;入门学习&#34;&gt;入门学习&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1FT4y1E74V?p=55&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# [双语字幕]吴恩达深度学习deeplearning.ai&lt;/a&gt; p1 &amp;ndash; p51&lt;/li&gt;
@@ -401,7 +405,11 @@
 &lt;/ol&gt;
 &lt;p&gt;需要注意的是，减少偏差和减少方差是一种 trade-off（权衡），通常无法同时达到最佳状态。我们需要根据具体问题和数据集，平衡偏差和方差的影响，选择适合的模型和方法。通常，我们可以通过交叉验证等技术来选择最佳的模型和超参数，以达到平衡偏差和方差的目的。&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="入门学习">入门学习</h1>
+      <content:encoded><![CDATA[<h1 id="学习视频">学习视频</h1>
+<ol>
+<li><a href="https://www.bilibili.com/video/BV1iT4y1d7zP/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 零基础多图详解图神经网络（GNN/GCN）【论文精读】</a></li>
+</ol>
+<h1 id="入门学习">入门学习</h1>
 <ul>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow</a></li>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1FT4y1E74V?p=55&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># [双语字幕]吴恩达深度学习deeplearning.ai</a> p1 &ndash; p51</li>
@@ -5473,6 +5481,7 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h2 id=&#34;第6章测试&#34;&gt;第6章测试&lt;/h2&gt;
 </description>
       <content:encoded><![CDATA[<h2 id="第1章测试">第1章测试</h2>
 <ol>
@@ -5586,6 +5595,7 @@ B：三极管是电流控制电流元件，通过 Rb  输入电压 的变化转�
 </div>
 
 </p>
+<h2 id="第6章测试">第6章测试</h2>
 ]]></content:encoded>
     </item>
     
