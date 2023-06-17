@@ -73,7 +73,15 @@
 &lt;/ol&gt;
 &lt;p&gt;需要注意的是，减少偏差和减少方差是一种 trade-off（权衡），通常无法同时达到最佳状态。我们需要根据具体问题和数据集，平衡偏差和方差的影响，选择适合的模型和方法。通常，我们可以通过交叉验证等技术来选择最佳的模型和超参数，以达到平衡偏差和方差的目的。&lt;/p&gt;
 &lt;h1 id=&#34;箱型图&#34;&gt;箱型图&lt;/h1&gt;
-&lt;p&gt;Medium：样本中 50% 的数据 小于 Medium
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/17/648dbf6507211.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/17/648dbf6507211.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+Medium：样本中 50% 的数据 小于 Medium
 Q1(First quartile)：样本 25% 的数据小于 第一四分位数
 Q3(Thirt quartile)：样本 75% 的数据小于 第三四分位数
 Max：排除异常值的最大值
@@ -140,7 +148,15 @@ IQR：四分位间距，数据的中间 50% 的范围&lt;/p&gt;
 </ol>
 <p>需要注意的是，减少偏差和减少方差是一种 trade-off（权衡），通常无法同时达到最佳状态。我们需要根据具体问题和数据集，平衡偏差和方差的影响，选择适合的模型和方法。通常，我们可以通过交叉验证等技术来选择最佳的模型和超参数，以达到平衡偏差和方差的目的。</p>
 <h1 id="箱型图">箱型图</h1>
-<p>Medium：样本中 50% 的数据 小于 Medium
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/17/648dbf6507211.png">
+<img src="https://bu.dusays.com/2023/06/17/648dbf6507211.png" alt="image.png"  />
+</a>
+</div>
+
+
+Medium：样本中 50% 的数据 小于 Medium
 Q1(First quartile)：样本 25% 的数据小于 第一四分位数
 Q3(Thirt quartile)：样本 75% 的数据小于 第三四分位数
 Max：排除异常值的最大值
