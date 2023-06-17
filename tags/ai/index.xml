@@ -38,6 +38,16 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;gnn图神经网络&#34;&gt;GNN图神经网络&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;GNN 对于&lt;strong&gt;超参数&lt;/strong&gt;比较敏感
+&lt;ol&gt;
+&lt;li&gt;层数&lt;/li&gt;
+&lt;li&gt;每个属性的 embedding 大小&lt;/li&gt;
+&lt;li&gt;汇聚用什么操作&lt;/li&gt;
+&lt;li&gt;如何作信息的传递&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;学习思路&#34;&gt;学习思路&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;熟悉编程语言和神经网络模型&lt;/li&gt;
@@ -114,6 +124,16 @@ IQR：四分位间距，数据的中间 50% 的范围&lt;/p&gt;
 </li>
 </ul>
 <h1 id="gnn图神经网络">GNN图神经网络</h1>
+<ul>
+<li>GNN 对于<strong>超参数</strong>比较敏感
+<ol>
+<li>层数</li>
+<li>每个属性的 embedding 大小</li>
+<li>汇聚用什么操作</li>
+<li>如何作信息的传递</li>
+</ol>
+</li>
+</ul>
 <h1 id="学习思路">学习思路</h1>
 <ol>
 <li>熟悉编程语言和神经网络模型</li>
