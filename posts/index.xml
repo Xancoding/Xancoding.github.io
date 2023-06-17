@@ -381,6 +381,7 @@
 &lt;/ul&gt;
 &lt;h1 id=&#34;gnn图神经网络&#34;&gt;GNN图神经网络&lt;/h1&gt;
 &lt;ul&gt;
+&lt;li&gt;GCN图卷积神经网络：带汇聚的图神经网络&lt;/li&gt;
 &lt;li&gt;GNN 对于&lt;strong&gt;超参数&lt;/strong&gt;比较敏感
 &lt;ol&gt;
 &lt;li&gt;层数&lt;/li&gt;
@@ -467,6 +468,7 @@ IQR：四分位间距，数据的中间 50% 的范围&lt;/p&gt;
 </ul>
 <h1 id="gnn图神经网络">GNN图神经网络</h1>
 <ul>
+<li>GCN图卷积神经网络：带汇聚的图神经网络</li>
 <li>GNN 对于<strong>超参数</strong>比较敏感
 <ol>
 <li>层数</li>
