@@ -29,7 +29,8 @@
 &lt;/ul&gt;
 &lt;h1 id=&#34;研究方向&#34;&gt;研究方向&lt;/h1&gt;
 &lt;p&gt;以 &lt;strong&gt;GNN&lt;/strong&gt; 为工具，研究 &lt;strong&gt;social network&lt;/strong&gt; 中的 &lt;strong&gt;long-tail&lt;/strong&gt; 问题，使分类的准确性更高。&lt;br&gt;
-因为 &lt;strong&gt;连接关系&lt;/strong&gt; 比较离散，向量化比较难，图神经网络所要研究的就是这方面的内容&lt;/p&gt;
+因为 &lt;strong&gt;连接关系&lt;/strong&gt; 比较离散，向量化比较难，图神经网络所要研究的就是这方面的内容&lt;br&gt;
+GNN 主要用来对图的特征的提取&lt;/p&gt;
 &lt;h1 id=&#34;gnn图神经网络&#34;&gt;GNN图神经网络&lt;/h1&gt;
 &lt;h2 id=&#34;学习路径&#34;&gt;学习路径&lt;/h2&gt;
 &lt;p&gt;从基础模型开始学习，并尝试实现自己的数据集。一旦你熟悉了基础模型，可以尝试学习进阶模型和应用场景，并了解最新的研究进展。同时，参加相关的社区和论坛，如Reddit、Quora等，可以加速你的学习和成长。&lt;/p&gt;
@@ -116,7 +117,8 @@ IQR：四分位间距，数据的中间 50% 的范围&lt;/p&gt;
 </ul>
 <h1 id="研究方向">研究方向</h1>
 <p>以 <strong>GNN</strong> 为工具，研究 <strong>social network</strong> 中的 <strong>long-tail</strong> 问题，使分类的准确性更高。<br>
-因为 <strong>连接关系</strong> 比较离散，向量化比较难，图神经网络所要研究的就是这方面的内容</p>
+因为 <strong>连接关系</strong> 比较离散，向量化比较难，图神经网络所要研究的就是这方面的内容<br>
+GNN 主要用来对图的特征的提取</p>
 <h1 id="gnn图神经网络">GNN图神经网络</h1>
 <h2 id="学习路径">学习路径</h2>
 <p>从基础模型开始学习，并尝试实现自己的数据集。一旦你熟悉了基础模型，可以尝试学习进阶模型和应用场景，并了解最新的研究进展。同时，参加相关的社区和论坛，如Reddit、Quora等，可以加速你的学习和成长。</p>
