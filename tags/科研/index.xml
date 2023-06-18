@@ -37,6 +37,8 @@
 &lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1FT4y1E74V/?p=52&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;1.6 Dropout 正则化_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;研究方向&#34;&gt;研究方向&lt;/h1&gt;
+&lt;p&gt;以 &lt;strong&gt;GNN&lt;/strong&gt; 为工具，研究 &lt;strong&gt;social network&lt;/strong&gt; 中的 &lt;strong&gt;long-tail&lt;/strong&gt; 问题，使分类的准确性更高。&lt;/p&gt;
 &lt;h1 id=&#34;gnn图神经网络&#34;&gt;GNN图神经网络&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;GCN图卷积神经网络：带汇聚的图神经网络&lt;/li&gt;
@@ -124,6 +126,8 @@ IQR：四分位间距，数据的中间 50% 的范围&lt;/p&gt;
 <p><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1FT4y1E74V/?p=52&amp;vd_source=ae16ff6478eb15c1b87880540263910b">1.6 Dropout 正则化_哔哩哔哩_bilibili</a></p>
 </li>
 </ul>
+<h1 id="研究方向">研究方向</h1>
+<p>以 <strong>GNN</strong> 为工具，研究 <strong>social network</strong> 中的 <strong>long-tail</strong> 问题，使分类的准确性更高。</p>
 <h1 id="gnn图神经网络">GNN图神经网络</h1>
 <ul>
 <li>GCN图卷积神经网络：带汇聚的图神经网络</li>
