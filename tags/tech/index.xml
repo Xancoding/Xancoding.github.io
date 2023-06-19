@@ -521,6 +521,16 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h3 id=&#34;基础设施&#34;&gt;基础设施&lt;/h3&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/19/648fb9388e67c.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/06/19/648fb9388e67c.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+前面几个还是认真自己完成的，后面碰到困难又忍不住去参考别人的代码了😭&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<p>本文是为了我在完成 ICS-PA 的过程中，踩的一些坑（当然，绝大部分是没有 <code>RTFM &amp; RTFW</code> 造成的🤣</p>
 <h1 id="计算机系统基础">计算机系统基础</h1>
@@ -576,6 +586,16 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 </div>
 
 </p>
+<h3 id="基础设施">基础设施</h3>
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/19/648fb9388e67c.png">
+<img src="https://bu.dusays.com/2023/06/19/648fb9388e67c.png" alt="image.png"  />
+</a>
+</div>
+
+
+前面几个还是认真自己完成的，后面碰到困难又忍不住去参考别人的代码了😭</p>
 ]]></content:encoded>
     </item>
     
