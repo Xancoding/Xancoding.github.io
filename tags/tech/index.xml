@@ -16,7 +16,11 @@
       <description>&lt;h1 id=&#34;学习视频&#34;&gt;学习视频&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1FT4y1E74V?p=55&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# [双语字幕]吴恩达深度学习deeplearning.ai&lt;/a&gt; p1 &amp;ndash; p4&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1FT4y1E74V?p=50&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# [双语字幕]吴恩达深度学习deeplearning.ai&lt;/a&gt; p1 &amp;ndash; p57
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; P50 &amp;ndash; 54 正则化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1iT4y1d7zP/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 零基础多图详解图神经网络（GNN/GCN）【论文精读】&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://distill.pub/2021/gnn-intro/&#34;&gt;https://distill.pub/2021/gnn-intro/&lt;/a&gt;&lt;/li&gt;
@@ -104,7 +108,11 @@ IQR：四分位间距，数据的中间 50% 的范围&lt;/p&gt;
       <content:encoded><![CDATA[<h1 id="学习视频">学习视频</h1>
 <ul>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1FT4y1E74V?p=55&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># [双语字幕]吴恩达深度学习deeplearning.ai</a> p1 &ndash; p4</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1FT4y1E74V?p=50&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># [双语字幕]吴恩达深度学习deeplearning.ai</a> p1 &ndash; p57
+<ul>
+<li><input checked="" disabled="" type="checkbox"> P50 &ndash; 54 正则化</li>
+</ul>
+</li>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1iT4y1d7zP/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 零基础多图详解图神经网络（GNN/GCN）【论文精读】</a>
 <ul>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://distill.pub/2021/gnn-intro/">https://distill.pub/2021/gnn-intro/</a></li>
