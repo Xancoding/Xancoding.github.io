@@ -369,9 +369,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://juejin.cn/post/7225588359287554085&#34;&gt;# GNN 学习路径&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1NK411D7pd/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# GNN科研入门路线&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;amp;vd_source=0cca15c3951bb93c37fc2758746d699d&#34;&gt;# Pytorch 入门学习&lt;/a&gt; 第一课&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1FT4y1E74V/?p=52&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;1.6 Dropout 正则化_哔哩哔哩_bilibili&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1NK411D7pd/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# GNN科研入门路线&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;研究方向&#34;&gt;研究方向&lt;/h1&gt;
 &lt;p&gt;以 &lt;strong&gt;GNN&lt;/strong&gt; 为工具，研究 &lt;strong&gt;social network&lt;/strong&gt; 中的 &lt;strong&gt;long-tail&lt;/strong&gt; 问题，使分类的准确性更高。&lt;br&gt;
@@ -461,9 +459,7 @@ IQR：四分位间距，数据的中间 50% 的范围&lt;/p&gt;
 </ul>
 </li>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://juejin.cn/post/7225588359287554085"># GNN 学习路径</a></li>
-<li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1NK411D7pd/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># GNN科研入门路线</a></li>
-<li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV12741177Cu/?spm_id_from=333.999.0.0&amp;vd_source=0cca15c3951bb93c37fc2758746d699d"># Pytorch 入门学习</a> 第一课</li>
-<li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1FT4y1E74V/?p=52&amp;vd_source=ae16ff6478eb15c1b87880540263910b">1.6 Dropout 正则化_哔哩哔哩_bilibili</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1NK411D7pd/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># GNN科研入门路线</a></li>
 </ul>
 <h1 id="研究方向">研究方向</h1>
 <p>以 <strong>GNN</strong> 为工具，研究 <strong>social network</strong> 中的 <strong>long-tail</strong> 问题，使分类的准确性更高。<br>
