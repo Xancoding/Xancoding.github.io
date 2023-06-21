@@ -370,6 +370,7 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://juejin.cn/post/7225588359287554085&#34;&gt;# GNN 学习路径&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1NK411D7pd/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# GNN科研入门路线&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1184y1x71H/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 不愧是公认最好的【图神经网络GNN/GCN教程】，从基础到进阶再到实战，一个合集全部到位！-人工智能/神经网络/图神经网络/深度学习&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;研究方向&#34;&gt;研究方向&lt;/h1&gt;
 &lt;p&gt;以 &lt;strong&gt;GNN&lt;/strong&gt; 为工具，研究 &lt;strong&gt;social network&lt;/strong&gt; 中的 &lt;strong&gt;long-tail&lt;/strong&gt; 问题，使分类的准确性更高。&lt;br&gt;
@@ -460,6 +461,7 @@ IQR：四分位间距，数据的中间 50% 的范围&lt;/p&gt;
 </li>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://juejin.cn/post/7225588359287554085"># GNN 学习路径</a></li>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1NK411D7pd/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># GNN科研入门路线</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1184y1x71H/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 不愧是公认最好的【图神经网络GNN/GCN教程】，从基础到进阶再到实战，一个合集全部到位！-人工智能/神经网络/图神经网络/深度学习</a></li>
 </ul>
 <h1 id="研究方向">研究方向</h1>
 <p>以 <strong>GNN</strong> 为工具，研究 <strong>social network</strong> 中的 <strong>long-tail</strong> 问题，使分类的准确性更高。<br>
