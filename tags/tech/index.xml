@@ -25,6 +25,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1R44y1o749?p=21&amp;amp;spm_id_from=pageDriver&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;对率回归求解&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1R44y1o749?p=22&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;类别不平衡&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1R44y1o749?p=23&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;决策树基本流程&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1iT4y1d7zP/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 零基础多图详解图神经网络（GNN/GCN）【论文精读】&lt;/a&gt;
@@ -122,6 +123,7 @@ IQR：四分位间距，数据的中间 50% 的范围&lt;/p&gt;
 <ul>
 <li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1R44y1o749?p=21&amp;spm_id_from=pageDriver&amp;vd_source=ae16ff6478eb15c1b87880540263910b">对率回归求解</a></li>
 <li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1R44y1o749?p=22&amp;vd_source=ae16ff6478eb15c1b87880540263910b">类别不平衡</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1R44y1o749?p=23&amp;vd_source=ae16ff6478eb15c1b87880540263910b">决策树基本流程</a></li>
 </ul>
 </li>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1iT4y1d7zP/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 零基础多图详解图神经网络（GNN/GCN）【论文精读】</a>
