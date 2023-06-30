@@ -6,7 +6,7 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 01 Jun 2023 13:33:46 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jun 2023 17:40:03 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>年度计划</title>
       <link>https://xancoding.cn/posts/2022-11-20-22-11-28/</link>
@@ -554,6 +554,96 @@ IQR：四分位间距，数据的中间 50% 的范围</p>
     </item>
     
     <item>
+      <title>6 月总结</title>
+      <link>https://xancoding.cn/posts/2023-06-30-17-40-02/</link>
+      <pubDate>Fri, 30 Jun 2023 17:40:03 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-06-30-17-40-02/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;学习：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;概率论与数理统计&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;操作系统&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;电路分析基础(0629)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;模拟电子技术基础(0614)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SICP&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;操作系统课程设计&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;机器学习&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;深度学习&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GNN&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ICS-PA&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;期末考试月。。。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <content:encoded><![CDATA[<ol>
+<li>
+<p>学习：</p>
+<ol>
+<li>
+<p>概率论与数理统计</p>
+</li>
+<li>
+<p>操作系统</p>
+</li>
+<li>
+<p>电路分析基础(0629)</p>
+</li>
+<li>
+<p>模拟电子技术基础(0614)</p>
+</li>
+<li>
+<p>SICP</p>
+</li>
+<li>
+<p>操作系统课程设计</p>
+</li>
+<li>
+<p>机器学习</p>
+</li>
+<li>
+<p>深度学习</p>
+</li>
+<li>
+<p>GNN</p>
+</li>
+<li>
+<p>ICS-PA</p>
+</li>
+</ol>
+</li>
+<li>
+<p>期末考试月。。。</p>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
+    
+    <item>
       <title>操作系统--期末复习</title>
       <link>https://xancoding.cn/posts/2023-06-01-13-33-45/</link>
       <pubDate>Thu, 01 Jun 2023 13:33:46 +0800</pubDate>
@@ -1073,9 +1163,6 @@ IQR：四分位间距，数据的中间 50% 的范围</p>
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;googletest&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1BB4y147Nv/?spm_id_from=333.788&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;https://www.bilibili.com/video/BV1BB4y147Nv/?spm_id_from=333.788&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;ICS-PA&lt;/p&gt;
@@ -1175,9 +1262,6 @@ IQR：四分位间距，数据的中间 50% 的范围</p>
 </li>
 <li>
 <p>googletest</p>
-<ol>
-<li><a href="https://www.bilibili.com/video/BV1BB4y147Nv/?spm_id_from=333.788&amp;vd_source=ae16ff6478eb15c1b87880540263910b">https://www.bilibili.com/video/BV1BB4y147Nv/?spm_id_from=333.788&amp;vd_source=ae16ff6478eb15c1b87880540263910b</a></li>
-</ol>
 </li>
 <li>
 <p>ICS-PA</p>
