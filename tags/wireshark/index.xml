@@ -8,20 +8,12 @@
     <language>zh-cn</language>
     <lastBuildDate>Sat, 12 Nov 2022 11:38:21 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/wireshark/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>计算机网络课程大作业</title>
+      <title>基于网络嗅探软件Wireshark的协议分析实验</title>
       <link>https://xancoding.cn/posts/2022-11-12-11-38-21/</link>
       <pubDate>Sat, 12 Nov 2022 11:38:21 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2022-11-12-11-38-21/</guid>
-      <description>&lt;h1 id=&#34;要求&#34;&gt;要求&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;团队合作、合理分工、按组为单位进行&lt;/li&gt;
-&lt;li&gt;报告文字内容不可拷贝粘贴现有文献，应反映小组所做的工作，有分析，实践性的选题应有具体操作或者配置过程描述，辅以截图或实验数据&lt;/li&gt;
-&lt;li&gt;所交报告中应在最后注明组员分工、参考文献，报告字数3000-6000&lt;/li&gt;
-&lt;li&gt;不同班级的小组可选择相同的题目，但重复计数（由各班学委协调），不可多于3组，且报告内容不可相同，要求独立完成各组任务&lt;/li&gt;
-&lt;li&gt;除了个别综述性的选题，其它选题要求在实际平台上实践&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;选题&#34;&gt;选题&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;概览&#34;&gt;概览&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;基于网络嗅探软件（wireshark）的协议分析实验&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1019,15 +1011,7 @@ Internet Control Message Protocol
 &lt;li&gt;&lt;a href=&#34;https://www.wireshark.org/docs/wsug_html_chunked/ChapterWork.html&#34;&gt;Wireshark官方文档&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="要求">要求</h1>
-<ol>
-<li>团队合作、合理分工、按组为单位进行</li>
-<li>报告文字内容不可拷贝粘贴现有文献，应反映小组所做的工作，有分析，实践性的选题应有具体操作或者配置过程描述，辅以截图或实验数据</li>
-<li>所交报告中应在最后注明组员分工、参考文献，报告字数3000-6000</li>
-<li>不同班级的小组可选择相同的题目，但重复计数（由各班学委协调），不可多于3组，且报告内容不可相同，要求独立完成各组任务</li>
-<li>除了个别综述性的选题，其它选题要求在实际平台上实践</li>
-</ol>
-<h1 id="选题">选题</h1>
+      <content:encoded><![CDATA[<h1 id="概览">概览</h1>
 <blockquote>
 <p><strong>基于网络嗅探软件（wireshark）的协议分析实验</strong></p>
 </blockquote>

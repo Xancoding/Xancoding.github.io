@@ -9,40 +9,35 @@
     <lastBuildDate>Mon, 17 Oct 2022 12:54:56 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown学习记</title>
-      <link>https://xancoding.cn/posts/2022-10-17-12-54-56/</link>
+      <link>https://xancoding.cn/posts/markdown/</link>
       <pubDate>Mon, 17 Oct 2022 12:54:56 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2022-10-17-12-54-56/</guid>
+      <guid>https://xancoding.cn/posts/markdown/</guid>
       <description>&lt;h1 id=&#34;markdown是什么&#34;&gt;Markdown是什么？&lt;/h1&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;markdown常用语法&#34;&gt;Markdown常用语法&lt;/h1&gt;
-&lt;h2 id=&#34;转义&#34;&gt;转义&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;如果需要避免文本中的符号被当做markdown标识符而发生不必要的格式转化，可以在符号前加&lt;code&gt;\&lt;/code&gt;来避免。&lt;/strong&gt;&lt;br&gt;
-可被转义的特殊符号如下：
+&lt;ol&gt;
+&lt;li&gt;在markdown中将链接地址或邮箱地址用&lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;包围，则会被自动转换成可点击的链接。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;u&gt;书写格式如下：&lt;/u&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;https://xancoding.cn&amp;gt;
 
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/14/63c27b0eb8fa7.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/14/63c27b0eb8fa7.png&#34; alt=&#34;NeatReader-1673689830596.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-示例如下：
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/14/63c27b112bf62.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/14/63c27b112bf62.png&#34; alt=&#34;NeatReader-1673689835606.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;角标&#34;&gt;角标&lt;/h2&gt;
+&amp;lt;zag.zj.cn@gmail.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;u&gt;解析效果如下：&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://xancoding.cn&#34;&gt;https://xancoding.cn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:zag.zj.cn@gmail.com&#34;&gt;zag.zj.cn@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;如果需要避免文本中的符号被当做markdown标识符而发生不必要的格式转化，可以在符号前加&lt;code&gt;\&lt;/code&gt;来避免。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;u&gt;书写格式如下&lt;/u&gt;：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\*不是斜体\*
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;u&gt;解析效果如下&lt;/u&gt;：&lt;/p&gt;
+&lt;p&gt;*不是斜体*&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;角标&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;不同于链接，这里的角标内容会被放在文末，点击可以实现跳转。&lt;/p&gt;
 &lt;p&gt;&lt;u&gt;书写格式如下&lt;/u&gt;：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;请参阅脚注1. [^1]
@@ -55,110 +50,6 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;u&gt;解析效果如下&lt;/u&gt;：&lt;/p&gt;
 &lt;p&gt;请参阅脚注1. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;请参阅脚注2. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;h2 id=&#34;段落与换行&#34;&gt;段落与换行&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;如果行与行之间没有空行，则会被视为同一段落&lt;/li&gt;
-&lt;li&gt;如果行与行之间有空行，则会被视为不同的段落&lt;/li&gt;
-&lt;li&gt;空行是指行内什么都没有，或者只有空格和制表符&lt;/li&gt;
-&lt;li&gt;如果想在段内换行，则需要在上一行的结尾插入两个以上的空格然后按回车键
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/14/63c271cd41342.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/14/63c271cd41342.png&#34; alt=&#34;NeatReader-1673687488276.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;代码块&#34;&gt;代码块&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;建议不要在没有输出内容的Shell命令前加&lt;code&gt;$&lt;/code&gt;，在有输出内容的Shell命令前加上&lt;code&gt;$&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;echo&lt;/span&gt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;test&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;test&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;引用&#34;&gt;引用&lt;/h2&gt;
-&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/14/63c27a5f1c3b1.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/14/63c27a5f1c3b1.png&#34; alt=&#34;NeatReader-1673689679672.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h2 id=&#34;锚点&#34;&gt;锚点&lt;/h2&gt;
-&lt;p&gt;锚点，也称为书签，用来标记文档的特定位置，使用锚点可以跳转到当前文档或其他文档中指定的标记位置&lt;/p&gt;
-&lt;p&gt;语法：&lt;code&gt;[锚点描述](#锚点名)&lt;/code&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;锚点名建议使用字母和数字，当然中文也是被支持的，但不排除有些网站支持得不够好&lt;/li&gt;
-&lt;li&gt;锚点名是区分英文大小写的&lt;/li&gt;
-&lt;li&gt;在锚点名中不能含有空格，也不能含有特殊字符&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;示例：
-&lt;code&gt;[转义](#转义)&lt;/code&gt;&lt;br&gt;
-&lt;a href=&#34;#%E8%BD%AC%E4%B9%89&#34;&gt;转义&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;表格&#34;&gt;表格&lt;/h2&gt;
-&lt;p&gt;Markdown 制作表格使用 &lt;code&gt;|&lt;/code&gt; 来分隔不同的单元格，使用 &lt;code&gt;-&lt;/code&gt; 来分隔表头和其他行&lt;/p&gt;
-&lt;p&gt;语法格式如下：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;|  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
-&lt;/code&gt;&lt;/pre&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;表头&lt;/th&gt;
-&lt;th&gt;表头&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;单元格&lt;/td&gt;
-&lt;td&gt;单元格&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;单元格&lt;/td&gt;
-&lt;td&gt;单元格&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;我们可以设置表格的对齐方式：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;-:&lt;/strong&gt; 设置内容和标题栏居右对齐。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;:-&lt;/strong&gt; 设置内容和标题栏居左对齐。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;:-:&lt;/strong&gt; 设置内容和标题栏居中对齐。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;实例如下：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;| 左对齐 | 右对齐 | 居中对齐 |
-| :-----| ----: | :----: |
-| 单元格 | 单元格 | 单元格 |
-| 单元格 | 单元格 | 单元格 |
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/14/63c294756868e.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/14/63c294756868e.png&#34; alt=&#34;NeatReader-1673696349391.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h1 id=&#34;排版技巧&#34;&gt;排版技巧&lt;/h1&gt;
-&lt;h2 id=&#34;关于空格&#34;&gt;关于空格&lt;/h2&gt;
-&lt;p&gt;建议&lt;code&gt;中文&lt;/code&gt;和&lt;code&gt;英文&lt;/code&gt;之间加空格，&lt;code&gt;中/英文&lt;/code&gt;和&lt;code&gt;数字&lt;/code&gt;之间也要加空格&lt;/p&gt;
-&lt;h3 id=&#34;加空格的情况&#34;&gt;加空格的情况&lt;/h3&gt;
-&lt;p&gt;英文标点符号与后面的字符之间需要加空格，与前面的字符之间不需要加空格：&lt;br&gt;
-&lt;code&gt;More ways to shop:Visit an Apple Store, call 1-800-MY-APPLE, or find a reseller&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;当在中文、英文中使用&lt;code&gt;＞&lt;/code&gt;标识路径时，两边都需要加空格：&lt;br&gt;
-&lt;code&gt;Erase data and settings in Settings &amp;gt; General &amp;gt; Reset &amp;gt; Erase all Content and Settings&lt;/code&gt;&lt;br&gt;
-&lt;code&gt;抹掉所有内容和设置的操作步骤：设置 &amp;gt; 通用 &amp;gt; 还原 &amp;gt; 抹掉所有内容和设置&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;不加空格的情况&#34;&gt;不加空格的情况&lt;/h3&gt;
-&lt;p&gt;中文标点符号和数字、中文、英文之间不需要添加空格&lt;/p&gt;
-&lt;p&gt;数字和百分号之间不需要添加空格&lt;/p&gt;
-&lt;p&gt;数字和单位符号之间不需要添加空格&lt;/p&gt;
-&lt;p&gt;英文和数字组合成的名字之间不需要添加空格&lt;/p&gt;
-&lt;p&gt;当&lt;code&gt;/&lt;/code&gt;表示“或”、“路径”时，与前后的字符之间均不加空格：&lt;br&gt;
-&lt;code&gt;小明精通“Python/Java/Go/Swift”的Hello Word打印语法&lt;/code&gt;&lt;br&gt;
-&lt;code&gt;/Volumes/warehouse/README.md&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;货币符号后不加空格&lt;/p&gt;
-&lt;p&gt;负号后不加空格&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://haoeric.github.io/markdown-grammar/#fnref:1&#34;&gt;Markdown - All You Need to Know&lt;/a&gt;&lt;/li&gt;
@@ -399,34 +290,29 @@
 </description>
       <content:encoded><![CDATA[<h1 id="markdown是什么">Markdown是什么？</h1>
 <blockquote>
-<p><strong>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。</strong></p>
-<p><strong>它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。</strong></p>
-<p><strong>因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等</strong></p>
+<p><strong>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等</strong></p>
 </blockquote>
 <h1 id="markdown常用语法">Markdown常用语法</h1>
-<h2 id="转义">转义</h2>
-<ul>
-<li><strong>如果需要避免文本中的符号被当做markdown标识符而发生不必要的格式转化，可以在符号前加<code>\</code>来避免。</strong><br>
-可被转义的特殊符号如下：
+<ol>
+<li>在markdown中将链接地址或邮箱地址用<code>&lt;&gt;</code>包围，则会被自动转换成可点击的链接。</li>
+</ol>
+<p><u>书写格式如下：</u></p>
+<pre tabindex="0"><code>&lt;https://xancoding.cn&gt;
 
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/14/63c27b0eb8fa7.png">
-<img src="https://bu.dusays.com/2023/01/14/63c27b0eb8fa7.png" alt="NeatReader-1673689830596.png"  />
-</a>
-</div>
-
-
-示例如下：
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/14/63c27b112bf62.png">
-<img src="https://bu.dusays.com/2023/01/14/63c27b112bf62.png" alt="NeatReader-1673689835606.png"  />
-</a>
-</div>
-
-</li>
-</ul>
-<h2 id="角标">角标</h2>
+&lt;zag.zj.cn@gmail.com&gt;
+</code></pre><p><u>解析效果如下：</u></p>
+<p><a href="https://xancoding.cn">https://xancoding.cn</a></p>
+<p><a href="mailto:zag.zj.cn@gmail.com">zag.zj.cn@gmail.com</a></p>
+<ol start="2">
+<li>如果需要避免文本中的符号被当做markdown标识符而发生不必要的格式转化，可以在符号前加<code>\</code>来避免。</li>
+</ol>
+<p><u>书写格式如下</u>：</p>
+<pre tabindex="0"><code>\*不是斜体\*
+</code></pre><p><u>解析效果如下</u>：</p>
+<p>*不是斜体*</p>
+<ol start="3">
+<li>角标</li>
+</ol>
 <p>不同于链接，这里的角标内容会被放在文末，点击可以实现跳转。</p>
 <p><u>书写格式如下</u>：</p>
 <pre tabindex="0"><code>请参阅脚注1. [^1]
@@ -439,110 +325,6 @@
 </code></pre><p><u>解析效果如下</u>：</p>
 <p>请参阅脚注1. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>请参阅脚注2. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
-<h2 id="段落与换行">段落与换行</h2>
-<ol>
-<li>如果行与行之间没有空行，则会被视为同一段落</li>
-<li>如果行与行之间有空行，则会被视为不同的段落</li>
-<li>空行是指行内什么都没有，或者只有空格和制表符</li>
-<li>如果想在段内换行，则需要在上一行的结尾插入两个以上的空格然后按回车键
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/14/63c271cd41342.png">
-<img src="https://bu.dusays.com/2023/01/14/63c271cd41342.png" alt="NeatReader-1673687488276.png"  />
-</a>
-</div>
-
-</li>
-</ol>
-<h2 id="代码块">代码块</h2>
-<ol>
-<li>建议不要在没有输出内容的Shell命令前加<code>$</code>，在有输出内容的Shell命令前加上<code>$</code></li>
-</ol>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ <span style="color:#fff;font-weight:bold">echo</span> <span style="color:#0ff;font-weight:bold">&#34;test&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">test</span>
-</span></span></code></pre></div><h2 id="引用">引用</h2>
-<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/14/63c27a5f1c3b1.png">
-<img src="https://bu.dusays.com/2023/01/14/63c27a5f1c3b1.png" alt="NeatReader-1673689679672.png"  />
-</a>
-</div>
-
-</p>
-<h2 id="锚点">锚点</h2>
-<p>锚点，也称为书签，用来标记文档的特定位置，使用锚点可以跳转到当前文档或其他文档中指定的标记位置</p>
-<p>语法：<code>[锚点描述](#锚点名)</code></p>
-<ol>
-<li>锚点名建议使用字母和数字，当然中文也是被支持的，但不排除有些网站支持得不够好</li>
-<li>锚点名是区分英文大小写的</li>
-<li>在锚点名中不能含有空格，也不能含有特殊字符</li>
-</ol>
-<p>示例：
-<code>[转义](#转义)</code><br>
-<a href="#%E8%BD%AC%E4%B9%89">转义</a></p>
-<h2 id="表格">表格</h2>
-<p>Markdown 制作表格使用 <code>|</code> 来分隔不同的单元格，使用 <code>-</code> 来分隔表头和其他行</p>
-<p>语法格式如下：</p>
-<pre tabindex="0"><code>|  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
-</code></pre><table>
-<thead>
-<tr>
-<th>表头</th>
-<th>表头</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-<tr>
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-</tbody>
-</table>
-<p><strong>我们可以设置表格的对齐方式：</strong></p>
-<ul>
-<li><strong>-:</strong> 设置内容和标题栏居右对齐。</li>
-<li><strong>:-</strong> 设置内容和标题栏居左对齐。</li>
-<li><strong>:-:</strong> 设置内容和标题栏居中对齐。</li>
-</ul>
-<p>实例如下：</p>
-<pre tabindex="0"><code>| 左对齐 | 右对齐 | 居中对齐 |
-| :-----| ----: | :----: |
-| 单元格 | 单元格 | 单元格 |
-| 单元格 | 单元格 | 单元格 |
-</code></pre><p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/14/63c294756868e.png">
-<img src="https://bu.dusays.com/2023/01/14/63c294756868e.png" alt="NeatReader-1673696349391.png"  />
-</a>
-</div>
-
-</p>
-<h1 id="排版技巧">排版技巧</h1>
-<h2 id="关于空格">关于空格</h2>
-<p>建议<code>中文</code>和<code>英文</code>之间加空格，<code>中/英文</code>和<code>数字</code>之间也要加空格</p>
-<h3 id="加空格的情况">加空格的情况</h3>
-<p>英文标点符号与后面的字符之间需要加空格，与前面的字符之间不需要加空格：<br>
-<code>More ways to shop:Visit an Apple Store, call 1-800-MY-APPLE, or find a reseller</code></p>
-<p>当在中文、英文中使用<code>＞</code>标识路径时，两边都需要加空格：<br>
-<code>Erase data and settings in Settings &gt; General &gt; Reset &gt; Erase all Content and Settings</code><br>
-<code>抹掉所有内容和设置的操作步骤：设置 &gt; 通用 &gt; 还原 &gt; 抹掉所有内容和设置</code></p>
-<h3 id="不加空格的情况">不加空格的情况</h3>
-<p>中文标点符号和数字、中文、英文之间不需要添加空格</p>
-<p>数字和百分号之间不需要添加空格</p>
-<p>数字和单位符号之间不需要添加空格</p>
-<p>英文和数字组合成的名字之间不需要添加空格</p>
-<p>当<code>/</code>表示“或”、“路径”时，与前后的字符之间均不加空格：<br>
-<code>小明精通“Python/Java/Go/Swift”的Hello Word打印语法</code><br>
-<code>/Volumes/warehouse/README.md</code></p>
-<p>货币符号后不加空格</p>
-<p>负号后不加空格</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="http://haoeric.github.io/markdown-grammar/#fnref:1">Markdown - All You Need to Know</a></li>

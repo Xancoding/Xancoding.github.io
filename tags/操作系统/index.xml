@@ -9,236 +9,11 @@
     <lastBuildDate>Tue, 15 Nov 2022 12:04:42 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>操作系统</title>
-      <link>https://xancoding.cn/posts/2022-11-15-12-04-42/</link>
+      <link>https://xancoding.cn/posts/os/</link>
       <pubDate>Tue, 15 Nov 2022 12:04:42 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2022-11-15-12-04-42/</guid>
-      <description>&lt;h1 id=&#34;链接&#34;&gt;链接&lt;/h1&gt;
-&lt;h2 id=&#34;程序设计时&#34;&gt;程序设计时&lt;/h2&gt;
-&lt;p&gt;在这种情况下，我们将所有的源代码都放在一个文件中，例如 &lt;code&gt;main.cpp&lt;/code&gt;：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#include &amp;lt;iostream&amp;gt;
-
-int add(int a, int b) {
-    return a + b;
-}
-
-int main() {
-    int a = 1, b = 2;
-    std::cout &amp;lt;&amp;lt; add(a, b) &amp;lt;&amp;lt; std::endl;
-    return 0;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在编译时，我们只需要编译这一个文件：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;g++ main.cpp -o program
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这样就生成了可执行文件 &lt;code&gt;program&lt;/code&gt;，可以直接运行。在这种情况下，所有的代码都在一个文件中，编译器可以直接看到所有的代码，进行必要的优化，生成更高效的代码。&lt;/p&gt;
-&lt;h2 id=&#34;编译或汇编时&#34;&gt;编译或汇编时&lt;/h2&gt;
-&lt;p&gt;这种情况下，我们将程序拆分成多个源文件，并在编译或汇编时进行链接。例如，我们有两个源文件 &lt;code&gt;add.cpp&lt;/code&gt; 和 &lt;code&gt;main.cpp&lt;/code&gt;：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// add.cpp
-int add(int a, int b) {
-    return a + b;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// main.cpp
-#include &amp;lt;iostream&amp;gt;
-
-int add(int a, int b);
-
-int main() {
-    int a = 1, b = 2;
-    std::cout &amp;lt;&amp;lt; add(a, b) &amp;lt;&amp;lt; std::endl;
-    return 0;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在编译时，我们需要先将每个源文件编译成目标文件，然后再将它们链接在一起生成可执行文件。例如，我们可以这样编译和链接：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;g++ -c add.cpp -o add.o
-g++ -c main.cpp -o main.o
-g++ add.o main.o -o program
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这样也会生成可执行文件 &lt;code&gt;program&lt;/code&gt;。在这种情况下，编译器只能看到单个源文件中的代码，无法对整个程序进行优化，因此可能会生成一些冗余的代码。但是，由于目标文件已经生成，后续的编译速度会更快。&lt;/p&gt;
-&lt;h2 id=&#34;加载时链接和运行时链接&#34;&gt;加载时链接和运行时链接&lt;/h2&gt;
-&lt;p&gt;加载时动态链接是指在可执行文件被加载到内存时，由系统动态链接器将可执行文件所依赖的共享库链接到进程的地址空间中。这样一来，可执行文件和共享库的代码和数据就可以在同一个地址空间中执行和访问。这种方式的优点是加载后不需要进行额外的链接操作，因此程序启动速度较快。缺点是如果共享库更新或者变更，需要重新编译和链接可执行文件。&lt;/p&gt;
-&lt;p&gt;运行时动态链接是指在程序运行过程中，通过调用动态链接库（也称为共享库）的API函数，将共享库链接到进程的地址空间中。这样一来，程序可以在运行时根据需要动态地加载和卸载共享库。这种方式的优点是程序的灵活性和可维护性较高，但是在程序启动时需要进行额外的链接操作，因此启动速度相对较慢。&lt;/p&gt;
-&lt;p&gt;在加载时动态链接中，程序在运行之前会链接所需要的 DLL 文件，并将 DLL 文件中的代码和数据加载到内存中。这种链接方式的好处是可以减小可执行文件的大小，同时多个程序可以共享同一个 DLL 文件，减少内存占用。缺点是如果所需的 DLL 文件不存在或者出现错误，程序将无法运行。&lt;/p&gt;
-&lt;p&gt;在运行时动态链接中，程序在运行时使用特定的函数动态链接到 DLL 文件中的代码和数据。这种链接方式的好处是可以在运行时根据需要加载 DLL 文件，灵活性更高。缺点是每次调用 DLL 中的函数都需要进行链接，会带来一定的性能开销。&lt;/p&gt;
-&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/05/01/644fcb381cdf8.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/05/01/644fcb381cdf8.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h1 id=&#34;记录型信号量&#34;&gt;记录型信号量&lt;/h1&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;S&lt;span style=&#34;color:#f00&#34;&gt;：信号量的值。当其值大于&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f00&#34;&gt;时，表示可供使用的资源数；当其值小于&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f00&#34;&gt;时，其绝对值表示等待使用该资源的进程数&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;/* P 操作的定义 */&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;P(S)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	S.value--;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;if&lt;/span&gt; (S.value &amp;lt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;0&lt;/span&gt;) 
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#007f7f&#34;&gt;// 将该进程加到 S.list 队列
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;		block();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;/* V 操作的定义 */&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;V(S)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	S.value++;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;if&lt;/span&gt; (S.value &amp;lt;= &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;0&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#007f7f&#34;&gt;// 从 S.list 队列中将 Q 移走
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;		wakeup(Q);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;进程同步问题&#34;&gt;进程同步问题&lt;/h1&gt;
-&lt;h2 id=&#34;生产者--消费者&#34;&gt;生产者&amp;ndash;消费者&lt;/h2&gt;
-&lt;p&gt;假设有一个缓冲区，生产者往其中生产数据，消费者从其中取出数据。生产者和消费者各有若干个，它们之间需要通过缓冲区进行数据交换。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;初始化信号量：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;empty：计数信号量，初始值为N，表示缓冲区空闲的数量。&lt;/li&gt;
-&lt;li&gt;full：计数信号量，初始值为0，表示缓冲区中已经存放的数据量。&lt;/li&gt;
-&lt;li&gt;mutex：互斥信号量，初始值为1，用于保护缓冲区的互斥访问。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;生产者过程：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;produce&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;item&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 生产数据
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;empty&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 等待空闲缓冲区
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 占用缓冲区
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;put&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;item&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 将数据放入缓冲区
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放缓冲区
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;full&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 增加缓冲区已有数据的数量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;消费者过程：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;full&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 等待有数据的缓冲区
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 占用缓冲区
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;item&lt;/span&gt; = &lt;span style=&#34;font-weight:bold&#34;&gt;get&lt;/span&gt;();  &lt;span style=&#34;color:#007f7f&#34;&gt;// 从缓冲区取出数据
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放缓冲区
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;empty&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 增加空闲缓冲区的数量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;consume&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;item&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 消费数据
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量mutex，每次只有一个进程可以占用资源，以保证缓冲区的互斥访问。对于计数信号量empty和full，它们都是等待队列，生产者和消费者通过占用和释放信号量来加入和离开等待队列。&lt;/p&gt;
-&lt;h2 id=&#34;理发师问题&#34;&gt;理发师问题&lt;/h2&gt;
-&lt;h3 id=&#34;问题描述&#34;&gt;问题描述&lt;/h3&gt;
-&lt;p&gt;一个理发店有一个理发师和若干个顾客。理发师可以理发，顾客可以等待理发或者离开。当顾客进入理发店时，如果理发师忙，顾客就等待。如果理发师闲着，顾客就可以马上得到理发。理发师理完一位顾客的头发后，会从等待区中选择一个顾客进行服务。&lt;/p&gt;
-&lt;p&gt;问题的关键在于如何使理发师和顾客之间进行合理的协作，避免死锁和饥饿的问题。&lt;/p&gt;
-&lt;h3 id=&#34;解决办法&#34;&gt;解决办法&lt;/h3&gt;
-&lt;p&gt;经典的解决方法是使用信号量机制实现同步。定义以下信号量：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;customers：计数信号量，初始值为0，表示等待理发的顾客数量。&lt;/li&gt;
-&lt;li&gt;barber：互斥信号量，初始值为1，用于控制理发师的访问。&lt;/li&gt;
-&lt;li&gt;mutex：互斥信号量，初始值为1，用于保护customers计数信号量的互斥访问。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;理发师过程：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;customers&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 等待有顾客到来
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 占用顾客数量计数信号量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;customer&lt;/span&gt; = &lt;span style=&#34;font-weight:bold&#34;&gt;dequeue&lt;/span&gt;();  &lt;span style=&#34;color:#007f7f&#34;&gt;// 从顾客队列中取出一个顾客
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放顾客数量计数信号量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;cut_hair&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;customer&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 为顾客理发
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;barber&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 理发
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;顾客过程：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 占用顾客数量计数信号量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;customers&lt;/span&gt; &amp;lt; &lt;span style=&#34;font-weight:bold&#34;&gt;chairs&lt;/span&gt;) {  &lt;span style=&#34;color:#007f7f&#34;&gt;// 如果有空椅子
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;enqueue&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;customer&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 排队等待理发
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;customers&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 增加等待的顾客数量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放顾客数量计数信号量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;barber&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 等待理发师空闲
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;get_haircut&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;customer&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 接受理发师的服务
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    } &lt;span style=&#34;font-weight:bold&#34;&gt;else&lt;/span&gt; {  &lt;span style=&#34;color:#007f7f&#34;&gt;// 如果没有空椅子，离开
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放顾客数量计数信号量
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;leave&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;customer&lt;/span&gt;);  &lt;span style=&#34;color:#007f7f&#34;&gt;// 离开理发店
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量barber和mutex，每次只有一个进程可以占用资源，以保证对理发师和顾客队列的互斥访问。对于计数信号量customers，它是一个等待队列，顾客通过占用和释放信号量来加入和离开等待队列，而理发师则通过占用和释放信号量来控制顾客的理发顺序。&lt;/p&gt;
-&lt;h2 id=&#34;读者--写者问题&#34;&gt;读者&amp;ndash;写者问题&lt;/h2&gt;
-&lt;h3 id=&#34;问题描述-1&#34;&gt;问题描述&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;多个读者和写者共享一个资源，读者可以同时读取该资源，但写者进行写操作时需要独占该资源；&lt;/li&gt;
-&lt;li&gt;写者优先级高于读者，即当有写者等待时，不允许新的读者访问资源，直到所有写者完成写操作；&lt;/li&gt;
-&lt;li&gt;读写操作的互斥性，即在同一时刻只允许一个读写操作进行。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;解决办法-1&#34;&gt;解决办法&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;wmutex：计数信号量，初始值为1，用于保护写操作的互斥访问。&lt;/li&gt;
-&lt;li&gt;rmutex：计数信号量，初始值为1，用于互斥访问 readcount。&lt;/li&gt;
-&lt;li&gt;readcount：整型变量，初始值为0，表示读者计数器&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;写者：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;wmutex&lt;/span&gt;);        &lt;span style=&#34;color:#007f7f&#34;&gt;// 请求写访问权
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;write_data&lt;/span&gt;();    &lt;span style=&#34;color:#007f7f&#34;&gt;// 写操作
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;wmutex&lt;/span&gt;);        &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放写访问权
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;读者：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;rmutex&lt;/span&gt;); &lt;span style=&#34;color:#007f7f&#34;&gt;// 保证对计数器的互斥访问
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;readcount&lt;/span&gt;++; &lt;span style=&#34;color:#007f7f&#34;&gt;// 有一个读者进入临界区
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;readcount&lt;/span&gt; == &lt;span style=&#34;font-weight:bold&#34;&gt;1&lt;/span&gt;) { &lt;span style=&#34;color:#007f7f&#34;&gt;// 如果是第一个读者
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;wmutex&lt;/span&gt;); &lt;span style=&#34;color:#007f7f&#34;&gt;// 请求写访问权，禁止写者同时写入
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;rmutex&lt;/span&gt;); &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放对计数器的访问
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;read_data&lt;/span&gt;(); &lt;span style=&#34;color:#007f7f&#34;&gt;// 读操作
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;rmutex&lt;/span&gt;); &lt;span style=&#34;color:#007f7f&#34;&gt;// 保证对计数器的互斥访问
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;readcount--&lt;/span&gt;; &lt;span style=&#34;color:#007f7f&#34;&gt;// 有一个读者离开临界区
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;readers&lt;/span&gt; == &lt;span style=&#34;font-weight:bold&#34;&gt;0&lt;/span&gt;) { &lt;span style=&#34;color:#007f7f&#34;&gt;// 如果是最后一个读者
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;wmutex&lt;/span&gt;); &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放写访问权
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;  }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;rmutex&lt;/span&gt;); &lt;span style=&#34;color:#007f7f&#34;&gt;// 释放对计数器的访问
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;哲学家就餐问题&#34;&gt;哲学家就餐问题&lt;/h2&gt;
-&lt;h3 id=&#34;问题描述-2&#34;&gt;问题描述&lt;/h3&gt;
-&lt;p&gt;在一个圆形餐桌上坐着N个哲学家，每个哲学家面前有一盘食物和一只叉子。这些哲学家只有在同时拿到自己面前的两个叉子时才能进食。每个哲学家都有两个邻居，因此有N个叉子。&lt;/p&gt;
-&lt;p&gt;问题的关键在于如何使哲学家能够避免死锁和饥饿地进食。&lt;/p&gt;
-&lt;h3 id=&#34;解决办法-2&#34;&gt;解决办法&lt;/h3&gt;
-&lt;p&gt;解决哲学家就餐问题的一种常见方法是使用资源分级和时间限制。以下是一种解决方案：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;给每个叉子都分配一个编号，从1到N。&lt;/li&gt;
-&lt;li&gt;哲学家只有在同时拿到两个编号为i和(i+1)%N的叉子时才能吃饭。&lt;/li&gt;
-&lt;li&gt;为了避免死锁，可以采用两种方法之一：
-&lt;ul&gt;
-&lt;li&gt;方法一：将一个叉子的拿取和放下操作定义为原子性操作，采用信号量来实现同步。每个哲学家需要先尝试获取自己左右两个叉子的信号量，只有在同时获取到两个信号量时才能进食。在哲学家用完餐具后，释放这两个信号量，让其他哲学家能够使用这些餐具。&lt;/li&gt;
-&lt;li&gt;方法二：引入一个“服务员”线程，服务员维护一个计数器，记录当前使用餐具的数量。当哲学家需要进餐时，需要向服务员发出请求。服务员检查当前使用餐具的数量是否已经达到了N-1，如果是，则等待一段时间再重新检查，直到有餐具被释放出来。如果不是，则服务员将餐具分配给该哲学家。哲学家用完餐具后，将餐具归还给服务员。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;需要注意的是，无论是哪种方法，都需要遵循以下两个原则：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;要确保每个哲学家都能获得进餐的机会，避免饥饿。&lt;/li&gt;
-&lt;li&gt;要确保所有哲学家都能进餐，而不会导致死锁。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;图书馆阅览室问题&#34;&gt;图书馆阅览室问题&lt;/h2&gt;
-&lt;h3 id=&#34;问题描述-3&#34;&gt;问题描述&lt;/h3&gt;
-&lt;p&gt;假定阅览室最多可同时容纳 100 个人阅读，读者进入时，必须在阅览室门口的一个登记表上登记，内容包括姓名、座号等，离开时要撤掉登记内容。用P、V操作描述读者进程的同步算法。&lt;/p&gt;
-&lt;h3 id=&#34;解决办法-3&#34;&gt;解决办法&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;count：计数信号量，初始值为100，代表阅览室的空闲座位数&lt;/li&gt;
-&lt;li&gt;mutex：计数信号量，初始值为1，用于互斥访问登记表&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;while&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;count&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#f00&#34;&gt;查登记表，置某座位为占用；&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	......
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;read&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	......
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;P&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#f00&#34;&gt;查登记表，置某座位为空；&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;mutex&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;font-weight:bold&#34;&gt;V&lt;/span&gt;(&lt;span style=&#34;font-weight:bold&#34;&gt;count&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
-&lt;ul&gt;
+      <guid>https://xancoding.cn/posts/os/</guid>
+      <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Cm4y1d7Ur/?spm_id_from=333.788&#34;&gt;NJU操作系统&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://jyywiki.cn/OS/2022/&#34;&gt;操作系统：设计与实现 (2022 春季学期)&lt;/a&gt;&lt;/li&gt;
@@ -248,10 +23,10 @@ g++ add.o main.o -o program
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/33463930/&#34;&gt;《操作系统导论》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/27096665/&#34;&gt;《现代操作系统》（原书第4版）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://book.douban.com/subject/5064311/&#34;&gt;《操作系统:精髓与设计原理》&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;&lt;a href=&#34;https://book.douban.com/subject/26912767/&#34;&gt;《深入理解计算机系统（原书第3版）》CSAPP&lt;/a&gt;&lt;/strong&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/33463930/&#34;&gt;《操作系统导论》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/35208251/&#34;&gt;《现代操作系统》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://book.douban.com/subject/5064311/&#34;&gt;《操作系统:精髓与设计原理》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://book.douban.com/subject/26912767/&#34;&gt;《深入理解计算机系统（原书第3版）》CSAPP&lt;/a&gt;&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;计算机组成 + 操作系统 + 汇编 + C语言 + Linux系统编程&lt;/strong&gt;
 &lt;!DOCTYPE HTML&gt;
@@ -680,7 +455,7 @@ g++ add.o main.o -o program
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div class=&#34;douban_show&#34;&gt;
-    &lt;div id=&#34;dbhttps://book.douban.com/subject/27096665/&#34; urlstring=&#34;https://book.douban.com/subject/27096665/&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
+    &lt;div id=&#34;dbhttps://book.douban.com/subject/35208251/&#34; urlstring=&#34;https://book.douban.com/subject/35208251/&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
@@ -1122,232 +897,7 @@ g++ add.o main.o -o program
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="链接">链接</h1>
-<h2 id="程序设计时">程序设计时</h2>
-<p>在这种情况下，我们将所有的源代码都放在一个文件中，例如 <code>main.cpp</code>：</p>
-<pre tabindex="0"><code>#include &lt;iostream&gt;
-
-int add(int a, int b) {
-    return a + b;
-}
-
-int main() {
-    int a = 1, b = 2;
-    std::cout &lt;&lt; add(a, b) &lt;&lt; std::endl;
-    return 0;
-}
-</code></pre><p>在编译时，我们只需要编译这一个文件：</p>
-<pre tabindex="0"><code>g++ main.cpp -o program
-</code></pre><p>这样就生成了可执行文件 <code>program</code>，可以直接运行。在这种情况下，所有的代码都在一个文件中，编译器可以直接看到所有的代码，进行必要的优化，生成更高效的代码。</p>
-<h2 id="编译或汇编时">编译或汇编时</h2>
-<p>这种情况下，我们将程序拆分成多个源文件，并在编译或汇编时进行链接。例如，我们有两个源文件 <code>add.cpp</code> 和 <code>main.cpp</code>：</p>
-<pre tabindex="0"><code>// add.cpp
-int add(int a, int b) {
-    return a + b;
-}
-</code></pre><pre tabindex="0"><code>// main.cpp
-#include &lt;iostream&gt;
-
-int add(int a, int b);
-
-int main() {
-    int a = 1, b = 2;
-    std::cout &lt;&lt; add(a, b) &lt;&lt; std::endl;
-    return 0;
-}
-</code></pre><p>在编译时，我们需要先将每个源文件编译成目标文件，然后再将它们链接在一起生成可执行文件。例如，我们可以这样编译和链接：</p>
-<pre tabindex="0"><code>g++ -c add.cpp -o add.o
-g++ -c main.cpp -o main.o
-g++ add.o main.o -o program
-</code></pre><p>这样也会生成可执行文件 <code>program</code>。在这种情况下，编译器只能看到单个源文件中的代码，无法对整个程序进行优化，因此可能会生成一些冗余的代码。但是，由于目标文件已经生成，后续的编译速度会更快。</p>
-<h2 id="加载时链接和运行时链接">加载时链接和运行时链接</h2>
-<p>加载时动态链接是指在可执行文件被加载到内存时，由系统动态链接器将可执行文件所依赖的共享库链接到进程的地址空间中。这样一来，可执行文件和共享库的代码和数据就可以在同一个地址空间中执行和访问。这种方式的优点是加载后不需要进行额外的链接操作，因此程序启动速度较快。缺点是如果共享库更新或者变更，需要重新编译和链接可执行文件。</p>
-<p>运行时动态链接是指在程序运行过程中，通过调用动态链接库（也称为共享库）的API函数，将共享库链接到进程的地址空间中。这样一来，程序可以在运行时根据需要动态地加载和卸载共享库。这种方式的优点是程序的灵活性和可维护性较高，但是在程序启动时需要进行额外的链接操作，因此启动速度相对较慢。</p>
-<p>在加载时动态链接中，程序在运行之前会链接所需要的 DLL 文件，并将 DLL 文件中的代码和数据加载到内存中。这种链接方式的好处是可以减小可执行文件的大小，同时多个程序可以共享同一个 DLL 文件，减少内存占用。缺点是如果所需的 DLL 文件不存在或者出现错误，程序将无法运行。</p>
-<p>在运行时动态链接中，程序在运行时使用特定的函数动态链接到 DLL 文件中的代码和数据。这种链接方式的好处是可以在运行时根据需要加载 DLL 文件，灵活性更高。缺点是每次调用 DLL 中的函数都需要进行链接，会带来一定的性能开销。</p>
-<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/05/01/644fcb381cdf8.png">
-<img src="https://bu.dusays.com/2023/05/01/644fcb381cdf8.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
-<h1 id="记录型信号量">记录型信号量</h1>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>S<span style="color:#f00">：信号量的值。当其值大于</span> <span style="color:#ff0;font-weight:bold">0</span> <span style="color:#f00">时，表示可供使用的资源数；当其值小于</span> <span style="color:#ff0;font-weight:bold">0</span> <span style="color:#f00">时，其绝对值表示等待使用该资源的进程数</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">/* P 操作的定义 */</span>
-</span></span><span style="display:flex;"><span>P(S)
-</span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>	S.value--;
-</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">if</span> (S.value &lt; <span style="color:#ff0;font-weight:bold">0</span>) 
-</span></span><span style="display:flex;"><span>	{
-</span></span><span style="display:flex;"><span>		<span style="color:#007f7f">// 将该进程加到 S.list 队列
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>		block();
-</span></span><span style="display:flex;"><span>	}
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#007f7f">/* V 操作的定义 */</span>
-</span></span><span style="display:flex;"><span>V(S)
-</span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>	S.value++;
-</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">if</span> (S.value &lt;= <span style="color:#ff0;font-weight:bold">0</span>)
-</span></span><span style="display:flex;"><span>	{
-</span></span><span style="display:flex;"><span>		<span style="color:#007f7f">// 从 S.list 队列中将 Q 移走
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>		wakeup(Q);
-</span></span><span style="display:flex;"><span>	}
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h1 id="进程同步问题">进程同步问题</h1>
-<h2 id="生产者--消费者">生产者&ndash;消费者</h2>
-<p>假设有一个缓冲区，生产者往其中生产数据，消费者从其中取出数据。生产者和消费者各有若干个，它们之间需要通过缓冲区进行数据交换。</p>
-<ol>
-<li>初始化信号量：</li>
-</ol>
-<ul>
-<li>empty：计数信号量，初始值为N，表示缓冲区空闲的数量。</li>
-<li>full：计数信号量，初始值为0，表示缓冲区中已经存放的数据量。</li>
-<li>mutex：互斥信号量，初始值为1，用于保护缓冲区的互斥访问。</li>
-</ul>
-<ol start="2">
-<li>生产者过程：</li>
-</ol>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">produce</span>(<span style="font-weight:bold">item</span>);  <span style="color:#007f7f">// 生产数据
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">empty</span>);  <span style="color:#007f7f">// 等待空闲缓冲区
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 占用缓冲区
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">put</span>(<span style="font-weight:bold">item</span>);  <span style="color:#007f7f">// 将数据放入缓冲区
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 释放缓冲区
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">full</span>);  <span style="color:#007f7f">// 增加缓冲区已有数据的数量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}
-</span></span></code></pre></div><ol start="3">
-<li>消费者过程：</li>
-</ol>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">full</span>);  <span style="color:#007f7f">// 等待有数据的缓冲区
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 占用缓冲区
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">item</span> = <span style="font-weight:bold">get</span>();  <span style="color:#007f7f">// 从缓冲区取出数据
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 释放缓冲区
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">empty</span>);  <span style="color:#007f7f">// 增加空闲缓冲区的数量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">consume</span>(<span style="font-weight:bold">item</span>);  <span style="color:#007f7f">// 消费数据
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}
-</span></span></code></pre></div><p>在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量mutex，每次只有一个进程可以占用资源，以保证缓冲区的互斥访问。对于计数信号量empty和full，它们都是等待队列，生产者和消费者通过占用和释放信号量来加入和离开等待队列。</p>
-<h2 id="理发师问题">理发师问题</h2>
-<h3 id="问题描述">问题描述</h3>
-<p>一个理发店有一个理发师和若干个顾客。理发师可以理发，顾客可以等待理发或者离开。当顾客进入理发店时，如果理发师忙，顾客就等待。如果理发师闲着，顾客就可以马上得到理发。理发师理完一位顾客的头发后，会从等待区中选择一个顾客进行服务。</p>
-<p>问题的关键在于如何使理发师和顾客之间进行合理的协作，避免死锁和饥饿的问题。</p>
-<h3 id="解决办法">解决办法</h3>
-<p>经典的解决方法是使用信号量机制实现同步。定义以下信号量：</p>
-<ul>
-<li>customers：计数信号量，初始值为0，表示等待理发的顾客数量。</li>
-<li>barber：互斥信号量，初始值为1，用于控制理发师的访问。</li>
-<li>mutex：互斥信号量，初始值为1，用于保护customers计数信号量的互斥访问。</li>
-</ul>
-<p>理发师过程：</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">customers</span>);  <span style="color:#007f7f">// 等待有顾客到来
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 占用顾客数量计数信号量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">customer</span> = <span style="font-weight:bold">dequeue</span>();  <span style="color:#007f7f">// 从顾客队列中取出一个顾客
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 释放顾客数量计数信号量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">cut_hair</span>(<span style="font-weight:bold">customer</span>);  <span style="color:#007f7f">// 为顾客理发
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">barber</span>);  <span style="color:#007f7f">// 理发
-</span></span></span></code></pre></div><p>顾客过程：</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 占用顾客数量计数信号量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">if</span> (<span style="font-weight:bold">customers</span> &lt; <span style="font-weight:bold">chairs</span>) {  <span style="color:#007f7f">// 如果有空椅子
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="font-weight:bold">enqueue</span>(<span style="font-weight:bold">customer</span>);  <span style="color:#007f7f">// 排队等待理发
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="font-weight:bold">V</span>(<span style="font-weight:bold">customers</span>);  <span style="color:#007f7f">// 增加等待的顾客数量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 释放顾客数量计数信号量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="font-weight:bold">P</span>(<span style="font-weight:bold">barber</span>);  <span style="color:#007f7f">// 等待理发师空闲
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="font-weight:bold">get_haircut</span>(<span style="font-weight:bold">customer</span>);  <span style="color:#007f7f">// 接受理发师的服务
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    } <span style="font-weight:bold">else</span> {  <span style="color:#007f7f">// 如果没有空椅子，离开
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);  <span style="color:#007f7f">// 释放顾客数量计数信号量
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>        <span style="font-weight:bold">leave</span>(<span style="font-weight:bold">customer</span>);  <span style="color:#007f7f">// 离开理发店
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    }
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>在这个过程中，P操作表示进程占用一个信号量资源，V操作表示进程释放一个信号量资源。对于互斥信号量barber和mutex，每次只有一个进程可以占用资源，以保证对理发师和顾客队列的互斥访问。对于计数信号量customers，它是一个等待队列，顾客通过占用和释放信号量来加入和离开等待队列，而理发师则通过占用和释放信号量来控制顾客的理发顺序。</p>
-<h2 id="读者--写者问题">读者&ndash;写者问题</h2>
-<h3 id="问题描述-1">问题描述</h3>
-<ul>
-<li>多个读者和写者共享一个资源，读者可以同时读取该资源，但写者进行写操作时需要独占该资源；</li>
-<li>写者优先级高于读者，即当有写者等待时，不允许新的读者访问资源，直到所有写者完成写操作；</li>
-<li>读写操作的互斥性，即在同一时刻只允许一个读写操作进行。</li>
-</ul>
-<h3 id="解决办法-1">解决办法</h3>
-<ul>
-<li>wmutex：计数信号量，初始值为1，用于保护写操作的互斥访问。</li>
-<li>rmutex：计数信号量，初始值为1，用于互斥访问 readcount。</li>
-<li>readcount：整型变量，初始值为0，表示读者计数器</li>
-</ul>
-<p>写者：</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
-</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">wmutex</span>);        <span style="color:#007f7f">// 请求写访问权
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">write_data</span>();    <span style="color:#007f7f">// 写操作
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">wmutex</span>);        <span style="color:#007f7f">// 释放写访问权
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}
-</span></span></code></pre></div><p>读者：</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="font-weight:bold">P</span>(<span style="font-weight:bold">rmutex</span>); <span style="color:#007f7f">// 保证对计数器的互斥访问
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  <span style="font-weight:bold">readcount</span>++; <span style="color:#007f7f">// 有一个读者进入临界区
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  <span style="font-weight:bold">if</span> (<span style="font-weight:bold">readcount</span> == <span style="font-weight:bold">1</span>) { <span style="color:#007f7f">// 如果是第一个读者
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">P</span>(<span style="font-weight:bold">wmutex</span>); <span style="color:#007f7f">// 请求写访问权，禁止写者同时写入
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  }
-</span></span><span style="display:flex;"><span>  <span style="font-weight:bold">V</span>(<span style="font-weight:bold">rmutex</span>); <span style="color:#007f7f">// 释放对计数器的访问
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  
-</span></span><span style="display:flex;"><span>  <span style="font-weight:bold">read_data</span>(); <span style="color:#007f7f">// 读操作
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>
-</span></span><span style="display:flex;"><span>  <span style="font-weight:bold">P</span>(<span style="font-weight:bold">rmutex</span>); <span style="color:#007f7f">// 保证对计数器的互斥访问
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  <span style="font-weight:bold">readcount--</span>; <span style="color:#007f7f">// 有一个读者离开临界区
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  <span style="font-weight:bold">if</span> (<span style="font-weight:bold">readers</span> == <span style="font-weight:bold">0</span>) { <span style="color:#007f7f">// 如果是最后一个读者
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>    <span style="font-weight:bold">V</span>(<span style="font-weight:bold">wmutex</span>); <span style="color:#007f7f">// 释放写访问权
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>  }
-</span></span><span style="display:flex;"><span>  <span style="font-weight:bold">V</span>(<span style="font-weight:bold">rmutex</span>); <span style="color:#007f7f">// 释放对计数器的访问
-</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>}
-</span></span></code></pre></div><h2 id="哲学家就餐问题">哲学家就餐问题</h2>
-<h3 id="问题描述-2">问题描述</h3>
-<p>在一个圆形餐桌上坐着N个哲学家，每个哲学家面前有一盘食物和一只叉子。这些哲学家只有在同时拿到自己面前的两个叉子时才能进食。每个哲学家都有两个邻居，因此有N个叉子。</p>
-<p>问题的关键在于如何使哲学家能够避免死锁和饥饿地进食。</p>
-<h3 id="解决办法-2">解决办法</h3>
-<p>解决哲学家就餐问题的一种常见方法是使用资源分级和时间限制。以下是一种解决方案：</p>
-<ol>
-<li>给每个叉子都分配一个编号，从1到N。</li>
-<li>哲学家只有在同时拿到两个编号为i和(i+1)%N的叉子时才能吃饭。</li>
-<li>为了避免死锁，可以采用两种方法之一：
-<ul>
-<li>方法一：将一个叉子的拿取和放下操作定义为原子性操作，采用信号量来实现同步。每个哲学家需要先尝试获取自己左右两个叉子的信号量，只有在同时获取到两个信号量时才能进食。在哲学家用完餐具后，释放这两个信号量，让其他哲学家能够使用这些餐具。</li>
-<li>方法二：引入一个“服务员”线程，服务员维护一个计数器，记录当前使用餐具的数量。当哲学家需要进餐时，需要向服务员发出请求。服务员检查当前使用餐具的数量是否已经达到了N-1，如果是，则等待一段时间再重新检查，直到有餐具被释放出来。如果不是，则服务员将餐具分配给该哲学家。哲学家用完餐具后，将餐具归还给服务员。</li>
-</ul>
-</li>
-</ol>
-<p>需要注意的是，无论是哪种方法，都需要遵循以下两个原则：</p>
-<ul>
-<li>要确保每个哲学家都能获得进餐的机会，避免饥饿。</li>
-<li>要确保所有哲学家都能进餐，而不会导致死锁。</li>
-</ul>
-<h2 id="图书馆阅览室问题">图书馆阅览室问题</h2>
-<h3 id="问题描述-3">问题描述</h3>
-<p>假定阅览室最多可同时容纳 100 个人阅读，读者进入时，必须在阅览室门口的一个登记表上登记，内容包括姓名、座号等，离开时要撤掉登记内容。用P、V操作描述读者进程的同步算法。</p>
-<h3 id="解决办法-3">解决办法</h3>
-<ul>
-<li>count：计数信号量，初始值为100，代表阅览室的空闲座位数</li>
-<li>mutex：计数信号量，初始值为1，用于互斥访问登记表</li>
-</ul>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="font-weight:bold">while</span> (<span style="font-weight:bold">true</span>) {
-</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">P</span>(<span style="font-weight:bold">count</span>);
-</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>);
-</span></span><span style="display:flex;"><span>	<span style="color:#f00">查登记表，置某座位为占用；</span>
-</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);
-</span></span><span style="display:flex;"><span>	......
-</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">read</span>();
-</span></span><span style="display:flex;"><span>	......
-</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">P</span>(<span style="font-weight:bold">mutex</span>);
-</span></span><span style="display:flex;"><span>	<span style="color:#f00">查登记表，置某座位为空；</span>
-</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">V</span>(<span style="font-weight:bold">mutex</span>);
-</span></span><span style="display:flex;"><span>	<span style="font-weight:bold">V</span>(<span style="font-weight:bold">count</span>);
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h1 id="推荐阅读">推荐阅读</h1>
-<ul>
+      <content:encoded><![CDATA[<ul>
 <li><a href="https://www.bilibili.com/video/BV1Cm4y1d7Ur/?spm_id_from=333.788">NJU操作系统</a>
 <ul>
 <li><a href="http://jyywiki.cn/OS/2022/">操作系统：设计与实现 (2022 春季学期)</a></li>
@@ -1357,10 +907,10 @@ g++ add.o main.o -o program
 </ul>
 <hr>
 <ul>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/33463930/">《操作系统导论》</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/27096665/">《现代操作系统》（原书第4版）</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://book.douban.com/subject/5064311/">《操作系统:精髓与设计原理》</a></li>
-<li><input disabled="" type="checkbox"> <strong><a href="https://book.douban.com/subject/26912767/">《深入理解计算机系统（原书第3版）》CSAPP</a></strong>
+<li><a href="https://book.douban.com/subject/33463930/">《操作系统导论》</a></li>
+<li><a href="https://book.douban.com/subject/35208251/">《现代操作系统》</a></li>
+<li><a href="https://book.douban.com/subject/5064311/">《操作系统:精髓与设计原理》</a></li>
+<li><strong><a href="https://book.douban.com/subject/26912767/">《深入理解计算机系统（原书第3版）》CSAPP</a></strong>
 <ul>
 <li><strong>计算机组成 + 操作系统 + 汇编 + C语言 + Linux系统编程</strong>
 <!DOCTYPE HTML>
@@ -1789,7 +1339,7 @@ g++ add.o main.o -o program
 </head>
 <body>
 <div class="douban_show">
-    <div id="dbhttps://book.douban.com/subject/27096665/" urlstring="https://book.douban.com/subject/27096665/" class="douban_item post-preview"></div>
+    <div id="dbhttps://book.douban.com/subject/35208251/" urlstring="https://book.douban.com/subject/35208251/" class="douban_item post-preview"></div>
 </div>
 </body>
 </html>
