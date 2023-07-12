@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 15 Nov 2022 21:37:17 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>计算机系统基础</title>
-      <link>https://xancoding.cn/posts/computer-system-fundamentals/</link>
+      <link>https://xancoding.cn/posts/2022-11-15-21-37-17/</link>
       <pubDate>Tue, 15 Nov 2022 21:37:17 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/computer-system-fundamentals/</guid>
+      <guid>https://xancoding.cn/posts/2022-11-15-21-37-17/</guid>
       <description>&lt;h1 id=&#34;计算机系统基础一程序的表示转换与链接&#34;&gt;计算机系统基础(一)——程序的表示、转换与链接&lt;/h1&gt;
 &lt;h2 id=&#34;原码移码补码&#34;&gt;原码&amp;amp;移码&amp;amp;补码&lt;/h2&gt;
 &lt;ol&gt;
@@ -135,6 +135,10 @@
 &lt;li&gt;异或：$n$ 个数做异或运算，若有奇数个 $1$ ，则输出 $1$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/118432554&#34;&gt;# 原码、反码、补码&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1gx411n7aG/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;计算机系统基础(一)——程序的表示、转换与链接&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Xx411E7qn/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;计算机系统基础(二)——异常、中断和输入/输出&lt;/a&gt;&lt;/li&gt;
@@ -488,6 +492,10 @@
 <li>异或：$n$ 个数做异或运算，若有奇数个 $1$ ，则输出 $1$</li>
 </ul>
 <h1 id="推荐阅读">推荐阅读</h1>
+<ol>
+<li><a href="https://zhuanlan.zhihu.com/p/118432554"># 原码、反码、补码</a></li>
+</ol>
+<hr>
 <ul>
 <li><a href="https://www.bilibili.com/video/BV1gx411n7aG/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">计算机系统基础(一)——程序的表示、转换与链接</a></li>
 <li><a href="https://www.bilibili.com/video/BV1Xx411E7qn/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">计算机系统基础(二)——异常、中断和输入/输出</a></li>
