@@ -370,11 +370,7 @@
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1R44y1o749?p=23&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;决策树基本流程&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1iT4y1d7zP/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 零基础多图详解图神经网络（GNN/GCN）【论文精读】&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;&lt;a href=&#34;https://distill.pub/2021/gnn-intro/&#34;&gt;https://distill.pub/2021/gnn-intro/&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;&lt;a href=&#34;https://distill.pub/2021/gnn-intro/&#34;&gt;# A Gentle Introduction to Graph Neural Networks&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://juejin.cn/post/7225588359287554085&#34;&gt;# GNN 学习路径&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1NK411D7pd/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# GNN科研入门路线&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1184y1x71H/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 不愧是公认最好的【图神经网络GNN/GCN教程】，从基础到进阶再到实战，一个合集全部到位！-人工智能/神经网络/图神经网络/深度学习&lt;/a&gt;&lt;/li&gt;
@@ -468,11 +464,7 @@ IQR：四分位间距，数据的中间 50% 的范围&lt;/p&gt;
 <li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1R44y1o749?p=23&amp;vd_source=ae16ff6478eb15c1b87880540263910b">决策树基本流程</a></li>
 </ul>
 </li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1iT4y1d7zP/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 零基础多图详解图神经网络（GNN/GCN）【论文精读】</a>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> <strong><a href="https://distill.pub/2021/gnn-intro/">https://distill.pub/2021/gnn-intro/</a></strong></li>
-</ul>
-</li>
+<li><input checked="" disabled="" type="checkbox"> <strong><a href="https://distill.pub/2021/gnn-intro/"># A Gentle Introduction to Graph Neural Networks</a></strong></li>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://juejin.cn/post/7225588359287554085"># GNN 学习路径</a></li>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1NK411D7pd/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># GNN科研入门路线</a></li>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1184y1x71H/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 不愧是公认最好的【图神经网络GNN/GCN教程】，从基础到进阶再到实战，一个合集全部到位！-人工智能/神经网络/图神经网络/深度学习</a></li>
