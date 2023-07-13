@@ -26571,32 +26571,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://xancoding.cn/links/</guid>
-      <description>&lt;h1 id=&#34;cs&#34;&gt;CS&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.learncpp.com/&#34;&gt;https://www.learncpp.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Gitbook
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://tools.xancoding.cn/&#34;&gt;Tools&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cs.xancoding.cn/&#34;&gt;CS Resource&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/&#34;&gt;CS自学指南&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://xiaolincoding.com/&#34;&gt;小林 x 图解计算机基础&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://xiaolincoding.com/network/&#34;&gt;图解网络&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://xiaolincoding.com/os/&#34;&gt;图解系统&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/linw7/Skill-Tree&#34;&gt;后端开发核心知识&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://aquadzn.github.io/learn-x-by-doing-y/?Project%5Bmenu%5D%5Bmain_language%5D=C%2FC%2B%2B&#34;&gt;A project based learning search engine&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;How to ask questions
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways/blob/master/README.md&#34;&gt;# 别像弱智一样提问&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md&#34;&gt;# 提问的智慧&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;blogs&#34;&gt;Blogs&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;blogs&#34;&gt;Blogs&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://catcoding.me/&#34;&gt;程序员的喵&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.ruanyifeng.com/blog/&#34;&gt;阮一峰的网络日志&lt;/a&gt;&lt;/li&gt;
@@ -26669,32 +26644,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;/ol&gt;
 &lt;hr&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="cs">CS</h1>
-<ul>
-<li><a href="https://www.learncpp.com/">https://www.learncpp.com/</a></li>
-<li>Gitbook
-<ul>
-<li><a href="https://tools.xancoding.cn/">Tools</a></li>
-<li><a href="https://cs.xancoding.cn/">CS Resource</a></li>
-</ul>
-</li>
-<li><a href="https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/">CS自学指南</a></li>
-<li><a href="https://xiaolincoding.com/">小林 x 图解计算机基础</a>
-<ul>
-<li><a href="https://xiaolincoding.com/network/">图解网络</a></li>
-<li><a href="https://xiaolincoding.com/os/">图解系统</a></li>
-</ul>
-</li>
-<li><a href="https://github.com/linw7/Skill-Tree">后端开发核心知识</a></li>
-<li><a href="https://aquadzn.github.io/learn-x-by-doing-y/?Project%5Bmenu%5D%5Bmain_language%5D=C%2FC%2B%2B">A project based learning search engine</a></li>
-<li>How to ask questions
-<ul>
-<li><a href="https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways/blob/master/README.md"># 别像弱智一样提问</a></li>
-<li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md"># 提问的智慧</a></li>
-</ul>
-</li>
-</ul>
-<h1 id="blogs">Blogs</h1>
+      <content:encoded><![CDATA[<h1 id="blogs">Blogs</h1>
 <ul>
 <li><a href="https://catcoding.me/">程序员的喵</a></li>
 <li><a href="https://www.ruanyifeng.com/blog/">阮一峰的网络日志</a></li>
