@@ -25783,11 +25783,9 @@ git commit -m &amp;#34;xxx&amp;#34;
 git remote add origin https://github.com/xxx/XXX.git  # 建立连接
 git push -u origin master
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;gitignore的作用&#34;&gt;.gitignore的作用&lt;/h3&gt;
-&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;工程常识：缓存文件，可执行文件，编译文件 不要传到自己的 git 项目里&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;.gitignore的作用就是帮助我们在git add时将我们指定的一些文件自动排除在外，不提交到git当中&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;在Git工作区的根目录下创建一个特殊的&lt;code&gt;.gitignore&lt;/code&gt;文件，然后把要忽略的文件名填进去，Git就会自动忽略这些文件&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;h2 id=&#34;thrift&#34;&gt;&lt;strong&gt;Thrift&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/video/3479/&#34;&gt;Thrift | AcWing Linux 基础课&lt;/a&gt;&lt;/li&gt;
@@ -26984,11 +26982,9 @@ git commit -m &#34;xxx&#34;
 git remote add origin https://github.com/xxx/XXX.git  # 建立连接
 git push -u origin master
 </code></pre><h3 id="gitignore的作用">.gitignore的作用</h3>
-<blockquote>
 <p><strong>工程常识：缓存文件，可执行文件，编译文件 不要传到自己的 git 项目里</strong></p>
 <p><strong>.gitignore的作用就是帮助我们在git add时将我们指定的一些文件自动排除在外，不提交到git当中</strong></p>
 <p><strong>在Git工作区的根目录下创建一个特殊的<code>.gitignore</code>文件，然后把要忽略的文件名填进去，Git就会自动忽略这些文件</strong></p>
-</blockquote>
 <h2 id="thrift"><strong>Thrift</strong></h2>
 <ul>
 <li><a href="https://www.acwing.com/video/3479/">Thrift | AcWing Linux 基础课</a></li>
