@@ -6,11 +6,21 @@
     <description>Recent content in Tags on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 30 Jun 2023 17:40:03 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jul 2023 14:53:01 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fun</title>
+      <link>https://xancoding.cn/tags/fun/</link>
+      <pubDate>Sun, 16 Jul 2023 14:53:01 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/fun/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>Life</title>
       <link>https://xancoding.cn/tags/life/</link>
-      <pubDate>Fri, 30 Jun 2023 17:40:03 +0800</pubDate>
+      <pubDate>Sun, 16 Jul 2023 14:53:01 +0800</pubDate>
       
       <guid>https://xancoding.cn/tags/life/</guid>
       <description></description>
@@ -53,16 +63,6 @@
       <pubDate>Mon, 29 May 2023 17:24:38 +0800</pubDate>
       
       <guid>https://xancoding.cn/tags/tech/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Fun</title>
-      <link>https://xancoding.cn/tags/fun/</link>
-      <pubDate>Sun, 28 May 2023 18:28:55 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/tags/fun/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
