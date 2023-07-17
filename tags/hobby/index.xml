@@ -24,6 +24,7 @@
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; SAMSUNG 64GB U盘 —— 京东 87 元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 小米充电宝 20000mAh 22.5W —— 京东 149元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 小米 原装二合一数据线 1m —— 京东 27元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 华为手环 7 NFC版 —— 京东 245元&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<ul>
@@ -37,6 +38,7 @@
 <li><input checked="" disabled="" type="checkbox"> SAMSUNG 64GB U盘 —— 京东 87 元</li>
 <li><input checked="" disabled="" type="checkbox"> 小米充电宝 20000mAh 22.5W —— 京东 149元</li>
 <li><input checked="" disabled="" type="checkbox"> 小米 原装二合一数据线 1m —— 京东 27元</li>
+<li><input checked="" disabled="" type="checkbox"> 华为手环 7 NFC版 —— 京东 245元</li>
 </ul>
 ]]></content:encoded>
     </item>
