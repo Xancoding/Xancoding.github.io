@@ -375,12 +375,44 @@
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1NK411D7pd/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# GNN科研入门路线&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1184y1x71H/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 不愧是公认最好的【图神经网络GNN/GCN教程】，从基础到进阶再到实战，一个合集全部到位！-人工智能/神经网络/图神经网络/深度学习&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;机器学习相关基础知识&#34;&gt;机器学习相关基础知识&lt;/h1&gt;
+&lt;p&gt;此处对应该掌握的机器学习基础知识做一提纲，可对照着查缺补漏：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数据预处理：数据清洗、数据变换
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/MrLevo520/article/details/77573757&#34;&gt;总结：数据清洗的一些总结&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_35757704/article/details/89280715?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164553726516780264084676%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&amp;amp;request_id=164553726516780264084676&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2&#34;&gt;机器学习数据预处理代码汇总&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/135237642&#34;&gt;读完本文，让你快速掌握数据预处理｜机器学习&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;特征工程：
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/lc013/article/details/100033144?spm=1001.2101.3001.6650.3&amp;amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_paycolumn_v3&amp;amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_paycolumn_v3&amp;amp;utm_relevant_index=6&#34;&gt;特征工程&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;监督学习：
+&lt;ul&gt;
+&lt;li&gt;分类算法：K-近邻算法，决策树，朴素贝叶斯，Logistic 回归，SVM，Softmax 回归&lt;/li&gt;
+&lt;li&gt;回归算法：线性回归，局部加权线性回归&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;无监督学习：
+&lt;ul&gt;
+&lt;li&gt;K-means，层次聚类，DBSCAN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;模型评估方法：准确率，召回率，P-R 曲线，ROC，AUC，MSE
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/sinat_16388393/article/details/91427631?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164639688216780264063596%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;amp;request_id=164639688216780264063596&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2&#34;&gt;机器学习模型评估的方法总结（回归、分类模型的评估）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;研究方向&#34;&gt;研究方向&lt;/h1&gt;
 &lt;p&gt;以 &lt;strong&gt;GNN&lt;/strong&gt; 为工具，研究 &lt;strong&gt;social network&lt;/strong&gt; 中的 &lt;strong&gt;long-tail&lt;/strong&gt; 问题，使分类的准确性更高。&lt;br&gt;
 因为 &lt;strong&gt;连接关系&lt;/strong&gt; 比较离散，向量化比较难，图神经网络所要研究的就是这方面的内容&lt;br&gt;
 GNN 主要用来对图的特征的提取&lt;/p&gt;
-&lt;h1 id=&#34;gnn图神经网络&#34;&gt;GNN图神经网络&lt;/h1&gt;
-&lt;h2 id=&#34;学习路径&#34;&gt;学习路径&lt;/h2&gt;
+&lt;h1 id=&#34;图神经网络&#34;&gt;图神经网络&lt;/h1&gt;
+&lt;h2 id=&#34;gnn学习路径&#34;&gt;GNN学习路径&lt;/h2&gt;
 &lt;p&gt;从基础模型开始学习，并尝试实现自己的数据集。一旦你熟悉了基础模型，可以尝试学习进阶模型和应用场景，并了解最新的研究进展。同时，参加相关的社区和论坛，如Reddit、Quora等，可以加速你的学习和成长。&lt;/p&gt;
 &lt;h3 id=&#34;基本概念&#34;&gt;基本概念&lt;/h3&gt;
 &lt;p&gt;基本的图理论概念，例如什么是节点、边、图、路径等等&lt;br&gt;
@@ -399,7 +431,6 @@ GNN 主要用来对图的特征的提取&lt;/p&gt;
 &lt;h3 id=&#34;最新进展&#34;&gt;最新进展&lt;/h3&gt;
 &lt;p&gt;了解 GNN 领域的最新进展和研究方向。在这个快速发展的领域中，新的模型和算法不断涌现，了解最新进展可以让你跟上最新的技术和应用方向。可以阅读最新的论文，参加相关的会议和研讨会等方式来保持学习和跟进最新技术。&lt;/p&gt;
 &lt;h1 id=&#34;深度学习&#34;&gt;深度学习&lt;/h1&gt;
-&lt;h2 id=&#34;前向传播和后向传播&#34;&gt;前向传播和后向传播&lt;/h2&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/28/644b1bc5893e0.png&#34;&gt;
@@ -444,12 +475,44 @@ IQR：四分位间距，数据的中间 50% 的范围&lt;/p&gt;
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1NK411D7pd/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># GNN科研入门路线</a></li>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1184y1x71H/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 不愧是公认最好的【图神经网络GNN/GCN教程】，从基础到进阶再到实战，一个合集全部到位！-人工智能/神经网络/图神经网络/深度学习</a></li>
 </ul>
+<h1 id="机器学习相关基础知识">机器学习相关基础知识</h1>
+<p>此处对应该掌握的机器学习基础知识做一提纲，可对照着查缺补漏：</p>
+<ul>
+<li>数据预处理：数据清洗、数据变换
+<ul>
+<li><a href="https://blog.csdn.net/MrLevo520/article/details/77573757">总结：数据清洗的一些总结</a></li>
+<li><a href="https://blog.csdn.net/weixin_35757704/article/details/89280715?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164553726516780264084676%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&amp;request_id=164553726516780264084676&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2">机器学习数据预处理代码汇总</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/135237642">读完本文，让你快速掌握数据预处理｜机器学习</a></li>
+</ul>
+</li>
+<li>特征工程：
+<ul>
+<li><a href="https://blog.csdn.net/lc013/article/details/100033144?spm=1001.2101.3001.6650.3&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_paycolumn_v3&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_paycolumn_v3&amp;utm_relevant_index=6">特征工程</a></li>
+</ul>
+</li>
+<li>监督学习：
+<ul>
+<li>分类算法：K-近邻算法，决策树，朴素贝叶斯，Logistic 回归，SVM，Softmax 回归</li>
+<li>回归算法：线性回归，局部加权线性回归</li>
+</ul>
+</li>
+<li>无监督学习：
+<ul>
+<li>K-means，层次聚类，DBSCAN</li>
+</ul>
+</li>
+<li>模型评估方法：准确率，召回率，P-R 曲线，ROC，AUC，MSE
+<ul>
+<li><a href="https://blog.csdn.net/sinat_16388393/article/details/91427631?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164639688216780264063596%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=164639688216780264063596&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2">机器学习模型评估的方法总结（回归、分类模型的评估）</a></li>
+</ul>
+</li>
+</ul>
 <h1 id="研究方向">研究方向</h1>
 <p>以 <strong>GNN</strong> 为工具，研究 <strong>social network</strong> 中的 <strong>long-tail</strong> 问题，使分类的准确性更高。<br>
 因为 <strong>连接关系</strong> 比较离散，向量化比较难，图神经网络所要研究的就是这方面的内容<br>
 GNN 主要用来对图的特征的提取</p>
-<h1 id="gnn图神经网络">GNN图神经网络</h1>
-<h2 id="学习路径">学习路径</h2>
+<h1 id="图神经网络">图神经网络</h1>
+<h2 id="gnn学习路径">GNN学习路径</h2>
 <p>从基础模型开始学习，并尝试实现自己的数据集。一旦你熟悉了基础模型，可以尝试学习进阶模型和应用场景，并了解最新的研究进展。同时，参加相关的社区和论坛，如Reddit、Quora等，可以加速你的学习和成长。</p>
 <h3 id="基本概念">基本概念</h3>
 <p>基本的图理论概念，例如什么是节点、边、图、路径等等<br>
@@ -468,7 +531,6 @@ GNN 主要用来对图的特征的提取</p>
 <h3 id="最新进展">最新进展</h3>
 <p>了解 GNN 领域的最新进展和研究方向。在这个快速发展的领域中，新的模型和算法不断涌现，了解最新进展可以让你跟上最新的技术和应用方向。可以阅读最新的论文，参加相关的会议和研讨会等方式来保持学习和跟进最新技术。</p>
 <h1 id="深度学习">深度学习</h1>
-<h2 id="前向传播和后向传播">前向传播和后向传播</h2>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/28/644b1bc5893e0.png">
