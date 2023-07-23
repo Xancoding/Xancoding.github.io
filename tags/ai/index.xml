@@ -8,7 +8,7 @@
     <language>zh-cn</language>
     <lastBuildDate>Sat, 25 Mar 2023 08:24:56 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GNN</title>
+      <title>Research</title>
       <link>https://xancoding.cn/posts/2023-03-25-08-24-56/</link>
       <pubDate>Sat, 25 Mar 2023 08:24:56 +0800</pubDate>
       
@@ -27,7 +27,7 @@
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1184y1x71H/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 不愧是公认最好的【图神经网络GNN/GCN教程】，从基础到进阶再到实战，一个合集全部到位！-人工智能/神经网络/图神经网络/深度学习&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1hE411t7RN?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# PyTorch深度学习快速入门教程（绝对通俗易懂！）【小土堆】&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1pg411d7MK/?spm_id_from=333.999.0.0&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 超简单实用，推荐的深度学习科研必备网站（轻松找论文，代码项目，写论文综述）| 土堆教程&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://towardsdatascience.com/the-data-science-trilogy-numpy-pandas-and-matplotlib-basics-42192b89e26&#34;&gt;# The Data Science Trilogy：NumPy, Pandas and Matplotlib basics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://towardsdatascience.com/the-data-science-trilogy-numpy-pandas-and-matplotlib-basics-42192b89e26&#34;&gt;# The Data Science Trilogy：NumPy, Pandas and Matplotlib basics&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;机器学习相关基础知识&#34;&gt;机器学习相关基础知识&lt;/h1&gt;
 &lt;p&gt;此处对应该掌握的机器学习基础知识做一提纲，可对照着查缺补漏：&lt;/p&gt;
@@ -123,7 +123,7 @@ IQR：四分位间距，数据的中间 50% 的范围&lt;/p&gt;
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1184y1x71H/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 不愧是公认最好的【图神经网络GNN/GCN教程】，从基础到进阶再到实战，一个合集全部到位！-人工智能/神经网络/图神经网络/深度学习</a></li>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1hE411t7RN?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># PyTorch深度学习快速入门教程（绝对通俗易懂！）【小土堆】</a></li>
 <li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1pg411d7MK/?spm_id_from=333.999.0.0&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 超简单实用，推荐的深度学习科研必备网站（轻松找论文，代码项目，写论文综述）| 土堆教程</a></li>
-<li><input disabled="" type="checkbox"> <a href="https://towardsdatascience.com/the-data-science-trilogy-numpy-pandas-and-matplotlib-basics-42192b89e26"># The Data Science Trilogy：NumPy, Pandas and Matplotlib basics</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://towardsdatascience.com/the-data-science-trilogy-numpy-pandas-and-matplotlib-basics-42192b89e26"># The Data Science Trilogy：NumPy, Pandas and Matplotlib basics</a></li>
 </ul>
 <h1 id="机器学习相关基础知识">机器学习相关基础知识</h1>
 <p>此处对应该掌握的机器学习基础知识做一提纲，可对照着查缺补漏：</p>

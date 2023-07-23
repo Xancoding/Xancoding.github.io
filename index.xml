@@ -6,351 +6,9 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 19 Jul 2023 14:15:54 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jul 2023 09:22:03 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>年度计划</title>
-      <link>https://xancoding.cn/posts/2022-11-20-22-11-28/</link>
-      <pubDate>Sun, 20 Nov 2022 22:11:28 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2022-11-20-22-11-28/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;从今天开始，为自己种下一棵树&lt;/strong&gt; 🌳&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;2025届毕业生&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;学习路线&#34;&gt;学习路线&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;算法（每天都看）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;针对性刷题&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;C++ （2个月）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《C++ Primer》、《Effective C++》、《程序员的自我修养》、侯捷老师的视频
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《C++ Primer》--&amp;gt; 《Effective C++》--&amp;gt;《深度探索 C++ 对象模型》--&amp;gt;《STL 源码剖析》--&amp;gt;《Effective STL》--&amp;gt;《C++ 并发编程实战》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;操作系统（2个月）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《操作系统真象还原》
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《操作系统导论》--&amp;gt;《现代操作系统》--&amp;gt;《操作系统：精髓与设计原理》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;数据库（2个月）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《MySQL必知必会》、《MySQL是怎样运行的》、《Redis设计与实现》
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《MySQL是怎样运行的》--&amp;gt;《MySQL必知必会》--&amp;gt;《MySQL45讲》
-《Redis设计与实现》--&amp;gt;《Redis实战》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;Linux 网络编程（2个月）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《TCP/IP 网络编程》--&amp;gt;《Linux高性能服务器编程》--&amp;gt;《UNIX环境高级编程》--&amp;gt;《Unix网络编程》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;计算机网络&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《TCP/IP网络编程》、《Linux高性能服务器》
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《计算机网络：自顶向下方法》&amp;amp;&amp;amp;《TCP/IP详解 卷1：协议》
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;项目（2个月）&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Alinshans/MyTinySTL&#34;&gt;MyTinySTL&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://vixbob.moe/25.html&#34;&gt;Stanford CS144 Lab Assignment 学习笔记 | ViXbob的博客&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/qinguoyi/TinyWebServer&#34;&gt;TinyWebServer&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;其他（2个月）&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;《深入理解计算机系统》&amp;amp;&amp;amp;《计算机程序的构造和解释》
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;时间规划&#34;&gt;时间规划&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;大二上：2022年9月初&amp;ndash;2023年1月初  &lt;strong&gt;四个月&lt;/strong&gt;
-&lt;ol&gt;
-&lt;li&gt;2022年12月16日之前，&lt;strong&gt;蓝桥杯报名&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;大二寒假：2023年1月&amp;ndash;2023年2月 &lt;strong&gt;一个月&lt;/strong&gt;
-&lt;ol&gt;
-&lt;li&gt;C++&lt;/li&gt;
-&lt;li&gt;操作系统&lt;/li&gt;
-&lt;li&gt;数据库&lt;/li&gt;
-&lt;li&gt;项目&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;大二下：2023年2月底&amp;ndash;2023年7月初 &lt;strong&gt;四个月&lt;/strong&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;去老师实验室试试&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;2023年4月，&lt;strong&gt;蓝桥杯省赛&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;2024年3月&amp;ndash;5月，&lt;strong&gt;实习生招聘  春招&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;大二暑假：2023年7月&amp;ndash;2023年9月 &lt;strong&gt;两个月&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;大三上：2023年9月初&amp;ndash;2024年1月初
-&lt;ol&gt;
-&lt;li&gt;2023年9月&amp;ndash;12月 &lt;strong&gt;ACM 网络赛 &amp;amp;&amp;amp; 区域赛&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;大三寒假：2024年1月&amp;ndash;2024年2月
-&lt;ol&gt;
-&lt;li&gt;了解保研流程和通识知识，初步做个保研的个人定位&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;大三下：2024年2月底&amp;ndash;2024年7月初
-&lt;ol&gt;
-&lt;li&gt;2024年3月&amp;ndash;5月，&lt;strong&gt;实习生招聘 春招&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;2024年3月&amp;ndash;4月，夏令营信息搜集&lt;/li&gt;
-&lt;li&gt;2024年4月&amp;ndash;6月，准备夏令营材料并投递&lt;/li&gt;
-&lt;li&gt;2024年2月&amp;ndash;5月，密切关注研究生入学考试分数线信息、复试和调剂信息&lt;/li&gt;
-&lt;li&gt;2024年6月中旬，开始备考&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;大三暑假：2024年7月&amp;ndash;2024年9月
-&lt;ol&gt;
-&lt;li&gt;2024年7月&amp;ndash;8月，&lt;strong&gt;参加夏令营，争取预录取资格&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;整个暑假，留校备考&lt;/li&gt;
-&lt;li&gt;2024年8月下&amp;ndash;9月上旬，全国招生简章正式公布。关注全国研究生招生最新政策变化，目标院校及目标专业研究生招生计划、考试科目、指定参考教材有否发生变化&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;大四上：2024年9月初&amp;ndash;2025年1月初
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;秋招  2024年9月&amp;ndash;11月，正式招聘（提前批7月开始）&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;2024年9月上旬，根据本校的你所在系的综合排名，最终确定在本校获得推免资格&lt;/li&gt;
-&lt;li&gt;2024年9月&amp;ndash;10月，&lt;strong&gt;投递九月推免，准备九推复试，参加九推复试&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;2024年9月&amp;ndash;10月，填报志愿并确认复试和待录取通知&lt;/li&gt;
-&lt;li&gt;2024年11月下旬，&lt;strong&gt;查看录取名单&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;2025年6月下旬，收到硕士录取通知书&lt;/li&gt;
-&lt;li&gt;2024年9月中上旬，硕士研究生入学考试考试大纲正式发行。及时购买考试大纲及大纲解析，并针对大纲及时调整自己的复习计划&lt;/li&gt;
-&lt;li&gt;2024年10月中上旬—10月底，全国硕士研究生入学考试网上正式报名&lt;/li&gt;
-&lt;li&gt;2024年11月中上旬，全国硕士研究生入学考试报名信息现场确认&lt;/li&gt;
-&lt;li&gt;2024年11月下旬，全国硕士研究生入学考试非统考专业课命题工作正式开展，各个研招单位自主命制该硕士生招生点的专业课试题&lt;/li&gt;
-&lt;li&gt;2024年12月中旬，考生可凭网报用户名和密码登录“研招网”下载打印《准考证》&lt;/li&gt;
-&lt;li&gt;2024年12月底，&lt;strong&gt;参加全国硕士研究生入学考试&amp;ndash;初试&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;大四寒假：2025年1月&amp;ndash;2025年2月&lt;/li&gt;
-&lt;li&gt;大四下：2025年2月底&amp;ndash;2025年7月初
-&lt;ol&gt;
-&lt;li&gt;2025年3月&amp;ndash;5月，&lt;strong&gt;实习生招聘 春招&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;2025年春季，各院校将公布考生分数，考生可以通过热线电话、网络等途径查询自己的考分&lt;/li&gt;
-&lt;li&gt;2025年2月中旬，34所自定义分数线的研究生招生单位陆续公布自己的复试分线&lt;/li&gt;
-&lt;li&gt;2025年3月中上旬，国家复试分数线公布&lt;/li&gt;
-&lt;li&gt;2025年3月中旬，&lt;strong&gt;全国各研招单位复试工作陆续进行&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;2025年3月中下旬，调剂工作开始&lt;/li&gt;
-&lt;li&gt;2025年4月底，体检&lt;/li&gt;
-&lt;li&gt;2025年5月初，政审&lt;/li&gt;
-&lt;li&gt;2025年5月中旬，&lt;strong&gt;招生单位确定录取名单&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;如何看项目源码&#34;&gt;如何看项目源码&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;运行，跑起来，用起来，知道这个项目有什么功能，满足什么需求&lt;/li&gt;
-&lt;li&gt;找到项目入口 main函数&lt;/li&gt;
-&lt;li&gt;拆解项目模块，都有哪些功能，哪些模块&lt;/li&gt;
-&lt;li&gt;一个模块一个模块去看代码，而不是 囫囵吞枣&lt;/li&gt;
-&lt;li&gt;修改部分代码，重新跑项目，看看有哪些变动&lt;/li&gt;
-&lt;li&gt;完成这个项目代码的阅读&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;项目复盘&#34;&gt;项目复盘&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;为什么做这个项目&lt;/li&gt;
-&lt;li&gt;这个项目整体架构是什么样子的&lt;/li&gt;
-&lt;li&gt;这个项目由哪几个模块组成&lt;/li&gt;
-&lt;li&gt;这些模块是怎么协同工作的&lt;/li&gt;
-&lt;li&gt;所有模块可能涉及到的操作系统、数据结构的知识&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;考证时间表&#34;&gt;考证时间表&lt;/h1&gt;
-&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/19/6416815c4182d.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/03/19/6416815c4182d.jpg&#34; alt=&#34;699ddbba825b3ebcc4d3abab3f381b8.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/03/19/6416815daad2d.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/03/19/6416815daad2d.jpg&#34; alt=&#34;8fadaa5baa16232713c17ca7a0d462d.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-</description>
-      <content:encoded><![CDATA[<blockquote>
-<p><strong>从今天开始，为自己种下一棵树</strong> 🌳</p>
-</blockquote>
-<ul>
-<li>2025届毕业生</li>
-</ul>
-<h1 id="学习路线">学习路线</h1>
-<ol>
-<li>算法（每天都看）</li>
-</ol>
-<ul>
-<li>针对性刷题</li>
-</ul>
-<ol start="2">
-<li>C++ （2个月）</li>
-</ol>
-<pre tabindex="0"><code>《C++ Primer》、《Effective C++》、《程序员的自我修养》、侯捷老师的视频
-</code></pre><pre tabindex="0"><code>《C++ Primer》--&gt; 《Effective C++》--&gt;《深度探索 C++ 对象模型》--&gt;《STL 源码剖析》--&gt;《Effective STL》--&gt;《C++ 并发编程实战》
-</code></pre><ol start="3">
-<li>操作系统（2个月）</li>
-</ol>
-<pre tabindex="0"><code>《操作系统真象还原》
-</code></pre><pre tabindex="0"><code>《操作系统导论》--&gt;《现代操作系统》--&gt;《操作系统：精髓与设计原理》
-</code></pre><ol start="4">
-<li>数据库（2个月）</li>
-</ol>
-<pre tabindex="0"><code>《MySQL必知必会》、《MySQL是怎样运行的》、《Redis设计与实现》
-</code></pre><pre tabindex="0"><code>《MySQL是怎样运行的》--&gt;《MySQL必知必会》--&gt;《MySQL45讲》
-《Redis设计与实现》--&gt;《Redis实战》
-</code></pre><ol start="5">
-<li>Linux 网络编程（2个月）</li>
-</ol>
-<pre tabindex="0"><code>《TCP/IP 网络编程》--&gt;《Linux高性能服务器编程》--&gt;《UNIX环境高级编程》--&gt;《Unix网络编程》
-</code></pre><ol start="6">
-<li>计算机网络</li>
-</ol>
-<pre tabindex="0"><code>《TCP/IP网络编程》、《Linux高性能服务器》
-</code></pre><pre tabindex="0"><code>《计算机网络：自顶向下方法》&amp;&amp;《TCP/IP详解 卷1：协议》
-</code></pre><ol start="7">
-<li>
-<p>项目（2个月）</p>
-<ol>
-<li><a href="https://github.com/Alinshans/MyTinySTL">MyTinySTL</a></li>
-<li><a href="https://vixbob.moe/25.html">Stanford CS144 Lab Assignment 学习笔记 | ViXbob的博客</a></li>
-<li><a href="https://github.com/qinguoyi/TinyWebServer">TinyWebServer</a></li>
-</ol>
-</li>
-<li>
-<p>其他（2个月）</p>
-</li>
-</ol>
-<pre tabindex="0"><code>《深入理解计算机系统》&amp;&amp;《计算机程序的构造和解释》
-</code></pre><h1 id="时间规划">时间规划</h1>
-<ol>
-<li>大二上：2022年9月初&ndash;2023年1月初  <strong>四个月</strong>
-<ol>
-<li>2022年12月16日之前，<strong>蓝桥杯报名</strong></li>
-</ol>
-</li>
-<li>大二寒假：2023年1月&ndash;2023年2月 <strong>一个月</strong>
-<ol>
-<li>C++</li>
-<li>操作系统</li>
-<li>数据库</li>
-<li>项目</li>
-</ol>
-</li>
-<li>大二下：2023年2月底&ndash;2023年7月初 <strong>四个月</strong>
-<ol>
-<li><strong>去老师实验室试试</strong></li>
-<li>2023年4月，<strong>蓝桥杯省赛</strong></li>
-<li>2024年3月&ndash;5月，<strong>实习生招聘  春招</strong></li>
-</ol>
-</li>
-<li>大二暑假：2023年7月&ndash;2023年9月 <strong>两个月</strong></li>
-<li>大三上：2023年9月初&ndash;2024年1月初
-<ol>
-<li>2023年9月&ndash;12月 <strong>ACM 网络赛 &amp;&amp; 区域赛</strong></li>
-</ol>
-</li>
-<li>大三寒假：2024年1月&ndash;2024年2月
-<ol>
-<li>了解保研流程和通识知识，初步做个保研的个人定位</li>
-</ol>
-</li>
-<li>大三下：2024年2月底&ndash;2024年7月初
-<ol>
-<li>2024年3月&ndash;5月，<strong>实习生招聘 春招</strong></li>
-<li>2024年3月&ndash;4月，夏令营信息搜集</li>
-<li>2024年4月&ndash;6月，准备夏令营材料并投递</li>
-<li>2024年2月&ndash;5月，密切关注研究生入学考试分数线信息、复试和调剂信息</li>
-<li>2024年6月中旬，开始备考</li>
-</ol>
-</li>
-<li>大三暑假：2024年7月&ndash;2024年9月
-<ol>
-<li>2024年7月&ndash;8月，<strong>参加夏令营，争取预录取资格</strong></li>
-<li>整个暑假，留校备考</li>
-<li>2024年8月下&ndash;9月上旬，全国招生简章正式公布。关注全国研究生招生最新政策变化，目标院校及目标专业研究生招生计划、考试科目、指定参考教材有否发生变化</li>
-</ol>
-</li>
-<li>大四上：2024年9月初&ndash;2025年1月初
-<ol>
-<li><strong>秋招  2024年9月&ndash;11月，正式招聘（提前批7月开始）</strong></li>
-<li>2024年9月上旬，根据本校的你所在系的综合排名，最终确定在本校获得推免资格</li>
-<li>2024年9月&ndash;10月，<strong>投递九月推免，准备九推复试，参加九推复试</strong></li>
-<li>2024年9月&ndash;10月，填报志愿并确认复试和待录取通知</li>
-<li>2024年11月下旬，<strong>查看录取名单</strong></li>
-<li>2025年6月下旬，收到硕士录取通知书</li>
-<li>2024年9月中上旬，硕士研究生入学考试考试大纲正式发行。及时购买考试大纲及大纲解析，并针对大纲及时调整自己的复习计划</li>
-<li>2024年10月中上旬—10月底，全国硕士研究生入学考试网上正式报名</li>
-<li>2024年11月中上旬，全国硕士研究生入学考试报名信息现场确认</li>
-<li>2024年11月下旬，全国硕士研究生入学考试非统考专业课命题工作正式开展，各个研招单位自主命制该硕士生招生点的专业课试题</li>
-<li>2024年12月中旬，考生可凭网报用户名和密码登录“研招网”下载打印《准考证》</li>
-<li>2024年12月底，<strong>参加全国硕士研究生入学考试&ndash;初试</strong></li>
-</ol>
-</li>
-<li>大四寒假：2025年1月&ndash;2025年2月</li>
-<li>大四下：2025年2月底&ndash;2025年7月初
-<ol>
-<li>2025年3月&ndash;5月，<strong>实习生招聘 春招</strong></li>
-<li>2025年春季，各院校将公布考生分数，考生可以通过热线电话、网络等途径查询自己的考分</li>
-<li>2025年2月中旬，34所自定义分数线的研究生招生单位陆续公布自己的复试分线</li>
-<li>2025年3月中上旬，国家复试分数线公布</li>
-<li>2025年3月中旬，<strong>全国各研招单位复试工作陆续进行</strong></li>
-<li>2025年3月中下旬，调剂工作开始</li>
-<li>2025年4月底，体检</li>
-<li>2025年5月初，政审</li>
-<li>2025年5月中旬，<strong>招生单位确定录取名单</strong></li>
-</ol>
-</li>
-</ol>
-<h1 id="如何看项目源码">如何看项目源码</h1>
-<ol>
-<li>运行，跑起来，用起来，知道这个项目有什么功能，满足什么需求</li>
-<li>找到项目入口 main函数</li>
-<li>拆解项目模块，都有哪些功能，哪些模块</li>
-<li>一个模块一个模块去看代码，而不是 囫囵吞枣</li>
-<li>修改部分代码，重新跑项目，看看有哪些变动</li>
-<li>完成这个项目代码的阅读</li>
-</ol>
-<h1 id="项目复盘">项目复盘</h1>
-<ul>
-<li>为什么做这个项目</li>
-<li>这个项目整体架构是什么样子的</li>
-<li>这个项目由哪几个模块组成</li>
-<li>这些模块是怎么协同工作的</li>
-<li>所有模块可能涉及到的操作系统、数据结构的知识</li>
-</ul>
-<h1 id="考证时间表">考证时间表</h1>
-<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/19/6416815c4182d.jpg">
-<img src="https://bu.dusays.com/2023/03/19/6416815c4182d.jpg" alt="699ddbba825b3ebcc4d3abab3f381b8.jpg"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/03/19/6416815daad2d.jpg">
-<img src="https://bu.dusays.com/2023/03/19/6416815daad2d.jpg" alt="8fadaa5baa16232713c17ca7a0d462d.jpg"  />
-</a>
-</div>
-
-</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>GNN</title>
+      <title>Research</title>
       <link>https://xancoding.cn/posts/2023-03-25-08-24-56/</link>
       <pubDate>Sat, 25 Mar 2023 08:24:56 +0800</pubDate>
       
@@ -369,7 +27,7 @@
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1184y1x71H/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 不愧是公认最好的【图神经网络GNN/GCN教程】，从基础到进阶再到实战，一个合集全部到位！-人工智能/神经网络/图神经网络/深度学习&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1hE411t7RN?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# PyTorch深度学习快速入门教程（绝对通俗易懂！）【小土堆】&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1pg411d7MK/?spm_id_from=333.999.0.0&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 超简单实用，推荐的深度学习科研必备网站（轻松找论文，代码项目，写论文综述）| 土堆教程&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://towardsdatascience.com/the-data-science-trilogy-numpy-pandas-and-matplotlib-basics-42192b89e26&#34;&gt;# The Data Science Trilogy：NumPy, Pandas and Matplotlib basics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://towardsdatascience.com/the-data-science-trilogy-numpy-pandas-and-matplotlib-basics-42192b89e26&#34;&gt;# The Data Science Trilogy：NumPy, Pandas and Matplotlib basics&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;机器学习相关基础知识&#34;&gt;机器学习相关基础知识&lt;/h1&gt;
 &lt;p&gt;此处对应该掌握的机器学习基础知识做一提纲，可对照着查缺补漏：&lt;/p&gt;
@@ -465,7 +123,7 @@ IQR：四分位间距，数据的中间 50% 的范围&lt;/p&gt;
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1184y1x71H/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 不愧是公认最好的【图神经网络GNN/GCN教程】，从基础到进阶再到实战，一个合集全部到位！-人工智能/神经网络/图神经网络/深度学习</a></li>
 <li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1hE411t7RN?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># PyTorch深度学习快速入门教程（绝对通俗易懂！）【小土堆】</a></li>
 <li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1pg411d7MK/?spm_id_from=333.999.0.0&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 超简单实用，推荐的深度学习科研必备网站（轻松找论文，代码项目，写论文综述）| 土堆教程</a></li>
-<li><input disabled="" type="checkbox"> <a href="https://towardsdatascience.com/the-data-science-trilogy-numpy-pandas-and-matplotlib-basics-42192b89e26"># The Data Science Trilogy：NumPy, Pandas and Matplotlib basics</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://towardsdatascience.com/the-data-science-trilogy-numpy-pandas-and-matplotlib-basics-42192b89e26"># The Data Science Trilogy：NumPy, Pandas and Matplotlib basics</a></li>
 </ul>
 <h1 id="机器学习相关基础知识">机器学习相关基础知识</h1>
 <p>此处对应该掌握的机器学习基础知识做一提纲，可对照着查缺补漏：</p>
@@ -546,6 +204,44 @@ Q3(Thirt quartile)：样本 75% 的数据小于 第三四分位数
 Max：排除异常值的最大值
 Min：排除异常值的最小值
 IQR：四分位间距，数据的中间 50% 的范围</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>2023 07 23 09 22 03</title>
+      <link>https://xancoding.cn/posts/2023-07-23-09-22-03/</link>
+      <pubDate>Sun, 23 Jul 2023 09:22:03 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-07-23-09-22-03/</guid>
+      <description>&lt;p&gt;2022 年 8 月 &amp;ndash; 9 月（大一至大二的暑假），又在力扣上刷了大概一个半月的题，是因为报了 &lt;a href=&#34;https://www.acwing.com/activity/content/activity_person/content/431826/1/&#34;&gt;暑假每日一题2022&lt;/a&gt;，在这之前，算法基础课已经刷完（4 月 &amp;ndash; 7月），我又开始了 算法提高课 的 刷课刷视频（这个我并没有购买，而是跟另一个人作了交换，他上我的号看 Web 应用课，我上他的号看 算法提高课）。&lt;strong&gt;&lt;u&gt;前前后后刷了 5 个月 算法后，开始疲惫，就不再看了&lt;/u&gt;&lt;/strong&gt;。不看算法后，开始看 Django 框架课 和 Web 应用课，并写出对应的项目（还是过于急，并没有吃透，也没有花时间去Debug，碰到错误想的是对着源码去找哪里没有抄对🤣这样能学好才怪嘞）。还花了时间把 数据结构的课设 搞定，也是没什么技术含量，没什么系统性的长进&lt;/p&gt;
+&lt;p&gt;这个期间的生活费，大部分花在 买户外装备 上了&amp;hellip;（虽然因为疫情封校没怎么出去过😭&lt;/p&gt;
+&lt;p&gt;2022年 9 月 &amp;ndash; 2023 年 1月（大二上），开始觉得看视频的学习效果不够好（现在想想是因为自己在看视频的时候没有花足够的时间去思考），开始回归书本，买了不少 计算机相关的 经典书籍，开始啃书。这个学期学的是专业课是 &lt;strong&gt;计算机网络&lt;/strong&gt; 和 &lt;strong&gt;Java&lt;/strong&gt;，两门都考了 &lt;code&gt;95&lt;/code&gt;，还算满意。其余的必修课，最差的也是考到了 &lt;code&gt;88&lt;/code&gt;，是 &lt;strong&gt;马克思主义基本原理&lt;/strong&gt;，个人感觉还是很好的了。这段时间也是花了大把大把的时间去啃书，并于 &lt;code&gt;2022-10-12&lt;/code&gt; 搭建了自己的博客，并逐渐进行完善，以及对使用的笔记软件 &lt;code&gt;Obsidian&lt;/code&gt; 不断打磨，使之可以完美符合我的使用习惯，时至今日，经过多次&lt;code&gt;&amp;quot;迭代升级&amp;quot;&lt;/code&gt;，已经是我的形状了😋。除此之外，也看了很多人文社科相关的书籍，读了很多很多书，感觉还是有所长进的（但是！！还是缺乏对代码的实践，这是唯一美中不足的地方）&lt;/p&gt;
+&lt;p&gt;2022 年全年 跑步量 &lt;code&gt;781&lt;/code&gt; km&lt;/p&gt;
+&lt;p&gt;至此，2022 年 8 月 &amp;ndash; 2023 年 1 月 $Over$。&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<p>2022 年 8 月 &ndash; 9 月（大一至大二的暑假），又在力扣上刷了大概一个半月的题，是因为报了 <a href="https://www.acwing.com/activity/content/activity_person/content/431826/1/">暑假每日一题2022</a>，在这之前，算法基础课已经刷完（4 月 &ndash; 7月），我又开始了 算法提高课 的 刷课刷视频（这个我并没有购买，而是跟另一个人作了交换，他上我的号看 Web 应用课，我上他的号看 算法提高课）。<strong><u>前前后后刷了 5 个月 算法后，开始疲惫，就不再看了</u></strong>。不看算法后，开始看 Django 框架课 和 Web 应用课，并写出对应的项目（还是过于急，并没有吃透，也没有花时间去Debug，碰到错误想的是对着源码去找哪里没有抄对🤣这样能学好才怪嘞）。还花了时间把 数据结构的课设 搞定，也是没什么技术含量，没什么系统性的长进</p>
+<p>这个期间的生活费，大部分花在 买户外装备 上了&hellip;（虽然因为疫情封校没怎么出去过😭</p>
+<p>2022年 9 月 &ndash; 2023 年 1月（大二上），开始觉得看视频的学习效果不够好（现在想想是因为自己在看视频的时候没有花足够的时间去思考），开始回归书本，买了不少 计算机相关的 经典书籍，开始啃书。这个学期学的是专业课是 <strong>计算机网络</strong> 和 <strong>Java</strong>，两门都考了 <code>95</code>，还算满意。其余的必修课，最差的也是考到了 <code>88</code>，是 <strong>马克思主义基本原理</strong>，个人感觉还是很好的了。这段时间也是花了大把大把的时间去啃书，并于 <code>2022-10-12</code> 搭建了自己的博客，并逐渐进行完善，以及对使用的笔记软件 <code>Obsidian</code> 不断打磨，使之可以完美符合我的使用习惯，时至今日，经过多次<code>&quot;迭代升级&quot;</code>，已经是我的形状了😋。除此之外，也看了很多人文社科相关的书籍，读了很多很多书，感觉还是有所长进的（但是！！还是缺乏对代码的实践，这是唯一美中不足的地方）</p>
+<p>2022 年全年 跑步量 <code>781</code> km</p>
+<p>至此，2022 年 8 月 &ndash; 2023 年 1 月 $Over$。</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>寒假&amp;大一下</title>
+      <link>https://xancoding.cn/posts/2023-07-23-09-20-44/</link>
+      <pubDate>Sun, 23 Jul 2023 09:20:45 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-07-23-09-20-44/</guid>
+      <description>&lt;p&gt;从 2022 年 1 月 &amp;ndash; 3月时间（1 月 &amp;ndash; 2 月 寒假）主要花在了 &lt;a href=&#34;https://www.programmercarl.com/&#34;&gt;代码随想录&lt;/a&gt; 上(还付费进入知识星球一年)，对应着在&lt;strong&gt;力扣&lt;/strong&gt;上刷题，对算法算是稍稍入了门，期间花时间把 黑马程序员 C++ 的 B 站视频刷了（当时只是硬着头皮刷，没想过要针对性的学习，其实后面刷算法题其实这里面语法特性是用不上的，比如：模板、虚函数&amp;hellip;导致学了忘得也很快，而在算法中需要掌握使用的 &lt;code&gt;STL&lt;/code&gt;，却还是没怎么熟悉）（现在看来，还是走了挺多弯路的吧🤔）。发两个月时间刷完后，又转战 &lt;a href=&#34;https://www.acwing.com/user/myspace/activity/182463/&#34;&gt;AcWing&lt;/a&gt;，先后购入 算法基础课（2022-03-28）、Linux基础课（2022-03-31）、Django框架课（2022-04-30）、Web 应用课（2022-05-06）。之后整个学期，也是因为疫情封校，平时周末无法外出，只能是在学校里，我也就把大部分的时间花在这些东西的学习上，刷这些视频课，并对应着进行一些实践。（现在反思反思，当时的实践还是少了，有点太过急了，视频刷的很快，能自己吸收消化的却不算多，还是有点可惜）。&lt;/p&gt;
+&lt;p&gt;这个期间的生活费，大部分花在 买课 上了&amp;hellip;&lt;/p&gt;
+&lt;p&gt;2022 年 4 月 &amp;ndash; 7月，这段时间也是停了力扣的刷题，时间着重花在 AcWing 上的算法题，以及 AcWing 工程课 的学习。这个学期 学了 &lt;strong&gt;数据结构&lt;/strong&gt; 一门专业课，因为有了算法学习的底子，学的还是比较轻松，还做了一下&lt;a href=&#34;https://github.com/Xancoding/Data-Structures-and-Algorithms&#34;&gt;知识点的整理&lt;/a&gt;，最后的期末考了个 &lt;code&gt;92&lt;/code&gt;，不满意，狠奇怪😅。再说说考的不算好的几门好了，大学物理(1) 考了 &lt;code&gt;78&lt;/code&gt;（确实不怎么会，认了），还有就是 学术英语，&lt;code&gt;78&lt;/code&gt;，（不行，我要好好学英语！！！）这段时间主要还是花在 算法基础课 上，在 算法基础课 差不多学完的时候，插入了 Linux 基础课 的学习。&lt;/p&gt;
+&lt;p&gt;至此，2022 年 2 月 &amp;ndash; 2022 年 7 月 $Over$。&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<p>从 2022 年 1 月 &ndash; 3月时间（1 月 &ndash; 2 月 寒假）主要花在了 <a href="https://www.programmercarl.com/">代码随想录</a> 上(还付费进入知识星球一年)，对应着在<strong>力扣</strong>上刷题，对算法算是稍稍入了门，期间花时间把 黑马程序员 C++ 的 B 站视频刷了（当时只是硬着头皮刷，没想过要针对性的学习，其实后面刷算法题其实这里面语法特性是用不上的，比如：模板、虚函数&hellip;导致学了忘得也很快，而在算法中需要掌握使用的 <code>STL</code>，却还是没怎么熟悉）（现在看来，还是走了挺多弯路的吧🤔）。发两个月时间刷完后，又转战 <a href="https://www.acwing.com/user/myspace/activity/182463/">AcWing</a>，先后购入 算法基础课（2022-03-28）、Linux基础课（2022-03-31）、Django框架课（2022-04-30）、Web 应用课（2022-05-06）。之后整个学期，也是因为疫情封校，平时周末无法外出，只能是在学校里，我也就把大部分的时间花在这些东西的学习上，刷这些视频课，并对应着进行一些实践。（现在反思反思，当时的实践还是少了，有点太过急了，视频刷的很快，能自己吸收消化的却不算多，还是有点可惜）。</p>
+<p>这个期间的生活费，大部分花在 买课 上了&hellip;</p>
+<p>2022 年 4 月 &ndash; 7月，这段时间也是停了力扣的刷题，时间着重花在 AcWing 上的算法题，以及 AcWing 工程课 的学习。这个学期 学了 <strong>数据结构</strong> 一门专业课，因为有了算法学习的底子，学的还是比较轻松，还做了一下<a href="https://github.com/Xancoding/Data-Structures-and-Algorithms">知识点的整理</a>，最后的期末考了个 <code>92</code>，不满意，狠奇怪😅。再说说考的不算好的几门好了，大学物理(1) 考了 <code>78</code>（确实不怎么会，认了），还有就是 学术英语，<code>78</code>，（不行，我要好好学英语！！！）这段时间主要还是花在 算法基础课 上，在 算法基础课 差不多学完的时候，插入了 Linux 基础课 的学习。</p>
+<p>至此，2022 年 2 月 &ndash; 2022 年 7 月 $Over$。</p>
 ]]></content:encoded>
     </item>
     
@@ -2054,28 +1750,16 @@ IQR：四分位间距，数据的中间 50% 的范围</p>
     </item>
     
     <item>
-      <title>大学回顾</title>
+      <title>暑假&amp;大一上</title>
       <link>https://xancoding.cn/posts/2023-05-29-12-54-17/</link>
       <pubDate>Mon, 29 May 2023 12:54:18 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-05-29-12-54-17/</guid>
-      <description>&lt;h1 id=&#34;大一上&#34;&gt;大一上&lt;/h1&gt;
-&lt;p&gt;2021年 7 月，开始我高考完后最轻松的暑假，光顾着玩了，没怎么学习（当然也没去考驾照啦）
+      <description>&lt;p&gt;2021年 7 月，开始我高考完后最轻松的暑假，光顾着玩了，没怎么学习（当然也没去考驾照啦）
 2021 年 9 月 &amp;ndash; 2022 年 1 月（大一上），这段时间没怎么花时间在专业技术的学习上的，花比较多的时间在 &lt;strong&gt;高等数学&lt;/strong&gt; 上，结果发现最后的考试并不难（不过考的也不高，拿了个 &lt;code&gt;90&lt;/code&gt;）。闲暇的时间，日常的跑步（9月 &amp;ndash; 12月 共跑了 $369 km$） &amp;amp; 周末跟凌云社的小伙伴们出去玩（东灵山、三峰连穿&amp;hellip;），这个学期学了 &lt;strong&gt;C语言&lt;/strong&gt; 和 &lt;strong&gt;离散数学&lt;/strong&gt; 两门专业课。离散的老师讲的实在不行，只能自己看书学，感觉掌握的不是很扎实&amp;ndash;不过考试还是依旧比较水，C语言 &lt;code&gt;95&lt;/code&gt; 和 离散数学 &lt;code&gt;94&lt;/code&gt; 拿下。 其他的课中，依旧是被英语折磨，最后也就考了个 &lt;code&gt;83&lt;/code&gt;（感觉也挺高的了🤣），还有就是 &lt;strong&gt;思想道德修养与法律&lt;/strong&gt;，还是上课水过，考前几天背的死去活来，&lt;code&gt;82&lt;/code&gt; 考过。还有就是，C 语言那个 管理系统 的课设，当时的我都还是只是磕磕绊绊的写出，以及参考教材，没有去网上检索信息的意识，可见对专业相关的自主学习意识还是比较薄弱的🥴。&lt;/p&gt;
 &lt;p&gt;这学期也有两门拿的比较低，一门是 &lt;strong&gt;军事技能&lt;/strong&gt;，是按军训的表现来算的（打靶全部脱靶，还能高到哪去，这个我认了😅）。另外一门就是 &lt;strong&gt;计算机导论&lt;/strong&gt;，虽然是开卷，还是考了个 &lt;strong&gt;78&lt;/strong&gt;。现在想想，这门当时应该好好学的，可以构建对计算机的基本认知来说，还是有必要的，对后面的学习也是有所裨益的。&lt;/p&gt;
 &lt;p&gt;这个期间的生活费，大部分花在买跑鞋和我的高驰表上了&amp;hellip;&lt;/p&gt;
 &lt;p&gt;至此，2021 年 7 月 &amp;ndash; 2022 年 1 月 $Over$。&lt;/p&gt;
-&lt;h1 id=&#34;大一下&#34;&gt;大一下&lt;/h1&gt;
-&lt;p&gt;从 2022 年 1 月 &amp;ndash; 3月时间（1 月 &amp;ndash; 2 月 寒假）主要花在了 &lt;a href=&#34;https://www.programmercarl.com/&#34;&gt;代码随想录&lt;/a&gt; 上(还付费进入知识星球一年)，对应着在&lt;strong&gt;力扣&lt;/strong&gt;上刷题，对算法算是稍稍入了门，期间花时间把 黑马程序员 C++ 的 B 站视频刷了（当时只是硬着头皮刷，没想过要针对性的学习，其实后面刷算法题其实这里面语法特性是用不上的，比如：模板、虚函数&amp;hellip;导致学了忘得也很快，而在算法中需要掌握使用的 &lt;code&gt;STL&lt;/code&gt;，却还是没怎么熟悉）（现在看来，还是走了挺多弯路的吧🤔）。发两个月时间刷完后，又转战 &lt;a href=&#34;https://www.acwing.com/user/myspace/activity/182463/&#34;&gt;AcWing&lt;/a&gt;，先后购入 算法基础课（2022-03-28）、Linux基础课（2022-03-31）、Django框架课（2022-04-30）、Web 应用课（2022-05-06）。之后整个学期，也是因为疫情封校，平时周末无法外出，只能是在学校里，我也就把大部分的时间花在这些东西的学习上，刷这些视频课，并对应着进行一些实践。（现在反思反思，当时的实践还是少了，有点太过急了，视频刷的很快，能自己吸收消化的却不算多，还是有点可惜）。&lt;/p&gt;
-&lt;p&gt;这个期间的生活费，大部分花在 买课 上了&amp;hellip;&lt;/p&gt;
-&lt;p&gt;2022 年 4 月 &amp;ndash; 7月，这段时间也是停了力扣的刷题，时间着重花在 AcWing 上的算法题，以及 AcWing 工程课 的学习。这个学期 学了 &lt;strong&gt;数据结构&lt;/strong&gt; 一门专业课，因为有了算法学习的底子，学的还是比较轻松，还做了一下&lt;a href=&#34;https://github.com/Xancoding/Data-Structures-and-Algorithms&#34;&gt;知识点的整理&lt;/a&gt;，最后的期末考了个 &lt;code&gt;92&lt;/code&gt;，不满意，狠奇怪😅。再说说考的不算好的几门好了，大学物理(1) 考了 &lt;code&gt;78&lt;/code&gt;（确实不怎么会，认了），还有就是 学术英语，&lt;code&gt;78&lt;/code&gt;，（不行，我要好好学英语！！！）这段时间主要还是花在 算法基础课 上，在 算法基础课 差不多学完的时候，插入了 Linux 基础课 的学习。&lt;/p&gt;
-&lt;p&gt;至此，2022 年 2 月 &amp;ndash; 2022 年 7 月 $Over$。&lt;/p&gt;
-&lt;h1 id=&#34;大二上&#34;&gt;大二上&lt;/h1&gt;
-&lt;p&gt;2022 年 8 月 &amp;ndash; 9 月（大一至大二的暑假），又在力扣上刷了大概一个半月的题，是因为报了 &lt;a href=&#34;https://www.acwing.com/activity/content/activity_person/content/431826/1/&#34;&gt;暑假每日一题2022&lt;/a&gt;，在这之前，算法基础课已经刷完（4 月 &amp;ndash; 7月），我又开始了 算法提高课 的 刷课刷视频（这个我并没有购买，而是跟另一个人作了交换，他上我的号看 Web 应用课，我上他的号看 算法提高课）。&lt;strong&gt;&lt;u&gt;前前后后刷了 5 个月 算法后，开始疲惫，就不再看了&lt;/u&gt;&lt;/strong&gt;。不看算法后，开始看 Django 框架课 和 Web 应用课，并写出对应的项目（还是过于急，并没有吃透，也没有花时间去Debug，碰到错误想的是对着源码去找哪里没有抄对🤣这样能学好才怪嘞）。还花了时间把 数据结构的课设 搞定，也是没什么技术含量，没什么系统性的长进&lt;/p&gt;
-&lt;p&gt;这个期间的生活费，大部分花在 买户外装备 上了&amp;hellip;（虽然因为疫情封校没怎么出去过😭&lt;/p&gt;
-&lt;p&gt;2022年 9 月 &amp;ndash; 2023 年 1月（大二上），开始觉得看视频的学习效果不够好（现在想想是因为自己在看视频的时候没有花足够的时间去思考），开始回归书本，买了不少 计算机相关的 经典书籍，开始啃书。这个学期学的是专业课是 &lt;strong&gt;计算机网络&lt;/strong&gt; 和 &lt;strong&gt;Java&lt;/strong&gt;，两门都考了 &lt;code&gt;95&lt;/code&gt;，还算满意。其余的必修课，最差的也是考到了 &lt;code&gt;88&lt;/code&gt;，是 &lt;strong&gt;马克思主义基本原理&lt;/strong&gt;，个人感觉还是很好的了。这段时间也是花了大把大把的时间去啃书，并于 &lt;code&gt;2022-10-12&lt;/code&gt; 搭建了自己的博客，并逐渐进行完善，以及对使用的笔记软件 &lt;code&gt;Obsidian&lt;/code&gt; 不断打磨，使之可以完美符合我的使用习惯，时至今日，经过多次&lt;code&gt;&amp;quot;迭代升级&amp;quot;&lt;/code&gt;，已经是我的形状了😋。除此之外，也看了很多人文社科相关的书籍，读了很多很多书，感觉还是有所长进的（但是！！还是缺乏对代码的实践，这是唯一美中不足的地方）&lt;/p&gt;
-&lt;p&gt;2022 年全年 跑步量 &lt;code&gt;781&lt;/code&gt; km&lt;/p&gt;
-&lt;p&gt;至此，2022 年 8 月 &amp;ndash; 2023 年 1 月 $Over$。&lt;/p&gt;
 &lt;h1 id=&#34;大二下&#34;&gt;大二下&lt;/h1&gt;
 &lt;p&gt;2023 年 2 月 &amp;ndash; 3 月（寒假），还是花时间在啃书，这部分时间啃的主要是 操作系统 的书，还有就是写博客，把自己之前的 &lt;code&gt;Linux 基础课 &amp;amp; Django 框架课 &amp;amp; Web 应用课&lt;/code&gt; 做了整理，写成博客。还有的就是，浏览别人博客的一些共鸣，以及感悟，也做了一些浅薄的记录。（从 2022 年 9 月 开始，阅读别人博客的时间也是花了很多，只是到 2023 年 4 月左右，已经是把想看的博主的内容都看完了，开始比较少的输入新的博客信息）。整个寒假，也是花了比较多的时间🏃‍，是按 每天 6 km 来跑的（在 2023 年 1 月的时候，想着每天跑 6 km，结果也是 &lt;strong&gt;理想很丰满，现实很骨感&lt;/strong&gt;，在开学后，繁重的课业加上受伤的脚踝也是让我开摆，放弃这个想法🤧）（ 1 月 159 km，2 月 120 km，3月 48 km..看来也就坚持一个多月，不过也没办法，力量不够，我 2 月 后半时间 伤了，再加上 🐏了，实在是跑不了&amp;hellip;）&lt;/p&gt;
 &lt;p&gt;！！！终于，在我接触 ICS-PA 和 OS 和 SICP（好吧，这个接触的比较早，只不过认真开始学习是近期的时候），我深刻的意识到 实践！！！ 的重要意义，看和做，做是更重要的。想想自己之前为什么总是收不到正反馈，很简单呀，光看不练怎么会有很大的提升呢。虽说走了挺多弯路，但前面的学习，也是给我现在打下了不错的基础，相信只要我花时间思考，不断实践 RTFM、RTFSC、RTFW，独立完成这几个项目，可以让我的 计算机能力有不错的提升，让我可以对自己更为满意💪。还有就是，培养自己阅读英文资料的习惯，毕竟外国的 技术资料和技术社区讨论氛围，还是国内所比不上的。再者，学习英语也是蛮有意思的嘛。&lt;/p&gt;
@@ -2095,23 +1779,11 @@ IQR：四分位间距，数据的中间 50% 的范围</p>
 &lt;hr&gt;
 &lt;p&gt;现在是 $2023 年 7 月 12 日 22 时 53 分$，明确以后走选调生的目标，暑假主要花时间搞科研，为以后保研做准备。另外，看看英语语法，其他的都可以放一放。毕竟，一个人是不可能同时做好这么多事情的。&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="大一上">大一上</h1>
-<p>2021年 7 月，开始我高考完后最轻松的暑假，光顾着玩了，没怎么学习（当然也没去考驾照啦）
+      <content:encoded><![CDATA[<p>2021年 7 月，开始我高考完后最轻松的暑假，光顾着玩了，没怎么学习（当然也没去考驾照啦）
 2021 年 9 月 &ndash; 2022 年 1 月（大一上），这段时间没怎么花时间在专业技术的学习上的，花比较多的时间在 <strong>高等数学</strong> 上，结果发现最后的考试并不难（不过考的也不高，拿了个 <code>90</code>）。闲暇的时间，日常的跑步（9月 &ndash; 12月 共跑了 $369 km$） &amp; 周末跟凌云社的小伙伴们出去玩（东灵山、三峰连穿&hellip;），这个学期学了 <strong>C语言</strong> 和 <strong>离散数学</strong> 两门专业课。离散的老师讲的实在不行，只能自己看书学，感觉掌握的不是很扎实&ndash;不过考试还是依旧比较水，C语言 <code>95</code> 和 离散数学 <code>94</code> 拿下。 其他的课中，依旧是被英语折磨，最后也就考了个 <code>83</code>（感觉也挺高的了🤣），还有就是 <strong>思想道德修养与法律</strong>，还是上课水过，考前几天背的死去活来，<code>82</code> 考过。还有就是，C 语言那个 管理系统 的课设，当时的我都还是只是磕磕绊绊的写出，以及参考教材，没有去网上检索信息的意识，可见对专业相关的自主学习意识还是比较薄弱的🥴。</p>
 <p>这学期也有两门拿的比较低，一门是 <strong>军事技能</strong>，是按军训的表现来算的（打靶全部脱靶，还能高到哪去，这个我认了😅）。另外一门就是 <strong>计算机导论</strong>，虽然是开卷，还是考了个 <strong>78</strong>。现在想想，这门当时应该好好学的，可以构建对计算机的基本认知来说，还是有必要的，对后面的学习也是有所裨益的。</p>
 <p>这个期间的生活费，大部分花在买跑鞋和我的高驰表上了&hellip;</p>
 <p>至此，2021 年 7 月 &ndash; 2022 年 1 月 $Over$。</p>
-<h1 id="大一下">大一下</h1>
-<p>从 2022 年 1 月 &ndash; 3月时间（1 月 &ndash; 2 月 寒假）主要花在了 <a href="https://www.programmercarl.com/">代码随想录</a> 上(还付费进入知识星球一年)，对应着在<strong>力扣</strong>上刷题，对算法算是稍稍入了门，期间花时间把 黑马程序员 C++ 的 B 站视频刷了（当时只是硬着头皮刷，没想过要针对性的学习，其实后面刷算法题其实这里面语法特性是用不上的，比如：模板、虚函数&hellip;导致学了忘得也很快，而在算法中需要掌握使用的 <code>STL</code>，却还是没怎么熟悉）（现在看来，还是走了挺多弯路的吧🤔）。发两个月时间刷完后，又转战 <a href="https://www.acwing.com/user/myspace/activity/182463/">AcWing</a>，先后购入 算法基础课（2022-03-28）、Linux基础课（2022-03-31）、Django框架课（2022-04-30）、Web 应用课（2022-05-06）。之后整个学期，也是因为疫情封校，平时周末无法外出，只能是在学校里，我也就把大部分的时间花在这些东西的学习上，刷这些视频课，并对应着进行一些实践。（现在反思反思，当时的实践还是少了，有点太过急了，视频刷的很快，能自己吸收消化的却不算多，还是有点可惜）。</p>
-<p>这个期间的生活费，大部分花在 买课 上了&hellip;</p>
-<p>2022 年 4 月 &ndash; 7月，这段时间也是停了力扣的刷题，时间着重花在 AcWing 上的算法题，以及 AcWing 工程课 的学习。这个学期 学了 <strong>数据结构</strong> 一门专业课，因为有了算法学习的底子，学的还是比较轻松，还做了一下<a href="https://github.com/Xancoding/Data-Structures-and-Algorithms">知识点的整理</a>，最后的期末考了个 <code>92</code>，不满意，狠奇怪😅。再说说考的不算好的几门好了，大学物理(1) 考了 <code>78</code>（确实不怎么会，认了），还有就是 学术英语，<code>78</code>，（不行，我要好好学英语！！！）这段时间主要还是花在 算法基础课 上，在 算法基础课 差不多学完的时候，插入了 Linux 基础课 的学习。</p>
-<p>至此，2022 年 2 月 &ndash; 2022 年 7 月 $Over$。</p>
-<h1 id="大二上">大二上</h1>
-<p>2022 年 8 月 &ndash; 9 月（大一至大二的暑假），又在力扣上刷了大概一个半月的题，是因为报了 <a href="https://www.acwing.com/activity/content/activity_person/content/431826/1/">暑假每日一题2022</a>，在这之前，算法基础课已经刷完（4 月 &ndash; 7月），我又开始了 算法提高课 的 刷课刷视频（这个我并没有购买，而是跟另一个人作了交换，他上我的号看 Web 应用课，我上他的号看 算法提高课）。<strong><u>前前后后刷了 5 个月 算法后，开始疲惫，就不再看了</u></strong>。不看算法后，开始看 Django 框架课 和 Web 应用课，并写出对应的项目（还是过于急，并没有吃透，也没有花时间去Debug，碰到错误想的是对着源码去找哪里没有抄对🤣这样能学好才怪嘞）。还花了时间把 数据结构的课设 搞定，也是没什么技术含量，没什么系统性的长进</p>
-<p>这个期间的生活费，大部分花在 买户外装备 上了&hellip;（虽然因为疫情封校没怎么出去过😭</p>
-<p>2022年 9 月 &ndash; 2023 年 1月（大二上），开始觉得看视频的学习效果不够好（现在想想是因为自己在看视频的时候没有花足够的时间去思考），开始回归书本，买了不少 计算机相关的 经典书籍，开始啃书。这个学期学的是专业课是 <strong>计算机网络</strong> 和 <strong>Java</strong>，两门都考了 <code>95</code>，还算满意。其余的必修课，最差的也是考到了 <code>88</code>，是 <strong>马克思主义基本原理</strong>，个人感觉还是很好的了。这段时间也是花了大把大把的时间去啃书，并于 <code>2022-10-12</code> 搭建了自己的博客，并逐渐进行完善，以及对使用的笔记软件 <code>Obsidian</code> 不断打磨，使之可以完美符合我的使用习惯，时至今日，经过多次<code>&quot;迭代升级&quot;</code>，已经是我的形状了😋。除此之外，也看了很多人文社科相关的书籍，读了很多很多书，感觉还是有所长进的（但是！！还是缺乏对代码的实践，这是唯一美中不足的地方）</p>
-<p>2022 年全年 跑步量 <code>781</code> km</p>
-<p>至此，2022 年 8 月 &ndash; 2023 年 1 月 $Over$。</p>
 <h1 id="大二下">大二下</h1>
 <p>2023 年 2 月 &ndash; 3 月（寒假），还是花时间在啃书，这部分时间啃的主要是 操作系统 的书，还有就是写博客，把自己之前的 <code>Linux 基础课 &amp; Django 框架课 &amp; Web 应用课</code> 做了整理，写成博客。还有的就是，浏览别人博客的一些共鸣，以及感悟，也做了一些浅薄的记录。（从 2022 年 9 月 开始，阅读别人博客的时间也是花了很多，只是到 2023 年 4 月左右，已经是把想看的博主的内容都看完了，开始比较少的输入新的博客信息）。整个寒假，也是花了比较多的时间🏃‍，是按 每天 6 km 来跑的（在 2023 年 1 月的时候，想着每天跑 6 km，结果也是 <strong>理想很丰满，现实很骨感</strong>，在开学后，繁重的课业加上受伤的脚踝也是让我开摆，放弃这个想法🤧）（ 1 月 159 km，2 月 120 km，3月 48 km..看来也就坚持一个多月，不过也没办法，力量不够，我 2 月 后半时间 伤了，再加上 🐏了，实在是跑不了&hellip;）</p>
 <p>！！！终于，在我接触 ICS-PA 和 OS 和 SICP（好吧，这个接触的比较早，只不过认真开始学习是近期的时候），我深刻的意识到 实践！！！ 的重要意义，看和做，做是更重要的。想想自己之前为什么总是收不到正反馈，很简单呀，光看不练怎么会有很大的提升呢。虽说走了挺多弯路，但前面的学习，也是给我现在打下了不错的基础，相信只要我花时间思考，不断实践 RTFM、RTFSC、RTFW，独立完成这几个项目，可以让我的 计算机能力有不错的提升，让我可以对自己更为满意💪。还有就是，培养自己阅读英文资料的习惯，毕竟外国的 技术资料和技术社区讨论氛围，还是国内所比不上的。再者，学习英语也是蛮有意思的嘛。</p>
