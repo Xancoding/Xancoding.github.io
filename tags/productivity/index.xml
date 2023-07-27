@@ -206,32 +206,48 @@
 &lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
 &lt;p&gt;我的笔记记录工作，都是在 &lt;code&gt;obsidian&lt;/code&gt; 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到&lt;code&gt;github&lt;/code&gt;、编译博客的源文件再发表等等&lt;/p&gt;
 &lt;p&gt;下面列出一些我正在用的插件👇&lt;/p&gt;
-&lt;h3 id=&#34;emoji-toolbar&#34;&gt;Emoji Toolbar&lt;/h3&gt;
-&lt;p&gt;让你可以快速搜索和添加表情符号到你的编辑器。&lt;/p&gt;
+&lt;h2 id=&#34;appearance&#34;&gt;Appearance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;主题：AnuPpuccin&lt;/li&gt;
+&lt;li&gt;字体：霞鹜文楷 ，安装地址：&lt;a href=&#34;https://github.com/lxgw/LxgwWenKai&#34;&gt;https://github.com/lxgw/LxgwWenKai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;大纲：Quiet Outline&lt;/li&gt;
+&lt;li&gt;样式设置：Style Setting&lt;/li&gt;
+&lt;li&gt;代码高亮：Editor Syntax Highlight&lt;/li&gt;
+&lt;li&gt;链接图标：Link Favicons&lt;/li&gt;
+&lt;li&gt;Light/Dark自动切换：System Dark Mode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;quiet-outline&#34;&gt;Quiet Outline&lt;/h3&gt;
+&lt;p&gt;一个让大纲更好用的插件&lt;/p&gt;
+&lt;p&gt;打开命令面板输入&lt;code&gt;Quiet Outline&lt;/code&gt;，然后回车，就可以打开大纲面板。&lt;/p&gt;
+&lt;p&gt;其他详细功能在设置中查看&lt;/p&gt;
 &lt;h3 id=&#34;editor-syntax-highlight&#34;&gt;Editor Syntax Highlight&lt;/h3&gt;
 &lt;p&gt;将最流行的编程语言的语法高亮显示到Obsidian代码块中&lt;/p&gt;
+&lt;h3 id=&#34;link-favicons&#34;&gt;Link Favicons&lt;/h3&gt;
+&lt;p&gt;看到链接网站的图标&lt;/p&gt;
+&lt;h3 id=&#34;system-dark-mode&#34;&gt;System Dark Mode&lt;/h3&gt;
+&lt;p&gt;将自动根据操作系统将主题设置为亮或暗模式&lt;/p&gt;
+&lt;h2 id=&#34;toolbar&#34;&gt;Toolbar&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;工具栏：Editing Toolbar&lt;/li&gt;
+&lt;li&gt;Emoji：Emoji Toolbar&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;editing-toolbar&#34;&gt;Editing Toolbar&lt;/h3&gt;
 &lt;p&gt;提供类似于 MS-Word 的工具栏，，以获得更顺畅的写作/编辑体验。&lt;/p&gt;
+&lt;h3 id=&#34;emoji-toolbar&#34;&gt;Emoji Toolbar&lt;/h3&gt;
+&lt;p&gt;让你可以快速搜索和添加表情符号到你的编辑器。&lt;/p&gt;
+&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
 &lt;h3 id=&#34;epub-reader&#34;&gt;&lt;strong&gt;ePUb Reader&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;在 &lt;code&gt;Obsidian&lt;/code&gt; 中可以阅读 &lt;code&gt;Epub&lt;/code&gt; 电子书&lt;/p&gt;
 &lt;h3 id=&#34;image-auto-upload-plugin&#34;&gt;Image auto upload Plugin&lt;/h3&gt;
 &lt;p&gt;通过 &lt;code&gt;PicGo&lt;/code&gt; 自动上传图像，只需要将图片粘贴即可自动上传&lt;/p&gt;
-&lt;h3 id=&#34;link-favicons&#34;&gt;Link Favicons&lt;/h3&gt;
-&lt;p&gt;看到链接网站的图标&lt;/p&gt;
 &lt;h3 id=&#34;obsidian-git--quickadd&#34;&gt;Obsidian Git &amp;amp; QuickAdd&lt;/h3&gt;
 &lt;p&gt;搭建 Obsidian 博客自动发布系统&lt;/p&gt;
-&lt;h3 id=&#34;system-dark-mode&#34;&gt;System Dark Mode&lt;/h3&gt;
-&lt;p&gt;将自动根据操作系统将主题设置为亮或暗模式&lt;/p&gt;
 &lt;h3 id=&#34;various-complements&#34;&gt;Various Complements&lt;/h3&gt;
 &lt;p&gt;单词提示，自动补全&lt;/p&gt;
 &lt;h3 id=&#34;vimrc-support&#34;&gt;&lt;strong&gt;Vimrc Support&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;从 &lt;code&gt;VAULT_ROOT/.obsidian.vimrc&lt;/code&gt; 加载 Vim 命令文件，实现加载持久配置的功能并添加一些额外功能&lt;/p&gt;
 &lt;h3 id=&#34;wakatime&#34;&gt;WakaTime&lt;/h3&gt;
 &lt;p&gt;统计你在不同语言、项目上写代码的时长&lt;/p&gt;
-&lt;h3 id=&#34;quiet-outline&#34;&gt;Quiet Outline&lt;/h3&gt;
-&lt;p&gt;一个让大纲更好用的插件&lt;/p&gt;
-&lt;p&gt;打开命令面板输入&lt;code&gt;Quiet Outline&lt;/code&gt;，然后回车，就可以打开大纲面板。&lt;/p&gt;
-&lt;p&gt;其他详细功能在设置中查看&lt;/p&gt;
 &lt;h1 id=&#34;flomo-浮墨笔记&#34;&gt;flomo 浮墨笔记&lt;/h1&gt;
 &lt;p&gt;在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录&lt;/p&gt;
 &lt;p&gt;在想回顾时，可以方便知晓过去的想法
@@ -262,32 +278,48 @@
 <h1 id="obsidian">Obsidian</h1>
 <p>我的笔记记录工作，都是在 <code>obsidian</code> 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到<code>github</code>、编译博客的源文件再发表等等</p>
 <p>下面列出一些我正在用的插件👇</p>
-<h3 id="emoji-toolbar">Emoji Toolbar</h3>
-<p>让你可以快速搜索和添加表情符号到你的编辑器。</p>
+<h2 id="appearance">Appearance</h2>
+<ul>
+<li>主题：AnuPpuccin</li>
+<li>字体：霞鹜文楷 ，安装地址：<a href="https://github.com/lxgw/LxgwWenKai">https://github.com/lxgw/LxgwWenKai</a></li>
+<li>大纲：Quiet Outline</li>
+<li>样式设置：Style Setting</li>
+<li>代码高亮：Editor Syntax Highlight</li>
+<li>链接图标：Link Favicons</li>
+<li>Light/Dark自动切换：System Dark Mode</li>
+</ul>
+<h3 id="quiet-outline">Quiet Outline</h3>
+<p>一个让大纲更好用的插件</p>
+<p>打开命令面板输入<code>Quiet Outline</code>，然后回车，就可以打开大纲面板。</p>
+<p>其他详细功能在设置中查看</p>
 <h3 id="editor-syntax-highlight">Editor Syntax Highlight</h3>
 <p>将最流行的编程语言的语法高亮显示到Obsidian代码块中</p>
+<h3 id="link-favicons">Link Favicons</h3>
+<p>看到链接网站的图标</p>
+<h3 id="system-dark-mode">System Dark Mode</h3>
+<p>将自动根据操作系统将主题设置为亮或暗模式</p>
+<h2 id="toolbar">Toolbar</h2>
+<ul>
+<li>工具栏：Editing Toolbar</li>
+<li>Emoji：Emoji Toolbar</li>
+</ul>
 <h3 id="editing-toolbar">Editing Toolbar</h3>
 <p>提供类似于 MS-Word 的工具栏，，以获得更顺畅的写作/编辑体验。</p>
+<h3 id="emoji-toolbar">Emoji Toolbar</h3>
+<p>让你可以快速搜索和添加表情符号到你的编辑器。</p>
+<h2 id="others">Others</h2>
 <h3 id="epub-reader"><strong>ePUb Reader</strong></h3>
 <p>在 <code>Obsidian</code> 中可以阅读 <code>Epub</code> 电子书</p>
 <h3 id="image-auto-upload-plugin">Image auto upload Plugin</h3>
 <p>通过 <code>PicGo</code> 自动上传图像，只需要将图片粘贴即可自动上传</p>
-<h3 id="link-favicons">Link Favicons</h3>
-<p>看到链接网站的图标</p>
 <h3 id="obsidian-git--quickadd">Obsidian Git &amp; QuickAdd</h3>
 <p>搭建 Obsidian 博客自动发布系统</p>
-<h3 id="system-dark-mode">System Dark Mode</h3>
-<p>将自动根据操作系统将主题设置为亮或暗模式</p>
 <h3 id="various-complements">Various Complements</h3>
 <p>单词提示，自动补全</p>
 <h3 id="vimrc-support"><strong>Vimrc Support</strong></h3>
 <p>从 <code>VAULT_ROOT/.obsidian.vimrc</code> 加载 Vim 命令文件，实现加载持久配置的功能并添加一些额外功能</p>
 <h3 id="wakatime">WakaTime</h3>
 <p>统计你在不同语言、项目上写代码的时长</p>
-<h3 id="quiet-outline">Quiet Outline</h3>
-<p>一个让大纲更好用的插件</p>
-<p>打开命令面板输入<code>Quiet Outline</code>，然后回车，就可以打开大纲面板。</p>
-<p>其他详细功能在设置中查看</p>
 <h1 id="flomo-浮墨笔记">flomo 浮墨笔记</h1>
 <p>在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录</p>
 <p>在想回顾时，可以方便知晓过去的想法
