@@ -6530,7 +6530,7 @@ Name:李四       Age:30
     </item>
     
     <item>
-      <title>我的电脑常用工具</title>
+      <title>Useful Tools</title>
       <link>https://xancoding.cn/posts/2023-01-15-12-42-38/</link>
       <pubDate>Sun, 15 Jan 2023 12:42:38 +0800</pubDate>
       
@@ -10348,57 +10348,57 @@ int main()
     </item>
     
     <item>
-      <title>一些关于自学的感悟</title>
+      <title>自学</title>
       <link>https://xancoding.cn/posts/2022-11-14-15-56-45/</link>
       <pubDate>Mon, 14 Nov 2022 15:56:45 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2022-11-14-15-56-45/</guid>
-      <description>&lt;h1 id=&#34;how-to-start&#34;&gt;How to start?&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;带目的、带问题&lt;/strong&gt; 的学习：在开始一个新东西的学习时，先问问自己几个问题：我为什么要学它？我需要学到什么程度？&lt;/li&gt;
-&lt;li&gt;在学习一个新东西时，要&lt;strong&gt;先对其知识体系有个大致的了解&lt;/strong&gt;，先有了全面的认识之后，再对细枝末节做深入的了解。当然，对细枝末节的了解，也是要有优先级之分的&lt;/li&gt;
-&lt;li&gt;在开始之前，准备工作是必不可少的。你需要&lt;strong&gt;尽可能的找到你所需要的所有资源&lt;/strong&gt;，可以从问答论坛、搜索引擎、好友推荐等等途径，主要是筛选学习过程中所要读的书籍，包括入门以及深入学习的书籍&lt;/li&gt;
-&lt;li&gt;阅读书籍也不能采取从头看到尾的做法，而是根据自己的情况，做一些取舍。同时看多本书籍也是不错的选择，它们往往会给你带来不一样的启发&lt;/li&gt;
-&lt;li&gt;还要学会&lt;strong&gt;边学边做&lt;/strong&gt;，通过一些具体的项目带动学习。这在学习技术方面的知识时，尤其重要。毕竟，你学习它，为的是最后的应用&lt;/li&gt;
-&lt;li&gt;学习应该是阶梯式的，要懂得&lt;strong&gt;循序渐进&lt;/strong&gt;，不能一开始就是困难模式。这不仅会打击自己的自信心，也不利于后续的学习&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;如何知道自己是否掌握&#34;&gt;如何知道自己是否掌握？&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;你要先能在脑子里有个清楚的脉络，多多问自己问题，从 WHY 到 HOW，再到 WHY。发现自己卡壳的地方，要借助搜索引擎、书籍或是别的途径及时解决&lt;/li&gt;
-&lt;li&gt;写下来——知识点可能会很杂很乱，有时候做一个知识导图可以很好的帮助理解。过一段时间，当因为不怎么用到某一个知识点而忘得差不多时，你自己写的文字或者做的图，可以很好的帮助你回忆起来——前提是这是你经过思考的出的，而不只是复制粘贴——那将毫无用处。我是通过 &lt;strong&gt;Obsidian&lt;/strong&gt; 来记录自己的学习记录的。维护一个自己的博客，用来记录自己的学习过程，存放自己用来学习的资源，在我看来也是不错的&lt;/li&gt;
-&lt;li&gt;讲出来——你可以跟别人（也可以自己跟自己讲）将你最近学到的东西。通过语言的形式，用嘴讲出来（一定是用嘴讲，而不只是停留在脑子里想）。每当这个时候，你都会意识到自己以为掌握的东西，实际上并没有。多数时候，你会讲述的很混乱。但不必灰心，多尝试尝试，自然会理顺的。当你可以流利的讲出来时，自然就说明它已经成为了你自己的东西&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;positive-attitude&#34;&gt;Positive Attitude&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;positive-attitude&#34;&gt;Positive Attitude&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;排除不必要的干扰&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;摆正心&lt;/strong&gt;态：从来都没有什么捷径，要打好基础。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;多肯定自己&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;how-to-start&#34;&gt;How to start?&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;带目的、带问题&lt;/strong&gt; 的学习：在开始一个新东西的学习时，先问问自己几个问题：我为什么要学它？我需要学到什么程度？&lt;/li&gt;
+&lt;li&gt;在学习一个新东西时，要&lt;strong&gt;先对其知识体系有个大致的了解&lt;/strong&gt;，先有了全面的认识之后，再对细枝末节做深入的了解。当然，对细枝末节的了解，也是要有优先级之分的&lt;/li&gt;
+&lt;li&gt;在开始之前，准备工作是必不可少的。你需要&lt;strong&gt;尽可能的找到你所需要的所有资源&lt;/strong&gt;，可以从问答论坛、搜索引擎、好友推荐等等途径，主要是筛选学习过程中所要读的书籍，包括入门以及深入学习的书籍&lt;/li&gt;
+&lt;li&gt;阅读书籍也不能采取从头看到尾的做法，而是根据自己的情况，&lt;strong&gt;做一些取舍&lt;/strong&gt;。同时看多本书籍也是不错的选择，它们往往会给你带来不一样的启发&lt;/li&gt;
+&lt;li&gt;还要学会&lt;strong&gt;边学边做&lt;/strong&gt;，通过一些具体的项目带动学习。这在学习技术方面的知识时，尤其重要。毕竟，你学习它，为的是最后的应用&lt;/li&gt;
+&lt;li&gt;学习应该是阶梯式的，要懂得&lt;strong&gt;循序渐进&lt;/strong&gt;，不能一开始就是困难模式。这不仅会打击自己的自信心，也不利于后续的学习&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;how-to-check-the-mastery&#34;&gt;How to check the mastery?&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;你要先能在脑子里有个清楚的脉络，&lt;strong&gt;多多问自己问题&lt;/strong&gt;，从 WHY 到 HOW，再到 WHY。发现自己卡壳的地方，要借助搜索引擎、书籍或是别的途径及时解决&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;写下来&lt;/strong&gt;：知识点可能会很杂很乱，有时候做一个知识导图可以很好的帮助理解。过一段时间，当因为不怎么用到某一个知识点而忘得差不多时，你自己写的文字或者做的图，可以很好的帮助你回忆起来——前提是这是你经过思考的出的，而不只是复制粘贴——那将毫无用处&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;讲出来&lt;/strong&gt;：你可以跟别人（也可以自己跟自己讲）将你最近学到的东西。通过语言的形式，用嘴讲出来（一定是用嘴讲，而不只是停留在脑子里想）。每当这个时候，你都会意识到自己以为掌握的东西，实际上并没有。多数时候，你会讲述的很混乱。但不必灰心，多尝试尝试，自然会理顺的。当你可以流利的讲出来时，自然就说明它已经成为了你自己的东西&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;key&#34;&gt;Key&lt;/h1&gt;
 &lt;p&gt;多实践&lt;/p&gt;
 &lt;p&gt;多交流&lt;/p&gt;
 &lt;p&gt;多动笔（言简意赅）&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="how-to-start">How to start?</h1>
-<ol>
-<li><strong>带目的、带问题</strong> 的学习：在开始一个新东西的学习时，先问问自己几个问题：我为什么要学它？我需要学到什么程度？</li>
-<li>在学习一个新东西时，要<strong>先对其知识体系有个大致的了解</strong>，先有了全面的认识之后，再对细枝末节做深入的了解。当然，对细枝末节的了解，也是要有优先级之分的</li>
-<li>在开始之前，准备工作是必不可少的。你需要<strong>尽可能的找到你所需要的所有资源</strong>，可以从问答论坛、搜索引擎、好友推荐等等途径，主要是筛选学习过程中所要读的书籍，包括入门以及深入学习的书籍</li>
-<li>阅读书籍也不能采取从头看到尾的做法，而是根据自己的情况，做一些取舍。同时看多本书籍也是不错的选择，它们往往会给你带来不一样的启发</li>
-<li>还要学会<strong>边学边做</strong>，通过一些具体的项目带动学习。这在学习技术方面的知识时，尤其重要。毕竟，你学习它，为的是最后的应用</li>
-<li>学习应该是阶梯式的，要懂得<strong>循序渐进</strong>，不能一开始就是困难模式。这不仅会打击自己的自信心，也不利于后续的学习</li>
-</ol>
-<h1 id="如何知道自己是否掌握">如何知道自己是否掌握？</h1>
-<ol>
-<li>你要先能在脑子里有个清楚的脉络，多多问自己问题，从 WHY 到 HOW，再到 WHY。发现自己卡壳的地方，要借助搜索引擎、书籍或是别的途径及时解决</li>
-<li>写下来——知识点可能会很杂很乱，有时候做一个知识导图可以很好的帮助理解。过一段时间，当因为不怎么用到某一个知识点而忘得差不多时，你自己写的文字或者做的图，可以很好的帮助你回忆起来——前提是这是你经过思考的出的，而不只是复制粘贴——那将毫无用处。我是通过 <strong>Obsidian</strong> 来记录自己的学习记录的。维护一个自己的博客，用来记录自己的学习过程，存放自己用来学习的资源，在我看来也是不错的</li>
-<li>讲出来——你可以跟别人（也可以自己跟自己讲）将你最近学到的东西。通过语言的形式，用嘴讲出来（一定是用嘴讲，而不只是停留在脑子里想）。每当这个时候，你都会意识到自己以为掌握的东西，实际上并没有。多数时候，你会讲述的很混乱。但不必灰心，多尝试尝试，自然会理顺的。当你可以流利的讲出来时，自然就说明它已经成为了你自己的东西</li>
-</ol>
-<h1 id="positive-attitude">Positive Attitude</h1>
+      <content:encoded><![CDATA[<h1 id="positive-attitude">Positive Attitude</h1>
 <ol>
 <li><strong>排除不必要的干扰</strong></li>
 <li><strong>摆正心</strong>态：从来都没有什么捷径，要打好基础。</li>
 <li><strong>多肯定自己</strong></li>
+</ol>
+<h1 id="how-to-start">How to start?</h1>
+<ol>
+<li><strong>带目的、带问题</strong> 的学习：在开始一个新东西的学习时，先问问自己几个问题：我为什么要学它？我需要学到什么程度？</li>
+<li>在学习一个新东西时，要<strong>先对其知识体系有个大致的了解</strong>，先有了全面的认识之后，再对细枝末节做深入的了解。当然，对细枝末节的了解，也是要有优先级之分的</li>
+<li>在开始之前，准备工作是必不可少的。你需要<strong>尽可能的找到你所需要的所有资源</strong>，可以从问答论坛、搜索引擎、好友推荐等等途径，主要是筛选学习过程中所要读的书籍，包括入门以及深入学习的书籍</li>
+<li>阅读书籍也不能采取从头看到尾的做法，而是根据自己的情况，<strong>做一些取舍</strong>。同时看多本书籍也是不错的选择，它们往往会给你带来不一样的启发</li>
+<li>还要学会<strong>边学边做</strong>，通过一些具体的项目带动学习。这在学习技术方面的知识时，尤其重要。毕竟，你学习它，为的是最后的应用</li>
+<li>学习应该是阶梯式的，要懂得<strong>循序渐进</strong>，不能一开始就是困难模式。这不仅会打击自己的自信心，也不利于后续的学习</li>
+</ol>
+<h1 id="how-to-check-the-mastery">How to check the mastery?</h1>
+<ol>
+<li>你要先能在脑子里有个清楚的脉络，<strong>多多问自己问题</strong>，从 WHY 到 HOW，再到 WHY。发现自己卡壳的地方，要借助搜索引擎、书籍或是别的途径及时解决</li>
+<li><strong>写下来</strong>：知识点可能会很杂很乱，有时候做一个知识导图可以很好的帮助理解。过一段时间，当因为不怎么用到某一个知识点而忘得差不多时，你自己写的文字或者做的图，可以很好的帮助你回忆起来——前提是这是你经过思考的出的，而不只是复制粘贴——那将毫无用处</li>
+<li><strong>讲出来</strong>：你可以跟别人（也可以自己跟自己讲）将你最近学到的东西。通过语言的形式，用嘴讲出来（一定是用嘴讲，而不只是停留在脑子里想）。每当这个时候，你都会意识到自己以为掌握的东西，实际上并没有。多数时候，你会讲述的很混乱。但不必灰心，多尝试尝试，自然会理顺的。当你可以流利的讲出来时，自然就说明它已经成为了你自己的东西</li>
 </ol>
 <h1 id="key">Key</h1>
 <p>多实践</p>
@@ -14399,47 +14399,26 @@ export {
       <pubDate>Sun, 30 Oct 2022 15:28:22 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2022-10-30-15-28-22/</guid>
-      <description>&lt;h1 id=&#34;知识管理&#34;&gt;知识管理&lt;/h1&gt;
-&lt;h2 id=&#34;个人网站&#34;&gt;个人网站&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;blog&#34;&gt;Blog&lt;/h1&gt;
 &lt;p&gt;前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。&lt;/p&gt;
-&lt;h2 id=&#34;知识管理工具&#34;&gt;知识管理工具&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Obsidian&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
 &lt;p&gt;我的笔记记录工作，都是在 &lt;code&gt;obsidian&lt;/code&gt; 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到&lt;code&gt;github&lt;/code&gt;、编译博客的源文件再发表等等&lt;/p&gt;
-&lt;h3 id=&#34;obsidian-插件推荐&#34;&gt;Obsidian 插件推荐&lt;/h3&gt;
-&lt;h4 id=&#34;简单的幻灯片演示&#34;&gt;简单的幻灯片演示&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/412523896&#34;&gt;用obsidian做ppt【玩转Obsidian的保姆级教程】&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;hypothesis&#34;&gt;Hypothes.is&lt;/h4&gt;
-&lt;p&gt;在日常浏览网页内容时，可以对感兴趣的内容进行高亮批注，并可自动同步到 Obsidian&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://seviche.cc/2022-05-25-hypothesis#1-%E5%AE%89%E8%A3%85-hypothesis-%E6%8F%92%E4%BB%B6&#34;&gt;Hypothesis 使用小记&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;epub-reader&#34;&gt;EPUB Reader&lt;/h4&gt;
+&lt;p&gt;下面列出一些我正在用的插件👇&lt;/p&gt;
+&lt;h3 id=&#34;editing-toolbar&#34;&gt;Editing Toolbar&lt;/h3&gt;
+&lt;p&gt;提供类似于 MS-Word 的工具栏，，以获得更顺畅的写作/编辑体验。&lt;/p&gt;
+&lt;h3 id=&#34;emoji-toolbar&#34;&gt;Emoji Toolbar&lt;/h3&gt;
+&lt;p&gt;这个Obsidian插件可以让你快速搜索和添加表情符号到你的编辑器。&lt;/p&gt;
+&lt;h3 id=&#34;epub-reader&#34;&gt;EPUB Reader&lt;/h3&gt;
 &lt;p&gt;在 &lt;code&gt;Obsidian&lt;/code&gt; 中可以阅读 &lt;code&gt;Epub&lt;/code&gt; 电子书&lt;/p&gt;
 &lt;h4 id=&#34;various-complements&#34;&gt;Various Complements&lt;/h4&gt;
 &lt;p&gt;单词提示，自动补全&lt;/p&gt;
-&lt;h1 id=&#34;灵感与想法&#34;&gt;灵感与想法&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;flomo 浮墨笔记&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&#34;flomo-浮墨笔记&#34;&gt;flomo 浮墨笔记&lt;/h1&gt;
 &lt;p&gt;在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录&lt;/p&gt;
 &lt;p&gt;在想回顾时，可以方便知晓过去的想法
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png&#34; alt=&#34;Snipaste_2023-01-13_13-42-13.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h1 id=&#34;信息暂存&#34;&gt;信息暂存&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;语雀&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我会将部分的信息暂存在语雀中，记录下来，在需要用的时候再去语雀上找来用
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png&#34; alt=&#34;Snipaste_2023-01-13_13-53-41.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -14458,47 +14437,26 @@ export {
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Di4y1y7df/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=03fea8b80d1864616f56adac92aa2617&#34;&gt;【中文字幕】Zettelkasten笔记系统的搭建 | 手把手教学 | Zettelkasten in Obsidian&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="知识管理">知识管理</h1>
-<h2 id="个人网站">个人网站</h2>
+      <content:encoded><![CDATA[<h1 id="blog">Blog</h1>
 <p>前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。</p>
-<h2 id="知识管理工具">知识管理工具</h2>
-<ul>
-<li><code>Obsidian</code></li>
-</ul>
+<h1 id="obsidian">Obsidian</h1>
 <p>我的笔记记录工作，都是在 <code>obsidian</code> 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到<code>github</code>、编译博客的源文件再发表等等</p>
-<h3 id="obsidian-插件推荐">Obsidian 插件推荐</h3>
-<h4 id="简单的幻灯片演示">简单的幻灯片演示</h4>
-<p><a href="https://zhuanlan.zhihu.com/p/412523896">用obsidian做ppt【玩转Obsidian的保姆级教程】</a></p>
-<h4 id="hypothesis">Hypothes.is</h4>
-<p>在日常浏览网页内容时，可以对感兴趣的内容进行高亮批注，并可自动同步到 Obsidian</p>
-<p><a href="https://seviche.cc/2022-05-25-hypothesis#1-%E5%AE%89%E8%A3%85-hypothesis-%E6%8F%92%E4%BB%B6">Hypothesis 使用小记</a></p>
-<h4 id="epub-reader">EPUB Reader</h4>
+<p>下面列出一些我正在用的插件👇</p>
+<h3 id="editing-toolbar">Editing Toolbar</h3>
+<p>提供类似于 MS-Word 的工具栏，，以获得更顺畅的写作/编辑体验。</p>
+<h3 id="emoji-toolbar">Emoji Toolbar</h3>
+<p>这个Obsidian插件可以让你快速搜索和添加表情符号到你的编辑器。</p>
+<h3 id="epub-reader">EPUB Reader</h3>
 <p>在 <code>Obsidian</code> 中可以阅读 <code>Epub</code> 电子书</p>
 <h4 id="various-complements">Various Complements</h4>
 <p>单词提示，自动补全</p>
-<h1 id="灵感与想法">灵感与想法</h1>
-<ul>
-<li><code>flomo 浮墨笔记</code></li>
-</ul>
+<h1 id="flomo-浮墨笔记">flomo 浮墨笔记</h1>
 <p>在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录</p>
 <p>在想回顾时，可以方便知晓过去的想法
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png">
 <img src="https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png" alt="Snipaste_2023-01-13_13-42-13.png"  />
-</a>
-</div>
-
-</p>
-<h1 id="信息暂存">信息暂存</h1>
-<ul>
-<li><code>语雀</code></li>
-</ul>
-<p>我会将部分的信息暂存在语雀中，记录下来，在需要用的时候再去语雀上找来用
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png">
-<img src="https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png" alt="Snipaste_2023-01-13_13-53-41.png"  />
 </a>
 </div>
 

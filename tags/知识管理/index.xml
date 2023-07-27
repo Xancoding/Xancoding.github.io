@@ -13,47 +13,26 @@
       <pubDate>Sun, 30 Oct 2022 15:28:22 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2022-10-30-15-28-22/</guid>
-      <description>&lt;h1 id=&#34;知识管理&#34;&gt;知识管理&lt;/h1&gt;
-&lt;h2 id=&#34;个人网站&#34;&gt;个人网站&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;blog&#34;&gt;Blog&lt;/h1&gt;
 &lt;p&gt;前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。&lt;/p&gt;
-&lt;h2 id=&#34;知识管理工具&#34;&gt;知识管理工具&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Obsidian&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
 &lt;p&gt;我的笔记记录工作，都是在 &lt;code&gt;obsidian&lt;/code&gt; 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到&lt;code&gt;github&lt;/code&gt;、编译博客的源文件再发表等等&lt;/p&gt;
-&lt;h3 id=&#34;obsidian-插件推荐&#34;&gt;Obsidian 插件推荐&lt;/h3&gt;
-&lt;h4 id=&#34;简单的幻灯片演示&#34;&gt;简单的幻灯片演示&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/412523896&#34;&gt;用obsidian做ppt【玩转Obsidian的保姆级教程】&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;hypothesis&#34;&gt;Hypothes.is&lt;/h4&gt;
-&lt;p&gt;在日常浏览网页内容时，可以对感兴趣的内容进行高亮批注，并可自动同步到 Obsidian&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://seviche.cc/2022-05-25-hypothesis#1-%E5%AE%89%E8%A3%85-hypothesis-%E6%8F%92%E4%BB%B6&#34;&gt;Hypothesis 使用小记&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;epub-reader&#34;&gt;EPUB Reader&lt;/h4&gt;
+&lt;p&gt;下面列出一些我正在用的插件👇&lt;/p&gt;
+&lt;h3 id=&#34;editing-toolbar&#34;&gt;Editing Toolbar&lt;/h3&gt;
+&lt;p&gt;提供类似于 MS-Word 的工具栏，，以获得更顺畅的写作/编辑体验。&lt;/p&gt;
+&lt;h3 id=&#34;emoji-toolbar&#34;&gt;Emoji Toolbar&lt;/h3&gt;
+&lt;p&gt;这个Obsidian插件可以让你快速搜索和添加表情符号到你的编辑器。&lt;/p&gt;
+&lt;h3 id=&#34;epub-reader&#34;&gt;EPUB Reader&lt;/h3&gt;
 &lt;p&gt;在 &lt;code&gt;Obsidian&lt;/code&gt; 中可以阅读 &lt;code&gt;Epub&lt;/code&gt; 电子书&lt;/p&gt;
 &lt;h4 id=&#34;various-complements&#34;&gt;Various Complements&lt;/h4&gt;
 &lt;p&gt;单词提示，自动补全&lt;/p&gt;
-&lt;h1 id=&#34;灵感与想法&#34;&gt;灵感与想法&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;flomo 浮墨笔记&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&#34;flomo-浮墨笔记&#34;&gt;flomo 浮墨笔记&lt;/h1&gt;
 &lt;p&gt;在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录&lt;/p&gt;
 &lt;p&gt;在想回顾时，可以方便知晓过去的想法
 
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png&#34;&gt;
 &lt;img src=&#34;https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png&#34; alt=&#34;Snipaste_2023-01-13_13-42-13.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h1 id=&#34;信息暂存&#34;&gt;信息暂存&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;语雀&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我会将部分的信息暂存在语雀中，记录下来，在需要用的时候再去语雀上找来用
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png&#34; alt=&#34;Snipaste_2023-01-13_13-53-41.png&#34;  /&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 
@@ -72,47 +51,26 @@
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Di4y1y7df/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=03fea8b80d1864616f56adac92aa2617&#34;&gt;【中文字幕】Zettelkasten笔记系统的搭建 | 手把手教学 | Zettelkasten in Obsidian&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="知识管理">知识管理</h1>
-<h2 id="个人网站">个人网站</h2>
+      <content:encoded><![CDATA[<h1 id="blog">Blog</h1>
 <p>前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。</p>
-<h2 id="知识管理工具">知识管理工具</h2>
-<ul>
-<li><code>Obsidian</code></li>
-</ul>
+<h1 id="obsidian">Obsidian</h1>
 <p>我的笔记记录工作，都是在 <code>obsidian</code> 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到<code>github</code>、编译博客的源文件再发表等等</p>
-<h3 id="obsidian-插件推荐">Obsidian 插件推荐</h3>
-<h4 id="简单的幻灯片演示">简单的幻灯片演示</h4>
-<p><a href="https://zhuanlan.zhihu.com/p/412523896">用obsidian做ppt【玩转Obsidian的保姆级教程】</a></p>
-<h4 id="hypothesis">Hypothes.is</h4>
-<p>在日常浏览网页内容时，可以对感兴趣的内容进行高亮批注，并可自动同步到 Obsidian</p>
-<p><a href="https://seviche.cc/2022-05-25-hypothesis#1-%E5%AE%89%E8%A3%85-hypothesis-%E6%8F%92%E4%BB%B6">Hypothesis 使用小记</a></p>
-<h4 id="epub-reader">EPUB Reader</h4>
+<p>下面列出一些我正在用的插件👇</p>
+<h3 id="editing-toolbar">Editing Toolbar</h3>
+<p>提供类似于 MS-Word 的工具栏，，以获得更顺畅的写作/编辑体验。</p>
+<h3 id="emoji-toolbar">Emoji Toolbar</h3>
+<p>这个Obsidian插件可以让你快速搜索和添加表情符号到你的编辑器。</p>
+<h3 id="epub-reader">EPUB Reader</h3>
 <p>在 <code>Obsidian</code> 中可以阅读 <code>Epub</code> 电子书</p>
 <h4 id="various-complements">Various Complements</h4>
 <p>单词提示，自动补全</p>
-<h1 id="灵感与想法">灵感与想法</h1>
-<ul>
-<li><code>flomo 浮墨笔记</code></li>
-</ul>
+<h1 id="flomo-浮墨笔记">flomo 浮墨笔记</h1>
 <p>在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录</p>
 <p>在想回顾时，可以方便知晓过去的想法
 
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png">
 <img src="https://bu.dusays.com/2023/01/13/63c0ef3e0c721.png" alt="Snipaste_2023-01-13_13-42-13.png"  />
-</a>
-</div>
-
-</p>
-<h1 id="信息暂存">信息暂存</h1>
-<ul>
-<li><code>语雀</code></li>
-</ul>
-<p>我会将部分的信息暂存在语雀中，记录下来，在需要用的时候再去语雀上找来用
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png">
-<img src="https://bu.dusays.com/2023/01/13/63c0f1ebe2a5b.png" alt="Snipaste_2023-01-13_13-53-41.png"  />
 </a>
 </div>
 
