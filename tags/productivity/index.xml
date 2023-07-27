@@ -406,10 +406,10 @@
 &lt;p&gt;&lt;code&gt;Inoreader&lt;/code&gt; 吸引我的点是它支持PC端和手机端的同步，并且PC端可以直接通过浏览器插件使用，使我在手机和电脑上都可以查看消息。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;RSSHub Radar&lt;/code&gt; 的出现，完美解决了不是所有的网页都提供RSS源这一痛点，它可以自动生成网站的RSS源以供订阅，非常方便。&lt;/p&gt;
 &lt;p&gt;我通过使用RSS来订阅我感兴趣的个人博客，我订阅的博客网站在 &lt;code&gt;Links&lt;/code&gt; 页面下的 &lt;a href=&#34;https://xancoding.cn/links/#blogs&#34;&gt;Blogs&lt;/a&gt; 那一栏。&lt;/p&gt;
-&lt;h1 id=&#34;小宇宙&#34;&gt;小宇宙&lt;/h1&gt;
+&lt;h1 id=&#34;podcast&#34;&gt;Podcast&lt;/h1&gt;
 &lt;p&gt;播客也是一个很好的信息源，可以在做一些不用🧠的事时听，适合用来拓宽自己的知识面，对一些自己之前完全没有接触过的领域做一个初步的了解，抑或是单纯用以放松也不错。我的使用场景通常是在吃饭或是上下课的路上。&lt;/p&gt;
 &lt;p&gt;我目前在使用的播客软件是&lt;a href=&#34;https://www.xiaoyuzhoufm.com/&#34;&gt;小宇宙&lt;/a&gt;，体验不错。&lt;/p&gt;
-&lt;h1 id=&#34;reading&#34;&gt;Reading&lt;/h1&gt;
+&lt;h1 id=&#34;read-books&#34;&gt;Read-books&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;Neat Reader&lt;/code&gt; 是一款&lt;code&gt;EPUB&lt;/code&gt;阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 &lt;a href=&#34;https://zh.z-lib.org/&#34;&gt;Z-Library&lt;/a&gt; or &lt;a href=&#34;https://lorefree.com/&#34;&gt;LoreFree&lt;/a&gt;  or &lt;a href=&#34;https://www.jiumodiary.com/&#34;&gt;Jiumo Search 鸠摩搜索&lt;/a&gt; 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 &lt;a href=&#34;https://www.neat-reader.com/&#34;&gt;Neat Reader&lt;/a&gt; 阅读。&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -422,7 +422,6 @@
 &lt;p&gt;如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 &lt;a href=&#34;https://www.sumatrapdfreader.org/free-pdf-reader&#34;&gt;Sumatra PDF&lt;/a&gt; 上阅读&lt;/p&gt;
 &lt;p&gt;手机上的话，我会使用微信读书，把找到的电子书上传到书架后进行阅读&lt;/p&gt;
 &lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）&lt;/p&gt;
-&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
 &lt;h1 id=&#34;chatgpt--search-engine&#34;&gt;ChatGPT &amp;amp; Search-engine&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Chrome（需翻墙） &amp;amp; AdblockPlus &amp;amp; uBlacklist | Personal Blocklist &amp;amp; ChatGPT for Google &amp;amp; Vimium&lt;/code&gt;&lt;/li&gt;
@@ -606,10 +605,10 @@
 <p><code>Inoreader</code> 吸引我的点是它支持PC端和手机端的同步，并且PC端可以直接通过浏览器插件使用，使我在手机和电脑上都可以查看消息。</p>
 <p><code>RSSHub Radar</code> 的出现，完美解决了不是所有的网页都提供RSS源这一痛点，它可以自动生成网站的RSS源以供订阅，非常方便。</p>
 <p>我通过使用RSS来订阅我感兴趣的个人博客，我订阅的博客网站在 <code>Links</code> 页面下的 <a href="https://xancoding.cn/links/#blogs">Blogs</a> 那一栏。</p>
-<h1 id="小宇宙">小宇宙</h1>
+<h1 id="podcast">Podcast</h1>
 <p>播客也是一个很好的信息源，可以在做一些不用🧠的事时听，适合用来拓宽自己的知识面，对一些自己之前完全没有接触过的领域做一个初步的了解，抑或是单纯用以放松也不错。我的使用场景通常是在吃饭或是上下课的路上。</p>
 <p>我目前在使用的播客软件是<a href="https://www.xiaoyuzhoufm.com/">小宇宙</a>，体验不错。</p>
-<h1 id="reading">Reading</h1>
+<h1 id="read-books">Read-books</h1>
 <p><code>Neat Reader</code> 是一款<code>EPUB</code>阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 <a href="https://zh.z-lib.org/">Z-Library</a> or <a href="https://lorefree.com/">LoreFree</a>  or <a href="https://www.jiumodiary.com/">Jiumo Search 鸠摩搜索</a> 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 <a href="https://www.neat-reader.com/">Neat Reader</a> 阅读。</p>
 <p>
 <div class="post-img-view">
@@ -622,7 +621,6 @@
 <p>如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 <a href="https://www.sumatrapdfreader.org/free-pdf-reader">Sumatra PDF</a> 上阅读</p>
 <p>手机上的话，我会使用微信读书，把找到的电子书上传到书架后进行阅读</p>
 <p>不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）</p>
-<h1 id="heading"></h1>
 <h1 id="chatgpt--search-engine">ChatGPT &amp; Search-engine</h1>
 <ul>
 <li><code>Chrome（需翻墙） &amp; AdblockPlus &amp; uBlacklist | Personal Blocklist &amp; ChatGPT for Google &amp; Vimium</code></li>
