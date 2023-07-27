@@ -386,7 +386,7 @@
     </item>
     
     <item>
-      <title>我获取信息的方式</title>
+      <title>Get Info</title>
       <link>https://xancoding.cn/posts/2022-10-12-22-42-04/</link>
       <pubDate>Wed, 12 Oct 2022 22:42:04 +0800</pubDate>
       
@@ -396,10 +396,7 @@
 &lt;p&gt;&lt;strong&gt;整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;博客&#34;&gt;博客&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Inoreader &amp;amp; RSSHub Radar&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&#34;inoreader--rsshub-radar&#34;&gt;Inoreader &amp;amp; RSSHub Radar&lt;/h1&gt;
 &lt;h2 id=&#34;什么是rss&#34;&gt;什么是RSS?&lt;/h2&gt;
 &lt;p&gt;RSS 英文全称为 Really Simple Syndication，即简易资讯聚合。其实叫什么并不重要，我们只用知道它是一个&lt;strong&gt;能让你在一个地方订阅&lt;/strong&gt;各种感兴趣网站的工具。&lt;/p&gt;
 &lt;p&gt;RSS的核心是&lt;strong&gt;资讯聚合&lt;/strong&gt;，由&lt;strong&gt;用户自己决定信息源&lt;/strong&gt;。我们可以通过订阅网站的RSS源，主动获得想要的资讯，去挖掘一些自己真正感兴趣的东西。&lt;/p&gt;
@@ -612,10 +609,7 @@
 <p><strong>整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子</strong></p>
 <p><strong>获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息</strong></p>
 </blockquote>
-<h1 id="博客">博客</h1>
-<ul>
-<li><code>Inoreader &amp; RSSHub Radar</code></li>
-</ul>
+<h1 id="inoreader--rsshub-radar">Inoreader &amp; RSSHub Radar</h1>
 <h2 id="什么是rss">什么是RSS?</h2>
 <p>RSS 英文全称为 Really Simple Syndication，即简易资讯聚合。其实叫什么并不重要，我们只用知道它是一个<strong>能让你在一个地方订阅</strong>各种感兴趣网站的工具。</p>
 <p>RSS的核心是<strong>资讯聚合</strong>，由<strong>用户自己决定信息源</strong>。我们可以通过订阅网站的RSS源，主动获得想要的资讯，去挖掘一些自己真正感兴趣的东西。</p>
