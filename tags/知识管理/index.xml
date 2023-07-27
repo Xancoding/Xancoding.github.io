@@ -21,7 +21,8 @@
 &lt;h3 id=&#34;editing-toolbar&#34;&gt;Editing Toolbar&lt;/h3&gt;
 &lt;p&gt;提供类似于 MS-Word 的工具栏，，以获得更顺畅的写作/编辑体验。&lt;/p&gt;
 &lt;h3 id=&#34;emoji-toolbar&#34;&gt;Emoji Toolbar&lt;/h3&gt;
-&lt;p&gt;这个Obsidian插件可以让你快速搜索和添加表情符号到你的编辑器。&lt;/p&gt;
+&lt;p&gt;让你可以快速搜索和添加表情符号到你的编辑器。&lt;/p&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
 &lt;h3 id=&#34;epub-reader&#34;&gt;ePUb Reader&lt;/h3&gt;
 &lt;p&gt;在 &lt;code&gt;Obsidian&lt;/code&gt; 中可以阅读 &lt;code&gt;Epub&lt;/code&gt; 电子书&lt;/p&gt;
 &lt;h4 id=&#34;various-complements&#34;&gt;Various Complements&lt;/h4&gt;
@@ -59,7 +60,8 @@
 <h3 id="editing-toolbar">Editing Toolbar</h3>
 <p>提供类似于 MS-Word 的工具栏，，以获得更顺畅的写作/编辑体验。</p>
 <h3 id="emoji-toolbar">Emoji Toolbar</h3>
-<p>这个Obsidian插件可以让你快速搜索和添加表情符号到你的编辑器。</p>
+<p>让你可以快速搜索和添加表情符号到你的编辑器。</p>
+<h3 id="heading"></h3>
 <h3 id="epub-reader">ePUb Reader</h3>
 <p>在 <code>Obsidian</code> 中可以阅读 <code>Epub</code> 电子书</p>
 <h4 id="various-complements">Various Complements</h4>
