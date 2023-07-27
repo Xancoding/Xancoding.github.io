@@ -200,6 +200,9 @@
 &lt;p&gt;将自动根据操作系统将主题设置为亮或暗模式&lt;/p&gt;
 &lt;h3 id=&#34;various-complements&#34;&gt;Various Complements？？？&lt;/h3&gt;
 &lt;p&gt;单词提示，自动补全&lt;/p&gt;
+&lt;h3 id=&#34;vimrc-support&#34;&gt;Vimrc Support&lt;/h3&gt;
+&lt;p&gt;从 &lt;code&gt;VAULT_ROOT/.obsidian.vimrc&lt;/code&gt; 加载 Vim 命令文件，实现加载持久配置的功能并添加一些额外功能&lt;/p&gt;
+&lt;h3 id=&#34;wakatime&#34;&gt;WakaTime&lt;/h3&gt;
 &lt;h1 id=&#34;flomo-浮墨笔记&#34;&gt;flomo 浮墨笔记&lt;/h1&gt;
 &lt;p&gt;在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录&lt;/p&gt;
 &lt;p&gt;在想回顾时，可以方便知晓过去的想法
@@ -248,6 +251,9 @@
 <p>将自动根据操作系统将主题设置为亮或暗模式</p>
 <h3 id="various-complements">Various Complements？？？</h3>
 <p>单词提示，自动补全</p>
+<h3 id="vimrc-support">Vimrc Support</h3>
+<p>从 <code>VAULT_ROOT/.obsidian.vimrc</code> 加载 Vim 命令文件，实现加载持久配置的功能并添加一些额外功能</p>
+<h3 id="wakatime">WakaTime</h3>
 <h1 id="flomo-浮墨笔记">flomo 浮墨笔记</h1>
 <p>在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录</p>
 <p>在想回顾时，可以方便知晓过去的想法
