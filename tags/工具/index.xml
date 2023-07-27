@@ -112,7 +112,7 @@
     </item>
     
     <item>
-      <title>我输出信息的途径</title>
+      <title>Output message</title>
       <link>https://xancoding.cn/posts/2022-10-30-15-28-22/</link>
       <pubDate>Sun, 30 Oct 2022 15:28:22 +0800</pubDate>
       
@@ -128,7 +128,7 @@
 &lt;p&gt;将最流行的编程语言的语法高亮显示到Obsidian代码块中&lt;/p&gt;
 &lt;h3 id=&#34;editing-toolbar&#34;&gt;Editing Toolbar&lt;/h3&gt;
 &lt;p&gt;提供类似于 MS-Word 的工具栏，，以获得更顺畅的写作/编辑体验。&lt;/p&gt;
-&lt;h3 id=&#34;epub-reader&#34;&gt;ePUb Reader&lt;/h3&gt;
+&lt;h3 id=&#34;epub-reader&#34;&gt;&lt;strong&gt;ePUb Reader&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;在 &lt;code&gt;Obsidian&lt;/code&gt; 中可以阅读 &lt;code&gt;Epub&lt;/code&gt; 电子书&lt;/p&gt;
 &lt;h3 id=&#34;image-auto-upload-plugin&#34;&gt;Image auto upload Plugin&lt;/h3&gt;
 &lt;p&gt;通过 &lt;code&gt;PicGo&lt;/code&gt; 自动上传图像，只需要将图片粘贴即可自动上传&lt;/p&gt;
@@ -138,11 +138,12 @@
 &lt;p&gt;搭建 Obsidian 博客自动发布系统&lt;/p&gt;
 &lt;h3 id=&#34;system-dark-mode&#34;&gt;System Dark Mode&lt;/h3&gt;
 &lt;p&gt;将自动根据操作系统将主题设置为亮或暗模式&lt;/p&gt;
-&lt;h3 id=&#34;various-complements&#34;&gt;Various Complements？？？&lt;/h3&gt;
+&lt;h3 id=&#34;various-complements&#34;&gt;Various Complements&lt;/h3&gt;
 &lt;p&gt;单词提示，自动补全&lt;/p&gt;
-&lt;h3 id=&#34;vimrc-support&#34;&gt;Vimrc Support&lt;/h3&gt;
+&lt;h3 id=&#34;vimrc-support&#34;&gt;&lt;strong&gt;Vimrc Support&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;从 &lt;code&gt;VAULT_ROOT/.obsidian.vimrc&lt;/code&gt; 加载 Vim 命令文件，实现加载持久配置的功能并添加一些额外功能&lt;/p&gt;
 &lt;h3 id=&#34;wakatime&#34;&gt;WakaTime&lt;/h3&gt;
+&lt;p&gt;统计你在不同语言、项目上写代码的时长&lt;/p&gt;
 &lt;h1 id=&#34;flomo-浮墨笔记&#34;&gt;flomo 浮墨笔记&lt;/h1&gt;
 &lt;p&gt;在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录&lt;/p&gt;
 &lt;p&gt;在想回顾时，可以方便知晓过去的想法
@@ -179,7 +180,7 @@
 <p>将最流行的编程语言的语法高亮显示到Obsidian代码块中</p>
 <h3 id="editing-toolbar">Editing Toolbar</h3>
 <p>提供类似于 MS-Word 的工具栏，，以获得更顺畅的写作/编辑体验。</p>
-<h3 id="epub-reader">ePUb Reader</h3>
+<h3 id="epub-reader"><strong>ePUb Reader</strong></h3>
 <p>在 <code>Obsidian</code> 中可以阅读 <code>Epub</code> 电子书</p>
 <h3 id="image-auto-upload-plugin">Image auto upload Plugin</h3>
 <p>通过 <code>PicGo</code> 自动上传图像，只需要将图片粘贴即可自动上传</p>
@@ -189,11 +190,12 @@
 <p>搭建 Obsidian 博客自动发布系统</p>
 <h3 id="system-dark-mode">System Dark Mode</h3>
 <p>将自动根据操作系统将主题设置为亮或暗模式</p>
-<h3 id="various-complements">Various Complements？？？</h3>
+<h3 id="various-complements">Various Complements</h3>
 <p>单词提示，自动补全</p>
-<h3 id="vimrc-support">Vimrc Support</h3>
+<h3 id="vimrc-support"><strong>Vimrc Support</strong></h3>
 <p>从 <code>VAULT_ROOT/.obsidian.vimrc</code> 加载 Vim 命令文件，实现加载持久配置的功能并添加一些额外功能</p>
 <h3 id="wakatime">WakaTime</h3>
+<p>统计你在不同语言、项目上写代码的时长</p>
 <h1 id="flomo-浮墨笔记">flomo 浮墨笔记</h1>
 <p>在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录</p>
 <p>在想回顾时，可以方便知晓过去的想法
