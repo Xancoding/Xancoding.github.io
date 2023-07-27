@@ -24,9 +24,9 @@
 &lt;li&gt;字体：霞鹜文楷 ，安装地址：&lt;a href=&#34;https://github.com/lxgw/LxgwWenKai&#34;&gt;https://github.com/lxgw/LxgwWenKai&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;大纲：Quiet Outline&lt;/li&gt;
 &lt;li&gt;样式设置：Style Setting&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
 &lt;li&gt;代码高亮：Editor Syntax Highlight&lt;/li&gt;
 &lt;li&gt;链接图标：Link Favicons&lt;/li&gt;
+&lt;li&gt;文件图标：Icon Floder&lt;/li&gt;
 &lt;li&gt;Light/Dark自动切换：System Dark Mode&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;quiet-outline&#34;&gt;Quiet Outline&lt;/h3&gt;
@@ -38,7 +38,9 @@
 &lt;h3 id=&#34;editor-syntax-highlight&#34;&gt;Editor Syntax Highlight&lt;/h3&gt;
 &lt;p&gt;将最流行的编程语言的语法高亮显示到Obsidian代码块中&lt;/p&gt;
 &lt;h3 id=&#34;link-favicons&#34;&gt;Link Favicons&lt;/h3&gt;
-&lt;p&gt;看到链接网站的图标&lt;/p&gt;
+&lt;p&gt;自动拉取链接网站的图标&lt;/p&gt;
+&lt;h3 id=&#34;icon-floder&#34;&gt;Icon Floder&lt;/h3&gt;
+&lt;p&gt;自定义文件的图标&lt;/p&gt;
 &lt;h3 id=&#34;system-dark-mode&#34;&gt;System Dark Mode&lt;/h3&gt;
 &lt;p&gt;将自动根据操作系统将主题设置为亮或暗模式&lt;/p&gt;
 &lt;h2 id=&#34;toolbar&#34;&gt;Toolbar&lt;/h2&gt;
@@ -99,9 +101,9 @@
 <li>字体：霞鹜文楷 ，安装地址：<a href="https://github.com/lxgw/LxgwWenKai">https://github.com/lxgw/LxgwWenKai</a></li>
 <li>大纲：Quiet Outline</li>
 <li>样式设置：Style Setting</li>
-<li></li>
 <li>代码高亮：Editor Syntax Highlight</li>
 <li>链接图标：Link Favicons</li>
+<li>文件图标：Icon Floder</li>
 <li>Light/Dark自动切换：System Dark Mode</li>
 </ul>
 <h3 id="quiet-outline">Quiet Outline</h3>
@@ -113,7 +115,9 @@
 <h3 id="editor-syntax-highlight">Editor Syntax Highlight</h3>
 <p>将最流行的编程语言的语法高亮显示到Obsidian代码块中</p>
 <h3 id="link-favicons">Link Favicons</h3>
-<p>看到链接网站的图标</p>
+<p>自动拉取链接网站的图标</p>
+<h3 id="icon-floder">Icon Floder</h3>
+<p>自定义文件的图标</p>
 <h3 id="system-dark-mode">System Dark Mode</h3>
 <p>将自动根据操作系统将主题设置为亮或暗模式</p>
 <h2 id="toolbar">Toolbar</h2>
