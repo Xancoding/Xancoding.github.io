@@ -633,6 +633,9 @@
 &lt;/body&gt;
 &lt;/html&gt;
 
+&lt;h3 id=&#34;更改字体&#34;&gt;更改字体&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/hugo_change_font/&#34;&gt;# Hugo博客自定义字体&lt;/a&gt;
+&lt;a href=&#34;https://zhuanlan.zhihu.com/p/627444050&#34;&gt;# Hugo使用自定义字体&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;参考资料&#34;&gt;参考资料&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/&#34;&gt;Sulv&amp;rsquo;s Blog&lt;/a&gt;
@@ -1009,6 +1012,9 @@
 </body>
 </html>
 
+<h3 id="更改字体">更改字体</h3>
+<p><a href="https://www.sulvblog.cn/posts/blog/hugo_change_font/"># Hugo博客自定义字体</a>
+<a href="https://zhuanlan.zhihu.com/p/627444050"># Hugo使用自定义字体</a></p>
 <h3 id="参考资料">参考资料</h3>
 <ul>
 <li><a href="https://www.sulvblog.cn/">Sulv&rsquo;s Blog</a>

@@ -142,12 +142,16 @@
       
       <guid>https://xancoding.cn/posts/2022-10-30-15-28-22/</guid>
       <description>&lt;h1 id=&#34;blog&#34;&gt;Blog&lt;/h1&gt;
-&lt;p&gt;前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://xancoding.cn/posts/2023-04-30-09-43-31/&#34;&gt;Blog&lt;/a&gt;
+前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
 &lt;p&gt;我的笔记记录工作，都是在 &lt;code&gt;obsidian&lt;/code&gt; 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到&lt;code&gt;github&lt;/code&gt;、编译博客的源文件再发表等等&lt;/p&gt;
 &lt;p&gt;下面列出一些我正在用的插件👇&lt;/p&gt;
 &lt;h2 id=&#34;appearance&#34;&gt;Appearance&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1r94y1v7eH/?vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【Obsidian搭建系列教程】 主题配置 | 美化篇——Part 1&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;主题：AnuPpuccin&lt;/li&gt;
 &lt;li&gt;字体：霞鹜文楷 ，安装地址：&lt;a href=&#34;https://github.com/lxgw/LxgwWenKai&#34;&gt;https://github.com/lxgw/LxgwWenKai&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;大纲：Quiet Outline&lt;/li&gt;
@@ -219,12 +223,16 @@
 &lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="blog">Blog</h1>
-<p>前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。</p>
+<ul>
+<li><a href="https://xancoding.cn/posts/2023-04-30-09-43-31/">Blog</a>
+前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。</li>
+</ul>
 <h1 id="obsidian">Obsidian</h1>
 <p>我的笔记记录工作，都是在 <code>obsidian</code> 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到<code>github</code>、编译博客的源文件再发表等等</p>
 <p>下面列出一些我正在用的插件👇</p>
 <h2 id="appearance">Appearance</h2>
 <ul>
+<li><a href="https://www.bilibili.com/video/BV1r94y1v7eH/?vd_source=ae16ff6478eb15c1b87880540263910b">【Obsidian搭建系列教程】 主题配置 | 美化篇——Part 1</a></li>
 <li>主题：AnuPpuccin</li>
 <li>字体：霞鹜文楷 ，安装地址：<a href="https://github.com/lxgw/LxgwWenKai">https://github.com/lxgw/LxgwWenKai</a></li>
 <li>大纲：Quiet Outline</li>
