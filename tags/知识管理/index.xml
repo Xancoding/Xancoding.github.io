@@ -32,6 +32,8 @@
 &lt;p&gt;一个让大纲更好用的插件&lt;/p&gt;
 &lt;p&gt;打开命令面板输入&lt;code&gt;Quiet Outline&lt;/code&gt;，然后回车，就可以打开大纲面板。&lt;/p&gt;
 &lt;p&gt;其他详细功能在设置中查看&lt;/p&gt;
+&lt;h3 id=&#34;style-setting&#34;&gt;Style Setting&lt;/h3&gt;
+&lt;p&gt;这个插件允许代码片段、主题和插件CSS文件定义一组配置选项&lt;/p&gt;
 &lt;h3 id=&#34;editor-syntax-highlight&#34;&gt;Editor Syntax Highlight&lt;/h3&gt;
 &lt;p&gt;将最流行的编程语言的语法高亮显示到Obsidian代码块中&lt;/p&gt;
 &lt;h3 id=&#34;link-favicons&#34;&gt;Link Favicons&lt;/h3&gt;
@@ -104,6 +106,8 @@
 <p>一个让大纲更好用的插件</p>
 <p>打开命令面板输入<code>Quiet Outline</code>，然后回车，就可以打开大纲面板。</p>
 <p>其他详细功能在设置中查看</p>
+<h3 id="style-setting">Style Setting</h3>
+<p>这个插件允许代码片段、主题和插件CSS文件定义一组配置选项</p>
 <h3 id="editor-syntax-highlight">Editor Syntax Highlight</h3>
 <p>将最流行的编程语言的语法高亮显示到Obsidian代码块中</p>
 <h3 id="link-favicons">Link Favicons</h3>
