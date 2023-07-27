@@ -9600,6 +9600,7 @@ export {
 &lt;li&gt;字体：霞鹜文楷 ，安装地址：&lt;a href=&#34;https://github.com/lxgw/LxgwWenKai&#34;&gt;https://github.com/lxgw/LxgwWenKai&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;大纲：Quiet Outline&lt;/li&gt;
 &lt;li&gt;样式设置：Style Setting&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
 &lt;li&gt;代码高亮：Editor Syntax Highlight&lt;/li&gt;
 &lt;li&gt;链接图标：Link Favicons&lt;/li&gt;
 &lt;li&gt;Light/Dark自动切换：System Dark Mode&lt;/li&gt;
@@ -9674,6 +9675,7 @@ export {
 <li>字体：霞鹜文楷 ，安装地址：<a href="https://github.com/lxgw/LxgwWenKai">https://github.com/lxgw/LxgwWenKai</a></li>
 <li>大纲：Quiet Outline</li>
 <li>样式设置：Style Setting</li>
+<li></li>
 <li>代码高亮：Editor Syntax Highlight</li>
 <li>链接图标：Link Favicons</li>
 <li>Light/Dark自动切换：System Dark Mode</li>
