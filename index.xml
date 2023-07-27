@@ -6535,17 +6535,17 @@ Name:李四       Age:30
       <pubDate>Sun, 15 Jan 2023 12:42:38 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-01-15-12-42-38/</guid>
-      <description>&lt;h1 id=&#34;桌面&#34;&gt;桌面&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;desktop&#34;&gt;Desktop&lt;/h1&gt;
 &lt;h2 id=&#34;wallpaper-engine&#34;&gt;Wallpaper Engine&lt;/h2&gt;
-&lt;p&gt;这是STEAM平台上的一款动态壁纸软件，可以在创意工坊中找到自己感兴趣的壁纸
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38603de093.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38603de093.png&#34; alt=&#34;unnamed.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
+&lt;p&gt;这是STEAM平台上的一款动态壁纸软件，可以在创意工坊中找到自己感兴趣的壁纸&lt;/p&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c38603de093.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;app icon&lt;/div&gt; 
+ &lt;/center&gt;
 &lt;center&gt; 
 	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c3863682391.png&#34;&gt;
 	&lt;br&gt;
@@ -6554,105 +6554,46 @@ Name:李四       Age:30
 	color: #999; 
 	padding: 2px;&#34;&gt;目前正在使用的壁纸&lt;/div&gt; 
  &lt;/center&gt;
-&lt;h2 id=&#34;win-10-开始菜单&#34;&gt;Win 10 开始菜单&lt;/h2&gt;
-&lt;p&gt;我不太习惯把应用的快捷方式直接放在桌面上，我将应用放在了开始菜单的位置。&lt;br&gt;
-在需要打开某一个应用时，只需在键盘上敲击 &lt;code&gt;windows键&lt;/code&gt;，即可跳出下图的界面，我就可以在在上面打开所需的应用了
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png&#34; alt=&#34;Snipaste_2023-01-15_12-59-45.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-如果是常用的网页，我会借助 Chrome浏览器的&lt;code&gt;创建快捷方式&lt;/code&gt;，将其创建为应用，并固定到开始界面
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3895150e18.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3895150e18.png&#34; alt=&#34;Snipaste_2023-01-15_13-03-35.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h1 id=&#34;生产力&#34;&gt;生产力&lt;/h1&gt;
-&lt;h2 id=&#34;搜索&#34;&gt;搜索&lt;/h2&gt;
-&lt;h3 id=&#34;everything&#34;&gt;Everything&lt;/h3&gt;
-&lt;p&gt;通过文件、文件夹名称快速搜索软件，比 &lt;code&gt;Windows&lt;/code&gt; 自带的搜索速度快上不少，使用起来很是方便
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c3898a92a8a.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c3898a92a8a.png&#34; alt=&#34;Snipaste_2023-01-15_13-04-59.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;wox&#34;&gt;Wox&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1tT4y1J74V/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;Windows效率搜索神器Wox快速教程&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;安装好后，可以通过 &lt;code&gt;alt + 空格键&lt;/code&gt; 调出搜索栏，通过&lt;code&gt;Esc&lt;/code&gt; 退出。调出输入框后，可以通过在地址栏中输入快捷字词，实现在特定网站中搜索内容，或使用其他搜索引擎进行搜索，如下所示，和&lt;a href=&#34;https://xancoding.cn/posts/get-info/#%e5%bf%ab%e6%8d%b7%e5%ad%97%e8%af%8d%e6%90%9c%e7%b4%a2&#34;&gt;这里&lt;/a&gt;的效果差不多。
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38ab68f665.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38ab68f665.png&#34; alt=&#34;Snipaste_2023-01-15_13-10-07.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-除此之外，由于借助了 &lt;code&gt;Everything&lt;/code&gt; 的帮助，也可以直接搜索电脑中的文件以及文件夹，如下所示：
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38c00cd205.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38c00cd205.png&#34; alt=&#34;Snipaste_2023-01-15_13-15-26.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h2 id=&#34;截图&#34;&gt;截图&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Snipaste&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Snipaste 是&lt;strong&gt;一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上&lt;/strong&gt;！&lt;br&gt;
-我使用它用于截图和取色。
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38cad0588a.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38cad0588a.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h2 id=&#34;压缩解压缩&#34;&gt;压缩解压缩&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;7-Zip&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;7-Zip&lt;/code&gt;是一款高压缩比的压缩软件，不仅支持独有的&lt;em&gt;7z&lt;/em&gt;文件格式，而且还支持各种其它压缩文件格式，其中包括&lt;strong&gt;ZIP、RAR、CAB、GZIP、BZIP2和TAR&lt;/strong&gt;等格式。
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/15/63c38d1fb0cd7.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/15/63c38d1fb0cd7.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h2 id=&#34;图床&#34;&gt;图床&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;去不图床 &amp;amp; PicGo &amp;amp; Image auto upload Plugin&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&#34;productivity&#34;&gt;Productivity&lt;/h1&gt;
+&lt;h2 id=&#34;utools&#34;&gt;uTools&lt;/h2&gt;
+&lt;p&gt;通过 &lt;code&gt;alt + 空格键&lt;/code&gt; 调出搜索栏，通过&lt;code&gt;Esc&lt;/code&gt; 退出。&lt;/p&gt;
+&lt;p&gt;调出输入框后，可以通过在地址栏中输入快捷字词，实现网页快开&lt;/p&gt;
+&lt;p&gt;安装 &lt;code&gt;Everything&lt;/code&gt; 插件后，还可以直接搜索电脑中的文件以及文件夹&lt;/p&gt;
+&lt;h2 id=&#34;snipaste&#34;&gt;Snipaste&lt;/h2&gt;
+&lt;p&gt;一个简单但强大的截图工具&lt;/p&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c38cad0588a.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;app icon&lt;/div&gt; 
+ &lt;/center&gt;
+&lt;h2 id=&#34;7-zip&#34;&gt;7-Zip&lt;/h2&gt;
+&lt;p&gt;一款高压缩比的压缩解压缩软件&lt;/p&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c38d1fb0cd7.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;app icon&lt;/div&gt; 
+ &lt;/center&gt;
+&lt;h2 id=&#34;picgo--image-auto-upload-plugin&#34;&gt;PicGo &amp;amp; Image auto upload Plugin&lt;/h2&gt;
 &lt;p&gt;我使用的图床是&lt;a href=&#34;https://7bu.top/upload&#34;&gt;去不图床&lt;/a&gt;，借助 &lt;code&gt;PicGo&lt;/code&gt;，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 &lt;code&gt;Obsidian&lt;/code&gt; 中的 &lt;code&gt;Image auto upload Plugin&lt;/code&gt; 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。&lt;br&gt;
 如今，只用把图片拖拽到 &lt;code&gt;Obsidian&lt;/code&gt; 编辑器中，即可自动将图片通过 &lt;code&gt;PicGo&lt;/code&gt; 上传到 &lt;code&gt;去不图床&lt;/code&gt;，并生成链接，显示在 &lt;code&gt;Obsidian&lt;/code&gt; 中。&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="桌面">桌面</h1>
+      <content:encoded><![CDATA[<h1 id="desktop">Desktop</h1>
 <h2 id="wallpaper-engine">Wallpaper Engine</h2>
-<p>这是STEAM平台上的一款动态壁纸软件，可以在创意工坊中找到自己感兴趣的壁纸
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38603de093.png">
-<img src="https://bu.dusays.com/2023/01/15/63c38603de093.png" alt="unnamed.png"  />
-</a>
-</div>
-
-</p>
+<p>这是STEAM平台上的一款动态壁纸软件，可以在创意工坊中找到自己感兴趣的壁纸</p>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c38603de093.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">app icon</div> 
+ </center>
 <center> 
 	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c3863682391.png">
 	<br>
@@ -6661,91 +6602,32 @@ Name:李四       Age:30
 	color: #999; 
 	padding: 2px;">目前正在使用的壁纸</div> 
  </center>
-<h2 id="win-10-开始菜单">Win 10 开始菜单</h2>
-<p>我不太习惯把应用的快捷方式直接放在桌面上，我将应用放在了开始菜单的位置。<br>
-在需要打开某一个应用时，只需在键盘上敲击 <code>windows键</code>，即可跳出下图的界面，我就可以在在上面打开所需的应用了
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png">
-<img src="https://bu.dusays.com/2023/01/15/63c3884a1e5b0.png" alt="Snipaste_2023-01-15_12-59-45.png"  />
-</a>
-</div>
-
-
-如果是常用的网页，我会借助 Chrome浏览器的<code>创建快捷方式</code>，将其创建为应用，并固定到开始界面
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3895150e18.png">
-<img src="https://bu.dusays.com/2023/01/15/63c3895150e18.png" alt="Snipaste_2023-01-15_13-03-35.png"  />
-</a>
-</div>
-
-</p>
-<h1 id="生产力">生产力</h1>
-<h2 id="搜索">搜索</h2>
-<h3 id="everything">Everything</h3>
-<p>通过文件、文件夹名称快速搜索软件，比 <code>Windows</code> 自带的搜索速度快上不少，使用起来很是方便
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c3898a92a8a.png">
-<img src="https://bu.dusays.com/2023/01/15/63c3898a92a8a.png" alt="Snipaste_2023-01-15_13-04-59.png"  />
-</a>
-</div>
-
-</p>
-<h3 id="wox">Wox</h3>
-<ul>
-<li><a href="https://www.bilibili.com/video/BV1tT4y1J74V/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b">Windows效率搜索神器Wox快速教程</a></li>
-</ul>
-<p>安装好后，可以通过 <code>alt + 空格键</code> 调出搜索栏，通过<code>Esc</code> 退出。调出输入框后，可以通过在地址栏中输入快捷字词，实现在特定网站中搜索内容，或使用其他搜索引擎进行搜索，如下所示，和<a href="https://xancoding.cn/posts/get-info/#%e5%bf%ab%e6%8d%b7%e5%ad%97%e8%af%8d%e6%90%9c%e7%b4%a2">这里</a>的效果差不多。
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38ab68f665.png">
-<img src="https://bu.dusays.com/2023/01/15/63c38ab68f665.png" alt="Snipaste_2023-01-15_13-10-07.png"  />
-</a>
-</div>
-
-
-除此之外，由于借助了 <code>Everything</code> 的帮助，也可以直接搜索电脑中的文件以及文件夹，如下所示：
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38c00cd205.png">
-<img src="https://bu.dusays.com/2023/01/15/63c38c00cd205.png" alt="Snipaste_2023-01-15_13-15-26.png"  />
-</a>
-</div>
-
-</p>
-<h2 id="截图">截图</h2>
-<ul>
-<li><code>Snipaste</code></li>
-</ul>
-<p>Snipaste 是<strong>一个简单但强大的截图工具，也可以让你将截图贴回到屏幕上</strong>！<br>
-我使用它用于截图和取色。
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38cad0588a.png">
-<img src="https://bu.dusays.com/2023/01/15/63c38cad0588a.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
-<h2 id="压缩解压缩">压缩解压缩</h2>
-<ul>
-<li><code>7-Zip</code></li>
-</ul>
-<p><code>7-Zip</code>是一款高压缩比的压缩软件，不仅支持独有的<em>7z</em>文件格式，而且还支持各种其它压缩文件格式，其中包括<strong>ZIP、RAR、CAB、GZIP、BZIP2和TAR</strong>等格式。
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/15/63c38d1fb0cd7.png">
-<img src="https://bu.dusays.com/2023/01/15/63c38d1fb0cd7.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
-<h2 id="图床">图床</h2>
-<ul>
-<li><code>去不图床 &amp; PicGo &amp; Image auto upload Plugin</code></li>
-</ul>
+<h1 id="productivity">Productivity</h1>
+<h2 id="utools">uTools</h2>
+<p>通过 <code>alt + 空格键</code> 调出搜索栏，通过<code>Esc</code> 退出。</p>
+<p>调出输入框后，可以通过在地址栏中输入快捷字词，实现网页快开</p>
+<p>安装 <code>Everything</code> 插件后，还可以直接搜索电脑中的文件以及文件夹</p>
+<h2 id="snipaste">Snipaste</h2>
+<p>一个简单但强大的截图工具</p>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c38cad0588a.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">app icon</div> 
+ </center>
+<h2 id="7-zip">7-Zip</h2>
+<p>一款高压缩比的压缩解压缩软件</p>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c38d1fb0cd7.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">app icon</div> 
+ </center>
+<h2 id="picgo--image-auto-upload-plugin">PicGo &amp; Image auto upload Plugin</h2>
 <p>我使用的图床是<a href="https://7bu.top/upload">去不图床</a>，借助 <code>PicGo</code>，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 <code>Obsidian</code> 中的 <code>Image auto upload Plugin</code> 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。<br>
 如今，只用把图片拖拽到 <code>Obsidian</code> 编辑器中，即可自动将图片通过 <code>PicGo</code> 上传到 <code>去不图床</code>，并生成链接，显示在 <code>Obsidian</code> 中。</p>
 ]]></content:encoded>
@@ -7479,138 +7361,7 @@ Name:李四       Age:30
       <pubDate>Tue, 15 Nov 2022 12:54:07 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2022-11-15-12-54-07/</guid>
-      <description>&lt;h1 id=&#34;入门&#34;&gt;入门&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;当您在 IDE 中创建新项目时，大多数 IDE 会为您设置两种不同的构建配置：发布配置和调试配置，开发程序时使用调试构建配置。当您准备好将可执行文件发布给其他人时，或者想要测试性能时，请使用发布构建配置
-&lt;ol&gt;
-&lt;li&gt;Debug：&lt;strong&gt;调试版本，&lt;/strong&gt; 包含调试信息，所以 &lt;strong&gt;容量比Release大很多，&lt;/strong&gt; 并且不进行任何优化（优化会使调试复杂化，因为源代码和生成的指令间关系会更复杂），便于程序员调试&lt;/li&gt;
-&lt;li&gt;Release：&lt;strong&gt;发布版本，&lt;/strong&gt; 不对源代码进行调试，编译时对应用程序的速度进行优化，&lt;strong&gt;使得程序在代码大小和运行速度上都是最优的&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;对于 CLion 用户，您可以添加 Release：按 Alt+Ctrl+S 调出 Settings &amp;gt; Build，Execution，Deployment &amp;gt; CMake &amp;gt; 单击 Profiles 部分中的 + 按钮，将自动添加 Release 选项
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;&lt;strong&gt;禁用编译器扩展&lt;/strong&gt;以确保您的程序（和编码实践）保持符合 C++ 标准并且可以在任何系统上运行&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;CLion 使用 CMake 构建项目。
-将行 set(CMAKE_CXX_EXTENSIONS OFF) 添加到 CMakeList.txt 以禁用扩展
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;&lt;strong&gt;将你的警告级别调到最大&lt;/strong&gt;，尤其是在你学习的时候。它将帮助您识别可能的问题&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;在 Clion（从 2021.3 版本开始）中，要将警告级别调到最高，您可以按 Alt+Ctrl+S 调出 Settings ，然后选择 Editor &amp;gt; Inspections &amp;gt; C/C++，然后手动选中所有框，或者在窗口的右侧，在矩形的 severity 框中选择错误，然后在另一个框中选择 In All Scopes
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;&lt;strong&gt;选择语言标准&lt;/strong&gt;：在专业环境中，通常选择比最新标准低一个或两个版本的语言标准（例如，现在 C++20 已经出来了，这意味着 C++14 或 C++17）。这样做通常是为了确保编译器制造商有机会解决缺陷，以便更好地理解新功能的最佳实践。在相关的情况下，这也有助于确保更好的跨平台兼容性，因为某些平台上的编译器可能不会立即为更新的语言标准提供全面支持。启用 C++17 语言标准（或更高版本）后，您应该能够在没有任何警告或错误的情况下编译以下代码&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#include &amp;lt;array&amp;gt;
-#include &amp;lt;iostream&amp;gt;
-#include &amp;lt;string_view&amp;gt;
-#include &amp;lt;tuple&amp;gt;
-#include &amp;lt;type_traits&amp;gt;
-
-namespace a:🅱️:c
-{
-    inline constexpr std::string_view str{ &amp;#34;hello&amp;#34; };
-}
-
-template &amp;lt;class... T&amp;gt;
-std::tuple&amp;lt;std::size_t, std::common_type_t&amp;lt;T...&amp;gt;&amp;gt; sum(T... args)
-{
-    return { sizeof...(T), (args + ...) };
-}
-
-int main()
-{
-    auto [iNumbers, iSum]{ sum(1, 2, 3) };
-    std::cout &amp;lt;&amp;lt; a:🅱️:c::str &amp;lt;&amp;lt; &amp;#39; &amp;#39; &amp;lt;&amp;lt; iNumbers &amp;lt;&amp;lt; &amp;#39; &amp;#39; &amp;lt;&amp;lt; iSum &amp;lt;&amp;lt; &amp;#39;\n&amp;#39;;
-
-    std::array arr{ 1, 2, 3 };
-
-    std::cout &amp;lt;&amp;lt; std::size(arr) &amp;lt;&amp;lt; &amp;#39;\n&amp;#39;;
-
-    return 0;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;c-基础知识&#34;&gt;C++ 基础知识&lt;/h1&gt;
-&lt;h2 id=&#34;注释&#34;&gt;注释&lt;/h2&gt;
-&lt;h3 id=&#34;单行注释&#34;&gt;单行注释&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;在行的右侧添加注释会使代码和注释都难以阅读，尤其是在行很长的情况下。如果行相当短，评论可以简单地对齐（通常是一个制表位），像这样：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;std::cout &amp;lt;&amp;lt; &amp;#34;Hello world!\n&amp;#34;;                 // std::cout lives in the iostream library
-std::cout &amp;lt;&amp;lt; &amp;#34;It is very nice to meet you!\n&amp;#34;; // this is much easier to read
-std::cout &amp;lt;&amp;lt; &amp;#34;Yeah!\n&amp;#34;;                        // don&amp;#39;t you think so?
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;但是，如果行很长，将注释放在右边会使行变得很长。在这种情况下，单行注释通常放在它正在注释的行之上：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// std::cout lives in the iostream library
-std::cout &amp;lt;&amp;lt; &amp;#34;Hello world!\n&amp;#34;;
-
-// this is much easier to read
-std::cout &amp;lt;&amp;lt; &amp;#34;It is very nice to meet you!\n&amp;#34;;
-
-// don&amp;#39;t you think so?
-std::cout &amp;lt;&amp;lt; &amp;#34;Yeah!\n&amp;#34;;
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Commenting out code&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;//    std::cout &amp;lt;&amp;lt; 1;
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;多行注释&#34;&gt;多行注释&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Explaining code&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/* This is a multi-line comment.
- * the matching asterisks to the left
- * can make this easier to read
- */
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Commenting out code&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/*
-    std::cout &amp;lt;&amp;lt; 1;
-    std::cout &amp;lt;&amp;lt; 2;
-    std::cout &amp;lt;&amp;lt; 3;
-*/
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;代码的可读性&#34;&gt;代码的可读性&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;您的行的长度不应超过 80 个字符&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;int main()
-{
-    std::cout &amp;lt;&amp;lt; &amp;#34;This is a really, really, really, really, really, really, really, &amp;#34;
-        &amp;#34;really long line\n&amp;#34;; // one extra indentation for continuation line
-
-    std::cout &amp;lt;&amp;lt; &amp;#34;This is another really, really, really, really, really, really, really, &amp;#34;
-                 &amp;#34;really long line\n&amp;#34;; // text aligned with the previous line for continuation line
-
-    std::cout &amp;lt;&amp;lt; &amp;#34;This one is short\n&amp;#34;;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果用操作符（例如 &amp;laquo; 或 +）拆分长行，则应将操作符放在下一行的开头，而不是当前行的结尾&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;std::cout &amp;lt;&amp;lt; 3 + 4
-    + 5 + 6
-    * 7 * 8;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;许多编辑器都有一个内置功能（或插件/扩展），可以在给定的列（例如 80 个字符）处显示一行（称为“列指南”），因此您可以轻松查看行何时变得太长&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Clion column guide : 
-File &amp;gt; Settings &amp;gt; Editor &amp;gt; Code Style &amp;gt; General &amp;gt; 在 &amp;#34;Visual guides&amp;#34; 矩形框中键入 80 并应用更改
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;使用空格通过对齐值或注释或在代码块之间添加间距来使您的代码更易于阅读&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cost          = 57;
-pricePerItem  = 24;
-value         = 5;
-numberOfItems = 17;
-
-std::cout &amp;lt;&amp;lt; &amp;#34;Hello world!\n&amp;#34;;                  // cout lives in the iostream library
-std::cout &amp;lt;&amp;lt; &amp;#34;It is very nice to meet you!\n&amp;#34;;  // these comments are easier to read
-std::cout &amp;lt;&amp;lt; &amp;#34;Yeah!\n&amp;#34;;                         // especially when all lined up
-
-// cout lives in the iostream library
-std::cout &amp;lt;&amp;lt; &amp;#34;Hello world!\n&amp;#34;;
-
-// these comments are easier to read
-std::cout &amp;lt;&amp;lt; &amp;#34;It is very nice to meet you!\n&amp;#34;;
-
-// when separated by whitespace
-std::cout &amp;lt;&amp;lt; &amp;#34;Yeah!\n&amp;#34;;
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;c-基础函数和文件&#34;&gt;C++ 基础：函数和文件&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;c-基础函数和文件&#34;&gt;C++ 基础：函数和文件&lt;/h1&gt;
 &lt;h2 id=&#34;函数返回值&#34;&gt;函数返回值&lt;/h2&gt;
 &lt;p&gt;C++标准只定义了3种状态码的含义：0、EXIT_SUCCESS、EXIT_FAILURE。 0 和 EXIT_SUCCESS 都表示程序执行成功。 EXIT_FAILURE 表示程序没有成功执行&lt;/p&gt;
 &lt;p&gt;EXIT_SUCCESS 和 EXIT_FAILURE 是 &lt;code&gt;&amp;lt;cstdlib&amp;gt;&lt;/code&gt; 标头中定义的预处理器宏：&lt;/p&gt;
@@ -9102,138 +8853,7 @@ int main()
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="入门">入门</h1>
-<ol>
-<li>当您在 IDE 中创建新项目时，大多数 IDE 会为您设置两种不同的构建配置：发布配置和调试配置，开发程序时使用调试构建配置。当您准备好将可执行文件发布给其他人时，或者想要测试性能时，请使用发布构建配置
-<ol>
-<li>Debug：<strong>调试版本，</strong> 包含调试信息，所以 <strong>容量比Release大很多，</strong> 并且不进行任何优化（优化会使调试复杂化，因为源代码和生成的指令间关系会更复杂），便于程序员调试</li>
-<li>Release：<strong>发布版本，</strong> 不对源代码进行调试，编译时对应用程序的速度进行优化，<strong>使得程序在代码大小和运行速度上都是最优的</strong></li>
-</ol>
-</li>
-</ol>
-<pre tabindex="0"><code>对于 CLion 用户，您可以添加 Release：按 Alt+Ctrl+S 调出 Settings &gt; Build，Execution，Deployment &gt; CMake &gt; 单击 Profiles 部分中的 + 按钮，将自动添加 Release 选项
-</code></pre><ol start="2">
-<li><strong>禁用编译器扩展</strong>以确保您的程序（和编码实践）保持符合 C++ 标准并且可以在任何系统上运行</li>
-</ol>
-<pre tabindex="0"><code>CLion 使用 CMake 构建项目。
-将行 set(CMAKE_CXX_EXTENSIONS OFF) 添加到 CMakeList.txt 以禁用扩展
-</code></pre><ol start="3">
-<li><strong>将你的警告级别调到最大</strong>，尤其是在你学习的时候。它将帮助您识别可能的问题</li>
-</ol>
-<pre tabindex="0"><code>在 Clion（从 2021.3 版本开始）中，要将警告级别调到最高，您可以按 Alt+Ctrl+S 调出 Settings ，然后选择 Editor &gt; Inspections &gt; C/C++，然后手动选中所有框，或者在窗口的右侧，在矩形的 severity 框中选择错误，然后在另一个框中选择 In All Scopes
-</code></pre><ol start="4">
-<li><strong>选择语言标准</strong>：在专业环境中，通常选择比最新标准低一个或两个版本的语言标准（例如，现在 C++20 已经出来了，这意味着 C++14 或 C++17）。这样做通常是为了确保编译器制造商有机会解决缺陷，以便更好地理解新功能的最佳实践。在相关的情况下，这也有助于确保更好的跨平台兼容性，因为某些平台上的编译器可能不会立即为更新的语言标准提供全面支持。启用 C++17 语言标准（或更高版本）后，您应该能够在没有任何警告或错误的情况下编译以下代码</li>
-</ol>
-<pre tabindex="0"><code>#include &lt;array&gt;
-#include &lt;iostream&gt;
-#include &lt;string_view&gt;
-#include &lt;tuple&gt;
-#include &lt;type_traits&gt;
-
-namespace a:🅱️:c
-{
-    inline constexpr std::string_view str{ &#34;hello&#34; };
-}
-
-template &lt;class... T&gt;
-std::tuple&lt;std::size_t, std::common_type_t&lt;T...&gt;&gt; sum(T... args)
-{
-    return { sizeof...(T), (args + ...) };
-}
-
-int main()
-{
-    auto [iNumbers, iSum]{ sum(1, 2, 3) };
-    std::cout &lt;&lt; a:🅱️:c::str &lt;&lt; &#39; &#39; &lt;&lt; iNumbers &lt;&lt; &#39; &#39; &lt;&lt; iSum &lt;&lt; &#39;\n&#39;;
-
-    std::array arr{ 1, 2, 3 };
-
-    std::cout &lt;&lt; std::size(arr) &lt;&lt; &#39;\n&#39;;
-
-    return 0;
-}
-</code></pre><h1 id="c-基础知识">C++ 基础知识</h1>
-<h2 id="注释">注释</h2>
-<h3 id="单行注释">单行注释</h3>
-<ol>
-<li>在行的右侧添加注释会使代码和注释都难以阅读，尤其是在行很长的情况下。如果行相当短，评论可以简单地对齐（通常是一个制表位），像这样：</li>
-</ol>
-<pre tabindex="0"><code>std::cout &lt;&lt; &#34;Hello world!\n&#34;;                 // std::cout lives in the iostream library
-std::cout &lt;&lt; &#34;It is very nice to meet you!\n&#34;; // this is much easier to read
-std::cout &lt;&lt; &#34;Yeah!\n&#34;;                        // don&#39;t you think so?
-</code></pre><ol start="2">
-<li>但是，如果行很长，将注释放在右边会使行变得很长。在这种情况下，单行注释通常放在它正在注释的行之上：</li>
-</ol>
-<pre tabindex="0"><code>// std::cout lives in the iostream library
-std::cout &lt;&lt; &#34;Hello world!\n&#34;;
-
-// this is much easier to read
-std::cout &lt;&lt; &#34;It is very nice to meet you!\n&#34;;
-
-// don&#39;t you think so?
-std::cout &lt;&lt; &#34;Yeah!\n&#34;;
-</code></pre><ol start="3">
-<li>Commenting out code</li>
-</ol>
-<pre tabindex="0"><code>//    std::cout &lt;&lt; 1;
-</code></pre><h3 id="多行注释">多行注释</h3>
-<ol>
-<li>Explaining code</li>
-</ol>
-<pre tabindex="0"><code>/* This is a multi-line comment.
- * the matching asterisks to the left
- * can make this easier to read
- */
-</code></pre><ol start="2">
-<li>Commenting out code</li>
-</ol>
-<pre tabindex="0"><code>/*
-    std::cout &lt;&lt; 1;
-    std::cout &lt;&lt; 2;
-    std::cout &lt;&lt; 3;
-*/
-</code></pre><h2 id="代码的可读性">代码的可读性</h2>
-<ol>
-<li>您的行的长度不应超过 80 个字符</li>
-</ol>
-<pre tabindex="0"><code>int main()
-{
-    std::cout &lt;&lt; &#34;This is a really, really, really, really, really, really, really, &#34;
-        &#34;really long line\n&#34;; // one extra indentation for continuation line
-
-    std::cout &lt;&lt; &#34;This is another really, really, really, really, really, really, really, &#34;
-                 &#34;really long line\n&#34;; // text aligned with the previous line for continuation line
-
-    std::cout &lt;&lt; &#34;This one is short\n&#34;;
-}
-</code></pre><p>如果用操作符（例如 &laquo; 或 +）拆分长行，则应将操作符放在下一行的开头，而不是当前行的结尾</p>
-<pre tabindex="0"><code>std::cout &lt;&lt; 3 + 4
-    + 5 + 6
-    * 7 * 8;
-</code></pre><p>许多编辑器都有一个内置功能（或插件/扩展），可以在给定的列（例如 80 个字符）处显示一行（称为“列指南”），因此您可以轻松查看行何时变得太长</p>
-<pre tabindex="0"><code>Clion column guide : 
-File &gt; Settings &gt; Editor &gt; Code Style &gt; General &gt; 在 &#34;Visual guides&#34; 矩形框中键入 80 并应用更改
-</code></pre><ol start="2">
-<li>使用空格通过对齐值或注释或在代码块之间添加间距来使您的代码更易于阅读</li>
-</ol>
-<pre tabindex="0"><code>cost          = 57;
-pricePerItem  = 24;
-value         = 5;
-numberOfItems = 17;
-
-std::cout &lt;&lt; &#34;Hello world!\n&#34;;                  // cout lives in the iostream library
-std::cout &lt;&lt; &#34;It is very nice to meet you!\n&#34;;  // these comments are easier to read
-std::cout &lt;&lt; &#34;Yeah!\n&#34;;                         // especially when all lined up
-
-// cout lives in the iostream library
-std::cout &lt;&lt; &#34;Hello world!\n&#34;;
-
-// these comments are easier to read
-std::cout &lt;&lt; &#34;It is very nice to meet you!\n&#34;;
-
-// when separated by whitespace
-std::cout &lt;&lt; &#34;Yeah!\n&#34;;
-</code></pre><h1 id="c-基础函数和文件">C++ 基础：函数和文件</h1>
+      <content:encoded><![CDATA[<h1 id="c-基础函数和文件">C++ 基础：函数和文件</h1>
 <h2 id="函数返回值">函数返回值</h2>
 <p>C++标准只定义了3种状态码的含义：0、EXIT_SUCCESS、EXIT_FAILURE。 0 和 EXIT_SUCCESS 都表示程序执行成功。 EXIT_FAILURE 表示程序没有成功执行</p>
 <p>EXIT_SUCCESS 和 EXIT_FAILURE 是 <code>&lt;cstdlib&gt;</code> 标头中定义的预处理器宏：</p>
