@@ -13,9 +13,7 @@
       <pubDate>Tue, 15 Nov 2022 12:54:07 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2022-11-15-12-54-07/</guid>
-      <description>&lt;h1 id=&#34;调试-c-程序&#34;&gt;调试 C++ 程序&lt;/h1&gt;
-&lt;h1 id=&#34;基本数据类型&#34;&gt;基本数据类型&lt;/h1&gt;
-&lt;h2 id=&#34;数据类型大小&#34;&gt;数据类型大小&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;数据类型大小&#34;&gt;数据类型大小&lt;/h2&gt;
 &lt;p&gt;数据类型的大小取决于编译器和计算机体系结构！&lt;/p&gt;
 &lt;p&gt;C++ 仅保证每个基本数据类型都具有最小大小
 
@@ -1070,9 +1068,7 @@ int main()
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt; *&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;this&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-      <content:encoded><![CDATA[<h1 id="调试-c-程序">调试 C++ 程序</h1>
-<h1 id="基本数据类型">基本数据类型</h1>
-<h2 id="数据类型大小">数据类型大小</h2>
+      <content:encoded><![CDATA[<h2 id="数据类型大小">数据类型大小</h2>
 <p>数据类型的大小取决于编译器和计算机体系结构！</p>
 <p>C++ 仅保证每个基本数据类型都具有最小大小
 
