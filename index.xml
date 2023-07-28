@@ -3262,11 +3262,14 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
       <description>&lt;h1 id=&#34;bloghttpsgithubcomxancodingxancodinggithubio&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/Xancoding.github.io&#34;&gt;Blog&lt;/a&gt;&lt;/h1&gt;
 &lt;h1 id=&#34;搭建工具&#34;&gt;搭建工具&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.zhangyingwei.com/posts/2021m4d11h19m42s28/&#34;&gt;Hugo 博客写作最佳实践&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/&#34;&gt;Hugo + GitHub Action，搭建你的博客自动发布系统&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Hugo &amp;amp; GitHub Pages &amp;amp; GitHub Action &amp;amp; Twikoo&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Theme：PaperMod&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Tool：Obsidian &amp;amp; Git Bash&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;自动化构建&#34;&gt;自动化构建&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.zhangyingwei.com/posts/2021m4d11h19m42s28/&#34;&gt;Hugo 博客写作最佳实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/&#34;&gt;Hugo + GitHub Action，搭建你的博客自动发布系统&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;各页面简介&#34;&gt;各页面简介&lt;/h1&gt;
 &lt;ul&gt;
@@ -3420,11 +3423,14 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
       <content:encoded><![CDATA[<h1 id="bloghttpsgithubcomxancodingxancodinggithubio"><a href="https://github.com/Xancoding/Xancoding.github.io">Blog</a></h1>
 <h1 id="搭建工具">搭建工具</h1>
 <ul>
-<li><a href="https://blog.zhangyingwei.com/posts/2021m4d11h19m42s28/">Hugo 博客写作最佳实践</a></li>
-<li><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a></li>
 <li><code>Hugo &amp; GitHub Pages &amp; GitHub Action &amp; Twikoo</code></li>
 <li><code>Theme：PaperMod</code></li>
 <li><code>Tool：Obsidian &amp; Git Bash</code></li>
+</ul>
+<h1 id="自动化构建">自动化构建</h1>
+<ul>
+<li><a href="https://blog.zhangyingwei.com/posts/2021m4d11h19m42s28/">Hugo 博客写作最佳实践</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a></li>
 </ul>
 <h1 id="各页面简介">各页面简介</h1>
 <ul>
