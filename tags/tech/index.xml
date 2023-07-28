@@ -1060,7 +1060,7 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;经过上述的重载后，&lt;code&gt;sort&lt;/code&gt; 会将元素按 &lt;code&gt;age&lt;/code&gt; 降序排序&lt;/p&gt;
 &lt;h2 id=&#34;自定义比较函数&#34;&gt;自定义比较函数&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;bool&lt;/span&gt; cmp(Person &amp;amp;p1, Person &amp;amp;p2) {  
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;bool&lt;/span&gt; cmp(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;const&lt;/span&gt; Person &amp;amp;p1, &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;const&lt;/span&gt; Person &amp;amp;p2) {  
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt; p1.age &amp;lt; p2.age;  
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -1078,7 +1078,7 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;/ol&gt;
 &lt;p&gt;&lt;code&gt;std::less&amp;lt;T&amp;gt;&lt;/code&gt;和&lt;code&gt;std::greater&amp;lt;T&amp;gt;&lt;/code&gt;是STL中预定义的两个比较函数类，分别表示小于和大于。它们重载了小于号运算符&lt;code&gt;&amp;lt;&lt;/code&gt;和大于号运算符&lt;code&gt;&amp;gt;&lt;/code&gt;，用于比较元素的优先级。因此，当我们在定义&lt;code&gt;std::priority_queue&lt;/code&gt;时，使用&lt;code&gt;std::less&amp;lt;T&amp;gt;&lt;/code&gt;作为比较函数类时，实际上是默认按照小于号进行比较元素优先级；而使用&lt;code&gt;std::greater&amp;lt;T&amp;gt;&lt;/code&gt;作为比较函数类时，则是按照大于号进行比较元素优先级。&lt;/p&gt;
 &lt;p&gt;如果在使用&lt;code&gt;std::less&amp;lt;T&amp;gt;&lt;/code&gt;作为比较函数类时，重载大于号&lt;code&gt;&amp;gt;&lt;/code&gt;，或者在使用&lt;code&gt;std::greater&amp;lt;T&amp;gt;&lt;/code&gt;作为比较函数类时，重载小于号&lt;code&gt;&amp;lt;&lt;/code&gt;，都会导致编译错误，因为这些比较函数类内部的比较操作都是用小于号&lt;code&gt;&amp;lt;&lt;/code&gt;或者大于号&lt;code&gt;&amp;gt;&lt;/code&gt;实现的，而你重载了不符合预期的运算符，导致编译器无法正确地进行比较操作。&lt;/p&gt;
-&lt;p&gt;在C++中，优先队列可以通过指定比较函数来控制是使用大根堆还是小根堆。如果使用 std::greater&amp;lt;&amp;gt; 作为比较函数，则意味着使用小根堆，即优先级高的元素会被放在队列的顶部；如果使用 std::less&amp;lt;&amp;gt; 作为比较函数，则意味着使用大根堆，即优先级高的元素会被放在队列的底部。&lt;/p&gt;
+&lt;p&gt;在C++中，优先队列可以通过指定比较函数来控制是使用大根堆还是小根堆。如果使用 &lt;code&gt;std::greater&amp;lt;&amp;gt;&lt;/code&gt; 作为比较函数，则意味着使用小根堆，即优先级高的元素会被放在队列的顶部；如果使用 &lt;code&gt;std::less&amp;lt;&amp;gt;&lt;/code&gt; 作为比较函数，则意味着使用大根堆，即优先级高的元素会被放在队列的底部。&lt;/p&gt;
 &lt;p&gt;堆中元素之间的优先级关系，这是通过定义比较函数来实现的，比较函数中使用 &lt;code&gt;greater&amp;lt;&amp;gt;&lt;/code&gt; 表示元素之间的优先级关系为第一个参数视为较小的元素；使用 &lt;code&gt;less&amp;lt;&amp;gt;&lt;/code&gt; 表示元素之间的优先级关系为第一个参数视为较大的元素。&lt;/p&gt;
 &lt;p&gt;使用 &lt;code&gt;greater&amp;lt;&amp;gt;&lt;/code&gt; 作为比较函数时，会将元素之间的优先级关系视为第一个参数较小，也就是说，若 &lt;code&gt;greater&amp;lt;&amp;gt;&lt;/code&gt; 作为比较函数返回 true，则表示第二个参数优先级高于第一个参数，应当排在第一个参数之前。因此，这里的“将第一个参数视为较小的元素”指的是将第一个参数作为比较时的较小值，从而实现小根堆的效果。&lt;/p&gt;
 &lt;p&gt;在一个二元比较函数中，第一个参数一般是被比较的左侧参数，第二个参数是被比较的右侧参数。比如在 &lt;code&gt;operator&amp;gt;&lt;/code&gt; 函数中，第一个参数就是使用 &lt;code&gt;&amp;gt;&lt;/code&gt; 运算符的左侧参数，第二个参数是右侧参数。在优先队列中，第一个参数也就是堆顶元素。&lt;/p&gt;
@@ -1170,7 +1170,7 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>经过上述的重载后，<code>sort</code> 会将元素按 <code>age</code> 降序排序</p>
 <h2 id="自定义比较函数">自定义比较函数</h2>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">bool</span> cmp(Person &amp;p1, Person &amp;p2) {  
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">bool</span> cmp(<span style="color:#fff;font-weight:bold">const</span> Person &amp;p1, <span style="color:#fff;font-weight:bold">const</span> Person &amp;p2) {  
 </span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">return</span> p1.age &lt; p2.age;  
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
@@ -1188,7 +1188,7 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 </ol>
 <p><code>std::less&lt;T&gt;</code>和<code>std::greater&lt;T&gt;</code>是STL中预定义的两个比较函数类，分别表示小于和大于。它们重载了小于号运算符<code>&lt;</code>和大于号运算符<code>&gt;</code>，用于比较元素的优先级。因此，当我们在定义<code>std::priority_queue</code>时，使用<code>std::less&lt;T&gt;</code>作为比较函数类时，实际上是默认按照小于号进行比较元素优先级；而使用<code>std::greater&lt;T&gt;</code>作为比较函数类时，则是按照大于号进行比较元素优先级。</p>
 <p>如果在使用<code>std::less&lt;T&gt;</code>作为比较函数类时，重载大于号<code>&gt;</code>，或者在使用<code>std::greater&lt;T&gt;</code>作为比较函数类时，重载小于号<code>&lt;</code>，都会导致编译错误，因为这些比较函数类内部的比较操作都是用小于号<code>&lt;</code>或者大于号<code>&gt;</code>实现的，而你重载了不符合预期的运算符，导致编译器无法正确地进行比较操作。</p>
-<p>在C++中，优先队列可以通过指定比较函数来控制是使用大根堆还是小根堆。如果使用 std::greater&lt;&gt; 作为比较函数，则意味着使用小根堆，即优先级高的元素会被放在队列的顶部；如果使用 std::less&lt;&gt; 作为比较函数，则意味着使用大根堆，即优先级高的元素会被放在队列的底部。</p>
+<p>在C++中，优先队列可以通过指定比较函数来控制是使用大根堆还是小根堆。如果使用 <code>std::greater&lt;&gt;</code> 作为比较函数，则意味着使用小根堆，即优先级高的元素会被放在队列的顶部；如果使用 <code>std::less&lt;&gt;</code> 作为比较函数，则意味着使用大根堆，即优先级高的元素会被放在队列的底部。</p>
 <p>堆中元素之间的优先级关系，这是通过定义比较函数来实现的，比较函数中使用 <code>greater&lt;&gt;</code> 表示元素之间的优先级关系为第一个参数视为较小的元素；使用 <code>less&lt;&gt;</code> 表示元素之间的优先级关系为第一个参数视为较大的元素。</p>
 <p>使用 <code>greater&lt;&gt;</code> 作为比较函数时，会将元素之间的优先级关系视为第一个参数较小，也就是说，若 <code>greater&lt;&gt;</code> 作为比较函数返回 true，则表示第二个参数优先级高于第一个参数，应当排在第一个参数之前。因此，这里的“将第一个参数视为较小的元素”指的是将第一个参数作为比较时的较小值，从而实现小根堆的效果。</p>
 <p>在一个二元比较函数中，第一个参数一般是被比较的左侧参数，第二个参数是被比较的右侧参数。比如在 <code>operator&gt;</code> 函数中，第一个参数就是使用 <code>&gt;</code> 运算符的左侧参数，第二个参数是右侧参数。在优先队列中，第一个参数也就是堆顶元素。</p>
