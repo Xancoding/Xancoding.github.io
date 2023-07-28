@@ -284,13 +284,15 @@
       
       <guid>https://xancoding.cn/posts/2023-04-30-09-43-31/</guid>
       <description>&lt;h1 id=&#34;bloghttpsgithubcomxancodingxancodinggithubio&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/Xancoding.github.io&#34;&gt;Blog&lt;/a&gt;&lt;/h1&gt;
-&lt;h2 id=&#34;搭建工具&#34;&gt;搭建工具&lt;/h2&gt;
+&lt;h1 id=&#34;搭建工具&#34;&gt;搭建工具&lt;/h1&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.zhangyingwei.com/posts/2021m4d11h19m42s28/&#34;&gt;Hugo 博客写作最佳实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/&#34;&gt;Hugo + GitHub Action，搭建你的博客自动发布系统&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Hugo &amp;amp; GitHub Pages &amp;amp; GitHub Action &amp;amp; Twikoo&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Theme：PaperMod&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Tool：Obsidian &amp;amp; Git Bash&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;各页面简介&#34;&gt;各页面简介&lt;/h2&gt;
+&lt;h1 id=&#34;各页面简介&#34;&gt;各页面简介&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Home：联系方式 &amp;amp; 文章&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Tags：文章标签&lt;/code&gt;&lt;/li&gt;
@@ -298,7 +300,12 @@
 &lt;li&gt;&lt;code&gt;About：作者简介 &amp;amp; 博客简介&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Search：搜索文章&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;自定义&#34;&gt;自定义&lt;/h1&gt;
 &lt;h2 id=&#34;自定义-shortcodes&#34;&gt;自定义 shortcodes&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/hugo_gallery/&#34;&gt;# Hugo博客添加相册功能&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/shortcodes/&#34;&gt;# Hugo博客自定义shortcodes&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;bilibili-视频&#34;&gt;bilibili 视频&lt;/h3&gt;
 &lt;!DOCTYPE HTML&gt;
 &lt;html lang=&#34;en&#34;&gt;
@@ -337,223 +344,6 @@
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-
-&lt;h3 id=&#34;douban-卡片&#34;&gt;douban 卡片&lt;/h3&gt;
-&lt;!DOCTYPE HTML&gt;
-&lt;html lang=&#34;en&#34;&gt;
-&lt;head&gt;
-    &lt;title&gt;&lt;/title&gt;
-    &lt;style&gt;
-        .post-preview {
-            max-width: 780px;
-            height: 200px;
-            margin: 1em auto;
-            position: relative;
-            display: flex;
-             
-            background: var(--entry);
-            border-radius: 15px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, .25), 0 0 2px rgba(0, 0, 0, .25);
-        }
-
-        .dark .post-preview {
-             
-            background: var(--entry);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, .5), 0 0 2px rgba(0, 0, 0, .5);
-        }
-
-        .post-preview--meta {
-            width: 80%;
-            padding: 23px;
-            overflow: hidden;
-        }
-
-        .post-preview--middle {
-            line-height: 28px;
-        }
-
-        .post-preview--title {
-            font-size: 22px;
-            margin: 0 !important;
-        }
-
-        .post-preview--title a {
-            text-decoration: none;
-        }
-
-        .post-preview--date {
-            font-size: 14px;
-            color: #999;
-        }
-
-        .post-preview--excerpt {
-            font-size: 14px;
-            line-height: 1.825;
-        }
-
-        .post-preview--excerpt p {
-            display: inline;
-            margin: 0;
-        }
-
-        .post-preview--image {
-            height: 200px !important;
-            width: 25%;
-            float: right;
-            border-radius: 0 15px 15px 0;
-        }
-
-        .post-preview img {
-            margin: unset;
-            width: 20%;
-            border-radius: 0 15px 15px 0;
-        }
-
-        @media (max-width: 550px) {
-            .post-preview {
-                width: 95%;
-            }
-
-            .post-preview--excerpt {
-                display: none;
-            }
-
-            .post-preview--middle {
-                line-height: 19px;
-            }
-        }
-
-        .rating {
-            display: block;
-            line-height: 15px;
-        }
-
-        .rating-star {
-            display: inline-block;
-            width: 75px;
-            height: 15px;
-            background-repeat: no-repeat;
-            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
-            overflow: hidden;
-        }
-
-        .allstar10 {
-            background-position: 0px 0px;
-        }
-
-        .allstar9 {
-            background-position: 0px -15px;
-        }
-
-        .allstar8 {
-            background-position: 0px -30px;
-        }
-
-        .allstar7 {
-            background-position: 0px -45px;
-        }
-
-        .allstar6 {
-            background-position: 0px -60px;
-        }
-
-        .allstar5 {
-            background-position: 0px -75px;
-        }
-
-        .allstar4 {
-            background-position: 0px -90px;
-        }
-
-        .allstar3 {
-            background-position: 0px -105px;
-        }
-
-        .allstar2 {
-            background-position: 0px -120px;
-        }
-
-        .allstar1 {
-            background-position: 0px -135px;
-        }
-
-        .allstar0 {
-            background-position: 0px -150px;
-        }
-
-
-        .rating-average {
-            color: #777;
-            display: inline-block;
-            font-size: 13px;
-            margin-left: 10px;
-        }
-    &lt;/style&gt;
-    &lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34;
-            integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-    &lt;script type=&#34;text/javascript&#34;&gt;
-        $(document).ready(function () {
-            $(&#39;.douban_item&#39;).each(function () {
-                var _this = $(this);
-                var strs = _this.attr(&#39;urlstring&#39;).toString();
-                var db_reg = /^https\:\/\/(movie|book)\.douban\.com\/subject\/([0-9]+)\/?/;
-                if (db_reg.test(strs)) {
-                    var db_type = strs.replace(db_reg, &#34;$1&#34;);
-                    var db_id = strs.replace(db_reg, &#34;$2&#34;).toString();
-                    var db_api = &#34;https://douban.edui.fun/&#34;;
-                    if (db_type === &#39;movie&#39;) {
-                        var ls_item = &#39;movie&#39; + db_id;
-                        var url = db_api + &#34;movies/&#34; + db_id;
-                        if (localStorage.getItem(ls_item) == null || localStorage.getItem(ls_item) === &#39;undefined&#39;) {
-                            $.ajax({
-                                url: url, type: &#39;GET&#39;, dataType: &#34;json&#34;, success: function (data) {
-                                    localStorage.setItem(ls_item, JSON.stringify(data));
-                                    movieShow(_this, ls_item, strs)
-                                }
-                            })
-                        } else {
-                            movieShow(_this, ls_item, strs)
-                        }
-                    } else if (db_type === &#39;book&#39;) {
-                        var ls_item = &#39;book&#39; + db_id;
-                        var url = db_api + &#34;v2/book/id/&#34; + db_id;
-                        if (localStorage.getItem(ls_item) == null || localStorage.getItem(ls_item) === &#39;undefined&#39;) {
-                            $.ajax({
-                                url: url, type: &#39;GET&#39;, dataType: &#39;json&#39;, success: function (data) {
-                                    localStorage.setItem(&#39;book&#39; + db_id, JSON.stringify(data));
-                                    bookShow(_this, ls_item, strs)
-                                }
-                            })
-                        } else {
-                            bookShow(_this, ls_item, strs)
-                        }
-                    }
-                }
-            });
-        });
-
-        function movieShow(_this, ls_item, str) {
-            var storage = localStorage.getItem(ls_item);
-            var data = JSON.parse(storage);
-            var db_star = Math.ceil(data.rating);
-            $(&#34;&lt;div class=&#39;post-preview&#39;&gt;&lt;div class=&#39;post-preview--meta&#39;&gt;&lt;div class=&#39;post-preview--middle&#39;&gt;&lt;div class=&#39;post-preview--title&#39;&gt;&lt;a target=&#39;_blank&#39; style=&#39;box-shadow: none; font-weight: bolder;&#39; href=&#39;&#34; + str + &#34;&#39;&gt;&#34; + data.name + &#34;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#39;rating&#39;&gt;&lt;div class=&#39;rating-star allstar&#34; + db_star + &#34;&#39;&gt;&lt;/div&gt;&lt;div class=&#39;rating-average&#39;&gt;&#34; + data.rating + &#34;&lt;/div&gt;&lt;/div&gt;&lt;time class=&#39;post-preview--date&#39;&gt;导演：&#34; + data.director + &#34; / 类型：&#34; + data.genre + &#34; / &#34; + data.year + &#34;&lt;/time&gt;&lt;section style=&#39;max-height:75px;overflow:hidden;&#39; class=&#39;post-preview--excerpt&#39;&gt;&#34; + data.intro.replace(/\s*/g, &#34;&#34;) + &#34;&lt;/section&gt;&lt;/div&gt;&lt;/div&gt;&lt;img referrerpolicy=&#39;no-referrer&#39; loading=&#39;lazy&#39; class=&#39;post-preview--image&#39; src=&#34; + data.img + &#34;&gt;&lt;/div&gt;&#34;).replaceAll(_this)
-        }
-
-        function bookShow(_this, ls_item, str) {
-            var storage = localStorage.getItem(ls_item);
-            var data = JSON.parse(storage);
-            var db_star = Math.ceil(data.rating.average);
-            $(&#34;&lt;div class=&#39;post-preview&#39;&gt;&lt;div class=&#39;post-preview--meta&#39;&gt;&lt;div class=&#39;post-preview--middle&#39;&gt;&lt;div class=&#39;post-preview--title&#39;&gt;&lt;a target=&#39;_blank&#39; style=&#39;box-shadow: none; font-weight: bolder;&#39; href=&#39;&#34; + str + &#34;&#39;&gt;&#34; + data.title + &#34;&lt;/a&gt;&lt;/div&gt;&lt;div class=&#39;rating&#39;&gt;&lt;div class=&#39;rating-star allstar&#34; + db_star + &#34;&#39;&gt;&lt;/div&gt;&lt;div class=&#39;rating-average&#39;&gt;&#34; + data.rating.average + &#34;&lt;/div&gt;&lt;/div&gt;&lt;time class=&#39;post-preview--date&#39;&gt;&#34; + data.author + &#34; / &#34;+ data.publisher +&#34; / &#34;+ data.pubdate +&#34; &lt;/time&gt;&lt;section style=&#39;max-height:75px;overflow:hidden;&#39; class=&#39;post-preview--excerpt&#39;&gt;&#34; + data.summary.replace(/\s*/g, &#34;&#34;) + &#34;&lt;/section&gt;&lt;/div&gt;&lt;/div&gt;&lt;img referrerpolicy=&#39;no-referrer&#39; loading=&#39;lazy&#39; class=&#39;post-preview--image&#39; src=&#34; + data.images.medium + &#34;&gt;&lt;/div&gt;&#34;).replaceAll(_this)
-        }
-    &lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&#34;douban_show&#34;&gt;
-    &lt;div id=&#34;dbhttps://book.douban.com/subject/26912767/&#34; urlstring=&#34;https://book.douban.com/subject/26912767/&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-
 
 &lt;h3 id=&#34;相册&#34;&gt;相册&lt;/h3&gt;
 &lt;!DOCTYPE html&gt;
@@ -623,6 +413,11 @@
 &lt;/body&gt;
 &lt;/html&gt;
 
+&lt;h2 id=&#34;hugo-侧边目录&#34;&gt;Hugo 侧边目录&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://333rd.net/posts/tech/hugo%E4%BE%A7%E8%BE%B9%E7%9B%AE%E5%BD%95/&#34;&gt;# Hugo侧边目录&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/hugo_toc_side/&#34;&gt;# Hugo博客目录放在侧边 | PaperMod主题&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;更改字体&#34;&gt;更改字体&lt;/h2&gt;
 &lt;h3 id=&#34;方法1&#34;&gt;方法1&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/hugo_change_font/&#34;&gt;# Hugo博客自定义字体&lt;/a&gt;&lt;/p&gt;
@@ -637,40 +432,25 @@
 &lt;li&gt;将HTML插入到 &lt;code&gt;layouts/partials/extend_head.html&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;在 &lt;code&gt;assets\css\extended\blank.css&lt;/code&gt; 中 用&lt;code&gt;font-family&lt;/code&gt;属性指定使用什么字体&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;参考资料&#34;&gt;参考资料&lt;/h2&gt;
+&lt;h2 id=&#34;twikoo-评论区&#34;&gt;Twikoo 评论区&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/&#34;&gt;Sulv&amp;rsquo;s Blog&lt;/a&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/hugo_gallery/&#34;&gt;# Hugo博客添加相册功能&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/shortcodes/&#34;&gt;# Hugo博客自定义shortcodes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/hugo_toc_side/&#34;&gt;# Hugo博客目录放在侧边 | PaperMod主题&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/hugo_archives_chinese/&#34;&gt;# Hugo博客时间轴中文化&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/hugo_twikoo/&#34;&gt;# Hugo博客添加Twikoo评论&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sulvblog.cn/posts/blog/hugo_seo/&#34;&gt;# Hugo博客seo优化&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://333rd.net/&#34;&gt;3rd&amp;rsquo;s Blog&lt;/a&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://333rd.net/posts/tech/hugo%E4%BE%A7%E8%BE%B9%E7%9B%AE%E5%BD%95/&#34;&gt;# Hugo侧边目录&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://shaohanyun.top/&#34;&gt;田少晗的个人博客&lt;/a&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;latex-语法支持&#34;&gt;LaTex 语法支持&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://shaohanyun.top/posts/env/hugo_mathjax/&#34;&gt;# Hugo博客添加LaTeX语法支持&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/&#34;&gt;Hugo 博客写作最佳实践&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/&#34;&gt;Hugo + GitHub Action，搭建你的博客自动发布系统&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="bloghttpsgithubcomxancodingxancodinggithubio"><a href="https://github.com/Xancoding/Xancoding.github.io">Blog</a></h1>
-<h2 id="搭建工具">搭建工具</h2>
+<h1 id="搭建工具">搭建工具</h1>
 <ul>
+<li><a href="https://blog.zhangyingwei.com/posts/2021m4d11h19m42s28/">Hugo 博客写作最佳实践</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a></li>
 <li><code>Hugo &amp; GitHub Pages &amp; GitHub Action &amp; Twikoo</code></li>
 <li><code>Theme：PaperMod</code></li>
 <li><code>Tool：Obsidian &amp; Git Bash</code></li>
 </ul>
-<h2 id="各页面简介">各页面简介</h2>
+<h1 id="各页面简介">各页面简介</h1>
 <ul>
 <li><code>Home：联系方式 &amp; 文章</code></li>
 <li><code>Tags：文章标签</code></li>
@@ -678,7 +458,12 @@
 <li><code>About：作者简介 &amp; 博客简介</code></li>
 <li><code>Search：搜索文章</code></li>
 </ul>
+<h1 id="自定义">自定义</h1>
 <h2 id="自定义-shortcodes">自定义 shortcodes</h2>
+<ol>
+<li><a href="https://www.sulvblog.cn/posts/blog/hugo_gallery/"># Hugo博客添加相册功能</a></li>
+<li><a href="https://www.sulvblog.cn/posts/blog/shortcodes/"># Hugo博客自定义shortcodes</a></li>
+</ol>
 <h3 id="bilibili-视频">bilibili 视频</h3>
 <!DOCTYPE HTML>
 <html lang="en">
@@ -717,223 +502,6 @@
 </div>
 </body>
 </html>
-
-<h3 id="douban-卡片">douban 卡片</h3>
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-    <title></title>
-    <style>
-        .post-preview {
-            max-width: 780px;
-            height: 200px;
-            margin: 1em auto;
-            position: relative;
-            display: flex;
-             
-            background: var(--entry);
-            border-radius: 15px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, .25), 0 0 2px rgba(0, 0, 0, .25);
-        }
-
-        .dark .post-preview {
-             
-            background: var(--entry);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, .5), 0 0 2px rgba(0, 0, 0, .5);
-        }
-
-        .post-preview--meta {
-            width: 80%;
-            padding: 23px;
-            overflow: hidden;
-        }
-
-        .post-preview--middle {
-            line-height: 28px;
-        }
-
-        .post-preview--title {
-            font-size: 22px;
-            margin: 0 !important;
-        }
-
-        .post-preview--title a {
-            text-decoration: none;
-        }
-
-        .post-preview--date {
-            font-size: 14px;
-            color: #999;
-        }
-
-        .post-preview--excerpt {
-            font-size: 14px;
-            line-height: 1.825;
-        }
-
-        .post-preview--excerpt p {
-            display: inline;
-            margin: 0;
-        }
-
-        .post-preview--image {
-            height: 200px !important;
-            width: 25%;
-            float: right;
-            border-radius: 0 15px 15px 0;
-        }
-
-        .post-preview img {
-            margin: unset;
-            width: 20%;
-            border-radius: 0 15px 15px 0;
-        }
-
-        @media (max-width: 550px) {
-            .post-preview {
-                width: 95%;
-            }
-
-            .post-preview--excerpt {
-                display: none;
-            }
-
-            .post-preview--middle {
-                line-height: 19px;
-            }
-        }
-
-        .rating {
-            display: block;
-            line-height: 15px;
-        }
-
-        .rating-star {
-            display: inline-block;
-            width: 75px;
-            height: 15px;
-            background-repeat: no-repeat;
-            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
-            overflow: hidden;
-        }
-
-        .allstar10 {
-            background-position: 0px 0px;
-        }
-
-        .allstar9 {
-            background-position: 0px -15px;
-        }
-
-        .allstar8 {
-            background-position: 0px -30px;
-        }
-
-        .allstar7 {
-            background-position: 0px -45px;
-        }
-
-        .allstar6 {
-            background-position: 0px -60px;
-        }
-
-        .allstar5 {
-            background-position: 0px -75px;
-        }
-
-        .allstar4 {
-            background-position: 0px -90px;
-        }
-
-        .allstar3 {
-            background-position: 0px -105px;
-        }
-
-        .allstar2 {
-            background-position: 0px -120px;
-        }
-
-        .allstar1 {
-            background-position: 0px -135px;
-        }
-
-        .allstar0 {
-            background-position: 0px -150px;
-        }
-
-
-        .rating-average {
-            color: #777;
-            display: inline-block;
-            font-size: 13px;
-            margin-left: 10px;
-        }
-    </style>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('.douban_item').each(function () {
-                var _this = $(this);
-                var strs = _this.attr('urlstring').toString();
-                var db_reg = /^https\:\/\/(movie|book)\.douban\.com\/subject\/([0-9]+)\/?/;
-                if (db_reg.test(strs)) {
-                    var db_type = strs.replace(db_reg, "$1");
-                    var db_id = strs.replace(db_reg, "$2").toString();
-                    var db_api = "https://douban.edui.fun/";
-                    if (db_type === 'movie') {
-                        var ls_item = 'movie' + db_id;
-                        var url = db_api + "movies/" + db_id;
-                        if (localStorage.getItem(ls_item) == null || localStorage.getItem(ls_item) === 'undefined') {
-                            $.ajax({
-                                url: url, type: 'GET', dataType: "json", success: function (data) {
-                                    localStorage.setItem(ls_item, JSON.stringify(data));
-                                    movieShow(_this, ls_item, strs)
-                                }
-                            })
-                        } else {
-                            movieShow(_this, ls_item, strs)
-                        }
-                    } else if (db_type === 'book') {
-                        var ls_item = 'book' + db_id;
-                        var url = db_api + "v2/book/id/" + db_id;
-                        if (localStorage.getItem(ls_item) == null || localStorage.getItem(ls_item) === 'undefined') {
-                            $.ajax({
-                                url: url, type: 'GET', dataType: 'json', success: function (data) {
-                                    localStorage.setItem('book' + db_id, JSON.stringify(data));
-                                    bookShow(_this, ls_item, strs)
-                                }
-                            })
-                        } else {
-                            bookShow(_this, ls_item, strs)
-                        }
-                    }
-                }
-            });
-        });
-
-        function movieShow(_this, ls_item, str) {
-            var storage = localStorage.getItem(ls_item);
-            var data = JSON.parse(storage);
-            var db_star = Math.ceil(data.rating);
-            $("<div class='post-preview'><div class='post-preview--meta'><div class='post-preview--middle'><div class='post-preview--title'><a target='_blank' style='box-shadow: none; font-weight: bolder;' href='" + str + "'>" + data.name + "</a></div><div class='rating'><div class='rating-star allstar" + db_star + "'></div><div class='rating-average'>" + data.rating + "</div></div><time class='post-preview--date'>导演：" + data.director + " / 类型：" + data.genre + " / " + data.year + "</time><section style='max-height:75px;overflow:hidden;' class='post-preview--excerpt'>" + data.intro.replace(/\s*/g, "") + "</section></div></div><img referrerpolicy='no-referrer' loading='lazy' class='post-preview--image' src=" + data.img + "></div>").replaceAll(_this)
-        }
-
-        function bookShow(_this, ls_item, str) {
-            var storage = localStorage.getItem(ls_item);
-            var data = JSON.parse(storage);
-            var db_star = Math.ceil(data.rating.average);
-            $("<div class='post-preview'><div class='post-preview--meta'><div class='post-preview--middle'><div class='post-preview--title'><a target='_blank' style='box-shadow: none; font-weight: bolder;' href='" + str + "'>" + data.title + "</a></div><div class='rating'><div class='rating-star allstar" + db_star + "'></div><div class='rating-average'>" + data.rating.average + "</div></div><time class='post-preview--date'>" + data.author + " / "+ data.publisher +" / "+ data.pubdate +" </time><section style='max-height:75px;overflow:hidden;' class='post-preview--excerpt'>" + data.summary.replace(/\s*/g, "") + "</section></div></div><img referrerpolicy='no-referrer' loading='lazy' class='post-preview--image' src=" + data.images.medium + "></div>").replaceAll(_this)
-        }
-    </script>
-</head>
-<body>
-<div class="douban_show">
-    <div id="dbhttps://book.douban.com/subject/26912767/" urlstring="https://book.douban.com/subject/26912767/" class="douban_item post-preview"></div>
-</div>
-</body>
-</html>
-
 
 <h3 id="相册">相册</h3>
 <!DOCTYPE html>
@@ -1003,6 +571,11 @@
 </body>
 </html>
 
+<h2 id="hugo-侧边目录">Hugo 侧边目录</h2>
+<ol>
+<li><a href="https://333rd.net/posts/tech/hugo%E4%BE%A7%E8%BE%B9%E7%9B%AE%E5%BD%95/"># Hugo侧边目录</a></li>
+<li><a href="https://www.sulvblog.cn/posts/blog/hugo_toc_side/"># Hugo博客目录放在侧边 | PaperMod主题</a></li>
+</ol>
 <h2 id="更改字体">更改字体</h2>
 <h3 id="方法1">方法1</h3>
 <p><a href="https://www.sulvblog.cn/posts/blog/hugo_change_font/"># Hugo博客自定义字体</a></p>
@@ -1017,31 +590,14 @@
 <li>将HTML插入到 <code>layouts/partials/extend_head.html</code></li>
 <li>在 <code>assets\css\extended\blank.css</code> 中 用<code>font-family</code>属性指定使用什么字体</li>
 </ol>
-<h2 id="参考资料">参考资料</h2>
+<h2 id="twikoo-评论区">Twikoo 评论区</h2>
 <ul>
-<li><a href="https://www.sulvblog.cn/">Sulv&rsquo;s Blog</a>
-<ol>
-<li><a href="https://www.sulvblog.cn/posts/blog/hugo_gallery/"># Hugo博客添加相册功能</a></li>
-<li><a href="https://www.sulvblog.cn/posts/blog/shortcodes/"># Hugo博客自定义shortcodes</a></li>
-<li><a href="https://www.sulvblog.cn/posts/blog/hugo_toc_side/"># Hugo博客目录放在侧边 | PaperMod主题</a></li>
-<li><a href="https://www.sulvblog.cn/posts/blog/hugo_archives_chinese/"># Hugo博客时间轴中文化</a></li>
 <li><a href="https://www.sulvblog.cn/posts/blog/hugo_twikoo/"># Hugo博客添加Twikoo评论</a></li>
-<li><a href="https://www.sulvblog.cn/posts/blog/hugo_seo/"># Hugo博客seo优化</a></li>
-</ol>
-</li>
-<li><a href="https://333rd.net/">3rd&rsquo;s Blog</a>
-<ol>
-<li><a href="https://333rd.net/posts/tech/hugo%E4%BE%A7%E8%BE%B9%E7%9B%AE%E5%BD%95/"># Hugo侧边目录</a></li>
-</ol>
-</li>
-<li><a href="https://shaohanyun.top/">田少晗的个人博客</a>
+</ul>
+<h2 id="latex-语法支持">LaTex 语法支持</h2>
 <ol>
 <li><a href="https://shaohanyun.top/posts/env/hugo_mathjax/"># Hugo博客添加LaTeX语法支持</a></li>
 </ol>
-</li>
-<li><a href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/">Hugo 博客写作最佳实践</a></li>
-<li><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a></li>
-</ul>
 ]]></content:encoded>
     </item>
     
