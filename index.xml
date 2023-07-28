@@ -3266,11 +3266,6 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;li&gt;&lt;code&gt;Theme：PaperMod&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Tool：Obsidian &amp;amp; Git Bash&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;自动化构建&#34;&gt;自动化构建&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.zhangyingwei.com/posts/2021m4d11h19m42s28/&#34;&gt;Hugo 博客写作最佳实践&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/&#34;&gt;Hugo + GitHub Action，搭建你的博客自动发布系统&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h1 id=&#34;各页面简介&#34;&gt;各页面简介&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Home：联系方式 &amp;amp; 文章&lt;/code&gt;&lt;/li&gt;
@@ -3278,6 +3273,11 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;li&gt;&lt;code&gt;Archives：文章归档&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;About：作者简介 &amp;amp; 博客简介&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Search：搜索文章&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;自动化构建&#34;&gt;自动化构建&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.zhangyingwei.com/posts/2021m4d11h19m42s28/&#34;&gt;Hugo 博客写作最佳实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/&#34;&gt;Hugo + GitHub Action，搭建你的博客自动发布系统&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;自定义&#34;&gt;自定义&lt;/h1&gt;
 &lt;h2 id=&#34;自定义-shortcodes&#34;&gt;自定义 shortcodes&lt;/h2&gt;
@@ -3427,11 +3427,6 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 <li><code>Theme：PaperMod</code></li>
 <li><code>Tool：Obsidian &amp; Git Bash</code></li>
 </ul>
-<h1 id="自动化构建">自动化构建</h1>
-<ul>
-<li><a href="https://blog.zhangyingwei.com/posts/2021m4d11h19m42s28/">Hugo 博客写作最佳实践</a></li>
-<li><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a></li>
-</ul>
 <h1 id="各页面简介">各页面简介</h1>
 <ul>
 <li><code>Home：联系方式 &amp; 文章</code></li>
@@ -3439,6 +3434,11 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 <li><code>Archives：文章归档</code></li>
 <li><code>About：作者简介 &amp; 博客简介</code></li>
 <li><code>Search：搜索文章</code></li>
+</ul>
+<h1 id="自动化构建">自动化构建</h1>
+<ul>
+<li><a href="https://blog.zhangyingwei.com/posts/2021m4d11h19m42s28/">Hugo 博客写作最佳实践</a></li>
+<li><a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">Hugo + GitHub Action，搭建你的博客自动发布系统</a></li>
 </ul>
 <h1 id="自定义">自定义</h1>
 <h2 id="自定义-shortcodes">自定义 shortcodes</h2>
