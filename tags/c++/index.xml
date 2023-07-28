@@ -305,10 +305,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;0&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;执行结果：
-1 5
-2 3
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;优先队列自定义排序&#34;&gt;优先队列自定义排序&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;执行结果：&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;优先队列自定义排序&#34;&gt;优先队列自定义排序&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;struct&lt;/span&gt; node{
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;int&lt;/span&gt; a, b;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#007f7f&#34;&gt;// 在优先队列中，跟排序的规则是反的，这里是指a大的排在前面，a相同时，b大的排在前面
@@ -328,53 +328,53 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;0&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;执行结果： 
-2 5
-2 3
-1 5
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;sort函数&#34;&gt;Sort函数&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;执行结果：&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;sort函数&#34;&gt;Sort函数&lt;/h1&gt;
 &lt;p&gt;sort函数在默认情况下使用&lt;code&gt;std::less&lt;/code&gt;作为比较函数类，而&lt;code&gt;std::less&lt;/code&gt;定义了小于号&lt;code&gt;&amp;lt;&lt;/code&gt;运算符的重载。因此，在sort函数中如果不指定自定义的比较函数对象，就默认使用&lt;code&gt;std::less&lt;/code&gt;来进行排序，即升序排序。如果要实现降序排序，则需要提供自定义的比较函数对象，或者使用&lt;code&gt;std::greater&lt;/code&gt;作为比较函数类。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sort&lt;/code&gt;函数并不能直接重载大于号运算符。&lt;code&gt;sort&lt;/code&gt;函数默认使用小于号运算符来对元素进行排序，因此在对对象进行排序时，我们通常会&lt;strong&gt;重载小于号运算符&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;当第一个元素 &amp;lt; 第二个元素时，为&lt;code&gt;true&lt;/code&gt;，则最终的排序结果为升序&lt;/p&gt;
 &lt;p&gt;同理，当我把 &lt;code&gt;this-&amp;gt;age &amp;lt; other.age&lt;/code&gt; 修改为 &lt;code&gt;this-&amp;gt;age &amp;gt; other.age&lt;/code&gt;时，说明当第一个元素 &amp;gt; 第二个元素时，为&lt;code&gt;true&lt;/code&gt;，则结果为降序&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#include &amp;lt;iostream&amp;gt;  
-#include &amp;lt;vector&amp;gt;  
-using namespace std;  
-  
-// 定义一个自定义对象  
-class Person {  
-public:  
-string name;  
-int age;  
-Person(string name, int age) {  
-this-&amp;gt;name = name;  
-this-&amp;gt;age = age;  
-}  
-  
-// 第一个元素 &amp;lt; 第二个元素，true，升序  
-bool operator&amp;lt; (const Person&amp;amp; other) const  
-{  
-return this-&amp;gt;age &amp;lt; other.age;  
-}  
-};  
-  
-int main() {  
-// 创建一组Person对象并排序  
-Person p1(&amp;#34;Alice&amp;#34;, 25);  
-Person p2(&amp;#34;Bob&amp;#34;, 30);  
-Person p3(&amp;#34;Charlie&amp;#34;, 20);  
-  
-vector&amp;lt;Person&amp;gt; people = {p1, p2, p3};  
-sort(people.begin(), people.end());  
-  
-for (auto &amp;amp;p: people)  
-{  
-cout &amp;lt;&amp;lt; &amp;#34;Name:&amp;#34; &amp;lt;&amp;lt; p.name &amp;lt;&amp;lt; &amp;#39;\t&amp;#39; &amp;lt;&amp;lt; &amp;#34;Age:&amp;#34; &amp;lt;&amp;lt; p.age &amp;lt;&amp;lt; &amp;#39;\n&amp;#39;;  
-}  
-  
-return 0;  
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;输出结果：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;lt;iostream&amp;gt;  &lt;/span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;lt;vector&amp;gt;  &lt;/span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;namespace&lt;/span&gt; std;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;// 定义一个自定义对象  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;class&lt;/span&gt; Person {  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;public&lt;/span&gt;:  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;string name;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;int&lt;/span&gt; age;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Person(string name, &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;int&lt;/span&gt; age) {  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;this&lt;/span&gt;-&amp;gt;name = name;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;this&lt;/span&gt;-&amp;gt;age = age;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;// 第一个元素 &amp;lt; 第二个元素，true，升序  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;bool&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;operator&lt;/span&gt;&amp;lt; (&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;const&lt;/span&gt; Person&amp;amp; other) &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;const&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;this&lt;/span&gt;-&amp;gt;age &amp;lt; other.age;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;};  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;int&lt;/span&gt; main() {  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;// 创建一组Person对象并排序  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;Person p1(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;Alice&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;25&lt;/span&gt;);  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Person p2(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;Bob&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;30&lt;/span&gt;);  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Person p3(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;Charlie&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;20&lt;/span&gt;);  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vector&amp;lt;Person&amp;gt; people = {p1, p2, p3};  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sort(people.begin(), people.end());  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;auto&lt;/span&gt; &amp;amp;p: people)  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cout &amp;lt;&amp;lt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;Name:&amp;#34;&lt;/span&gt; &amp;lt;&amp;lt; p.name &amp;lt;&amp;lt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;\t&amp;#39;&lt;/span&gt; &amp;lt;&amp;lt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;Age:&amp;#34;&lt;/span&gt; &amp;lt;&amp;lt; p.age &amp;lt;&amp;lt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;\n&amp;#39;&lt;/span&gt;;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;0&lt;/span&gt;;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;输出结果：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Name:Charlie    Age:20
 Name:Alice      Age:25
 Name:Bob        Age:30
@@ -396,47 +396,47 @@ Name:Bob        Age:30
 &lt;p&gt;堆中元素之间的优先级关系，这是通过定义比较函数来实现的，比较函数中使用 &lt;code&gt;greater&amp;lt;&amp;gt;&lt;/code&gt; 表示元素之间的优先级关系为第一个参数视为较小的元素；使用 &lt;code&gt;less&amp;lt;&amp;gt;&lt;/code&gt; 表示元素之间的优先级关系为第一个参数视为较大的元素。&lt;/p&gt;
 &lt;p&gt;使用 &lt;code&gt;greater&amp;lt;&amp;gt;&lt;/code&gt; 作为比较函数时，会将元素之间的优先级关系视为第一个参数较小，也就是说，若 &lt;code&gt;greater&amp;lt;&amp;gt;&lt;/code&gt; 作为比较函数返回 true，则表示第二个参数优先级高于第一个参数，应当排在第一个参数之前。因此，这里的“将第一个参数视为较小的元素”指的是将第一个参数作为比较时的较小值，从而实现小根堆的效果。&lt;/p&gt;
 &lt;p&gt;在一个二元比较函数中，第一个参数一般是被比较的左侧参数，第二个参数是被比较的右侧参数。比如在 &lt;code&gt;operator&amp;gt;&lt;/code&gt; 函数中，第一个参数就是使用 &lt;code&gt;&amp;gt;&lt;/code&gt; 运算符的左侧参数，第二个参数是右侧参数。在优先队列中，第一个参数也就是堆顶元素。&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#include &amp;lt;iostream&amp;gt;  
-#include &amp;lt;queue&amp;gt;  
-#include &amp;lt;functional&amp;gt;  
-using namespace std;  
-  
-class Person {  
-public:  
-string name;  
-int age;  
-  
-Person(string name, int age) : name(name), age(age) {}  
-  
-bool operator&amp;gt;(const Person&amp;amp; other) const {  
-return age &amp;gt; other.age;  
-}  
-};  
-  
-int main() {  
-priority_queue&amp;lt;Person, vector&amp;lt;Person&amp;gt;, greater&amp;lt;&amp;gt;&amp;gt; pq;  
-  
-// 插入元素  
-pq.push(Person(&amp;#34;张三&amp;#34;, 20));  
-pq.push(Person(&amp;#34;李四&amp;#34;, 30));  
-pq.push(Person(&amp;#34;王五&amp;#34;, 25));  
-  
-cout &amp;lt;&amp;lt; &amp;#34;这是一个小根堆！！！\n&amp;#34;;  
-while (!pq.empty())  
-{  
-auto&amp;amp; p = pq.top();  
-cout &amp;lt;&amp;lt; &amp;#34;Name:&amp;#34; &amp;lt;&amp;lt; p.name &amp;lt;&amp;lt; &amp;#39;\t&amp;#39; &amp;lt;&amp;lt; &amp;#34;Age:&amp;#34; &amp;lt;&amp;lt; p.age &amp;lt;&amp;lt; &amp;#39;\n&amp;#39;;  
-pq.pop();  
-}  
-  
-return 0;  
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;输出结果：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;这是一个小根堆！！！
-Name:张三       Age:20
-Name:王五       Age:25
-Name:李四       Age:30
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;lt;iostream&amp;gt;  &lt;/span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;lt;queue&amp;gt;  &lt;/span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;lt;functional&amp;gt;  &lt;/span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;using&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;namespace&lt;/span&gt; std;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;class&lt;/span&gt; Person {  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;public&lt;/span&gt;:  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;string name;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;int&lt;/span&gt; age;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Person(string name, &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;int&lt;/span&gt; age) : name(name), age(age) {}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;bool&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;operator&lt;/span&gt;&amp;gt;(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;const&lt;/span&gt; Person&amp;amp; other) &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;const&lt;/span&gt; {  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt; age &amp;gt; other.age;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;};  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;int&lt;/span&gt; main() {  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;priority_queue&amp;lt;Person, vector&amp;lt;Person&amp;gt;, greater&amp;lt;&amp;gt;&amp;gt; pq;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;// 插入元素  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007f7f&#34;&gt;&lt;/span&gt;pq.push(Person(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;张三&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;20&lt;/span&gt;));  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pq.push(Person(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;李四&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;30&lt;/span&gt;));  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pq.push(Person(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;王五&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;25&lt;/span&gt;));  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cout &amp;lt;&amp;lt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;这是一个小根堆！！！&lt;/span&gt;&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;&lt;/span&gt;;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;while&lt;/span&gt; (!pq.empty())  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;auto&lt;/span&gt;&amp;amp; p = pq.top();  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cout &amp;lt;&amp;lt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;Name:&amp;#34;&lt;/span&gt; &amp;lt;&amp;lt; p.name &amp;lt;&amp;lt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;\t&amp;#39;&lt;/span&gt; &amp;lt;&amp;lt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;Age:&amp;#34;&lt;/span&gt; &amp;lt;&amp;lt; p.age &amp;lt;&amp;lt; &lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#39;\n&amp;#39;&lt;/span&gt;;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pq.pop();  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;0&lt;/span&gt;;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;输出结果：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f00&#34;&gt;这是一个小根堆！！！&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Name:&lt;span style=&#34;color:#f00&#34;&gt;张三&lt;/span&gt;       Age:&lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;20&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Name:&lt;span style=&#34;color:#f00&#34;&gt;王五&lt;/span&gt;       Age:&lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;25&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Name:&lt;span style=&#34;color:#f00&#34;&gt;李四&lt;/span&gt;       Age:&lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;30&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
       <content:encoded><![CDATA[<p>当待排列的元素为一个对象时，我们既可以通过自定义比较函数，也可以通过重载运算符来达到目的。<br>
 下面我以在对象中重载运算符来达到排序的目的展开说明。<br>
 下面是针对 <code>sort函数</code> 和 <code>Priority_queue优先队列</code>，关于重载运算符所需要注意的要点</p>
@@ -459,10 +459,10 @@ Name:李四       Age:30
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">return</span> <span style="color:#ff0;font-weight:bold">0</span>;
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><pre tabindex="0"><code>执行结果：
-1 5
-2 3
-</code></pre><h1 id="优先队列自定义排序">优先队列自定义排序</h1>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#f00">执行结果：</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff0;font-weight:bold">1</span> <span style="color:#ff0;font-weight:bold">5</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff0;font-weight:bold">2</span> <span style="color:#ff0;font-weight:bold">3</span>
+</span></span></code></pre></div><h1 id="优先队列自定义排序">优先队列自定义排序</h1>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">struct</span> node{
 </span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">int</span> a, b;
 </span></span><span style="display:flex;"><span>    <span style="color:#007f7f">// 在优先队列中，跟排序的规则是反的，这里是指a大的排在前面，a相同时，b大的排在前面
@@ -482,53 +482,53 @@ Name:李四       Age:30
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">return</span> <span style="color:#ff0;font-weight:bold">0</span>;
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><pre tabindex="0"><code>执行结果： 
-2 5
-2 3
-1 5
-</code></pre><h1 id="sort函数">Sort函数</h1>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#f00">执行结果：</span> 
+</span></span><span style="display:flex;"><span><span style="color:#ff0;font-weight:bold">2</span> <span style="color:#ff0;font-weight:bold">5</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff0;font-weight:bold">2</span> <span style="color:#ff0;font-weight:bold">3</span>
+</span></span><span style="display:flex;"><span><span style="color:#ff0;font-weight:bold">1</span> <span style="color:#ff0;font-weight:bold">5</span>
+</span></span></code></pre></div><h1 id="sort函数">Sort函数</h1>
 <p>sort函数在默认情况下使用<code>std::less</code>作为比较函数类，而<code>std::less</code>定义了小于号<code>&lt;</code>运算符的重载。因此，在sort函数中如果不指定自定义的比较函数对象，就默认使用<code>std::less</code>来进行排序，即升序排序。如果要实现降序排序，则需要提供自定义的比较函数对象，或者使用<code>std::greater</code>作为比较函数类。</p>
 <p><code>sort</code>函数并不能直接重载大于号运算符。<code>sort</code>函数默认使用小于号运算符来对元素进行排序，因此在对对象进行排序时，我们通常会<strong>重载小于号运算符</strong>。</p>
 <p>当第一个元素 &lt; 第二个元素时，为<code>true</code>，则最终的排序结果为升序</p>
 <p>同理，当我把 <code>this-&gt;age &lt; other.age</code> 修改为 <code>this-&gt;age &gt; other.age</code>时，说明当第一个元素 &gt; 第二个元素时，为<code>true</code>，则结果为降序</p>
-<pre tabindex="0"><code>#include &lt;iostream&gt;  
-#include &lt;vector&gt;  
-using namespace std;  
-  
-// 定义一个自定义对象  
-class Person {  
-public:  
-string name;  
-int age;  
-Person(string name, int age) {  
-this-&gt;name = name;  
-this-&gt;age = age;  
-}  
-  
-// 第一个元素 &lt; 第二个元素，true，升序  
-bool operator&lt; (const Person&amp; other) const  
-{  
-return this-&gt;age &lt; other.age;  
-}  
-};  
-  
-int main() {  
-// 创建一组Person对象并排序  
-Person p1(&#34;Alice&#34;, 25);  
-Person p2(&#34;Bob&#34;, 30);  
-Person p3(&#34;Charlie&#34;, 20);  
-  
-vector&lt;Person&gt; people = {p1, p2, p3};  
-sort(people.begin(), people.end());  
-  
-for (auto &amp;p: people)  
-{  
-cout &lt;&lt; &#34;Name:&#34; &lt;&lt; p.name &lt;&lt; &#39;\t&#39; &lt;&lt; &#34;Age:&#34; &lt;&lt; p.age &lt;&lt; &#39;\n&#39;;  
-}  
-  
-return 0;  
-}
-</code></pre><p>输出结果：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#include</span> <span style="color:#0f0;font-weight:bold">&lt;iostream&gt;  </span><span style="color:#0f0;font-weight:bold">
+</span></span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#include</span> <span style="color:#0f0;font-weight:bold">&lt;vector&gt;  </span><span style="color:#0f0;font-weight:bold">
+</span></span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold"></span><span style="color:#fff;font-weight:bold">using</span> <span style="color:#fff;font-weight:bold">namespace</span> std;  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#007f7f">// 定义一个自定义对象  
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#fff;font-weight:bold">class</span> Person {  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">public</span>:  
+</span></span><span style="display:flex;"><span>string name;  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">int</span> age;  
+</span></span><span style="display:flex;"><span>Person(string name, <span style="color:#fff;font-weight:bold">int</span> age) {  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">this</span>-&gt;name = name;  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">this</span>-&gt;age = age;  
+</span></span><span style="display:flex;"><span>}  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#007f7f">// 第一个元素 &lt; 第二个元素，true，升序  
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span><span style="color:#fff;font-weight:bold">bool</span> <span style="color:#fff;font-weight:bold">operator</span>&lt; (<span style="color:#fff;font-weight:bold">const</span> Person&amp; other) <span style="color:#fff;font-weight:bold">const</span>  
+</span></span><span style="display:flex;"><span>{  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">this</span>-&gt;age &lt; other.age;  
+</span></span><span style="display:flex;"><span>}  
+</span></span><span style="display:flex;"><span>};  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">int</span> main() {  
+</span></span><span style="display:flex;"><span><span style="color:#007f7f">// 创建一组Person对象并排序  
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>Person p1(<span style="color:#0ff;font-weight:bold">&#34;Alice&#34;</span>, <span style="color:#ff0;font-weight:bold">25</span>);  
+</span></span><span style="display:flex;"><span>Person p2(<span style="color:#0ff;font-weight:bold">&#34;Bob&#34;</span>, <span style="color:#ff0;font-weight:bold">30</span>);  
+</span></span><span style="display:flex;"><span>Person p3(<span style="color:#0ff;font-weight:bold">&#34;Charlie&#34;</span>, <span style="color:#ff0;font-weight:bold">20</span>);  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>vector&lt;Person&gt; people = {p1, p2, p3};  
+</span></span><span style="display:flex;"><span>sort(people.begin(), people.end());  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">for</span> (<span style="color:#fff;font-weight:bold">auto</span> &amp;p: people)  
+</span></span><span style="display:flex;"><span>{  
+</span></span><span style="display:flex;"><span>cout &lt;&lt; <span style="color:#0ff;font-weight:bold">&#34;Name:&#34;</span> &lt;&lt; p.name &lt;&lt; <span style="color:#0ff;font-weight:bold">&#39;\t&#39;</span> &lt;&lt; <span style="color:#0ff;font-weight:bold">&#34;Age:&#34;</span> &lt;&lt; p.age &lt;&lt; <span style="color:#0ff;font-weight:bold">&#39;\n&#39;</span>;  
+</span></span><span style="display:flex;"><span>}  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">return</span> <span style="color:#ff0;font-weight:bold">0</span>;  
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>输出结果：</p>
 <pre tabindex="0"><code>Name:Charlie    Age:20
 Name:Alice      Age:25
 Name:Bob        Age:30
@@ -550,47 +550,47 @@ Name:Bob        Age:30
 <p>堆中元素之间的优先级关系，这是通过定义比较函数来实现的，比较函数中使用 <code>greater&lt;&gt;</code> 表示元素之间的优先级关系为第一个参数视为较小的元素；使用 <code>less&lt;&gt;</code> 表示元素之间的优先级关系为第一个参数视为较大的元素。</p>
 <p>使用 <code>greater&lt;&gt;</code> 作为比较函数时，会将元素之间的优先级关系视为第一个参数较小，也就是说，若 <code>greater&lt;&gt;</code> 作为比较函数返回 true，则表示第二个参数优先级高于第一个参数，应当排在第一个参数之前。因此，这里的“将第一个参数视为较小的元素”指的是将第一个参数作为比较时的较小值，从而实现小根堆的效果。</p>
 <p>在一个二元比较函数中，第一个参数一般是被比较的左侧参数，第二个参数是被比较的右侧参数。比如在 <code>operator&gt;</code> 函数中，第一个参数就是使用 <code>&gt;</code> 运算符的左侧参数，第二个参数是右侧参数。在优先队列中，第一个参数也就是堆顶元素。</p>
-<pre tabindex="0"><code>#include &lt;iostream&gt;  
-#include &lt;queue&gt;  
-#include &lt;functional&gt;  
-using namespace std;  
-  
-class Person {  
-public:  
-string name;  
-int age;  
-  
-Person(string name, int age) : name(name), age(age) {}  
-  
-bool operator&gt;(const Person&amp; other) const {  
-return age &gt; other.age;  
-}  
-};  
-  
-int main() {  
-priority_queue&lt;Person, vector&lt;Person&gt;, greater&lt;&gt;&gt; pq;  
-  
-// 插入元素  
-pq.push(Person(&#34;张三&#34;, 20));  
-pq.push(Person(&#34;李四&#34;, 30));  
-pq.push(Person(&#34;王五&#34;, 25));  
-  
-cout &lt;&lt; &#34;这是一个小根堆！！！\n&#34;;  
-while (!pq.empty())  
-{  
-auto&amp; p = pq.top();  
-cout &lt;&lt; &#34;Name:&#34; &lt;&lt; p.name &lt;&lt; &#39;\t&#39; &lt;&lt; &#34;Age:&#34; &lt;&lt; p.age &lt;&lt; &#39;\n&#39;;  
-pq.pop();  
-}  
-  
-return 0;  
-}
-</code></pre><p>输出结果：</p>
-<pre tabindex="0"><code>这是一个小根堆！！！
-Name:张三       Age:20
-Name:王五       Age:25
-Name:李四       Age:30
-</code></pre>]]></content:encoded>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#include</span> <span style="color:#0f0;font-weight:bold">&lt;iostream&gt;  </span><span style="color:#0f0;font-weight:bold">
+</span></span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#include</span> <span style="color:#0f0;font-weight:bold">&lt;queue&gt;  </span><span style="color:#0f0;font-weight:bold">
+</span></span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">#include</span> <span style="color:#0f0;font-weight:bold">&lt;functional&gt;  </span><span style="color:#0f0;font-weight:bold">
+</span></span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold"></span><span style="color:#fff;font-weight:bold">using</span> <span style="color:#fff;font-weight:bold">namespace</span> std;  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">class</span> Person {  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">public</span>:  
+</span></span><span style="display:flex;"><span>string name;  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">int</span> age;  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>Person(string name, <span style="color:#fff;font-weight:bold">int</span> age) : name(name), age(age) {}  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">bool</span> <span style="color:#fff;font-weight:bold">operator</span>&gt;(<span style="color:#fff;font-weight:bold">const</span> Person&amp; other) <span style="color:#fff;font-weight:bold">const</span> {  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">return</span> age &gt; other.age;  
+</span></span><span style="display:flex;"><span>}  
+</span></span><span style="display:flex;"><span>};  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">int</span> main() {  
+</span></span><span style="display:flex;"><span>priority_queue&lt;Person, vector&lt;Person&gt;, greater&lt;&gt;&gt; pq;  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#007f7f">// 插入元素  
+</span></span></span><span style="display:flex;"><span><span style="color:#007f7f"></span>pq.push(Person(<span style="color:#0ff;font-weight:bold">&#34;张三&#34;</span>, <span style="color:#ff0;font-weight:bold">20</span>));  
+</span></span><span style="display:flex;"><span>pq.push(Person(<span style="color:#0ff;font-weight:bold">&#34;李四&#34;</span>, <span style="color:#ff0;font-weight:bold">30</span>));  
+</span></span><span style="display:flex;"><span>pq.push(Person(<span style="color:#0ff;font-weight:bold">&#34;王五&#34;</span>, <span style="color:#ff0;font-weight:bold">25</span>));  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>cout &lt;&lt; <span style="color:#0ff;font-weight:bold">&#34;这是一个小根堆！！！</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>;  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">while</span> (!pq.empty())  
+</span></span><span style="display:flex;"><span>{  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">auto</span>&amp; p = pq.top();  
+</span></span><span style="display:flex;"><span>cout &lt;&lt; <span style="color:#0ff;font-weight:bold">&#34;Name:&#34;</span> &lt;&lt; p.name &lt;&lt; <span style="color:#0ff;font-weight:bold">&#39;\t&#39;</span> &lt;&lt; <span style="color:#0ff;font-weight:bold">&#34;Age:&#34;</span> &lt;&lt; p.age &lt;&lt; <span style="color:#0ff;font-weight:bold">&#39;\n&#39;</span>;  
+</span></span><span style="display:flex;"><span>pq.pop();  
+</span></span><span style="display:flex;"><span>}  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">return</span> <span style="color:#ff0;font-weight:bold">0</span>;  
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>输出结果：</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#f00">这是一个小根堆！！！</span>
+</span></span><span style="display:flex;"><span>Name:<span style="color:#f00">张三</span>       Age:<span style="color:#ff0;font-weight:bold">20</span>
+</span></span><span style="display:flex;"><span>Name:<span style="color:#f00">王五</span>       Age:<span style="color:#ff0;font-weight:bold">25</span>
+</span></span><span style="display:flex;"><span>Name:<span style="color:#f00">李四</span>       Age:<span style="color:#ff0;font-weight:bold">30</span>
+</span></span></code></pre></div>]]></content:encoded>
     </item>
     
   </channel>
