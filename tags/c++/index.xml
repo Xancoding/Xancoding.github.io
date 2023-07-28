@@ -297,7 +297,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;};
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;重载运算符&#34;&gt;重载运算符&lt;/h2&gt;
 &lt;p&gt;当 &lt;code&gt;Container&lt;/code&gt; 中的元素是基本数据类型时，使用 &lt;code&gt;less&lt;/code&gt; 是升序排序，使用 &lt;code&gt;greater&lt;/code&gt; 是降序排序&lt;/p&gt;
-&lt;p&gt;下面对元素为 Object 的qing&amp;rsquo;kuang&amp;rsquo;z&lt;/p&gt;
+&lt;p&gt;下面👇对元素为 Object 的情况作详细说明&lt;/p&gt;
 &lt;h3 id=&#34;less&#34;&gt;less&lt;/h3&gt;
 &lt;p&gt;sort函数在默认情况下使用&lt;code&gt;std::less&lt;/code&gt;作为比较函数类&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sort(people.begin(), people.end());
@@ -388,7 +388,7 @@
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div><h2 id="重载运算符">重载运算符</h2>
 <p>当 <code>Container</code> 中的元素是基本数据类型时，使用 <code>less</code> 是升序排序，使用 <code>greater</code> 是降序排序</p>
-<p>下面对元素为 Object 的qing&rsquo;kuang&rsquo;z</p>
+<p>下面👇对元素为 Object 的情况作详细说明</p>
 <h3 id="less">less</h3>
 <p>sort函数在默认情况下使用<code>std::less</code>作为比较函数类</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>sort(people.begin(), people.end());
