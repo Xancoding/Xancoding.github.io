@@ -4729,7 +4729,8 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;p&gt;当待排列的元素为一个对象时，我们既可以通过自定义比较函数，也可以通过重载运算符来达到目的。&lt;/p&gt;
 &lt;h1 id=&#34;sort函数&#34;&gt;Sort函数&lt;/h1&gt;
 &lt;h2 id=&#34;重载运算符&#34;&gt;重载运算符&lt;/h2&gt;
-&lt;p&gt;sort函数在默认情况下使用&lt;code&gt;std::less&lt;/code&gt;作为比较函数类，而&lt;code&gt;std::less&lt;/code&gt;定义了小于号&lt;code&gt;&amp;lt;&lt;/code&gt;运算符的重载。因此，在sort函数中如果不指定自定义的比较函数对象，就默认使用&lt;code&gt;std::less&lt;/code&gt;来进行排序，即升序排序。如果要实现降序排序，则需要提供自定义的比较函数对象，或者使用&lt;code&gt;std::greater&lt;/code&gt;作为比较函数类。&lt;/p&gt;
+&lt;p&gt;sort函数在默认情况下使用&lt;code&gt;std::less&lt;/code&gt;作为比较函数类，而&lt;code&gt;std::less&lt;/code&gt;定义了小于号&lt;code&gt;&amp;lt;&lt;/code&gt;运算符的重载。&lt;/p&gt;
+&lt;p&gt;因此，在sort函数中如果不指定自定义的比较函数对象，就默认使用&lt;code&gt;std::less&lt;/code&gt;来进行排序，即升序排序。如果要实现降序排序，则需要提供自定义的比较函数对象，或者使用&lt;code&gt;std::greater&lt;/code&gt;作为比较函数类。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;sort&lt;/code&gt;函数并不能直接重载大于号运算符。&lt;code&gt;sort&lt;/code&gt;函数默认使用小于号运算符来对元素进行排序，因此在对对象进行排序时，我们通常会&lt;strong&gt;重载小于号运算符&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;当第一个元素 &amp;lt; 第二个元素时，为&lt;code&gt;true&lt;/code&gt;，则最终的排序结果为升序&lt;/p&gt;
 &lt;p&gt;同理，当我把 &lt;code&gt;this-&amp;gt;age &amp;lt; other.age&lt;/code&gt; 修改为 &lt;code&gt;this-&amp;gt;age &amp;gt; other.age&lt;/code&gt;时，说明当第一个元素 &amp;gt; 第二个元素时，为&lt;code&gt;true&lt;/code&gt;，则结果为降序&lt;/p&gt;
@@ -4838,7 +4839,8 @@ Name:Bob        Age:30
 <p>当待排列的元素为一个对象时，我们既可以通过自定义比较函数，也可以通过重载运算符来达到目的。</p>
 <h1 id="sort函数">Sort函数</h1>
 <h2 id="重载运算符">重载运算符</h2>
-<p>sort函数在默认情况下使用<code>std::less</code>作为比较函数类，而<code>std::less</code>定义了小于号<code>&lt;</code>运算符的重载。因此，在sort函数中如果不指定自定义的比较函数对象，就默认使用<code>std::less</code>来进行排序，即升序排序。如果要实现降序排序，则需要提供自定义的比较函数对象，或者使用<code>std::greater</code>作为比较函数类。</p>
+<p>sort函数在默认情况下使用<code>std::less</code>作为比较函数类，而<code>std::less</code>定义了小于号<code>&lt;</code>运算符的重载。</p>
+<p>因此，在sort函数中如果不指定自定义的比较函数对象，就默认使用<code>std::less</code>来进行排序，即升序排序。如果要实现降序排序，则需要提供自定义的比较函数对象，或者使用<code>std::greater</code>作为比较函数类。</p>
 <p><code>sort</code>函数并不能直接重载大于号运算符。<code>sort</code>函数默认使用小于号运算符来对元素进行排序，因此在对对象进行排序时，我们通常会<strong>重载小于号运算符</strong>。</p>
 <p>当第一个元素 &lt; 第二个元素时，为<code>true</code>，则最终的排序结果为升序</p>
 <p>同理，当我把 <code>this-&gt;age &lt; other.age</code> 修改为 <code>this-&gt;age &gt; other.age</code>时，说明当第一个元素 &gt; 第二个元素时，为<code>true</code>，则结果为降序</p>
