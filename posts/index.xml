@@ -223,6 +223,8 @@ IQR：四分位间距，数据的中间 50% 的范围</p>
 &lt;h2 id=&#34;zotero-更新影响因子&#34;&gt;Zotero 更新影响因子&lt;/h2&gt;
 &lt;p&gt;更新期刊影响因子&lt;/p&gt;
 &lt;h2 id=&#34;zotero-style&#34;&gt;Zotero Style&lt;/h2&gt;
+&lt;h1 id=&#34;texstudio&#34;&gt;TeXstudio&lt;/h1&gt;
+&lt;p&gt;一款开源的跨平台LaTeX编辑软件&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="zotero">Zotero</h1>
 <p>一款自由及开放源代码的文献管理软件，用以管理书目信息（如作者、标题、出版社、摘要、阅读笔记等）及相关材料（如PDF文件）</p>
@@ -234,6 +236,8 @@ IQR：四分位间距，数据的中间 50% 的范围</p>
 <h2 id="zotero-更新影响因子">Zotero 更新影响因子</h2>
 <p>更新期刊影响因子</p>
 <h2 id="zotero-style">Zotero Style</h2>
+<h1 id="texstudio">TeXstudio</h1>
+<p>一款开源的跨平台LaTeX编辑软件</p>
 ]]></content:encoded>
     </item>
     
@@ -6116,8 +6120,6 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;p&gt;简易的 &lt;code&gt;Markdown&lt;/code&gt; 编辑器&lt;/p&gt;
 &lt;h2 id=&#34;vieas&#34;&gt;Vieas&lt;/h2&gt;
 &lt;p&gt;一款轻量级的快速看图工具&lt;/p&gt;
-&lt;h2 id=&#34;texstudio&#34;&gt;TeXstudio&lt;/h2&gt;
-&lt;p&gt;一款开源的跨平台LaTeX编辑软件&lt;/p&gt;
 &lt;h2 id=&#34;xianniu&#34;&gt;Xianniu&lt;/h2&gt;
 &lt;p&gt;游戏加速器&lt;/p&gt;
 &lt;h2 id=&#34;telegram&#34;&gt;Telegram&lt;/h2&gt;
@@ -6200,8 +6202,6 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 <p>简易的 <code>Markdown</code> 编辑器</p>
 <h2 id="vieas">Vieas</h2>
 <p>一款轻量级的快速看图工具</p>
-<h2 id="texstudio">TeXstudio</h2>
-<p>一款开源的跨平台LaTeX编辑软件</p>
 <h2 id="xianniu">Xianniu</h2>
 <p>游戏加速器</p>
 <h2 id="telegram">Telegram</h2>
