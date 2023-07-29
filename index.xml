@@ -6068,7 +6068,10 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;p&gt;超级强大下载工具，能和浏览器无缝配合，自动抓取网页视频&lt;/p&gt;
 &lt;h2 id=&#34;onedrive&#34;&gt;OneDrive&lt;/h2&gt;
 &lt;p&gt;在计算机与云之间同步文件，以便能够从任何位置访问你的文件&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;virtualbox&#34;&gt;VirtualBox&lt;/h2&gt;
+&lt;p&gt;虚拟机&lt;/p&gt;
+&lt;h2 id=&#34;clash&#34;&gt;Clash&lt;/h2&gt;
+&lt;p&gt;代理软件&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="desktop">Desktop</h1>
 <h2 id="wallpaper-engine">Wallpaper Engine</h2>
@@ -6129,7 +6132,10 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 <p>超级强大下载工具，能和浏览器无缝配合，自动抓取网页视频</p>
 <h2 id="onedrive">OneDrive</h2>
 <p>在计算机与云之间同步文件，以便能够从任何位置访问你的文件</p>
-<h2 id="heading"></h2>
+<h2 id="virtualbox">VirtualBox</h2>
+<p>虚拟机</p>
+<h2 id="clash">Clash</h2>
+<p>代理软件</p>
 ]]></content:encoded>
     </item>
     
