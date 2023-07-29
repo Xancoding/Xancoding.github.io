@@ -6,7 +6,7 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 23 Jul 2023 09:27:00 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jul 2023 10:50:55 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
       <link>https://xancoding.cn/posts/2023-03-25-08-24-56/</link>
@@ -204,6 +204,22 @@ Q3(Thirt quartile)：样本 75% 的数据小于 第三四分位数
 Max：排除异常值的最大值
 Min：排除异常值的最小值
 IQR：四分位间距，数据的中间 50% 的范围</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Research Tools</title>
+      <link>https://xancoding.cn/posts/2023-07-29-10-50-54/</link>
+      <pubDate>Sat, 29 Jul 2023 10:50:55 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-07-29-10-50-54/</guid>
+      <description>&lt;h1 id=&#34;zotero&#34;&gt;Zotero&lt;/h1&gt;
+&lt;p&gt;一款自由及开放源代码的文献管理软件，用以管理书目信息（如作者、标题、出版社、摘要、阅读笔记等）及相关材料（如PDF文件）&lt;/p&gt;
+&lt;h2 id=&#34;plugins&#34;&gt;Plugins&lt;/h2&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="zotero">Zotero</h1>
+<p>一款自由及开放源代码的文献管理软件，用以管理书目信息（如作者、标题、出版社、摘要、阅读笔记等）及相关材料（如PDF文件）</p>
+<h2 id="plugins">Plugins</h2>
 ]]></content:encoded>
     </item>
     
@@ -6057,7 +6073,7 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 	color: #999; 
 	padding: 2px;&#34;&gt;app icon&lt;/div&gt; 
  &lt;/center&gt;
-&lt;h2 id=&#34;picgo--image-auto-upload-plugin&#34;&gt;PicGo &amp;amp; Image auto upload Plugin&lt;/h2&gt;
+&lt;h2 id=&#34;picgo--obsidian-image-auto-upload-plugin&#34;&gt;PicGo &amp;amp; Obsidian Image auto upload Plugin&lt;/h2&gt;
 &lt;p&gt;我使用的图床是&lt;a href=&#34;https://7bu.top/upload&#34;&gt;去不图床&lt;/a&gt;，借助 &lt;code&gt;PicGo&lt;/code&gt;，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 &lt;code&gt;Obsidian&lt;/code&gt; 中的 &lt;code&gt;Image auto upload Plugin&lt;/code&gt; 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。&lt;br&gt;
 如今，只用把图片拖拽到 &lt;code&gt;Obsidian&lt;/code&gt; 编辑器中，即可自动将图片通过 &lt;code&gt;PicGo&lt;/code&gt; 上传到 &lt;code&gt;去不图床&lt;/code&gt;，并生成链接，显示在 &lt;code&gt;Obsidian&lt;/code&gt; 中。&lt;/p&gt;
 &lt;h2 id=&#34;alist--raidrive&#34;&gt;Alist &amp;amp; RaiDrive&lt;/h2&gt;
@@ -6076,7 +6092,20 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;p&gt;定时清理垃圾&lt;/p&gt;
 &lt;h2 id=&#34;cloudmusic&#34;&gt;CloudMusic&lt;/h2&gt;
 &lt;p&gt;网易云音乐&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;git-for-windows&#34;&gt;Git for Windows&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Git的官方Windows版本&lt;/strong&gt;，可以在 &lt;code&gt;git bash&lt;/code&gt; 下运行大多数标准 &lt;code&gt;Unix&lt;/code&gt; 命令&lt;/p&gt;
+&lt;h2 id=&#34;spacesniffer&#34;&gt;SpaceSniffer&lt;/h2&gt;
+&lt;p&gt;一款非常优秀的硬盘扫描和管理软件，能够通过颜色、图表的方式为用户直观地呈现硬盘中的文件表达情况&lt;/p&gt;
+&lt;h2 id=&#34;tor-browser&#34;&gt;Tor Browser&lt;/h2&gt;
+&lt;p&gt;一个免费的网络浏览器，提供对匿名和加密的 &lt;code&gt;Tor&lt;/code&gt; 网络的访问&lt;/p&gt;
+&lt;h2 id=&#34;typora&#34;&gt;Typora&lt;/h2&gt;
+&lt;p&gt;简易的 &lt;code&gt;Markdown&lt;/code&gt; 编辑器&lt;/p&gt;
+&lt;h2 id=&#34;vieas&#34;&gt;Vieas&lt;/h2&gt;
+&lt;p&gt;一款轻量级的快速看图工具&lt;/p&gt;
+&lt;h2 id=&#34;texstudio&#34;&gt;TeXstudio&lt;/h2&gt;
+&lt;p&gt;一款开源的跨平台LaTeX编辑软件&lt;/p&gt;
+&lt;h2 id=&#34;xianniu&#34;&gt;Xianniu&lt;/h2&gt;
+&lt;p&gt;游戏加速器&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="desktop">Desktop</h1>
 <h2 id="wallpaper-engine">Wallpaper Engine</h2>
@@ -6126,7 +6155,7 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 	color: #999; 
 	padding: 2px;">app icon</div> 
  </center>
-<h2 id="picgo--image-auto-upload-plugin">PicGo &amp; Image auto upload Plugin</h2>
+<h2 id="picgo--obsidian-image-auto-upload-plugin">PicGo &amp; Obsidian Image auto upload Plugin</h2>
 <p>我使用的图床是<a href="https://7bu.top/upload">去不图床</a>，借助 <code>PicGo</code>，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 <code>Obsidian</code> 中的 <code>Image auto upload Plugin</code> 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。<br>
 如今，只用把图片拖拽到 <code>Obsidian</code> 编辑器中，即可自动将图片通过 <code>PicGo</code> 上传到 <code>去不图床</code>，并生成链接，显示在 <code>Obsidian</code> 中。</p>
 <h2 id="alist--raidrive">Alist &amp; RaiDrive</h2>
@@ -6145,7 +6174,20 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 <p>定时清理垃圾</p>
 <h2 id="cloudmusic">CloudMusic</h2>
 <p>网易云音乐</p>
-<h2 id="heading"></h2>
+<h2 id="git-for-windows">Git for Windows</h2>
+<p><strong>Git的官方Windows版本</strong>，可以在 <code>git bash</code> 下运行大多数标准 <code>Unix</code> 命令</p>
+<h2 id="spacesniffer">SpaceSniffer</h2>
+<p>一款非常优秀的硬盘扫描和管理软件，能够通过颜色、图表的方式为用户直观地呈现硬盘中的文件表达情况</p>
+<h2 id="tor-browser">Tor Browser</h2>
+<p>一个免费的网络浏览器，提供对匿名和加密的 <code>Tor</code> 网络的访问</p>
+<h2 id="typora">Typora</h2>
+<p>简易的 <code>Markdown</code> 编辑器</p>
+<h2 id="vieas">Vieas</h2>
+<p>一款轻量级的快速看图工具</p>
+<h2 id="texstudio">TeXstudio</h2>
+<p>一款开源的跨平台LaTeX编辑软件</p>
+<h2 id="xianniu">Xianniu</h2>
+<p>游戏加速器</p>
 ]]></content:encoded>
     </item>
     
