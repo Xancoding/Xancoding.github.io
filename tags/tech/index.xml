@@ -6,7 +6,7 @@
     <description>Recent content in Tech on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 29 May 2023 17:24:38 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jul 2023 10:50:55 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
       <link>https://xancoding.cn/posts/2023-03-25-08-24-56/</link>
@@ -204,6 +204,56 @@ Q3(Thirt quartile)：样本 75% 的数据小于 第三四分位数
 Max：排除异常值的最大值
 Min：排除异常值的最小值
 IQR：四分位间距，数据的中间 50% 的范围</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Research Tools</title>
+      <link>https://xancoding.cn/posts/2023-07-29-10-50-54/</link>
+      <pubDate>Sat, 29 Jul 2023 10:50:55 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-07-29-10-50-54/</guid>
+      <description>&lt;h1 id=&#34;zotero&#34;&gt;Zotero&lt;/h1&gt;
+&lt;p&gt;一款自由及开放源代码的文献管理软件，用以管理书目信息（如作者、标题、出版社、摘要、阅读笔记等）及相关材料（如PDF文件）&lt;/p&gt;
+&lt;p&gt;以下是我使用的一些插件👇&lt;/p&gt;
+&lt;h2 id=&#34;zotero-style-266&#34;&gt;Zotero Style 2.6.6&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.notion.so/Zotero-Style-bc2aebbbb6df4b7baa858e376e4fc5be&#34;&gt;zotero-style&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Zotero Style 2.6.6 版本适配 &lt;code&gt;Zotero 6&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;zotero-pdf-translate&#34;&gt;Zotero PDF Translate&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zotero.yuque.com/staff-gkhviy/pdf-trans?&#34;&gt;Zotero PDF Translate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PDF translation for  Zotero&lt;/p&gt;
+&lt;h2 id=&#34;zotero-rerference&#34;&gt;Zotero Rerference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MuiseDestiny/zotero-reference#zotero-reference&#34;&gt;# Zotero Reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;侧边栏展示阅读文献的所有参考文献&lt;/p&gt;
+&lt;h1 id=&#34;texstudio&#34;&gt;TeXstudio&lt;/h1&gt;
+&lt;p&gt;一款开源的跨平台LaTeX编辑软件&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="zotero">Zotero</h1>
+<p>一款自由及开放源代码的文献管理软件，用以管理书目信息（如作者、标题、出版社、摘要、阅读笔记等）及相关材料（如PDF文件）</p>
+<p>以下是我使用的一些插件👇</p>
+<h2 id="zotero-style-266">Zotero Style 2.6.6</h2>
+<ul>
+<li><a href="https://www.notion.so/Zotero-Style-bc2aebbbb6df4b7baa858e376e4fc5be">zotero-style</a></li>
+</ul>
+<p>Zotero Style 2.6.6 版本适配 <code>Zotero 6</code></p>
+<h2 id="zotero-pdf-translate">Zotero PDF Translate</h2>
+<ul>
+<li><a href="https://zotero.yuque.com/staff-gkhviy/pdf-trans?">Zotero PDF Translate</a></li>
+</ul>
+<p>PDF translation for  Zotero</p>
+<h2 id="zotero-rerference">Zotero Rerference</h2>
+<ul>
+<li><a href="https://github.com/MuiseDestiny/zotero-reference#zotero-reference"># Zotero Reference</a></li>
+</ul>
+<p>侧边栏展示阅读文献的所有参考文献</p>
+<h1 id="texstudio">TeXstudio</h1>
+<p>一款开源的跨平台LaTeX编辑软件</p>
 ]]></content:encoded>
     </item>
     
