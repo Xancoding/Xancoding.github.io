@@ -10850,6 +10850,9 @@ export {
 &lt;p&gt;从 &lt;code&gt;VAULT_ROOT/.obsidian.vimrc&lt;/code&gt; 加载 Vim 命令文件，实现加载持久配置的功能并添加一些额外功能&lt;/p&gt;
 &lt;h3 id=&#34;wakatime&#34;&gt;WakaTime&lt;/h3&gt;
 &lt;p&gt;统计你在不同语言、项目上写代码的时长&lt;/p&gt;
+&lt;h3 id=&#34;commander---hover-editor&#34;&gt;Commander  &amp;amp; Hover Editor&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Commder&lt;/code&gt; 可以利用 &lt;code&gt;macros&lt;/code&gt; 自定义命令&lt;/p&gt;
+&lt;p&gt;我们自定义命令后，绑定快捷键 &lt;code&gt;Ctrl+Shift+X&lt;/code&gt;，使&lt;code&gt; Style Settings&lt;/code&gt; 面板悬浮，方便配置美观的编辑界面&lt;/p&gt;
 &lt;h1 id=&#34;flomo-浮墨笔记&#34;&gt;flomo 浮墨笔记&lt;/h1&gt;
 &lt;p&gt;在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录&lt;/p&gt;
 &lt;p&gt;在想回顾时，可以方便知晓过去的想法
@@ -10940,6 +10943,9 @@ export {
 <p>从 <code>VAULT_ROOT/.obsidian.vimrc</code> 加载 Vim 命令文件，实现加载持久配置的功能并添加一些额外功能</p>
 <h3 id="wakatime">WakaTime</h3>
 <p>统计你在不同语言、项目上写代码的时长</p>
+<h3 id="commander---hover-editor">Commander  &amp; Hover Editor</h3>
+<p><code>Commder</code> 可以利用 <code>macros</code> 自定义命令</p>
+<p>我们自定义命令后，绑定快捷键 <code>Ctrl+Shift+X</code>，使<code> Style Settings</code> 面板悬浮，方便配置美观的编辑界面</p>
 <h1 id="flomo-浮墨笔记">flomo 浮墨笔记</h1>
 <p>在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录</p>
 <p>在想回顾时，可以方便知晓过去的想法
