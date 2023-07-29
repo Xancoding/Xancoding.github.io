@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 29 Jul 2023 10:50:55 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jul 2023 13:31:24 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
       <link>https://xancoding.cn/posts/2023-03-25-08-24-56/</link>
@@ -204,6 +204,32 @@ Q3(Thirt quartile)：样本 75% 的数据小于 第三四分位数
 Max：排除异常值的最大值
 Min：排除异常值的最小值
 IQR：四分位间距，数据的中间 50% 的范围</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>自我探索</title>
+      <link>https://xancoding.cn/posts/2023-07-29-13-31-24/</link>
+      <pubDate>Sat, 29 Jul 2023 13:31:24 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-07-29-13-31-24/</guid>
+      <description>&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/07/29/64c4a47c8f332.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;即刻：杨昌&lt;/div&gt; 
+ &lt;/center&gt;
+</description>
+      <content:encoded><![CDATA[<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/07/29/64c4a47c8f332.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">即刻：杨昌</div> 
+ </center>
 ]]></content:encoded>
     </item>
     
@@ -18714,7 +18740,9 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;p&gt;播客也是一个很好的信息源，可以在做一些不用🧠的事时听，适合用来拓宽自己的知识面，对一些自己之前完全没有接触过的领域做一个初步的了解，抑或是单纯用以放松也不错。我的使用场景通常是在吃饭或是上下课的路上。&lt;/p&gt;
 &lt;p&gt;我目前在使用的播客软件是&lt;a href=&#34;https://www.xiaoyuzhoufm.com/&#34;&gt;小宇宙&lt;/a&gt;，体验不错。&lt;/p&gt;
 &lt;h1 id=&#34;read-books&#34;&gt;Read-books&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;Neat Reader&lt;/code&gt; 是一款&lt;code&gt;EPUB&lt;/code&gt;阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 &lt;a href=&#34;https://zh.z-lib.org/&#34;&gt;Z-Library&lt;/a&gt; or &lt;a href=&#34;https://lorefree.com/&#34;&gt;LoreFree&lt;/a&gt;  or &lt;a href=&#34;https://www.jiumodiary.com/&#34;&gt;Jiumo Search 鸠摩搜索&lt;/a&gt; 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 &lt;a href=&#34;https://www.neat-reader.com/&#34;&gt;Neat Reader&lt;/a&gt; 阅读。&lt;/p&gt;
+&lt;h2 id=&#34;pc&#34;&gt;PC&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Neat Reader&lt;/code&gt; 是一款&lt;code&gt;EPUB&lt;/code&gt;阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 &lt;a href=&#34;https://zh.z-lib.org/&#34;&gt;Z-Library&lt;/a&gt; or &lt;a href=&#34;https://lorefree.com/&#34;&gt;LoreFree&lt;/a&gt;  or &lt;a href=&#34;https://www.jiumodiary.com/&#34;&gt;Jiumo Search 鸠摩搜索&lt;/a&gt; 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 &lt;a href=&#34;https://www.neat-reader.com/&#34;&gt;Neat Reader&lt;/a&gt; 阅读&lt;/p&gt;
+&lt;p&gt;插一句， Z-lib 还有 Android app，可以直接传输到邮箱📫中&lt;/p&gt;
 &lt;p&gt;
 &lt;div class=&#34;post-img-view&#34;&gt;
 &lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/10/30/635e1cf8284ec.png&#34;&gt;
@@ -18724,7 +18752,12 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 
 &lt;/p&gt;
 &lt;p&gt;如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 &lt;a href=&#34;https://www.sumatrapdfreader.org/free-pdf-reader&#34;&gt;Sumatra PDF&lt;/a&gt; 上阅读&lt;/p&gt;
+&lt;h2 id=&#34;android&#34;&gt;Android&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://weread.qq.com/&#34;&gt;https://weread.qq.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;手机上的话，我会使用微信读书，把找到的电子书上传到书架后进行阅读&lt;/p&gt;
+&lt;h2 id=&#34;纸质书&#34;&gt;纸质书&lt;/h2&gt;
 &lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）&lt;/p&gt;
 &lt;h1 id=&#34;chatgpt--search-engine&#34;&gt;ChatGPT &amp;amp; Search-engine&lt;/h1&gt;
 &lt;ul&gt;
@@ -18811,7 +18844,9 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 <p>播客也是一个很好的信息源，可以在做一些不用🧠的事时听，适合用来拓宽自己的知识面，对一些自己之前完全没有接触过的领域做一个初步的了解，抑或是单纯用以放松也不错。我的使用场景通常是在吃饭或是上下课的路上。</p>
 <p>我目前在使用的播客软件是<a href="https://www.xiaoyuzhoufm.com/">小宇宙</a>，体验不错。</p>
 <h1 id="read-books">Read-books</h1>
-<p><code>Neat Reader</code> 是一款<code>EPUB</code>阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 <a href="https://zh.z-lib.org/">Z-Library</a> or <a href="https://lorefree.com/">LoreFree</a>  or <a href="https://www.jiumodiary.com/">Jiumo Search 鸠摩搜索</a> 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 <a href="https://www.neat-reader.com/">Neat Reader</a> 阅读。</p>
+<h2 id="pc">PC</h2>
+<p><code>Neat Reader</code> 是一款<code>EPUB</code>阅读器，用以阅读EPUB格式的电子书，体验感不错。我会在 <a href="https://zh.z-lib.org/">Z-Library</a> or <a href="https://lorefree.com/">LoreFree</a>  or <a href="https://www.jiumodiary.com/">Jiumo Search 鸠摩搜索</a> 上搜索得到我想要看的书的EPUB格式的电子书后，存在本地文件上，通过 <a href="https://www.neat-reader.com/">Neat Reader</a> 阅读</p>
+<p>插一句， Z-lib 还有 Android app，可以直接传输到邮箱📫中</p>
 <p>
 <div class="post-img-view">
 <a data-fancybox="gallery" href="https://bu.dusays.com/2022/10/30/635e1cf8284ec.png">
@@ -18821,7 +18856,12 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 
 </p>
 <p>如果找不到EPUB格式的书籍，我会存 PDF 格式的，然后在 <a href="https://www.sumatrapdfreader.org/free-pdf-reader">Sumatra PDF</a> 上阅读</p>
+<h2 id="android">Android</h2>
+<ul>
+<li><a href="https://weread.qq.com/">https://weread.qq.com/</a></li>
+</ul>
 <p>手机上的话，我会使用微信读书，把找到的电子书上传到书架后进行阅读</p>
+<h2 id="纸质书">纸质书</h2>
 <p>不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）</p>
 <h1 id="chatgpt--search-engine">ChatGPT &amp; Search-engine</h1>
 <ul>

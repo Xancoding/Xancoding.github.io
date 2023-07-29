@@ -6,7 +6,27 @@
     <description>Recent content in Tags on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 29 Jul 2023 10:50:55 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jul 2023 13:31:24 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Life</title>
+      <link>https://xancoding.cn/tags/life/</link>
+      <pubDate>Sat, 29 Jul 2023 13:31:24 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/life/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Self</title>
+      <link>https://xancoding.cn/tags/self/</link>
+      <pubDate>Sat, 29 Jul 2023 13:31:24 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/self/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>Research</title>
       <link>https://xancoding.cn/tags/research/</link>
@@ -23,16 +43,6 @@
       <pubDate>Sat, 29 Jul 2023 10:50:55 +0800</pubDate>
       
       <guid>https://xancoding.cn/tags/tools/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Life</title>
-      <link>https://xancoding.cn/tags/life/</link>
-      <pubDate>Sun, 23 Jul 2023 09:27:00 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/tags/life/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -143,16 +153,6 @@
       <pubDate>Sun, 15 Jan 2023 12:42:38 +0800</pubDate>
       
       <guid>https://xancoding.cn/tags/productivity/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Self</title>
-      <link>https://xancoding.cn/tags/self/</link>
-      <pubDate>Sun, 15 Jan 2023 12:42:38 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/tags/self/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
