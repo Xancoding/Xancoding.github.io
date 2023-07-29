@@ -19017,7 +19017,6 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;h3 id=&#34;easyscholar&#34;&gt;easyScholar&lt;/h3&gt;
 &lt;p&gt;显示期刊等级&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
-&lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/get-better-info/&#34;&gt;优化自己的信息源&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -19126,7 +19125,6 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 <h3 id="easyscholar">easyScholar</h3>
 <p>显示期刊等级</p>
 <h1 id="推荐阅读">推荐阅读</h1>
-<hr>
 <ul>
 <li><a href="https://catcoding.me/p/get-better-info/">优化自己的信息源</a></li>
 </ul>
@@ -19288,14 +19286,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;li&gt;&lt;a href=&#34;https://program-think.blogspot.com/2009/02/7.html&#34;&gt;如何成为优秀开发人员[7]：正确地做事（善用自动化）&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://program-think.blogspot.com/2013/03/internet-resource-discovery-0.html&#34;&gt;如何挖掘网络资源[0]：为啥要写这个话题？&lt;/a&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://program-think.blogspot.com/2013/03/internet-resource-discovery-1.html&#34;&gt;如何挖掘网络资源[1]：网站的类型和使用场景&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html&#34;&gt;如何挖掘网络资源[2]：Google 搜索的基本语法&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html&#34;&gt;如何挖掘网络资源[3]：解答 Google 搜索的常见问题（FAQs）&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;Study
+&lt;li&gt;How to Study
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://program-think.blogspot.com/2009/02/study-technology-in-three-steps.html&#34;&gt;学习技术的三部曲：WHAT、HOW、WHY&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://program-think.blogspot.com/2012/03/think-what-how-why.html&#34;&gt;用提问来促进思维——兼谈【非】技术领域的 WHAT HOW WHY 三部曲&lt;/a&gt;&lt;/li&gt;
@@ -19359,14 +19350,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 <li><a href="https://program-think.blogspot.com/2009/02/7.html">如何成为优秀开发人员[7]：正确地做事（善用自动化）</a></li>
 </ol>
 </li>
-<li><a href="https://program-think.blogspot.com/2013/03/internet-resource-discovery-0.html">如何挖掘网络资源[0]：为啥要写这个话题？</a>
-<ol>
-<li><a href="https://program-think.blogspot.com/2013/03/internet-resource-discovery-1.html">如何挖掘网络资源[1]：网站的类型和使用场景</a></li>
-<li><strong><a href="https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html">如何挖掘网络资源[2]：Google 搜索的基本语法</a></strong></li>
-<li><strong><a href="https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html">如何挖掘网络资源[3]：解答 Google 搜索的常见问题（FAQs）</a></strong></li>
-</ol>
-</li>
-<li>Study
+<li>How to Study
 <ol>
 <li><a href="https://program-think.blogspot.com/2009/02/study-technology-in-three-steps.html">学习技术的三部曲：WHAT、HOW、WHY</a></li>
 <li><a href="https://program-think.blogspot.com/2012/03/think-what-how-why.html">用提问来促进思维——兼谈【非】技术领域的 WHAT HOW WHY 三部曲</a></li>
