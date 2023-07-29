@@ -56,7 +56,16 @@
 &lt;li&gt;&lt;code&gt;Chrome（需翻墙） &amp;amp; AdblockPlus &amp;amp; uBlacklist | Personal Blocklist &amp;amp; ChatGPT for Google &amp;amp; Vimium&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;在搜索引擎体验上， Google （强推，体验极佳） &amp;gt; Bing （偶尔用用） &amp;raquo; Baidu （完全不考虑）&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.instructables.com/How-to-Properly-Use-a-Search-Engine/&#34;&gt;# How to Properly Use a Search Engine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://haoeric.github.io/Google-search-grammar/&#34;&gt;Practical Google Search Tips&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://program-think.blogspot.com/2013/03/internet-resource-discovery-0.html&#34;&gt;如何挖掘网络资源[0]：为啥要写这个话题？&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://program-think.blogspot.com/2013/03/internet-resource-discovery-1.html&#34;&gt;如何挖掘网络资源[1]：网站的类型和使用场景&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html&#34;&gt;如何挖掘网络资源[2]：Google 搜索的基本语法&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html&#34;&gt;如何挖掘网络资源[3]：解答 Google 搜索的常见问题（FAQs）&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;chrome-plugins&#34;&gt;Chrome plugins&lt;/h2&gt;
 &lt;h3 id=&#34;adblock-plus---free-ad-blocker&#34;&gt;Adblock Plus - free ad blocker&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;AdblockPlus&lt;/code&gt; 由用户手动设置拦截网页上不想看到的内容，我使用这个插件把一些网站我不想要看到的内容进行屏蔽，以获得更为简洁的体验&lt;/p&gt;
@@ -107,9 +116,6 @@
 &lt;li&gt;&lt;a href=&#34;https://rss-source.com/&#34;&gt;RSS Source | RSS订阅源推荐&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://haoeric.github.io/Google-search-grammar/&#34;&gt;Practical Google Search Tips&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/get-better-info/&#34;&gt;优化自己的信息源&lt;/a&gt;&lt;/li&gt;
@@ -160,7 +166,16 @@
 <li><code>Chrome（需翻墙） &amp; AdblockPlus &amp; uBlacklist | Personal Blocklist &amp; ChatGPT for Google &amp; Vimium</code></li>
 <li><strong>在搜索引擎体验上， Google （强推，体验极佳） &gt; Bing （偶尔用用） &raquo; Baidu （完全不考虑）</strong></li>
 <li><a href="https://www.instructables.com/How-to-Properly-Use-a-Search-Engine/"># How to Properly Use a Search Engine</a></li>
+<li><a href="http://haoeric.github.io/Google-search-grammar/">Practical Google Search Tips</a></li>
+<li><a href="https://program-think.blogspot.com/2013/03/internet-resource-discovery-0.html">如何挖掘网络资源[0]：为啥要写这个话题？</a>
+<ol>
+<li><a href="https://program-think.blogspot.com/2013/03/internet-resource-discovery-1.html">如何挖掘网络资源[1]：网站的类型和使用场景</a></li>
+<li><strong><a href="https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html">如何挖掘网络资源[2]：Google 搜索的基本语法</a></strong></li>
+<li><strong><a href="https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html">如何挖掘网络资源[3]：解答 Google 搜索的常见问题（FAQs）</a></strong></li>
+</ol>
+</li>
 </ul>
+<hr>
 <h2 id="chrome-plugins">Chrome plugins</h2>
 <h3 id="adblock-plus---free-ad-blocker">Adblock Plus - free ad blocker</h3>
 <p><code>AdblockPlus</code> 由用户手动设置拦截网页上不想看到的内容，我使用这个插件把一些网站我不想要看到的内容进行屏蔽，以获得更为简洁的体验</p>
@@ -211,9 +226,6 @@
 <li><a href="https://rss-source.com/">RSS Source | RSS订阅源推荐</a></li>
 </ul>
 <hr>
-<ul>
-<li><a href="http://haoeric.github.io/Google-search-grammar/">Practical Google Search Tips</a></li>
-</ul>
 <hr>
 <ul>
 <li><a href="https://catcoding.me/p/get-better-info/">优化自己的信息源</a></li>
