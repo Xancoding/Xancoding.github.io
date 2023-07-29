@@ -215,11 +215,25 @@ IQR：四分位间距，数据的中间 50% 的范围</p>
       <guid>https://xancoding.cn/posts/2023-07-29-10-50-54/</guid>
       <description>&lt;h1 id=&#34;zotero&#34;&gt;Zotero&lt;/h1&gt;
 &lt;p&gt;一款自由及开放源代码的文献管理软件，用以管理书目信息（如作者、标题、出版社、摘要、阅读笔记等）及相关材料（如PDF文件）&lt;/p&gt;
-&lt;h2 id=&#34;plugins&#34;&gt;Plugins&lt;/h2&gt;
+&lt;p&gt;以下是我使用的一些插件👇&lt;/p&gt;
+&lt;h2 id=&#34;zotero-pdf-translate&#34;&gt;Zotero PDF Translate&lt;/h2&gt;
+&lt;p&gt;PDF translation for  Zotero&lt;/p&gt;
+&lt;h2 id=&#34;zotero-rerference&#34;&gt;Zotero Rerference&lt;/h2&gt;
+&lt;p&gt;侧边栏展示阅读文献的所有参考文献&lt;/p&gt;
+&lt;h2 id=&#34;zotero-更新影响因子&#34;&gt;Zotero 更新影响因子&lt;/h2&gt;
+&lt;p&gt;更新期刊影响因子&lt;/p&gt;
+&lt;h2 id=&#34;zotero-style&#34;&gt;Zotero Style&lt;/h2&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="zotero">Zotero</h1>
 <p>一款自由及开放源代码的文献管理软件，用以管理书目信息（如作者、标题、出版社、摘要、阅读笔记等）及相关材料（如PDF文件）</p>
-<h2 id="plugins">Plugins</h2>
+<p>以下是我使用的一些插件👇</p>
+<h2 id="zotero-pdf-translate">Zotero PDF Translate</h2>
+<p>PDF translation for  Zotero</p>
+<h2 id="zotero-rerference">Zotero Rerference</h2>
+<p>侧边栏展示阅读文献的所有参考文献</p>
+<h2 id="zotero-更新影响因子">Zotero 更新影响因子</h2>
+<p>更新期刊影响因子</p>
+<h2 id="zotero-style">Zotero Style</h2>
 ]]></content:encoded>
     </item>
     
@@ -6106,6 +6120,8 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;p&gt;一款开源的跨平台LaTeX编辑软件&lt;/p&gt;
 &lt;h2 id=&#34;xianniu&#34;&gt;Xianniu&lt;/h2&gt;
 &lt;p&gt;游戏加速器&lt;/p&gt;
+&lt;h2 id=&#34;telegram&#34;&gt;Telegram&lt;/h2&gt;
+&lt;p&gt;隐私聊天，设备间传输文件&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="desktop">Desktop</h1>
 <h2 id="wallpaper-engine">Wallpaper Engine</h2>
@@ -6188,6 +6204,8 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 <p>一款开源的跨平台LaTeX编辑软件</p>
 <h2 id="xianniu">Xianniu</h2>
 <p>游戏加速器</p>
+<h2 id="telegram">Telegram</h2>
+<p>隐私聊天，设备间传输文件</p>
 ]]></content:encoded>
     </item>
     
