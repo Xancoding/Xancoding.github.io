@@ -298,7 +298,15 @@
 &lt;p&gt;游戏加速器&lt;/p&gt;
 &lt;h2 id=&#34;telegram&#34;&gt;Telegram&lt;/h2&gt;
 &lt;p&gt;隐私聊天，设备间传输文件&lt;/p&gt;
-&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;program&#34;&gt;Program&lt;/h1&gt;
+&lt;h2 id=&#34;jetbrains&#34;&gt;JetBrains&lt;/h2&gt;
+&lt;p&gt;学生可以申请免费使用，通过学生认证即可&lt;/p&gt;
+&lt;h3 id=&#34;clion&#34;&gt;Clion&lt;/h3&gt;
+&lt;p&gt;C/C++&lt;/p&gt;
+&lt;h3 id=&#34;pycharm&#34;&gt;Pycharm&lt;/h3&gt;
+&lt;p&gt;Python&lt;/p&gt;
+&lt;h2 id=&#34;vscode&#34;&gt;VSCode&lt;/h2&gt;
+&lt;p&gt;代码编辑器，可以通过下载合适的插件配置成 IDE&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="desktop">Desktop</h1>
 <h2 id="wallpaper-engine">Wallpaper Engine</h2>
@@ -381,7 +389,15 @@
 <p>游戏加速器</p>
 <h2 id="telegram">Telegram</h2>
 <p>隐私聊天，设备间传输文件</p>
-<h1 id="heading"></h1>
+<h1 id="program">Program</h1>
+<h2 id="jetbrains">JetBrains</h2>
+<p>学生可以申请免费使用，通过学生认证即可</p>
+<h3 id="clion">Clion</h3>
+<p>C/C++</p>
+<h3 id="pycharm">Pycharm</h3>
+<p>Python</p>
+<h2 id="vscode">VSCode</h2>
+<p>代码编辑器，可以通过下载合适的插件配置成 IDE</p>
 ]]></content:encoded>
     </item>
     
