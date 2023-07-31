@@ -66,14 +66,10 @@
 如今，只用把图片拖拽到 &lt;code&gt;Obsidian&lt;/code&gt; 编辑器中，即可自动将图片通过 &lt;code&gt;PicGo&lt;/code&gt; 上传到 &lt;code&gt;去不图床&lt;/code&gt;，并生成链接，显示在 &lt;code&gt;Obsidian&lt;/code&gt; 中。&lt;/p&gt;
 &lt;h2 id=&#34;alist--raidrive&#34;&gt;Alist &amp;amp; RaiDrive&lt;/h2&gt;
 &lt;p&gt;网盘聚合，虚拟本地磁盘挂载&lt;/p&gt;
-&lt;h2 id=&#34;geek-uninstalled&#34;&gt;Geek Uninstalled&lt;/h2&gt;
-&lt;p&gt;卸载软件，可以卸载的比较干净&lt;/p&gt;
 &lt;h2 id=&#34;idm&#34;&gt;IDM&lt;/h2&gt;
 &lt;p&gt;超级强大下载工具，能和浏览器无缝配合，自动抓取网页视频&lt;/p&gt;
 &lt;h2 id=&#34;onedrive&#34;&gt;OneDrive&lt;/h2&gt;
 &lt;p&gt;在计算机与云之间同步文件，以便能够从任何位置访问你的文件&lt;/p&gt;
-&lt;h2 id=&#34;virtualbox&#34;&gt;VirtualBox&lt;/h2&gt;
-&lt;p&gt;虚拟机&lt;/p&gt;
 &lt;h2 id=&#34;clash&#34;&gt;Clash&lt;/h2&gt;
 &lt;p&gt;代理软件&lt;/p&gt;
 &lt;h2 id=&#34;ccleaner&#34;&gt;CCleaner&lt;/h2&gt;
@@ -82,8 +78,6 @@
 &lt;p&gt;网易云音乐&lt;/p&gt;
 &lt;h2 id=&#34;git-for-windows&#34;&gt;Git for Windows&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Git的官方Windows版本&lt;/strong&gt;，可以在 &lt;code&gt;git bash&lt;/code&gt; 下运行大多数标准 &lt;code&gt;Unix&lt;/code&gt; 命令&lt;/p&gt;
-&lt;h2 id=&#34;spacesniffer&#34;&gt;SpaceSniffer&lt;/h2&gt;
-&lt;p&gt;一款非常优秀的硬盘扫描和管理软件，能够通过颜色、图表的方式为用户直观地呈现硬盘中的文件表达情况&lt;/p&gt;
 &lt;h2 id=&#34;tor-browser&#34;&gt;Tor Browser&lt;/h2&gt;
 &lt;p&gt;一个免费的网络浏览器，提供对匿名和加密的 &lt;code&gt;Tor&lt;/code&gt; 网络的访问&lt;/p&gt;
 &lt;h2 id=&#34;typora&#34;&gt;Typora&lt;/h2&gt;
@@ -94,6 +88,11 @@
 &lt;p&gt;游戏加速器&lt;/p&gt;
 &lt;h2 id=&#34;telegram&#34;&gt;Telegram&lt;/h2&gt;
 &lt;p&gt;隐私聊天，设备间传输文件&lt;/p&gt;
+&lt;h1 id=&#34;computer-trash-removal&#34;&gt;Computer trash removal&lt;/h1&gt;
+&lt;h2 id=&#34;geek-uninstalled&#34;&gt;Geek Uninstalled&lt;/h2&gt;
+&lt;p&gt;卸载软件，可以卸载的比较干净&lt;/p&gt;
+&lt;h2 id=&#34;spacesniffer&#34;&gt;SpaceSniffer&lt;/h2&gt;
+&lt;p&gt;一款非常优秀的硬盘扫描和管理软件，能够通过颜色、图表的方式为用户直观地呈现硬盘中的文件表达情况&lt;/p&gt;
 &lt;h1 id=&#34;program&#34;&gt;Program&lt;/h1&gt;
 &lt;h2 id=&#34;jupyter-notebook&#34;&gt;Jupyter Notebook&lt;/h2&gt;
 &lt;p&gt;基于网页的用于交互计算的应用程序，可被应用于 文档编写、代码运行和效果展示&lt;/p&gt;
@@ -105,6 +104,8 @@
 &lt;p&gt;Python&lt;/p&gt;
 &lt;h2 id=&#34;vscode&#34;&gt;VSCode&lt;/h2&gt;
 &lt;p&gt;代码编辑器，可以通过下载合适的插件支持各种编程语言&lt;/p&gt;
+&lt;h2 id=&#34;virtualbox&#34;&gt;VirtualBox&lt;/h2&gt;
+&lt;p&gt;虚拟机&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="desktop">Desktop</h1>
 <h2 id="wallpaper-engine">Wallpaper Engine</h2>
@@ -159,14 +160,10 @@
 如今，只用把图片拖拽到 <code>Obsidian</code> 编辑器中，即可自动将图片通过 <code>PicGo</code> 上传到 <code>去不图床</code>，并生成链接，显示在 <code>Obsidian</code> 中。</p>
 <h2 id="alist--raidrive">Alist &amp; RaiDrive</h2>
 <p>网盘聚合，虚拟本地磁盘挂载</p>
-<h2 id="geek-uninstalled">Geek Uninstalled</h2>
-<p>卸载软件，可以卸载的比较干净</p>
 <h2 id="idm">IDM</h2>
 <p>超级强大下载工具，能和浏览器无缝配合，自动抓取网页视频</p>
 <h2 id="onedrive">OneDrive</h2>
 <p>在计算机与云之间同步文件，以便能够从任何位置访问你的文件</p>
-<h2 id="virtualbox">VirtualBox</h2>
-<p>虚拟机</p>
 <h2 id="clash">Clash</h2>
 <p>代理软件</p>
 <h2 id="ccleaner">CCleaner</h2>
@@ -175,8 +172,6 @@
 <p>网易云音乐</p>
 <h2 id="git-for-windows">Git for Windows</h2>
 <p><strong>Git的官方Windows版本</strong>，可以在 <code>git bash</code> 下运行大多数标准 <code>Unix</code> 命令</p>
-<h2 id="spacesniffer">SpaceSniffer</h2>
-<p>一款非常优秀的硬盘扫描和管理软件，能够通过颜色、图表的方式为用户直观地呈现硬盘中的文件表达情况</p>
 <h2 id="tor-browser">Tor Browser</h2>
 <p>一个免费的网络浏览器，提供对匿名和加密的 <code>Tor</code> 网络的访问</p>
 <h2 id="typora">Typora</h2>
@@ -187,6 +182,11 @@
 <p>游戏加速器</p>
 <h2 id="telegram">Telegram</h2>
 <p>隐私聊天，设备间传输文件</p>
+<h1 id="computer-trash-removal">Computer trash removal</h1>
+<h2 id="geek-uninstalled">Geek Uninstalled</h2>
+<p>卸载软件，可以卸载的比较干净</p>
+<h2 id="spacesniffer">SpaceSniffer</h2>
+<p>一款非常优秀的硬盘扫描和管理软件，能够通过颜色、图表的方式为用户直观地呈现硬盘中的文件表达情况</p>
 <h1 id="program">Program</h1>
 <h2 id="jupyter-notebook">Jupyter Notebook</h2>
 <p>基于网页的用于交互计算的应用程序，可被应用于 文档编写、代码运行和效果展示</p>
@@ -198,6 +198,8 @@
 <p>Python</p>
 <h2 id="vscode">VSCode</h2>
 <p>代码编辑器，可以通过下载合适的插件支持各种编程语言</p>
+<h2 id="virtualbox">VirtualBox</h2>
+<p>虚拟机</p>
 ]]></content:encoded>
     </item>
     
