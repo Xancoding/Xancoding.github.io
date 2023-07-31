@@ -6,204 +6,332 @@
     <description>Recent content on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 29 Jul 2023 13:46:38 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jul 2023 09:47:51 +0800</lastBuildDate><atom:link href="https://xancoding.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Research</title>
-      <link>https://xancoding.cn/posts/2023-03-25-08-24-56/</link>
-      <pubDate>Sat, 25 Mar 2023 08:24:56 +0800</pubDate>
+      <title>7 月总结</title>
+      <link>https://xancoding.cn/posts/2023-07-31-09-47-50/</link>
+      <pubDate>Mon, 31 Jul 2023 09:47:51 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-03-25-08-24-56/</guid>
-      <description>&lt;h1 id=&#34;学习资料&#34;&gt;学习资料&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1FT4y1E74V?p=50&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# [双语字幕]吴恩达深度学习deeplearning.ai&lt;/a&gt; p1 &amp;ndash; p57
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; P50 &amp;ndash; 54 正则化&lt;/li&gt;
-&lt;/ul&gt;
+      <guid>https://xancoding.cn/posts/2023-07-31-09-47-50/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;学习：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;ICS-PA PA1 表达式求值&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1R44y1o749/?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 南京大学周志华教授亲讲！大佬终于把机器学习讲的如此通俗易懂&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://juejin.cn/post/7225588359287554085&#34;&gt;# GNN 学习路径&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1NK411D7pd/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# GNN科研入门路线&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1184y1x71H/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 不愧是公认最好的【图神经网络GNN/GCN教程】，从基础到进阶再到实战，一个合集全部到位！-人工智能/神经网络/图神经网络/深度学习&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1hE411t7RN?p=1&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# PyTorch深度学习快速入门教程（绝对通俗易懂！）【小土堆】&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://www.bilibili.com/video/BV1pg411d7MK/?spm_id_from=333.999.0.0&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# 超简单实用，推荐的深度学习科研必备网站（轻松找论文，代码项目，写论文综述）| 土堆教程&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a href=&#34;https://towardsdatascience.com/the-data-science-trilogy-numpy-pandas-and-matplotlib-basics-42192b89e26&#34;&gt;# The Data Science Trilogy：NumPy, Pandas and Matplotlib basics&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;机器学习相关基础知识&#34;&gt;机器学习相关基础知识&lt;/h1&gt;
-&lt;p&gt;此处对应该掌握的机器学习基础知识做一提纲，可对照着查缺补漏：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;数据预处理：数据清洗、数据变换
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/MrLevo520/article/details/77573757&#34;&gt;总结：数据清洗的一些总结&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_35757704/article/details/89280715?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164553726516780264084676%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&amp;amp;request_id=164553726516780264084676&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2&#34;&gt;机器学习数据预处理代码汇总&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/135237642&#34;&gt;读完本文，让你快速掌握数据预处理｜机器学习&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;前 10 天，大部分时间花在 Linux Tools 的学习上，最后两天是花在写 ICS-PA 上&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;开始使用 NeoVim &amp;amp; LazyVim，但无奈快捷键太多，用不惯&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;特征工程：
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/lc013/article/details/100033144?spm=1001.2101.3001.6650.3&amp;amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_paycolumn_v3&amp;amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_paycolumn_v3&amp;amp;utm_relevant_index=6&#34;&gt;特征工程&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;最后还得是 VSCode + VSCodeVim 比较适合&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;监督学习：
-&lt;ul&gt;
-&lt;li&gt;分类算法：K-近邻算法，决策树，朴素贝叶斯，Logistic 回归，SVM，Softmax 回归&lt;/li&gt;
-&lt;li&gt;回归算法：线性回归，局部加权线性回归&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;收获：习惯了使用 Vim 模式写代码&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;无监督学习：
-&lt;ul&gt;
-&lt;li&gt;K-means，层次聚类，DBSCAN&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;学习 正则表达式&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;模型评估方法：准确率，召回率，P-R 曲线，ROC，AUC，MSE
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/sinat_16388393/article/details/91427631?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164639688216780264063596%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;amp;request_id=164639688216780264063596&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2&#34;&gt;机器学习模型评估的方法总结（回归、分类模型的评估）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;研究方向&#34;&gt;研究方向&lt;/h1&gt;
-&lt;p&gt;以 &lt;strong&gt;GNN&lt;/strong&gt; 为工具，研究 &lt;strong&gt;social network&lt;/strong&gt; 中的 &lt;strong&gt;long-tail&lt;/strong&gt; 问题，使分类的准确性更高。&lt;br&gt;
-因为 &lt;strong&gt;连接关系&lt;/strong&gt; 比较离散，向量化比较难，图神经网络所要研究的就是这方面的内容&lt;br&gt;
-GNN 主要用来对图的特征的提取&lt;/p&gt;
-&lt;h1 id=&#34;图神经网络&#34;&gt;图神经网络&lt;/h1&gt;
-&lt;h2 id=&#34;gnn学习路径&#34;&gt;GNN学习路径&lt;/h2&gt;
-&lt;p&gt;从基础模型开始学习，并尝试实现自己的数据集。一旦你熟悉了基础模型，可以尝试学习进阶模型和应用场景，并了解最新的研究进展。同时，参加相关的社区和论坛，如Reddit、Quora等，可以加速你的学习和成长。&lt;/p&gt;
-&lt;h3 id=&#34;基本概念&#34;&gt;基本概念&lt;/h3&gt;
-&lt;p&gt;基本的图理论概念，例如什么是节点、边、图、路径等等&lt;br&gt;
-了解一些基本的机器学习概念，例如监督学习、非监督学习、回归、分类等等&lt;/p&gt;
-&lt;h3 id=&#34;基础模型&#34;&gt;基础模型&lt;/h3&gt;
-&lt;p&gt;学习基本的图神经网络模型，包括 Graph Convolutional Networks（GCN）、GraphSAGE、GAT 等。这些模型的原理和实现方式相对简单，可以使用现有的开源代码实现并尝试自己的数据集。一些有用的资源包括：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;PyTorch Geometric：一个 PyTorch 库，包含各种 GNN 模型和常用数据集。&lt;/li&gt;
-&lt;li&gt;DGL：一个用于构建图神经网络的 Python 库。&lt;/li&gt;
-&lt;li&gt;Deep Graph Library：一个跨平台的图神经网络库，支持多种编程语言。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;进阶模型&#34;&gt;进阶模型&lt;/h3&gt;
-&lt;p&gt;掌握一些进阶的 GNN 模型，例如 Graph Attention Networks（GAT）、Graph Isomorphism Network（GIN）、Message Passing Neural Networks（MPNN）等等。这些模型相对于基础模型更加复杂，但能够更好地处理各种类型的图数据。学习这些模型的实现方式需要更多的数学和编程技能，但也可以使用现有的代码库进行实现和实验。&lt;/p&gt;
-&lt;h3 id=&#34;应用场景&#34;&gt;应用场景&lt;/h3&gt;
-&lt;p&gt;学习 GNN 的应用场景，例如推荐系统、&lt;strong&gt;社交网络分析&lt;/strong&gt;、生物信息学等。理解这些应用场景需要对领域知识有一定的了解，并且需要对如何使用 GNN 模型来解决实际问题有一定的认识&lt;/p&gt;
-&lt;h3 id=&#34;最新进展&#34;&gt;最新进展&lt;/h3&gt;
-&lt;p&gt;了解 GNN 领域的最新进展和研究方向。在这个快速发展的领域中，新的模型和算法不断涌现，了解最新进展可以让你跟上最新的技术和应用方向。可以阅读最新的论文，参加相关的会议和研讨会等方式来保持学习和跟进最新技术。&lt;/p&gt;
-&lt;h1 id=&#34;深度学习&#34;&gt;深度学习&lt;/h1&gt;
-&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/04/28/644b1bc5893e0.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/04/28/644b1bc5893e0.png&#34; alt=&#34;&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h1 id=&#34;箱型图boxplot&#34;&gt;箱型图boxplot&lt;/h1&gt;
-&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/06/17/648dbf6507211.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/06/17/648dbf6507211.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-Medium：样本中 50% 的数据 小于 Medium
-Q1(First quartile)：样本 25% 的数据小于 第一四分位数
-Q3(Thirt quartile)：样本 75% 的数据小于 第三四分位数
-Max：排除异常值的最大值
-Min：排除异常值的最小值
-IQR：四分位间距，数据的中间 50% 的范围&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;A Gentle Introduction to Graph Neural Networks&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finished 0728 英语语法学习&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Research&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Finished 0724 《神经网络与深度学习》先大致过一遍，看不懂的地方没必要死磕&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;绪论和机器学习概述，没有实际内容，可以简单过一遍&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;线性模型+前馈神经网络+卷积神经网络&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finished 5天 PyTorch深度学习快速入门教程&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;看论文入门 GNN&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Adaptive Graph Encoder for Attributed Graph Embedding 这篇Github上有具体的代码，去用起来&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Attributed Graph Clustering via Adaptive Graph Convolution 这篇准确来说不能叫图卷积神经网络，应该是叫图卷积，AGE那篇可以说是GCN，你可以看一下他们两个的区别。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finished 0722 统计分析&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;numpy是科学计算库&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;pandas是处理表格数据的&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;matplotlib是画图的 只是下面这些图用来做什么还是不太了解&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Regression Plots 回归图&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Box Plots 箱线图&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Distribution Plots 分布图&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pairplots 对角线图&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Correlation Plots 相关性图&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lineplots 线图&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;玩 预计游玩五天半，实际游玩三天半&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;0714&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;午饭 肯德基 下午 颐和园&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;晚饭 铜锅涮肉 晚上 奥林匹克公园&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0715&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;早饭 尹三豆汁 上午 天安门 毛主席纪念馆&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下午 国家博物馆 晚饭 全聚德北京烤鸭&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0716&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;原定故宫，但是走太累了，休息一天&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0717&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;原定圆明园，0716那天崴脚，休息一天&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0718&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;白天 环球影城&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;午饭 云吞面&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;晚饭 狼大爷烧烤&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0719&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;原定早上天坛，结果想多休息睡会觉，就直接早上睡到九点，吃完饭，在旅馆再休息休息，中午直接回学校了，他俩也是坐飞机回浙江&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;试水 Valorant (无畏契约) 0729 0730&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="学习资料">学习资料</h1>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1ov41137Z8?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># Anaconda+Pycharm+CUDA+CUdnn+PyTorch+Tensorflow</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1FT4y1E74V?p=50&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># [双语字幕]吴恩达深度学习deeplearning.ai</a> p1 &ndash; p57
-<ul>
-<li><input checked="" disabled="" type="checkbox"> P50 &ndash; 54 正则化</li>
-</ul>
+      <content:encoded><![CDATA[<ol>
+<li>
+<p>学习：</p>
+<ol>
+<li>
+<p>ICS-PA PA1 表达式求值</p>
 </li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1R44y1o749/?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 南京大学周志华教授亲讲！大佬终于把机器学习讲的如此通俗易懂</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://juejin.cn/post/7225588359287554085"># GNN 学习路径</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1NK411D7pd/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># GNN科研入门路线</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1184y1x71H/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 不愧是公认最好的【图神经网络GNN/GCN教程】，从基础到进阶再到实战，一个合集全部到位！-人工智能/神经网络/图神经网络/深度学习</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1hE411t7RN?p=1&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># PyTorch深度学习快速入门教程（绝对通俗易懂！）【小土堆】</a></li>
-<li><input disabled="" type="checkbox"> <a href="https://www.bilibili.com/video/BV1pg411d7MK/?spm_id_from=333.999.0.0&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># 超简单实用，推荐的深度学习科研必备网站（轻松找论文，代码项目，写论文综述）| 土堆教程</a></li>
-<li><input checked="" disabled="" type="checkbox"> <a href="https://towardsdatascience.com/the-data-science-trilogy-numpy-pandas-and-matplotlib-basics-42192b89e26"># The Data Science Trilogy：NumPy, Pandas and Matplotlib basics</a></li>
-</ul>
-<h1 id="机器学习相关基础知识">机器学习相关基础知识</h1>
-<p>此处对应该掌握的机器学习基础知识做一提纲，可对照着查缺补漏：</p>
-<ul>
-<li>数据预处理：数据清洗、数据变换
-<ul>
-<li><a href="https://blog.csdn.net/MrLevo520/article/details/77573757">总结：数据清洗的一些总结</a></li>
-<li><a href="https://blog.csdn.net/weixin_35757704/article/details/89280715?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164553726516780264084676%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&amp;request_id=164553726516780264084676&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2">机器学习数据预处理代码汇总</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/135237642">读完本文，让你快速掌握数据预处理｜机器学习</a></li>
-</ul>
+<li>
+<p>前 10 天，大部分时间花在 Linux Tools 的学习上，最后两天是花在写 ICS-PA 上</p>
+<ol>
+<li>
+<p>开始使用 NeoVim &amp; LazyVim，但无奈快捷键太多，用不惯</p>
 </li>
-<li>特征工程：
-<ul>
-<li><a href="https://blog.csdn.net/lc013/article/details/100033144?spm=1001.2101.3001.6650.3&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_paycolumn_v3&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3.pc_relevant_paycolumn_v3&amp;utm_relevant_index=6">特征工程</a></li>
-</ul>
+<li>
+<p>最后还得是 VSCode + VSCodeVim 比较适合</p>
 </li>
-<li>监督学习：
-<ul>
-<li>分类算法：K-近邻算法，决策树，朴素贝叶斯，Logistic 回归，SVM，Softmax 回归</li>
-<li>回归算法：线性回归，局部加权线性回归</li>
-</ul>
+<li>
+<p>收获：习惯了使用 Vim 模式写代码</p>
 </li>
-<li>无监督学习：
-<ul>
-<li>K-means，层次聚类，DBSCAN</li>
-</ul>
+<li>
+<p>学习 正则表达式</p>
 </li>
-<li>模型评估方法：准确率，召回率，P-R 曲线，ROC，AUC，MSE
-<ul>
-<li><a href="https://blog.csdn.net/sinat_16388393/article/details/91427631?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164639688216780264063596%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=164639688216780264063596&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2">机器学习模型评估的方法总结（回归、分类模型的评估）</a></li>
-</ul>
+</ol>
 </li>
-</ul>
-<h1 id="研究方向">研究方向</h1>
-<p>以 <strong>GNN</strong> 为工具，研究 <strong>social network</strong> 中的 <strong>long-tail</strong> 问题，使分类的准确性更高。<br>
-因为 <strong>连接关系</strong> 比较离散，向量化比较难，图神经网络所要研究的就是这方面的内容<br>
-GNN 主要用来对图的特征的提取</p>
-<h1 id="图神经网络">图神经网络</h1>
-<h2 id="gnn学习路径">GNN学习路径</h2>
-<p>从基础模型开始学习，并尝试实现自己的数据集。一旦你熟悉了基础模型，可以尝试学习进阶模型和应用场景，并了解最新的研究进展。同时，参加相关的社区和论坛，如Reddit、Quora等，可以加速你的学习和成长。</p>
-<h3 id="基本概念">基本概念</h3>
-<p>基本的图理论概念，例如什么是节点、边、图、路径等等<br>
-了解一些基本的机器学习概念，例如监督学习、非监督学习、回归、分类等等</p>
-<h3 id="基础模型">基础模型</h3>
-<p>学习基本的图神经网络模型，包括 Graph Convolutional Networks（GCN）、GraphSAGE、GAT 等。这些模型的原理和实现方式相对简单，可以使用现有的开源代码实现并尝试自己的数据集。一些有用的资源包括：</p>
-<ul>
-<li>PyTorch Geometric：一个 PyTorch 库，包含各种 GNN 模型和常用数据集。</li>
-<li>DGL：一个用于构建图神经网络的 Python 库。</li>
-<li>Deep Graph Library：一个跨平台的图神经网络库，支持多种编程语言。</li>
-</ul>
-<h3 id="进阶模型">进阶模型</h3>
-<p>掌握一些进阶的 GNN 模型，例如 Graph Attention Networks（GAT）、Graph Isomorphism Network（GIN）、Message Passing Neural Networks（MPNN）等等。这些模型相对于基础模型更加复杂，但能够更好地处理各种类型的图数据。学习这些模型的实现方式需要更多的数学和编程技能，但也可以使用现有的代码库进行实现和实验。</p>
-<h3 id="应用场景">应用场景</h3>
-<p>学习 GNN 的应用场景，例如推荐系统、<strong>社交网络分析</strong>、生物信息学等。理解这些应用场景需要对领域知识有一定的了解，并且需要对如何使用 GNN 模型来解决实际问题有一定的认识</p>
-<h3 id="最新进展">最新进展</h3>
-<p>了解 GNN 领域的最新进展和研究方向。在这个快速发展的领域中，新的模型和算法不断涌现，了解最新进展可以让你跟上最新的技术和应用方向。可以阅读最新的论文，参加相关的会议和研讨会等方式来保持学习和跟进最新技术。</p>
-<h1 id="深度学习">深度学习</h1>
-<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/04/28/644b1bc5893e0.png">
-<img src="https://bu.dusays.com/2023/04/28/644b1bc5893e0.png" alt=""  />
-</a>
-</div>
-
-</p>
-<h1 id="箱型图boxplot">箱型图boxplot</h1>
-<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/06/17/648dbf6507211.png">
-<img src="https://bu.dusays.com/2023/06/17/648dbf6507211.png" alt="image.png"  />
-</a>
-</div>
-
-
-Medium：样本中 50% 的数据 小于 Medium
-Q1(First quartile)：样本 25% 的数据小于 第一四分位数
-Q3(Thirt quartile)：样本 75% 的数据小于 第三四分位数
-Max：排除异常值的最大值
-Min：排除异常值的最小值
-IQR：四分位间距，数据的中间 50% 的范围</p>
+<li>
+<p>A Gentle Introduction to Graph Neural Networks</p>
+</li>
+<li>
+<p>Finished 0728 英语语法学习</p>
+</li>
+<li>
+<p>Research</p>
+<ol>
+<li>
+<p>Finished 0724 《神经网络与深度学习》先大致过一遍，看不懂的地方没必要死磕</p>
+<ol>
+<li>
+<p>绪论和机器学习概述，没有实际内容，可以简单过一遍</p>
+</li>
+<li>
+<p>线性模型+前馈神经网络+卷积神经网络</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Finished 5天 PyTorch深度学习快速入门教程</p>
+</li>
+<li>
+<p>看论文入门 GNN</p>
+<ol>
+<li>
+<p>Adaptive Graph Encoder for Attributed Graph Embedding 这篇Github上有具体的代码，去用起来</p>
+</li>
+<li>
+<p>Attributed Graph Clustering via Adaptive Graph Convolution 这篇准确来说不能叫图卷积神经网络，应该是叫图卷积，AGE那篇可以说是GCN，你可以看一下他们两个的区别。</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Finished 0722 统计分析</p>
+<ol>
+<li>
+<p>numpy是科学计算库</p>
+</li>
+<li>
+<p>pandas是处理表格数据的</p>
+</li>
+<li>
+<p>matplotlib是画图的 只是下面这些图用来做什么还是不太了解</p>
+<ol>
+<li>
+<p>Regression Plots 回归图</p>
+</li>
+<li>
+<p>Box Plots 箱线图</p>
+</li>
+<li>
+<p>Distribution Plots 分布图</p>
+</li>
+<li>
+<p>Pairplots 对角线图</p>
+</li>
+<li>
+<p>Correlation Plots 相关性图</p>
+</li>
+<li>
+<p>Lineplots 线图</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>玩 预计游玩五天半，实际游玩三天半</p>
+<ol>
+<li>
+<p>0714</p>
+<ol>
+<li>
+<p>午饭 肯德基 下午 颐和园</p>
+</li>
+<li>
+<p>晚饭 铜锅涮肉 晚上 奥林匹克公园</p>
+</li>
+</ol>
+</li>
+<li>
+<p>0715</p>
+<ol>
+<li>
+<p>早饭 尹三豆汁 上午 天安门 毛主席纪念馆</p>
+</li>
+<li>
+<p>下午 国家博物馆 晚饭 全聚德北京烤鸭</p>
+</li>
+</ol>
+</li>
+<li>
+<p>0716</p>
+<ol>
+<li>原定故宫，但是走太累了，休息一天</li>
+</ol>
+</li>
+<li>
+<p>0717</p>
+<ol>
+<li>原定圆明园，0716那天崴脚，休息一天</li>
+</ol>
+</li>
+<li>
+<p>0718</p>
+<ol>
+<li>
+<p>白天 环球影城</p>
+</li>
+<li>
+<p>午饭 云吞面</p>
+</li>
+<li>
+<p>晚饭 狼大爷烧烤</p>
+</li>
+</ol>
+</li>
+<li>
+<p>0719</p>
+<ol>
+<li>原定早上天坛，结果想多休息睡会觉，就直接早上睡到九点，吃完饭，在旅馆再休息休息，中午直接回学校了，他俩也是坐飞机回浙江</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>试水 Valorant (无畏契约) 0729 0730</p>
+</li>
+</ol>
 ]]></content:encoded>
     </item>
     

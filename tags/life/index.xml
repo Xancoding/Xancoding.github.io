@@ -6,7 +6,335 @@
     <description>Recent content in Life on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 29 Jul 2023 13:46:38 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jul 2023 09:47:51 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7 月总结</title>
+      <link>https://xancoding.cn/posts/2023-07-31-09-47-50/</link>
+      <pubDate>Mon, 31 Jul 2023 09:47:51 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-07-31-09-47-50/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;学习：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;ICS-PA PA1 表达式求值&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;前 10 天，大部分时间花在 Linux Tools 的学习上，最后两天是花在写 ICS-PA 上&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;开始使用 NeoVim &amp;amp; LazyVim，但无奈快捷键太多，用不惯&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最后还得是 VSCode + VSCodeVim 比较适合&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;收获：习惯了使用 Vim 模式写代码&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;学习 正则表达式&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A Gentle Introduction to Graph Neural Networks&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finished 0728 英语语法学习&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Research&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Finished 0724 《神经网络与深度学习》先大致过一遍，看不懂的地方没必要死磕&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;绪论和机器学习概述，没有实际内容，可以简单过一遍&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;线性模型+前馈神经网络+卷积神经网络&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finished 5天 PyTorch深度学习快速入门教程&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;看论文入门 GNN&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Adaptive Graph Encoder for Attributed Graph Embedding 这篇Github上有具体的代码，去用起来&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Attributed Graph Clustering via Adaptive Graph Convolution 这篇准确来说不能叫图卷积神经网络，应该是叫图卷积，AGE那篇可以说是GCN，你可以看一下他们两个的区别。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finished 0722 统计分析&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;numpy是科学计算库&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;pandas是处理表格数据的&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;matplotlib是画图的 只是下面这些图用来做什么还是不太了解&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Regression Plots 回归图&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Box Plots 箱线图&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Distribution Plots 分布图&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pairplots 对角线图&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Correlation Plots 相关性图&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lineplots 线图&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;玩 预计游玩五天半，实际游玩三天半&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;0714&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;午饭 肯德基 下午 颐和园&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;晚饭 铜锅涮肉 晚上 奥林匹克公园&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0715&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;早饭 尹三豆汁 上午 天安门 毛主席纪念馆&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下午 国家博物馆 晚饭 全聚德北京烤鸭&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0716&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;原定故宫，但是走太累了，休息一天&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0717&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;原定圆明园，0716那天崴脚，休息一天&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0718&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;白天 环球影城&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;午饭 云吞面&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;晚饭 狼大爷烧烤&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0719&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;原定早上天坛，结果想多休息睡会觉，就直接早上睡到九点，吃完饭，在旅馆再休息休息，中午直接回学校了，他俩也是坐飞机回浙江&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;试水 Valorant (无畏契约) 0729 0730&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <content:encoded><![CDATA[<ol>
+<li>
+<p>学习：</p>
+<ol>
+<li>
+<p>ICS-PA PA1 表达式求值</p>
+</li>
+<li>
+<p>前 10 天，大部分时间花在 Linux Tools 的学习上，最后两天是花在写 ICS-PA 上</p>
+<ol>
+<li>
+<p>开始使用 NeoVim &amp; LazyVim，但无奈快捷键太多，用不惯</p>
+</li>
+<li>
+<p>最后还得是 VSCode + VSCodeVim 比较适合</p>
+</li>
+<li>
+<p>收获：习惯了使用 Vim 模式写代码</p>
+</li>
+<li>
+<p>学习 正则表达式</p>
+</li>
+</ol>
+</li>
+<li>
+<p>A Gentle Introduction to Graph Neural Networks</p>
+</li>
+<li>
+<p>Finished 0728 英语语法学习</p>
+</li>
+<li>
+<p>Research</p>
+<ol>
+<li>
+<p>Finished 0724 《神经网络与深度学习》先大致过一遍，看不懂的地方没必要死磕</p>
+<ol>
+<li>
+<p>绪论和机器学习概述，没有实际内容，可以简单过一遍</p>
+</li>
+<li>
+<p>线性模型+前馈神经网络+卷积神经网络</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Finished 5天 PyTorch深度学习快速入门教程</p>
+</li>
+<li>
+<p>看论文入门 GNN</p>
+<ol>
+<li>
+<p>Adaptive Graph Encoder for Attributed Graph Embedding 这篇Github上有具体的代码，去用起来</p>
+</li>
+<li>
+<p>Attributed Graph Clustering via Adaptive Graph Convolution 这篇准确来说不能叫图卷积神经网络，应该是叫图卷积，AGE那篇可以说是GCN，你可以看一下他们两个的区别。</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Finished 0722 统计分析</p>
+<ol>
+<li>
+<p>numpy是科学计算库</p>
+</li>
+<li>
+<p>pandas是处理表格数据的</p>
+</li>
+<li>
+<p>matplotlib是画图的 只是下面这些图用来做什么还是不太了解</p>
+<ol>
+<li>
+<p>Regression Plots 回归图</p>
+</li>
+<li>
+<p>Box Plots 箱线图</p>
+</li>
+<li>
+<p>Distribution Plots 分布图</p>
+</li>
+<li>
+<p>Pairplots 对角线图</p>
+</li>
+<li>
+<p>Correlation Plots 相关性图</p>
+</li>
+<li>
+<p>Lineplots 线图</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>玩 预计游玩五天半，实际游玩三天半</p>
+<ol>
+<li>
+<p>0714</p>
+<ol>
+<li>
+<p>午饭 肯德基 下午 颐和园</p>
+</li>
+<li>
+<p>晚饭 铜锅涮肉 晚上 奥林匹克公园</p>
+</li>
+</ol>
+</li>
+<li>
+<p>0715</p>
+<ol>
+<li>
+<p>早饭 尹三豆汁 上午 天安门 毛主席纪念馆</p>
+</li>
+<li>
+<p>下午 国家博物馆 晚饭 全聚德北京烤鸭</p>
+</li>
+</ol>
+</li>
+<li>
+<p>0716</p>
+<ol>
+<li>原定故宫，但是走太累了，休息一天</li>
+</ol>
+</li>
+<li>
+<p>0717</p>
+<ol>
+<li>原定圆明园，0716那天崴脚，休息一天</li>
+</ol>
+</li>
+<li>
+<p>0718</p>
+<ol>
+<li>
+<p>白天 环球影城</p>
+</li>
+<li>
+<p>午饭 云吞面</p>
+</li>
+<li>
+<p>晚饭 狼大爷烧烤</p>
+</li>
+</ol>
+</li>
+<li>
+<p>0719</p>
+<ol>
+<li>原定早上天坛，结果想多休息睡会觉，就直接早上睡到九点，吃完饭，在旅馆再休息休息，中午直接回学校了，他俩也是坐飞机回浙江</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>试水 Valorant (无畏契约) 0729 0730</p>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Android apps</title>
       <link>https://xancoding.cn/posts/2023-07-29-13-46-38/</link>
