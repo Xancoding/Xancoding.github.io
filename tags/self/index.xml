@@ -306,7 +306,7 @@
 &lt;h3 id=&#34;pycharm&#34;&gt;Pycharm&lt;/h3&gt;
 &lt;p&gt;Python&lt;/p&gt;
 &lt;h2 id=&#34;vscode&#34;&gt;VSCode&lt;/h2&gt;
-&lt;p&gt;代码编辑器，可以通过下载合适的插件配置成 IDE&lt;/p&gt;
+&lt;p&gt;代码编辑器，可以通过下载合适的插件支持各种编程语言&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="desktop">Desktop</h1>
 <h2 id="wallpaper-engine">Wallpaper Engine</h2>
@@ -397,7 +397,7 @@
 <h3 id="pycharm">Pycharm</h3>
 <p>Python</p>
 <h2 id="vscode">VSCode</h2>
-<p>代码编辑器，可以通过下载合适的插件配置成 IDE</p>
+<p>代码编辑器，可以通过下载合适的插件支持各种编程语言</p>
 ]]></content:encoded>
     </item>
     
