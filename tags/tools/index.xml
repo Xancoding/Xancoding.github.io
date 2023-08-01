@@ -6,7 +6,27 @@
     <description>Recent content in Tools on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 01 Aug 2023 15:23:40 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 18:42:11 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usful Website</title>
+      <link>https://xancoding.cn/posts/2023-08-01-18-42-11/</link>
+      <pubDate>Tue, 01 Aug 2023 18:42:11 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-08-01-18-42-11/</guid>
+      <description>&lt;h1 id=&#34;program&#34;&gt;Program&lt;/h1&gt;
+&lt;h2 id=&#34;httpsdevdocsio&#34;&gt;&lt;a href=&#34;https://devdocs.io/&#34;&gt;https://devdocs.io/&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;各种文档&lt;/p&gt;
+&lt;h2 id=&#34;new-bing--chatgpt--claude2&#34;&gt;New bing &amp;amp; ChatGPT &amp;amp; Claude2&lt;/h2&gt;
+&lt;p&gt;大预言模型&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="program">Program</h1>
+<h2 id="httpsdevdocsio"><a href="https://devdocs.io/">https://devdocs.io/</a></h2>
+<p>各种文档</p>
+<h2 id="new-bing--chatgpt--claude2">New bing &amp; ChatGPT &amp; Claude2</h2>
+<p>大预言模型</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>AcademicGPT</title>
       <link>https://xancoding.cn/posts/2023-08-01-15-23-39/</link>
@@ -318,6 +338,11 @@ start /min cmd /c &#34;python main.py&#34;
 &lt;p&gt;虚拟机&lt;/p&gt;
 &lt;h2 id=&#34;git-for-windows&#34;&gt;Git for Windows&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Git的官方Windows版本&lt;/strong&gt;，可以在 &lt;code&gt;git bash&lt;/code&gt; 下运行大多数标准 &lt;code&gt;Unix&lt;/code&gt; 命令&lt;/p&gt;
+&lt;h2 id=&#34;devdocs&#34;&gt;devdocs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://devdocs.io/&#34;&gt;https://devdocs.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;各种文档&lt;/p&gt;
 &lt;h1 id=&#34;outside&#34;&gt;Outside&lt;/h1&gt;
 &lt;h2 id=&#34;clash&#34;&gt;Clash&lt;/h2&gt;
 &lt;p&gt;代理软件&lt;/p&gt;
@@ -418,6 +443,11 @@ start /min cmd /c &#34;python main.py&#34;
 <p>虚拟机</p>
 <h2 id="git-for-windows">Git for Windows</h2>
 <p><strong>Git的官方Windows版本</strong>，可以在 <code>git bash</code> 下运行大多数标准 <code>Unix</code> 命令</p>
+<h2 id="devdocs">devdocs</h2>
+<ul>
+<li><a href="https://devdocs.io/">https://devdocs.io/</a></li>
+</ul>
+<p>各种文档</p>
 <h1 id="outside">Outside</h1>
 <h2 id="clash">Clash</h2>
 <p>代理软件</p>

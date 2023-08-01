@@ -314,6 +314,11 @@
 &lt;p&gt;虚拟机&lt;/p&gt;
 &lt;h2 id=&#34;git-for-windows&#34;&gt;Git for Windows&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Git的官方Windows版本&lt;/strong&gt;，可以在 &lt;code&gt;git bash&lt;/code&gt; 下运行大多数标准 &lt;code&gt;Unix&lt;/code&gt; 命令&lt;/p&gt;
+&lt;h2 id=&#34;devdocs&#34;&gt;devdocs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://devdocs.io/&#34;&gt;https://devdocs.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;各种文档&lt;/p&gt;
 &lt;h1 id=&#34;outside&#34;&gt;Outside&lt;/h1&gt;
 &lt;h2 id=&#34;clash&#34;&gt;Clash&lt;/h2&gt;
 &lt;p&gt;代理软件&lt;/p&gt;
@@ -414,6 +419,11 @@
 <p>虚拟机</p>
 <h2 id="git-for-windows">Git for Windows</h2>
 <p><strong>Git的官方Windows版本</strong>，可以在 <code>git bash</code> 下运行大多数标准 <code>Unix</code> 命令</p>
+<h2 id="devdocs">devdocs</h2>
+<ul>
+<li><a href="https://devdocs.io/">https://devdocs.io/</a></li>
+</ul>
+<p>各种文档</p>
 <h1 id="outside">Outside</h1>
 <h2 id="clash">Clash</h2>
 <p>代理软件</p>
