@@ -34,6 +34,7 @@
       
       <guid>https://xancoding.cn/posts/2023-08-01-15-23-39/</guid>
       <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meiguodizhi.com/&#34;&gt;美国地址生成器&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.krseo.com/zixun/1262.html&#34;&gt;# 开通 OpenAI-ChatGPT Plus 会员绑卡付费教程&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/ZzkhyxiH2lfOCNr_oEqY_Q&#34;&gt;# 学术科研专用ChatGPT来了！&lt;/a&gt;i&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/binary-husky/gpt_academic&#34;&gt;GPT 学术优化 (GPT Academic)&lt;/a&gt;&lt;/li&gt;
@@ -54,6 +55,7 @@ start /min cmd /c &amp;#34;python main.py&amp;#34;
 &lt;p&gt;除此之外，还可以把 &lt;code&gt;config.py&lt;/code&gt; 中的 &lt;code&gt;WEB_PORT&lt;/code&gt; 配置成 &lt;code&gt;1024~65535&lt;/code&gt; 中的任意一个数字，方便将浏览器中将其收藏为书签，方便访问。&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<ul>
+<li><a href="https://www.meiguodizhi.com/">美国地址生成器</a></li>
 <li><a href="https://www.krseo.com/zixun/1262.html"># 开通 OpenAI-ChatGPT Plus 会员绑卡付费教程</a></li>
 <li><a href="https://mp.weixin.qq.com/s/ZzkhyxiH2lfOCNr_oEqY_Q"># 学术科研专用ChatGPT来了！</a>i</li>
 <li><a href="https://github.com/binary-husky/gpt_academic">GPT 学术优化 (GPT Academic)</a></li>
