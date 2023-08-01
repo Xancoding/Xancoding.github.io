@@ -6,7 +6,55 @@
     <description>Recent content in Tools on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 29 Jul 2023 13:46:38 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 15:23:40 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AcademicGPT</title>
+      <link>https://xancoding.cn/posts/2023-08-01-15-23-39/</link>
+      <pubDate>Tue, 01 Aug 2023 15:23:40 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-08-01-15-23-39/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.krseo.com/zixun/1262.html&#34;&gt;# 开通 OpenAI-ChatGPT Plus 会员绑卡付费教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/ZzkhyxiH2lfOCNr_oEqY_Q&#34;&gt;# 学术科研专用ChatGPT来了！&lt;/a&gt;i&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/binary-husky/gpt_academic&#34;&gt;GPT 学术优化 (GPT Academic)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;如何运行academicgpt&#34;&gt;如何运行AcademicGPT？&lt;/h1&gt;
+&lt;p&gt;先下载 Dupay，申请一张虚拟银行卡。又因为虚拟银行卡需要使用数字货币充值，所以还要下载 欧易。&lt;/p&gt;
+&lt;p&gt;下载完毕上述两个 app后，我们就可以用支付宝或微信购买数字货币，再用数字货币充值虚拟银行卡。充值完毕后，虚拟银行卡被激活，即可绑定 ChatGPT 账号，就可以使用 API 啦😆&lt;/p&gt;
+&lt;p&gt;上述步骤完成后，我们再按照 &lt;a href=&#34;https://github.com/binary-husky/gpt_academic#installation&#34;&gt;# Installation&lt;/a&gt; 的操作，下载项目，配置 &lt;code&gt;API_KEY&lt;/code&gt;，安装依赖，即可运行 &lt;code&gt;GPT_Academic&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&#34;如何配置开机自启动&#34;&gt;如何配置开机自启动？&lt;/h1&gt;
+&lt;p&gt;创建一个批处理脚本 (start_python.bat)，并在其中添加以下内容：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;@echo off
+cd /d &amp;#34;path_to_script_directory&amp;#34;
+start /min cmd /c &amp;#34;python main.py&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;其中 &lt;code&gt;path_to_script_directory&lt;/code&gt; 处填写你要运行的 Python 程序所在位置&lt;/p&gt;
+&lt;p&gt;然后，将该批处理脚本移动到开机启动文件夹，按下 &lt;code&gt;Win + R&lt;/code&gt; 组合键打开运行窗口，输入 &lt;code&gt;shell:startup&lt;/code&gt;，即可打开开机启动文件夹。将批处理脚本拖放到打开的文件夹中即可。&lt;/p&gt;
+&lt;p&gt;完成上述操作后，即可实现开机自启动&lt;/p&gt;
+&lt;p&gt;除此之外，还可以把 &lt;code&gt;config.py&lt;/code&gt; 中的 &lt;code&gt;WEB_PORT&lt;/code&gt; 配置成 &lt;code&gt;1024~65535&lt;/code&gt; 中的任意一个数字，方便将浏览器中将其收藏为书签，方便访问。&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://www.krseo.com/zixun/1262.html"># 开通 OpenAI-ChatGPT Plus 会员绑卡付费教程</a></li>
+<li><a href="https://mp.weixin.qq.com/s/ZzkhyxiH2lfOCNr_oEqY_Q"># 学术科研专用ChatGPT来了！</a>i</li>
+<li><a href="https://github.com/binary-husky/gpt_academic">GPT 学术优化 (GPT Academic)</a></li>
+</ul>
+<hr>
+<h1 id="如何运行academicgpt">如何运行AcademicGPT？</h1>
+<p>先下载 Dupay，申请一张虚拟银行卡。又因为虚拟银行卡需要使用数字货币充值，所以还要下载 欧易。</p>
+<p>下载完毕上述两个 app后，我们就可以用支付宝或微信购买数字货币，再用数字货币充值虚拟银行卡。充值完毕后，虚拟银行卡被激活，即可绑定 ChatGPT 账号，就可以使用 API 啦😆</p>
+<p>上述步骤完成后，我们再按照 <a href="https://github.com/binary-husky/gpt_academic#installation"># Installation</a> 的操作，下载项目，配置 <code>API_KEY</code>，安装依赖，即可运行 <code>GPT_Academic</code></p>
+<h1 id="如何配置开机自启动">如何配置开机自启动？</h1>
+<p>创建一个批处理脚本 (start_python.bat)，并在其中添加以下内容：</p>
+<pre tabindex="0"><code>@echo off
+cd /d &#34;path_to_script_directory&#34;
+start /min cmd /c &#34;python main.py&#34;
+</code></pre><p>其中 <code>path_to_script_directory</code> 处填写你要运行的 Python 程序所在位置</p>
+<p>然后，将该批处理脚本移动到开机启动文件夹，按下 <code>Win + R</code> 组合键打开运行窗口，输入 <code>shell:startup</code>，即可打开开机启动文件夹。将批处理脚本拖放到打开的文件夹中即可。</p>
+<p>完成上述操作后，即可实现开机自启动</p>
+<p>除此之外，还可以把 <code>config.py</code> 中的 <code>WEB_PORT</code> 配置成 <code>1024~65535</code> 中的任意一个数字，方便将浏览器中将其收藏为书签，方便访问。</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Android apps</title>
       <link>https://xancoding.cn/posts/2023-07-29-13-46-38/</link>
