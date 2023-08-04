@@ -766,8 +766,6 @@ start /min cmd /c &#34;python main.py&#34;
 &lt;p&gt;在搜索时屏蔽特定网站，做到对低质内容的过滤&lt;/p&gt;
 &lt;h3 id=&#34;rss-reader-extension-by-inoreader&#34;&gt;RSS Reader Extension (by Inoreader)&lt;/h3&gt;
 &lt;p&gt;Build your own newsfeed&lt;/p&gt;
-&lt;h3 id=&#34;scispace-copilot&#34;&gt;&lt;strong&gt;SciSpace Copilot&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Your AI research assistant for understanding scientific literature.&lt;/p&gt;
 &lt;h3 id=&#34;zotero-connector&#34;&gt;Zotero Connector&lt;/h3&gt;
 &lt;p&gt;Save references to Zotero from your web browser&lt;/p&gt;
 &lt;h3 id=&#34;划词翻译&#34;&gt;划词翻译&lt;/h3&gt;
@@ -881,8 +879,6 @@ start /min cmd /c &#34;python main.py&#34;
 <p>在搜索时屏蔽特定网站，做到对低质内容的过滤</p>
 <h3 id="rss-reader-extension-by-inoreader">RSS Reader Extension (by Inoreader)</h3>
 <p>Build your own newsfeed</p>
-<h3 id="scispace-copilot"><strong>SciSpace Copilot</strong></h3>
-<p>Your AI research assistant for understanding scientific literature.</p>
 <h3 id="zotero-connector">Zotero Connector</h3>
 <p>Save references to Zotero from your web browser</p>
 <h3 id="划词翻译">划词翻译</h3>
