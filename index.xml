@@ -19282,6 +19282,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;p&gt;一站式划词 / 截图 / 网页全文 / 音视频翻译扩展&lt;/p&gt;
 &lt;h3 id=&#34;easyscholar&#34;&gt;easyScholar&lt;/h3&gt;
 &lt;p&gt;显示期刊等级&lt;/p&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/get-better-info/&#34;&gt;优化自己的信息源&lt;/a&gt;&lt;/li&gt;
@@ -19390,6 +19391,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 <p>一站式划词 / 截图 / 网页全文 / 音视频翻译扩展</p>
 <h3 id="easyscholar">easyScholar</h3>
 <p>显示期刊等级</p>
+<h3 id="heading"></h3>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://catcoding.me/p/get-better-info/">优化自己的信息源</a></li>
