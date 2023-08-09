@@ -6,7 +6,27 @@
     <description>Recent content in Tags on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 01 Aug 2023 18:42:11 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Aug 2023 09:25:10 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://xancoding.cn/tags/books/</link>
+      <pubDate>Wed, 09 Aug 2023 09:25:10 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/books/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>https://xancoding.cn/tags/life/</link>
+      <pubDate>Wed, 09 Aug 2023 09:25:10 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/life/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>Tech</title>
       <link>https://xancoding.cn/tags/tech/</link>
@@ -23,16 +43,6 @@
       <pubDate>Tue, 01 Aug 2023 18:42:11 +0800</pubDate>
       
       <guid>https://xancoding.cn/tags/tools/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Life</title>
-      <link>https://xancoding.cn/tags/life/</link>
-      <pubDate>Mon, 31 Jul 2023 09:47:51 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/tags/life/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
