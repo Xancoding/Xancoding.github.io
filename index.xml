@@ -11213,10 +11213,19 @@ export {
 &lt;h3 id=&#34;commander---hover-editor&#34;&gt;Commander  &amp;amp; Hover Editor&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;Commder&lt;/code&gt; 可以利用 &lt;code&gt;macros&lt;/code&gt; 自定义命令&lt;/p&gt;
 &lt;p&gt;我们自定义命令后，绑定快捷键 &lt;code&gt;Ctrl+Shift+X&lt;/code&gt;，使&lt;code&gt; Style Settings&lt;/code&gt; 面板悬浮，方便配置美观的编辑界面&lt;/p&gt;
-&lt;h3 id=&#34;hypothesis&#34;&gt;hypothes.is&lt;/h3&gt;
+&lt;h3 id=&#34;hypothesis&#34;&gt;Hypothes.is&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://seviche.cc/2022-05-25-hypothesis/&#34;&gt;# Hypothesis 使用小记&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;网页批注工具，配合 Chrome Browser 使用&lt;/p&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/08/10/64d453059591b.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;笔记模板配置&lt;/div&gt; 
+ &lt;/center&gt;
 &lt;h1 id=&#34;flomo-浮墨笔记&#34;&gt;flomo 浮墨笔记&lt;/h1&gt;
 &lt;p&gt;在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录&lt;/p&gt;
 &lt;p&gt;在想回顾时，可以方便知晓过去的想法
@@ -11310,10 +11319,19 @@ export {
 <h3 id="commander---hover-editor">Commander  &amp; Hover Editor</h3>
 <p><code>Commder</code> 可以利用 <code>macros</code> 自定义命令</p>
 <p>我们自定义命令后，绑定快捷键 <code>Ctrl+Shift+X</code>，使<code> Style Settings</code> 面板悬浮，方便配置美观的编辑界面</p>
-<h3 id="hypothesis">hypothes.is</h3>
+<h3 id="hypothesis">Hypothes.is</h3>
 <ul>
 <li><a href="https://seviche.cc/2022-05-25-hypothesis/"># Hypothesis 使用小记</a></li>
 </ul>
+<p>网页批注工具，配合 Chrome Browser 使用</p>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/08/10/64d453059591b.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">笔记模板配置</div> 
+ </center>
 <h1 id="flomo-浮墨笔记">flomo 浮墨笔记</h1>
 <p>在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录</p>
 <p>在想回顾时，可以方便知晓过去的想法
@@ -19397,7 +19415,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;p&gt;聚合ChatGPT、New Bing、Claude等大语言模型&lt;/p&gt;
 &lt;h3 id=&#34;new-bing-anywhere-bing-chat-gpt-4&#34;&gt;New Bing Anywhere (Bing Chat GPT-4)&lt;/h3&gt;
 &lt;p&gt;在 Chrome 中使用 NewBing&lt;/p&gt;
-&lt;h3 id=&#34;hypothesis&#34;&gt;Hypothesis&lt;/h3&gt;
+&lt;h3 id=&#34;hypothesis---web--pdf-annotation&#34;&gt;Hypothesis - Web &amp;amp; PDF Annotation&lt;/h3&gt;
 &lt;p&gt;网页批注工具，可配合 Obsidian 使用&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
@@ -19514,7 +19532,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 <p>聚合ChatGPT、New Bing、Claude等大语言模型</p>
 <h3 id="new-bing-anywhere-bing-chat-gpt-4">New Bing Anywhere (Bing Chat GPT-4)</h3>
 <p>在 Chrome 中使用 NewBing</p>
-<h3 id="hypothesis">Hypothesis</h3>
+<h3 id="hypothesis---web--pdf-annotation">Hypothesis - Web &amp; PDF Annotation</h3>
 <p>网页批注工具，可配合 Obsidian 使用</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
