@@ -670,9 +670,48 @@
 &lt;p&gt;以下是我使用的一些插件👇&lt;/p&gt;
 &lt;h2 id=&#34;zotero-style-266&#34;&gt;Zotero Style 2.6.6&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.notion.so/Zotero-Style-bc2aebbbb6df4b7baa858e376e4fc5be&#34;&gt;zotero-style&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.notion.so/Zotero-Style-bc2aebbbb6df4b7baa858e376e4fc5be&#34;&gt;zotero-style-zh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MuiseDestiny/zotero-style&#34;&gt;zotero-style&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ss4y1E7sX/?t=776&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;Zotero Style 使用手册&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1dM411574y/?spm_id_from=333.999.0.0&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# Zotero style使用手册第二期-详操篇&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/read/cv22879294?jump_opus=1&#34;&gt;# Zotero Style 使用手册&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Zotero Style 2.6.6 版本适配 &lt;code&gt;Zotero 6&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;zotero-tags&#34;&gt;Zotero &lt;code&gt;Tags&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.emojiall.com/zh-hans&#34;&gt;Emoji 大全&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;标注每篇论文的状态&lt;/p&gt;
+&lt;p&gt;🗸 打勾标志：已读摘要
+☁️ 云 (表情样式)：正在读的文献
+💡 灯泡：产生新的idea 的论文
+🎈 气球：已读
+📃 带卷边的页面：有重要内容，需要参考的
+❤️ 红心 (表情样式)：重要的在读的&lt;/p&gt;
+&lt;p&gt;作者：Luminary-S 出处：bilibili&lt;/p&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/08/14/64d9ca161b89f.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;Result&lt;/div&gt; 
+ &lt;/center&gt;
+&lt;h3 id=&#34;zotero-tags-1&#34;&gt;Zotero &lt;code&gt;#Tags&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;标注每篇论文的重点&lt;/p&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/08/14/64d9c9f0d3615.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;Result&lt;/div&gt; 
+ &lt;/center&gt;
+&lt;h3 id=&#34;publication-tags&#34;&gt;&lt;code&gt;Publication Tags&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;自动更新每篇期刊的标签，需要加载 &lt;a href=&#34;https://www.easyscholar.cc/console/user/open&#34;&gt;easyScholar&lt;/a&gt; 的 密钥&lt;/p&gt;
+&lt;h3 id=&#34;view-group&#34;&gt;&lt;code&gt;View Group&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;为不同的视图分组，如 &lt;code&gt;基本视图&lt;/code&gt;、&lt;code&gt;标签视图&lt;/code&gt;、&lt;code&gt;进度视图&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;zotero-pdf-translate&#34;&gt;Zotero PDF Translate&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zotero.yuque.com/staff-gkhviy/pdf-trans?&#34;&gt;Zotero PDF Translate&lt;/a&gt;&lt;/li&gt;
@@ -683,6 +722,12 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/MuiseDestiny/zotero-reference#zotero-reference&#34;&gt;# Zotero Reference&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;侧边栏展示阅读文献的所有参考文献&lt;/p&gt;
+&lt;h2 id=&#34;zotero-citation-counts-manager&#34;&gt;Zotero Citation Counts Manager&lt;/h2&gt;
+&lt;p&gt;获取引用当前文献的文献数量&lt;/p&gt;
+&lt;h2 id=&#34;阅读小技巧&#34;&gt;阅读小技巧&lt;/h2&gt;
+&lt;p&gt;shift &lt;code&gt;+&lt;/code&gt; +：展开文献，方便查看有无笔记&lt;/p&gt;
+&lt;p&gt;win &lt;code&gt;+&lt;/code&gt; -：折叠展开的文献&lt;/p&gt;
+&lt;p&gt;在遇到想同时阅读 图表与对应的结论 的情况下，我们可以采取 &lt;code&gt;Split Vertically 垂直分割&lt;/code&gt; 的方法&lt;/p&gt;
 &lt;h1 id=&#34;texstudio&#34;&gt;TeXstudio&lt;/h1&gt;
 &lt;p&gt;一款开源的跨平台LaTeX编辑软件&lt;/p&gt;
 </description>
@@ -691,9 +736,48 @@
 <p>以下是我使用的一些插件👇</p>
 <h2 id="zotero-style-266">Zotero Style 2.6.6</h2>
 <ul>
-<li><a href="https://www.notion.so/Zotero-Style-bc2aebbbb6df4b7baa858e376e4fc5be">zotero-style</a></li>
+<li><a href="https://www.notion.so/Zotero-Style-bc2aebbbb6df4b7baa858e376e4fc5be">zotero-style-zh</a></li>
+<li><a href="https://github.com/MuiseDestiny/zotero-style">zotero-style</a></li>
+<li><a href="https://www.bilibili.com/video/BV1ss4y1E7sX/?t=776&amp;vd_source=ae16ff6478eb15c1b87880540263910b">Zotero Style 使用手册</a></li>
+<li><a href="https://www.bilibili.com/video/BV1dM411574y/?spm_id_from=333.999.0.0&amp;vd_source=ae16ff6478eb15c1b87880540263910b"># Zotero style使用手册第二期-详操篇</a></li>
+<li><a href="https://www.bilibili.com/read/cv22879294?jump_opus=1"># Zotero Style 使用手册</a></li>
 </ul>
 <p>Zotero Style 2.6.6 版本适配 <code>Zotero 6</code></p>
+<hr>
+<h3 id="zotero-tags">Zotero <code>Tags</code></h3>
+<ul>
+<li><a href="https://www.emojiall.com/zh-hans">Emoji 大全</a></li>
+</ul>
+<p>标注每篇论文的状态</p>
+<p>🗸 打勾标志：已读摘要
+☁️ 云 (表情样式)：正在读的文献
+💡 灯泡：产生新的idea 的论文
+🎈 气球：已读
+📃 带卷边的页面：有重要内容，需要参考的
+❤️ 红心 (表情样式)：重要的在读的</p>
+<p>作者：Luminary-S 出处：bilibili</p>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/08/14/64d9ca161b89f.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">Result</div> 
+ </center>
+<h3 id="zotero-tags-1">Zotero <code>#Tags</code></h3>
+<p>标注每篇论文的重点</p>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/08/14/64d9c9f0d3615.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">Result</div> 
+ </center>
+<h3 id="publication-tags"><code>Publication Tags</code></h3>
+<p>自动更新每篇期刊的标签，需要加载 <a href="https://www.easyscholar.cc/console/user/open">easyScholar</a> 的 密钥</p>
+<h3 id="view-group"><code>View Group</code></h3>
+<p>为不同的视图分组，如 <code>基本视图</code>、<code>标签视图</code>、<code>进度视图</code></p>
 <h2 id="zotero-pdf-translate">Zotero PDF Translate</h2>
 <ul>
 <li><a href="https://zotero.yuque.com/staff-gkhviy/pdf-trans?">Zotero PDF Translate</a></li>
@@ -704,6 +788,12 @@
 <li><a href="https://github.com/MuiseDestiny/zotero-reference#zotero-reference"># Zotero Reference</a></li>
 </ul>
 <p>侧边栏展示阅读文献的所有参考文献</p>
+<h2 id="zotero-citation-counts-manager">Zotero Citation Counts Manager</h2>
+<p>获取引用当前文献的文献数量</p>
+<h2 id="阅读小技巧">阅读小技巧</h2>
+<p>shift <code>+</code> +：展开文献，方便查看有无笔记</p>
+<p>win <code>+</code> -：折叠展开的文献</p>
+<p>在遇到想同时阅读 图表与对应的结论 的情况下，我们可以采取 <code>Split Vertically 垂直分割</code> 的方法</p>
 <h1 id="texstudio">TeXstudio</h1>
 <p>一款开源的跨平台LaTeX编辑软件</p>
 ]]></content:encoded>
