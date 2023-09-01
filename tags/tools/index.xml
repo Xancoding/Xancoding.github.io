@@ -356,12 +356,15 @@
 &lt;p&gt;网盘聚合，虚拟本地磁盘挂载&lt;/p&gt;
 &lt;h2 id=&#34;idm&#34;&gt;IDM&lt;/h2&gt;
 &lt;p&gt;超级强大下载工具，能和浏览器无缝配合，自动抓取网页视频&lt;/p&gt;
-&lt;h2 id=&#34;onedrive&#34;&gt;OneDrive&lt;/h2&gt;
-&lt;p&gt;在计算机与云之间同步文件，以便能够从任何位置访问你的文件&lt;/p&gt;
 &lt;h2 id=&#34;cloudmusic&#34;&gt;CloudMusic&lt;/h2&gt;
 &lt;p&gt;网易云音乐&lt;/p&gt;
 &lt;h2 id=&#34;vieas&#34;&gt;Vieas&lt;/h2&gt;
 &lt;p&gt;一款轻量级的快速看图工具&lt;/p&gt;
+&lt;h1 id=&#34;云同步&#34;&gt;云同步&lt;/h1&gt;
+&lt;h2 id=&#34;onedrive&#34;&gt;OneDrive&lt;/h2&gt;
+&lt;p&gt;在计算机与云之间同步文件，以便能够从任何位置访问你的文件&lt;/p&gt;
+&lt;h2 id=&#34;坚果云&#34;&gt;坚果云&lt;/h2&gt;
+&lt;p&gt;我用来云同步 Zotero 中的文献&lt;/p&gt;
 &lt;h1 id=&#34;computer-trash-removal&#34;&gt;Computer trash removal&lt;/h1&gt;
 &lt;h2 id=&#34;geek-uninstalled&#34;&gt;Geek Uninstalled&lt;/h2&gt;
 &lt;p&gt;卸载软件，可以卸载的比较干净&lt;/p&gt;
@@ -461,12 +464,15 @@
 <p>网盘聚合，虚拟本地磁盘挂载</p>
 <h2 id="idm">IDM</h2>
 <p>超级强大下载工具，能和浏览器无缝配合，自动抓取网页视频</p>
-<h2 id="onedrive">OneDrive</h2>
-<p>在计算机与云之间同步文件，以便能够从任何位置访问你的文件</p>
 <h2 id="cloudmusic">CloudMusic</h2>
 <p>网易云音乐</p>
 <h2 id="vieas">Vieas</h2>
 <p>一款轻量级的快速看图工具</p>
+<h1 id="云同步">云同步</h1>
+<h2 id="onedrive">OneDrive</h2>
+<p>在计算机与云之间同步文件，以便能够从任何位置访问你的文件</p>
+<h2 id="坚果云">坚果云</h2>
+<p>我用来云同步 Zotero 中的文献</p>
 <h1 id="computer-trash-removal">Computer trash removal</h1>
 <h2 id="geek-uninstalled">Geek Uninstalled</h2>
 <p>卸载软件，可以卸载的比较干净</p>
@@ -874,6 +880,10 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/tw93/Maple&#34;&gt;枫叶书签&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;彻底隐藏掉书签栏，使用 &lt;code&gt;Crtl+B&lt;/code&gt; 快速访问书签，甚至可以输入即搜索&lt;/p&gt;
+&lt;h3 id=&#34;与-github-相关的浏览器插件&#34;&gt;与 &lt;code&gt;Github&lt;/code&gt; 相关的浏览器插件&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;octotree&lt;/code&gt; 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;enchanced github&lt;/code&gt; 可查看单个文件的大小，下载单个文件&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gitzip for github&lt;/code&gt; 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/get-better-info/&#34;&gt;优化自己的信息源&lt;/a&gt;&lt;/li&gt;
@@ -1015,6 +1025,10 @@
 <li><a href="https://github.com/tw93/Maple">枫叶书签</a></li>
 </ul>
 <p>彻底隐藏掉书签栏，使用 <code>Crtl+B</code> 快速访问书签，甚至可以输入即搜索</p>
+<h3 id="与-github-相关的浏览器插件">与 <code>Github</code> 相关的浏览器插件</h3>
+<p><code>octotree</code> 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率</p>
+<p><code>enchanced github</code> 可查看单个文件的大小，下载单个文件</p>
+<p><code>gitzip for github</code> 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://catcoding.me/p/get-better-info/">优化自己的信息源</a></li>

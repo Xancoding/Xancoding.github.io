@@ -6,7 +6,563 @@
     <description>Recent content in Life on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 09 Aug 2023 09:25:10 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Aug 2023 17:31:56 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>8 月总结</title>
+      <link>https://xancoding.cn/posts/2023-08-31-17-31-55/</link>
+      <pubDate>Thu, 31 Aug 2023 17:31:56 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2023-08-31-17-31-55/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;学习
+&lt;ol&gt;
+&lt;li&gt;基于 OpenAI API 自建
+&lt;ol&gt;
+&lt;li&gt;0802 Finished 完成 Demo&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;酒井科协暑培 2023
+&lt;ol&gt;
+&lt;li&gt;0802 Finished Docker&lt;/li&gt;
+&lt;li&gt;0802 Finished Rust Web&lt;/li&gt;
+&lt;li&gt;0802 Finished Django&lt;/li&gt;
+&lt;li&gt;0817 Finished Python&lt;/li&gt;
+&lt;li&gt;神经网络 &amp;amp; PyTorch&lt;/li&gt;
+&lt;li&gt;数据分析 &amp;amp; NumPy&lt;/li&gt;
+&lt;li&gt;爬虫&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;0803 Finished Software Engineering Course Index
+&lt;ol&gt;
+&lt;li&gt;前后端分离开发基础&lt;/li&gt;
+&lt;li&gt;部署基础&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;运动
+&lt;ol&gt;
+&lt;li&gt;0804 第一次办健身卡季卡，第一次去健身房&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;0809 Finished &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html&#34;&gt;从Python到发表一篇AI论文（核心 or Sci三区+）（目录）&lt;/a&gt; 
+&lt;ol&gt;
+&lt;li&gt;0805 Finished 第一篇 快速学完 Python&lt;/li&gt;
+&lt;li&gt;0809 Finished &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14662511.html&#34;&gt;第六篇 Pytorch&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;一、前置基础（选看）&lt;/li&gt;
+&lt;li&gt;二、Pytorch 引入&lt;/li&gt;
+&lt;li&gt;三、Pytorch 搭建神经网络流程&lt;/li&gt;
+&lt;li&gt;四、Pytorch 的 Tensor 操作&lt;/li&gt;
+&lt;li&gt;五、Pytorch 的 autograd 操作&lt;/li&gt;
+&lt;li&gt;六、Pytorch 的 nn 工具箱&lt;/li&gt;
+&lt;li&gt;七、Pytorch 中常用的工具
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14708224.html&#34;&gt;0701-数据处理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14717067.html&#34;&gt;0703-可视化工具tensorboard和visdom&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;0809 Finished 八、Pytorch 实战
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14726984.html&#34;&gt;0801-深度学习程序架构设计 - 水论文的程序猿 - 博客园&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;0809 Finished 模型暂时不知道如何载入，故代码没跑起来 &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14735670.html&#34;&gt;0802-编程实战_猫和狗二分类_深度学习项目架构&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14737988.html&#34;&gt;0803-PyTorch的Debug指南&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;0809 Finished 九、AI 插画师：生成对抗网络（GAN）实战
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14745142.html&#34;&gt;0901-生成对抗网络GAN的原理简介&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;0809 要花一天时间爬数据，故放弃 &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14763427.html&#34;&gt;0902-用GAN生成动漫头像&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html#%E7%AC%AC%E4%B8%83%E7%AF%87-transformer&#34;&gt;第七篇 Transformer&lt;/a&gt;&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html#transformergptbert%E9%A2%84%E8%AE%AD%E7%BB%83%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F%E7%90%86%E8%AE%BA&#34;&gt;Transformer、GPT、BERT，预训练语言模型的前世今生（理论）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html#%E9%80%9A%E8%BF%87-pytorch-%E6%9E%84%E5%BB%BA-transformer-%E6%A1%86%E6%9E%B6%E7%9C%9F%E5%AE%9E%E6%88%98%E4%B8%8D%E5%81%9A%E8%B0%83%E5%8C%85%E4%BE%A0&#34;&gt;通过 Pytorch 构建 Transformer 框架（真实战，不做调包侠）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;0809 Finished 第九篇 相关杂篇 &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16540621.html&#34;&gt;00 你想要学习的 AI+Python，捷径在这里&lt;/a&gt;&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;数学&lt;/li&gt;
+&lt;li&gt;机器学习&lt;/li&gt;
+&lt;li&gt;深度学习 与 Pytorch&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定领域方向，看自己领域的综述论文，再看自己领域论文，跑自己领域的代码模型&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;看完论文，你会有很多想法，使用 Python 实现它，Pytorch 作为一个框架，可以降低你的实现难度&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;0809 Finished &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16777301.html&#34;&gt;第十篇 导师不敢和你说的水论文隐藏技巧&lt;/a&gt;&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;没有代码，我们手动构建，基本上是不可能。一定要找到一份代码，无论是顶刊的还是四区的。模型一定是可以调通，且复现后性能不会太差。现在开始做的，就是大量看论文（不要看得太细了），如果觉得这篇论文的思想可以粘在你的模型上。性能差不多，一般都可以通过调参解决。我引用了 A 模型，然后我改成了 B 模型。只针对一个数据集。就可以水一篇，三四区&lt;/li&gt;
+&lt;li&gt;水刊：SCI4 区，部分三区。一个论文需要多个数据集（两个），绝大多数水刊只用了一个数据集。一个论文需要创新，对你这个领域需要有独到的见解，先提出问题（领域内的问题），然后解决，绝大多数水刊，可能只是 A 领域用了这个，还不错，我就把 A 领域的拿到 B 领域来。&lt;/li&gt;
+&lt;li&gt;我们需要有一个基础的模型（基准模型）。不断地尝试，把好一点的论文的方法加到我的基准模型上（不一定说要一模一样，怎么简单怎么来）。可能一次次的尝试，都无用，调参能解决绝大多数性能问题。一定要吹得狠一点（编故事，你一定是想办法编出一个问题，这个问题是你领域内的问题）。分级注意力网络（3 层）&lt;/li&gt;
+&lt;li&gt;如果你要定好了方向，一定要去看几篇该方向的综述。综述讲解了你这个方向的近几年的技术的发展情况（脉络）。把最近 3 年的该方向的文章全部找出来，分类，概述每一篇论文（都是从摘要里面摘抄一两句话）。&lt;/li&gt;
+&lt;li&gt;小论文要创新，不需要工作量，不需要你详细的解释，通篇你要解释你创新的点是什么，做出了什么成绩，这件事对你这个方向和你这个领域有什么贡献，当然，水一篇论文其实没那么多要求（sci四区）。你用了什么方法，比如说我做了目标检测、知识图谱（找一篇综述）、推荐系统、命名实体识别。小论文要知道，你通过这四个东西的叠加完成了一件什么样的事情（会编会吹）。&lt;/li&gt;
+&lt;li&gt;定基准模型，如果有继承，3 天。首先得找大量的论文，基本是顶刊顶会，大概率会给代码，且给的代码有 README，代码有系统性，方便你以后改动。有了基准模型之后，尽量把这个基准模型的模型部分（models）给看懂，至于数据集处理和训练没必要。定思想，改进的思想。找更多的论文，去找灵感，不如说尝试，不断地加入小模块进入你的基准模型，有用，没用，调个参，调参也没用，换一个。出效果后，想办法编故事&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;0808 Finished &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686958.html#tid-K3aFrr&#34;&gt;人工智能从入门到放弃-Sklearn实战（目录）&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;0810 Finished 01部分 机器学习基础&lt;/li&gt;
+&lt;li&gt;02部分 监督学习&lt;/li&gt;
+&lt;li&gt;03部分 无监督学习&lt;/li&gt;
+&lt;li&gt;04部分 集成学习&lt;/li&gt;
+&lt;li&gt;05部分 特征工程&lt;/li&gt;
+&lt;li&gt;0808 Finished 06部分 深度学习 &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686775.html&#34;&gt;06-01 DeepLearning-图像识别&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;0810 Finished &lt;strong&gt;附录A：优化算法&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;0810 Finished &lt;strong&gt;附录B：数学&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686764.html&#34;&gt;B-概率论-熵和信息增益&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686765.html&#34;&gt;B-概率论-贝叶斯决策&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686709.html&#34;&gt;B-线性代数-范数&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686745.html&#34;&gt;B-线性代数-距离公式汇总&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10802091.html&#34;&gt;机器学习-项目杂记（目录）&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;第三篇 常用库
+&lt;ul&gt;
+&lt;li&gt;0806 Finished &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10807564.html&#34;&gt;numpy模块&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10807568.html&#34;&gt;pandas模块&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10807571.html&#34;&gt;matplotlib模块&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14900036.html&#34;&gt;# 凸优化从入门到放弃（目录）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;看 GNN 论文
+&lt;ol&gt;
+&lt;li&gt;Adaptive Graph Encoder for Attributed Graph Embedding 这篇Github上有具体的代码，去用起来 AGE&lt;/li&gt;
+&lt;li&gt;Attributed Graph Clustering via Adaptive Graph Convolution 这篇准确来说不能叫图卷积神经网络，应该是叫图卷积，AGE那篇可以说是GCN，你可以看一下他们两个的区别。 AGC&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;0814 Finished pyG——GetStarted
+&lt;ol&gt;
+&lt;li&gt;Data Transforms&lt;/li&gt;
+&lt;li&gt;Learning Methods on Graphs&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;看 GNN 相关论文，找自己的方向&lt;/li&gt;
+&lt;li&gt;0824 Finished &lt;a href=&#34;https://tangshusen.me/Dive-into-DL-PyTorch/&#34;&gt;《动手学深度学习》(PyTorch版)&lt;/a&gt; 优化算法、RNN、NLP 部分内容未看；CV 内容不准备看
+&lt;ol&gt;
+&lt;li&gt;基于 OpenAI API 自建
+&lt;ol&gt;
+&lt;li&gt;0802 Finished 完成 Demo&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;酒井科协暑培 2023
+&lt;ol&gt;
+&lt;li&gt;0802 Finished Docker&lt;/li&gt;
+&lt;li&gt;0802 Finished Rust Web&lt;/li&gt;
+&lt;li&gt;0802 Finished Django&lt;/li&gt;
+&lt;li&gt;0817 Finished Python&lt;/li&gt;
+&lt;li&gt;神经网络 &amp;amp; PyTorch&lt;/li&gt;
+&lt;li&gt;数据分析 &amp;amp; NumPy&lt;/li&gt;
+&lt;li&gt;爬虫&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;0803 Finished Software Engineering Course Index
+&lt;ol&gt;
+&lt;li&gt;前后端分离开发基础&lt;/li&gt;
+&lt;li&gt;部署基础&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;运动
+&lt;ol&gt;
+&lt;li&gt;0804 第一次办健身卡季卡，第一次去健身房&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;0809 Finished &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html&#34;&gt;从Python到发表一篇AI论文（核心 or Sci三区+）（目录）&lt;/a&gt; 
+&lt;ol&gt;
+&lt;li&gt;0805 Finished 第一篇 快速学完 Python&lt;/li&gt;
+&lt;li&gt;0809 Finished &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14662511.html&#34;&gt;第六篇 Pytorch&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;一、前置基础（选看）&lt;/li&gt;
+&lt;li&gt;二、Pytorch 引入&lt;/li&gt;
+&lt;li&gt;三、Pytorch 搭建神经网络流程&lt;/li&gt;
+&lt;li&gt;四、Pytorch 的 Tensor 操作&lt;/li&gt;
+&lt;li&gt;五、Pytorch 的 autograd 操作&lt;/li&gt;
+&lt;li&gt;六、Pytorch 的 nn 工具箱&lt;/li&gt;
+&lt;li&gt;七、Pytorch 中常用的工具
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14708224.html&#34;&gt;0701-数据处理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14717067.html&#34;&gt;0703-可视化工具tensorboard和visdom&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;0809 Finished 八、Pytorch 实战
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14726984.html&#34;&gt;0801-深度学习程序架构设计 - 水论文的程序猿 - 博客园&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;0809 Finished 模型暂时不知道如何载入，故代码没跑起来 &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14735670.html&#34;&gt;0802-编程实战_猫和狗二分类_深度学习项目架构&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14737988.html&#34;&gt;0803-PyTorch的Debug指南&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;0809 Finished 九、AI 插画师：生成对抗网络（GAN）实战
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14745142.html&#34;&gt;0901-生成对抗网络GAN的原理简介&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;0809 要花一天时间爬数据，故放弃 &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14763427.html&#34;&gt;0902-用GAN生成动漫头像&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html#%E7%AC%AC%E4%B8%83%E7%AF%87-transformer&#34;&gt;第七篇 Transformer&lt;/a&gt;&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html#transformergptbert%E9%A2%84%E8%AE%AD%E7%BB%83%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F%E7%90%86%E8%AE%BA&#34;&gt;Transformer、GPT、BERT，预训练语言模型的前世今生（理论）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html#%E9%80%9A%E8%BF%87-pytorch-%E6%9E%84%E5%BB%BA-transformer-%E6%A1%86%E6%9E%B6%E7%9C%9F%E5%AE%9E%E6%88%98%E4%B8%8D%E5%81%9A%E8%B0%83%E5%8C%85%E4%BE%A0&#34;&gt;通过 Pytorch 构建 Transformer 框架（真实战，不做调包侠）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;0809 Finished 第九篇 相关杂篇 &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16540621.html&#34;&gt;00 你想要学习的 AI+Python，捷径在这里&lt;/a&gt;&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;数学&lt;/li&gt;
+&lt;li&gt;机器学习&lt;/li&gt;
+&lt;li&gt;深度学习 与 Pytorch&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定领域方向，看自己领域的综述论文，再看自己领域论文，跑自己领域的代码模型&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;看完论文，你会有很多想法，使用 Python 实现它，Pytorch 作为一个框架，可以降低你的实现难度&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;0809 Finished &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16777301.html&#34;&gt;第十篇 导师不敢和你说的水论文隐藏技巧&lt;/a&gt;&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;没有代码，我们手动构建，基本上是不可能。一定要找到一份代码，无论是顶刊的还是四区的。模型一定是可以调通，且复现后性能不会太差。现在开始做的，就是大量看论文（不要看得太细了），如果觉得这篇论文的思想可以粘在你的模型上。性能差不多，一般都可以通过调参解决。我引用了 A 模型，然后我改成了 B 模型。只针对一个数据集。就可以水一篇，三四区&lt;/li&gt;
+&lt;li&gt;水刊：SCI4 区，部分三区。一个论文需要多个数据集（两个），绝大多数水刊只用了一个数据集。一个论文需要创新，对你这个领域需要有独到的见解，先提出问题（领域内的问题），然后解决，绝大多数水刊，可能只是 A 领域用了这个，还不错，我就把 A 领域的拿到 B 领域来。&lt;/li&gt;
+&lt;li&gt;我们需要有一个基础的模型（基准模型）。不断地尝试，把好一点的论文的方法加到我的基准模型上（不一定说要一模一样，怎么简单怎么来）。可能一次次的尝试，都无用，调参能解决绝大多数性能问题。一定要吹得狠一点（编故事，你一定是想办法编出一个问题，这个问题是你领域内的问题）。分级注意力网络（3 层）&lt;/li&gt;
+&lt;li&gt;如果你要定好了方向，一定要去看几篇该方向的综述。综述讲解了你这个方向的近几年的技术的发展情况（脉络）。把最近 3 年的该方向的文章全部找出来，分类，概述每一篇论文（都是从摘要里面摘抄一两句话）。&lt;/li&gt;
+&lt;li&gt;小论文要创新，不需要工作量，不需要你详细的解释，通篇你要解释你创新的点是什么，做出了什么成绩，这件事对你这个方向和你这个领域有什么贡献，当然，水一篇论文其实没那么多要求（sci四区）。你用了什么方法，比如说我做了目标检测、知识图谱（找一篇综述）、推荐系统、命名实体识别。小论文要知道，你通过这四个东西的叠加完成了一件什么样的事情（会编会吹）。&lt;/li&gt;
+&lt;li&gt;定基准模型，如果有继承，3 天。首先得找大量的论文，基本是顶刊顶会，大概率会给代码，且给的代码有 README，代码有系统性，方便你以后改动。有了基准模型之后，尽量把这个基准模型的模型部分（models）给看懂，至于数据集处理和训练没必要。定思想，改进的思想。找更多的论文，去找灵感，不如说尝试，不断地加入小模块进入你的基准模型，有用，没用，调个参，调参也没用，换一个。出效果后，想办法编故事&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;0808 Finished &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686958.html#tid-K3aFrr&#34;&gt;人工智能从入门到放弃-Sklearn实战（目录）&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;0810 Finished 01部分 机器学习基础&lt;/li&gt;
+&lt;li&gt;02部分 监督学习&lt;/li&gt;
+&lt;li&gt;03部分 无监督学习&lt;/li&gt;
+&lt;li&gt;04部分 集成学习&lt;/li&gt;
+&lt;li&gt;05部分 特征工程&lt;/li&gt;
+&lt;li&gt;0808 Finished 06部分 深度学习 &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686775.html&#34;&gt;06-01 DeepLearning-图像识别&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;0810 Finished &lt;strong&gt;附录A：优化算法&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;0810 Finished &lt;strong&gt;附录B：数学&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686764.html&#34;&gt;B-概率论-熵和信息增益&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686765.html&#34;&gt;B-概率论-贝叶斯决策&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686709.html&#34;&gt;B-线性代数-范数&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686745.html&#34;&gt;B-线性代数-距离公式汇总&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10802091.html&#34;&gt;机器学习-项目杂记（目录）&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;第三篇 常用库
+&lt;ul&gt;
+&lt;li&gt;0806 Finished &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10807564.html&#34;&gt;numpy模块&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10807568.html&#34;&gt;pandas模块&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10807571.html&#34;&gt;matplotlib模块&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14900036.html&#34;&gt;# 凸优化从入门到放弃（目录）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;看 GNN 论文
+&lt;ol&gt;
+&lt;li&gt;Adaptive Graph Encoder for Attributed Graph Embedding 这篇Github上有具体的代码，去用起来 AGE&lt;/li&gt;
+&lt;li&gt;Attributed Graph Clustering via Adaptive Graph Convolution 这篇准确来说不能叫图卷积神经网络，应该是叫图卷积，AGE那篇可以说是GCN，你可以看一下他们两个的区别。 AGC&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;0814 Finished pyG——GetStarted
+&lt;ol&gt;
+&lt;li&gt;Data Transforms&lt;/li&gt;
+&lt;li&gt;Learning Methods on Graphs&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;看 GNN 相关论文，找自己的方向&lt;/li&gt;
+&lt;li&gt;0824 Finished &lt;a href=&#34;https://tangshusen.me/Dive-into-DL-PyTorch/&#34;&gt;《动手学深度学习》(PyTorch版)&lt;/a&gt; 优化算法、RNN、NLP 部分内容未看；CV 内容不准备看&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <content:encoded><![CDATA[<ol>
+<li>学习
+<ol>
+<li>基于 OpenAI API 自建
+<ol>
+<li>0802 Finished 完成 Demo</li>
+</ol>
+</li>
+<li>酒井科协暑培 2023
+<ol>
+<li>0802 Finished Docker</li>
+<li>0802 Finished Rust Web</li>
+<li>0802 Finished Django</li>
+<li>0817 Finished Python</li>
+<li>神经网络 &amp; PyTorch</li>
+<li>数据分析 &amp; NumPy</li>
+<li>爬虫</li>
+</ol>
+</li>
+<li>0803 Finished Software Engineering Course Index
+<ol>
+<li>前后端分离开发基础</li>
+<li>部署基础</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>运动
+<ol>
+<li>0804 第一次办健身卡季卡，第一次去健身房</li>
+</ol>
+</li>
+<li>0809 Finished <a href="https://www.cnblogs.com/nickchen121/p/16470443.html">从Python到发表一篇AI论文（核心 or Sci三区+）（目录）</a> 
+<ol>
+<li>0805 Finished 第一篇 快速学完 Python</li>
+<li>0809 Finished <a href="https://www.cnblogs.com/nickchen121/p/14662511.html">第六篇 Pytorch</a>
+<ol>
+<li>一、前置基础（选看）</li>
+<li>二、Pytorch 引入</li>
+<li>三、Pytorch 搭建神经网络流程</li>
+<li>四、Pytorch 的 Tensor 操作</li>
+<li>五、Pytorch 的 autograd 操作</li>
+<li>六、Pytorch 的 nn 工具箱</li>
+<li>七、Pytorch 中常用的工具
+<ol>
+<li><a href="https://www.cnblogs.com/nickchen121/p/14708224.html">0701-数据处理</a></li>
+<li><a href="https://www.cnblogs.com/nickchen121/p/14717067.html">0703-可视化工具tensorboard和visdom</a></li>
+</ol>
+</li>
+<li>0809 Finished 八、Pytorch 实战
+<ol>
+<li><a href="https://www.cnblogs.com/nickchen121/p/14726984.html">0801-深度学习程序架构设计 - 水论文的程序猿 - 博客园</a></li>
+<li>0809 Finished 模型暂时不知道如何载入，故代码没跑起来 <a href="https://www.cnblogs.com/nickchen121/p/14735670.html">0802-编程实战_猫和狗二分类_深度学习项目架构</a></li>
+<li><strong><a href="https://www.cnblogs.com/nickchen121/p/14737988.html">0803-PyTorch的Debug指南</a></strong></li>
+</ol>
+</li>
+<li>0809 Finished 九、AI 插画师：生成对抗网络（GAN）实战
+<ol>
+<li><a href="https://www.cnblogs.com/nickchen121/p/14745142.html">0901-生成对抗网络GAN的原理简介</a></li>
+<li>0809 要花一天时间爬数据，故放弃 <strong><a href="https://www.cnblogs.com/nickchen121/p/14763427.html">0902-用GAN生成动漫头像</a></strong></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><strong><a href="https://www.cnblogs.com/nickchen121/p/16470443.html#%E7%AC%AC%E4%B8%83%E7%AF%87-transformer">第七篇 Transformer</a></strong>
+<ul>
+<li><a href="https://www.cnblogs.com/nickchen121/p/16470443.html#transformergptbert%E9%A2%84%E8%AE%AD%E7%BB%83%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F%E7%90%86%E8%AE%BA">Transformer、GPT、BERT，预训练语言模型的前世今生（理论）</a></li>
+<li><a href="https://www.cnblogs.com/nickchen121/p/16470443.html#%E9%80%9A%E8%BF%87-pytorch-%E6%9E%84%E5%BB%BA-transformer-%E6%A1%86%E6%9E%B6%E7%9C%9F%E5%AE%9E%E6%88%98%E4%B8%8D%E5%81%9A%E8%B0%83%E5%8C%85%E4%BE%A0">通过 Pytorch 构建 Transformer 框架（真实战，不做调包侠）</a></li>
+</ul>
+</li>
+<li>0809 Finished 第九篇 相关杂篇 <strong><a href="https://www.cnblogs.com/nickchen121/p/16540621.html">00 你想要学习的 AI+Python，捷径在这里</a></strong>
+<ol>
+<li>Python</li>
+<li>数学</li>
+<li>机器学习</li>
+<li>深度学习 与 Pytorch</li>
+<li><strong>定领域方向，看自己领域的综述论文，再看自己领域论文，跑自己领域的代码模型</strong></li>
+<li><strong>看完论文，你会有很多想法，使用 Python 实现它，Pytorch 作为一个框架，可以降低你的实现难度</strong></li>
+</ol>
+</li>
+<li>0809 Finished <strong><a href="https://www.cnblogs.com/nickchen121/p/16777301.html">第十篇 导师不敢和你说的水论文隐藏技巧</a></strong>
+<ol>
+<li>没有代码，我们手动构建，基本上是不可能。一定要找到一份代码，无论是顶刊的还是四区的。模型一定是可以调通，且复现后性能不会太差。现在开始做的，就是大量看论文（不要看得太细了），如果觉得这篇论文的思想可以粘在你的模型上。性能差不多，一般都可以通过调参解决。我引用了 A 模型，然后我改成了 B 模型。只针对一个数据集。就可以水一篇，三四区</li>
+<li>水刊：SCI4 区，部分三区。一个论文需要多个数据集（两个），绝大多数水刊只用了一个数据集。一个论文需要创新，对你这个领域需要有独到的见解，先提出问题（领域内的问题），然后解决，绝大多数水刊，可能只是 A 领域用了这个，还不错，我就把 A 领域的拿到 B 领域来。</li>
+<li>我们需要有一个基础的模型（基准模型）。不断地尝试，把好一点的论文的方法加到我的基准模型上（不一定说要一模一样，怎么简单怎么来）。可能一次次的尝试，都无用，调参能解决绝大多数性能问题。一定要吹得狠一点（编故事，你一定是想办法编出一个问题，这个问题是你领域内的问题）。分级注意力网络（3 层）</li>
+<li>如果你要定好了方向，一定要去看几篇该方向的综述。综述讲解了你这个方向的近几年的技术的发展情况（脉络）。把最近 3 年的该方向的文章全部找出来，分类，概述每一篇论文（都是从摘要里面摘抄一两句话）。</li>
+<li>小论文要创新，不需要工作量，不需要你详细的解释，通篇你要解释你创新的点是什么，做出了什么成绩，这件事对你这个方向和你这个领域有什么贡献，当然，水一篇论文其实没那么多要求（sci四区）。你用了什么方法，比如说我做了目标检测、知识图谱（找一篇综述）、推荐系统、命名实体识别。小论文要知道，你通过这四个东西的叠加完成了一件什么样的事情（会编会吹）。</li>
+<li>定基准模型，如果有继承，3 天。首先得找大量的论文，基本是顶刊顶会，大概率会给代码，且给的代码有 README，代码有系统性，方便你以后改动。有了基准模型之后，尽量把这个基准模型的模型部分（models）给看懂，至于数据集处理和训练没必要。定思想，改进的思想。找更多的论文，去找灵感，不如说尝试，不断地加入小模块进入你的基准模型，有用，没用，调个参，调参也没用，换一个。出效果后，想办法编故事</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>0808 Finished <a href="https://www.cnblogs.com/nickchen121/p/11686958.html#tid-K3aFrr">人工智能从入门到放弃-Sklearn实战（目录）</a>
+<ol>
+<li>0810 Finished 01部分 机器学习基础</li>
+<li>02部分 监督学习</li>
+<li>03部分 无监督学习</li>
+<li>04部分 集成学习</li>
+<li>05部分 特征工程</li>
+<li>0808 Finished 06部分 深度学习 <a href="https://www.cnblogs.com/nickchen121/p/11686775.html">06-01 DeepLearning-图像识别</a></li>
+<li>0810 Finished <strong>附录A：优化算法</strong></li>
+<li>0810 Finished <strong>附录B：数学</strong>
+<ol>
+<li><strong><a href="https://www.cnblogs.com/nickchen121/p/11686764.html">B-概率论-熵和信息增益</a></strong></li>
+<li><a href="https://www.cnblogs.com/nickchen121/p/11686765.html">B-概率论-贝叶斯决策</a></li>
+<li><a href="https://www.cnblogs.com/nickchen121/p/11686709.html">B-线性代数-范数</a></li>
+<li><a href="https://www.cnblogs.com/nickchen121/p/11686745.html">B-线性代数-距离公式汇总</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a href="https://www.cnblogs.com/nickchen121/p/10802091.html">机器学习-项目杂记（目录）</a>
+<ol>
+<li>第三篇 常用库
+<ul>
+<li>0806 Finished <strong><a href="https://www.cnblogs.com/nickchen121/p/10807564.html">numpy模块</a></strong></li>
+<li><strong><a href="https://www.cnblogs.com/nickchen121/p/10807568.html">pandas模块</a></strong></li>
+<li><strong><a href="https://www.cnblogs.com/nickchen121/p/10807571.html">matplotlib模块</a></strong></li>
+</ul>
+</li>
+</ol>
+</li>
+<li><a href="https://www.cnblogs.com/nickchen121/p/14900036.html"># 凸优化从入门到放弃（目录）</a></li>
+<li>看 GNN 论文
+<ol>
+<li>Adaptive Graph Encoder for Attributed Graph Embedding 这篇Github上有具体的代码，去用起来 AGE</li>
+<li>Attributed Graph Clustering via Adaptive Graph Convolution 这篇准确来说不能叫图卷积神经网络，应该是叫图卷积，AGE那篇可以说是GCN，你可以看一下他们两个的区别。 AGC</li>
+</ol>
+</li>
+<li>0814 Finished pyG——GetStarted
+<ol>
+<li>Data Transforms</li>
+<li>Learning Methods on Graphs</li>
+</ol>
+</li>
+<li>看 GNN 相关论文，找自己的方向</li>
+<li>0824 Finished <a href="https://tangshusen.me/Dive-into-DL-PyTorch/">《动手学深度学习》(PyTorch版)</a> 优化算法、RNN、NLP 部分内容未看；CV 内容不准备看
+<ol>
+<li>基于 OpenAI API 自建
+<ol>
+<li>0802 Finished 完成 Demo</li>
+</ol>
+</li>
+<li>酒井科协暑培 2023
+<ol>
+<li>0802 Finished Docker</li>
+<li>0802 Finished Rust Web</li>
+<li>0802 Finished Django</li>
+<li>0817 Finished Python</li>
+<li>神经网络 &amp; PyTorch</li>
+<li>数据分析 &amp; NumPy</li>
+<li>爬虫</li>
+</ol>
+</li>
+<li>0803 Finished Software Engineering Course Index
+<ol>
+<li>前后端分离开发基础</li>
+<li>部署基础</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>运动
+<ol>
+<li>0804 第一次办健身卡季卡，第一次去健身房</li>
+</ol>
+</li>
+<li>0809 Finished <a href="https://www.cnblogs.com/nickchen121/p/16470443.html">从Python到发表一篇AI论文（核心 or Sci三区+）（目录）</a> 
+<ol>
+<li>0805 Finished 第一篇 快速学完 Python</li>
+<li>0809 Finished <a href="https://www.cnblogs.com/nickchen121/p/14662511.html">第六篇 Pytorch</a>
+<ol>
+<li>一、前置基础（选看）</li>
+<li>二、Pytorch 引入</li>
+<li>三、Pytorch 搭建神经网络流程</li>
+<li>四、Pytorch 的 Tensor 操作</li>
+<li>五、Pytorch 的 autograd 操作</li>
+<li>六、Pytorch 的 nn 工具箱</li>
+<li>七、Pytorch 中常用的工具
+<ol>
+<li><a href="https://www.cnblogs.com/nickchen121/p/14708224.html">0701-数据处理</a></li>
+<li><a href="https://www.cnblogs.com/nickchen121/p/14717067.html">0703-可视化工具tensorboard和visdom</a></li>
+</ol>
+</li>
+<li>0809 Finished 八、Pytorch 实战
+<ol>
+<li><a href="https://www.cnblogs.com/nickchen121/p/14726984.html">0801-深度学习程序架构设计 - 水论文的程序猿 - 博客园</a></li>
+<li>0809 Finished 模型暂时不知道如何载入，故代码没跑起来 <a href="https://www.cnblogs.com/nickchen121/p/14735670.html">0802-编程实战_猫和狗二分类_深度学习项目架构</a></li>
+<li><strong><a href="https://www.cnblogs.com/nickchen121/p/14737988.html">0803-PyTorch的Debug指南</a></strong></li>
+</ol>
+</li>
+<li>0809 Finished 九、AI 插画师：生成对抗网络（GAN）实战
+<ol>
+<li><a href="https://www.cnblogs.com/nickchen121/p/14745142.html">0901-生成对抗网络GAN的原理简介</a></li>
+<li>0809 要花一天时间爬数据，故放弃 <strong><a href="https://www.cnblogs.com/nickchen121/p/14763427.html">0902-用GAN生成动漫头像</a></strong></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><strong><a href="https://www.cnblogs.com/nickchen121/p/16470443.html#%E7%AC%AC%E4%B8%83%E7%AF%87-transformer">第七篇 Transformer</a></strong>
+<ul>
+<li><a href="https://www.cnblogs.com/nickchen121/p/16470443.html#transformergptbert%E9%A2%84%E8%AE%AD%E7%BB%83%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F%E7%90%86%E8%AE%BA">Transformer、GPT、BERT，预训练语言模型的前世今生（理论）</a></li>
+<li><a href="https://www.cnblogs.com/nickchen121/p/16470443.html#%E9%80%9A%E8%BF%87-pytorch-%E6%9E%84%E5%BB%BA-transformer-%E6%A1%86%E6%9E%B6%E7%9C%9F%E5%AE%9E%E6%88%98%E4%B8%8D%E5%81%9A%E8%B0%83%E5%8C%85%E4%BE%A0">通过 Pytorch 构建 Transformer 框架（真实战，不做调包侠）</a></li>
+</ul>
+</li>
+<li>0809 Finished 第九篇 相关杂篇 <strong><a href="https://www.cnblogs.com/nickchen121/p/16540621.html">00 你想要学习的 AI+Python，捷径在这里</a></strong>
+<ol>
+<li>Python</li>
+<li>数学</li>
+<li>机器学习</li>
+<li>深度学习 与 Pytorch</li>
+<li><strong>定领域方向，看自己领域的综述论文，再看自己领域论文，跑自己领域的代码模型</strong></li>
+<li><strong>看完论文，你会有很多想法，使用 Python 实现它，Pytorch 作为一个框架，可以降低你的实现难度</strong></li>
+</ol>
+</li>
+<li>0809 Finished <strong><a href="https://www.cnblogs.com/nickchen121/p/16777301.html">第十篇 导师不敢和你说的水论文隐藏技巧</a></strong>
+<ol>
+<li>没有代码，我们手动构建，基本上是不可能。一定要找到一份代码，无论是顶刊的还是四区的。模型一定是可以调通，且复现后性能不会太差。现在开始做的，就是大量看论文（不要看得太细了），如果觉得这篇论文的思想可以粘在你的模型上。性能差不多，一般都可以通过调参解决。我引用了 A 模型，然后我改成了 B 模型。只针对一个数据集。就可以水一篇，三四区</li>
+<li>水刊：SCI4 区，部分三区。一个论文需要多个数据集（两个），绝大多数水刊只用了一个数据集。一个论文需要创新，对你这个领域需要有独到的见解，先提出问题（领域内的问题），然后解决，绝大多数水刊，可能只是 A 领域用了这个，还不错，我就把 A 领域的拿到 B 领域来。</li>
+<li>我们需要有一个基础的模型（基准模型）。不断地尝试，把好一点的论文的方法加到我的基准模型上（不一定说要一模一样，怎么简单怎么来）。可能一次次的尝试，都无用，调参能解决绝大多数性能问题。一定要吹得狠一点（编故事，你一定是想办法编出一个问题，这个问题是你领域内的问题）。分级注意力网络（3 层）</li>
+<li>如果你要定好了方向，一定要去看几篇该方向的综述。综述讲解了你这个方向的近几年的技术的发展情况（脉络）。把最近 3 年的该方向的文章全部找出来，分类，概述每一篇论文（都是从摘要里面摘抄一两句话）。</li>
+<li>小论文要创新，不需要工作量，不需要你详细的解释，通篇你要解释你创新的点是什么，做出了什么成绩，这件事对你这个方向和你这个领域有什么贡献，当然，水一篇论文其实没那么多要求（sci四区）。你用了什么方法，比如说我做了目标检测、知识图谱（找一篇综述）、推荐系统、命名实体识别。小论文要知道，你通过这四个东西的叠加完成了一件什么样的事情（会编会吹）。</li>
+<li>定基准模型，如果有继承，3 天。首先得找大量的论文，基本是顶刊顶会，大概率会给代码，且给的代码有 README，代码有系统性，方便你以后改动。有了基准模型之后，尽量把这个基准模型的模型部分（models）给看懂，至于数据集处理和训练没必要。定思想，改进的思想。找更多的论文，去找灵感，不如说尝试，不断地加入小模块进入你的基准模型，有用，没用，调个参，调参也没用，换一个。出效果后，想办法编故事</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>0808 Finished <a href="https://www.cnblogs.com/nickchen121/p/11686958.html#tid-K3aFrr">人工智能从入门到放弃-Sklearn实战（目录）</a>
+<ol>
+<li>0810 Finished 01部分 机器学习基础</li>
+<li>02部分 监督学习</li>
+<li>03部分 无监督学习</li>
+<li>04部分 集成学习</li>
+<li>05部分 特征工程</li>
+<li>0808 Finished 06部分 深度学习 <a href="https://www.cnblogs.com/nickchen121/p/11686775.html">06-01 DeepLearning-图像识别</a></li>
+<li>0810 Finished <strong>附录A：优化算法</strong></li>
+<li>0810 Finished <strong>附录B：数学</strong>
+<ol>
+<li><strong><a href="https://www.cnblogs.com/nickchen121/p/11686764.html">B-概率论-熵和信息增益</a></strong></li>
+<li><a href="https://www.cnblogs.com/nickchen121/p/11686765.html">B-概率论-贝叶斯决策</a></li>
+<li><a href="https://www.cnblogs.com/nickchen121/p/11686709.html">B-线性代数-范数</a></li>
+<li><a href="https://www.cnblogs.com/nickchen121/p/11686745.html">B-线性代数-距离公式汇总</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a href="https://www.cnblogs.com/nickchen121/p/10802091.html">机器学习-项目杂记（目录）</a>
+<ol>
+<li>第三篇 常用库
+<ul>
+<li>0806 Finished <strong><a href="https://www.cnblogs.com/nickchen121/p/10807564.html">numpy模块</a></strong></li>
+<li><strong><a href="https://www.cnblogs.com/nickchen121/p/10807568.html">pandas模块</a></strong></li>
+<li><strong><a href="https://www.cnblogs.com/nickchen121/p/10807571.html">matplotlib模块</a></strong></li>
+</ul>
+</li>
+</ol>
+</li>
+<li><a href="https://www.cnblogs.com/nickchen121/p/14900036.html"># 凸优化从入门到放弃（目录）</a></li>
+<li>看 GNN 论文
+<ol>
+<li>Adaptive Graph Encoder for Attributed Graph Embedding 这篇Github上有具体的代码，去用起来 AGE</li>
+<li>Attributed Graph Clustering via Adaptive Graph Convolution 这篇准确来说不能叫图卷积神经网络，应该是叫图卷积，AGE那篇可以说是GCN，你可以看一下他们两个的区别。 AGC</li>
+</ol>
+</li>
+<li>0814 Finished pyG——GetStarted
+<ol>
+<li>Data Transforms</li>
+<li>Learning Methods on Graphs</li>
+</ol>
+</li>
+<li>看 GNN 相关论文，找自己的方向</li>
+<li>0824 Finished <a href="https://tangshusen.me/Dive-into-DL-PyTorch/">《动手学深度学习》(PyTorch版)</a> 优化算法、RNN、NLP 部分内容未看；CV 内容不准备看</li>
+</ol>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>我的书单</title>
       <link>https://xancoding.cn/posts/2023-08-09-09-25-09/</link>
@@ -5632,12 +6188,15 @@
 &lt;p&gt;网盘聚合，虚拟本地磁盘挂载&lt;/p&gt;
 &lt;h2 id=&#34;idm&#34;&gt;IDM&lt;/h2&gt;
 &lt;p&gt;超级强大下载工具，能和浏览器无缝配合，自动抓取网页视频&lt;/p&gt;
-&lt;h2 id=&#34;onedrive&#34;&gt;OneDrive&lt;/h2&gt;
-&lt;p&gt;在计算机与云之间同步文件，以便能够从任何位置访问你的文件&lt;/p&gt;
 &lt;h2 id=&#34;cloudmusic&#34;&gt;CloudMusic&lt;/h2&gt;
 &lt;p&gt;网易云音乐&lt;/p&gt;
 &lt;h2 id=&#34;vieas&#34;&gt;Vieas&lt;/h2&gt;
 &lt;p&gt;一款轻量级的快速看图工具&lt;/p&gt;
+&lt;h1 id=&#34;云同步&#34;&gt;云同步&lt;/h1&gt;
+&lt;h2 id=&#34;onedrive&#34;&gt;OneDrive&lt;/h2&gt;
+&lt;p&gt;在计算机与云之间同步文件，以便能够从任何位置访问你的文件&lt;/p&gt;
+&lt;h2 id=&#34;坚果云&#34;&gt;坚果云&lt;/h2&gt;
+&lt;p&gt;我用来云同步 Zotero 中的文献&lt;/p&gt;
 &lt;h1 id=&#34;computer-trash-removal&#34;&gt;Computer trash removal&lt;/h1&gt;
 &lt;h2 id=&#34;geek-uninstalled&#34;&gt;Geek Uninstalled&lt;/h2&gt;
 &lt;p&gt;卸载软件，可以卸载的比较干净&lt;/p&gt;
@@ -5737,12 +6296,15 @@
 <p>网盘聚合，虚拟本地磁盘挂载</p>
 <h2 id="idm">IDM</h2>
 <p>超级强大下载工具，能和浏览器无缝配合，自动抓取网页视频</p>
-<h2 id="onedrive">OneDrive</h2>
-<p>在计算机与云之间同步文件，以便能够从任何位置访问你的文件</p>
 <h2 id="cloudmusic">CloudMusic</h2>
 <p>网易云音乐</p>
 <h2 id="vieas">Vieas</h2>
 <p>一款轻量级的快速看图工具</p>
+<h1 id="云同步">云同步</h1>
+<h2 id="onedrive">OneDrive</h2>
+<p>在计算机与云之间同步文件，以便能够从任何位置访问你的文件</p>
+<h2 id="坚果云">坚果云</h2>
+<p>我用来云同步 Zotero 中的文献</p>
 <h1 id="computer-trash-removal">Computer trash removal</h1>
 <h2 id="geek-uninstalled">Geek Uninstalled</h2>
 <p>卸载软件，可以卸载的比较干净</p>
@@ -6326,6 +6888,10 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/tw93/Maple&#34;&gt;枫叶书签&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;彻底隐藏掉书签栏，使用 &lt;code&gt;Crtl+B&lt;/code&gt; 快速访问书签，甚至可以输入即搜索&lt;/p&gt;
+&lt;h3 id=&#34;与-github-相关的浏览器插件&#34;&gt;与 &lt;code&gt;Github&lt;/code&gt; 相关的浏览器插件&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;octotree&lt;/code&gt; 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;enchanced github&lt;/code&gt; 可查看单个文件的大小，下载单个文件&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gitzip for github&lt;/code&gt; 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/get-better-info/&#34;&gt;优化自己的信息源&lt;/a&gt;&lt;/li&gt;
@@ -6467,6 +7033,10 @@
 <li><a href="https://github.com/tw93/Maple">枫叶书签</a></li>
 </ul>
 <p>彻底隐藏掉书签栏，使用 <code>Crtl+B</code> 快速访问书签，甚至可以输入即搜索</p>
+<h3 id="与-github-相关的浏览器插件">与 <code>Github</code> 相关的浏览器插件</h3>
+<p><code>octotree</code> 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率</p>
+<p><code>enchanced github</code> 可查看单个文件的大小，下载单个文件</p>
+<p><code>gitzip for github</code> 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://catcoding.me/p/get-better-info/">优化自己的信息源</a></li>
