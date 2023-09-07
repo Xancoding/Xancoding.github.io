@@ -75,9 +75,8 @@
 &lt;p&gt;手机上的话，我会使用微信读书，把找到的电子书上传到书架后进行阅读&lt;/p&gt;
 &lt;h2 id=&#34;纸质书&#34;&gt;纸质书&lt;/h2&gt;
 &lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）&lt;/p&gt;
-&lt;h1 id=&#34;chatgpt--search-engine&#34;&gt;ChatGPT &amp;amp; Search-engine&lt;/h1&gt;
+&lt;h1 id=&#34;chatgpt--chrome&#34;&gt;ChatGPT &amp;amp; Chrome&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Chrome &amp;amp; AdblockPlus &amp;amp; uBlacklist | Personal Blocklist &amp;amp; ChatGPT for Google &amp;amp; Vimium&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;在搜索引擎体验上， Google （强推，体验极佳） &amp;gt; Bing （偶尔用用） &amp;raquo; Baidu （完全不考虑）&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/589201080&#34;&gt;ChatGPT 使用指南&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.instructables.com/How-to-Properly-Use-a-Search-Engine/&#34;&gt;# How to Properly Use a Search Engine&lt;/a&gt;&lt;/li&gt;
@@ -91,67 +90,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;chrome-plugins&#34;&gt;Chrome plugins&lt;/h2&gt;
-&lt;h3 id=&#34;adblock-plus---free-ad-blocker&#34;&gt;Adblock Plus - free ad blocker&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;AdblockPlus&lt;/code&gt; 由用户手动设置拦截网页上不想看到的内容，我使用这个插件把一些网站我不想要看到的内容进行屏蔽，以获得更为简洁的体验&lt;/p&gt;
-&lt;p&gt;小声BB：启动这个插件，在使用过程中，可能会碰到部分网页显示异常的情况，这个时候需要把该网页加入白名单来保证网页正常显示
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371b54d0642a.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371b54d0642a.png&#34; alt=&#34;3&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;chatgpt-for-google&#34;&gt;ChatGPT for Google&lt;/h3&gt;
-&lt;p&gt;使用 Google 搜索时，右侧便会自动出现chatGPT的回答，如搜索&lt;code&gt;C++虚函数是什么？&lt;/code&gt;，就会出现如下所示的结果：
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0cda30c70c.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/13/63c0cda30c70c.png&#34; alt=&#34;Snipaste_2023-01-13_11-18-47.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;global-speed&#34;&gt;Global Speed&lt;/h3&gt;
-&lt;p&gt;使用键盘调节视频的播放速度，脱离鼠标的使用&lt;/p&gt;
-&lt;h3 id=&#34;idm-integration-module&#34;&gt;IDM Integration Module&lt;/h3&gt;
-&lt;p&gt;使用 &lt;code&gt;IDM&lt;/code&gt; 下载文件&lt;/p&gt;
-&lt;h3 id=&#34;language-reactor&#34;&gt;&lt;strong&gt;Language Reactor&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;学习外语&lt;/p&gt;
-&lt;h3 id=&#34;vimium-c---all-by-keyboard--pdf-viewer-for-vimium-c&#34;&gt;Vimium C - All by Keyboard &amp;amp; PDF Viewer for Vimium C&lt;/h3&gt;
-&lt;p&gt;它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面&lt;/p&gt;
-&lt;p&gt;这个插件我已经有一篇&lt;a href=&#34;https://xancoding.cn/posts/vimium/&#34;&gt;文章&lt;/a&gt;进行更为详细的讲解了，这里就不再展开来说了&lt;/p&gt;
-&lt;h3 id=&#34;personal-blocklist&#34;&gt;Personal Blocklist&lt;/h3&gt;
-&lt;p&gt;在搜索时屏蔽特定网站，做到对低质内容的过滤&lt;/p&gt;
-&lt;h3 id=&#34;rss-reader-extension-by-inoreader&#34;&gt;RSS Reader Extension (by Inoreader)&lt;/h3&gt;
-&lt;p&gt;Build your own newsfeed&lt;/p&gt;
-&lt;h3 id=&#34;zotero-connector&#34;&gt;Zotero Connector&lt;/h3&gt;
-&lt;p&gt;Save references to Zotero from your web browser&lt;/p&gt;
-&lt;h3 id=&#34;划词翻译&#34;&gt;划词翻译&lt;/h3&gt;
-&lt;p&gt;一站式划词 / 截图 / 网页全文 / 音视频翻译扩展&lt;/p&gt;
-&lt;h3 id=&#34;easyscholar&#34;&gt;easyScholar&lt;/h3&gt;
-&lt;p&gt;显示期刊等级&lt;/p&gt;
-&lt;h3 id=&#34;erin&#34;&gt;Erin&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://erin-homepage.vercel.app/&#34;&gt;Erin&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;以插件的形式重新定义自己的新标签页&lt;/p&gt;
-&lt;h3 id=&#34;chathub---all-in-one-chatbot-client&#34;&gt;ChatHub - All-in-one chatbot client&lt;/h3&gt;
-&lt;p&gt;聚合ChatGPT、New Bing、Claude等大语言模型&lt;/p&gt;
-&lt;h3 id=&#34;new-bing-anywhere-bing-chat-gpt-4&#34;&gt;New Bing Anywhere (Bing Chat GPT-4)&lt;/h3&gt;
-&lt;p&gt;在 Chrome 中使用 NewBing&lt;/p&gt;
-&lt;h3 id=&#34;hypothesis---web--pdf-annotation&#34;&gt;Hypothesis - Web &amp;amp; PDF Annotation&lt;/h3&gt;
-&lt;p&gt;网页批注工具，可配合 Obsidian 使用&lt;/p&gt;
-&lt;h3 id=&#34;maple-bookmarks&#34;&gt;Maple Bookmarks&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tw93/Maple&#34;&gt;枫叶书签&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;彻底隐藏掉书签栏，使用 &lt;code&gt;Crtl+B&lt;/code&gt; 快速访问书签，甚至可以输入即搜索&lt;/p&gt;
-&lt;h3 id=&#34;与-github-相关的浏览器插件&#34;&gt;与 &lt;code&gt;Github&lt;/code&gt; 相关的浏览器插件&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;octotree&lt;/code&gt; 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;enchanced github&lt;/code&gt; 可查看单个文件的大小，下载单个文件&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;gitzip for github&lt;/code&gt; 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/get-better-info/&#34;&gt;优化自己的信息源&lt;/a&gt;&lt;/li&gt;
@@ -220,9 +158,8 @@
 <p>手机上的话，我会使用微信读书，把找到的电子书上传到书架后进行阅读</p>
 <h2 id="纸质书">纸质书</h2>
 <p>不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）</p>
-<h1 id="chatgpt--search-engine">ChatGPT &amp; Search-engine</h1>
+<h1 id="chatgpt--chrome">ChatGPT &amp; Chrome</h1>
 <ul>
-<li><code>Chrome &amp; AdblockPlus &amp; uBlacklist | Personal Blocklist &amp; ChatGPT for Google &amp; Vimium</code></li>
 <li><strong>在搜索引擎体验上， Google （强推，体验极佳） &gt; Bing （偶尔用用） &raquo; Baidu （完全不考虑）</strong></li>
 <li><a href="https://zhuanlan.zhihu.com/p/589201080">ChatGPT 使用指南</a></li>
 <li><a href="https://www.instructables.com/How-to-Properly-Use-a-Search-Engine/"># How to Properly Use a Search Engine</a></li>
@@ -236,67 +173,6 @@
 </li>
 </ul>
 <hr>
-<h2 id="chrome-plugins">Chrome plugins</h2>
-<h3 id="adblock-plus---free-ad-blocker">Adblock Plus - free ad blocker</h3>
-<p><code>AdblockPlus</code> 由用户手动设置拦截网页上不想看到的内容，我使用这个插件把一些网站我不想要看到的内容进行屏蔽，以获得更为简洁的体验</p>
-<p>小声BB：启动这个插件，在使用过程中，可能会碰到部分网页显示异常的情况，这个时候需要把该网页加入白名单来保证网页正常显示
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371b54d0642a.png">
-<img src="https://bu.dusays.com/2022/11/14/6371b54d0642a.png" alt="3"  />
-</a>
-</div>
-
-</p>
-<h3 id="chatgpt-for-google">ChatGPT for Google</h3>
-<p>使用 Google 搜索时，右侧便会自动出现chatGPT的回答，如搜索<code>C++虚函数是什么？</code>，就会出现如下所示的结果：
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0cda30c70c.png">
-<img src="https://bu.dusays.com/2023/01/13/63c0cda30c70c.png" alt="Snipaste_2023-01-13_11-18-47.png"  />
-</a>
-</div>
-
-</p>
-<h3 id="global-speed">Global Speed</h3>
-<p>使用键盘调节视频的播放速度，脱离鼠标的使用</p>
-<h3 id="idm-integration-module">IDM Integration Module</h3>
-<p>使用 <code>IDM</code> 下载文件</p>
-<h3 id="language-reactor"><strong>Language Reactor</strong></h3>
-<p>学习外语</p>
-<h3 id="vimium-c---all-by-keyboard--pdf-viewer-for-vimium-c">Vimium C - All by Keyboard &amp; PDF Viewer for Vimium C</h3>
-<p>它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面</p>
-<p>这个插件我已经有一篇<a href="https://xancoding.cn/posts/vimium/">文章</a>进行更为详细的讲解了，这里就不再展开来说了</p>
-<h3 id="personal-blocklist">Personal Blocklist</h3>
-<p>在搜索时屏蔽特定网站，做到对低质内容的过滤</p>
-<h3 id="rss-reader-extension-by-inoreader">RSS Reader Extension (by Inoreader)</h3>
-<p>Build your own newsfeed</p>
-<h3 id="zotero-connector">Zotero Connector</h3>
-<p>Save references to Zotero from your web browser</p>
-<h3 id="划词翻译">划词翻译</h3>
-<p>一站式划词 / 截图 / 网页全文 / 音视频翻译扩展</p>
-<h3 id="easyscholar">easyScholar</h3>
-<p>显示期刊等级</p>
-<h3 id="erin">Erin</h3>
-<ul>
-<li><a href="https://erin-homepage.vercel.app/">Erin</a></li>
-</ul>
-<p>以插件的形式重新定义自己的新标签页</p>
-<h3 id="chathub---all-in-one-chatbot-client">ChatHub - All-in-one chatbot client</h3>
-<p>聚合ChatGPT、New Bing、Claude等大语言模型</p>
-<h3 id="new-bing-anywhere-bing-chat-gpt-4">New Bing Anywhere (Bing Chat GPT-4)</h3>
-<p>在 Chrome 中使用 NewBing</p>
-<h3 id="hypothesis---web--pdf-annotation">Hypothesis - Web &amp; PDF Annotation</h3>
-<p>网页批注工具，可配合 Obsidian 使用</p>
-<h3 id="maple-bookmarks">Maple Bookmarks</h3>
-<ul>
-<li><a href="https://github.com/tw93/Maple">枫叶书签</a></li>
-</ul>
-<p>彻底隐藏掉书签栏，使用 <code>Crtl+B</code> 快速访问书签，甚至可以输入即搜索</p>
-<h3 id="与-github-相关的浏览器插件">与 <code>Github</code> 相关的浏览器插件</h3>
-<p><code>octotree</code> 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率</p>
-<p><code>enchanced github</code> 可查看单个文件的大小，下载单个文件</p>
-<p><code>gitzip for github</code> 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://catcoding.me/p/get-better-info/">优化自己的信息源</a></li>

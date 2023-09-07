@@ -13,7 +13,244 @@
       <pubDate>Thu, 07 Sep 2023 17:57:15 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-09-07-17-57-14/</guid>
-      <description>&lt;h1 id=&#34;windows&#34;&gt;Windows&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;obsidian-plugins&#34;&gt;Obsidian plugins&lt;/h1&gt;
+&lt;h2 id=&#34;appearance&#34;&gt;Appearance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1r94y1v7eH/?vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【Obsidian搭建系列教程】 主题配置 | 美化篇——Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;主题：AnuPpuccin&lt;/li&gt;
+&lt;li&gt;字体：霞鹜文楷 ，安装地址：&lt;a href=&#34;https://github.com/lxgw/LxgwWenKai&#34;&gt;https://github.com/lxgw/LxgwWenKai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;大纲：Quiet Outline&lt;/li&gt;
+&lt;li&gt;样式设置：Style Setting&lt;/li&gt;
+&lt;li&gt;代码高亮：Editor Syntax Highlight&lt;/li&gt;
+&lt;li&gt;链接图标：Link Favicons&lt;/li&gt;
+&lt;li&gt;文件图标：Icon Floder&lt;/li&gt;
+&lt;li&gt;Light/Dark自动切换：System Dark Mode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;quiet-outline&#34;&gt;Quiet Outline&lt;/h3&gt;
+&lt;p&gt;一个让大纲更好用的插件&lt;/p&gt;
+&lt;p&gt;打开命令面板输入&lt;code&gt;Quiet Outline&lt;/code&gt;，然后回车，就可以打开大纲面板。&lt;/p&gt;
+&lt;p&gt;其他详细功能在设置中查看&lt;/p&gt;
+&lt;h3 id=&#34;style-setting&#34;&gt;Style Setting&lt;/h3&gt;
+&lt;p&gt;这个插件允许代码片段、主题和插件CSS文件定义一组配置选项&lt;/p&gt;
+&lt;h3 id=&#34;editor-syntax-highlight&#34;&gt;Editor Syntax Highlight&lt;/h3&gt;
+&lt;p&gt;将最流行的编程语言的语法高亮显示到Obsidian代码块中&lt;/p&gt;
+&lt;h3 id=&#34;link-favicons&#34;&gt;Link Favicons&lt;/h3&gt;
+&lt;p&gt;自动拉取链接网站的图标&lt;/p&gt;
+&lt;h3 id=&#34;icon-floder&#34;&gt;Icon Floder&lt;/h3&gt;
+&lt;p&gt;自定义文件的图标&lt;/p&gt;
+&lt;h3 id=&#34;system-dark-mode&#34;&gt;System Dark Mode&lt;/h3&gt;
+&lt;p&gt;将自动根据操作系统将主题设置为亮或暗模式&lt;/p&gt;
+&lt;h2 id=&#34;toolbar&#34;&gt;Toolbar&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;工具栏：Editing Toolbar&lt;/li&gt;
+&lt;li&gt;Emoji：Emoji Toolbar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;editing-toolbar&#34;&gt;Editing Toolbar&lt;/h3&gt;
+&lt;p&gt;提供类似于 MS-Word 的工具栏，，以获得更顺畅的写作/编辑体验。&lt;/p&gt;
+&lt;h3 id=&#34;emoji-toolbar&#34;&gt;Emoji Toolbar&lt;/h3&gt;
+&lt;p&gt;让你可以快速搜索和添加表情符号到你的编辑器。&lt;/p&gt;
+&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
+&lt;h3 id=&#34;epub-reader&#34;&gt;&lt;strong&gt;ePUb Reader&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;在 &lt;code&gt;Obsidian&lt;/code&gt; 中可以阅读 &lt;code&gt;Epub&lt;/code&gt; 电子书&lt;/p&gt;
+&lt;h3 id=&#34;image-auto-upload-plugin&#34;&gt;Image auto upload Plugin&lt;/h3&gt;
+&lt;p&gt;通过 &lt;code&gt;PicGo&lt;/code&gt; 自动上传图像，只需要将图片粘贴即可自动上传&lt;/p&gt;
+&lt;h3 id=&#34;obsidian-git--quickadd&#34;&gt;Obsidian Git &amp;amp; QuickAdd&lt;/h3&gt;
+&lt;p&gt;搭建 Obsidian 博客自动发布系统&lt;/p&gt;
+&lt;h3 id=&#34;various-complements&#34;&gt;Various Complements&lt;/h3&gt;
+&lt;p&gt;单词提示，自动补全&lt;/p&gt;
+&lt;h3 id=&#34;vimrc-support&#34;&gt;&lt;strong&gt;Vimrc Support&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;从 &lt;code&gt;VAULT_ROOT/.obsidian.vimrc&lt;/code&gt; 加载 Vim 命令文件，实现加载持久配置的功能并添加一些额外功能&lt;/p&gt;
+&lt;h3 id=&#34;wakatime&#34;&gt;WakaTime&lt;/h3&gt;
+&lt;p&gt;统计你在不同语言、项目上写代码的时长&lt;/p&gt;
+&lt;h3 id=&#34;commander---hover-editor&#34;&gt;Commander  &amp;amp; Hover Editor&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Commder&lt;/code&gt; 可以利用 &lt;code&gt;macros&lt;/code&gt; 自定义命令&lt;/p&gt;
+&lt;p&gt;我们自定义命令后，绑定快捷键 &lt;code&gt;Ctrl+Shift+X&lt;/code&gt;，使&lt;code&gt; Style Settings&lt;/code&gt; 面板悬浮，方便配置美观的编辑界面&lt;/p&gt;
+&lt;h3 id=&#34;hypothesis&#34;&gt;Hypothes.is&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://seviche.cc/2022-05-25-hypothesis/&#34;&gt;# Hypothesis 使用小记&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;网页批注工具，配合 Chrome Browser 使用&lt;/p&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/08/10/64d453059591b.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;笔记模板配置&lt;/div&gt; 
+ &lt;/center&gt;
+&lt;h1 id=&#34;chrome-plugins&#34;&gt;Chrome plugins&lt;/h1&gt;
+&lt;h2 id=&#34;adblock-plus---free-ad-blocker&#34;&gt;Adblock Plus - free ad blocker&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;AdblockPlus&lt;/code&gt; 由用户手动设置拦截网页上不想看到的内容，我使用这个插件把一些网站我不想要看到的内容进行屏蔽，以获得更为简洁的体验&lt;/p&gt;
+&lt;p&gt;小声BB：启动这个插件，在使用过程中，可能会碰到部分网页显示异常的情况，这个时候需要把该网页加入白名单来保证网页正常显示
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371b54d0642a.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371b54d0642a.png&#34; alt=&#34;3&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;chatgpt-for-google&#34;&gt;ChatGPT for Google&lt;/h2&gt;
+&lt;p&gt;使用 Google 搜索时，右侧便会自动出现chatGPT的回答，如搜索&lt;code&gt;C++虚函数是什么？&lt;/code&gt;，就会出现如下所示的结果：
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0cda30c70c.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2023/01/13/63c0cda30c70c.png&#34; alt=&#34;Snipaste_2023-01-13_11-18-47.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;h2 id=&#34;global-speed&#34;&gt;Global Speed&lt;/h2&gt;
+&lt;p&gt;使用键盘调节视频的播放速度，脱离鼠标的使用&lt;/p&gt;
+&lt;h2 id=&#34;idm-integration-module&#34;&gt;IDM Integration Module&lt;/h2&gt;
+&lt;p&gt;使用 &lt;code&gt;IDM&lt;/code&gt; 下载文件&lt;/p&gt;
+&lt;h2 id=&#34;language-reactor&#34;&gt;&lt;strong&gt;Language Reactor&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;学习外语&lt;/p&gt;
+&lt;h2 id=&#34;vimium-c---all-by-keyboard--pdf-viewer-for-vimium-c&#34;&gt;Vimium C - All by Keyboard &amp;amp; PDF Viewer for Vimium C&lt;/h2&gt;
+&lt;p&gt;它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面&lt;/p&gt;
+&lt;p&gt;这个插件我已经有一篇&lt;a href=&#34;https://xancoding.cn/posts/vimium/&#34;&gt;文章&lt;/a&gt;进行更为详细的讲解了，这里就不再展开来说了&lt;/p&gt;
+&lt;h2 id=&#34;personal-blocklist&#34;&gt;Personal Blocklist&lt;/h2&gt;
+&lt;p&gt;在搜索时屏蔽特定网站，做到对低质内容的过滤&lt;/p&gt;
+&lt;h2 id=&#34;rss-reader-extension-by-inoreader&#34;&gt;RSS Reader Extension (by Inoreader)&lt;/h2&gt;
+&lt;p&gt;Build your own newsfeed&lt;/p&gt;
+&lt;h2 id=&#34;zotero-connector&#34;&gt;Zotero Connector&lt;/h2&gt;
+&lt;p&gt;Save references to Zotero from your web browser&lt;/p&gt;
+&lt;h2 id=&#34;划词翻译&#34;&gt;划词翻译&lt;/h2&gt;
+&lt;p&gt;一站式划词 / 截图 / 网页全文 / 音视频翻译扩展&lt;/p&gt;
+&lt;h2 id=&#34;easyscholar&#34;&gt;easyScholar&lt;/h2&gt;
+&lt;p&gt;显示期刊等级&lt;/p&gt;
+&lt;h2 id=&#34;erin&#34;&gt;Erin&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://erin-homepage.vercel.app/&#34;&gt;Erin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以插件的形式重新定义自己的新标签页&lt;/p&gt;
+&lt;h2 id=&#34;chathub---all-in-one-chatbot-client&#34;&gt;ChatHub - All-in-one chatbot client&lt;/h2&gt;
+&lt;p&gt;聚合ChatGPT、New Bing、Claude等大语言模型&lt;/p&gt;
+&lt;h2 id=&#34;new-bing-anywhere-bing-chat-gpt-4&#34;&gt;New Bing Anywhere (Bing Chat GPT-4)&lt;/h2&gt;
+&lt;p&gt;在 Chrome 中使用 NewBing&lt;/p&gt;
+&lt;h2 id=&#34;hypothesis---web--pdf-annotation&#34;&gt;Hypothesis - Web &amp;amp; PDF Annotation&lt;/h2&gt;
+&lt;p&gt;网页批注工具，可配合 Obsidian 使用&lt;/p&gt;
+&lt;h2 id=&#34;maple-bookmarks&#34;&gt;Maple Bookmarks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tw93/Maple&#34;&gt;枫叶书签&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;彻底隐藏掉书签栏，使用 &lt;code&gt;Crtl+B&lt;/code&gt; 快速访问书签，甚至可以输入即搜索&lt;/p&gt;
+&lt;h2 id=&#34;与-github-相关的浏览器插件&#34;&gt;与 &lt;code&gt;Github&lt;/code&gt; 相关的浏览器插件&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;octotree&lt;/code&gt; 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;enchanced github&lt;/code&gt; 可查看单个文件的大小，下载单个文件&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gitzip for github&lt;/code&gt; 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）&lt;/p&gt;
+&lt;h1 id=&#34;windows&#34;&gt;Windows&lt;/h1&gt;
+&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
+&lt;h3 id=&#34;zotero&#34;&gt;Zotero&lt;/h3&gt;
+&lt;p&gt;一款自由及开放源代码的文献管理软件，用以管理书目信息（如作者、标题、出版社、摘要、阅读笔记等）及相关材料（如PDF文件）&lt;/p&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;desktop&#34;&gt;Desktop&lt;/h2&gt;
+&lt;h3 id=&#34;wallpaper-engine&#34;&gt;Wallpaper Engine&lt;/h3&gt;
+&lt;p&gt;这是STEAM平台上的一款动态壁纸软件，可以在创意工坊中找到自己感兴趣的壁纸&lt;/p&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c38603de093.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;app icon&lt;/div&gt; 
+ &lt;/center&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c3863682391.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;目前正在使用的壁纸&lt;/div&gt; 
+ &lt;/center&gt;
+&lt;h3 id=&#34;auto-dark-mode&#34;&gt;Auto Dark Mode&lt;/h3&gt;
+&lt;p&gt;一款可以为Windows 提供自动深色模式的系统主题软件，&lt;strong&gt;可以根据不同规则（时间、电量、应用）自动切换深色模式或浅色模式。&lt;/strong&gt; &lt;strong&gt;在调整模式的同时甚至还可以自动切换桌面壁纸&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;translucenttb&#34;&gt;TranslucentTb&lt;/h3&gt;
+&lt;p&gt;一款有趣的小工具，它可以让Windows 任务栏透明显示，只留下按钮及系统托盘，让壁纸全屏显示，让桌面显得更加完整&lt;/p&gt;
+&lt;h2 id=&#34;productivity&#34;&gt;Productivity&lt;/h2&gt;
+&lt;h3 id=&#34;utools&#34;&gt;uTools&lt;/h3&gt;
+&lt;p&gt;通过 &lt;code&gt;alt + 空格键&lt;/code&gt; 调出搜索栏，通过&lt;code&gt;Esc&lt;/code&gt; 退出。&lt;/p&gt;
+&lt;p&gt;调出输入框后，可以通过在地址栏中输入快捷字词，实现网页快开&lt;/p&gt;
+&lt;p&gt;安装 &lt;code&gt;Everything&lt;/code&gt; 插件后，还可以直接搜索电脑中的文件以及文件夹&lt;/p&gt;
+&lt;h3 id=&#34;snipaste&#34;&gt;Snipaste&lt;/h3&gt;
+&lt;p&gt;一个简单但强大的截图工具&lt;/p&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c38cad0588a.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;app icon&lt;/div&gt; 
+ &lt;/center&gt;
+&lt;h3 id=&#34;7-zip&#34;&gt;7-Zip&lt;/h3&gt;
+&lt;p&gt;一款高压缩比的压缩解压缩软件&lt;/p&gt;
+&lt;center&gt; 
+	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c38d1fb0cd7.png&#34;&gt;
+	&lt;br&gt;
+	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;&#34;&gt;app icon&lt;/div&gt; 
+ &lt;/center&gt;
+&lt;h3 id=&#34;picgo--obsidian-image-auto-upload-plugin&#34;&gt;PicGo &amp;amp; Obsidian Image auto upload Plugin&lt;/h3&gt;
+&lt;p&gt;我使用的图床是&lt;a href=&#34;https://7bu.top/upload&#34;&gt;去不图床&lt;/a&gt;，借助 &lt;code&gt;PicGo&lt;/code&gt;，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 &lt;code&gt;Obsidian&lt;/code&gt; 中的 &lt;code&gt;Image auto upload Plugin&lt;/code&gt; 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。&lt;br&gt;
+如今，只用把图片拖拽到 &lt;code&gt;Obsidian&lt;/code&gt; 编辑器中，即可自动将图片通过 &lt;code&gt;PicGo&lt;/code&gt; 上传到 &lt;code&gt;去不图床&lt;/code&gt;，并生成链接，显示在 &lt;code&gt;Obsidian&lt;/code&gt; 中。&lt;/p&gt;
+&lt;h3 id=&#34;alist--raidrive&#34;&gt;Alist &amp;amp; RaiDrive&lt;/h3&gt;
+&lt;p&gt;网盘聚合，虚拟本地磁盘挂载&lt;/p&gt;
+&lt;h3 id=&#34;idm&#34;&gt;IDM&lt;/h3&gt;
+&lt;p&gt;超级强大下载工具，能和浏览器无缝配合，自动抓取网页视频&lt;/p&gt;
+&lt;h3 id=&#34;cloudmusic&#34;&gt;CloudMusic&lt;/h3&gt;
+&lt;p&gt;网易云音乐&lt;/p&gt;
+&lt;h3 id=&#34;vieas&#34;&gt;Vieas&lt;/h3&gt;
+&lt;p&gt;一款轻量级的快速看图工具&lt;/p&gt;
+&lt;h2 id=&#34;云同步&#34;&gt;云同步&lt;/h2&gt;
+&lt;h3 id=&#34;onedrive&#34;&gt;OneDrive&lt;/h3&gt;
+&lt;p&gt;在计算机与云之间同步文件，以便能够从任何位置访问你的文件&lt;/p&gt;
+&lt;h3 id=&#34;坚果云&#34;&gt;坚果云&lt;/h3&gt;
+&lt;p&gt;我用来云同步 Zotero 中的文献&lt;/p&gt;
+&lt;h2 id=&#34;computer-trash-removal&#34;&gt;Computer trash removal&lt;/h2&gt;
+&lt;h3 id=&#34;geek-uninstalled&#34;&gt;Geek Uninstalled&lt;/h3&gt;
+&lt;p&gt;卸载软件，可以卸载的比较干净&lt;/p&gt;
+&lt;h3 id=&#34;spacesniffer&#34;&gt;SpaceSniffer&lt;/h3&gt;
+&lt;p&gt;一款非常优秀的硬盘扫描和管理软件，能够通过颜色、图表的方式为用户直观地呈现硬盘中的文件表达情况&lt;/p&gt;
+&lt;h3 id=&#34;ccleaner&#34;&gt;CCleaner&lt;/h3&gt;
+&lt;p&gt;定时清理垃圾&lt;/p&gt;
+&lt;h2 id=&#34;program--writing&#34;&gt;Program &amp;amp; Writing&lt;/h2&gt;
+&lt;h3 id=&#34;jupyter-notebook&#34;&gt;Jupyter Notebook&lt;/h3&gt;
+&lt;p&gt;基于网页的用于交互计算的应用程序，可被应用于 文档编写、代码运行和效果展示&lt;/p&gt;
+&lt;h3 id=&#34;typora&#34;&gt;Typora&lt;/h3&gt;
+&lt;p&gt;简易的 &lt;code&gt;Markdown&lt;/code&gt; 编辑器&lt;/p&gt;
+&lt;h3 id=&#34;jetbrains&#34;&gt;JetBrains&lt;/h3&gt;
+&lt;p&gt;学生可以申请免费使用，通过学生认证即可&lt;/p&gt;
+&lt;h4 id=&#34;clion&#34;&gt;CLion&lt;/h4&gt;
+&lt;p&gt;C/C++&lt;/p&gt;
+&lt;h4 id=&#34;pycharm&#34;&gt;Pycharm&lt;/h4&gt;
+&lt;p&gt;Python&lt;/p&gt;
+&lt;h3 id=&#34;vscode&#34;&gt;VSCode&lt;/h3&gt;
+&lt;p&gt;代码编辑器，可以通过下载合适的插件支持各种编程语言&lt;/p&gt;
+&lt;h3 id=&#34;virtualbox&#34;&gt;VirtualBox&lt;/h3&gt;
+&lt;p&gt;虚拟机&lt;/p&gt;
+&lt;h3 id=&#34;git-for-windows&#34;&gt;Git for Windows&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Git的官方Windows版本&lt;/strong&gt;，可以在 &lt;code&gt;git bash&lt;/code&gt; 下运行大多数标准 &lt;code&gt;Unix&lt;/code&gt; 命令&lt;/p&gt;
+&lt;h3 id=&#34;devdocs&#34;&gt;devdocs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://devdocs.io/&#34;&gt;https://devdocs.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;各种文档&lt;/p&gt;
+&lt;h2 id=&#34;outside&#34;&gt;Outside&lt;/h2&gt;
+&lt;h3 id=&#34;clash&#34;&gt;Clash&lt;/h3&gt;
+&lt;p&gt;代理软件&lt;/p&gt;
+&lt;h3 id=&#34;tor-browser&#34;&gt;Tor Browser&lt;/h3&gt;
+&lt;p&gt;一个免费的网络浏览器，提供对匿名和加密的 &lt;code&gt;Tor&lt;/code&gt; 网络的访问&lt;/p&gt;
+&lt;h3 id=&#34;telegram&#34;&gt;Telegram&lt;/h3&gt;
+&lt;p&gt;隐私聊天，设备间传输文件&lt;/p&gt;
+&lt;h2 id=&#34;games&#34;&gt;Games&lt;/h2&gt;
+&lt;h3 id=&#34;xianniu&#34;&gt;Xianniu&lt;/h3&gt;
+&lt;p&gt;游戏加速器&lt;/p&gt;
+&lt;h3 id=&#34;steam&#34;&gt;Steam&lt;/h3&gt;
+&lt;p&gt;游戏平台&lt;/p&gt;
+&lt;h3 id=&#34;完美世界竞技平台&#34;&gt;完美世界竞技平台&lt;/h3&gt;
+&lt;p&gt;一个专注于竞技游戏的平台&lt;/p&gt;
 &lt;h1 id=&#34;android&#34;&gt;Android&lt;/h1&gt;
 &lt;h2 id=&#34;reading&#34;&gt;Reading&lt;/h2&gt;
 &lt;h3 id=&#34;z-lib&#34;&gt;Z-Lib&lt;/h3&gt;
@@ -48,12 +285,12 @@
 &lt;p&gt;每日计划 &amp;amp; 番茄钟&lt;/p&gt;
 &lt;h3 id=&#34;flomo-浮墨笔记&#34;&gt;flomo 浮墨笔记&lt;/h3&gt;
 &lt;p&gt;记录闪念&lt;/p&gt;
-&lt;h2 id=&#34;outside&#34;&gt;Outside&lt;/h2&gt;
+&lt;h2 id=&#34;outside-1&#34;&gt;Outside&lt;/h2&gt;
 &lt;h3 id=&#34;clash-for-android&#34;&gt;Clash for Android&lt;/h3&gt;
 &lt;p&gt;VPN&lt;/p&gt;
 &lt;h3 id=&#34;chrome&#34;&gt;Chrome&lt;/h3&gt;
 &lt;p&gt;Google search&lt;/p&gt;
-&lt;h3 id=&#34;telegram&#34;&gt;Telegram&lt;/h3&gt;
+&lt;h3 id=&#34;telegram-1&#34;&gt;Telegram&lt;/h3&gt;
 &lt;p&gt;私密聊天&lt;/p&gt;
 &lt;p&gt;多设备文件互传&lt;/p&gt;
 &lt;h3 id=&#34;dupay--欧易&#34;&gt;Dupay &amp;amp; 欧易&lt;/h3&gt;
@@ -62,14 +299,14 @@
 &lt;li&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/ZzkhyxiH2lfOCNr_oEqY_Q&#34;&gt;# 学术科研专用ChatGPT来了！&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;虚拟银行卡 &amp;amp; 数字货币&lt;/p&gt;
-&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
+&lt;h2 id=&#34;others-1&#34;&gt;Others&lt;/h2&gt;
 &lt;h3 id=&#34;钱迹&#34;&gt;钱迹&lt;/h3&gt;
 &lt;p&gt;记账&lt;/p&gt;
 &lt;h3 id=&#34;wakeup-课程表&#34;&gt;WakeUp 课程表&lt;/h3&gt;
 &lt;p&gt;大学生课表&lt;/p&gt;
 &lt;h3 id=&#34;microsoft-office&#34;&gt;Microsoft Office&lt;/h3&gt;
 &lt;p&gt;pdf、word 等文件的查看器&lt;/p&gt;
-&lt;h3 id=&#34;onedrive&#34;&gt;OneDrive&lt;/h3&gt;
+&lt;h3 id=&#34;onedrive-1&#34;&gt;OneDrive&lt;/h3&gt;
 &lt;p&gt;云空间&lt;/p&gt;
 &lt;h1 id=&#34;website&#34;&gt;Website&lt;/h1&gt;
 &lt;h2 id=&#34;httpsdevdocsio&#34;&gt;&lt;a href=&#34;https://devdocs.io/&#34;&gt;https://devdocs.io/&lt;/a&gt;&lt;/h2&gt;
@@ -79,7 +316,244 @@
 &lt;h2 id=&#34;slidevhttpscnslidev&#34;&gt;&lt;a href=&#34;https://cn.sli.dev/&#34;&gt;Slidev&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;为&lt;strong&gt;开发者&lt;/strong&gt;打造的&lt;strong&gt;演示文稿&lt;/strong&gt;工具 &lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="windows">Windows</h1>
+      <content:encoded><![CDATA[<h1 id="obsidian-plugins">Obsidian plugins</h1>
+<h2 id="appearance">Appearance</h2>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1r94y1v7eH/?vd_source=ae16ff6478eb15c1b87880540263910b">【Obsidian搭建系列教程】 主题配置 | 美化篇——Part 1</a></li>
+<li>主题：AnuPpuccin</li>
+<li>字体：霞鹜文楷 ，安装地址：<a href="https://github.com/lxgw/LxgwWenKai">https://github.com/lxgw/LxgwWenKai</a></li>
+<li>大纲：Quiet Outline</li>
+<li>样式设置：Style Setting</li>
+<li>代码高亮：Editor Syntax Highlight</li>
+<li>链接图标：Link Favicons</li>
+<li>文件图标：Icon Floder</li>
+<li>Light/Dark自动切换：System Dark Mode</li>
+</ul>
+<h3 id="quiet-outline">Quiet Outline</h3>
+<p>一个让大纲更好用的插件</p>
+<p>打开命令面板输入<code>Quiet Outline</code>，然后回车，就可以打开大纲面板。</p>
+<p>其他详细功能在设置中查看</p>
+<h3 id="style-setting">Style Setting</h3>
+<p>这个插件允许代码片段、主题和插件CSS文件定义一组配置选项</p>
+<h3 id="editor-syntax-highlight">Editor Syntax Highlight</h3>
+<p>将最流行的编程语言的语法高亮显示到Obsidian代码块中</p>
+<h3 id="link-favicons">Link Favicons</h3>
+<p>自动拉取链接网站的图标</p>
+<h3 id="icon-floder">Icon Floder</h3>
+<p>自定义文件的图标</p>
+<h3 id="system-dark-mode">System Dark Mode</h3>
+<p>将自动根据操作系统将主题设置为亮或暗模式</p>
+<h2 id="toolbar">Toolbar</h2>
+<ul>
+<li>工具栏：Editing Toolbar</li>
+<li>Emoji：Emoji Toolbar</li>
+</ul>
+<h3 id="editing-toolbar">Editing Toolbar</h3>
+<p>提供类似于 MS-Word 的工具栏，，以获得更顺畅的写作/编辑体验。</p>
+<h3 id="emoji-toolbar">Emoji Toolbar</h3>
+<p>让你可以快速搜索和添加表情符号到你的编辑器。</p>
+<h2 id="others">Others</h2>
+<h3 id="epub-reader"><strong>ePUb Reader</strong></h3>
+<p>在 <code>Obsidian</code> 中可以阅读 <code>Epub</code> 电子书</p>
+<h3 id="image-auto-upload-plugin">Image auto upload Plugin</h3>
+<p>通过 <code>PicGo</code> 自动上传图像，只需要将图片粘贴即可自动上传</p>
+<h3 id="obsidian-git--quickadd">Obsidian Git &amp; QuickAdd</h3>
+<p>搭建 Obsidian 博客自动发布系统</p>
+<h3 id="various-complements">Various Complements</h3>
+<p>单词提示，自动补全</p>
+<h3 id="vimrc-support"><strong>Vimrc Support</strong></h3>
+<p>从 <code>VAULT_ROOT/.obsidian.vimrc</code> 加载 Vim 命令文件，实现加载持久配置的功能并添加一些额外功能</p>
+<h3 id="wakatime">WakaTime</h3>
+<p>统计你在不同语言、项目上写代码的时长</p>
+<h3 id="commander---hover-editor">Commander  &amp; Hover Editor</h3>
+<p><code>Commder</code> 可以利用 <code>macros</code> 自定义命令</p>
+<p>我们自定义命令后，绑定快捷键 <code>Ctrl+Shift+X</code>，使<code> Style Settings</code> 面板悬浮，方便配置美观的编辑界面</p>
+<h3 id="hypothesis">Hypothes.is</h3>
+<ul>
+<li><a href="https://seviche.cc/2022-05-25-hypothesis/"># Hypothesis 使用小记</a></li>
+</ul>
+<p>网页批注工具，配合 Chrome Browser 使用</p>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/08/10/64d453059591b.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">笔记模板配置</div> 
+ </center>
+<h1 id="chrome-plugins">Chrome plugins</h1>
+<h2 id="adblock-plus---free-ad-blocker">Adblock Plus - free ad blocker</h2>
+<p><code>AdblockPlus</code> 由用户手动设置拦截网页上不想看到的内容，我使用这个插件把一些网站我不想要看到的内容进行屏蔽，以获得更为简洁的体验</p>
+<p>小声BB：启动这个插件，在使用过程中，可能会碰到部分网页显示异常的情况，这个时候需要把该网页加入白名单来保证网页正常显示
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371b54d0642a.png">
+<img src="https://bu.dusays.com/2022/11/14/6371b54d0642a.png" alt="3"  />
+</a>
+</div>
+
+</p>
+<h2 id="chatgpt-for-google">ChatGPT for Google</h2>
+<p>使用 Google 搜索时，右侧便会自动出现chatGPT的回答，如搜索<code>C++虚函数是什么？</code>，就会出现如下所示的结果：
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0cda30c70c.png">
+<img src="https://bu.dusays.com/2023/01/13/63c0cda30c70c.png" alt="Snipaste_2023-01-13_11-18-47.png"  />
+</a>
+</div>
+
+</p>
+<h2 id="global-speed">Global Speed</h2>
+<p>使用键盘调节视频的播放速度，脱离鼠标的使用</p>
+<h2 id="idm-integration-module">IDM Integration Module</h2>
+<p>使用 <code>IDM</code> 下载文件</p>
+<h2 id="language-reactor"><strong>Language Reactor</strong></h2>
+<p>学习外语</p>
+<h2 id="vimium-c---all-by-keyboard--pdf-viewer-for-vimium-c">Vimium C - All by Keyboard &amp; PDF Viewer for Vimium C</h2>
+<p>它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面</p>
+<p>这个插件我已经有一篇<a href="https://xancoding.cn/posts/vimium/">文章</a>进行更为详细的讲解了，这里就不再展开来说了</p>
+<h2 id="personal-blocklist">Personal Blocklist</h2>
+<p>在搜索时屏蔽特定网站，做到对低质内容的过滤</p>
+<h2 id="rss-reader-extension-by-inoreader">RSS Reader Extension (by Inoreader)</h2>
+<p>Build your own newsfeed</p>
+<h2 id="zotero-connector">Zotero Connector</h2>
+<p>Save references to Zotero from your web browser</p>
+<h2 id="划词翻译">划词翻译</h2>
+<p>一站式划词 / 截图 / 网页全文 / 音视频翻译扩展</p>
+<h2 id="easyscholar">easyScholar</h2>
+<p>显示期刊等级</p>
+<h2 id="erin">Erin</h2>
+<ul>
+<li><a href="https://erin-homepage.vercel.app/">Erin</a></li>
+</ul>
+<p>以插件的形式重新定义自己的新标签页</p>
+<h2 id="chathub---all-in-one-chatbot-client">ChatHub - All-in-one chatbot client</h2>
+<p>聚合ChatGPT、New Bing、Claude等大语言模型</p>
+<h2 id="new-bing-anywhere-bing-chat-gpt-4">New Bing Anywhere (Bing Chat GPT-4)</h2>
+<p>在 Chrome 中使用 NewBing</p>
+<h2 id="hypothesis---web--pdf-annotation">Hypothesis - Web &amp; PDF Annotation</h2>
+<p>网页批注工具，可配合 Obsidian 使用</p>
+<h2 id="maple-bookmarks">Maple Bookmarks</h2>
+<ul>
+<li><a href="https://github.com/tw93/Maple">枫叶书签</a></li>
+</ul>
+<p>彻底隐藏掉书签栏，使用 <code>Crtl+B</code> 快速访问书签，甚至可以输入即搜索</p>
+<h2 id="与-github-相关的浏览器插件">与 <code>Github</code> 相关的浏览器插件</h2>
+<p><code>octotree</code> 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率</p>
+<p><code>enchanced github</code> 可查看单个文件的大小，下载单个文件</p>
+<p><code>gitzip for github</code> 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）</p>
+<h1 id="windows">Windows</h1>
+<h2 id="research">Research</h2>
+<h3 id="zotero">Zotero</h3>
+<p>一款自由及开放源代码的文献管理软件，用以管理书目信息（如作者、标题、出版社、摘要、阅读笔记等）及相关材料（如PDF文件）</p>
+<h3 id="heading"></h3>
+<h2 id="desktop">Desktop</h2>
+<h3 id="wallpaper-engine">Wallpaper Engine</h3>
+<p>这是STEAM平台上的一款动态壁纸软件，可以在创意工坊中找到自己感兴趣的壁纸</p>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c38603de093.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">app icon</div> 
+ </center>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c3863682391.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">目前正在使用的壁纸</div> 
+ </center>
+<h3 id="auto-dark-mode">Auto Dark Mode</h3>
+<p>一款可以为Windows 提供自动深色模式的系统主题软件，<strong>可以根据不同规则（时间、电量、应用）自动切换深色模式或浅色模式。</strong> <strong>在调整模式的同时甚至还可以自动切换桌面壁纸</strong></p>
+<h3 id="translucenttb">TranslucentTb</h3>
+<p>一款有趣的小工具，它可以让Windows 任务栏透明显示，只留下按钮及系统托盘，让壁纸全屏显示，让桌面显得更加完整</p>
+<h2 id="productivity">Productivity</h2>
+<h3 id="utools">uTools</h3>
+<p>通过 <code>alt + 空格键</code> 调出搜索栏，通过<code>Esc</code> 退出。</p>
+<p>调出输入框后，可以通过在地址栏中输入快捷字词，实现网页快开</p>
+<p>安装 <code>Everything</code> 插件后，还可以直接搜索电脑中的文件以及文件夹</p>
+<h3 id="snipaste">Snipaste</h3>
+<p>一个简单但强大的截图工具</p>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c38cad0588a.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">app icon</div> 
+ </center>
+<h3 id="7-zip">7-Zip</h3>
+<p>一款高压缩比的压缩解压缩软件</p>
+<center> 
+	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c38d1fb0cd7.png">
+	<br>
+	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
+	display: inline-block; 
+	color: #999; 
+	padding: 2px;">app icon</div> 
+ </center>
+<h3 id="picgo--obsidian-image-auto-upload-plugin">PicGo &amp; Obsidian Image auto upload Plugin</h3>
+<p>我使用的图床是<a href="https://7bu.top/upload">去不图床</a>，借助 <code>PicGo</code>，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 <code>Obsidian</code> 中的 <code>Image auto upload Plugin</code> 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。<br>
+如今，只用把图片拖拽到 <code>Obsidian</code> 编辑器中，即可自动将图片通过 <code>PicGo</code> 上传到 <code>去不图床</code>，并生成链接，显示在 <code>Obsidian</code> 中。</p>
+<h3 id="alist--raidrive">Alist &amp; RaiDrive</h3>
+<p>网盘聚合，虚拟本地磁盘挂载</p>
+<h3 id="idm">IDM</h3>
+<p>超级强大下载工具，能和浏览器无缝配合，自动抓取网页视频</p>
+<h3 id="cloudmusic">CloudMusic</h3>
+<p>网易云音乐</p>
+<h3 id="vieas">Vieas</h3>
+<p>一款轻量级的快速看图工具</p>
+<h2 id="云同步">云同步</h2>
+<h3 id="onedrive">OneDrive</h3>
+<p>在计算机与云之间同步文件，以便能够从任何位置访问你的文件</p>
+<h3 id="坚果云">坚果云</h3>
+<p>我用来云同步 Zotero 中的文献</p>
+<h2 id="computer-trash-removal">Computer trash removal</h2>
+<h3 id="geek-uninstalled">Geek Uninstalled</h3>
+<p>卸载软件，可以卸载的比较干净</p>
+<h3 id="spacesniffer">SpaceSniffer</h3>
+<p>一款非常优秀的硬盘扫描和管理软件，能够通过颜色、图表的方式为用户直观地呈现硬盘中的文件表达情况</p>
+<h3 id="ccleaner">CCleaner</h3>
+<p>定时清理垃圾</p>
+<h2 id="program--writing">Program &amp; Writing</h2>
+<h3 id="jupyter-notebook">Jupyter Notebook</h3>
+<p>基于网页的用于交互计算的应用程序，可被应用于 文档编写、代码运行和效果展示</p>
+<h3 id="typora">Typora</h3>
+<p>简易的 <code>Markdown</code> 编辑器</p>
+<h3 id="jetbrains">JetBrains</h3>
+<p>学生可以申请免费使用，通过学生认证即可</p>
+<h4 id="clion">CLion</h4>
+<p>C/C++</p>
+<h4 id="pycharm">Pycharm</h4>
+<p>Python</p>
+<h3 id="vscode">VSCode</h3>
+<p>代码编辑器，可以通过下载合适的插件支持各种编程语言</p>
+<h3 id="virtualbox">VirtualBox</h3>
+<p>虚拟机</p>
+<h3 id="git-for-windows">Git for Windows</h3>
+<p><strong>Git的官方Windows版本</strong>，可以在 <code>git bash</code> 下运行大多数标准 <code>Unix</code> 命令</p>
+<h3 id="devdocs">devdocs</h3>
+<ul>
+<li><a href="https://devdocs.io/">https://devdocs.io/</a></li>
+</ul>
+<p>各种文档</p>
+<h2 id="outside">Outside</h2>
+<h3 id="clash">Clash</h3>
+<p>代理软件</p>
+<h3 id="tor-browser">Tor Browser</h3>
+<p>一个免费的网络浏览器，提供对匿名和加密的 <code>Tor</code> 网络的访问</p>
+<h3 id="telegram">Telegram</h3>
+<p>隐私聊天，设备间传输文件</p>
+<h2 id="games">Games</h2>
+<h3 id="xianniu">Xianniu</h3>
+<p>游戏加速器</p>
+<h3 id="steam">Steam</h3>
+<p>游戏平台</p>
+<h3 id="完美世界竞技平台">完美世界竞技平台</h3>
+<p>一个专注于竞技游戏的平台</p>
 <h1 id="android">Android</h1>
 <h2 id="reading">Reading</h2>
 <h3 id="z-lib">Z-Lib</h3>
@@ -114,12 +588,12 @@
 <p>每日计划 &amp; 番茄钟</p>
 <h3 id="flomo-浮墨笔记">flomo 浮墨笔记</h3>
 <p>记录闪念</p>
-<h2 id="outside">Outside</h2>
+<h2 id="outside-1">Outside</h2>
 <h3 id="clash-for-android">Clash for Android</h3>
 <p>VPN</p>
 <h3 id="chrome">Chrome</h3>
 <p>Google search</p>
-<h3 id="telegram">Telegram</h3>
+<h3 id="telegram-1">Telegram</h3>
 <p>私密聊天</p>
 <p>多设备文件互传</p>
 <h3 id="dupay--欧易">Dupay &amp; 欧易</h3>
@@ -128,14 +602,14 @@
 <li><a href="https://mp.weixin.qq.com/s/ZzkhyxiH2lfOCNr_oEqY_Q"># 学术科研专用ChatGPT来了！</a></li>
 </ul>
 <p>虚拟银行卡 &amp; 数字货币</p>
-<h2 id="others">Others</h2>
+<h2 id="others-1">Others</h2>
 <h3 id="钱迹">钱迹</h3>
 <p>记账</p>
 <h3 id="wakeup-课程表">WakeUp 课程表</h3>
 <p>大学生课表</p>
 <h3 id="microsoft-office">Microsoft Office</h3>
 <p>pdf、word 等文件的查看器</p>
-<h3 id="onedrive">OneDrive</h3>
+<h3 id="onedrive-1">OneDrive</h3>
 <p>云空间</p>
 <h1 id="website">Website</h1>
 <h2 id="httpsdevdocsio"><a href="https://devdocs.io/">https://devdocs.io/</a></h2>
@@ -346,230 +820,6 @@
     </item>
     
     <item>
-      <title>Useful Tools</title>
-      <link>https://xancoding.cn/posts/2023-01-15-12-42-38/</link>
-      <pubDate>Sun, 15 Jan 2023 12:42:38 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-01-15-12-42-38/</guid>
-      <description>&lt;h1 id=&#34;desktop&#34;&gt;Desktop&lt;/h1&gt;
-&lt;h2 id=&#34;wallpaper-engine&#34;&gt;Wallpaper Engine&lt;/h2&gt;
-&lt;p&gt;这是STEAM平台上的一款动态壁纸软件，可以在创意工坊中找到自己感兴趣的壁纸&lt;/p&gt;
-&lt;center&gt; 
-	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c38603de093.png&#34;&gt;
-	&lt;br&gt;
-	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
-	display: inline-block; 
-	color: #999; 
-	padding: 2px;&#34;&gt;app icon&lt;/div&gt; 
- &lt;/center&gt;
-&lt;center&gt; 
-	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c3863682391.png&#34;&gt;
-	&lt;br&gt;
-	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
-	display: inline-block; 
-	color: #999; 
-	padding: 2px;&#34;&gt;目前正在使用的壁纸&lt;/div&gt; 
- &lt;/center&gt;
-&lt;h2 id=&#34;auto-dark-mode&#34;&gt;Auto Dark Mode&lt;/h2&gt;
-&lt;p&gt;一款可以为Windows 提供自动深色模式的系统主题软件，&lt;strong&gt;可以根据不同规则（时间、电量、应用）自动切换深色模式或浅色模式。&lt;/strong&gt; &lt;strong&gt;在调整模式的同时甚至还可以自动切换桌面壁纸&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;translucenttb&#34;&gt;TranslucentTb&lt;/h2&gt;
-&lt;p&gt;一款有趣的小工具，它可以让Windows 任务栏透明显示，只留下按钮及系统托盘，让壁纸全屏显示，让桌面显得更加完整&lt;/p&gt;
-&lt;h1 id=&#34;productivity&#34;&gt;Productivity&lt;/h1&gt;
-&lt;h2 id=&#34;utools&#34;&gt;uTools&lt;/h2&gt;
-&lt;p&gt;通过 &lt;code&gt;alt + 空格键&lt;/code&gt; 调出搜索栏，通过&lt;code&gt;Esc&lt;/code&gt; 退出。&lt;/p&gt;
-&lt;p&gt;调出输入框后，可以通过在地址栏中输入快捷字词，实现网页快开&lt;/p&gt;
-&lt;p&gt;安装 &lt;code&gt;Everything&lt;/code&gt; 插件后，还可以直接搜索电脑中的文件以及文件夹&lt;/p&gt;
-&lt;h2 id=&#34;snipaste&#34;&gt;Snipaste&lt;/h2&gt;
-&lt;p&gt;一个简单但强大的截图工具&lt;/p&gt;
-&lt;center&gt; 
-	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c38cad0588a.png&#34;&gt;
-	&lt;br&gt;
-	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
-	display: inline-block; 
-	color: #999; 
-	padding: 2px;&#34;&gt;app icon&lt;/div&gt; 
- &lt;/center&gt;
-&lt;h2 id=&#34;7-zip&#34;&gt;7-Zip&lt;/h2&gt;
-&lt;p&gt;一款高压缩比的压缩解压缩软件&lt;/p&gt;
-&lt;center&gt; 
-	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/01/15/63c38d1fb0cd7.png&#34;&gt;
-	&lt;br&gt;
-	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
-	display: inline-block; 
-	color: #999; 
-	padding: 2px;&#34;&gt;app icon&lt;/div&gt; 
- &lt;/center&gt;
-&lt;h2 id=&#34;picgo--obsidian-image-auto-upload-plugin&#34;&gt;PicGo &amp;amp; Obsidian Image auto upload Plugin&lt;/h2&gt;
-&lt;p&gt;我使用的图床是&lt;a href=&#34;https://7bu.top/upload&#34;&gt;去不图床&lt;/a&gt;，借助 &lt;code&gt;PicGo&lt;/code&gt;，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 &lt;code&gt;Obsidian&lt;/code&gt; 中的 &lt;code&gt;Image auto upload Plugin&lt;/code&gt; 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。&lt;br&gt;
-如今，只用把图片拖拽到 &lt;code&gt;Obsidian&lt;/code&gt; 编辑器中，即可自动将图片通过 &lt;code&gt;PicGo&lt;/code&gt; 上传到 &lt;code&gt;去不图床&lt;/code&gt;，并生成链接，显示在 &lt;code&gt;Obsidian&lt;/code&gt; 中。&lt;/p&gt;
-&lt;h2 id=&#34;alist--raidrive&#34;&gt;Alist &amp;amp; RaiDrive&lt;/h2&gt;
-&lt;p&gt;网盘聚合，虚拟本地磁盘挂载&lt;/p&gt;
-&lt;h2 id=&#34;idm&#34;&gt;IDM&lt;/h2&gt;
-&lt;p&gt;超级强大下载工具，能和浏览器无缝配合，自动抓取网页视频&lt;/p&gt;
-&lt;h2 id=&#34;cloudmusic&#34;&gt;CloudMusic&lt;/h2&gt;
-&lt;p&gt;网易云音乐&lt;/p&gt;
-&lt;h2 id=&#34;vieas&#34;&gt;Vieas&lt;/h2&gt;
-&lt;p&gt;一款轻量级的快速看图工具&lt;/p&gt;
-&lt;h1 id=&#34;云同步&#34;&gt;云同步&lt;/h1&gt;
-&lt;h2 id=&#34;onedrive&#34;&gt;OneDrive&lt;/h2&gt;
-&lt;p&gt;在计算机与云之间同步文件，以便能够从任何位置访问你的文件&lt;/p&gt;
-&lt;h2 id=&#34;坚果云&#34;&gt;坚果云&lt;/h2&gt;
-&lt;p&gt;我用来云同步 Zotero 中的文献&lt;/p&gt;
-&lt;h1 id=&#34;computer-trash-removal&#34;&gt;Computer trash removal&lt;/h1&gt;
-&lt;h2 id=&#34;geek-uninstalled&#34;&gt;Geek Uninstalled&lt;/h2&gt;
-&lt;p&gt;卸载软件，可以卸载的比较干净&lt;/p&gt;
-&lt;h2 id=&#34;spacesniffer&#34;&gt;SpaceSniffer&lt;/h2&gt;
-&lt;p&gt;一款非常优秀的硬盘扫描和管理软件，能够通过颜色、图表的方式为用户直观地呈现硬盘中的文件表达情况&lt;/p&gt;
-&lt;h2 id=&#34;ccleaner&#34;&gt;CCleaner&lt;/h2&gt;
-&lt;p&gt;定时清理垃圾&lt;/p&gt;
-&lt;h1 id=&#34;program--writing&#34;&gt;Program &amp;amp; Writing&lt;/h1&gt;
-&lt;h2 id=&#34;jupyter-notebook&#34;&gt;Jupyter Notebook&lt;/h2&gt;
-&lt;p&gt;基于网页的用于交互计算的应用程序，可被应用于 文档编写、代码运行和效果展示&lt;/p&gt;
-&lt;h2 id=&#34;typora&#34;&gt;Typora&lt;/h2&gt;
-&lt;p&gt;简易的 &lt;code&gt;Markdown&lt;/code&gt; 编辑器&lt;/p&gt;
-&lt;h2 id=&#34;jetbrains&#34;&gt;JetBrains&lt;/h2&gt;
-&lt;p&gt;学生可以申请免费使用，通过学生认证即可&lt;/p&gt;
-&lt;h3 id=&#34;clion&#34;&gt;CLion&lt;/h3&gt;
-&lt;p&gt;C/C++&lt;/p&gt;
-&lt;h3 id=&#34;pycharm&#34;&gt;Pycharm&lt;/h3&gt;
-&lt;p&gt;Python&lt;/p&gt;
-&lt;h2 id=&#34;vscode&#34;&gt;VSCode&lt;/h2&gt;
-&lt;p&gt;代码编辑器，可以通过下载合适的插件支持各种编程语言&lt;/p&gt;
-&lt;h2 id=&#34;virtualbox&#34;&gt;VirtualBox&lt;/h2&gt;
-&lt;p&gt;虚拟机&lt;/p&gt;
-&lt;h2 id=&#34;git-for-windows&#34;&gt;Git for Windows&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Git的官方Windows版本&lt;/strong&gt;，可以在 &lt;code&gt;git bash&lt;/code&gt; 下运行大多数标准 &lt;code&gt;Unix&lt;/code&gt; 命令&lt;/p&gt;
-&lt;h2 id=&#34;devdocs&#34;&gt;devdocs&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://devdocs.io/&#34;&gt;https://devdocs.io/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;各种文档&lt;/p&gt;
-&lt;h1 id=&#34;outside&#34;&gt;Outside&lt;/h1&gt;
-&lt;h2 id=&#34;clash&#34;&gt;Clash&lt;/h2&gt;
-&lt;p&gt;代理软件&lt;/p&gt;
-&lt;h2 id=&#34;tor-browser&#34;&gt;Tor Browser&lt;/h2&gt;
-&lt;p&gt;一个免费的网络浏览器，提供对匿名和加密的 &lt;code&gt;Tor&lt;/code&gt; 网络的访问&lt;/p&gt;
-&lt;h2 id=&#34;telegram&#34;&gt;Telegram&lt;/h2&gt;
-&lt;p&gt;隐私聊天，设备间传输文件&lt;/p&gt;
-&lt;h1 id=&#34;games&#34;&gt;Games&lt;/h1&gt;
-&lt;h2 id=&#34;xianniu&#34;&gt;Xianniu&lt;/h2&gt;
-&lt;p&gt;游戏加速器&lt;/p&gt;
-&lt;h2 id=&#34;steam&#34;&gt;Steam&lt;/h2&gt;
-&lt;p&gt;游戏平台&lt;/p&gt;
-&lt;h2 id=&#34;完美世界竞技平台&#34;&gt;完美世界竞技平台&lt;/h2&gt;
-&lt;p&gt;一个专注于竞技游戏的平台&lt;/p&gt;
-</description>
-      <content:encoded><![CDATA[<h1 id="desktop">Desktop</h1>
-<h2 id="wallpaper-engine">Wallpaper Engine</h2>
-<p>这是STEAM平台上的一款动态壁纸软件，可以在创意工坊中找到自己感兴趣的壁纸</p>
-<center> 
-	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c38603de093.png">
-	<br>
-	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
-	display: inline-block; 
-	color: #999; 
-	padding: 2px;">app icon</div> 
- </center>
-<center> 
-	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c3863682391.png">
-	<br>
-	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
-	display: inline-block; 
-	color: #999; 
-	padding: 2px;">目前正在使用的壁纸</div> 
- </center>
-<h2 id="auto-dark-mode">Auto Dark Mode</h2>
-<p>一款可以为Windows 提供自动深色模式的系统主题软件，<strong>可以根据不同规则（时间、电量、应用）自动切换深色模式或浅色模式。</strong> <strong>在调整模式的同时甚至还可以自动切换桌面壁纸</strong></p>
-<h2 id="translucenttb">TranslucentTb</h2>
-<p>一款有趣的小工具，它可以让Windows 任务栏透明显示，只留下按钮及系统托盘，让壁纸全屏显示，让桌面显得更加完整</p>
-<h1 id="productivity">Productivity</h1>
-<h2 id="utools">uTools</h2>
-<p>通过 <code>alt + 空格键</code> 调出搜索栏，通过<code>Esc</code> 退出。</p>
-<p>调出输入框后，可以通过在地址栏中输入快捷字词，实现网页快开</p>
-<p>安装 <code>Everything</code> 插件后，还可以直接搜索电脑中的文件以及文件夹</p>
-<h2 id="snipaste">Snipaste</h2>
-<p>一个简单但强大的截图工具</p>
-<center> 
-	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c38cad0588a.png">
-	<br>
-	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
-	display: inline-block; 
-	color: #999; 
-	padding: 2px;">app icon</div> 
- </center>
-<h2 id="7-zip">7-Zip</h2>
-<p>一款高压缩比的压缩解压缩软件</p>
-<center> 
-	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/01/15/63c38d1fb0cd7.png">
-	<br>
-	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
-	display: inline-block; 
-	color: #999; 
-	padding: 2px;">app icon</div> 
- </center>
-<h2 id="picgo--obsidian-image-auto-upload-plugin">PicGo &amp; Obsidian Image auto upload Plugin</h2>
-<p>我使用的图床是<a href="https://7bu.top/upload">去不图床</a>，借助 <code>PicGo</code>，方便将图片上传到图床，并生成访问链接用于访问图片（我的主要使用场景是博客中的图片），最后再借助 <code>Obsidian</code> 中的 <code>Image auto upload Plugin</code> 插件，简化我原先写博客时需要一张一张上传图片，复制链接的繁琐过程。<br>
-如今，只用把图片拖拽到 <code>Obsidian</code> 编辑器中，即可自动将图片通过 <code>PicGo</code> 上传到 <code>去不图床</code>，并生成链接，显示在 <code>Obsidian</code> 中。</p>
-<h2 id="alist--raidrive">Alist &amp; RaiDrive</h2>
-<p>网盘聚合，虚拟本地磁盘挂载</p>
-<h2 id="idm">IDM</h2>
-<p>超级强大下载工具，能和浏览器无缝配合，自动抓取网页视频</p>
-<h2 id="cloudmusic">CloudMusic</h2>
-<p>网易云音乐</p>
-<h2 id="vieas">Vieas</h2>
-<p>一款轻量级的快速看图工具</p>
-<h1 id="云同步">云同步</h1>
-<h2 id="onedrive">OneDrive</h2>
-<p>在计算机与云之间同步文件，以便能够从任何位置访问你的文件</p>
-<h2 id="坚果云">坚果云</h2>
-<p>我用来云同步 Zotero 中的文献</p>
-<h1 id="computer-trash-removal">Computer trash removal</h1>
-<h2 id="geek-uninstalled">Geek Uninstalled</h2>
-<p>卸载软件，可以卸载的比较干净</p>
-<h2 id="spacesniffer">SpaceSniffer</h2>
-<p>一款非常优秀的硬盘扫描和管理软件，能够通过颜色、图表的方式为用户直观地呈现硬盘中的文件表达情况</p>
-<h2 id="ccleaner">CCleaner</h2>
-<p>定时清理垃圾</p>
-<h1 id="program--writing">Program &amp; Writing</h1>
-<h2 id="jupyter-notebook">Jupyter Notebook</h2>
-<p>基于网页的用于交互计算的应用程序，可被应用于 文档编写、代码运行和效果展示</p>
-<h2 id="typora">Typora</h2>
-<p>简易的 <code>Markdown</code> 编辑器</p>
-<h2 id="jetbrains">JetBrains</h2>
-<p>学生可以申请免费使用，通过学生认证即可</p>
-<h3 id="clion">CLion</h3>
-<p>C/C++</p>
-<h3 id="pycharm">Pycharm</h3>
-<p>Python</p>
-<h2 id="vscode">VSCode</h2>
-<p>代码编辑器，可以通过下载合适的插件支持各种编程语言</p>
-<h2 id="virtualbox">VirtualBox</h2>
-<p>虚拟机</p>
-<h2 id="git-for-windows">Git for Windows</h2>
-<p><strong>Git的官方Windows版本</strong>，可以在 <code>git bash</code> 下运行大多数标准 <code>Unix</code> 命令</p>
-<h2 id="devdocs">devdocs</h2>
-<ul>
-<li><a href="https://devdocs.io/">https://devdocs.io/</a></li>
-</ul>
-<p>各种文档</p>
-<h1 id="outside">Outside</h1>
-<h2 id="clash">Clash</h2>
-<p>代理软件</p>
-<h2 id="tor-browser">Tor Browser</h2>
-<p>一个免费的网络浏览器，提供对匿名和加密的 <code>Tor</code> 网络的访问</p>
-<h2 id="telegram">Telegram</h2>
-<p>隐私聊天，设备间传输文件</p>
-<h1 id="games">Games</h1>
-<h2 id="xianniu">Xianniu</h2>
-<p>游戏加速器</p>
-<h2 id="steam">Steam</h2>
-<p>游戏平台</p>
-<h2 id="完美世界竞技平台">完美世界竞技平台</h2>
-<p>一个专注于竞技游戏的平台</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
       <title>Self-study</title>
       <link>https://xancoding.cn/posts/2022-11-14-15-56-45/</link>
       <pubDate>Mon, 14 Nov 2022 15:56:45 +0800</pubDate>
@@ -665,71 +915,6 @@
 &lt;/ol&gt;
 &lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
 &lt;p&gt;我的笔记记录工作，都是在 &lt;code&gt;obsidian&lt;/code&gt; 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到&lt;code&gt;github&lt;/code&gt;、编译博客的源文件再发表等等&lt;/p&gt;
-&lt;p&gt;下面列出一些我正在用的插件👇&lt;/p&gt;
-&lt;h2 id=&#34;appearance&#34;&gt;Appearance&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1r94y1v7eH/?vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;【Obsidian搭建系列教程】 主题配置 | 美化篇——Part 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;主题：AnuPpuccin&lt;/li&gt;
-&lt;li&gt;字体：霞鹜文楷 ，安装地址：&lt;a href=&#34;https://github.com/lxgw/LxgwWenKai&#34;&gt;https://github.com/lxgw/LxgwWenKai&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;大纲：Quiet Outline&lt;/li&gt;
-&lt;li&gt;样式设置：Style Setting&lt;/li&gt;
-&lt;li&gt;代码高亮：Editor Syntax Highlight&lt;/li&gt;
-&lt;li&gt;链接图标：Link Favicons&lt;/li&gt;
-&lt;li&gt;文件图标：Icon Floder&lt;/li&gt;
-&lt;li&gt;Light/Dark自动切换：System Dark Mode&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;quiet-outline&#34;&gt;Quiet Outline&lt;/h3&gt;
-&lt;p&gt;一个让大纲更好用的插件&lt;/p&gt;
-&lt;p&gt;打开命令面板输入&lt;code&gt;Quiet Outline&lt;/code&gt;，然后回车，就可以打开大纲面板。&lt;/p&gt;
-&lt;p&gt;其他详细功能在设置中查看&lt;/p&gt;
-&lt;h3 id=&#34;style-setting&#34;&gt;Style Setting&lt;/h3&gt;
-&lt;p&gt;这个插件允许代码片段、主题和插件CSS文件定义一组配置选项&lt;/p&gt;
-&lt;h3 id=&#34;editor-syntax-highlight&#34;&gt;Editor Syntax Highlight&lt;/h3&gt;
-&lt;p&gt;将最流行的编程语言的语法高亮显示到Obsidian代码块中&lt;/p&gt;
-&lt;h3 id=&#34;link-favicons&#34;&gt;Link Favicons&lt;/h3&gt;
-&lt;p&gt;自动拉取链接网站的图标&lt;/p&gt;
-&lt;h3 id=&#34;icon-floder&#34;&gt;Icon Floder&lt;/h3&gt;
-&lt;p&gt;自定义文件的图标&lt;/p&gt;
-&lt;h3 id=&#34;system-dark-mode&#34;&gt;System Dark Mode&lt;/h3&gt;
-&lt;p&gt;将自动根据操作系统将主题设置为亮或暗模式&lt;/p&gt;
-&lt;h2 id=&#34;toolbar&#34;&gt;Toolbar&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;工具栏：Editing Toolbar&lt;/li&gt;
-&lt;li&gt;Emoji：Emoji Toolbar&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;editing-toolbar&#34;&gt;Editing Toolbar&lt;/h3&gt;
-&lt;p&gt;提供类似于 MS-Word 的工具栏，，以获得更顺畅的写作/编辑体验。&lt;/p&gt;
-&lt;h3 id=&#34;emoji-toolbar&#34;&gt;Emoji Toolbar&lt;/h3&gt;
-&lt;p&gt;让你可以快速搜索和添加表情符号到你的编辑器。&lt;/p&gt;
-&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
-&lt;h3 id=&#34;epub-reader&#34;&gt;&lt;strong&gt;ePUb Reader&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;在 &lt;code&gt;Obsidian&lt;/code&gt; 中可以阅读 &lt;code&gt;Epub&lt;/code&gt; 电子书&lt;/p&gt;
-&lt;h3 id=&#34;image-auto-upload-plugin&#34;&gt;Image auto upload Plugin&lt;/h3&gt;
-&lt;p&gt;通过 &lt;code&gt;PicGo&lt;/code&gt; 自动上传图像，只需要将图片粘贴即可自动上传&lt;/p&gt;
-&lt;h3 id=&#34;obsidian-git--quickadd&#34;&gt;Obsidian Git &amp;amp; QuickAdd&lt;/h3&gt;
-&lt;p&gt;搭建 Obsidian 博客自动发布系统&lt;/p&gt;
-&lt;h3 id=&#34;various-complements&#34;&gt;Various Complements&lt;/h3&gt;
-&lt;p&gt;单词提示，自动补全&lt;/p&gt;
-&lt;h3 id=&#34;vimrc-support&#34;&gt;&lt;strong&gt;Vimrc Support&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;从 &lt;code&gt;VAULT_ROOT/.obsidian.vimrc&lt;/code&gt; 加载 Vim 命令文件，实现加载持久配置的功能并添加一些额外功能&lt;/p&gt;
-&lt;h3 id=&#34;wakatime&#34;&gt;WakaTime&lt;/h3&gt;
-&lt;p&gt;统计你在不同语言、项目上写代码的时长&lt;/p&gt;
-&lt;h3 id=&#34;commander---hover-editor&#34;&gt;Commander  &amp;amp; Hover Editor&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;Commder&lt;/code&gt; 可以利用 &lt;code&gt;macros&lt;/code&gt; 自定义命令&lt;/p&gt;
-&lt;p&gt;我们自定义命令后，绑定快捷键 &lt;code&gt;Ctrl+Shift+X&lt;/code&gt;，使&lt;code&gt; Style Settings&lt;/code&gt; 面板悬浮，方便配置美观的编辑界面&lt;/p&gt;
-&lt;h3 id=&#34;hypothesis&#34;&gt;Hypothes.is&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://seviche.cc/2022-05-25-hypothesis/&#34;&gt;# Hypothesis 使用小记&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;网页批注工具，配合 Chrome Browser 使用&lt;/p&gt;
-&lt;center&gt; 
-	&lt;img style=&#34;border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; src=&#34;https://bu.dusays.com/2023/08/10/64d453059591b.png&#34;&gt;
-	&lt;br&gt;
-	&lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9; 
-	display: inline-block; 
-	color: #999; 
-	padding: 2px;&#34;&gt;笔记模板配置&lt;/div&gt; 
- &lt;/center&gt;
 &lt;h1 id=&#34;flomo-浮墨笔记&#34;&gt;flomo 浮墨笔记&lt;/h1&gt;
 &lt;p&gt;在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录&lt;/p&gt;
 &lt;p&gt;在想回顾时，可以方便知晓过去的想法
@@ -771,71 +956,6 @@
 </ol>
 <h1 id="obsidian">Obsidian</h1>
 <p>我的笔记记录工作，都是在 <code>obsidian</code> 上完成的，现在也是建立起了一个很方便的工作流，是我可以只用思考要写什么内容，其余的步骤已经可以完全交给自动化来完成了，诸如同步到<code>github</code>、编译博客的源文件再发表等等</p>
-<p>下面列出一些我正在用的插件👇</p>
-<h2 id="appearance">Appearance</h2>
-<ul>
-<li><a href="https://www.bilibili.com/video/BV1r94y1v7eH/?vd_source=ae16ff6478eb15c1b87880540263910b">【Obsidian搭建系列教程】 主题配置 | 美化篇——Part 1</a></li>
-<li>主题：AnuPpuccin</li>
-<li>字体：霞鹜文楷 ，安装地址：<a href="https://github.com/lxgw/LxgwWenKai">https://github.com/lxgw/LxgwWenKai</a></li>
-<li>大纲：Quiet Outline</li>
-<li>样式设置：Style Setting</li>
-<li>代码高亮：Editor Syntax Highlight</li>
-<li>链接图标：Link Favicons</li>
-<li>文件图标：Icon Floder</li>
-<li>Light/Dark自动切换：System Dark Mode</li>
-</ul>
-<h3 id="quiet-outline">Quiet Outline</h3>
-<p>一个让大纲更好用的插件</p>
-<p>打开命令面板输入<code>Quiet Outline</code>，然后回车，就可以打开大纲面板。</p>
-<p>其他详细功能在设置中查看</p>
-<h3 id="style-setting">Style Setting</h3>
-<p>这个插件允许代码片段、主题和插件CSS文件定义一组配置选项</p>
-<h3 id="editor-syntax-highlight">Editor Syntax Highlight</h3>
-<p>将最流行的编程语言的语法高亮显示到Obsidian代码块中</p>
-<h3 id="link-favicons">Link Favicons</h3>
-<p>自动拉取链接网站的图标</p>
-<h3 id="icon-floder">Icon Floder</h3>
-<p>自定义文件的图标</p>
-<h3 id="system-dark-mode">System Dark Mode</h3>
-<p>将自动根据操作系统将主题设置为亮或暗模式</p>
-<h2 id="toolbar">Toolbar</h2>
-<ul>
-<li>工具栏：Editing Toolbar</li>
-<li>Emoji：Emoji Toolbar</li>
-</ul>
-<h3 id="editing-toolbar">Editing Toolbar</h3>
-<p>提供类似于 MS-Word 的工具栏，，以获得更顺畅的写作/编辑体验。</p>
-<h3 id="emoji-toolbar">Emoji Toolbar</h3>
-<p>让你可以快速搜索和添加表情符号到你的编辑器。</p>
-<h2 id="others">Others</h2>
-<h3 id="epub-reader"><strong>ePUb Reader</strong></h3>
-<p>在 <code>Obsidian</code> 中可以阅读 <code>Epub</code> 电子书</p>
-<h3 id="image-auto-upload-plugin">Image auto upload Plugin</h3>
-<p>通过 <code>PicGo</code> 自动上传图像，只需要将图片粘贴即可自动上传</p>
-<h3 id="obsidian-git--quickadd">Obsidian Git &amp; QuickAdd</h3>
-<p>搭建 Obsidian 博客自动发布系统</p>
-<h3 id="various-complements">Various Complements</h3>
-<p>单词提示，自动补全</p>
-<h3 id="vimrc-support"><strong>Vimrc Support</strong></h3>
-<p>从 <code>VAULT_ROOT/.obsidian.vimrc</code> 加载 Vim 命令文件，实现加载持久配置的功能并添加一些额外功能</p>
-<h3 id="wakatime">WakaTime</h3>
-<p>统计你在不同语言、项目上写代码的时长</p>
-<h3 id="commander---hover-editor">Commander  &amp; Hover Editor</h3>
-<p><code>Commder</code> 可以利用 <code>macros</code> 自定义命令</p>
-<p>我们自定义命令后，绑定快捷键 <code>Ctrl+Shift+X</code>，使<code> Style Settings</code> 面板悬浮，方便配置美观的编辑界面</p>
-<h3 id="hypothesis">Hypothes.is</h3>
-<ul>
-<li><a href="https://seviche.cc/2022-05-25-hypothesis/"># Hypothesis 使用小记</a></li>
-</ul>
-<p>网页批注工具，配合 Chrome Browser 使用</p>
-<center> 
-	<img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" src="https://bu.dusays.com/2023/08/10/64d453059591b.png">
-	<br>
-	<div style="color:orange; border-bottom: 1px solid #d9d9d9; 
-	display: inline-block; 
-	color: #999; 
-	padding: 2px;">笔记模板配置</div> 
- </center>
 <h1 id="flomo-浮墨笔记">flomo 浮墨笔记</h1>
 <p>在日常生活中，有碰到想法和灵感需要记录的时候，我会使用它进行一个快速的记录</p>
 <p>在想回顾时，可以方便知晓过去的想法
@@ -1033,9 +1153,8 @@
 &lt;p&gt;手机上的话，我会使用微信读书，把找到的电子书上传到书架后进行阅读&lt;/p&gt;
 &lt;h2 id=&#34;纸质书&#34;&gt;纸质书&lt;/h2&gt;
 &lt;p&gt;不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）&lt;/p&gt;
-&lt;h1 id=&#34;chatgpt--search-engine&#34;&gt;ChatGPT &amp;amp; Search-engine&lt;/h1&gt;
+&lt;h1 id=&#34;chatgpt--chrome&#34;&gt;ChatGPT &amp;amp; Chrome&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Chrome &amp;amp; AdblockPlus &amp;amp; uBlacklist | Personal Blocklist &amp;amp; ChatGPT for Google &amp;amp; Vimium&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;在搜索引擎体验上， Google （强推，体验极佳） &amp;gt; Bing （偶尔用用） &amp;raquo; Baidu （完全不考虑）&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/589201080&#34;&gt;ChatGPT 使用指南&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.instructables.com/How-to-Properly-Use-a-Search-Engine/&#34;&gt;# How to Properly Use a Search Engine&lt;/a&gt;&lt;/li&gt;
@@ -1049,67 +1168,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;chrome-plugins&#34;&gt;Chrome plugins&lt;/h2&gt;
-&lt;h3 id=&#34;adblock-plus---free-ad-blocker&#34;&gt;Adblock Plus - free ad blocker&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;AdblockPlus&lt;/code&gt; 由用户手动设置拦截网页上不想看到的内容，我使用这个插件把一些网站我不想要看到的内容进行屏蔽，以获得更为简洁的体验&lt;/p&gt;
-&lt;p&gt;小声BB：启动这个插件，在使用过程中，可能会碰到部分网页显示异常的情况，这个时候需要把该网页加入白名单来保证网页正常显示
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2022/11/14/6371b54d0642a.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2022/11/14/6371b54d0642a.png&#34; alt=&#34;3&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;chatgpt-for-google&#34;&gt;ChatGPT for Google&lt;/h3&gt;
-&lt;p&gt;使用 Google 搜索时，右侧便会自动出现chatGPT的回答，如搜索&lt;code&gt;C++虚函数是什么？&lt;/code&gt;，就会出现如下所示的结果：
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/13/63c0cda30c70c.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/13/63c0cda30c70c.png&#34; alt=&#34;Snipaste_2023-01-13_11-18-47.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h3 id=&#34;global-speed&#34;&gt;Global Speed&lt;/h3&gt;
-&lt;p&gt;使用键盘调节视频的播放速度，脱离鼠标的使用&lt;/p&gt;
-&lt;h3 id=&#34;idm-integration-module&#34;&gt;IDM Integration Module&lt;/h3&gt;
-&lt;p&gt;使用 &lt;code&gt;IDM&lt;/code&gt; 下载文件&lt;/p&gt;
-&lt;h3 id=&#34;language-reactor&#34;&gt;&lt;strong&gt;Language Reactor&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;学习外语&lt;/p&gt;
-&lt;h3 id=&#34;vimium-c---all-by-keyboard--pdf-viewer-for-vimium-c&#34;&gt;Vimium C - All by Keyboard &amp;amp; PDF Viewer for Vimium C&lt;/h3&gt;
-&lt;p&gt;它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面&lt;/p&gt;
-&lt;p&gt;这个插件我已经有一篇&lt;a href=&#34;https://xancoding.cn/posts/vimium/&#34;&gt;文章&lt;/a&gt;进行更为详细的讲解了，这里就不再展开来说了&lt;/p&gt;
-&lt;h3 id=&#34;personal-blocklist&#34;&gt;Personal Blocklist&lt;/h3&gt;
-&lt;p&gt;在搜索时屏蔽特定网站，做到对低质内容的过滤&lt;/p&gt;
-&lt;h3 id=&#34;rss-reader-extension-by-inoreader&#34;&gt;RSS Reader Extension (by Inoreader)&lt;/h3&gt;
-&lt;p&gt;Build your own newsfeed&lt;/p&gt;
-&lt;h3 id=&#34;zotero-connector&#34;&gt;Zotero Connector&lt;/h3&gt;
-&lt;p&gt;Save references to Zotero from your web browser&lt;/p&gt;
-&lt;h3 id=&#34;划词翻译&#34;&gt;划词翻译&lt;/h3&gt;
-&lt;p&gt;一站式划词 / 截图 / 网页全文 / 音视频翻译扩展&lt;/p&gt;
-&lt;h3 id=&#34;easyscholar&#34;&gt;easyScholar&lt;/h3&gt;
-&lt;p&gt;显示期刊等级&lt;/p&gt;
-&lt;h3 id=&#34;erin&#34;&gt;Erin&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://erin-homepage.vercel.app/&#34;&gt;Erin&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;以插件的形式重新定义自己的新标签页&lt;/p&gt;
-&lt;h3 id=&#34;chathub---all-in-one-chatbot-client&#34;&gt;ChatHub - All-in-one chatbot client&lt;/h3&gt;
-&lt;p&gt;聚合ChatGPT、New Bing、Claude等大语言模型&lt;/p&gt;
-&lt;h3 id=&#34;new-bing-anywhere-bing-chat-gpt-4&#34;&gt;New Bing Anywhere (Bing Chat GPT-4)&lt;/h3&gt;
-&lt;p&gt;在 Chrome 中使用 NewBing&lt;/p&gt;
-&lt;h3 id=&#34;hypothesis---web--pdf-annotation&#34;&gt;Hypothesis - Web &amp;amp; PDF Annotation&lt;/h3&gt;
-&lt;p&gt;网页批注工具，可配合 Obsidian 使用&lt;/p&gt;
-&lt;h3 id=&#34;maple-bookmarks&#34;&gt;Maple Bookmarks&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tw93/Maple&#34;&gt;枫叶书签&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;彻底隐藏掉书签栏，使用 &lt;code&gt;Crtl+B&lt;/code&gt; 快速访问书签，甚至可以输入即搜索&lt;/p&gt;
-&lt;h3 id=&#34;与-github-相关的浏览器插件&#34;&gt;与 &lt;code&gt;Github&lt;/code&gt; 相关的浏览器插件&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;octotree&lt;/code&gt; 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;enchanced github&lt;/code&gt; 可查看单个文件的大小，下载单个文件&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;gitzip for github&lt;/code&gt; 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）&lt;/p&gt;
 &lt;h1 id=&#34;推荐阅读&#34;&gt;推荐阅读&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://catcoding.me/p/get-better-info/&#34;&gt;优化自己的信息源&lt;/a&gt;&lt;/li&gt;
@@ -1178,9 +1236,8 @@
 <p>手机上的话，我会使用微信读书，把找到的电子书上传到书架后进行阅读</p>
 <h2 id="纸质书">纸质书</h2>
 <p>不过，相比于电子书，我其实还是更喜欢纸质书的阅读体验。所以，我也会隔段时间便去拿着自己的书单，去学校的图书馆找书看（当然，并不是每次图书馆都有我想要的书😭）</p>
-<h1 id="chatgpt--search-engine">ChatGPT &amp; Search-engine</h1>
+<h1 id="chatgpt--chrome">ChatGPT &amp; Chrome</h1>
 <ul>
-<li><code>Chrome &amp; AdblockPlus &amp; uBlacklist | Personal Blocklist &amp; ChatGPT for Google &amp; Vimium</code></li>
 <li><strong>在搜索引擎体验上， Google （强推，体验极佳） &gt; Bing （偶尔用用） &raquo; Baidu （完全不考虑）</strong></li>
 <li><a href="https://zhuanlan.zhihu.com/p/589201080">ChatGPT 使用指南</a></li>
 <li><a href="https://www.instructables.com/How-to-Properly-Use-a-Search-Engine/"># How to Properly Use a Search Engine</a></li>
@@ -1194,67 +1251,6 @@
 </li>
 </ul>
 <hr>
-<h2 id="chrome-plugins">Chrome plugins</h2>
-<h3 id="adblock-plus---free-ad-blocker">Adblock Plus - free ad blocker</h3>
-<p><code>AdblockPlus</code> 由用户手动设置拦截网页上不想看到的内容，我使用这个插件把一些网站我不想要看到的内容进行屏蔽，以获得更为简洁的体验</p>
-<p>小声BB：启动这个插件，在使用过程中，可能会碰到部分网页显示异常的情况，这个时候需要把该网页加入白名单来保证网页正常显示
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2022/11/14/6371b54d0642a.png">
-<img src="https://bu.dusays.com/2022/11/14/6371b54d0642a.png" alt="3"  />
-</a>
-</div>
-
-</p>
-<h3 id="chatgpt-for-google">ChatGPT for Google</h3>
-<p>使用 Google 搜索时，右侧便会自动出现chatGPT的回答，如搜索<code>C++虚函数是什么？</code>，就会出现如下所示的结果：
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/13/63c0cda30c70c.png">
-<img src="https://bu.dusays.com/2023/01/13/63c0cda30c70c.png" alt="Snipaste_2023-01-13_11-18-47.png"  />
-</a>
-</div>
-
-</p>
-<h3 id="global-speed">Global Speed</h3>
-<p>使用键盘调节视频的播放速度，脱离鼠标的使用</p>
-<h3 id="idm-integration-module">IDM Integration Module</h3>
-<p>使用 <code>IDM</code> 下载文件</p>
-<h3 id="language-reactor"><strong>Language Reactor</strong></h3>
-<p>学习外语</p>
-<h3 id="vimium-c---all-by-keyboard--pdf-viewer-for-vimium-c">Vimium C - All by Keyboard &amp; PDF Viewer for Vimium C</h3>
-<p>它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面</p>
-<p>这个插件我已经有一篇<a href="https://xancoding.cn/posts/vimium/">文章</a>进行更为详细的讲解了，这里就不再展开来说了</p>
-<h3 id="personal-blocklist">Personal Blocklist</h3>
-<p>在搜索时屏蔽特定网站，做到对低质内容的过滤</p>
-<h3 id="rss-reader-extension-by-inoreader">RSS Reader Extension (by Inoreader)</h3>
-<p>Build your own newsfeed</p>
-<h3 id="zotero-connector">Zotero Connector</h3>
-<p>Save references to Zotero from your web browser</p>
-<h3 id="划词翻译">划词翻译</h3>
-<p>一站式划词 / 截图 / 网页全文 / 音视频翻译扩展</p>
-<h3 id="easyscholar">easyScholar</h3>
-<p>显示期刊等级</p>
-<h3 id="erin">Erin</h3>
-<ul>
-<li><a href="https://erin-homepage.vercel.app/">Erin</a></li>
-</ul>
-<p>以插件的形式重新定义自己的新标签页</p>
-<h3 id="chathub---all-in-one-chatbot-client">ChatHub - All-in-one chatbot client</h3>
-<p>聚合ChatGPT、New Bing、Claude等大语言模型</p>
-<h3 id="new-bing-anywhere-bing-chat-gpt-4">New Bing Anywhere (Bing Chat GPT-4)</h3>
-<p>在 Chrome 中使用 NewBing</p>
-<h3 id="hypothesis---web--pdf-annotation">Hypothesis - Web &amp; PDF Annotation</h3>
-<p>网页批注工具，可配合 Obsidian 使用</p>
-<h3 id="maple-bookmarks">Maple Bookmarks</h3>
-<ul>
-<li><a href="https://github.com/tw93/Maple">枫叶书签</a></li>
-</ul>
-<p>彻底隐藏掉书签栏，使用 <code>Crtl+B</code> 快速访问书签，甚至可以输入即搜索</p>
-<h3 id="与-github-相关的浏览器插件">与 <code>Github</code> 相关的浏览器插件</h3>
-<p><code>octotree</code> 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率</p>
-<p><code>enchanced github</code> 可查看单个文件的大小，下载单个文件</p>
-<p><code>gitzip for github</code> 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）</p>
 <h1 id="推荐阅读">推荐阅读</h1>
 <ul>
 <li><a href="https://catcoding.me/p/get-better-info/">优化自己的信息源</a></li>
