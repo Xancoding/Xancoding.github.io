@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 07 Sep 2023 17:57:15 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Sep 2023 09:46:05 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的全平台软件清单</title>
       <link>https://xancoding.cn/posts/2023-09-07-17-57-14/</link>
@@ -752,562 +752,6 @@
     </item>
     
     <item>
-      <title>8 月总结</title>
-      <link>https://xancoding.cn/posts/2023-08-31-17-31-55/</link>
-      <pubDate>Thu, 31 Aug 2023 17:31:56 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-08-31-17-31-55/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;学习
-&lt;ol&gt;
-&lt;li&gt;基于 OpenAI API 自建
-&lt;ol&gt;
-&lt;li&gt;0802 Finished 完成 Demo&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;酒井科协暑培 2023
-&lt;ol&gt;
-&lt;li&gt;0802 Finished Docker&lt;/li&gt;
-&lt;li&gt;0802 Finished Rust Web&lt;/li&gt;
-&lt;li&gt;0802 Finished Django&lt;/li&gt;
-&lt;li&gt;0817 Finished Python&lt;/li&gt;
-&lt;li&gt;神经网络 &amp;amp; PyTorch&lt;/li&gt;
-&lt;li&gt;数据分析 &amp;amp; NumPy&lt;/li&gt;
-&lt;li&gt;爬虫&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;0803 Finished Software Engineering Course Index
-&lt;ol&gt;
-&lt;li&gt;前后端分离开发基础&lt;/li&gt;
-&lt;li&gt;部署基础&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;运动
-&lt;ol&gt;
-&lt;li&gt;0804 第一次办健身卡季卡，第一次去健身房&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;0809 Finished &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html&#34;&gt;从Python到发表一篇AI论文（核心 or Sci三区+）（目录）&lt;/a&gt; 
-&lt;ol&gt;
-&lt;li&gt;0805 Finished 第一篇 快速学完 Python&lt;/li&gt;
-&lt;li&gt;0809 Finished &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14662511.html&#34;&gt;第六篇 Pytorch&lt;/a&gt;
-&lt;ol&gt;
-&lt;li&gt;一、前置基础（选看）&lt;/li&gt;
-&lt;li&gt;二、Pytorch 引入&lt;/li&gt;
-&lt;li&gt;三、Pytorch 搭建神经网络流程&lt;/li&gt;
-&lt;li&gt;四、Pytorch 的 Tensor 操作&lt;/li&gt;
-&lt;li&gt;五、Pytorch 的 autograd 操作&lt;/li&gt;
-&lt;li&gt;六、Pytorch 的 nn 工具箱&lt;/li&gt;
-&lt;li&gt;七、Pytorch 中常用的工具
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14708224.html&#34;&gt;0701-数据处理&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14717067.html&#34;&gt;0703-可视化工具tensorboard和visdom&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;0809 Finished 八、Pytorch 实战
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14726984.html&#34;&gt;0801-深度学习程序架构设计 - 水论文的程序猿 - 博客园&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;0809 Finished 模型暂时不知道如何载入，故代码没跑起来 &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14735670.html&#34;&gt;0802-编程实战_猫和狗二分类_深度学习项目架构&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14737988.html&#34;&gt;0803-PyTorch的Debug指南&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;0809 Finished 九、AI 插画师：生成对抗网络（GAN）实战
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14745142.html&#34;&gt;0901-生成对抗网络GAN的原理简介&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;0809 要花一天时间爬数据，故放弃 &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14763427.html&#34;&gt;0902-用GAN生成动漫头像&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html#%E7%AC%AC%E4%B8%83%E7%AF%87-transformer&#34;&gt;第七篇 Transformer&lt;/a&gt;&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html#transformergptbert%E9%A2%84%E8%AE%AD%E7%BB%83%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F%E7%90%86%E8%AE%BA&#34;&gt;Transformer、GPT、BERT，预训练语言模型的前世今生（理论）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html#%E9%80%9A%E8%BF%87-pytorch-%E6%9E%84%E5%BB%BA-transformer-%E6%A1%86%E6%9E%B6%E7%9C%9F%E5%AE%9E%E6%88%98%E4%B8%8D%E5%81%9A%E8%B0%83%E5%8C%85%E4%BE%A0&#34;&gt;通过 Pytorch 构建 Transformer 框架（真实战，不做调包侠）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;0809 Finished 第九篇 相关杂篇 &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16540621.html&#34;&gt;00 你想要学习的 AI+Python，捷径在这里&lt;/a&gt;&lt;/strong&gt;
-&lt;ol&gt;
-&lt;li&gt;Python&lt;/li&gt;
-&lt;li&gt;数学&lt;/li&gt;
-&lt;li&gt;机器学习&lt;/li&gt;
-&lt;li&gt;深度学习 与 Pytorch&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;定领域方向，看自己领域的综述论文，再看自己领域论文，跑自己领域的代码模型&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;看完论文，你会有很多想法，使用 Python 实现它，Pytorch 作为一个框架，可以降低你的实现难度&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;0809 Finished &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16777301.html&#34;&gt;第十篇 导师不敢和你说的水论文隐藏技巧&lt;/a&gt;&lt;/strong&gt;
-&lt;ol&gt;
-&lt;li&gt;没有代码，我们手动构建，基本上是不可能。一定要找到一份代码，无论是顶刊的还是四区的。模型一定是可以调通，且复现后性能不会太差。现在开始做的，就是大量看论文（不要看得太细了），如果觉得这篇论文的思想可以粘在你的模型上。性能差不多，一般都可以通过调参解决。我引用了 A 模型，然后我改成了 B 模型。只针对一个数据集。就可以水一篇，三四区&lt;/li&gt;
-&lt;li&gt;水刊：SCI4 区，部分三区。一个论文需要多个数据集（两个），绝大多数水刊只用了一个数据集。一个论文需要创新，对你这个领域需要有独到的见解，先提出问题（领域内的问题），然后解决，绝大多数水刊，可能只是 A 领域用了这个，还不错，我就把 A 领域的拿到 B 领域来。&lt;/li&gt;
-&lt;li&gt;我们需要有一个基础的模型（基准模型）。不断地尝试，把好一点的论文的方法加到我的基准模型上（不一定说要一模一样，怎么简单怎么来）。可能一次次的尝试，都无用，调参能解决绝大多数性能问题。一定要吹得狠一点（编故事，你一定是想办法编出一个问题，这个问题是你领域内的问题）。分级注意力网络（3 层）&lt;/li&gt;
-&lt;li&gt;如果你要定好了方向，一定要去看几篇该方向的综述。综述讲解了你这个方向的近几年的技术的发展情况（脉络）。把最近 3 年的该方向的文章全部找出来，分类，概述每一篇论文（都是从摘要里面摘抄一两句话）。&lt;/li&gt;
-&lt;li&gt;小论文要创新，不需要工作量，不需要你详细的解释，通篇你要解释你创新的点是什么，做出了什么成绩，这件事对你这个方向和你这个领域有什么贡献，当然，水一篇论文其实没那么多要求（sci四区）。你用了什么方法，比如说我做了目标检测、知识图谱（找一篇综述）、推荐系统、命名实体识别。小论文要知道，你通过这四个东西的叠加完成了一件什么样的事情（会编会吹）。&lt;/li&gt;
-&lt;li&gt;定基准模型，如果有继承，3 天。首先得找大量的论文，基本是顶刊顶会，大概率会给代码，且给的代码有 README，代码有系统性，方便你以后改动。有了基准模型之后，尽量把这个基准模型的模型部分（models）给看懂，至于数据集处理和训练没必要。定思想，改进的思想。找更多的论文，去找灵感，不如说尝试，不断地加入小模块进入你的基准模型，有用，没用，调个参，调参也没用，换一个。出效果后，想办法编故事&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;0808 Finished &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686958.html#tid-K3aFrr&#34;&gt;人工智能从入门到放弃-Sklearn实战（目录）&lt;/a&gt;
-&lt;ol&gt;
-&lt;li&gt;0810 Finished 01部分 机器学习基础&lt;/li&gt;
-&lt;li&gt;02部分 监督学习&lt;/li&gt;
-&lt;li&gt;03部分 无监督学习&lt;/li&gt;
-&lt;li&gt;04部分 集成学习&lt;/li&gt;
-&lt;li&gt;05部分 特征工程&lt;/li&gt;
-&lt;li&gt;0808 Finished 06部分 深度学习 &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686775.html&#34;&gt;06-01 DeepLearning-图像识别&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;0810 Finished &lt;strong&gt;附录A：优化算法&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;0810 Finished &lt;strong&gt;附录B：数学&lt;/strong&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686764.html&#34;&gt;B-概率论-熵和信息增益&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686765.html&#34;&gt;B-概率论-贝叶斯决策&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686709.html&#34;&gt;B-线性代数-范数&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686745.html&#34;&gt;B-线性代数-距离公式汇总&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10802091.html&#34;&gt;机器学习-项目杂记（目录）&lt;/a&gt;
-&lt;ol&gt;
-&lt;li&gt;第三篇 常用库
-&lt;ul&gt;
-&lt;li&gt;0806 Finished &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10807564.html&#34;&gt;numpy模块&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10807568.html&#34;&gt;pandas模块&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10807571.html&#34;&gt;matplotlib模块&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14900036.html&#34;&gt;# 凸优化从入门到放弃（目录）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;看 GNN 论文
-&lt;ol&gt;
-&lt;li&gt;Adaptive Graph Encoder for Attributed Graph Embedding 这篇Github上有具体的代码，去用起来 AGE&lt;/li&gt;
-&lt;li&gt;Attributed Graph Clustering via Adaptive Graph Convolution 这篇准确来说不能叫图卷积神经网络，应该是叫图卷积，AGE那篇可以说是GCN，你可以看一下他们两个的区别。 AGC&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;0814 Finished pyG——GetStarted
-&lt;ol&gt;
-&lt;li&gt;Data Transforms&lt;/li&gt;
-&lt;li&gt;Learning Methods on Graphs&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;看 GNN 相关论文，找自己的方向&lt;/li&gt;
-&lt;li&gt;0824 Finished &lt;a href=&#34;https://tangshusen.me/Dive-into-DL-PyTorch/&#34;&gt;《动手学深度学习》(PyTorch版)&lt;/a&gt; 优化算法、RNN、NLP 部分内容未看；CV 内容不准备看
-&lt;ol&gt;
-&lt;li&gt;基于 OpenAI API 自建
-&lt;ol&gt;
-&lt;li&gt;0802 Finished 完成 Demo&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;酒井科协暑培 2023
-&lt;ol&gt;
-&lt;li&gt;0802 Finished Docker&lt;/li&gt;
-&lt;li&gt;0802 Finished Rust Web&lt;/li&gt;
-&lt;li&gt;0802 Finished Django&lt;/li&gt;
-&lt;li&gt;0817 Finished Python&lt;/li&gt;
-&lt;li&gt;神经网络 &amp;amp; PyTorch&lt;/li&gt;
-&lt;li&gt;数据分析 &amp;amp; NumPy&lt;/li&gt;
-&lt;li&gt;爬虫&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;0803 Finished Software Engineering Course Index
-&lt;ol&gt;
-&lt;li&gt;前后端分离开发基础&lt;/li&gt;
-&lt;li&gt;部署基础&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;运动
-&lt;ol&gt;
-&lt;li&gt;0804 第一次办健身卡季卡，第一次去健身房&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;0809 Finished &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html&#34;&gt;从Python到发表一篇AI论文（核心 or Sci三区+）（目录）&lt;/a&gt; 
-&lt;ol&gt;
-&lt;li&gt;0805 Finished 第一篇 快速学完 Python&lt;/li&gt;
-&lt;li&gt;0809 Finished &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14662511.html&#34;&gt;第六篇 Pytorch&lt;/a&gt;
-&lt;ol&gt;
-&lt;li&gt;一、前置基础（选看）&lt;/li&gt;
-&lt;li&gt;二、Pytorch 引入&lt;/li&gt;
-&lt;li&gt;三、Pytorch 搭建神经网络流程&lt;/li&gt;
-&lt;li&gt;四、Pytorch 的 Tensor 操作&lt;/li&gt;
-&lt;li&gt;五、Pytorch 的 autograd 操作&lt;/li&gt;
-&lt;li&gt;六、Pytorch 的 nn 工具箱&lt;/li&gt;
-&lt;li&gt;七、Pytorch 中常用的工具
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14708224.html&#34;&gt;0701-数据处理&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14717067.html&#34;&gt;0703-可视化工具tensorboard和visdom&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;0809 Finished 八、Pytorch 实战
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14726984.html&#34;&gt;0801-深度学习程序架构设计 - 水论文的程序猿 - 博客园&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;0809 Finished 模型暂时不知道如何载入，故代码没跑起来 &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14735670.html&#34;&gt;0802-编程实战_猫和狗二分类_深度学习项目架构&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14737988.html&#34;&gt;0803-PyTorch的Debug指南&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;0809 Finished 九、AI 插画师：生成对抗网络（GAN）实战
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14745142.html&#34;&gt;0901-生成对抗网络GAN的原理简介&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;0809 要花一天时间爬数据，故放弃 &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14763427.html&#34;&gt;0902-用GAN生成动漫头像&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html#%E7%AC%AC%E4%B8%83%E7%AF%87-transformer&#34;&gt;第七篇 Transformer&lt;/a&gt;&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html#transformergptbert%E9%A2%84%E8%AE%AD%E7%BB%83%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F%E7%90%86%E8%AE%BA&#34;&gt;Transformer、GPT、BERT，预训练语言模型的前世今生（理论）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16470443.html#%E9%80%9A%E8%BF%87-pytorch-%E6%9E%84%E5%BB%BA-transformer-%E6%A1%86%E6%9E%B6%E7%9C%9F%E5%AE%9E%E6%88%98%E4%B8%8D%E5%81%9A%E8%B0%83%E5%8C%85%E4%BE%A0&#34;&gt;通过 Pytorch 构建 Transformer 框架（真实战，不做调包侠）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;0809 Finished 第九篇 相关杂篇 &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16540621.html&#34;&gt;00 你想要学习的 AI+Python，捷径在这里&lt;/a&gt;&lt;/strong&gt;
-&lt;ol&gt;
-&lt;li&gt;Python&lt;/li&gt;
-&lt;li&gt;数学&lt;/li&gt;
-&lt;li&gt;机器学习&lt;/li&gt;
-&lt;li&gt;深度学习 与 Pytorch&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;定领域方向，看自己领域的综述论文，再看自己领域论文，跑自己领域的代码模型&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;看完论文，你会有很多想法，使用 Python 实现它，Pytorch 作为一个框架，可以降低你的实现难度&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;0809 Finished &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/16777301.html&#34;&gt;第十篇 导师不敢和你说的水论文隐藏技巧&lt;/a&gt;&lt;/strong&gt;
-&lt;ol&gt;
-&lt;li&gt;没有代码，我们手动构建，基本上是不可能。一定要找到一份代码，无论是顶刊的还是四区的。模型一定是可以调通，且复现后性能不会太差。现在开始做的，就是大量看论文（不要看得太细了），如果觉得这篇论文的思想可以粘在你的模型上。性能差不多，一般都可以通过调参解决。我引用了 A 模型，然后我改成了 B 模型。只针对一个数据集。就可以水一篇，三四区&lt;/li&gt;
-&lt;li&gt;水刊：SCI4 区，部分三区。一个论文需要多个数据集（两个），绝大多数水刊只用了一个数据集。一个论文需要创新，对你这个领域需要有独到的见解，先提出问题（领域内的问题），然后解决，绝大多数水刊，可能只是 A 领域用了这个，还不错，我就把 A 领域的拿到 B 领域来。&lt;/li&gt;
-&lt;li&gt;我们需要有一个基础的模型（基准模型）。不断地尝试，把好一点的论文的方法加到我的基准模型上（不一定说要一模一样，怎么简单怎么来）。可能一次次的尝试，都无用，调参能解决绝大多数性能问题。一定要吹得狠一点（编故事，你一定是想办法编出一个问题，这个问题是你领域内的问题）。分级注意力网络（3 层）&lt;/li&gt;
-&lt;li&gt;如果你要定好了方向，一定要去看几篇该方向的综述。综述讲解了你这个方向的近几年的技术的发展情况（脉络）。把最近 3 年的该方向的文章全部找出来，分类，概述每一篇论文（都是从摘要里面摘抄一两句话）。&lt;/li&gt;
-&lt;li&gt;小论文要创新，不需要工作量，不需要你详细的解释，通篇你要解释你创新的点是什么，做出了什么成绩，这件事对你这个方向和你这个领域有什么贡献，当然，水一篇论文其实没那么多要求（sci四区）。你用了什么方法，比如说我做了目标检测、知识图谱（找一篇综述）、推荐系统、命名实体识别。小论文要知道，你通过这四个东西的叠加完成了一件什么样的事情（会编会吹）。&lt;/li&gt;
-&lt;li&gt;定基准模型，如果有继承，3 天。首先得找大量的论文，基本是顶刊顶会，大概率会给代码，且给的代码有 README，代码有系统性，方便你以后改动。有了基准模型之后，尽量把这个基准模型的模型部分（models）给看懂，至于数据集处理和训练没必要。定思想，改进的思想。找更多的论文，去找灵感，不如说尝试，不断地加入小模块进入你的基准模型，有用，没用，调个参，调参也没用，换一个。出效果后，想办法编故事&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;0808 Finished &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686958.html#tid-K3aFrr&#34;&gt;人工智能从入门到放弃-Sklearn实战（目录）&lt;/a&gt;
-&lt;ol&gt;
-&lt;li&gt;0810 Finished 01部分 机器学习基础&lt;/li&gt;
-&lt;li&gt;02部分 监督学习&lt;/li&gt;
-&lt;li&gt;03部分 无监督学习&lt;/li&gt;
-&lt;li&gt;04部分 集成学习&lt;/li&gt;
-&lt;li&gt;05部分 特征工程&lt;/li&gt;
-&lt;li&gt;0808 Finished 06部分 深度学习 &lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686775.html&#34;&gt;06-01 DeepLearning-图像识别&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;0810 Finished &lt;strong&gt;附录A：优化算法&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;0810 Finished &lt;strong&gt;附录B：数学&lt;/strong&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686764.html&#34;&gt;B-概率论-熵和信息增益&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686765.html&#34;&gt;B-概率论-贝叶斯决策&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686709.html&#34;&gt;B-线性代数-范数&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/11686745.html&#34;&gt;B-线性代数-距离公式汇总&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10802091.html&#34;&gt;机器学习-项目杂记（目录）&lt;/a&gt;
-&lt;ol&gt;
-&lt;li&gt;第三篇 常用库
-&lt;ul&gt;
-&lt;li&gt;0806 Finished &lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10807564.html&#34;&gt;numpy模块&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10807568.html&#34;&gt;pandas模块&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/10807571.html&#34;&gt;matplotlib模块&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/nickchen121/p/14900036.html&#34;&gt;# 凸优化从入门到放弃（目录）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;看 GNN 论文
-&lt;ol&gt;
-&lt;li&gt;Adaptive Graph Encoder for Attributed Graph Embedding 这篇Github上有具体的代码，去用起来 AGE&lt;/li&gt;
-&lt;li&gt;Attributed Graph Clustering via Adaptive Graph Convolution 这篇准确来说不能叫图卷积神经网络，应该是叫图卷积，AGE那篇可以说是GCN，你可以看一下他们两个的区别。 AGC&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;0814 Finished pyG——GetStarted
-&lt;ol&gt;
-&lt;li&gt;Data Transforms&lt;/li&gt;
-&lt;li&gt;Learning Methods on Graphs&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;看 GNN 相关论文，找自己的方向&lt;/li&gt;
-&lt;li&gt;0824 Finished &lt;a href=&#34;https://tangshusen.me/Dive-into-DL-PyTorch/&#34;&gt;《动手学深度学习》(PyTorch版)&lt;/a&gt; 优化算法、RNN、NLP 部分内容未看；CV 内容不准备看&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      <content:encoded><![CDATA[<ol>
-<li>学习
-<ol>
-<li>基于 OpenAI API 自建
-<ol>
-<li>0802 Finished 完成 Demo</li>
-</ol>
-</li>
-<li>酒井科协暑培 2023
-<ol>
-<li>0802 Finished Docker</li>
-<li>0802 Finished Rust Web</li>
-<li>0802 Finished Django</li>
-<li>0817 Finished Python</li>
-<li>神经网络 &amp; PyTorch</li>
-<li>数据分析 &amp; NumPy</li>
-<li>爬虫</li>
-</ol>
-</li>
-<li>0803 Finished Software Engineering Course Index
-<ol>
-<li>前后端分离开发基础</li>
-<li>部署基础</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>运动
-<ol>
-<li>0804 第一次办健身卡季卡，第一次去健身房</li>
-</ol>
-</li>
-<li>0809 Finished <a href="https://www.cnblogs.com/nickchen121/p/16470443.html">从Python到发表一篇AI论文（核心 or Sci三区+）（目录）</a> 
-<ol>
-<li>0805 Finished 第一篇 快速学完 Python</li>
-<li>0809 Finished <a href="https://www.cnblogs.com/nickchen121/p/14662511.html">第六篇 Pytorch</a>
-<ol>
-<li>一、前置基础（选看）</li>
-<li>二、Pytorch 引入</li>
-<li>三、Pytorch 搭建神经网络流程</li>
-<li>四、Pytorch 的 Tensor 操作</li>
-<li>五、Pytorch 的 autograd 操作</li>
-<li>六、Pytorch 的 nn 工具箱</li>
-<li>七、Pytorch 中常用的工具
-<ol>
-<li><a href="https://www.cnblogs.com/nickchen121/p/14708224.html">0701-数据处理</a></li>
-<li><a href="https://www.cnblogs.com/nickchen121/p/14717067.html">0703-可视化工具tensorboard和visdom</a></li>
-</ol>
-</li>
-<li>0809 Finished 八、Pytorch 实战
-<ol>
-<li><a href="https://www.cnblogs.com/nickchen121/p/14726984.html">0801-深度学习程序架构设计 - 水论文的程序猿 - 博客园</a></li>
-<li>0809 Finished 模型暂时不知道如何载入，故代码没跑起来 <a href="https://www.cnblogs.com/nickchen121/p/14735670.html">0802-编程实战_猫和狗二分类_深度学习项目架构</a></li>
-<li><strong><a href="https://www.cnblogs.com/nickchen121/p/14737988.html">0803-PyTorch的Debug指南</a></strong></li>
-</ol>
-</li>
-<li>0809 Finished 九、AI 插画师：生成对抗网络（GAN）实战
-<ol>
-<li><a href="https://www.cnblogs.com/nickchen121/p/14745142.html">0901-生成对抗网络GAN的原理简介</a></li>
-<li>0809 要花一天时间爬数据，故放弃 <strong><a href="https://www.cnblogs.com/nickchen121/p/14763427.html">0902-用GAN生成动漫头像</a></strong></li>
-</ol>
-</li>
-</ol>
-</li>
-<li><strong><a href="https://www.cnblogs.com/nickchen121/p/16470443.html#%E7%AC%AC%E4%B8%83%E7%AF%87-transformer">第七篇 Transformer</a></strong>
-<ul>
-<li><a href="https://www.cnblogs.com/nickchen121/p/16470443.html#transformergptbert%E9%A2%84%E8%AE%AD%E7%BB%83%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F%E7%90%86%E8%AE%BA">Transformer、GPT、BERT，预训练语言模型的前世今生（理论）</a></li>
-<li><a href="https://www.cnblogs.com/nickchen121/p/16470443.html#%E9%80%9A%E8%BF%87-pytorch-%E6%9E%84%E5%BB%BA-transformer-%E6%A1%86%E6%9E%B6%E7%9C%9F%E5%AE%9E%E6%88%98%E4%B8%8D%E5%81%9A%E8%B0%83%E5%8C%85%E4%BE%A0">通过 Pytorch 构建 Transformer 框架（真实战，不做调包侠）</a></li>
-</ul>
-</li>
-<li>0809 Finished 第九篇 相关杂篇 <strong><a href="https://www.cnblogs.com/nickchen121/p/16540621.html">00 你想要学习的 AI+Python，捷径在这里</a></strong>
-<ol>
-<li>Python</li>
-<li>数学</li>
-<li>机器学习</li>
-<li>深度学习 与 Pytorch</li>
-<li><strong>定领域方向，看自己领域的综述论文，再看自己领域论文，跑自己领域的代码模型</strong></li>
-<li><strong>看完论文，你会有很多想法，使用 Python 实现它，Pytorch 作为一个框架，可以降低你的实现难度</strong></li>
-</ol>
-</li>
-<li>0809 Finished <strong><a href="https://www.cnblogs.com/nickchen121/p/16777301.html">第十篇 导师不敢和你说的水论文隐藏技巧</a></strong>
-<ol>
-<li>没有代码，我们手动构建，基本上是不可能。一定要找到一份代码，无论是顶刊的还是四区的。模型一定是可以调通，且复现后性能不会太差。现在开始做的，就是大量看论文（不要看得太细了），如果觉得这篇论文的思想可以粘在你的模型上。性能差不多，一般都可以通过调参解决。我引用了 A 模型，然后我改成了 B 模型。只针对一个数据集。就可以水一篇，三四区</li>
-<li>水刊：SCI4 区，部分三区。一个论文需要多个数据集（两个），绝大多数水刊只用了一个数据集。一个论文需要创新，对你这个领域需要有独到的见解，先提出问题（领域内的问题），然后解决，绝大多数水刊，可能只是 A 领域用了这个，还不错，我就把 A 领域的拿到 B 领域来。</li>
-<li>我们需要有一个基础的模型（基准模型）。不断地尝试，把好一点的论文的方法加到我的基准模型上（不一定说要一模一样，怎么简单怎么来）。可能一次次的尝试，都无用，调参能解决绝大多数性能问题。一定要吹得狠一点（编故事，你一定是想办法编出一个问题，这个问题是你领域内的问题）。分级注意力网络（3 层）</li>
-<li>如果你要定好了方向，一定要去看几篇该方向的综述。综述讲解了你这个方向的近几年的技术的发展情况（脉络）。把最近 3 年的该方向的文章全部找出来，分类，概述每一篇论文（都是从摘要里面摘抄一两句话）。</li>
-<li>小论文要创新，不需要工作量，不需要你详细的解释，通篇你要解释你创新的点是什么，做出了什么成绩，这件事对你这个方向和你这个领域有什么贡献，当然，水一篇论文其实没那么多要求（sci四区）。你用了什么方法，比如说我做了目标检测、知识图谱（找一篇综述）、推荐系统、命名实体识别。小论文要知道，你通过这四个东西的叠加完成了一件什么样的事情（会编会吹）。</li>
-<li>定基准模型，如果有继承，3 天。首先得找大量的论文，基本是顶刊顶会，大概率会给代码，且给的代码有 README，代码有系统性，方便你以后改动。有了基准模型之后，尽量把这个基准模型的模型部分（models）给看懂，至于数据集处理和训练没必要。定思想，改进的思想。找更多的论文，去找灵感，不如说尝试，不断地加入小模块进入你的基准模型，有用，没用，调个参，调参也没用，换一个。出效果后，想办法编故事</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>0808 Finished <a href="https://www.cnblogs.com/nickchen121/p/11686958.html#tid-K3aFrr">人工智能从入门到放弃-Sklearn实战（目录）</a>
-<ol>
-<li>0810 Finished 01部分 机器学习基础</li>
-<li>02部分 监督学习</li>
-<li>03部分 无监督学习</li>
-<li>04部分 集成学习</li>
-<li>05部分 特征工程</li>
-<li>0808 Finished 06部分 深度学习 <a href="https://www.cnblogs.com/nickchen121/p/11686775.html">06-01 DeepLearning-图像识别</a></li>
-<li>0810 Finished <strong>附录A：优化算法</strong></li>
-<li>0810 Finished <strong>附录B：数学</strong>
-<ol>
-<li><strong><a href="https://www.cnblogs.com/nickchen121/p/11686764.html">B-概率论-熵和信息增益</a></strong></li>
-<li><a href="https://www.cnblogs.com/nickchen121/p/11686765.html">B-概率论-贝叶斯决策</a></li>
-<li><a href="https://www.cnblogs.com/nickchen121/p/11686709.html">B-线性代数-范数</a></li>
-<li><a href="https://www.cnblogs.com/nickchen121/p/11686745.html">B-线性代数-距离公式汇总</a></li>
-</ol>
-</li>
-</ol>
-</li>
-<li><a href="https://www.cnblogs.com/nickchen121/p/10802091.html">机器学习-项目杂记（目录）</a>
-<ol>
-<li>第三篇 常用库
-<ul>
-<li>0806 Finished <strong><a href="https://www.cnblogs.com/nickchen121/p/10807564.html">numpy模块</a></strong></li>
-<li><strong><a href="https://www.cnblogs.com/nickchen121/p/10807568.html">pandas模块</a></strong></li>
-<li><strong><a href="https://www.cnblogs.com/nickchen121/p/10807571.html">matplotlib模块</a></strong></li>
-</ul>
-</li>
-</ol>
-</li>
-<li><a href="https://www.cnblogs.com/nickchen121/p/14900036.html"># 凸优化从入门到放弃（目录）</a></li>
-<li>看 GNN 论文
-<ol>
-<li>Adaptive Graph Encoder for Attributed Graph Embedding 这篇Github上有具体的代码，去用起来 AGE</li>
-<li>Attributed Graph Clustering via Adaptive Graph Convolution 这篇准确来说不能叫图卷积神经网络，应该是叫图卷积，AGE那篇可以说是GCN，你可以看一下他们两个的区别。 AGC</li>
-</ol>
-</li>
-<li>0814 Finished pyG——GetStarted
-<ol>
-<li>Data Transforms</li>
-<li>Learning Methods on Graphs</li>
-</ol>
-</li>
-<li>看 GNN 相关论文，找自己的方向</li>
-<li>0824 Finished <a href="https://tangshusen.me/Dive-into-DL-PyTorch/">《动手学深度学习》(PyTorch版)</a> 优化算法、RNN、NLP 部分内容未看；CV 内容不准备看
-<ol>
-<li>基于 OpenAI API 自建
-<ol>
-<li>0802 Finished 完成 Demo</li>
-</ol>
-</li>
-<li>酒井科协暑培 2023
-<ol>
-<li>0802 Finished Docker</li>
-<li>0802 Finished Rust Web</li>
-<li>0802 Finished Django</li>
-<li>0817 Finished Python</li>
-<li>神经网络 &amp; PyTorch</li>
-<li>数据分析 &amp; NumPy</li>
-<li>爬虫</li>
-</ol>
-</li>
-<li>0803 Finished Software Engineering Course Index
-<ol>
-<li>前后端分离开发基础</li>
-<li>部署基础</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>运动
-<ol>
-<li>0804 第一次办健身卡季卡，第一次去健身房</li>
-</ol>
-</li>
-<li>0809 Finished <a href="https://www.cnblogs.com/nickchen121/p/16470443.html">从Python到发表一篇AI论文（核心 or Sci三区+）（目录）</a> 
-<ol>
-<li>0805 Finished 第一篇 快速学完 Python</li>
-<li>0809 Finished <a href="https://www.cnblogs.com/nickchen121/p/14662511.html">第六篇 Pytorch</a>
-<ol>
-<li>一、前置基础（选看）</li>
-<li>二、Pytorch 引入</li>
-<li>三、Pytorch 搭建神经网络流程</li>
-<li>四、Pytorch 的 Tensor 操作</li>
-<li>五、Pytorch 的 autograd 操作</li>
-<li>六、Pytorch 的 nn 工具箱</li>
-<li>七、Pytorch 中常用的工具
-<ol>
-<li><a href="https://www.cnblogs.com/nickchen121/p/14708224.html">0701-数据处理</a></li>
-<li><a href="https://www.cnblogs.com/nickchen121/p/14717067.html">0703-可视化工具tensorboard和visdom</a></li>
-</ol>
-</li>
-<li>0809 Finished 八、Pytorch 实战
-<ol>
-<li><a href="https://www.cnblogs.com/nickchen121/p/14726984.html">0801-深度学习程序架构设计 - 水论文的程序猿 - 博客园</a></li>
-<li>0809 Finished 模型暂时不知道如何载入，故代码没跑起来 <a href="https://www.cnblogs.com/nickchen121/p/14735670.html">0802-编程实战_猫和狗二分类_深度学习项目架构</a></li>
-<li><strong><a href="https://www.cnblogs.com/nickchen121/p/14737988.html">0803-PyTorch的Debug指南</a></strong></li>
-</ol>
-</li>
-<li>0809 Finished 九、AI 插画师：生成对抗网络（GAN）实战
-<ol>
-<li><a href="https://www.cnblogs.com/nickchen121/p/14745142.html">0901-生成对抗网络GAN的原理简介</a></li>
-<li>0809 要花一天时间爬数据，故放弃 <strong><a href="https://www.cnblogs.com/nickchen121/p/14763427.html">0902-用GAN生成动漫头像</a></strong></li>
-</ol>
-</li>
-</ol>
-</li>
-<li><strong><a href="https://www.cnblogs.com/nickchen121/p/16470443.html#%E7%AC%AC%E4%B8%83%E7%AF%87-transformer">第七篇 Transformer</a></strong>
-<ul>
-<li><a href="https://www.cnblogs.com/nickchen121/p/16470443.html#transformergptbert%E9%A2%84%E8%AE%AD%E7%BB%83%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F%E7%90%86%E8%AE%BA">Transformer、GPT、BERT，预训练语言模型的前世今生（理论）</a></li>
-<li><a href="https://www.cnblogs.com/nickchen121/p/16470443.html#%E9%80%9A%E8%BF%87-pytorch-%E6%9E%84%E5%BB%BA-transformer-%E6%A1%86%E6%9E%B6%E7%9C%9F%E5%AE%9E%E6%88%98%E4%B8%8D%E5%81%9A%E8%B0%83%E5%8C%85%E4%BE%A0">通过 Pytorch 构建 Transformer 框架（真实战，不做调包侠）</a></li>
-</ul>
-</li>
-<li>0809 Finished 第九篇 相关杂篇 <strong><a href="https://www.cnblogs.com/nickchen121/p/16540621.html">00 你想要学习的 AI+Python，捷径在这里</a></strong>
-<ol>
-<li>Python</li>
-<li>数学</li>
-<li>机器学习</li>
-<li>深度学习 与 Pytorch</li>
-<li><strong>定领域方向，看自己领域的综述论文，再看自己领域论文，跑自己领域的代码模型</strong></li>
-<li><strong>看完论文，你会有很多想法，使用 Python 实现它，Pytorch 作为一个框架，可以降低你的实现难度</strong></li>
-</ol>
-</li>
-<li>0809 Finished <strong><a href="https://www.cnblogs.com/nickchen121/p/16777301.html">第十篇 导师不敢和你说的水论文隐藏技巧</a></strong>
-<ol>
-<li>没有代码，我们手动构建，基本上是不可能。一定要找到一份代码，无论是顶刊的还是四区的。模型一定是可以调通，且复现后性能不会太差。现在开始做的，就是大量看论文（不要看得太细了），如果觉得这篇论文的思想可以粘在你的模型上。性能差不多，一般都可以通过调参解决。我引用了 A 模型，然后我改成了 B 模型。只针对一个数据集。就可以水一篇，三四区</li>
-<li>水刊：SCI4 区，部分三区。一个论文需要多个数据集（两个），绝大多数水刊只用了一个数据集。一个论文需要创新，对你这个领域需要有独到的见解，先提出问题（领域内的问题），然后解决，绝大多数水刊，可能只是 A 领域用了这个，还不错，我就把 A 领域的拿到 B 领域来。</li>
-<li>我们需要有一个基础的模型（基准模型）。不断地尝试，把好一点的论文的方法加到我的基准模型上（不一定说要一模一样，怎么简单怎么来）。可能一次次的尝试，都无用，调参能解决绝大多数性能问题。一定要吹得狠一点（编故事，你一定是想办法编出一个问题，这个问题是你领域内的问题）。分级注意力网络（3 层）</li>
-<li>如果你要定好了方向，一定要去看几篇该方向的综述。综述讲解了你这个方向的近几年的技术的发展情况（脉络）。把最近 3 年的该方向的文章全部找出来，分类，概述每一篇论文（都是从摘要里面摘抄一两句话）。</li>
-<li>小论文要创新，不需要工作量，不需要你详细的解释，通篇你要解释你创新的点是什么，做出了什么成绩，这件事对你这个方向和你这个领域有什么贡献，当然，水一篇论文其实没那么多要求（sci四区）。你用了什么方法，比如说我做了目标检测、知识图谱（找一篇综述）、推荐系统、命名实体识别。小论文要知道，你通过这四个东西的叠加完成了一件什么样的事情（会编会吹）。</li>
-<li>定基准模型，如果有继承，3 天。首先得找大量的论文，基本是顶刊顶会，大概率会给代码，且给的代码有 README，代码有系统性，方便你以后改动。有了基准模型之后，尽量把这个基准模型的模型部分（models）给看懂，至于数据集处理和训练没必要。定思想，改进的思想。找更多的论文，去找灵感，不如说尝试，不断地加入小模块进入你的基准模型，有用，没用，调个参，调参也没用，换一个。出效果后，想办法编故事</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>0808 Finished <a href="https://www.cnblogs.com/nickchen121/p/11686958.html#tid-K3aFrr">人工智能从入门到放弃-Sklearn实战（目录）</a>
-<ol>
-<li>0810 Finished 01部分 机器学习基础</li>
-<li>02部分 监督学习</li>
-<li>03部分 无监督学习</li>
-<li>04部分 集成学习</li>
-<li>05部分 特征工程</li>
-<li>0808 Finished 06部分 深度学习 <a href="https://www.cnblogs.com/nickchen121/p/11686775.html">06-01 DeepLearning-图像识别</a></li>
-<li>0810 Finished <strong>附录A：优化算法</strong></li>
-<li>0810 Finished <strong>附录B：数学</strong>
-<ol>
-<li><strong><a href="https://www.cnblogs.com/nickchen121/p/11686764.html">B-概率论-熵和信息增益</a></strong></li>
-<li><a href="https://www.cnblogs.com/nickchen121/p/11686765.html">B-概率论-贝叶斯决策</a></li>
-<li><a href="https://www.cnblogs.com/nickchen121/p/11686709.html">B-线性代数-范数</a></li>
-<li><a href="https://www.cnblogs.com/nickchen121/p/11686745.html">B-线性代数-距离公式汇总</a></li>
-</ol>
-</li>
-</ol>
-</li>
-<li><a href="https://www.cnblogs.com/nickchen121/p/10802091.html">机器学习-项目杂记（目录）</a>
-<ol>
-<li>第三篇 常用库
-<ul>
-<li>0806 Finished <strong><a href="https://www.cnblogs.com/nickchen121/p/10807564.html">numpy模块</a></strong></li>
-<li><strong><a href="https://www.cnblogs.com/nickchen121/p/10807568.html">pandas模块</a></strong></li>
-<li><strong><a href="https://www.cnblogs.com/nickchen121/p/10807571.html">matplotlib模块</a></strong></li>
-</ul>
-</li>
-</ol>
-</li>
-<li><a href="https://www.cnblogs.com/nickchen121/p/14900036.html"># 凸优化从入门到放弃（目录）</a></li>
-<li>看 GNN 论文
-<ol>
-<li>Adaptive Graph Encoder for Attributed Graph Embedding 这篇Github上有具体的代码，去用起来 AGE</li>
-<li>Attributed Graph Clustering via Adaptive Graph Convolution 这篇准确来说不能叫图卷积神经网络，应该是叫图卷积，AGE那篇可以说是GCN，你可以看一下他们两个的区别。 AGC</li>
-</ol>
-</li>
-<li>0814 Finished pyG——GetStarted
-<ol>
-<li>Data Transforms</li>
-<li>Learning Methods on Graphs</li>
-</ol>
-</li>
-<li>看 GNN 相关论文，找自己的方向</li>
-<li>0824 Finished <a href="https://tangshusen.me/Dive-into-DL-PyTorch/">《动手学深度学习》(PyTorch版)</a> 优化算法、RNN、NLP 部分内容未看；CV 内容不准备看</li>
-</ol>
-]]></content:encoded>
-    </item>
-    
-    <item>
       <title>我的书单</title>
       <link>https://xancoding.cn/posts/2023-08-09-09-25-09/</link>
       <pubDate>Wed, 09 Aug 2023 09:25:10 +0800</pubDate>
@@ -1412,329 +856,181 @@
     </item>
     
     <item>
-      <title>7 月总结</title>
-      <link>https://xancoding.cn/posts/2023-07-31-09-47-50/</link>
-      <pubDate>Mon, 31 Jul 2023 09:47:51 +0800</pubDate>
+      <title>我的装备清单</title>
+      <link>https://xancoding.cn/posts/2023-09-09-09-46-04/</link>
+      <pubDate>Sat, 09 Sep 2023 09:46:05 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-07-31-09-47-50/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;学习：&lt;/p&gt;
+      <guid>https://xancoding.cn/posts/2023-09-09-09-46-04/</guid>
+      <description>&lt;h1 id=&#34;run&#34;&gt;Run&lt;/h1&gt;
+&lt;h2 id=&#34;手表&#34;&gt;手表&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; COROS高驰 PACE2 竞技运动手表 —— 闲鱼 1200元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;跑鞋&#34;&gt;跑鞋&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 飞影PB 国庆配色 260mm —— 闲鱼 450元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Nike React Infinity Run 白蓝 260mm —— 闲鱼 271元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 锐步 Energy3 260mm —— 闲鱼 450元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;冬季装备&#34;&gt;冬季装备&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; QINKUNG长袖 M码 —— 闲鱼 78元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 必迈 V4热能紧身压缩衣 L码 —— 闲鱼 329元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 必迈 防风保暖夹克 恒星蓝 L码 —— 闲鱼  259元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;夏季装备&#34;&gt;夏季装备&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 特步国人竞速 短裤、背心 —— 闲鱼 259元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; QINKUNG短袖 M码 —— 官网 169元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; BMAI 必迈跑步竞速压缩短裤 3.5寸 黑练黑 —— 淘宝 173元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;帽子&#34;&gt;帽子🧢&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Nike运动帽 679421 —— 闲鱼 110元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; QINKUNG轻功 秋冬跑步高弹针织帽 —— 淘宝 99元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;electronic-product&#34;&gt;Electronic product&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 三星SAMSUNG 64G U盘 —— 京东 88元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 联想拯救者 R7000 —— 京东 6199元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 微星 MSI 23.8英寸显示器 —— 京东 833 元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 微软便携触摸显示器 —— 淘宝 499 元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 漫步者 W820NB 头戴式蓝牙耳机 —— 京东 299 元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 小米显示器挂灯 —— 京东 199元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; RK100 有线/蓝牙/无线2.4G三模机械键盘 —— 京东 229元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; SAMSUNG 64GB U盘 —— 京东 87 元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 小米充电宝 20000mAh 22.5W —— 京东 149元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 小米 原装二合一数据线 1m —— 京东 27元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 华为手环 7 NFC版 —— 京东 245元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;outdoor&#34;&gt;Outdoor&lt;/h1&gt;
+&lt;h2 id=&#34;我的装备&#34;&gt;我的装备&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 三峰出雨衣 15D —— 闲鱼 112元&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; BLACK ICE 黑冰 户外运动P棉服 F8001 S码 —— 淘宝 543元 闲鱼 499元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; THERMOS 膳魔师 JNL-502-PRW 珠光白 500mL —— 京东 80元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Snow monster 雪地野人户外手套 —— 闲鱼 120元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Hoka羚羊4 260mm  —— 京东 599元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 强氧登山包羚羊36L （2 - 3日短线徒步 ） —— 闲鱼 220元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 奈特科尔NITECORE头灯 NU25 —— 闲鱼 133元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; outdoor research OR 手套 L码—— 淘宝 58元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Outdoor research VERGLAS 雪套 L码 —— 闲鱼 89元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; ROCLKSOLID 美利奴羊毛保暖内衣套装 M码 —— 淘宝 198元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Keith凯斯纯钛饭盒 Ti5328 1000mL —— 闲鱼 179元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Keith凯斯钛杯 Ti3240 350mL —— 闲鱼 75元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 钛途TiTo纯钛叉勺 —— 淘宝 19元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 凯乐石9A攀岩裤KG520220 金鱼黄 170/74A —— 闲鱼 199元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 凯乐石远征者pro 三合一冲锋衣 M码 —— 闲鱼 460元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Osprey小鹰水袋 3L —— 闲鱼 230元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;急救包&#34;&gt;急救包&lt;/h2&gt;
+&lt;h3 id=&#34;外伤&#34;&gt;外伤&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;ICS-PA PA1 表达式求值&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;前 10 天，大部分时间花在 Linux Tools 的学习上，最后两天是花在写 ICS-PA 上&lt;/p&gt;
+&lt;li&gt;塑料镊子 1把：伤口的精细化处理&lt;/li&gt;
+&lt;li&gt;安全别针 10枚：固定三角巾纱布止血带等&lt;/li&gt;
+&lt;li&gt;剪刀 1把：剪开绷带线条等各种用途&lt;/li&gt;
+&lt;li&gt;创口贴 10片：小创口的止血处理&lt;/li&gt;
+&lt;li&gt;酒精棉片 10片：对伤口用品的擦拭消毒&lt;/li&gt;
+&lt;li&gt;碘伏棉片 4片：伤口的消毒、消炎&lt;/li&gt;
+&lt;li&gt;医用棉签 20根：日常护理使用&lt;/li&gt;
+&lt;li&gt;三角绷带 1包：胳膊骨折的固定，头部出血的处理&lt;/li&gt;
+&lt;li&gt;止血带 1卷：压迫伤口止血，固定骨折部位&lt;/li&gt;
+&lt;li&gt;PBT绷带 1卷：伤口的包扎止血&lt;/li&gt;
+&lt;li&gt;无纺布胶带 1卷：固定绷带纱布等敷料&lt;/li&gt;
+&lt;li&gt;纱布片 2片：可与伤口直接接触&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;药物&#34;&gt;药物&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;开始使用 NeoVim &amp;amp; LazyVim，但无奈快捷键太多，用不惯&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;最后还得是 VSCode + VSCodeVim 比较适合&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;收获：习惯了使用 Vim 模式写代码&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;学习 正则表达式&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A Gentle Introduction to Graph Neural Networks&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Finished 0728 英语语法学习&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Research&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Finished 0724 《神经网络与深度学习》先大致过一遍，看不懂的地方没必要死磕&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;绪论和机器学习概述，没有实际内容，可以简单过一遍&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;线性模型+前馈神经网络+卷积神经网络&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Finished 5天 PyTorch深度学习快速入门教程&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;看论文入门 GNN&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Adaptive Graph Encoder for Attributed Graph Embedding 这篇Github上有具体的代码，去用起来&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Attributed Graph Clustering via Adaptive Graph Convolution 这篇准确来说不能叫图卷积神经网络，应该是叫图卷积，AGE那篇可以说是GCN，你可以看一下他们两个的区别。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Finished 0722 统计分析&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;numpy是科学计算库&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;pandas是处理表格数据的&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;matplotlib是画图的 只是下面这些图用来做什么还是不太了解&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Regression Plots 回归图&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Box Plots 箱线图&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Distribution Plots 分布图&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Pairplots 对角线图&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Correlation Plots 相关性图&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Lineplots 线图&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;玩 预计游玩五天半，实际游玩三天半&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;0714&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;午饭 肯德基 下午 颐和园&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;晚饭 铜锅涮肉 晚上 奥林匹克公园&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0715&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;早饭 尹三豆汁 上午 天安门 毛主席纪念馆&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;下午 国家博物馆 晚饭 全聚德北京烤鸭&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0716&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;原定故宫，但是走太累了，休息一天&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0717&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;原定圆明园，0716那天崴脚，休息一天&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0718&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;白天 环球影城&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;午饭 云吞面&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;晚饭 狼大爷烧烤&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0719&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;原定早上天坛，结果想多休息睡会觉，就直接早上睡到九点，吃完饭，在旅馆再休息休息，中午直接回学校了，他俩也是坐飞机回浙江&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;试水 Valorant (无畏契约) 0729 0730&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;麝香壮骨膏 4贴：扭伤 挫伤&lt;/li&gt;
+&lt;li&gt;急救毯 1张：失温&lt;/li&gt;
+&lt;li&gt;云南白药 2罐：跌打损伤，淤血肿痛，肌肉酸痛及风湿疼痛&lt;/li&gt;
+&lt;li&gt;板蓝根颗粒 2包：肺胃热盛所致的咽喉肿痛、口咽干燥&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-      <content:encoded><![CDATA[<ol>
-<li>
-<p>学习：</p>
+      <content:encoded><![CDATA[<h1 id="run">Run</h1>
+<h2 id="手表">手表</h2>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> COROS高驰 PACE2 竞技运动手表 —— 闲鱼 1200元</li>
+</ul>
+<h2 id="跑鞋">跑鞋</h2>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 飞影PB 国庆配色 260mm —— 闲鱼 450元</li>
+<li><input checked="" disabled="" type="checkbox"> Nike React Infinity Run 白蓝 260mm —— 闲鱼 271元</li>
+<li><input checked="" disabled="" type="checkbox"> 锐步 Energy3 260mm —— 闲鱼 450元</li>
+</ul>
+<h2 id="冬季装备">冬季装备</h2>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> QINKUNG长袖 M码 —— 闲鱼 78元</li>
+<li><input checked="" disabled="" type="checkbox"> 必迈 V4热能紧身压缩衣 L码 —— 闲鱼 329元</li>
+<li><input checked="" disabled="" type="checkbox"> 必迈 防风保暖夹克 恒星蓝 L码 —— 闲鱼  259元</li>
+</ul>
+<h2 id="夏季装备">夏季装备</h2>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 特步国人竞速 短裤、背心 —— 闲鱼 259元</li>
+<li><input checked="" disabled="" type="checkbox"> QINKUNG短袖 M码 —— 官网 169元</li>
+<li><input checked="" disabled="" type="checkbox"> BMAI 必迈跑步竞速压缩短裤 3.5寸 黑练黑 —— 淘宝 173元</li>
+</ul>
+<h2 id="帽子">帽子🧢</h2>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Nike运动帽 679421 —— 闲鱼 110元</li>
+<li><input checked="" disabled="" type="checkbox"> QINKUNG轻功 秋冬跑步高弹针织帽 —— 淘宝 99元</li>
+</ul>
+<h1 id="electronic-product">Electronic product</h1>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 三星SAMSUNG 64G U盘 —— 京东 88元</li>
+<li><input checked="" disabled="" type="checkbox"> 联想拯救者 R7000 —— 京东 6199元</li>
+<li><input checked="" disabled="" type="checkbox"> 微星 MSI 23.8英寸显示器 —— 京东 833 元</li>
+<li><input checked="" disabled="" type="checkbox"> 微软便携触摸显示器 —— 淘宝 499 元</li>
+<li><input checked="" disabled="" type="checkbox"> 漫步者 W820NB 头戴式蓝牙耳机 —— 京东 299 元</li>
+<li><input checked="" disabled="" type="checkbox"> 小米显示器挂灯 —— 京东 199元</li>
+<li><input checked="" disabled="" type="checkbox"> RK100 有线/蓝牙/无线2.4G三模机械键盘 —— 京东 229元</li>
+<li><input checked="" disabled="" type="checkbox"> SAMSUNG 64GB U盘 —— 京东 87 元</li>
+<li><input checked="" disabled="" type="checkbox"> 小米充电宝 20000mAh 22.5W —— 京东 149元</li>
+<li><input checked="" disabled="" type="checkbox"> 小米 原装二合一数据线 1m —— 京东 27元</li>
+<li><input checked="" disabled="" type="checkbox"> 华为手环 7 NFC版 —— 京东 245元</li>
+</ul>
+<h1 id="outdoor">Outdoor</h1>
+<h2 id="我的装备">我的装备</h2>
+<ul>
+<li><input disabled="" type="checkbox"> 三峰出雨衣 15D —— 闲鱼 112元</li>
+<li><input disabled="" type="checkbox"> BLACK ICE 黑冰 户外运动P棉服 F8001 S码 —— 淘宝 543元 闲鱼 499元</li>
+<li><input checked="" disabled="" type="checkbox"> THERMOS 膳魔师 JNL-502-PRW 珠光白 500mL —— 京东 80元</li>
+<li><input checked="" disabled="" type="checkbox"> Snow monster 雪地野人户外手套 —— 闲鱼 120元</li>
+<li><input checked="" disabled="" type="checkbox"> Hoka羚羊4 260mm  —— 京东 599元</li>
+<li><input checked="" disabled="" type="checkbox"> 强氧登山包羚羊36L （2 - 3日短线徒步 ） —— 闲鱼 220元</li>
+<li><input checked="" disabled="" type="checkbox"> 奈特科尔NITECORE头灯 NU25 —— 闲鱼 133元</li>
+<li><input checked="" disabled="" type="checkbox"> outdoor research OR 手套 L码—— 淘宝 58元</li>
+<li><input checked="" disabled="" type="checkbox"> Outdoor research VERGLAS 雪套 L码 —— 闲鱼 89元</li>
+<li><input checked="" disabled="" type="checkbox"> ROCLKSOLID 美利奴羊毛保暖内衣套装 M码 —— 淘宝 198元</li>
+<li><input checked="" disabled="" type="checkbox"> Keith凯斯纯钛饭盒 Ti5328 1000mL —— 闲鱼 179元</li>
+<li><input checked="" disabled="" type="checkbox"> Keith凯斯钛杯 Ti3240 350mL —— 闲鱼 75元</li>
+<li><input checked="" disabled="" type="checkbox"> 钛途TiTo纯钛叉勺 —— 淘宝 19元</li>
+<li><input checked="" disabled="" type="checkbox"> 凯乐石9A攀岩裤KG520220 金鱼黄 170/74A —— 闲鱼 199元</li>
+<li><input checked="" disabled="" type="checkbox"> 凯乐石远征者pro 三合一冲锋衣 M码 —— 闲鱼 460元</li>
+<li><input checked="" disabled="" type="checkbox"> Osprey小鹰水袋 3L —— 闲鱼 230元</li>
+</ul>
+<h2 id="急救包">急救包</h2>
+<h3 id="外伤">外伤</h3>
 <ol>
-<li>
-<p>ICS-PA PA1 表达式求值</p>
-</li>
-<li>
-<p>前 10 天，大部分时间花在 Linux Tools 的学习上，最后两天是花在写 ICS-PA 上</p>
+<li>塑料镊子 1把：伤口的精细化处理</li>
+<li>安全别针 10枚：固定三角巾纱布止血带等</li>
+<li>剪刀 1把：剪开绷带线条等各种用途</li>
+<li>创口贴 10片：小创口的止血处理</li>
+<li>酒精棉片 10片：对伤口用品的擦拭消毒</li>
+<li>碘伏棉片 4片：伤口的消毒、消炎</li>
+<li>医用棉签 20根：日常护理使用</li>
+<li>三角绷带 1包：胳膊骨折的固定，头部出血的处理</li>
+<li>止血带 1卷：压迫伤口止血，固定骨折部位</li>
+<li>PBT绷带 1卷：伤口的包扎止血</li>
+<li>无纺布胶带 1卷：固定绷带纱布等敷料</li>
+<li>纱布片 2片：可与伤口直接接触</li>
+</ol>
+<h3 id="药物">药物</h3>
 <ol>
-<li>
-<p>开始使用 NeoVim &amp; LazyVim，但无奈快捷键太多，用不惯</p>
-</li>
-<li>
-<p>最后还得是 VSCode + VSCodeVim 比较适合</p>
-</li>
-<li>
-<p>收获：习惯了使用 Vim 模式写代码</p>
-</li>
-<li>
-<p>学习 正则表达式</p>
-</li>
-</ol>
-</li>
-<li>
-<p>A Gentle Introduction to Graph Neural Networks</p>
-</li>
-<li>
-<p>Finished 0728 英语语法学习</p>
-</li>
-<li>
-<p>Research</p>
-<ol>
-<li>
-<p>Finished 0724 《神经网络与深度学习》先大致过一遍，看不懂的地方没必要死磕</p>
-<ol>
-<li>
-<p>绪论和机器学习概述，没有实际内容，可以简单过一遍</p>
-</li>
-<li>
-<p>线性模型+前馈神经网络+卷积神经网络</p>
-</li>
-</ol>
-</li>
-<li>
-<p>Finished 5天 PyTorch深度学习快速入门教程</p>
-</li>
-<li>
-<p>看论文入门 GNN</p>
-<ol>
-<li>
-<p>Adaptive Graph Encoder for Attributed Graph Embedding 这篇Github上有具体的代码，去用起来</p>
-</li>
-<li>
-<p>Attributed Graph Clustering via Adaptive Graph Convolution 这篇准确来说不能叫图卷积神经网络，应该是叫图卷积，AGE那篇可以说是GCN，你可以看一下他们两个的区别。</p>
-</li>
-</ol>
-</li>
-<li>
-<p>Finished 0722 统计分析</p>
-<ol>
-<li>
-<p>numpy是科学计算库</p>
-</li>
-<li>
-<p>pandas是处理表格数据的</p>
-</li>
-<li>
-<p>matplotlib是画图的 只是下面这些图用来做什么还是不太了解</p>
-<ol>
-<li>
-<p>Regression Plots 回归图</p>
-</li>
-<li>
-<p>Box Plots 箱线图</p>
-</li>
-<li>
-<p>Distribution Plots 分布图</p>
-</li>
-<li>
-<p>Pairplots 对角线图</p>
-</li>
-<li>
-<p>Correlation Plots 相关性图</p>
-</li>
-<li>
-<p>Lineplots 线图</p>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>
-<p>玩 预计游玩五天半，实际游玩三天半</p>
-<ol>
-<li>
-<p>0714</p>
-<ol>
-<li>
-<p>午饭 肯德基 下午 颐和园</p>
-</li>
-<li>
-<p>晚饭 铜锅涮肉 晚上 奥林匹克公园</p>
-</li>
-</ol>
-</li>
-<li>
-<p>0715</p>
-<ol>
-<li>
-<p>早饭 尹三豆汁 上午 天安门 毛主席纪念馆</p>
-</li>
-<li>
-<p>下午 国家博物馆 晚饭 全聚德北京烤鸭</p>
-</li>
-</ol>
-</li>
-<li>
-<p>0716</p>
-<ol>
-<li>原定故宫，但是走太累了，休息一天</li>
-</ol>
-</li>
-<li>
-<p>0717</p>
-<ol>
-<li>原定圆明园，0716那天崴脚，休息一天</li>
-</ol>
-</li>
-<li>
-<p>0718</p>
-<ol>
-<li>
-<p>白天 环球影城</p>
-</li>
-<li>
-<p>午饭 云吞面</p>
-</li>
-<li>
-<p>晚饭 狼大爷烧烤</p>
-</li>
-</ol>
-</li>
-<li>
-<p>0719</p>
-<ol>
-<li>原定早上天坛，结果想多休息睡会觉，就直接早上睡到九点，吃完饭，在旅馆再休息休息，中午直接回学校了，他俩也是坐飞机回浙江</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>
-<p>试水 Valorant (无畏契约) 0729 0730</p>
-</li>
+<li>麝香壮骨膏 4贴：扭伤 挫伤</li>
+<li>急救毯 1张：失温</li>
+<li>云南白药 2罐：跌打损伤，淤血肿痛，肌肉酸痛及风湿疼痛</li>
+<li>板蓝根颗粒 2包：肺胃热盛所致的咽喉肿痛、口咽干燥</li>
 </ol>
 ]]></content:encoded>
     </item>
@@ -1830,98 +1126,6 @@
 </li>
 </ol>
 </div>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>暑假&amp;大三上</title>
-      <link>https://xancoding.cn/posts/2023-07-23-09-27-00/</link>
-      <pubDate>Sun, 23 Jul 2023 09:27:00 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-07-23-09-27-00/</guid>
-      <description>&lt;p&gt;现在是 2023 年 7 月 12 日 22 时 53 分，明确以后走选调生的目标，暑假主要花时间搞科研，为以后保研做准备。另外，看看英语语法，其他的都可以放一放。毕竟，一个人是不可能同时做好这么多事情的。&lt;/p&gt;
-&lt;p&gt;现在是2023 年 7 月 23 日 09 时 34 分，科研基础知识正在逐步补充。暑假打算开始健身的尝试，maybe 8 月份开始，办一张半年卡。算法等科研的基础知识初步补充完毕后，可以跟上，毕竟还想去打几次算法比赛拿一拿奖的。最后就是，田静英语语法，找时间去过一遍。&lt;/p&gt;
-</description>
-      <content:encoded><![CDATA[<p>现在是 2023 年 7 月 12 日 22 时 53 分，明确以后走选调生的目标，暑假主要花时间搞科研，为以后保研做准备。另外，看看英语语法，其他的都可以放一放。毕竟，一个人是不可能同时做好这么多事情的。</p>
-<p>现在是2023 年 7 月 23 日 09 时 34 分，科研基础知识正在逐步补充。暑假打算开始健身的尝试，maybe 8 月份开始，办一张半年卡。算法等科研的基础知识初步补充完毕后，可以跟上，毕竟还想去打几次算法比赛拿一拿奖的。最后就是，田静英语语法，找时间去过一遍。</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>寒假&amp;大二下</title>
-      <link>https://xancoding.cn/posts/2023-07-23-09-23-15/</link>
-      <pubDate>Sun, 23 Jul 2023 09:23:15 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-07-23-09-23-15/</guid>
-      <description>&lt;p&gt;2023 年 2 月 &amp;ndash; 3 月（寒假），还是花时间在啃书，这部分时间啃的主要是 操作系统 的书，还有就是写博客，把自己之前的 &lt;code&gt;Linux 基础课 &amp;amp; Django 框架课 &amp;amp; Web 应用课&lt;/code&gt; 做了整理，写成博客。还有的就是，浏览别人博客的一些共鸣，以及感悟，也做了一些浅薄的记录。（从 2022 年 9 月 开始，阅读别人博客的时间也是花了很多，只是到 2023 年 4 月左右，已经是把想看的博主的内容都看完了，开始比较少的输入新的博客信息）。整个寒假，也是花了比较多的时间🏃‍，是按 每天 6 km 来跑的（在 2023 年 1 月的时候，想着每天跑 6 km，结果也是 &lt;strong&gt;理想很丰满，现实很骨感&lt;/strong&gt;，在开学后，繁重的课业加上受伤的脚踝也是让我开摆，放弃这个想法🤧）（ 1 月 159 km，2 月 120 km，3月 48 km..看来也就坚持一个多月，不过也没办法，力量不够，我 2 月 后半时间 伤了，再加上 🐏了，实在是跑不了&amp;hellip;）&lt;/p&gt;
-&lt;p&gt;！！！终于，在我接触 ICS-PA 和 OS 和 SICP（好吧，这个接触的比较早，只不过认真开始学习是近期的时候），我深刻的意识到 实践！！！ 的重要意义，看和做，做是更重要的。想想自己之前为什么总是收不到正反馈，很简单呀，光看不练怎么会有很大的提升呢。虽说走了挺多弯路，但前面的学习，也是给我现在打下了不错的基础，相信只要我花时间思考，不断实践 RTFM、RTFSC、RTFW，独立完成这几个项目，可以让我的 计算机能力有不错的提升，让我可以对自己更为满意💪。还有就是，培养自己阅读英文资料的习惯，毕竟外国的 技术资料和技术社区讨论氛围，还是国内所比不上的。再者，学习英语也是蛮有意思的嘛。&lt;/p&gt;
-&lt;p&gt;关于英语，再补充一点，2023 年 3 月往前 大概有 7 &amp;ndash; 8 个月的时间，我坚持着每天背单词，不过到了后面也是放弃了，没有足够的正反馈，效果也不是很好，也是 操之过急 带来的不好的影响。不过，背单词带着我在大二上把 大一下延期考试的 六级 给过了（虽然也不高，&lt;code&gt;471&lt;/code&gt;，准备大三上再去刷一刷，如果能刷到 &lt;code&gt;520 及以上&lt;/code&gt;，我就很满意啦🥰）也还是不错的。&lt;/p&gt;
-&lt;p&gt;现在看看，也是因为自己的目标没有足够明确，前面大一上没想这么多，课内学习也没有足够上心，专业课也没有自己去摸索着学习，使得大一上花了比较多在社团上（其实也不错，收获了开心😊）&lt;/p&gt;
-&lt;p&gt;大一下的话，只埋头去 &lt;code&gt;all in&lt;/code&gt; 算法了，同时学习方法没到位，也并没有到达自己希望的水平，从而陷入了自我内耗，再加上疫情只能在学校，整个人还是一个比较 &lt;code&gt;emo&lt;/code&gt; 的状态的。现在想想还是有点可惜，当时应该硬着头皮参加 ACM 社团的，只是当时总对自己过分的不自信，其实有句话讲的挺好 &lt;code&gt;不要把别人看的很好，也不要把别人看的很差&lt;/code&gt;，我当时就是犯了错（不过也是因为大一不知道我们学校还有 ACM 社团啦🥴在大一下暑假的时候知道，又因为怂了，同时觉得没时间搞（还是因为太内耗啦🤧）没去参加大二上的选拔（基本去考了都让你进，除去根本一点都不会的，不过也是因为去考的人也不多啦🤣）&lt;/p&gt;
-&lt;p&gt;大二上，开始去读一些经典的书籍，算是步入正轨了，但也还是缺乏实践，同时缺少整体的一个规划，应该不只是读 计网 的书的，最佳的做法是 多一点涉猎，多一点实践，不过也不该苛责太多。那时候的我，也是做的不错的啦😁。&lt;/p&gt;
-&lt;p&gt;大二下，课很多&amp;hellip;可能花在真正我觉得有意义上的事上的时间不多，更多的是 电路 和 模电 这两门 我认为日后对自己没什么帮助的课上。不过，既来之则安之，至少，我在学习自己想学的东西都时候，收获了快乐，我是在进步的！！况且，我对那两门课也没有很反感，这不就也很好嘛。只能说，慢慢来吧，&lt;u&gt;&lt;strong&gt;勿在浮沙筑高台&lt;/strong&gt;&lt;/u&gt;💪。&lt;/p&gt;
-&lt;p&gt;这个学期剩下的时间就还是先准备准备期末考试，再穿插着去重拾一下算法好了🤗&lt;/p&gt;
-&lt;p&gt;对下个学期的课还是蛮期待的，都是专业课，喜欢🥰，总算不用上一些搭不上什么边的课啦😴&lt;/p&gt;
-&lt;p&gt;至此，2022 年 2 月 &amp;ndash; 2023 年 5 月 Over。&lt;/p&gt;
-&lt;p&gt;最后，写一写自己的职业规划好了，以后大的方向还是有两个选择，一是 考个 985，走定向选调生；二是 本科 考公，考虑 在职研究生这一条路（不过还没有充分了解，我了解了解，再做打算（尽快尽快😴（决定了，继续读研，走定向选调😋&lt;/p&gt;
-&lt;p&gt;等了解完之后，我再写篇博客具体讲讲各自的优劣好了（确信，尽快🤗（不写了，确信😋懒。。&lt;/p&gt;
-&lt;p&gt;写于 2023 年 5 月 29 日&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;现在是 2023 年 6 月 29 日 7 时 50 分，等会的 10 点要去考这个学期最后一门考试 电路分析基础（终于要结束辣😅。但是现在无心复习，那就把大二的总结再完善一下好了。关于上面的👆两个选择，还是决定继续读研了。整个大二，学分绩也是刷的比较高，有 94.904（现在成绩还没出完）。如果是算两个学年的话，有 &lt;code&gt;90.382 5 &lt;/code&gt;，看起来还不错。接下来的打算就是，暑假里重点花时间&lt;strong&gt;搞科研&lt;/strong&gt;，每隔半个月至一个月跟老师交流学习进度。以及每周参加 &lt;code&gt;Leetcode周赛&lt;/code&gt; 和 &lt;code&gt;AcWing周赛&lt;/code&gt;（上周第一次 AcWing Ak，Leetcode周赛 4 题 A 3 题，还是蛮开心的🤧。 再看看&lt;strong&gt;田静老师的语法课&lt;/strong&gt;，补一补我稀烂的英语语法，形成体系；&lt;strong&gt;背一背红宝书&lt;/strong&gt;，扩充单词储备（为考研做准备，还有下个学期报个六级。最后的话，还可以再看看 &lt;strong&gt;ICS-PA&lt;/strong&gt;，配合着B站的习题课视频，继续把 lab 做做🦾 （算法学习那一栏再加上 &lt;code&gt;codeforces周赛&lt;/code&gt;🥴尝试尝试&lt;/p&gt;
-</description>
-      <content:encoded><![CDATA[<p>2023 年 2 月 &ndash; 3 月（寒假），还是花时间在啃书，这部分时间啃的主要是 操作系统 的书，还有就是写博客，把自己之前的 <code>Linux 基础课 &amp; Django 框架课 &amp; Web 应用课</code> 做了整理，写成博客。还有的就是，浏览别人博客的一些共鸣，以及感悟，也做了一些浅薄的记录。（从 2022 年 9 月 开始，阅读别人博客的时间也是花了很多，只是到 2023 年 4 月左右，已经是把想看的博主的内容都看完了，开始比较少的输入新的博客信息）。整个寒假，也是花了比较多的时间🏃‍，是按 每天 6 km 来跑的（在 2023 年 1 月的时候，想着每天跑 6 km，结果也是 <strong>理想很丰满，现实很骨感</strong>，在开学后，繁重的课业加上受伤的脚踝也是让我开摆，放弃这个想法🤧）（ 1 月 159 km，2 月 120 km，3月 48 km..看来也就坚持一个多月，不过也没办法，力量不够，我 2 月 后半时间 伤了，再加上 🐏了，实在是跑不了&hellip;）</p>
-<p>！！！终于，在我接触 ICS-PA 和 OS 和 SICP（好吧，这个接触的比较早，只不过认真开始学习是近期的时候），我深刻的意识到 实践！！！ 的重要意义，看和做，做是更重要的。想想自己之前为什么总是收不到正反馈，很简单呀，光看不练怎么会有很大的提升呢。虽说走了挺多弯路，但前面的学习，也是给我现在打下了不错的基础，相信只要我花时间思考，不断实践 RTFM、RTFSC、RTFW，独立完成这几个项目，可以让我的 计算机能力有不错的提升，让我可以对自己更为满意💪。还有就是，培养自己阅读英文资料的习惯，毕竟外国的 技术资料和技术社区讨论氛围，还是国内所比不上的。再者，学习英语也是蛮有意思的嘛。</p>
-<p>关于英语，再补充一点，2023 年 3 月往前 大概有 7 &ndash; 8 个月的时间，我坚持着每天背单词，不过到了后面也是放弃了，没有足够的正反馈，效果也不是很好，也是 操之过急 带来的不好的影响。不过，背单词带着我在大二上把 大一下延期考试的 六级 给过了（虽然也不高，<code>471</code>，准备大三上再去刷一刷，如果能刷到 <code>520 及以上</code>，我就很满意啦🥰）也还是不错的。</p>
-<p>现在看看，也是因为自己的目标没有足够明确，前面大一上没想这么多，课内学习也没有足够上心，专业课也没有自己去摸索着学习，使得大一上花了比较多在社团上（其实也不错，收获了开心😊）</p>
-<p>大一下的话，只埋头去 <code>all in</code> 算法了，同时学习方法没到位，也并没有到达自己希望的水平，从而陷入了自我内耗，再加上疫情只能在学校，整个人还是一个比较 <code>emo</code> 的状态的。现在想想还是有点可惜，当时应该硬着头皮参加 ACM 社团的，只是当时总对自己过分的不自信，其实有句话讲的挺好 <code>不要把别人看的很好，也不要把别人看的很差</code>，我当时就是犯了错（不过也是因为大一不知道我们学校还有 ACM 社团啦🥴在大一下暑假的时候知道，又因为怂了，同时觉得没时间搞（还是因为太内耗啦🤧）没去参加大二上的选拔（基本去考了都让你进，除去根本一点都不会的，不过也是因为去考的人也不多啦🤣）</p>
-<p>大二上，开始去读一些经典的书籍，算是步入正轨了，但也还是缺乏实践，同时缺少整体的一个规划，应该不只是读 计网 的书的，最佳的做法是 多一点涉猎，多一点实践，不过也不该苛责太多。那时候的我，也是做的不错的啦😁。</p>
-<p>大二下，课很多&hellip;可能花在真正我觉得有意义上的事上的时间不多，更多的是 电路 和 模电 这两门 我认为日后对自己没什么帮助的课上。不过，既来之则安之，至少，我在学习自己想学的东西都时候，收获了快乐，我是在进步的！！况且，我对那两门课也没有很反感，这不就也很好嘛。只能说，慢慢来吧，<u><strong>勿在浮沙筑高台</strong></u>💪。</p>
-<p>这个学期剩下的时间就还是先准备准备期末考试，再穿插着去重拾一下算法好了🤗</p>
-<p>对下个学期的课还是蛮期待的，都是专业课，喜欢🥰，总算不用上一些搭不上什么边的课啦😴</p>
-<p>至此，2022 年 2 月 &ndash; 2023 年 5 月 Over。</p>
-<p>最后，写一写自己的职业规划好了，以后大的方向还是有两个选择，一是 考个 985，走定向选调生；二是 本科 考公，考虑 在职研究生这一条路（不过还没有充分了解，我了解了解，再做打算（尽快尽快😴（决定了，继续读研，走定向选调😋</p>
-<p>等了解完之后，我再写篇博客具体讲讲各自的优劣好了（确信，尽快🤗（不写了，确信😋懒。。</p>
-<p>写于 2023 年 5 月 29 日</p>
-<hr>
-<p>现在是 2023 年 6 月 29 日 7 时 50 分，等会的 10 点要去考这个学期最后一门考试 电路分析基础（终于要结束辣😅。但是现在无心复习，那就把大二的总结再完善一下好了。关于上面的👆两个选择，还是决定继续读研了。整个大二，学分绩也是刷的比较高，有 94.904（现在成绩还没出完）。如果是算两个学年的话，有 <code>90.382 5 </code>，看起来还不错。接下来的打算就是，暑假里重点花时间<strong>搞科研</strong>，每隔半个月至一个月跟老师交流学习进度。以及每周参加 <code>Leetcode周赛</code> 和 <code>AcWing周赛</code>（上周第一次 AcWing Ak，Leetcode周赛 4 题 A 3 题，还是蛮开心的🤧。 再看看<strong>田静老师的语法课</strong>，补一补我稀烂的英语语法，形成体系；<strong>背一背红宝书</strong>，扩充单词储备（为考研做准备，还有下个学期报个六级。最后的话，还可以再看看 <strong>ICS-PA</strong>，配合着B站的习题课视频，继续把 lab 做做🦾 （算法学习那一栏再加上 <code>codeforces周赛</code>🥴尝试尝试</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>暑假&amp;大二上</title>
-      <link>https://xancoding.cn/posts/2023-07-23-09-22-03/</link>
-      <pubDate>Sun, 23 Jul 2023 09:22:03 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-07-23-09-22-03/</guid>
-      <description>&lt;p&gt;2022 年 8 月 &amp;ndash; 9 月（大一至大二的暑假），又在力扣上刷了大概一个半月的题，是因为报了 &lt;a href=&#34;https://www.acwing.com/activity/content/activity_person/content/431826/1/&#34;&gt;暑假每日一题2022&lt;/a&gt;，在这之前，算法基础课已经刷完（4 月 &amp;ndash; 7月），我又开始了 算法提高课 的 刷课刷视频（这个我并没有购买，而是跟另一个人作了交换，他上我的号看 Web 应用课，我上他的号看 算法提高课）。&lt;strong&gt;&lt;u&gt;前前后后刷了 5 个月 算法后，开始疲惫，就不再看了&lt;/u&gt;&lt;/strong&gt;。不看算法后，开始看 Django 框架课 和 Web 应用课，并写出对应的项目（还是过于急，并没有吃透，也没有花时间去Debug，碰到错误想的是对着源码去找哪里没有抄对🤣这样能学好才怪嘞）。还花了时间把 数据结构的课设 搞定，也是没什么技术含量，没什么系统性的长进&lt;/p&gt;
-&lt;p&gt;这个期间的生活费，大部分花在 买户外装备 上了&amp;hellip;（虽然因为疫情封校没怎么出去过😭&lt;/p&gt;
-&lt;p&gt;2022年 9 月 &amp;ndash; 2023 年 1月（大二上），开始觉得看视频的学习效果不够好（现在想想是因为自己在看视频的时候没有花足够的时间去思考），开始回归书本，买了不少 计算机相关的 经典书籍，开始啃书。这个学期学的是专业课是 &lt;strong&gt;计算机网络&lt;/strong&gt; 和 &lt;strong&gt;Java&lt;/strong&gt;，两门都考了 &lt;code&gt;95&lt;/code&gt;，还算满意。其余的必修课，最差的也是考到了 &lt;code&gt;88&lt;/code&gt;，是 &lt;strong&gt;马克思主义基本原理&lt;/strong&gt;，个人感觉还是很好的了。这段时间也是花了大把大把的时间去啃书，并于 &lt;code&gt;2022-10-12&lt;/code&gt; 搭建了自己的博客，并逐渐进行完善，以及对使用的笔记软件 &lt;code&gt;Obsidian&lt;/code&gt; 不断打磨，使之可以完美符合我的使用习惯，时至今日，经过多次&lt;code&gt;&amp;quot;迭代升级&amp;quot;&lt;/code&gt;，已经是我的形状了😋。除此之外，也看了很多人文社科相关的书籍，读了很多很多书，感觉还是有所长进的（但是！！还是缺乏对代码的实践，这是唯一美中不足的地方）&lt;/p&gt;
-&lt;p&gt;2022 年全年 跑步量 &lt;code&gt;781&lt;/code&gt; km&lt;/p&gt;
-&lt;p&gt;至此，2022 年 8 月 &amp;ndash; 2023 年 1 月 Over。&lt;/p&gt;
-</description>
-      <content:encoded><![CDATA[<p>2022 年 8 月 &ndash; 9 月（大一至大二的暑假），又在力扣上刷了大概一个半月的题，是因为报了 <a href="https://www.acwing.com/activity/content/activity_person/content/431826/1/">暑假每日一题2022</a>，在这之前，算法基础课已经刷完（4 月 &ndash; 7月），我又开始了 算法提高课 的 刷课刷视频（这个我并没有购买，而是跟另一个人作了交换，他上我的号看 Web 应用课，我上他的号看 算法提高课）。<strong><u>前前后后刷了 5 个月 算法后，开始疲惫，就不再看了</u></strong>。不看算法后，开始看 Django 框架课 和 Web 应用课，并写出对应的项目（还是过于急，并没有吃透，也没有花时间去Debug，碰到错误想的是对着源码去找哪里没有抄对🤣这样能学好才怪嘞）。还花了时间把 数据结构的课设 搞定，也是没什么技术含量，没什么系统性的长进</p>
-<p>这个期间的生活费，大部分花在 买户外装备 上了&hellip;（虽然因为疫情封校没怎么出去过😭</p>
-<p>2022年 9 月 &ndash; 2023 年 1月（大二上），开始觉得看视频的学习效果不够好（现在想想是因为自己在看视频的时候没有花足够的时间去思考），开始回归书本，买了不少 计算机相关的 经典书籍，开始啃书。这个学期学的是专业课是 <strong>计算机网络</strong> 和 <strong>Java</strong>，两门都考了 <code>95</code>，还算满意。其余的必修课，最差的也是考到了 <code>88</code>，是 <strong>马克思主义基本原理</strong>，个人感觉还是很好的了。这段时间也是花了大把大把的时间去啃书，并于 <code>2022-10-12</code> 搭建了自己的博客，并逐渐进行完善，以及对使用的笔记软件 <code>Obsidian</code> 不断打磨，使之可以完美符合我的使用习惯，时至今日，经过多次<code>&quot;迭代升级&quot;</code>，已经是我的形状了😋。除此之外，也看了很多人文社科相关的书籍，读了很多很多书，感觉还是有所长进的（但是！！还是缺乏对代码的实践，这是唯一美中不足的地方）</p>
-<p>2022 年全年 跑步量 <code>781</code> km</p>
-<p>至此，2022 年 8 月 &ndash; 2023 年 1 月 Over。</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>寒假&amp;大一下</title>
-      <link>https://xancoding.cn/posts/2023-07-23-09-20-44/</link>
-      <pubDate>Sun, 23 Jul 2023 09:20:45 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-07-23-09-20-44/</guid>
-      <description>&lt;p&gt;从 2022 年 1 月 &amp;ndash; 3月时间（1 月 &amp;ndash; 2 月 寒假）主要花在了 &lt;a href=&#34;https://www.programmercarl.com/&#34;&gt;代码随想录&lt;/a&gt; 上(还付费进入知识星球一年)，对应着在&lt;strong&gt;力扣&lt;/strong&gt;上刷题，对算法算是稍稍入了门，期间花时间把 黑马程序员 C++ 的 B 站视频刷了（当时只是硬着头皮刷，没想过要针对性的学习，其实后面刷算法题其实这里面语法特性是用不上的，比如：模板、虚函数&amp;hellip;导致学了忘得也很快，而在算法中需要掌握使用的 &lt;code&gt;STL&lt;/code&gt;，却还是没怎么熟悉）（现在看来，还是走了挺多弯路的吧🤔）。发两个月时间刷完后，又转战 &lt;a href=&#34;https://www.acwing.com/user/myspace/activity/182463/&#34;&gt;AcWing&lt;/a&gt;，先后购入 算法基础课（2022-03-28）、Linux基础课（2022-03-31）、Django框架课（2022-04-30）、Web 应用课（2022-05-06）。之后整个学期，也是因为疫情封校，平时周末无法外出，只能是在学校里，我也就把大部分的时间花在这些东西的学习上，刷这些视频课，并对应着进行一些实践。（现在反思反思，当时的实践还是少了，有点太过急了，视频刷的很快，能自己吸收消化的却不算多，还是有点可惜）。&lt;/p&gt;
-&lt;p&gt;这个期间的生活费，大部分花在 买课 上了&amp;hellip;&lt;/p&gt;
-&lt;p&gt;2022 年 4 月 &amp;ndash; 7月，这段时间也是停了力扣的刷题，时间着重花在 AcWing 上的算法题，以及 AcWing 工程课 的学习。这个学期 学了 &lt;strong&gt;数据结构&lt;/strong&gt; 一门专业课，因为有了算法学习的底子，学的还是比较轻松，还做了一下&lt;a href=&#34;https://github.com/Xancoding/Data-Structures-and-Algorithms&#34;&gt;知识点的整理&lt;/a&gt;，最后的期末考了个 &lt;code&gt;92&lt;/code&gt;，不满意，狠奇怪😅。再说说考的不算好的几门好了，大学物理(1) 考了 &lt;code&gt;78&lt;/code&gt;（确实不怎么会，认了），还有就是 学术英语，&lt;code&gt;78&lt;/code&gt;，（不行，我要好好学英语！！！）这段时间主要还是花在 算法基础课 上，在 算法基础课 差不多学完的时候，插入了 Linux 基础课 的学习。&lt;/p&gt;
-&lt;p&gt;至此，2022 年 2 月 &amp;ndash; 2022 年 7 月 Over。&lt;/p&gt;
-</description>
-      <content:encoded><![CDATA[<p>从 2022 年 1 月 &ndash; 3月时间（1 月 &ndash; 2 月 寒假）主要花在了 <a href="https://www.programmercarl.com/">代码随想录</a> 上(还付费进入知识星球一年)，对应着在<strong>力扣</strong>上刷题，对算法算是稍稍入了门，期间花时间把 黑马程序员 C++ 的 B 站视频刷了（当时只是硬着头皮刷，没想过要针对性的学习，其实后面刷算法题其实这里面语法特性是用不上的，比如：模板、虚函数&hellip;导致学了忘得也很快，而在算法中需要掌握使用的 <code>STL</code>，却还是没怎么熟悉）（现在看来，还是走了挺多弯路的吧🤔）。发两个月时间刷完后，又转战 <a href="https://www.acwing.com/user/myspace/activity/182463/">AcWing</a>，先后购入 算法基础课（2022-03-28）、Linux基础课（2022-03-31）、Django框架课（2022-04-30）、Web 应用课（2022-05-06）。之后整个学期，也是因为疫情封校，平时周末无法外出，只能是在学校里，我也就把大部分的时间花在这些东西的学习上，刷这些视频课，并对应着进行一些实践。（现在反思反思，当时的实践还是少了，有点太过急了，视频刷的很快，能自己吸收消化的却不算多，还是有点可惜）。</p>
-<p>这个期间的生活费，大部分花在 买课 上了&hellip;</p>
-<p>2022 年 4 月 &ndash; 7月，这段时间也是停了力扣的刷题，时间着重花在 AcWing 上的算法题，以及 AcWing 工程课 的学习。这个学期 学了 <strong>数据结构</strong> 一门专业课，因为有了算法学习的底子，学的还是比较轻松，还做了一下<a href="https://github.com/Xancoding/Data-Structures-and-Algorithms">知识点的整理</a>，最后的期末考了个 <code>92</code>，不满意，狠奇怪😅。再说说考的不算好的几门好了，大学物理(1) 考了 <code>78</code>（确实不怎么会，认了），还有就是 学术英语，<code>78</code>，（不行，我要好好学英语！！！）这段时间主要还是花在 算法基础课 上，在 算法基础课 差不多学完的时候，插入了 Linux 基础课 的学习。</p>
-<p>至此，2022 年 2 月 &ndash; 2022 年 7 月 Over。</p>
 ]]></content:encoded>
     </item>
     
@@ -2864,302 +2068,6 @@
     </item>
     
     <item>
-      <title>6 月总结</title>
-      <link>https://xancoding.cn/posts/2023-06-30-17-40-02/</link>
-      <pubDate>Fri, 30 Jun 2023 17:40:03 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-06-30-17-40-02/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;学习：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;概率论与数理统计&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;操作系统&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;电路分析基础(0629)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;模拟电子技术基础(0614)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;SICP&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;操作系统课程设计&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;机器学习&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;深度学习&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;GNN&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ICS-PA&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;期末考试月。。。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      <content:encoded><![CDATA[<ol>
-<li>
-<p>学习：</p>
-<ol>
-<li>
-<p>概率论与数理统计</p>
-</li>
-<li>
-<p>操作系统</p>
-</li>
-<li>
-<p>电路分析基础(0629)</p>
-</li>
-<li>
-<p>模拟电子技术基础(0614)</p>
-</li>
-<li>
-<p>SICP</p>
-</li>
-<li>
-<p>操作系统课程设计</p>
-</li>
-<li>
-<p>机器学习</p>
-</li>
-<li>
-<p>深度学习</p>
-</li>
-<li>
-<p>GNN</p>
-</li>
-<li>
-<p>ICS-PA</p>
-</li>
-</ol>
-</li>
-<li>
-<p>期末考试月。。。</p>
-</li>
-</ol>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>5 月总结</title>
-      <link>https://xancoding.cn/posts/2023-05-31-09-00-39/</link>
-      <pubDate>Wed, 31 May 2023 09:00:40 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-05-31-09-00-39/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;学习：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;School&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;《概率论与数理统计》结课&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《电路》结课&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《操作系统原理与实践》结课&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《模拟电子技术基础》结课&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Pycharm+Anaconda+CUDA+cudnn+Pytorch ，深度学习环境配置完成&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;GDB&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cprogramming.com/gdb.html&#34;&gt;https://www.cprogramming.com/gdb.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;googletest&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ICS-PA&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;SICP&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;jyy-OS&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Read 别像弱智一样提问 &amp;amp; 提问的智慧&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Read 英语文献、资料，英语能力Up Up&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;书籍：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Life:&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Tech:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;《现代操作系统》2&amp;ndash;6章&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《操作系统&amp;ndash;精髓与设计原理》3&amp;ndash;9、11&amp;ndash;12章&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《操作系统导论》&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2023唐山马拉松（0521）（041905）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0522 前几天沉迷刷抖刷B刷贴吧&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;0530 前几天期末复习考试（怎么还有这么多课呀！！！&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;五月后半段的作息不太规律，经常是凌晨一点左右至白天九点左右，慢慢调整回来&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;大概规划一下考完之后，有空的时候做些什么（按优先级排列）：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;学习 deep-learning （情感分析）&lt;/li&gt;
-&lt;li&gt;学习 SICP （对编程语言有更深的理解，有更强的掌握感）&lt;/li&gt;
-&lt;li&gt;学习 算法 （晚上去 ACM 社团跟着他们一起练习）（提升自己的编程思维）&lt;/li&gt;
-&lt;li&gt;学习 ICS-PA （通过 NEMU 构建简单完整的计算机系统）（获得了处理大型项目的能力）&lt;/li&gt;
-&lt;li&gt;学习 jyy-OS （配合着《操作系统导论》）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;注：4、5 可以放到大三上与 计算机组成原理、数字逻辑、Linux（如果这门专选课可以选上的话🤗） 联系起来，可以形成一个完整的知识体系&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      <content:encoded><![CDATA[<ol>
-<li>
-<p>学习：</p>
-<ol>
-<li>
-<p>School</p>
-<ol>
-<li>
-<p>《概率论与数理统计》结课</p>
-</li>
-<li>
-<p>《电路》结课</p>
-</li>
-<li>
-<p>《操作系统原理与实践》结课</p>
-</li>
-<li>
-<p>《模拟电子技术基础》结课</p>
-</li>
-</ol>
-</li>
-<li>
-<p>Pycharm+Anaconda+CUDA+cudnn+Pytorch ，深度学习环境配置完成</p>
-</li>
-<li>
-<p>GDB</p>
-<ol>
-<li><a href="https://www.cprogramming.com/gdb.html">https://www.cprogramming.com/gdb.html</a></li>
-</ol>
-</li>
-<li>
-<p>googletest</p>
-</li>
-<li>
-<p>ICS-PA</p>
-</li>
-<li>
-<p>SICP</p>
-</li>
-<li>
-<p>jyy-OS</p>
-</li>
-<li>
-<p>Read 别像弱智一样提问 &amp; 提问的智慧</p>
-</li>
-<li>
-<p>Read 英语文献、资料，英语能力Up Up</p>
-</li>
-</ol>
-</li>
-<li>
-<p>书籍：</p>
-<ol>
-<li>
-<p>Life:</p>
-</li>
-<li>
-<p>Tech:</p>
-<ol>
-<li>
-<p>《现代操作系统》2&ndash;6章</p>
-</li>
-<li>
-<p>《操作系统&ndash;精髓与设计原理》3&ndash;9、11&ndash;12章</p>
-</li>
-<li>
-<p>《操作系统导论》</p>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>
-<p>2023唐山马拉松（0521）（041905）</p>
-</li>
-<li>
-<p>0522 前几天沉迷刷抖刷B刷贴吧</p>
-</li>
-<li>
-<p>0530 前几天期末复习考试（怎么还有这么多课呀！！！</p>
-</li>
-<li>
-<p>五月后半段的作息不太规律，经常是凌晨一点左右至白天九点左右，慢慢调整回来</p>
-</li>
-<li>
-<p>大概规划一下考完之后，有空的时候做些什么（按优先级排列）：</p>
-<ol>
-<li>学习 deep-learning （情感分析）</li>
-<li>学习 SICP （对编程语言有更深的理解，有更强的掌握感）</li>
-<li>学习 算法 （晚上去 ACM 社团跟着他们一起练习）（提升自己的编程思维）</li>
-<li>学习 ICS-PA （通过 NEMU 构建简单完整的计算机系统）（获得了处理大型项目的能力）</li>
-<li>学习 jyy-OS （配合着《操作系统导论》）</li>
-</ol>
-<ul>
-<li>注：4、5 可以放到大三上与 计算机组成原理、数字逻辑、Linux（如果这门专选课可以选上的话🤗） 联系起来，可以形成一个完整的知识体系</li>
-</ul>
-</li>
-</ol>
-]]></content:encoded>
-    </item>
-    
-    <item>
       <title>C&#43;&#43; Project</title>
       <link>https://xancoding.cn/posts/2023-05-29-17-24-38/</link>
       <pubDate>Mon, 29 May 2023 17:24:38 +0800</pubDate>
@@ -3426,26 +2334,6 @@
 在这个例子中，命令<code>include_directories(include)</code>表示你想将<code>include</code>目录添加到包含路径中。这意味着编译器在编译源文件时会在<code>include</code>目录中搜索头文件。</p>
 <p><code>aux_source_directory(&lt;dir&gt; &lt;variable&gt;)</code><br>
 在这个例子中，命令<code>aux_source_directory(src DIR_SRCS)</code>表示你想从<code>./src</code>目录收集所有的源文件，并将它们赋值给变量<code>DIR_SRCS</code>。</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>暑假&amp;大一上</title>
-      <link>https://xancoding.cn/posts/2023-05-29-12-54-17/</link>
-      <pubDate>Mon, 29 May 2023 12:54:18 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-05-29-12-54-17/</guid>
-      <description>&lt;p&gt;2021年 7 月，开始我高考完后最轻松的暑假，光顾着玩了，没怎么学习（当然也没去考驾照啦）（做家教，赚了些钱💸）&lt;/p&gt;
-&lt;p&gt;2021 年 9 月 &amp;ndash; 2022 年 1 月（大一上），这段时间没怎么花时间在专业技术的学习上的，花比较多的时间在 &lt;strong&gt;高等数学&lt;/strong&gt; 上，结果发现最后的考试并不难（不过考的也不高，拿了个 &lt;code&gt;90&lt;/code&gt;）。闲暇的时间，日常的跑步（9月 &amp;ndash; 12月 共跑了 369 km） &amp;amp; 周末跟凌云社的小伙伴们出去玩（东灵山、三峰连穿&amp;hellip;），这个学期学了 &lt;strong&gt;C语言&lt;/strong&gt; 和 &lt;strong&gt;离散数学&lt;/strong&gt; 两门专业课。离散的老师讲的实在不行，只能自己看书学，感觉掌握的不是很扎实&amp;ndash;不过考试还是依旧比较水，C语言 &lt;code&gt;95&lt;/code&gt; 和 离散数学 &lt;code&gt;94&lt;/code&gt; 拿下。 其他的课中，依旧是被英语折磨，最后也就考了个 &lt;code&gt;83&lt;/code&gt;（感觉也挺高的了🤣），还有就是 &lt;strong&gt;思想道德修养与法律&lt;/strong&gt;，还是上课水过，考前几天背的死去活来，&lt;code&gt;82&lt;/code&gt; 考过。还有就是，C 语言那个 管理系统 的课设，当时的我都还是只是磕磕绊绊的写出，以及参考教材，没有去网上检索信息的意识，可见对专业相关的自主学习意识还是比较薄弱的🥴。&lt;/p&gt;
-&lt;p&gt;这学期也有两门拿的比较低，一门是 &lt;strong&gt;军事技能&lt;/strong&gt;，是按军训的表现来算的（打靶全部脱靶，还能高到哪去，这个我认了😅）。另外一门就是 &lt;strong&gt;计算机导论&lt;/strong&gt;，虽然是开卷，还是考了个 &lt;strong&gt;78&lt;/strong&gt;。现在想想，这门当时应该好好学的，可以构建对计算机的基本认知来说，还是有必要的，对后面的学习也是有所裨益的。&lt;/p&gt;
-&lt;p&gt;这个期间的生活费，大部分花在买跑鞋和我的高驰表上了&amp;hellip;&lt;/p&gt;
-&lt;p&gt;至此，2021 年 7 月 &amp;ndash; 2022 年 1 月 Over。&lt;/p&gt;
-</description>
-      <content:encoded><![CDATA[<p>2021年 7 月，开始我高考完后最轻松的暑假，光顾着玩了，没怎么学习（当然也没去考驾照啦）（做家教，赚了些钱💸）</p>
-<p>2021 年 9 月 &ndash; 2022 年 1 月（大一上），这段时间没怎么花时间在专业技术的学习上的，花比较多的时间在 <strong>高等数学</strong> 上，结果发现最后的考试并不难（不过考的也不高，拿了个 <code>90</code>）。闲暇的时间，日常的跑步（9月 &ndash; 12月 共跑了 369 km） &amp; 周末跟凌云社的小伙伴们出去玩（东灵山、三峰连穿&hellip;），这个学期学了 <strong>C语言</strong> 和 <strong>离散数学</strong> 两门专业课。离散的老师讲的实在不行，只能自己看书学，感觉掌握的不是很扎实&ndash;不过考试还是依旧比较水，C语言 <code>95</code> 和 离散数学 <code>94</code> 拿下。 其他的课中，依旧是被英语折磨，最后也就考了个 <code>83</code>（感觉也挺高的了🤣），还有就是 <strong>思想道德修养与法律</strong>，还是上课水过，考前几天背的死去活来，<code>82</code> 考过。还有就是，C 语言那个 管理系统 的课设，当时的我都还是只是磕磕绊绊的写出，以及参考教材，没有去网上检索信息的意识，可见对专业相关的自主学习意识还是比较薄弱的🥴。</p>
-<p>这学期也有两门拿的比较低，一门是 <strong>军事技能</strong>，是按军训的表现来算的（打靶全部脱靶，还能高到哪去，这个我认了😅）。另外一门就是 <strong>计算机导论</strong>，虽然是开卷，还是考了个 <strong>78</strong>。现在想想，这门当时应该好好学的，可以构建对计算机的基本认知来说，还是有必要的，对后面的学习也是有所裨益的。</p>
-<p>这个期间的生活费，大部分花在买跑鞋和我的高驰表上了&hellip;</p>
-<p>至此，2021 年 7 月 &ndash; 2022 年 1 月 Over。</p>
 ]]></content:encoded>
     </item>
     
@@ -5208,42 +4096,6 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
     </item>
     
     <item>
-      <title>Electronic product</title>
-      <link>https://xancoding.cn/posts/2023-04-30-09-39-00/</link>
-      <pubDate>Sun, 30 Apr 2023 09:39:00 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-04-30-09-39-00/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 三星SAMSUNG 64G U盘 —— 京东 88元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 联想拯救者 R7000 —— 京东 6199元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 微星 MSI 23.8英寸显示器 —— 京东 833 元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 微软便携触摸显示器 —— 淘宝 499 元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 漫步者 W820NB 头戴式蓝牙耳机 —— 京东 299 元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 小米显示器挂灯 —— 京东 199元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; RK100 有线/蓝牙/无线2.4G三模机械键盘 —— 京东 229元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; SAMSUNG 64GB U盘 —— 京东 87 元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 小米充电宝 20000mAh 22.5W —— 京东 149元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 小米 原装二合一数据线 1m —— 京东 27元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 华为手环 7 NFC版 —— 京东 245元&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      <content:encoded><![CDATA[<ul>
-<li><input checked="" disabled="" type="checkbox"> 三星SAMSUNG 64G U盘 —— 京东 88元</li>
-<li><input checked="" disabled="" type="checkbox"> 联想拯救者 R7000 —— 京东 6199元</li>
-<li><input checked="" disabled="" type="checkbox"> 微星 MSI 23.8英寸显示器 —— 京东 833 元</li>
-<li><input checked="" disabled="" type="checkbox"> 微软便携触摸显示器 —— 淘宝 499 元</li>
-<li><input checked="" disabled="" type="checkbox"> 漫步者 W820NB 头戴式蓝牙耳机 —— 京东 299 元</li>
-<li><input checked="" disabled="" type="checkbox"> 小米显示器挂灯 —— 京东 199元</li>
-<li><input checked="" disabled="" type="checkbox"> RK100 有线/蓝牙/无线2.4G三模机械键盘 —— 京东 229元</li>
-<li><input checked="" disabled="" type="checkbox"> SAMSUNG 64GB U盘 —— 京东 87 元</li>
-<li><input checked="" disabled="" type="checkbox"> 小米充电宝 20000mAh 22.5W —— 京东 149元</li>
-<li><input checked="" disabled="" type="checkbox"> 小米 原装二合一数据线 1m —— 京东 27元</li>
-<li><input checked="" disabled="" type="checkbox"> 华为手环 7 NFC版 —— 京东 245元</li>
-</ul>
-]]></content:encoded>
-    </item>
-    
-    <item>
       <title>Fitness program</title>
       <link>https://xancoding.cn/posts/2023-04-30-09-33-09/</link>
       <pubDate>Sun, 30 Apr 2023 09:33:09 +0800</pubDate>
@@ -5812,72 +4664,6 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
     </item>
     
     <item>
-      <title>Run</title>
-      <link>https://xancoding.cn/posts/2023-04-30-09-25-28/</link>
-      <pubDate>Sun, 30 Apr 2023 09:25:28 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-04-30-09-25-28/</guid>
-      <description>&lt;h2 id=&#34;我的装备&#34;&gt;我的装备&lt;/h2&gt;
-&lt;h3 id=&#34;手表&#34;&gt;手表&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; COROS高驰 PACE2 竞技运动手表 —— 闲鱼 1200元&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;跑鞋&#34;&gt;跑鞋&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 飞影PB 国庆配色 260mm —— 闲鱼 450元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Nike React Infinity Run 白蓝 260mm —— 闲鱼 271元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 锐步 Energy3 260mm —— 闲鱼 450元&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;冬季装备&#34;&gt;冬季装备&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; QINKUNG长袖 M码 —— 闲鱼 78元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 必迈 V4热能紧身压缩衣 L码 —— 闲鱼 329元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 必迈 防风保暖夹克 恒星蓝 L码 —— 闲鱼  259元&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;夏季装备&#34;&gt;夏季装备&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 特步国人竞速 短裤、背心 —— 闲鱼 259元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; QINKUNG短袖 M码 —— 官网 169元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; BMAI 必迈跑步竞速压缩短裤 3.5寸 黑练黑 —— 淘宝 173元&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;帽子&#34;&gt;帽子🧢&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Nike运动帽 679421 —— 闲鱼 110元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; QINKUNG轻功 秋冬跑步高弹针织帽 —— 淘宝 99元&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      <content:encoded><![CDATA[<h2 id="我的装备">我的装备</h2>
-<h3 id="手表">手表</h3>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> COROS高驰 PACE2 竞技运动手表 —— 闲鱼 1200元</li>
-</ul>
-<h3 id="跑鞋">跑鞋</h3>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> 飞影PB 国庆配色 260mm —— 闲鱼 450元</li>
-<li><input checked="" disabled="" type="checkbox"> Nike React Infinity Run 白蓝 260mm —— 闲鱼 271元</li>
-<li><input checked="" disabled="" type="checkbox"> 锐步 Energy3 260mm —— 闲鱼 450元</li>
-</ul>
-<h3 id="冬季装备">冬季装备</h3>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> QINKUNG长袖 M码 —— 闲鱼 78元</li>
-<li><input checked="" disabled="" type="checkbox"> 必迈 V4热能紧身压缩衣 L码 —— 闲鱼 329元</li>
-<li><input checked="" disabled="" type="checkbox"> 必迈 防风保暖夹克 恒星蓝 L码 —— 闲鱼  259元</li>
-</ul>
-<h3 id="夏季装备">夏季装备</h3>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> 特步国人竞速 短裤、背心 —— 闲鱼 259元</li>
-<li><input checked="" disabled="" type="checkbox"> QINKUNG短袖 M码 —— 官网 169元</li>
-<li><input checked="" disabled="" type="checkbox"> BMAI 必迈跑步竞速压缩短裤 3.5寸 黑练黑 —— 淘宝 173元</li>
-</ul>
-<h3 id="帽子">帽子🧢</h3>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Nike运动帽 679421 —— 闲鱼 110元</li>
-<li><input checked="" disabled="" type="checkbox"> QINKUNG轻功 秋冬跑步高弹针织帽 —— 淘宝 99元</li>
-</ul>
-]]></content:encoded>
-    </item>
-    
-    <item>
       <title>Outdoor</title>
       <link>https://xancoding.cn/posts/2023-04-30-09-20-36/</link>
       <pubDate>Sun, 30 Apr 2023 09:20:36 +0800</pubDate>
@@ -5926,48 +4712,6 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;我的装备&#34;&gt;我的装备&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 三峰出雨衣 15D —— 闲鱼 112元&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; BLACK ICE 黑冰 户外运动P棉服 F8001 S码 —— 淘宝 543元 闲鱼 499元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; THERMOS 膳魔师 JNL-502-PRW 珠光白 500mL —— 京东 80元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Snow monster 雪地野人户外手套 —— 闲鱼 120元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Hoka羚羊4 260mm  —— 京东 599元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 强氧登山包羚羊36L （2 - 3日短线徒步 ） —— 闲鱼 220元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 奈特科尔NITECORE头灯 NU25 —— 闲鱼 133元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; outdoor research OR 手套 L码—— 淘宝 58元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Outdoor research VERGLAS 雪套 L码 —— 闲鱼 89元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; ROCLKSOLID 美利奴羊毛保暖内衣套装 M码 —— 淘宝 198元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Keith凯斯纯钛饭盒 Ti5328 1000mL —— 闲鱼 179元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Keith凯斯钛杯 Ti3240 350mL —— 闲鱼 75元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 钛途TiTo纯钛叉勺 —— 淘宝 19元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 凯乐石9A攀岩裤KG520220 金鱼黄 170/74A —— 闲鱼 199元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 凯乐石远征者pro 三合一冲锋衣 M码 —— 闲鱼 460元&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Osprey小鹰水袋 3L —— 闲鱼 230元&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;急救包&#34;&gt;急救包&lt;/h2&gt;
-&lt;h3 id=&#34;外伤&#34;&gt;外伤&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;塑料镊子 1把：伤口的精细化处理&lt;/li&gt;
-&lt;li&gt;安全别针 10枚：固定三角巾纱布止血带等&lt;/li&gt;
-&lt;li&gt;剪刀 1把：剪开绷带线条等各种用途&lt;/li&gt;
-&lt;li&gt;创口贴 10片：小创口的止血处理&lt;/li&gt;
-&lt;li&gt;酒精棉片 10片：对伤口用品的擦拭消毒&lt;/li&gt;
-&lt;li&gt;碘伏棉片 4片：伤口的消毒、消炎&lt;/li&gt;
-&lt;li&gt;医用棉签 20根：日常护理使用&lt;/li&gt;
-&lt;li&gt;三角绷带 1包：胳膊骨折的固定，头部出血的处理&lt;/li&gt;
-&lt;li&gt;止血带 1卷：压迫伤口止血，固定骨折部位&lt;/li&gt;
-&lt;li&gt;PBT绷带 1卷：伤口的包扎止血&lt;/li&gt;
-&lt;li&gt;无纺布胶带 1卷：固定绷带纱布等敷料&lt;/li&gt;
-&lt;li&gt;纱布片 2片：可与伤口直接接触&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;药物&#34;&gt;药物&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;麝香壮骨膏 4贴：扭伤 挫伤&lt;/li&gt;
-&lt;li&gt;急救毯 1张：失温&lt;/li&gt;
-&lt;li&gt;云南白药 2罐：跌打损伤，淤血肿痛，肌肉酸痛及风湿疼痛&lt;/li&gt;
-&lt;li&gt;板蓝根颗粒 2包：肺胃热盛所致的咽喉肿痛、口咽干燥&lt;/li&gt;
-&lt;/ol&gt;
 &lt;h2 id=&#34;海外代购&#34;&gt;海外代购&lt;/h2&gt;
 &lt;p&gt;在淘宝上搜亚马逊代购，然后把&lt;a href=&#34;https://www.amazon.com/Amazon-Essentials-Stretch-Long-Sleeve-Pullover/dp/B07FLWRP2K/ref=sr_1_52?crid=30CWS1VUYTRFU&amp;amp;dchild=1&amp;amp;keywords=amazon%2Bessentials%2Blong%2Bsleeve%2Bshirt%2Bmen&amp;amp;qid=1621000634&amp;amp;sprefix=amazon%2Bessentials%2Blong%2Caps%2C443&amp;amp;sr=8-52&amp;amp;th=1&amp;amp;psc=1&#34;&gt;衣服链接&lt;/a&gt;发给他，他会计算价格
 
@@ -6022,48 +4766,6 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 </div>
 
 </p>
-<h2 id="我的装备">我的装备</h2>
-<ul>
-<li><input disabled="" type="checkbox"> 三峰出雨衣 15D —— 闲鱼 112元</li>
-<li><input disabled="" type="checkbox"> BLACK ICE 黑冰 户外运动P棉服 F8001 S码 —— 淘宝 543元 闲鱼 499元</li>
-<li><input checked="" disabled="" type="checkbox"> THERMOS 膳魔师 JNL-502-PRW 珠光白 500mL —— 京东 80元</li>
-<li><input checked="" disabled="" type="checkbox"> Snow monster 雪地野人户外手套 —— 闲鱼 120元</li>
-<li><input checked="" disabled="" type="checkbox"> Hoka羚羊4 260mm  —— 京东 599元</li>
-<li><input checked="" disabled="" type="checkbox"> 强氧登山包羚羊36L （2 - 3日短线徒步 ） —— 闲鱼 220元</li>
-<li><input checked="" disabled="" type="checkbox"> 奈特科尔NITECORE头灯 NU25 —— 闲鱼 133元</li>
-<li><input checked="" disabled="" type="checkbox"> outdoor research OR 手套 L码—— 淘宝 58元</li>
-<li><input checked="" disabled="" type="checkbox"> Outdoor research VERGLAS 雪套 L码 —— 闲鱼 89元</li>
-<li><input checked="" disabled="" type="checkbox"> ROCLKSOLID 美利奴羊毛保暖内衣套装 M码 —— 淘宝 198元</li>
-<li><input checked="" disabled="" type="checkbox"> Keith凯斯纯钛饭盒 Ti5328 1000mL —— 闲鱼 179元</li>
-<li><input checked="" disabled="" type="checkbox"> Keith凯斯钛杯 Ti3240 350mL —— 闲鱼 75元</li>
-<li><input checked="" disabled="" type="checkbox"> 钛途TiTo纯钛叉勺 —— 淘宝 19元</li>
-<li><input checked="" disabled="" type="checkbox"> 凯乐石9A攀岩裤KG520220 金鱼黄 170/74A —— 闲鱼 199元</li>
-<li><input checked="" disabled="" type="checkbox"> 凯乐石远征者pro 三合一冲锋衣 M码 —— 闲鱼 460元</li>
-<li><input checked="" disabled="" type="checkbox"> Osprey小鹰水袋 3L —— 闲鱼 230元</li>
-</ul>
-<h2 id="急救包">急救包</h2>
-<h3 id="外伤">外伤</h3>
-<ol>
-<li>塑料镊子 1把：伤口的精细化处理</li>
-<li>安全别针 10枚：固定三角巾纱布止血带等</li>
-<li>剪刀 1把：剪开绷带线条等各种用途</li>
-<li>创口贴 10片：小创口的止血处理</li>
-<li>酒精棉片 10片：对伤口用品的擦拭消毒</li>
-<li>碘伏棉片 4片：伤口的消毒、消炎</li>
-<li>医用棉签 20根：日常护理使用</li>
-<li>三角绷带 1包：胳膊骨折的固定，头部出血的处理</li>
-<li>止血带 1卷：压迫伤口止血，固定骨折部位</li>
-<li>PBT绷带 1卷：伤口的包扎止血</li>
-<li>无纺布胶带 1卷：固定绷带纱布等敷料</li>
-<li>纱布片 2片：可与伤口直接接触</li>
-</ol>
-<h3 id="药物">药物</h3>
-<ol>
-<li>麝香壮骨膏 4贴：扭伤 挫伤</li>
-<li>急救毯 1张：失温</li>
-<li>云南白药 2罐：跌打损伤，淤血肿痛，肌肉酸痛及风湿疼痛</li>
-<li>板蓝根颗粒 2包：肺胃热盛所致的咽喉肿痛、口咽干燥</li>
-</ol>
 <h2 id="海外代购">海外代购</h2>
 <p>在淘宝上搜亚马逊代购，然后把<a href="https://www.amazon.com/Amazon-Essentials-Stretch-Long-Sleeve-Pullover/dp/B07FLWRP2K/ref=sr_1_52?crid=30CWS1VUYTRFU&amp;dchild=1&amp;keywords=amazon%2Bessentials%2Blong%2Bsleeve%2Bshirt%2Bmen&amp;qid=1621000634&amp;sprefix=amazon%2Bessentials%2Blong%2Caps%2C443&amp;sr=8-52&amp;th=1&amp;psc=1">衣服链接</a>发给他，他会计算价格
 
@@ -6074,274 +4776,6 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 </div>
 
 </p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>4 月总结</title>
-      <link>https://xancoding.cn/posts/2023-04-30-01-10-21/</link>
-      <pubDate>Sun, 30 Apr 2023 01:10:21 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-04-30-01-10-21/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;学习：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;《概率论与数理统计》1&amp;ndash;7章&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《电路》1&amp;ndash;4、6&amp;ndash;10章&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《操作系统原理与实践》1&amp;ndash;4章&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《算法设计与分析（第2版）》结课（第 12 周）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《汇编语言》结课（第 8 周）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《模拟电子技术基础》1&amp;ndash;5章&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;小林图解系统：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;四、内存管理（4.7 深入理解 Linux 物理内存管理）&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;六、调度算法&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;七、文件系统&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;九、网络系统（未看）&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;十、Linux 命令（未看）&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;OI Wiki&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Git 学习&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;LaTex 学习&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;菜鸟教程&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Python3 学习&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;深度学习 吴达恩 B站视频&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;书籍：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Life:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;《平凡的世界》&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《明朝那些事》&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Tech:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;《程序员的自我修养》p1&amp;ndash;p169&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《深入理解计算机系统》p1&amp;ndash;p119、p399&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Outdoor&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;鹫峰徒步（0408）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;北京•门头沟•十里坪🏕️（0415&amp;ndash;0416）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;公园半程马拉松北京公开赛“北京•亦庄”南海子公园站（0422）01:46:07&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;北大拉卡拉杯 5+2（0429）&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;打卡北京高校&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;中国农业大学&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;中国石油大学&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;北京林业大学&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;北京大学&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;冥想&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      <content:encoded><![CDATA[<ol>
-<li>
-<p>学习：</p>
-<ol>
-<li>
-<p>《概率论与数理统计》1&ndash;7章</p>
-</li>
-<li>
-<p>《电路》1&ndash;4、6&ndash;10章</p>
-</li>
-<li>
-<p>《操作系统原理与实践》1&ndash;4章</p>
-</li>
-<li>
-<p>《算法设计与分析（第2版）》结课（第 12 周）</p>
-</li>
-<li>
-<p>《汇编语言》结课（第 8 周）</p>
-</li>
-<li>
-<p>《模拟电子技术基础》1&ndash;5章</p>
-</li>
-<li>
-<p>小林图解系统：</p>
-<ol>
-<li>
-<p><strong>四、内存管理（4.7 深入理解 Linux 物理内存管理）</strong></p>
-</li>
-<li>
-<p><strong>六、调度算法</strong></p>
-</li>
-<li>
-<p><strong>七、文件系统</strong></p>
-</li>
-<li>
-<p><strong>九、网络系统（未看）</strong></p>
-</li>
-<li>
-<p><strong>十、Linux 命令（未看）</strong></p>
-</li>
-</ol>
-</li>
-<li>
-<p>OI Wiki</p>
-<ol>
-<li>
-<p>Git 学习</p>
-</li>
-<li>
-<p>LaTex 学习</p>
-</li>
-</ol>
-</li>
-<li>
-<p>菜鸟教程</p>
-<ol>
-<li>Python3 学习</li>
-</ol>
-</li>
-<li>
-<p>深度学习 吴达恩 B站视频</p>
-</li>
-</ol>
-</li>
-<li>
-<p>书籍：</p>
-<ol>
-<li>
-<p>Life:</p>
-<ol>
-<li>
-<p>《平凡的世界》</p>
-</li>
-<li>
-<p>《明朝那些事》</p>
-</li>
-</ol>
-</li>
-<li>
-<p>Tech:</p>
-<ol>
-<li>
-<p>《程序员的自我修养》p1&ndash;p169</p>
-</li>
-<li>
-<p>《深入理解计算机系统》p1&ndash;p119、p399</p>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>
-<p>Outdoor</p>
-<ol>
-<li>
-<p>鹫峰徒步（0408）</p>
-</li>
-<li>
-<p>北京•门头沟•十里坪🏕️（0415&ndash;0416）</p>
-</li>
-<li>
-<p>公园半程马拉松北京公开赛“北京•亦庄”南海子公园站（0422）01:46:07</p>
-</li>
-<li>
-<p>北大拉卡拉杯 5+2（0429）</p>
-</li>
-</ol>
-</li>
-<li>
-<p>打卡北京高校</p>
-<ol>
-<li>
-<p>中国农业大学</p>
-</li>
-<li>
-<p>中国石油大学</p>
-</li>
-<li>
-<p>北京林业大学</p>
-</li>
-<li>
-<p>北京大学</p>
-</li>
-</ol>
-</li>
-<li>
-<p>冥想</p>
-</li>
-</ol>
 ]]></content:encoded>
     </item>
     
@@ -6684,532 +5118,6 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 <li>赛后补充越及时，恢复越快</li>
 </ol>
 <p>比赛结束后身体的恢复才刚刚开始，这时候补糖、补水、补盐越及时，体能恢复越快。赛后半个小时内尽快补充，恢复效果要远好过数小时后再大吃大喝。</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>3 月总结</title>
-      <link>https://xancoding.cn/posts/2023-03-31-08-14-17/</link>
-      <pubDate>Fri, 31 Mar 2023 08:14:17 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-03-31-08-14-17/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;学习：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;开始学习深度学习内容（0327）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;补完之前落下的课（0319）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;小林图解系统：一、二、三、五、八&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;书籍：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Life:&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Tech:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;《操作系统导论》&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;School&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;《概率论与数理统计》1&amp;ndash;4章&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《电路》1&amp;ndash;4、6&amp;ndash;7章&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《操作系统原理与实践》1&amp;ndash;2章&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《算法设计与分析（第2版）》1&amp;ndash;3、8、11章&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《汇编语言》1&amp;ndash;12章&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《模拟电子技术基础》1&amp;ndash;2章&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;电影：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;狼行者&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;爱情神话&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;韩剧&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;黑暗荣耀 1&amp;ndash;2季&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;感冒（停跑）受伤（停跑）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Apex 弃坑（体验不好）（0304）（克制一下，一天的结束稍稍玩玩）（0315）（再次弃坑）（0316）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;今日起不看抖音（0304）（克制一下，一天的结束稍稍玩玩）（0315）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;跑步&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;GitHub（0305 真的有内容的时候，再做提交）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;🌰👋（0319）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;豁然开朗，随心所欲（0325）&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      <content:encoded><![CDATA[<ol>
-<li>
-<p>学习：</p>
-<ol>
-<li>
-<p>开始学习深度学习内容（0327）</p>
-</li>
-<li>
-<p>补完之前落下的课（0319）</p>
-</li>
-<li>
-<p>小林图解系统：一、二、三、五、八</p>
-</li>
-</ol>
-</li>
-<li>
-<p>书籍：</p>
-<ol>
-<li>
-<p>Life:</p>
-</li>
-<li>
-<p>Tech:</p>
-<ol>
-<li>《操作系统导论》</li>
-</ol>
-</li>
-<li>
-<p>School</p>
-<ol>
-<li>
-<p>《概率论与数理统计》1&ndash;4章</p>
-</li>
-<li>
-<p>《电路》1&ndash;4、6&ndash;7章</p>
-</li>
-<li>
-<p>《操作系统原理与实践》1&ndash;2章</p>
-</li>
-<li>
-<p>《算法设计与分析（第2版）》1&ndash;3、8、11章</p>
-</li>
-<li>
-<p>《汇编语言》1&ndash;12章</p>
-</li>
-<li>
-<p>《模拟电子技术基础》1&ndash;2章</p>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>
-<p>电影：</p>
-<ol>
-<li>
-<p>狼行者</p>
-</li>
-<li>
-<p>爱情神话</p>
-</li>
-</ol>
-</li>
-<li>
-<p>韩剧</p>
-<ol>
-<li>黑暗荣耀 1&ndash;2季</li>
-</ol>
-</li>
-<li>
-<p>感冒（停跑）受伤（停跑）</p>
-</li>
-<li>
-<p>Apex 弃坑（体验不好）（0304）（克制一下，一天的结束稍稍玩玩）（0315）（再次弃坑）（0316）</p>
-</li>
-<li>
-<p>今日起不看抖音（0304）（克制一下，一天的结束稍稍玩玩）（0315）</p>
-</li>
-<li>
-<p>跑步</p>
-</li>
-<li>
-<p>GitHub（0305 真的有内容的时候，再做提交）</p>
-</li>
-<li>
-<p>🌰👋（0319）</p>
-</li>
-<li>
-<p>豁然开朗，随心所欲（0325）</p>
-</li>
-</ol>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>2 月总结</title>
-      <link>https://xancoding.cn/posts/2023-02-28-20-18-17/</link>
-      <pubDate>Tue, 28 Feb 2023 20:18:17 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-02-28-20-18-17/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;学习：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;数学建模&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;美赛（北京&lt;strong&gt;时间&lt;/strong&gt;2023年2月17日6：00（星期五）至2023年2月21日9：00（星期二））&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;书籍：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Life:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;《解读基金——我的投资观与实践》&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《富爸爸穷爸爸》&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Tech:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;《操作系统导论》第二部分：并发&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;跑步
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/02/28/63fdf1629f71f.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/02/28/63fdf1629f71f.png&#34; alt=&#34;Snipaste_2023-02-28_20-17-54.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;GitHub
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/02/28/63fdf166e7210.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/02/28/63fdf166e7210.png&#34; alt=&#34;Snipaste_2023-02-28_20-07-25.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;刷抖音&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;玩Apex&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      <content:encoded><![CDATA[<ol>
-<li>
-<p>学习：</p>
-<ol>
-<li>
-<p>数学建模</p>
-<ol>
-<li>美赛（北京<strong>时间</strong>2023年2月17日6：00（星期五）至2023年2月21日9：00（星期二））</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>
-<p>书籍：</p>
-<ol>
-<li>
-<p>Life:</p>
-<ol>
-<li>
-<p>《解读基金——我的投资观与实践》</p>
-</li>
-<li>
-<p>《富爸爸穷爸爸》</p>
-</li>
-</ol>
-</li>
-<li>
-<p>Tech:</p>
-<ol>
-<li>《操作系统导论》第二部分：并发</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>
-<p>跑步
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/02/28/63fdf1629f71f.png">
-<img src="https://bu.dusays.com/2023/02/28/63fdf1629f71f.png" alt="Snipaste_2023-02-28_20-17-54.png"  />
-</a>
-</div>
-
-</p>
-</li>
-<li>
-<p>GitHub
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/02/28/63fdf166e7210.png">
-<img src="https://bu.dusays.com/2023/02/28/63fdf166e7210.png" alt="Snipaste_2023-02-28_20-07-25.png"  />
-</a>
-</div>
-
-</p>
-</li>
-<li>
-<p>刷抖音</p>
-</li>
-<li>
-<p>玩Apex</p>
-</li>
-</ol>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>1 月总结</title>
-      <link>https://xancoding.cn/posts/2023-01-31-16-48-25/</link>
-      <pubDate>Tue, 31 Jan 2023 16:48:25 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2023-01-31-16-48-25/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;学习：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;C++（Learncpp.com）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;数学建模&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;做饭：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;炸鸡腿&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;紫菜汤&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;爆炒鸭腿&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;芹菜小炒牛肉末&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;炒素面&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;糖醋排骨&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;书籍：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Life:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;《小狗钱钱》&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《可能性的艺术》&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《人类简史》&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Tech:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;《汇编语言》&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;《操作系统导论》第一部分：虚拟化&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;博客功能完善（实现自动化发布）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;沟通技能 Up Up Up&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;跑步
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/31/63d8d866b2045.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/31/63d8d866b2045.png&#34; alt=&#34;Snipaste_2023-01-31_16-58-54.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;GitHub
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2023/01/31/63d8d748a38da.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2023/01/31/63d8d748a38da.png&#34; alt=&#34;Snipaste_2023-01-31_10-52-25.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-      <content:encoded><![CDATA[<ol>
-<li>
-<p>学习：</p>
-<ol>
-<li>
-<p>C++（Learncpp.com）</p>
-</li>
-<li>
-<p>数学建模</p>
-</li>
-</ol>
-</li>
-<li>
-<p>做饭：</p>
-<ol>
-<li>
-<p>炸鸡腿</p>
-</li>
-<li>
-<p>紫菜汤</p>
-</li>
-<li>
-<p>爆炒鸭腿</p>
-</li>
-<li>
-<p>芹菜小炒牛肉末</p>
-</li>
-<li>
-<p>炒素面</p>
-</li>
-<li>
-<p>糖醋排骨</p>
-</li>
-</ol>
-</li>
-<li>
-<p>书籍：</p>
-<ol>
-<li>
-<p>Life:</p>
-<ol>
-<li>
-<p>《小狗钱钱》</p>
-</li>
-<li>
-<p>《可能性的艺术》</p>
-</li>
-<li>
-<p>《人类简史》</p>
-</li>
-</ol>
-</li>
-<li>
-<p>Tech:</p>
-<ol>
-<li>
-<p>《汇编语言》</p>
-</li>
-<li>
-<p>《操作系统导论》第一部分：虚拟化</p>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>
-<p>博客功能完善（实现自动化发布）</p>
-</li>
-<li>
-<p>沟通技能 Up Up Up</p>
-</li>
-<li>
-<p>跑步
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/31/63d8d866b2045.png">
-<img src="https://bu.dusays.com/2023/01/31/63d8d866b2045.png" alt="Snipaste_2023-01-31_16-58-54.png"  />
-</a>
-</div>
-
-</p>
-</li>
-<li>
-<p>GitHub
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2023/01/31/63d8d748a38da.png">
-<img src="https://bu.dusays.com/2023/01/31/63d8d748a38da.png" alt="Snipaste_2023-01-31_10-52-25.png"  />
-</a>
-</div>
-
-</p>
-</li>
-</ol>
 ]]></content:encoded>
     </item>
     
