@@ -283,6 +283,9 @@
 &lt;p&gt;基于网页的用于交互计算的应用程序，可被应用于 文档编写、代码运行和效果展示&lt;/p&gt;
 &lt;h3 id=&#34;typora&#34;&gt;Typora&lt;/h3&gt;
 &lt;p&gt;简易的 &lt;code&gt;Markdown&lt;/code&gt; 编辑器&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;主题：&lt;strong&gt;&lt;a href=&#34;https://github.com/HappySimple/Typora-theme-Happysimple&#34;&gt;Happysimple&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;jetbrains&#34;&gt;JetBrains&lt;/h3&gt;
 &lt;p&gt;学生可以申请免费使用，通过学生认证即可&lt;/p&gt;
 &lt;h4 id=&#34;clion&#34;&gt;CLion&lt;/h4&gt;
@@ -686,6 +689,9 @@
 <p>基于网页的用于交互计算的应用程序，可被应用于 文档编写、代码运行和效果展示</p>
 <h3 id="typora">Typora</h3>
 <p>简易的 <code>Markdown</code> 编辑器</p>
+<ul>
+<li>主题：<strong><a href="https://github.com/HappySimple/Typora-theme-Happysimple">Happysimple</a></strong></li>
+</ul>
 <h3 id="jetbrains">JetBrains</h3>
 <p>学生可以申请免费使用，通过学生认证即可</p>
 <h4 id="clion">CLion</h4>
