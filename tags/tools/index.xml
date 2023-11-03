@@ -845,7 +845,7 @@
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 飞影PB 国庆配色 260mm —— 闲鱼 450元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Nike React Infinity Run 白蓝 260mm —— 闲鱼 271元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 锐步 Energy3 260mm —— 闲鱼 450元&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 361飞燃PB 李子橙 260mm 42码 —— 淘宝 299元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 361飞燃PB 李子橙 260mm 42码 —— 淘宝 299元&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;冬季装备&#34;&gt;冬季装备&lt;/h2&gt;
 &lt;ul&gt;
@@ -883,6 +883,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 三峰出雨衣 15D —— 闲鱼 112元&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; BLACK ICE 黑冰 户外运动P棉服 F8001 S码 —— 淘宝 543元 闲鱼 499元&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 日系 男士 GTX Pro 三层压胶 山系 复古 冲锋衣 杏黄色 M码 —— 淘宝 545元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; THERMOS 膳魔师 JNL-502-PRW 珠光白 500mL —— 京东 80元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Snow monster 雪地野人户外手套 —— 闲鱼 120元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Hoka羚羊4 260mm  —— 京东 599元&lt;/li&gt;
@@ -932,7 +933,7 @@
 <li><input checked="" disabled="" type="checkbox"> 飞影PB 国庆配色 260mm —— 闲鱼 450元</li>
 <li><input checked="" disabled="" type="checkbox"> Nike React Infinity Run 白蓝 260mm —— 闲鱼 271元</li>
 <li><input checked="" disabled="" type="checkbox"> 锐步 Energy3 260mm —— 闲鱼 450元</li>
-<li><input disabled="" type="checkbox"> 361飞燃PB 李子橙 260mm 42码 —— 淘宝 299元</li>
+<li><input checked="" disabled="" type="checkbox"> 361飞燃PB 李子橙 260mm 42码 —— 淘宝 299元</li>
 </ul>
 <h2 id="冬季装备">冬季装备</h2>
 <ul>
@@ -970,6 +971,7 @@
 <ul>
 <li><input disabled="" type="checkbox"> 三峰出雨衣 15D —— 闲鱼 112元</li>
 <li><input disabled="" type="checkbox"> BLACK ICE 黑冰 户外运动P棉服 F8001 S码 —— 淘宝 543元 闲鱼 499元</li>
+<li><input checked="" disabled="" type="checkbox"> 日系 男士 GTX Pro 三层压胶 山系 复古 冲锋衣 杏黄色 M码 —— 淘宝 545元</li>
 <li><input checked="" disabled="" type="checkbox"> THERMOS 膳魔师 JNL-502-PRW 珠光白 500mL —— 京东 80元</li>
 <li><input checked="" disabled="" type="checkbox"> Snow monster 雪地野人户外手套 —— 闲鱼 120元</li>
 <li><input checked="" disabled="" type="checkbox"> Hoka羚羊4 260mm  —— 京东 599元</li>
