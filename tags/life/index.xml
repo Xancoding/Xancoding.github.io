@@ -177,8 +177,13 @@
 &lt;p&gt;Build your own newsfeed&lt;/p&gt;
 &lt;h2 id=&#34;zotero-connector&#34;&gt;Zotero Connector&lt;/h2&gt;
 &lt;p&gt;Save references to Zotero from your web browser&lt;/p&gt;
-&lt;h2 id=&#34;划词翻译&#34;&gt;划词翻译&lt;/h2&gt;
-&lt;p&gt;一站式划词 / 截图 / 网页全文 / 音视频翻译扩展&lt;/p&gt;
+&lt;h2 id=&#34;划词翻译--沉浸式翻译&#34;&gt;划词翻译 &amp;amp;&amp;amp; 沉浸式翻译&lt;/h2&gt;
+&lt;p&gt;划词翻译：&lt;/p&gt;
+&lt;p&gt;沉浸式翻译：
+全文翻译：译文/双语/原文&lt;br&gt;
+任何输入框输入中文，连续三次单击空格，自动翻译成英文&lt;br&gt;
+PDF翻译
+EPUB翻译&lt;/p&gt;
 &lt;h2 id=&#34;easyscholar&#34;&gt;easyScholar&lt;/h2&gt;
 &lt;p&gt;显示期刊等级&lt;/p&gt;
 &lt;h2 id=&#34;erin&#34;&gt;Erin&lt;/h2&gt;
@@ -591,8 +596,13 @@
 <p>Build your own newsfeed</p>
 <h2 id="zotero-connector">Zotero Connector</h2>
 <p>Save references to Zotero from your web browser</p>
-<h2 id="划词翻译">划词翻译</h2>
-<p>一站式划词 / 截图 / 网页全文 / 音视频翻译扩展</p>
+<h2 id="划词翻译--沉浸式翻译">划词翻译 &amp;&amp; 沉浸式翻译</h2>
+<p>划词翻译：</p>
+<p>沉浸式翻译：
+全文翻译：译文/双语/原文<br>
+任何输入框输入中文，连续三次单击空格，自动翻译成英文<br>
+PDF翻译
+EPUB翻译</p>
 <h2 id="easyscholar">easyScholar</h2>
 <p>显示期刊等级</p>
 <h2 id="erin">Erin</h2>
