@@ -162,8 +162,12 @@
 &lt;/div&gt;
 
 &lt;/p&gt;
+&lt;h2 id=&#34;easyscholar&#34;&gt;easyScholar&lt;/h2&gt;
+&lt;p&gt;显示期刊等级&lt;/p&gt;
 &lt;h2 id=&#34;global-speed&#34;&gt;Global Speed&lt;/h2&gt;
 &lt;p&gt;使用键盘调节视频的播放速度，脱离鼠标的使用&lt;/p&gt;
+&lt;h2 id=&#34;hypothesis---web--pdf-annotation&#34;&gt;Hypothesis - Web &amp;amp; PDF Annotation&lt;/h2&gt;
+&lt;p&gt;网页批注工具，可配合 Obsidian 使用&lt;/p&gt;
 &lt;h2 id=&#34;idm-integration-module&#34;&gt;IDM Integration Module&lt;/h2&gt;
 &lt;p&gt;使用 &lt;code&gt;IDM&lt;/code&gt; 下载文件&lt;/p&gt;
 &lt;h2 id=&#34;language-reactor&#34;&gt;&lt;strong&gt;Language Reactor&lt;/strong&gt;&lt;/h2&gt;
@@ -185,25 +189,14 @@
 任何输入框输入中文，连续三次单击空格，自动翻译成英文&lt;br&gt;
 PDF翻译
 EPUB翻译&lt;/p&gt;
-&lt;h2 id=&#34;easyscholar&#34;&gt;easyScholar&lt;/h2&gt;
-&lt;p&gt;显示期刊等级&lt;/p&gt;
-&lt;h2 id=&#34;erin&#34;&gt;Erin&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://erin-homepage.vercel.app/&#34;&gt;Erin&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;以插件的形式重新定义自己的新标签页&lt;/p&gt;
 &lt;h2 id=&#34;chathub---all-in-one-chatbot-client&#34;&gt;ChatHub - All-in-one chatbot client&lt;/h2&gt;
 &lt;p&gt;聚合ChatGPT、New Bing、Claude等大语言模型&lt;/p&gt;
-&lt;h2 id=&#34;new-bing-anywhere-bing-chat-gpt-4&#34;&gt;New Bing Anywhere (Bing Chat GPT-4)&lt;/h2&gt;
-&lt;p&gt;在 Chrome 中使用 NewBing&lt;/p&gt;
-&lt;h2 id=&#34;hypothesis---web--pdf-annotation&#34;&gt;Hypothesis - Web &amp;amp; PDF Annotation&lt;/h2&gt;
-&lt;p&gt;网页批注工具，可配合 Obsidian 使用&lt;/p&gt;
 &lt;h2 id=&#34;maple-bookmarks&#34;&gt;Maple Bookmarks&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/tw93/Maple&#34;&gt;枫叶书签&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;彻底隐藏掉书签栏，使用 &lt;code&gt;Crtl+B&lt;/code&gt; 快速访问书签，甚至可以输入即搜索&lt;/p&gt;
-&lt;h2 id=&#34;与-github-相关的浏览器插件&#34;&gt;与 &lt;code&gt;Github&lt;/code&gt; 相关的浏览器插件&lt;/h2&gt;
+&lt;h2 id=&#34;github-相关的浏览器插件&#34;&gt;&lt;code&gt;Github&lt;/code&gt; 相关的浏览器插件&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;octotree&lt;/code&gt; 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;enchanced github&lt;/code&gt; 可查看单个文件的大小，下载单个文件&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;gitzip for github&lt;/code&gt; 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）&lt;/p&gt;
@@ -582,8 +575,12 @@ EPUB翻译&lt;/p&gt;
 </div>
 
 </p>
+<h2 id="easyscholar">easyScholar</h2>
+<p>显示期刊等级</p>
 <h2 id="global-speed">Global Speed</h2>
 <p>使用键盘调节视频的播放速度，脱离鼠标的使用</p>
+<h2 id="hypothesis---web--pdf-annotation">Hypothesis - Web &amp; PDF Annotation</h2>
+<p>网页批注工具，可配合 Obsidian 使用</p>
 <h2 id="idm-integration-module">IDM Integration Module</h2>
 <p>使用 <code>IDM</code> 下载文件</p>
 <h2 id="language-reactor"><strong>Language Reactor</strong></h2>
@@ -605,25 +602,14 @@ EPUB翻译&lt;/p&gt;
 任何输入框输入中文，连续三次单击空格，自动翻译成英文<br>
 PDF翻译
 EPUB翻译</p>
-<h2 id="easyscholar">easyScholar</h2>
-<p>显示期刊等级</p>
-<h2 id="erin">Erin</h2>
-<ul>
-<li><a href="https://erin-homepage.vercel.app/">Erin</a></li>
-</ul>
-<p>以插件的形式重新定义自己的新标签页</p>
 <h2 id="chathub---all-in-one-chatbot-client">ChatHub - All-in-one chatbot client</h2>
 <p>聚合ChatGPT、New Bing、Claude等大语言模型</p>
-<h2 id="new-bing-anywhere-bing-chat-gpt-4">New Bing Anywhere (Bing Chat GPT-4)</h2>
-<p>在 Chrome 中使用 NewBing</p>
-<h2 id="hypothesis---web--pdf-annotation">Hypothesis - Web &amp; PDF Annotation</h2>
-<p>网页批注工具，可配合 Obsidian 使用</p>
 <h2 id="maple-bookmarks">Maple Bookmarks</h2>
 <ul>
 <li><a href="https://github.com/tw93/Maple">枫叶书签</a></li>
 </ul>
 <p>彻底隐藏掉书签栏，使用 <code>Crtl+B</code> 快速访问书签，甚至可以输入即搜索</p>
-<h2 id="与-github-相关的浏览器插件">与 <code>Github</code> 相关的浏览器插件</h2>
+<h2 id="github-相关的浏览器插件"><code>Github</code> 相关的浏览器插件</h2>
 <p><code>octotree</code> 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率</p>
 <p><code>enchanced github</code> 可查看单个文件的大小，下载单个文件</p>
 <p><code>gitzip for github</code> 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）</p>
