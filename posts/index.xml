@@ -141,6 +141,21 @@
 	padding: 2px;&#34;&gt;笔记模板配置&lt;/div&gt; 
  &lt;/center&gt;
 &lt;h1 id=&#34;chrome-plugins&#34;&gt;Chrome plugins&lt;/h1&gt;
+&lt;h2 id=&#34;划词翻译--沉浸式翻译&#34;&gt;划词翻译 &amp;amp;&amp;amp; 沉浸式翻译&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1h64y1V7Hy&#34;&gt;比浏览器自带的强太多！两个扩展满足所有网页翻译需求！| 划词翻译、全文翻译、双语对照、字幕翻译、PDF翻译……&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;划词翻译：划词翻译&lt;/p&gt;
+&lt;p&gt;沉浸式翻译：
+全文翻译：译文/双语/原文&lt;br&gt;
+任何输入框输入中文，连续三次单击空格，自动翻译成英文&lt;br&gt;
+PDF翻译
+EPUB翻译&lt;/p&gt;
+&lt;h2 id=&#34;vimium-c---all-by-keyboard--pdf-viewer-for-vimium-c&#34;&gt;Vimium C - All by Keyboard &amp;amp; PDF Viewer for Vimium C&lt;/h2&gt;
+&lt;p&gt;它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面&lt;/p&gt;
+&lt;p&gt;这个插件我已经有一篇&lt;a href=&#34;https://xancoding.cn/posts/vimium/&#34;&gt;文章&lt;/a&gt;进行更为详细的讲解了，这里就不再展开来说了&lt;/p&gt;
+&lt;h2 id=&#34;github-相关的浏览器插件&#34;&gt;&lt;code&gt;Github&lt;/code&gt; 相关的浏览器插件&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;octotree&lt;/code&gt; 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;enchanced github&lt;/code&gt; 可查看单个文件的大小，下载单个文件&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gitzip for github&lt;/code&gt; 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）&lt;/p&gt;
 &lt;h2 id=&#34;adblock-plus---free-ad-blocker&#34;&gt;Adblock Plus - free ad blocker&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;AdblockPlus&lt;/code&gt; 由用户手动设置拦截网页上不想看到的内容，我使用这个插件把一些网站我不想要看到的内容进行屏蔽，以获得更为简洁的体验&lt;/p&gt;
 &lt;p&gt;小声BB：启动这个插件，在使用过程中，可能会碰到部分网页显示异常的情况，这个时候需要把该网页加入白名单来保证网页正常显示
@@ -172,36 +187,24 @@
 &lt;p&gt;使用 &lt;code&gt;IDM&lt;/code&gt; 下载文件&lt;/p&gt;
 &lt;h2 id=&#34;language-reactor&#34;&gt;&lt;strong&gt;Language Reactor&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;学习外语&lt;/p&gt;
-&lt;h2 id=&#34;vimium-c---all-by-keyboard--pdf-viewer-for-vimium-c&#34;&gt;Vimium C - All by Keyboard &amp;amp; PDF Viewer for Vimium C&lt;/h2&gt;
-&lt;p&gt;它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面&lt;/p&gt;
-&lt;p&gt;这个插件我已经有一篇&lt;a href=&#34;https://xancoding.cn/posts/vimium/&#34;&gt;文章&lt;/a&gt;进行更为详细的讲解了，这里就不再展开来说了&lt;/p&gt;
-&lt;h2 id=&#34;personal-blocklist&#34;&gt;Personal Blocklist&lt;/h2&gt;
-&lt;p&gt;在搜索时屏蔽特定网站，做到对低质内容的过滤&lt;/p&gt;
-&lt;h2 id=&#34;rss-reader-extension-by-inoreader&#34;&gt;RSS Reader Extension (by Inoreader)&lt;/h2&gt;
-&lt;p&gt;Build your own newsfeed&lt;/p&gt;
-&lt;h2 id=&#34;zotero-connector&#34;&gt;Zotero Connector&lt;/h2&gt;
-&lt;p&gt;Save references to Zotero from your web browser&lt;/p&gt;
-&lt;h2 id=&#34;划词翻译--沉浸式翻译&#34;&gt;划词翻译 &amp;amp;&amp;amp; 沉浸式翻译&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1h64y1V7Hy&#34;&gt;比浏览器自带的强太多！两个扩展满足所有网页翻译需求！| 划词翻译、全文翻译、双语对照、字幕翻译、PDF翻译……&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;划词翻译：划词翻译&lt;/p&gt;
-&lt;p&gt;沉浸式翻译：
-全文翻译：译文/双语/原文&lt;br&gt;
-任何输入框输入中文，连续三次单击空格，自动翻译成英文&lt;br&gt;
-PDF翻译
-EPUB翻译&lt;/p&gt;
-&lt;h2 id=&#34;chathub---all-in-one-chatbot-client&#34;&gt;ChatHub - All-in-one chatbot client&lt;/h2&gt;
-&lt;p&gt;聚合ChatGPT、New Bing、Claude等大语言模型&lt;/p&gt;
+&lt;h2 id=&#34;loom&#34;&gt;Loom&lt;/h2&gt;
+&lt;p&gt;Loom是一款能帮助你快速录制视频的Chrome视频录制插件&lt;/p&gt;
 &lt;h2 id=&#34;maple-bookmarks&#34;&gt;Maple Bookmarks&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/tw93/Maple&#34;&gt;枫叶书签&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;彻底隐藏掉书签栏，使用 &lt;code&gt;Crtl+B&lt;/code&gt; 快速访问书签，甚至可以输入即搜索&lt;/p&gt;
-&lt;h2 id=&#34;github-相关的浏览器插件&#34;&gt;&lt;code&gt;Github&lt;/code&gt; 相关的浏览器插件&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;octotree&lt;/code&gt; 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;enchanced github&lt;/code&gt; 可查看单个文件的大小，下载单个文件&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;gitzip for github&lt;/code&gt; 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）&lt;/p&gt;
-&lt;h2 id=&#34;loom&#34;&gt;Loom&lt;/h2&gt;
-&lt;p&gt;Loom是一款能帮助你快速录制视频的Chrome视频录制插件&lt;/p&gt;
+&lt;h2 id=&#34;ublacklist&#34;&gt;uBlacklist&lt;/h2&gt;
+&lt;p&gt;在搜索时屏蔽特定网站，做到对低质内容的过滤&lt;/p&gt;
+&lt;h2 id=&#34;quillbot-ai-writing-and-grammar-checker-tool&#34;&gt;QuillBot: AI Writing and Grammar Checker Tool&lt;/h2&gt;
+&lt;p&gt;使用 QuillBot 的人工智能生产力工具提升您的写作水平：语法检查器、释义器、人工智能写作器、摘要器等等！&lt;/p&gt;
+&lt;h2 id=&#34;rss-reader-extension-by-inoreader--rsshub-radar&#34;&gt;RSS Reader Extension (by Inoreader) &amp;amp; RSSHub Radar&lt;/h2&gt;
+&lt;p&gt;Build your own newsfeed&lt;/p&gt;
+&lt;p&gt;Easily find and subscribe to RSS and RSSHub.&lt;/p&gt;
+&lt;h2 id=&#34;sider-chatgpt-sidebar--vision--gpt-4-turbo&#34;&gt;Sider: ChatGPT Sidebar + Vision &amp;amp; GPT-4 Turbo&lt;/h2&gt;
+&lt;p&gt;ChatGPT Sidebar: Enhance workflow with ChatGPT, Claude, Bard for advanced search, read, and write.&lt;/p&gt;
+&lt;h2 id=&#34;zotero-connector&#34;&gt;Zotero Connector&lt;/h2&gt;
+&lt;p&gt;Save references to Zotero from your web browser&lt;/p&gt;
 &lt;h1 id=&#34;windows&#34;&gt;Windows&lt;/h1&gt;
 &lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
 &lt;h3 id=&#34;zotero&#34;&gt;Zotero&lt;/h3&gt;
@@ -554,6 +557,21 @@ EPUB翻译&lt;/p&gt;
 	padding: 2px;">笔记模板配置</div> 
  </center>
 <h1 id="chrome-plugins">Chrome plugins</h1>
+<h2 id="划词翻译--沉浸式翻译">划词翻译 &amp;&amp; 沉浸式翻译</h2>
+<p><a href="https://www.bilibili.com/video/BV1h64y1V7Hy">比浏览器自带的强太多！两个扩展满足所有网页翻译需求！| 划词翻译、全文翻译、双语对照、字幕翻译、PDF翻译……</a></p>
+<p>划词翻译：划词翻译</p>
+<p>沉浸式翻译：
+全文翻译：译文/双语/原文<br>
+任何输入框输入中文，连续三次单击空格，自动翻译成英文<br>
+PDF翻译
+EPUB翻译</p>
+<h2 id="vimium-c---all-by-keyboard--pdf-viewer-for-vimium-c">Vimium C - All by Keyboard &amp; PDF Viewer for Vimium C</h2>
+<p>它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面</p>
+<p>这个插件我已经有一篇<a href="https://xancoding.cn/posts/vimium/">文章</a>进行更为详细的讲解了，这里就不再展开来说了</p>
+<h2 id="github-相关的浏览器插件"><code>Github</code> 相关的浏览器插件</h2>
+<p><code>octotree</code> 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率</p>
+<p><code>enchanced github</code> 可查看单个文件的大小，下载单个文件</p>
+<p><code>gitzip for github</code> 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）</p>
 <h2 id="adblock-plus---free-ad-blocker">Adblock Plus - free ad blocker</h2>
 <p><code>AdblockPlus</code> 由用户手动设置拦截网页上不想看到的内容，我使用这个插件把一些网站我不想要看到的内容进行屏蔽，以获得更为简洁的体验</p>
 <p>小声BB：启动这个插件，在使用过程中，可能会碰到部分网页显示异常的情况，这个时候需要把该网页加入白名单来保证网页正常显示
@@ -585,36 +603,24 @@ EPUB翻译&lt;/p&gt;
 <p>使用 <code>IDM</code> 下载文件</p>
 <h2 id="language-reactor"><strong>Language Reactor</strong></h2>
 <p>学习外语</p>
-<h2 id="vimium-c---all-by-keyboard--pdf-viewer-for-vimium-c">Vimium C - All by Keyboard &amp; PDF Viewer for Vimium C</h2>
-<p>它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面</p>
-<p>这个插件我已经有一篇<a href="https://xancoding.cn/posts/vimium/">文章</a>进行更为详细的讲解了，这里就不再展开来说了</p>
-<h2 id="personal-blocklist">Personal Blocklist</h2>
-<p>在搜索时屏蔽特定网站，做到对低质内容的过滤</p>
-<h2 id="rss-reader-extension-by-inoreader">RSS Reader Extension (by Inoreader)</h2>
-<p>Build your own newsfeed</p>
-<h2 id="zotero-connector">Zotero Connector</h2>
-<p>Save references to Zotero from your web browser</p>
-<h2 id="划词翻译--沉浸式翻译">划词翻译 &amp;&amp; 沉浸式翻译</h2>
-<p><a href="https://www.bilibili.com/video/BV1h64y1V7Hy">比浏览器自带的强太多！两个扩展满足所有网页翻译需求！| 划词翻译、全文翻译、双语对照、字幕翻译、PDF翻译……</a></p>
-<p>划词翻译：划词翻译</p>
-<p>沉浸式翻译：
-全文翻译：译文/双语/原文<br>
-任何输入框输入中文，连续三次单击空格，自动翻译成英文<br>
-PDF翻译
-EPUB翻译</p>
-<h2 id="chathub---all-in-one-chatbot-client">ChatHub - All-in-one chatbot client</h2>
-<p>聚合ChatGPT、New Bing、Claude等大语言模型</p>
+<h2 id="loom">Loom</h2>
+<p>Loom是一款能帮助你快速录制视频的Chrome视频录制插件</p>
 <h2 id="maple-bookmarks">Maple Bookmarks</h2>
 <ul>
 <li><a href="https://github.com/tw93/Maple">枫叶书签</a></li>
 </ul>
 <p>彻底隐藏掉书签栏，使用 <code>Crtl+B</code> 快速访问书签，甚至可以输入即搜索</p>
-<h2 id="github-相关的浏览器插件"><code>Github</code> 相关的浏览器插件</h2>
-<p><code>octotree</code> 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率</p>
-<p><code>enchanced github</code> 可查看单个文件的大小，下载单个文件</p>
-<p><code>gitzip for github</code> 可直接下载单个文件夹，下载单个文件夹（在指定文件夹后的空白区域双击即可下载）</p>
-<h2 id="loom">Loom</h2>
-<p>Loom是一款能帮助你快速录制视频的Chrome视频录制插件</p>
+<h2 id="ublacklist">uBlacklist</h2>
+<p>在搜索时屏蔽特定网站，做到对低质内容的过滤</p>
+<h2 id="quillbot-ai-writing-and-grammar-checker-tool">QuillBot: AI Writing and Grammar Checker Tool</h2>
+<p>使用 QuillBot 的人工智能生产力工具提升您的写作水平：语法检查器、释义器、人工智能写作器、摘要器等等！</p>
+<h2 id="rss-reader-extension-by-inoreader--rsshub-radar">RSS Reader Extension (by Inoreader) &amp; RSSHub Radar</h2>
+<p>Build your own newsfeed</p>
+<p>Easily find and subscribe to RSS and RSSHub.</p>
+<h2 id="sider-chatgpt-sidebar--vision--gpt-4-turbo">Sider: ChatGPT Sidebar + Vision &amp; GPT-4 Turbo</h2>
+<p>ChatGPT Sidebar: Enhance workflow with ChatGPT, Claude, Bard for advanced search, read, and write.</p>
+<h2 id="zotero-connector">Zotero Connector</h2>
+<p>Save references to Zotero from your web browser</p>
 <h1 id="windows">Windows</h1>
 <h2 id="research">Research</h2>
 <h3 id="zotero">Zotero</h3>
@@ -962,6 +968,8 @@ EPUB翻译</p>
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 公路自行车手机支架山地车共享单车硅胶支架电动车导航骑行专用 黑色Pro-【通用30kg承受力】—— 拼多多 21.1元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 美利达通用自行车脚撑26/27.5寸山地公路车支撑停车架车踢零配件 （铝合金黑色脚撑）D款-送工具 —— 拼多多 12.99元&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 【新客立减】秋冬加绒加厚骑行裤专业级黑色男女双箭头坐垫迪卡侬 秋冬季加绒无背带长裤 M码 —— 拼多多 126.6元&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; MOON ks29 MIPS 骑行头盔 M 码 —— 拼多多 248 元&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; IGPSORT迹驰 BSC200 码表&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;run&#34;&gt;Run&lt;/h1&gt;
 &lt;h2 id=&#34;手表&#34;&gt;手表&lt;/h2&gt;
@@ -1094,6 +1102,8 @@ EPUB翻译</p>
 <li><input checked="" disabled="" type="checkbox"> 公路自行车手机支架山地车共享单车硅胶支架电动车导航骑行专用 黑色Pro-【通用30kg承受力】—— 拼多多 21.1元</li>
 <li><input checked="" disabled="" type="checkbox"> 美利达通用自行车脚撑26/27.5寸山地公路车支撑停车架车踢零配件 （铝合金黑色脚撑）D款-送工具 —— 拼多多 12.99元</li>
 <li><input checked="" disabled="" type="checkbox"> 【新客立减】秋冬加绒加厚骑行裤专业级黑色男女双箭头坐垫迪卡侬 秋冬季加绒无背带长裤 M码 —— 拼多多 126.6元</li>
+<li><input disabled="" type="checkbox"> MOON ks29 MIPS 骑行头盔 M 码 —— 拼多多 248 元</li>
+<li><input disabled="" type="checkbox"> IGPSORT迹驰 BSC200 码表</li>
 </ul>
 <h1 id="run">Run</h1>
 <h2 id="手表">手表</h2>
