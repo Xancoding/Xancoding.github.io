@@ -15,30 +15,24 @@
       <guid>https://xancoding.cn/posts/2024-01-10-10-00-46/</guid>
       <description>&lt;h1 id=&#34;todo-list&#34;&gt;TODO LIST&lt;/h1&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 把悦跑圈的数据导入到STRAVA（没有心率的数据）&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 在我的网站上跑 &lt;a href=&#34;https://github.com/yihong0618/running_page/blob/master/README-CN.md&#34;&gt;running_page&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 导出华为运动健康的历史数据&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 华为运动健康的历史数据经过转换后，导入STRAVA&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入高驰后，不用再使用悦跑圈&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入高驰后，不用再使用悦跑圈。将悦跑圈的数据导出为&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入IGPSPORT BSC200码表后，即可同步骑行数据到STRAVA上&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 上传所有的 gpx 格式的跑步数据到 strava，代码如下：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/gpx_to_strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 获取STRAVA数据，代码如下：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 悦跑圈数据导出到 GPX_OUT，代码如下：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python3(python) run_page/joyrun_sync.py 13758731267 ${your 验证码} --with-gpx
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 获取 GPX_OUT 文件下的数据，代码如下：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/gpx_sync.py
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 疑问：骑行数据能否正常显示呢？&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;total-data-analysis&#34;&gt;Total Data Analysis&lt;/h1&gt;
+&lt;h1 id=&#34;一些代码&#34;&gt;一些代码&lt;/h1&gt;
+&lt;h2 id=&#34;上传所有的-gpx-格式的跑步数据到-strava代码如下&#34;&gt;上传所有的 gpx 格式的跑步数据到 strava，代码如下：&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/gpx_to_strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f --all
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;获取strava数据代码如下&#34;&gt;获取STRAVA数据，代码如下：&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;悦跑圈数据导出到-gpx_out代码如下&#34;&gt;悦跑圈数据导出到 GPX_OUT，代码如下：&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python3(python) run_page/joyrun_sync.py 13758731267 ${your 验证码} --with-gpx
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;获取-gpx_out-文件下的数据代码如下&#34;&gt;获取 GPX_OUT 文件下的数据，代码如下：&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/gpx_sync.py
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;total-data-analysis&#34;&gt;Total Data Analysis&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/gen_svg.py --from-db --title &amp;#34;T&amp;#34; --type github --athlete &amp;#34;T&amp;#34; --special-distance 10 --special-distance2 20 --special-color yellow --special-color2 red --output assets/github.svg --use-localtime --min-distance 0.5
 
 python run_page/gen_svg.py --from-db --title &amp;#34;T&amp;#34; --type grid --athlete &amp;#34;T&amp;#34;  --output assets/grid.svg --min-distance 10.0 --special-color yellow --special-color2 red --special-distance 20 --special-distance2 40 --use-localtime
@@ -78,30 +72,24 @@ python run_page/gen_svg.py --from-db --type circular --use-localtime
 </description>
       <content:encoded><![CDATA[<h1 id="todo-list">TODO LIST</h1>
 <ul>
+<li><input checked="" disabled="" type="checkbox"> 把悦跑圈的数据导入到STRAVA（没有心率的数据）</li>
 <li><input checked="" disabled="" type="checkbox"> 在我的网站上跑 <a href="https://github.com/yihong0618/running_page/blob/master/README-CN.md">running_page</a></li>
 <li><input disabled="" type="checkbox"> 导出华为运动健康的历史数据</li>
 <li><input disabled="" type="checkbox"> 华为运动健康的历史数据经过转换后，导入STRAVA</li>
-<li><input disabled="" type="checkbox"> 购入高驰后，不用再使用悦跑圈</li>
+<li><input disabled="" type="checkbox"> 购入高驰后，不用再使用悦跑圈。将悦跑圈的数据导出为</li>
 <li><input disabled="" type="checkbox"> 购入IGPSPORT BSC200码表后，即可同步骑行数据到STRAVA上</li>
-<li><input disabled="" type="checkbox"> 上传所有的 gpx 格式的跑步数据到 strava，代码如下：</li>
-</ul>
-<pre tabindex="0"><code>python run_page/gpx_to_strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f
-</code></pre><ul>
-<li><input disabled="" type="checkbox"> 获取STRAVA数据，代码如下：</li>
-</ul>
-<pre tabindex="0"><code>python run_page/strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f
-</code></pre><ul>
-<li><input disabled="" type="checkbox"> 悦跑圈数据导出到 GPX_OUT，代码如下：</li>
-</ul>
-<pre tabindex="0"><code>python3(python) run_page/joyrun_sync.py 13758731267 ${your 验证码} --with-gpx
-</code></pre><ul>
-<li><input disabled="" type="checkbox"> 获取 GPX_OUT 文件下的数据，代码如下：</li>
-</ul>
-<pre tabindex="0"><code>python run_page/gpx_sync.py
-</code></pre><ul>
 <li><input disabled="" type="checkbox"> 疑问：骑行数据能否正常显示呢？</li>
 </ul>
-<h1 id="total-data-analysis">Total Data Analysis</h1>
+<h1 id="一些代码">一些代码</h1>
+<h2 id="上传所有的-gpx-格式的跑步数据到-strava代码如下">上传所有的 gpx 格式的跑步数据到 strava，代码如下：</h2>
+<pre tabindex="0"><code>python run_page/gpx_to_strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f --all
+</code></pre><h2 id="获取strava数据代码如下">获取STRAVA数据，代码如下：</h2>
+<pre tabindex="0"><code>python run_page/strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f
+</code></pre><h2 id="悦跑圈数据导出到-gpx_out代码如下">悦跑圈数据导出到 GPX_OUT，代码如下：</h2>
+<pre tabindex="0"><code>python3(python) run_page/joyrun_sync.py 13758731267 ${your 验证码} --with-gpx
+</code></pre><h2 id="获取-gpx_out-文件下的数据代码如下">获取 GPX_OUT 文件下的数据，代码如下：</h2>
+<pre tabindex="0"><code>python run_page/gpx_sync.py
+</code></pre><h2 id="total-data-analysis">Total Data Analysis</h2>
 <pre tabindex="0"><code>python run_page/gen_svg.py --from-db --title &#34;T&#34; --type github --athlete &#34;T&#34; --special-distance 10 --special-distance2 20 --special-color yellow --special-color2 red --output assets/github.svg --use-localtime --min-distance 0.5
 
 python run_page/gen_svg.py --from-db --title &#34;T&#34; --type grid --athlete &#34;T&#34;  --output assets/grid.svg --min-distance 10.0 --special-color yellow --special-color2 red --special-distance 20 --special-distance2 40 --use-localtime
