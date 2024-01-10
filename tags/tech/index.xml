@@ -26,7 +26,13 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 疑问：骑行数据能否正常显示呢？&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;骑行&#34;&gt;骑行&lt;/h1&gt;
+&lt;h1 id=&#34;total-data-analysis&#34;&gt;Total Data Analysis&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/gen_svg.py --from-db --title &amp;#34;T&amp;#34; --type github --athlete &amp;#34;T&amp;#34; --special-distance 10 --special-distance2 20 --special-color yellow --special-color2 red --output assets/github.svg --use-localtime --min-distance 0.5
+
+python run_page/gen_svg.py --from-db --title &amp;#34;T&amp;#34; --type grid --athlete &amp;#34;T&amp;#34;  --output assets/grid.svg --min-distance 10.0 --special-color yellow --special-color2 red --special-distance 20 --special-distance2 40 --use-localtime
+
+python run_page/gen_svg.py --from-db --type circular --use-localtime
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;骑行&#34;&gt;骑行&lt;/h1&gt;
 &lt;p&gt;IGPSPORT BS200 码表可以绑定STRAVA，自动同步骑行数据&lt;/p&gt;
 &lt;p&gt;在我购买码表前，先暂时直接使用STRAVA记录骑行数据&lt;/p&gt;
 &lt;h1 id=&#34;跑步&#34;&gt;跑步🏃‍&lt;/h1&gt;
@@ -67,7 +73,13 @@
 </code></pre><ul>
 <li><input disabled="" type="checkbox"> 疑问：骑行数据能否正常显示呢？</li>
 </ul>
-<pre tabindex="0"><code></code></pre><h1 id="骑行">骑行</h1>
+<h1 id="total-data-analysis">Total Data Analysis</h1>
+<pre tabindex="0"><code>python run_page/gen_svg.py --from-db --title &#34;T&#34; --type github --athlete &#34;T&#34; --special-distance 10 --special-distance2 20 --special-color yellow --special-color2 red --output assets/github.svg --use-localtime --min-distance 0.5
+
+python run_page/gen_svg.py --from-db --title &#34;T&#34; --type grid --athlete &#34;T&#34;  --output assets/grid.svg --min-distance 10.0 --special-color yellow --special-color2 red --special-distance 20 --special-distance2 40 --use-localtime
+
+python run_page/gen_svg.py --from-db --type circular --use-localtime
+</code></pre><h1 id="骑行">骑行</h1>
 <p>IGPSPORT BS200 码表可以绑定STRAVA，自动同步骑行数据</p>
 <p>在我购买码表前，先暂时直接使用STRAVA记录骑行数据</p>
 <h1 id="跑步">跑步🏃‍</h1>
