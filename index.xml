@@ -1764,6 +1764,14 @@ EPUB翻译</p>
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 悦跑圈数据导出到 GPX_OUT，代码如下：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python3(python) run_page/joyrun_sync.py 13758731267 ${your 验证码} --with-gpx
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 获取 GPX_OUT 文件下的数据，代码如下：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/gpx_sync.py
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 疑问：骑行数据能否正常显示呢？&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;total-data-analysis&#34;&gt;Total Data Analysis&lt;/h1&gt;
@@ -1772,7 +1780,11 @@ EPUB翻译</p>
 python run_page/gen_svg.py --from-db --title &amp;#34;T&amp;#34; --type grid --athlete &amp;#34;T&amp;#34;  --output assets/grid.svg --min-distance 10.0 --special-color yellow --special-color2 red --special-distance 20 --special-distance2 40 --use-localtime
 
 python run_page/gen_svg.py --from-db --type circular --use-localtime
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;骑行&#34;&gt;骑行&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;一些问题&#34;&gt;一些问题&lt;/h1&gt;
+&lt;p&gt;我可以从STRAVA同步数据，但是这些数据是没有心率的&lt;/p&gt;
+&lt;p&gt;我还可以从悦跑圈同步数据，这些数据是有心率的&lt;/p&gt;
+&lt;p&gt;我的做法是，把 &lt;code&gt;run_page\data.db&lt;/code&gt; 删除，再把数据下载到本地&lt;/p&gt;
+&lt;h1 id=&#34;骑行&#34;&gt;骑行&lt;/h1&gt;
 &lt;p&gt;IGPSPORT BS200 码表可以绑定STRAVA，自动同步骑行数据&lt;/p&gt;
 &lt;p&gt;在我购买码表前，先暂时直接使用STRAVA记录骑行数据&lt;/p&gt;
 &lt;h1 id=&#34;跑步&#34;&gt;跑步🏃‍&lt;/h1&gt;
@@ -1815,6 +1827,14 @@ python run_page/gen_svg.py --from-db --type circular --use-localtime
 </ul>
 <pre tabindex="0"><code>python run_page/strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f
 </code></pre><ul>
+<li><input disabled="" type="checkbox"> 悦跑圈数据导出到 GPX_OUT，代码如下：</li>
+</ul>
+<pre tabindex="0"><code>python3(python) run_page/joyrun_sync.py 13758731267 ${your 验证码} --with-gpx
+</code></pre><ul>
+<li><input disabled="" type="checkbox"> 获取 GPX_OUT 文件下的数据，代码如下：</li>
+</ul>
+<pre tabindex="0"><code>python run_page/gpx_sync.py
+</code></pre><ul>
 <li><input disabled="" type="checkbox"> 疑问：骑行数据能否正常显示呢？</li>
 </ul>
 <h1 id="total-data-analysis">Total Data Analysis</h1>
@@ -1823,7 +1843,11 @@ python run_page/gen_svg.py --from-db --type circular --use-localtime
 python run_page/gen_svg.py --from-db --title &#34;T&#34; --type grid --athlete &#34;T&#34;  --output assets/grid.svg --min-distance 10.0 --special-color yellow --special-color2 red --special-distance 20 --special-distance2 40 --use-localtime
 
 python run_page/gen_svg.py --from-db --type circular --use-localtime
-</code></pre><h1 id="骑行">骑行</h1>
+</code></pre><h1 id="一些问题">一些问题</h1>
+<p>我可以从STRAVA同步数据，但是这些数据是没有心率的</p>
+<p>我还可以从悦跑圈同步数据，这些数据是有心率的</p>
+<p>我的做法是，把 <code>run_page\data.db</code> 删除，再把数据下载到本地</p>
+<h1 id="骑行">骑行</h1>
 <p>IGPSPORT BS200 码表可以绑定STRAVA，自动同步骑行数据</p>
 <p>在我购买码表前，先暂时直接使用STRAVA记录骑行数据</p>
 <h1 id="跑步">跑步🏃‍</h1>
