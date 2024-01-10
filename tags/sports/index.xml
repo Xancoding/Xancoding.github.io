@@ -30,7 +30,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;获取strava数据代码如下&#34;&gt;获取STRAVA数据，代码如下：&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;悦跑圈数据导出到-gpx_out代码如下&#34;&gt;悦跑圈数据导出到 GPX_OUT，代码如下：&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python3(python) run_page/joyrun_sync.py 13758731267 ${your 验证码} --with-gpx
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/joyrun_sync.py 13758731267 ${your 验证码} --with-gpx
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;获取-gpx_out-文件下的数据代码如下&#34;&gt;获取 GPX_OUT 文件下的数据，代码如下：&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/gpx_sync.py
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;total-data-analysis&#34;&gt;Total Data Analysis&lt;/h2&gt;
@@ -91,7 +91,7 @@ python run_page/gen_svg.py --from-db --type circular --use-localtime
 </code></pre><h2 id="获取strava数据代码如下">获取STRAVA数据，代码如下：</h2>
 <pre tabindex="0"><code>python run_page/strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f
 </code></pre><h2 id="悦跑圈数据导出到-gpx_out代码如下">悦跑圈数据导出到 GPX_OUT，代码如下：</h2>
-<pre tabindex="0"><code>python3(python) run_page/joyrun_sync.py 13758731267 ${your 验证码} --with-gpx
+<pre tabindex="0"><code>python run_page/joyrun_sync.py 13758731267 ${your 验证码} --with-gpx
 </code></pre><h2 id="获取-gpx_out-文件下的数据代码如下">获取 GPX_OUT 文件下的数据，代码如下：</h2>
 <pre tabindex="0"><code>python run_page/gpx_sync.py
 </code></pre><h2 id="total-data-analysis">Total Data Analysis</h2>
