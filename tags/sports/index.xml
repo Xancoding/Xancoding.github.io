@@ -6,7 +6,99 @@
     <description>Recent content in Sports on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 07 Jan 2024 16:40:32 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/sports/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jan 2024 10:00:47 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/sports/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>运动数据聚合</title>
+      <link>https://xancoding.cn/posts/2024-01-10-10-00-46/</link>
+      <pubDate>Wed, 10 Jan 2024 10:00:47 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2024-01-10-10-00-46/</guid>
+      <description>&lt;h1 id=&#34;todo-list&#34;&gt;TODO LIST&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 在我的网站上跑 &lt;a href=&#34;https://github.com/yihong0618/running_page/blob/master/README-CN.md&#34;&gt;running_page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 导出华为运动健康的历史数据&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 华为运动健康的历史数据经过转换后，导入STRAVA&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入高驰后，将悦跑圈的数据导出来，导入STRAVA&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入IGPSPORT BSC200码表后，即可同步骑行数据到STRAVA上&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 上传所有的 gpx 格式的跑步数据到 strava，代码如下：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/gpx_to_strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 疑问：骑行数据能否正常显示呢？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;骑行&#34;&gt;骑行&lt;/h1&gt;
+&lt;p&gt;IGPSPORT BS200 码表可以绑定STRAVA，自动同步骑行数据&lt;/p&gt;
+&lt;p&gt;在我购买码表前，先暂时直接使用STRAVA记录骑行数据&lt;/p&gt;
+&lt;h1 id=&#34;跑步&#34;&gt;跑步🏃‍&lt;/h1&gt;
+&lt;p&gt;现在我的数据分布在 华为运动健康，高驰COROS，悦跑圈 和 STRAVA 上，我准备把所有的数据聚合到STRAVA上&lt;/p&gt;
+&lt;h2 id=&#34;悦跑圈&#34;&gt;悦跑圈&lt;/h2&gt;
+&lt;p&gt;悦跑圈可以绑定高驰和华为运动健康。&lt;/p&gt;
+&lt;p&gt;对于高驰COROS，数据都是自动同步的，不用再操心&lt;/p&gt;
+&lt;p&gt;对于华为运动健康，悦跑圈只支持同步绑定后产生的数据，绑定之前的数据无法同步
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/01/10/659dffa386800.jpg&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2024/01/10/659dffa386800.jpg&#34; alt=&#34;578e24940b10f63b803cd205a8ccd21.jpg&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+将华为运动健康的数据导出：https://www.fitconverter.com/convert/export/huawei&lt;br&gt;
+不过，申请后，并不能马上拿到，需要等待一段时间。并且，最多只能拿到近5年的数据，再久远的数据，就没办法了&lt;br&gt;
+还有一点很重要，那就是华为运动健康导出的数据是&lt;code&gt;json&lt;/code&gt;格式的，并不能直接导入别的app，还需要通过转换工具进行转换后，才能导入，下面有两款转换工具：&lt;a href=&#34;https://www.toutiao.com/article/7260290208145637929/?wid=1704813615145&#34;&gt;# 华为、小米运动记录转换后导入高驰、佳明效果展示及工具使用教程&lt;/a&gt; 和 &lt;a href=&#34;https://cthru.hopto.org/hitrava-web-app/#zip&#34;&gt;Hitrava&lt;/a&gt; ，第一款需要付费，第二款是免费的，需要自己看看&lt;a href=&#34;https://github.com/CTHRU/Hitrava?tab=readme-ov-file#how-to-convert-your-health-activities-and-import-them-in-strava&#34;&gt;github&lt;/a&gt;来搞懂如何使用&lt;/p&gt;
+&lt;h2 id=&#34;高驰coros&#34;&gt;高驰COROS&lt;/h2&gt;
+&lt;p&gt;高驰可以绑定STRAVA&lt;/p&gt;
+&lt;p&gt;高驰的数据可以直接同步到STRAVA上&lt;/p&gt;
+&lt;p&gt;不过，好像也是只能自动同步绑定后的数据。&lt;/p&gt;
+&lt;h2 id=&#34;华为运动健康&#34;&gt;华为运动健康&lt;/h2&gt;
+&lt;p&gt;华为运动健康不能绑定STRAVA&lt;/p&gt;
+&lt;p&gt;现在我的高驰手表坏了，暂时先使用华为运动健康记录数据。而华为运动健康的数据是可以直接同步到悦跑圈上的。等我重新买了高驰之后，只要将悦跑圈上的数据全部同步到STRAVA上，就可以了&lt;/p&gt;
+&lt;h1 id=&#34;running_page&#34;&gt;Running_page&lt;/h1&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="todo-list">TODO LIST</h1>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 在我的网站上跑 <a href="https://github.com/yihong0618/running_page/blob/master/README-CN.md">running_page</a></li>
+<li><input disabled="" type="checkbox"> 导出华为运动健康的历史数据</li>
+<li><input disabled="" type="checkbox"> 华为运动健康的历史数据经过转换后，导入STRAVA</li>
+<li><input disabled="" type="checkbox"> 购入高驰后，将悦跑圈的数据导出来，导入STRAVA</li>
+<li><input disabled="" type="checkbox"> 购入IGPSPORT BSC200码表后，即可同步骑行数据到STRAVA上</li>
+<li><input disabled="" type="checkbox"> 上传所有的 gpx 格式的跑步数据到 strava，代码如下：</li>
+</ul>
+<pre tabindex="0"><code>python run_page/gpx_to_strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f
+</code></pre><ul>
+<li><input disabled="" type="checkbox"> 疑问：骑行数据能否正常显示呢？</li>
+</ul>
+<h1 id="骑行">骑行</h1>
+<p>IGPSPORT BS200 码表可以绑定STRAVA，自动同步骑行数据</p>
+<p>在我购买码表前，先暂时直接使用STRAVA记录骑行数据</p>
+<h1 id="跑步">跑步🏃‍</h1>
+<p>现在我的数据分布在 华为运动健康，高驰COROS，悦跑圈 和 STRAVA 上，我准备把所有的数据聚合到STRAVA上</p>
+<h2 id="悦跑圈">悦跑圈</h2>
+<p>悦跑圈可以绑定高驰和华为运动健康。</p>
+<p>对于高驰COROS，数据都是自动同步的，不用再操心</p>
+<p>对于华为运动健康，悦跑圈只支持同步绑定后产生的数据，绑定之前的数据无法同步
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2024/01/10/659dffa386800.jpg">
+<img src="https://bu.dusays.com/2024/01/10/659dffa386800.jpg" alt="578e24940b10f63b803cd205a8ccd21.jpg"  />
+</a>
+</div>
+
+
+将华为运动健康的数据导出：https://www.fitconverter.com/convert/export/huawei<br>
+不过，申请后，并不能马上拿到，需要等待一段时间。并且，最多只能拿到近5年的数据，再久远的数据，就没办法了<br>
+还有一点很重要，那就是华为运动健康导出的数据是<code>json</code>格式的，并不能直接导入别的app，还需要通过转换工具进行转换后，才能导入，下面有两款转换工具：<a href="https://www.toutiao.com/article/7260290208145637929/?wid=1704813615145"># 华为、小米运动记录转换后导入高驰、佳明效果展示及工具使用教程</a> 和 <a href="https://cthru.hopto.org/hitrava-web-app/#zip">Hitrava</a> ，第一款需要付费，第二款是免费的，需要自己看看<a href="https://github.com/CTHRU/Hitrava?tab=readme-ov-file#how-to-convert-your-health-activities-and-import-them-in-strava">github</a>来搞懂如何使用</p>
+<h2 id="高驰coros">高驰COROS</h2>
+<p>高驰可以绑定STRAVA</p>
+<p>高驰的数据可以直接同步到STRAVA上</p>
+<p>不过，好像也是只能自动同步绑定后的数据。</p>
+<h2 id="华为运动健康">华为运动健康</h2>
+<p>华为运动健康不能绑定STRAVA</p>
+<p>现在我的高驰手表坏了，暂时先使用华为运动健康记录数据。而华为运动健康的数据是可以直接同步到悦跑圈上的。等我重新买了高驰之后，只要将悦跑圈上的数据全部同步到STRAVA上，就可以了</p>
+<h1 id="running_page">Running_page</h1>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>清河滨水慢行系统</title>
       <link>https://xancoding.cn/posts/2024-01-07-16-40-31/</link>
@@ -65,16 +157,15 @@
       
 &lt;a href=&#34;&#34; data-ngThumb=&#34;&#34;&gt;&lt;/a&gt;
   
-&lt;a href=&#34;&#34; data-ngThumb=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://bu.dusays.com/2024/01/07/659a6478974f1.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2024/01/07/659a6478974f1.jpg&#34;&gt;&lt;/a&gt;
   
-&lt;a href=&#34;&#34; data-ngThumb=&#34;&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;https://bu.dusays.com/2024/01/07/659a648409d01.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2024/01/07/659a648409d01.jpg&#34;&gt;&lt;/a&gt;
   
 
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 
-&lt;p&gt;![52ad70d3e648fdea0ab7a186e25a2bb.jpg](&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<p>来回30km的路程，开头和结尾的部分都有自行车道，中间有一段路没有。<br>
 有不少钓鱼🎣的人，河水比较浅，下次可以试着去钓个鱼</p>
@@ -128,16 +219,15 @@
       
 <a href="" data-ngThumb=""></a>
   
-<a href="" data-ngThumb=""></a>
+<a href="https://bu.dusays.com/2024/01/07/659a6478974f1.jpg" data-ngThumb="https://bu.dusays.com/2024/01/07/659a6478974f1.jpg"></a>
   
-<a href="" data-ngThumb=""></a>
+<a href="https://bu.dusays.com/2024/01/07/659a648409d01.jpg" data-ngThumb="https://bu.dusays.com/2024/01/07/659a648409d01.jpg"></a>
   
 
 </div>
 </body>
 </html>
 
-<p>![52ad70d3e648fdea0ab7a186e25a2bb.jpg](</p>
 ]]></content:encoded>
     </item>
     
