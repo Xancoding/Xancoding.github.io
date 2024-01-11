@@ -78,6 +78,14 @@
 &lt;/body&gt;
 &lt;/html&gt;
 
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;&#34;&gt;
+&lt;img src=&#34;&#34; alt=&#34;Uploading file&amp;amp;hellip;c9wrp&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<!DOCTYPE html>
 <html lang="en">
@@ -144,6 +152,14 @@
 </body>
 </html>
 
+<p>
+<div class="post-img-view">
+<a data-fancybox="gallery" href="">
+<img src="" alt="Uploading file&amp;hellip;c9wrp"  />
+</a>
+</div>
+
+</p>
 ]]></content:encoded>
     </item>
     
