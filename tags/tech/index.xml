@@ -20,7 +20,7 @@
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 我的running_page无法正常运行&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 导出华为运动健康的历史数据&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 华为运动健康的历史数据经过转换后，导入STRAVA&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入高驰后，不用再使用悦跑圈。将悦跑圈的数据导出为&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入高驰后，不用再使用悦跑圈。将悦跑圈的数据导出为GPX_OUT，再导入STRAVA&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入IGPSPORT BSC200码表后，即可同步骑行数据到STRAVA上&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 疑问：骑行数据能否正常显示呢？&lt;/li&gt;
 &lt;/ul&gt;
@@ -72,7 +72,7 @@ python run_page/gen_svg.py --from-db --type circular --use-localtime
 &lt;p&gt;华为运动健康不能绑定STRAVA&lt;/p&gt;
 &lt;p&gt;现在我的高驰手表坏了，暂时先使用华为运动健康记录数据。而华为运动健康的数据是可以直接同步到悦跑圈上的。等我重新买了高驰之后，只要将悦跑圈上的数据全部同步到STRAVA上，就可以了&lt;/p&gt;
 &lt;h2 id=&#34;strava&#34;&gt;STRAVA&lt;/h2&gt;
-&lt;p&gt;所有的运动数据，不过一大部分都没有心率的数据&lt;/p&gt;
+&lt;p&gt;所有的运动数据，不过从悦跑圈导入的数据，心率都丢失了&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="todo-list">TODO LIST</h1>
 <ul>
@@ -81,7 +81,7 @@ python run_page/gen_svg.py --from-db --type circular --use-localtime
 <li><input checked="" disabled="" type="checkbox"> 我的running_page无法正常运行</li>
 <li><input disabled="" type="checkbox"> 导出华为运动健康的历史数据</li>
 <li><input disabled="" type="checkbox"> 华为运动健康的历史数据经过转换后，导入STRAVA</li>
-<li><input disabled="" type="checkbox"> 购入高驰后，不用再使用悦跑圈。将悦跑圈的数据导出为</li>
+<li><input disabled="" type="checkbox"> 购入高驰后，不用再使用悦跑圈。将悦跑圈的数据导出为GPX_OUT，再导入STRAVA</li>
 <li><input disabled="" type="checkbox"> 购入IGPSPORT BSC200码表后，即可同步骑行数据到STRAVA上</li>
 <li><input disabled="" type="checkbox"> 疑问：骑行数据能否正常显示呢？</li>
 </ul>
@@ -133,7 +133,7 @@ python run_page/gen_svg.py --from-db --type circular --use-localtime
 <p>华为运动健康不能绑定STRAVA</p>
 <p>现在我的高驰手表坏了，暂时先使用华为运动健康记录数据。而华为运动健康的数据是可以直接同步到悦跑圈上的。等我重新买了高驰之后，只要将悦跑圈上的数据全部同步到STRAVA上，就可以了</p>
 <h2 id="strava">STRAVA</h2>
-<p>所有的运动数据，不过一大部分都没有心率的数据</p>
+<p>所有的运动数据，不过从悦跑圈导入的数据，心率都丢失了</p>
 ]]></content:encoded>
     </item>
     
