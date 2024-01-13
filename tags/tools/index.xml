@@ -127,7 +127,8 @@
 &lt;h3 id=&#34;commander---hover-editor&#34;&gt;Commander  &amp;amp; Hover Editor&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;Commder&lt;/code&gt; 可以利用 &lt;code&gt;macros&lt;/code&gt; 自定义命令&lt;/p&gt;
 &lt;p&gt;我们自定义命令后，绑定快捷键 &lt;code&gt;Ctrl+Shift+X&lt;/code&gt;，使&lt;code&gt; Style Settings&lt;/code&gt; 面板悬浮，方便配置美观的编辑界面&lt;/p&gt;
-&lt;h3 id=&#34;hypothesis&#34;&gt;Hypothes.is&lt;/h3&gt;
+&lt;h3 id=&#34;网页批注工具&#34;&gt;网页批注工具&lt;/h3&gt;
+&lt;h4 id=&#34;hypothesis&#34;&gt;Hypothes.is&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://seviche.cc/2022-05-25-hypothesis/&#34;&gt;# Hypothesis 使用小记&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -140,6 +141,9 @@
 	color: #999; 
 	padding: 2px;&#34;&gt;笔记模板配置&lt;/div&gt; 
  &lt;/center&gt;
+&lt;h4 id=&#34;五彩&#34;&gt;五彩&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dotalk.cn/&#34;&gt;https://www.dotalk.cn/&lt;/a&gt;
+Hypothsis的替代品，功能更多更美观&lt;/p&gt;
 &lt;h1 id=&#34;chrome-plugins&#34;&gt;Chrome plugins&lt;/h1&gt;
 &lt;h2 id=&#34;划词翻译--沉浸式翻译&#34;&gt;划词翻译 &amp;amp;&amp;amp; 沉浸式翻译&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1h64y1V7Hy&#34;&gt;比浏览器自带的强太多！两个扩展满足所有网页翻译需求！| 划词翻译、全文翻译、双语对照、字幕翻译、PDF翻译……&lt;/a&gt;&lt;/p&gt;
@@ -543,7 +547,8 @@ EPUB翻译&lt;/p&gt;
 <h3 id="commander---hover-editor">Commander  &amp; Hover Editor</h3>
 <p><code>Commder</code> 可以利用 <code>macros</code> 自定义命令</p>
 <p>我们自定义命令后，绑定快捷键 <code>Ctrl+Shift+X</code>，使<code> Style Settings</code> 面板悬浮，方便配置美观的编辑界面</p>
-<h3 id="hypothesis">Hypothes.is</h3>
+<h3 id="网页批注工具">网页批注工具</h3>
+<h4 id="hypothesis">Hypothes.is</h4>
 <ul>
 <li><a href="https://seviche.cc/2022-05-25-hypothesis/"># Hypothesis 使用小记</a></li>
 </ul>
@@ -556,6 +561,9 @@ EPUB翻译&lt;/p&gt;
 	color: #999; 
 	padding: 2px;">笔记模板配置</div> 
  </center>
+<h4 id="五彩">五彩</h4>
+<p><a href="https://www.dotalk.cn/">https://www.dotalk.cn/</a>
+Hypothsis的替代品，功能更多更美观</p>
 <h1 id="chrome-plugins">Chrome plugins</h1>
 <h2 id="划词翻译--沉浸式翻译">划词翻译 &amp;&amp; 沉浸式翻译</h2>
 <p><a href="https://www.bilibili.com/video/BV1h64y1V7Hy">比浏览器自带的强太多！两个扩展满足所有网页翻译需求！| 划词翻译、全文翻译、双语对照、字幕翻译、PDF翻译……</a></p>
