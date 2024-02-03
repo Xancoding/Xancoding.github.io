@@ -2053,6 +2053,8 @@ EPUB翻译</p>
 &lt;h1 id=&#34;一些代码&#34;&gt;一些代码&lt;/h1&gt;
 &lt;h2 id=&#34;上传所有的-gpx-格式的跑步数据到-strava代码如下&#34;&gt;上传所有的 gpx 格式的跑步数据到 strava，代码如下：&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/gpx_to_strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f --all
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;上传所有的-tcx-格式的跑步数据到-strava代码如下&#34;&gt;上传所有的 tcx 格式的跑步数据到 strava，代码如下：&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/tcx_to_strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f --all
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;获取strava数据代码如下&#34;&gt;获取STRAVA数据，代码如下：&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;python run_page/strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;悦跑圈数据导出到-gpx_out代码如下&#34;&gt;悦跑圈数据导出到 GPX_OUT，代码如下：&lt;/h2&gt;
@@ -2114,6 +2116,8 @@ python run_page/gen_svg.py --from-db --type circular --use-localtime
 <h1 id="一些代码">一些代码</h1>
 <h2 id="上传所有的-gpx-格式的跑步数据到-strava代码如下">上传所有的 gpx 格式的跑步数据到 strava，代码如下：</h2>
 <pre tabindex="0"><code>python run_page/gpx_to_strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f --all
+</code></pre><h2 id="上传所有的-tcx-格式的跑步数据到-strava代码如下">上传所有的 tcx 格式的跑步数据到 strava，代码如下：</h2>
+<pre tabindex="0"><code>python run_page/tcx_to_strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f --all
 </code></pre><h2 id="获取strava数据代码如下">获取STRAVA数据，代码如下：</h2>
 <pre tabindex="0"><code>python run_page/strava_sync.py 119643 5c97baea8ae05c1eb345a0803198b6783a4bf245 e457d6325a84fa683909d404e1db76e97075678f
 </code></pre><h2 id="悦跑圈数据导出到-gpx_out代码如下">悦跑圈数据导出到 GPX_OUT，代码如下：</h2>
