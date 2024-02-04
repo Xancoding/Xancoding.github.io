@@ -1885,6 +1885,8 @@ EPUB翻译</p>
 
 &lt;/p&gt;
 &lt;p&gt;Step8：解压数据的密码就是Step6中设置的密码&lt;/p&gt;
+&lt;h1 id=&#34;转换数据&#34;&gt;转换数据&lt;/h1&gt;
+&lt;p&gt;借助这个工具即可完成转换：https://github.com/CTHRU/Hitrava&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="行使您的数据主体权利">行使您的数据主体权利</h1>
 <p>我们如果直接去申请数据的话，只会获得近1年的数据。如果希望获取所有的数据，需要先向华为官方联系，行使您的数据主体权利</p>
@@ -2006,6 +2008,8 @@ EPUB翻译</p>
 
 </p>
 <p>Step8：解压数据的密码就是Step6中设置的密码</p>
+<h1 id="转换数据">转换数据</h1>
+<p>借助这个工具即可完成转换：https://github.com/CTHRU/Hitrava</p>
 ]]></content:encoded>
     </item>
     
@@ -2296,7 +2300,7 @@ EPUB翻译</p>
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 我的running_page无法正常运行&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 导出华为运动健康的历史数据&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 华为运动健康的历史数据经过转换后，导入STRAVA&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入高驰后，不用再使用悦跑圈。将悦跑圈的数据导出为GPX_OUT，再导入STRAVA&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入高驰后，不用再使用悦跑圈。将悦跑圈的新的数据导出为GPX_OUT，再导入STRAVA&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入IGPSPORT BSC200码表后，即可同步骑行数据到STRAVA上&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 疑问：骑行数据能否正常显示呢？&lt;/li&gt;
 &lt;/ul&gt;
@@ -2359,7 +2363,7 @@ python run_page/gen_svg.py --from-db --type circular --use-localtime
 <li><input checked="" disabled="" type="checkbox"> 我的running_page无法正常运行</li>
 <li><input checked="" disabled="" type="checkbox"> 导出华为运动健康的历史数据</li>
 <li><input checked="" disabled="" type="checkbox"> 华为运动健康的历史数据经过转换后，导入STRAVA</li>
-<li><input disabled="" type="checkbox"> 购入高驰后，不用再使用悦跑圈。将悦跑圈的数据导出为GPX_OUT，再导入STRAVA</li>
+<li><input disabled="" type="checkbox"> 购入高驰后，不用再使用悦跑圈。将悦跑圈的新的数据导出为GPX_OUT，再导入STRAVA</li>
 <li><input disabled="" type="checkbox"> 购入IGPSPORT BSC200码表后，即可同步骑行数据到STRAVA上</li>
 <li><input disabled="" type="checkbox"> 疑问：骑行数据能否正常显示呢？</li>
 </ul>
