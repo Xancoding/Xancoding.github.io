@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 11 Jan 2024 22:08:50 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Feb 2024 13:16:51 +0800</lastBuildDate><atom:link href="https://xancoding.cn/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的全平台软件清单</title>
       <link>https://xancoding.cn/posts/2023-09-07-17-57-14/</link>
@@ -1756,6 +1756,160 @@ EPUB翻译</p>
 </ol>
 </li>
 </ol>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>如何将完整的华为运动健康数据导出？</title>
+      <link>https://xancoding.cn/posts/2024-02-04-13-16-51/</link>
+      <pubDate>Sun, 04 Feb 2024 13:16:51 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/posts/2024-02-04-13-16-51/</guid>
+      <description>&lt;h1 id=&#34;第一步申请获取数据&#34;&gt;第一步：申请获取数据&lt;/h1&gt;
+&lt;p&gt;Step1：访问这个网站：https://privacy.consumer.huawei.com/tool?lang=zh-cn&amp;amp;themeName=blue&lt;/p&gt;
+&lt;p&gt;Step2：登录华为账号
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf20a22f6fc.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf20a22f6fc.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Step3：点击 “获取您的数据副本”
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf2056e3b05.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf2056e3b05.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Step4：完成四重身份验证
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf20f409b08.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf20f409b08.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Step5：勾选 “运动健康”，并点击“提交请求”
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf21d6c8728.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf21d6c8728.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf21f0c7b6c.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf21f0c7b6c.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Step6：点击 “确定”，设置数据副本包密码并记住
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf221cf40c3.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf221cf40c3.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf22518e4cd.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf22518e4cd.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Step7：等待 7 天，届时会有邮件通知
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf2276da3f8.png&#34;&gt;
+&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf2276da3f8.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="第一步申请获取数据">第一步：申请获取数据</h1>
+<p>Step1：访问这个网站：https://privacy.consumer.huawei.com/tool?lang=zh-cn&amp;themeName=blue</p>
+<p>Step2：登录华为账号
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf20a22f6fc.png">
+<img src="https://bu.dusays.com/2024/02/04/65bf20a22f6fc.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<p>Step3：点击 “获取您的数据副本”
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf2056e3b05.png">
+<img src="https://bu.dusays.com/2024/02/04/65bf2056e3b05.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<p>Step4：完成四重身份验证
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf20f409b08.png">
+<img src="https://bu.dusays.com/2024/02/04/65bf20f409b08.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<p>Step5：勾选 “运动健康”，并点击“提交请求”
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf21d6c8728.png">
+<img src="https://bu.dusays.com/2024/02/04/65bf21d6c8728.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf21f0c7b6c.png">
+<img src="https://bu.dusays.com/2024/02/04/65bf21f0c7b6c.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<p>Step6：点击 “确定”，设置数据副本包密码并记住
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf221cf40c3.png">
+<img src="https://bu.dusays.com/2024/02/04/65bf221cf40c3.png" alt="image.png"  />
+</a>
+</div>
+
+
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf22518e4cd.png">
+<img src="https://bu.dusays.com/2024/02/04/65bf22518e4cd.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
+<p>Step7：等待 7 天，届时会有邮件通知
+
+<div class="post-img-view">
+<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf2276da3f8.png">
+<img src="https://bu.dusays.com/2024/02/04/65bf2276da3f8.png" alt="image.png"  />
+</a>
+</div>
+
+</p>
 ]]></content:encoded>
     </item>
     
