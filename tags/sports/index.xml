@@ -550,7 +550,7 @@
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 华为运动健康的历史数据经过转换后，导入STRAVA&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入高驰后，不用再使用悦跑圈。将悦跑圈的新的数据导出为GPX_OUT，再导入STRAVA&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入IGPSPORT BSC200码表后，即可同步骑行数据到STRAVA上&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 疑问：骑行数据能否正常显示呢？&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 疑问：骑行数据能否正常显示呢？可以&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;一些代码&#34;&gt;一些代码&lt;/h1&gt;
 &lt;h2 id=&#34;上传所有的-gpx-格式的跑步数据到-strava代码如下&#34;&gt;上传所有的 gpx 格式的跑步数据到 strava，代码如下：&lt;/h2&gt;
@@ -613,7 +613,7 @@ python run_page/gen_svg.py --from-db --type circular --use-localtime
 <li><input checked="" disabled="" type="checkbox"> 华为运动健康的历史数据经过转换后，导入STRAVA</li>
 <li><input disabled="" type="checkbox"> 购入高驰后，不用再使用悦跑圈。将悦跑圈的新的数据导出为GPX_OUT，再导入STRAVA</li>
 <li><input checked="" disabled="" type="checkbox"> 购入IGPSPORT BSC200码表后，即可同步骑行数据到STRAVA上</li>
-<li><input disabled="" type="checkbox"> 疑问：骑行数据能否正常显示呢？</li>
+<li><input checked="" disabled="" type="checkbox"> 疑问：骑行数据能否正常显示呢？可以</li>
 </ul>
 <h1 id="一些代码">一些代码</h1>
 <h2 id="上传所有的-gpx-格式的跑步数据到-strava代码如下">上传所有的 gpx 格式的跑步数据到 strava，代码如下：</h2>
