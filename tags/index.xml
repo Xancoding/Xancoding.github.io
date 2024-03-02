@@ -6,11 +6,31 @@
     <description>Recent content in Tags on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 04 Feb 2024 13:16:51 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Mar 2024 19:56:12 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fun</title>
+      <link>https://xancoding.cn/tags/fun/</link>
+      <pubDate>Sat, 02 Mar 2024 19:56:12 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/fun/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>https://xancoding.cn/tags/life/</link>
+      <pubDate>Sat, 02 Mar 2024 19:56:12 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/life/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>Sports</title>
       <link>https://xancoding.cn/tags/sports/</link>
-      <pubDate>Sun, 04 Feb 2024 13:16:51 +0800</pubDate>
+      <pubDate>Sat, 02 Mar 2024 19:56:12 +0800</pubDate>
       
       <guid>https://xancoding.cn/tags/sports/</guid>
       <description></description>
@@ -23,26 +43,6 @@
       <pubDate>Sun, 04 Feb 2024 13:16:51 +0800</pubDate>
       
       <guid>https://xancoding.cn/tags/tech/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Fun</title>
-      <link>https://xancoding.cn/tags/fun/</link>
-      <pubDate>Thu, 11 Jan 2024 22:08:50 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/tags/fun/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Life</title>
-      <link>https://xancoding.cn/tags/life/</link>
-      <pubDate>Thu, 11 Jan 2024 22:08:50 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/tags/life/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
