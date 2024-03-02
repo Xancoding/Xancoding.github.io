@@ -13,7 +13,7 @@
       <pubDate>Sat, 02 Mar 2024 19:56:12 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2024-03-02-19-56-12/</guid>
-      <description>&lt;p&gt;早上五点从学校西南门出发，打车1h到。爬到山顶花了差不多20min。今天来的有点稍晚了，没有拍到夜景（天已经是蒙蒙亮了）。&lt;/p&gt;
+      <description>&lt;p&gt;早上五点从学校西南门出发，打车1h导航到鬼笑石停车场烤串。爬到山顶花了差不多20min。今天来的有点稍晚了，没有拍到夜景（天已经是蒙蒙亮了）。今天的日出🌅时间差不多是6点45。&lt;/p&gt;
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
@@ -101,8 +101,46 @@
 &lt;/body&gt;
 &lt;/html&gt;
 
+&lt;!DOCTYPE HTML&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+    &lt;style type=&#34;text/css&#34;&gt;
+        .bilibili_shortcodes {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 66%;
+            margin: auto;
+            overflow: hidden;
+            text-align: center;
+        }
+        .bilibili_shortcodes iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+    &lt;/style&gt;
+    &lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;bilibili_shortcodes&#34;&gt;
+    &lt;iframe
+            src=&#34;https://player.bilibili.com/player.html?bvid=&amp;page=1&amp;high_quality=1&amp;danmaku=0&amp;as_wide=0&#34;
+            scrolling=&#34;no&#34;
+            border=&#34;0&#34;
+            frameborder=&#34;no&#34;
+            framespacing=&#34;0&#34;
+            allowfullscreen=&#34;true&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
 </description>
-      <content:encoded><![CDATA[<p>早上五点从学校西南门出发，打车1h到。爬到山顶花了差不多20min。今天来的有点稍晚了，没有拍到夜景（天已经是蒙蒙亮了）。</p>
+      <content:encoded><![CDATA[<p>早上五点从学校西南门出发，打车1h导航到鬼笑石停车场烤串。爬到山顶花了差不多20min。今天来的有点稍晚了，没有拍到夜景（天已经是蒙蒙亮了）。今天的日出🌅时间差不多是6点45。</p>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -186,6 +224,44 @@
 <a href="https://bu.dusays.com/2024/03/02/65e3159cd3c1c.jpg" data-ngThumb="https://bu.dusays.com/2024/03/02/65e3159cd3c1c.jpg"></a>
  
 
+</div>
+</body>
+</html>
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <style type="text/css">
+        .bilibili_shortcodes {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 66%;
+            margin: auto;
+            overflow: hidden;
+            text-align: center;
+        }
+        .bilibili_shortcodes iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+<div class="bilibili_shortcodes">
+    <iframe
+            src="https://player.bilibili.com/player.html?bvid=&page=1&high_quality=1&danmaku=0&as_wide=0"
+            scrolling="no"
+            border="0"
+            frameborder="no"
+            framespacing="0"
+            allowfullscreen="true"
+    >
+    </iframe>
 </div>
 </body>
 </html>
