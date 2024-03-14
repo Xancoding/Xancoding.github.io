@@ -6,13 +6,13 @@
     <description>Recent content in Tags on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 13 Mar 2024 16:59:29 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Mar 2024 15:38:24 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Fun</title>
-      <link>https://xancoding.cn/tags/fun/</link>
-      <pubDate>Wed, 13 Mar 2024 16:59:29 +0800</pubDate>
+      <title>Food</title>
+      <link>https://xancoding.cn/tags/food/</link>
+      <pubDate>Thu, 14 Mar 2024 15:38:24 +0800</pubDate>
       
-      <guid>https://xancoding.cn/tags/fun/</guid>
+      <guid>https://xancoding.cn/tags/food/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -20,9 +20,19 @@
     <item>
       <title>Life</title>
       <link>https://xancoding.cn/tags/life/</link>
-      <pubDate>Wed, 13 Mar 2024 16:59:29 +0800</pubDate>
+      <pubDate>Thu, 14 Mar 2024 15:38:24 +0800</pubDate>
       
       <guid>https://xancoding.cn/tags/life/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Fun</title>
+      <link>https://xancoding.cn/tags/fun/</link>
+      <pubDate>Wed, 13 Mar 2024 16:59:29 +0800</pubDate>
+      
+      <guid>https://xancoding.cn/tags/fun/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -43,16 +53,6 @@
       <pubDate>Wed, 13 Mar 2024 16:59:29 +0800</pubDate>
       
       <guid>https://xancoding.cn/tags/sports/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Food</title>
-      <link>https://xancoding.cn/tags/food/</link>
-      <pubDate>Sun, 03 Mar 2024 22:43:56 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/tags/food/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
