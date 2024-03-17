@@ -2078,7 +2078,8 @@ EPUB翻译</p>
 &lt;/body&gt;
 &lt;/html&gt;
 
-&lt;p&gt;2024.03.17 晚上 | 骑车从鬼笑石回来，在 蝎王府羊蝎子（杨庄店）&lt;/p&gt;
+&lt;p&gt;2024.03.17 晚上 | 骑车从鬼笑石回来，在 蝎王府羊蝎子（杨庄店）&lt;br&gt;
+饮料和菜都是自助
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
@@ -2127,13 +2128,15 @@ EPUB翻译</p>
      &#34;viewerGalleryTHeight&#34;: 40
 }&#39;&gt;
     
-&lt;a href=&#34;https://bu.dusays.com/2024/03/14/65f2aa048d333.jpg&#34; data-ngThumb=&#34;https://bu.dusays.com/2024/03/14/65f2aa048d333.jpg&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;&#34; data-ngThumb=&#34;&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;&#34; data-ngThumb=&#34;&#34;&gt;&lt;/a&gt;
 
 
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-
+&lt;/p&gt;
 </description>
       <content:encoded><![CDATA[<!DOCTYPE html>
 <html lang="en">
@@ -2192,7 +2195,8 @@ EPUB翻译</p>
 </body>
 </html>
 
-<p>2024.03.17 晚上 | 骑车从鬼笑石回来，在 蝎王府羊蝎子（杨庄店）</p>
+<p>2024.03.17 晚上 | 骑车从鬼笑石回来，在 蝎王府羊蝎子（杨庄店）<br>
+饮料和菜都是自助
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -2241,13 +2245,15 @@ EPUB翻译</p>
      "viewerGalleryTHeight": 40
 }'>
     
-<a href="https://bu.dusays.com/2024/03/14/65f2aa048d333.jpg" data-ngThumb="https://bu.dusays.com/2024/03/14/65f2aa048d333.jpg"></a>
+<a href="" data-ngThumb=""></a>
+
+<a href="" data-ngThumb=""></a>
 
 
 </div>
 </body>
 </html>
-
+</p>
 ]]></content:encoded>
     </item>
     
