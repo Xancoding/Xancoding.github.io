@@ -22579,43 +22579,27 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://xancoding.cn/posts/%E6%9C%AA%E5%91%BD%E5%90%8D/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;$α_t := α$&lt;/li&gt;
-&lt;li&gt;for t in [T_0, T_0 + T_1] do&lt;/li&gt;
-&lt;li&gt;Predict y^_t using the base prediction model&lt;/li&gt;
-&lt;li&gt;Set the prediction interval C^_t := [y^_t - θ, y^_t + θ]&lt;/li&gt;
-&lt;li&gt;if y_(t-1) is in C^_t then&lt;/li&gt;
-&lt;li&gt;
-&lt;pre&gt;&lt;code&gt;   err_t := 0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;else&lt;/li&gt;
-&lt;li&gt;
-&lt;pre&gt;&lt;code&gt;   err_t := 1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;Update α value: α_(t+1) := α_t + γ (α - err_t)&lt;/li&gt;
-&lt;li&gt;end for&lt;/li&gt;
-&lt;/ol&gt;
+      <description>&lt;p&gt;$\alpha_t := \alpha$
+$ \text{for } t \text{ in } [T_0, T_0 + T_1] \text{ do} $
+$ \text{Predict } y^t \text{ using the base prediction model} $
+$ \text{Set the prediction interval } C^t := [y^t - \theta, y^t + \theta] $
+$ \text{if } y_{t-1} \text{ is in } C^t \text{ then} $
+$ \text{err}_t := 0 $
+$ \text{else} $
+$ \text{err}&lt;em&gt;t := 1 $
+$ \text{Update } \alpha \text{ value: } \alpha&lt;/em&gt;{t+1} := \alpha_t + \gamma (\alpha - \text{err}_t) $
+$ \text{end for} $&lt;/p&gt;
 </description>
-      <content:encoded><![CDATA[<ol>
-<li>$α_t := α$</li>
-<li>for t in [T_0, T_0 + T_1] do</li>
-<li>Predict y^_t using the base prediction model</li>
-<li>Set the prediction interval C^_t := [y^_t - θ, y^_t + θ]</li>
-<li>if y_(t-1) is in C^_t then</li>
-<li>
-<pre><code>   err_t := 0
-</code></pre>
-</li>
-<li>else</li>
-<li>
-<pre><code>   err_t := 1
-</code></pre>
-</li>
-<li>Update α value: α_(t+1) := α_t + γ (α - err_t)</li>
-<li>end for</li>
-</ol>
+      <content:encoded><![CDATA[<p>$\alpha_t := \alpha$
+$ \text{for } t \text{ in } [T_0, T_0 + T_1] \text{ do} $
+$ \text{Predict } y^t \text{ using the base prediction model} $
+$ \text{Set the prediction interval } C^t := [y^t - \theta, y^t + \theta] $
+$ \text{if } y_{t-1} \text{ is in } C^t \text{ then} $
+$ \text{err}_t := 0 $
+$ \text{else} $
+$ \text{err}<em>t := 1 $
+$ \text{Update } \alpha \text{ value: } \alpha</em>{t+1} := \alpha_t + \gamma (\alpha - \text{err}_t) $
+$ \text{end for} $</p>
 ]]></content:encoded>
     </item>
     
