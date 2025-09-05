@@ -249,7 +249,7 @@ EPUB翻译&lt;/p&gt;
 &lt;p&gt;通过 &lt;code&gt;alt + 空格键&lt;/code&gt; 调出搜索栏，通过&lt;code&gt;Esc&lt;/code&gt; 退出。&lt;/p&gt;
 &lt;p&gt;调出输入框后，可以通过在地址栏中输入快捷字词，实现网页快开&lt;/p&gt;
 &lt;p&gt;安装 &lt;code&gt;Everything&lt;/code&gt; 插件后，还可以直接搜索电脑中的文件以及文件夹&lt;/p&gt;
-&lt;h3 id=&#34;snipaste----pixpin&#34;&gt;Snipaste &amp;ndash;&amp;gt; PixPin&lt;/h3&gt;
+&lt;h3 id=&#34;snipaste--pixpin&#34;&gt;Snipaste &amp;ndash;&amp;gt; PixPin&lt;/h3&gt;
 &lt;p&gt;一个简单但强大的截图工具，支持 截图、贴图、OCR&lt;/p&gt;
 &lt;h3 id=&#34;7-zip&#34;&gt;7-Zip&lt;/h3&gt;
 &lt;p&gt;一款高压缩比的压缩解压缩软件&lt;/p&gt;
@@ -396,7 +396,7 @@ EPUB翻译&lt;/p&gt;
 &lt;h3 id=&#34;李跳跳&#34;&gt;李跳跳&lt;/h3&gt;
 &lt;p&gt;自动跳过应用的启动广告&lt;/p&gt;
 &lt;h1 id=&#34;website&#34;&gt;Website&lt;/h1&gt;
-&lt;h2 id=&#34;httpsdevdocsio&#34;&gt;&lt;a href=&#34;https://devdocs.io/&#34;&gt;https://devdocs.io/&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href=&#34;https://devdocs.io/&#34;&gt;https://devdocs.io/&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;它把所有开发相关的文档以web的形式做了一个综合的网站，并提供搜索，离线访问，移动版本支持，暗黑主题，快捷键操作等功能
 
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -406,7 +406,7 @@ EPUB翻译&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;slidevhttpscnslidev&#34;&gt;&lt;a href=&#34;https://cn.sli.dev/&#34;&gt;Slidev&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;slidev&#34;&gt;&lt;a href=&#34;https://cn.sli.dev/&#34;&gt;Slidev&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;为&lt;strong&gt;开发者&lt;/strong&gt;打造的&lt;strong&gt;演示文稿&lt;/strong&gt;工具 
 
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -416,7 +416,7 @@ EPUB翻译&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;gitstarshttpsgithubcomcfour-higitstars&#34;&gt;&lt;a href=&#34;https://github.com/cfour-hi/gitstars&#34;&gt;Gitstars&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;gitstars&#34;&gt;&lt;a href=&#34;https://github.com/cfour-hi/gitstars&#34;&gt;Gitstars&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;一个在线工具，用来管理你打过星的 GitHub 项目
 
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -426,7 +426,7 @@ EPUB翻译&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;/p&gt;
-&lt;h2 id=&#34;useanimationshttpsuseanimationscomindexhtml&#34;&gt;&lt;a href=&#34;https://useanimations.com/index.html&#34;&gt;useAnimations&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;useanimations&#34;&gt;&lt;a href=&#34;https://useanimations.com/index.html&#34;&gt;useAnimations&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;带动画效果的 icon 汇集网站&lt;/strong&gt;
 
 &lt;div class=&#34;post-img-view&#34;&gt;
@@ -673,7 +673,7 @@ EPUB翻译</p>
 <p>通过 <code>alt + 空格键</code> 调出搜索栏，通过<code>Esc</code> 退出。</p>
 <p>调出输入框后，可以通过在地址栏中输入快捷字词，实现网页快开</p>
 <p>安装 <code>Everything</code> 插件后，还可以直接搜索电脑中的文件以及文件夹</p>
-<h3 id="snipaste----pixpin">Snipaste &ndash;&gt; PixPin</h3>
+<h3 id="snipaste--pixpin">Snipaste &ndash;&gt; PixPin</h3>
 <p>一个简单但强大的截图工具，支持 截图、贴图、OCR</p>
 <h3 id="7-zip">7-Zip</h3>
 <p>一款高压缩比的压缩解压缩软件</p>
@@ -820,7 +820,7 @@ EPUB翻译</p>
 <h3 id="李跳跳">李跳跳</h3>
 <p>自动跳过应用的启动广告</p>
 <h1 id="website">Website</h1>
-<h2 id="httpsdevdocsio"><a href="https://devdocs.io/">https://devdocs.io/</a></h2>
+<h2><a href="https://devdocs.io/">https://devdocs.io/</a></h2>
 <p>它把所有开发相关的文档以web的形式做了一个综合的网站，并提供搜索，离线访问，移动版本支持，暗黑主题，快捷键操作等功能
 
 <div class="post-img-view">
@@ -830,7 +830,7 @@ EPUB翻译</p>
 </div>
 
 </p>
-<h2 id="slidevhttpscnslidev"><a href="https://cn.sli.dev/">Slidev</a></h2>
+<h2 id="slidev"><a href="https://cn.sli.dev/">Slidev</a></h2>
 <p>为<strong>开发者</strong>打造的<strong>演示文稿</strong>工具 
 
 <div class="post-img-view">
@@ -840,7 +840,7 @@ EPUB翻译</p>
 </div>
 
 </p>
-<h2 id="gitstarshttpsgithubcomcfour-higitstars"><a href="https://github.com/cfour-hi/gitstars">Gitstars</a></h2>
+<h2 id="gitstars"><a href="https://github.com/cfour-hi/gitstars">Gitstars</a></h2>
 <p>一个在线工具，用来管理你打过星的 GitHub 项目
 
 <div class="post-img-view">
@@ -850,7 +850,7 @@ EPUB翻译</p>
 </div>
 
 </p>
-<h2 id="useanimationshttpsuseanimationscomindexhtml"><a href="https://useanimations.com/index.html">useAnimations</a></h2>
+<h2 id="useanimations"><a href="https://useanimations.com/index.html">useAnimations</a></h2>
 <p><strong>带动画效果的 icon 汇集网站</strong>
 
 <div class="post-img-view">
@@ -1040,8 +1040,7 @@ EPUB翻译</p>
 &lt;p&gt;思考以下几点：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1. 有哪些工作需要完成？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2.我有多少时间可以用来完成这些工作？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;3.工作事项是否有逻辑顺序以及优先级&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;3.工作事项是否有逻辑顺序以及优先级&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;每一天你都会受到很多的干扰，看到APP上的一个个红点，消息通知从屏幕上弹出。注意力在一次次的查看信息中被逐渐消磨，时间也变得碎片化，难以静下心来专注于某件事。有些干扰无可避免，但只要愿意付出努力，大部分的干扰可以得到排除。&lt;/p&gt;
 &lt;p&gt;白天我会尽量避免受到干扰，所有的社交软件，它们是工作效率的最大杀手。我控制自己在上午以及下午的大块时间中忽略来自社交网络的信息，将消息的查看集中在中午以及晚上的特定时间，做一个统一的查看。&lt;/p&gt;
 &lt;p&gt;每天的晚上，我会花些的时间，把第二天的工作做个大致的安排，写到待办事项中，第二天再用番茄工作法进行专注执行。记得让自己的计划保持比较高的自由度，要留有足够的时间余量。&lt;/p&gt;
@@ -1050,8 +1049,7 @@ EPUB翻译</p>
 &lt;blockquote&gt;
 &lt;p&gt;它的基本思路是：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;你规划出打算一天之内完成的工作，然后设置一个时长25分钟的定时器，去完成计划中的第一项任务；在这25分钟之内，你只专注于这一项任务，心无旁骛。一旦有干扰，可以用各种方法屏蔽掉干扰，但是通常你要努力保证自己完全不被打扰。总之，你不希望自己的专注的工作状态被打断。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;在25分钟结束的时候，设置一个5分钟的定时器，休息一下。这就是所谓的一个“番茄钟”。每4个番茄钟后，你都需要休息一会儿，通常为15分钟。&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;在25分钟结束的时候，设置一个5分钟的定时器，休息一下。这就是所谓的一个“番茄钟”。每4个番茄钟后，你都需要休息一会儿，通常为15分钟。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;值得注意的是，使用番茄工作法所要做的并不只是集中注意力25分钟这么简单。通过使用番茄工作法，你可以&lt;strong&gt;高效跟踪自己一天完成的番茄钟的数量&lt;/strong&gt;，并为此设定目标。开始的几天，你可能无法对自己能完成的工作做一个很好的估计。但相信在使用番茄工作法一段时间后，你可以做到较为准确的估计，并能完成通过番茄钟的数量，评估自己完成的工作。&lt;/p&gt;
 &lt;p&gt;通过使用番茄钟，你可以&lt;strong&gt;定量的描述自己的工作状态&lt;/strong&gt;，而不再像过去那样只是凭借感觉。你可以把每周看作是由有限个番茄钟组成的，知道了自己一周大概能完成的番茄钟的数量后，你也会认识到应该如何通过设置任务的优先级，来&lt;strong&gt;合理分配自己的时间&lt;/strong&gt;。你不会再过高的幻想自己会在一周的时间里完成超出自己实际许多的任务，并在每周结束时，因未能完成而感到沮丧。&lt;/p&gt;
 &lt;p&gt;
@@ -1087,8 +1085,7 @@ EPUB翻译</p>
 <p>思考以下几点：</p>
 <p><strong>1. 有哪些工作需要完成？</strong></p>
 <p><strong>2.我有多少时间可以用来完成这些工作？</strong></p>
-<p><strong>3.工作事项是否有逻辑顺序以及优先级</strong></p>
-</blockquote>
+<p><strong>3.工作事项是否有逻辑顺序以及优先级</strong></p></blockquote>
 <p>每一天你都会受到很多的干扰，看到APP上的一个个红点，消息通知从屏幕上弹出。注意力在一次次的查看信息中被逐渐消磨，时间也变得碎片化，难以静下心来专注于某件事。有些干扰无可避免，但只要愿意付出努力，大部分的干扰可以得到排除。</p>
 <p>白天我会尽量避免受到干扰，所有的社交软件，它们是工作效率的最大杀手。我控制自己在上午以及下午的大块时间中忽略来自社交网络的信息，将消息的查看集中在中午以及晚上的特定时间，做一个统一的查看。</p>
 <p>每天的晚上，我会花些的时间，把第二天的工作做个大致的安排，写到待办事项中，第二天再用番茄工作法进行专注执行。记得让自己的计划保持比较高的自由度，要留有足够的时间余量。</p>
@@ -1097,8 +1094,7 @@ EPUB翻译</p>
 <blockquote>
 <p>它的基本思路是：</p>
 <p><strong>你规划出打算一天之内完成的工作，然后设置一个时长25分钟的定时器，去完成计划中的第一项任务；在这25分钟之内，你只专注于这一项任务，心无旁骛。一旦有干扰，可以用各种方法屏蔽掉干扰，但是通常你要努力保证自己完全不被打扰。总之，你不希望自己的专注的工作状态被打断。</strong></p>
-<p><strong>在25分钟结束的时候，设置一个5分钟的定时器，休息一下。这就是所谓的一个“番茄钟”。每4个番茄钟后，你都需要休息一会儿，通常为15分钟。</strong></p>
-</blockquote>
+<p><strong>在25分钟结束的时候，设置一个5分钟的定时器，休息一下。这就是所谓的一个“番茄钟”。每4个番茄钟后，你都需要休息一会儿，通常为15分钟。</strong></p></blockquote>
 <p>值得注意的是，使用番茄工作法所要做的并不只是集中注意力25分钟这么简单。通过使用番茄工作法，你可以<strong>高效跟踪自己一天完成的番茄钟的数量</strong>，并为此设定目标。开始的几天，你可能无法对自己能完成的工作做一个很好的估计。但相信在使用番茄工作法一段时间后，你可以做到较为准确的估计，并能完成通过番茄钟的数量，评估自己完成的工作。</p>
 <p>通过使用番茄钟，你可以<strong>定量的描述自己的工作状态</strong>，而不再像过去那样只是凭借感觉。你可以把每周看作是由有限个番茄钟组成的，知道了自己一周大概能完成的番茄钟的数量后，你也会认识到应该如何通过设置任务的优先级，来<strong>合理分配自己的时间</strong>。你不会再过高的幻想自己会在一周的时间里完成超出自己实际许多的任务，并在每周结束时，因未能完成而感到沮丧。</p>
 <p>
@@ -1138,8 +1134,7 @@ EPUB翻译</p>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;这个时代不缺信息，因为信息太多了，缺的是时间&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;rss&#34;&gt;RSS&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/349349861&#34;&gt;知道RSS的人越少，我就越希望它能被人知道！&lt;/a&gt;&lt;/li&gt;
@@ -1157,17 +1152,17 @@ EPUB翻译</p>
 &lt;p&gt;&lt;code&gt;RSSHub Radar&lt;/code&gt; 的出现，完美解决了不是所有的网页都提供RSS源这一痛点，它可以自动生成网站的RSS源以供订阅，非常方便。&lt;/p&gt;
 &lt;p&gt;我通过使用RSS来订阅我感兴趣的个人博客&lt;/p&gt;
 &lt;h2 id=&#34;我订阅的内容&#34;&gt;我订阅的内容&lt;/h2&gt;
-&lt;h3 id=&#34;中国数字时代httpschinadigitaltimesnetchinese&#34;&gt;&lt;a href=&#34;https://chinadigitaltimes.net/chinese&#34;&gt;中国数字时代&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;中国数字时代&#34;&gt;&lt;a href=&#34;https://chinadigitaltimes.net/chinese&#34;&gt;中国数字时代&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;在这里，了解祖国&lt;/p&gt;
-&lt;h3 id=&#34;人生随笔httpsthinkinlifeorg&#34;&gt;&lt;a href=&#34;https://thinkinlife.org/&#34;&gt;人生随笔&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;人生随笔&#34;&gt;&lt;a href=&#34;https://thinkinlife.org/&#34;&gt;人生随笔&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;平行主义&lt;/p&gt;
-&lt;h3 id=&#34;程序员的喵httpscatcodingme&#34;&gt;&lt;a href=&#34;https://catcoding.me/&#34;&gt;程序员的喵&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;程序员的喵&#34;&gt;&lt;a href=&#34;https://catcoding.me/&#34;&gt;程序员的喵&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;个人博客&lt;/p&gt;
-&lt;h3 id=&#34;省流httpsshengliusubstackcom&#34;&gt;&lt;a href=&#34;https://shengliu.substack.com/&#34;&gt;省流&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;省流&#34;&gt;&lt;a href=&#34;https://shengliu.substack.com/&#34;&gt;省流&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;每日资讯&lt;/p&gt;
-&lt;h3 id=&#34;潮流周刊httpsweeklytw93fun&#34;&gt;&lt;a href=&#34;https://weekly.tw93.fun/&#34;&gt;潮流周刊&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;潮流周刊&#34;&gt;&lt;a href=&#34;https://weekly.tw93.fun/&#34;&gt;潮流周刊&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;潮流周刊&lt;/p&gt;
-&lt;h3 id=&#34;阮一峰的网络日志httpswwwruanyifengcomblog&#34;&gt;&lt;a href=&#34;https://www.ruanyifeng.com/blog/&#34;&gt;阮一峰的网络日志&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;阮一峰的网络日志&#34;&gt;&lt;a href=&#34;https://www.ruanyifeng.com/blog/&#34;&gt;阮一峰的网络日志&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;科技周刊&lt;/p&gt;
 &lt;h1 id=&#34;podcast&#34;&gt;Podcast&lt;/h1&gt;
 &lt;p&gt;播客也是一个很好的信息源，可以在做一些不用🧠的事时听，适合用来拓宽自己的知识面，对一些自己之前完全没有接触过的领域做一个初步的了解，抑或是单纯用以放松也不错。我的使用场景通常是在吃饭或是上下课的路上。&lt;/p&gt;
@@ -1221,8 +1216,7 @@ EPUB翻译</p>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>这个时代不缺信息，因为信息太多了，缺的是时间</strong></p>
 <p><strong>整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子</strong></p>
-<p><strong>获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息</strong></p>
-</blockquote>
+<p><strong>获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息</strong></p></blockquote>
 <h1 id="rss">RSS</h1>
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/349349861">知道RSS的人越少，我就越希望它能被人知道！</a></li>
@@ -1240,17 +1234,17 @@ EPUB翻译</p>
 <p><code>RSSHub Radar</code> 的出现，完美解决了不是所有的网页都提供RSS源这一痛点，它可以自动生成网站的RSS源以供订阅，非常方便。</p>
 <p>我通过使用RSS来订阅我感兴趣的个人博客</p>
 <h2 id="我订阅的内容">我订阅的内容</h2>
-<h3 id="中国数字时代httpschinadigitaltimesnetchinese"><a href="https://chinadigitaltimes.net/chinese">中国数字时代</a></h3>
+<h3 id="中国数字时代"><a href="https://chinadigitaltimes.net/chinese">中国数字时代</a></h3>
 <p>在这里，了解祖国</p>
-<h3 id="人生随笔httpsthinkinlifeorg"><a href="https://thinkinlife.org/">人生随笔</a></h3>
+<h3 id="人生随笔"><a href="https://thinkinlife.org/">人生随笔</a></h3>
 <p>平行主义</p>
-<h3 id="程序员的喵httpscatcodingme"><a href="https://catcoding.me/">程序员的喵</a></h3>
+<h3 id="程序员的喵"><a href="https://catcoding.me/">程序员的喵</a></h3>
 <p>个人博客</p>
-<h3 id="省流httpsshengliusubstackcom"><a href="https://shengliu.substack.com/">省流</a></h3>
+<h3 id="省流"><a href="https://shengliu.substack.com/">省流</a></h3>
 <p>每日资讯</p>
-<h3 id="潮流周刊httpsweeklytw93fun"><a href="https://weekly.tw93.fun/">潮流周刊</a></h3>
+<h3 id="潮流周刊"><a href="https://weekly.tw93.fun/">潮流周刊</a></h3>
 <p>潮流周刊</p>
-<h3 id="阮一峰的网络日志httpswwwruanyifengcomblog"><a href="https://www.ruanyifeng.com/blog/">阮一峰的网络日志</a></h3>
+<h3 id="阮一峰的网络日志"><a href="https://www.ruanyifeng.com/blog/">阮一峰的网络日志</a></h3>
 <p>科技周刊</p>
 <h1 id="podcast">Podcast</h1>
 <p>播客也是一个很好的信息源，可以在做一些不用🧠的事时听，适合用来拓宽自己的知识面，对一些自己之前完全没有接触过的领域做一个初步的了解，抑或是单纯用以放松也不错。我的使用场景通常是在吃饭或是上下课的路上。</p>

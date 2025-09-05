@@ -6,361 +6,7 @@
     <description>Recent content in Tech on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 04 Feb 2024 13:16:51 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>如何将完整的华为运动健康数据导出？</title>
-      <link>https://xancoding.cn/posts/2024-02-04-13-16-51/</link>
-      <pubDate>Sun, 04 Feb 2024 13:16:51 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2024-02-04-13-16-51/</guid>
-      <description>&lt;h1 id=&#34;行使您的数据主体权利&#34;&gt;行使您的数据主体权利&lt;/h1&gt;
-&lt;p&gt;我们如果直接去申请数据的话，只会获得近1年的数据。如果希望获取所有的数据，需要先向华为官方联系，行使您的数据主体权利&lt;/p&gt;
-&lt;p&gt;Step1：访问这个网站：https://consumer.huawei.com/cn/legal/privacy-questions/&lt;/p&gt;
-&lt;p&gt;Step2：勾选 “华为消费者云服务&amp;rsquo;，点击 ”继续“ 按钮
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf23f8494e7.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf23f8494e7.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Step3：问题类型 选择 ”行使数据主体权利“，点击 ”继续“ 按钮&lt;/p&gt;
-&lt;p&gt;
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf241407984.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf241407984.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Step4：描述清楚问题，填写相关信息，点击 ”提交“
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf25489edfa.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf25489edfa.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Step5：耐心等待几天，官方会发邮件进行通知
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf24f86b613.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf24f86b613.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;h1 id=&#34;获取数据&#34;&gt;获取数据&lt;/h1&gt;
-&lt;p&gt;Step1：访问这个网站：https://privacy.consumer.huawei.com/tool?lang=zh-cn&amp;amp;themeName=blue&lt;/p&gt;
-&lt;p&gt;Step2：登录华为账号
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf20a22f6fc.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf20a22f6fc.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Step3：点击 “获取您的数据副本”
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf2056e3b05.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf2056e3b05.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Step4：完成四重身份验证
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf20f409b08.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf20f409b08.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Step5：勾选 “运动健康”，并点击“提交请求”
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf21d6c8728.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf21d6c8728.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf21f0c7b6c.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf21f0c7b6c.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Step6：点击 “确定”，设置数据副本包密码并记住
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf221cf40c3.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf221cf40c3.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf22518e4cd.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf22518e4cd.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Step7：等待 7 天，届时会有邮件通知
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf2276da3f8.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf2276da3f8.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/02/04/65bf22be5f869.png&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2024/02/04/65bf22be5f869.png&#34; alt=&#34;image.png&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Step8：解压数据的密码就是Step6中设置的密码&lt;/p&gt;
-&lt;h1 id=&#34;转换数据&#34;&gt;转换数据&lt;/h1&gt;
-&lt;p&gt;借助这个工具即可完成转换：https://github.com/CTHRU/Hitrava&lt;/p&gt;
-</description>
-      <content:encoded><![CDATA[<h1 id="行使您的数据主体权利">行使您的数据主体权利</h1>
-<p>我们如果直接去申请数据的话，只会获得近1年的数据。如果希望获取所有的数据，需要先向华为官方联系，行使您的数据主体权利</p>
-<p>Step1：访问这个网站：https://consumer.huawei.com/cn/legal/privacy-questions/</p>
-<p>Step2：勾选 “华为消费者云服务&rsquo;，点击 ”继续“ 按钮
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf23f8494e7.png">
-<img src="https://bu.dusays.com/2024/02/04/65bf23f8494e7.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
-<p>Step3：问题类型 选择 ”行使数据主体权利“，点击 ”继续“ 按钮</p>
-<p>
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf241407984.png">
-<img src="https://bu.dusays.com/2024/02/04/65bf241407984.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
-<p>Step4：描述清楚问题，填写相关信息，点击 ”提交“
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf25489edfa.png">
-<img src="https://bu.dusays.com/2024/02/04/65bf25489edfa.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
-<p>Step5：耐心等待几天，官方会发邮件进行通知
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf24f86b613.png">
-<img src="https://bu.dusays.com/2024/02/04/65bf24f86b613.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
-<h1 id="获取数据">获取数据</h1>
-<p>Step1：访问这个网站：https://privacy.consumer.huawei.com/tool?lang=zh-cn&amp;themeName=blue</p>
-<p>Step2：登录华为账号
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf20a22f6fc.png">
-<img src="https://bu.dusays.com/2024/02/04/65bf20a22f6fc.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
-<p>Step3：点击 “获取您的数据副本”
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf2056e3b05.png">
-<img src="https://bu.dusays.com/2024/02/04/65bf2056e3b05.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
-<p>Step4：完成四重身份验证
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf20f409b08.png">
-<img src="https://bu.dusays.com/2024/02/04/65bf20f409b08.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
-<p>Step5：勾选 “运动健康”，并点击“提交请求”
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf21d6c8728.png">
-<img src="https://bu.dusays.com/2024/02/04/65bf21d6c8728.png" alt="image.png"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf21f0c7b6c.png">
-<img src="https://bu.dusays.com/2024/02/04/65bf21f0c7b6c.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
-<p>Step6：点击 “确定”，设置数据副本包密码并记住
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf221cf40c3.png">
-<img src="https://bu.dusays.com/2024/02/04/65bf221cf40c3.png" alt="image.png"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf22518e4cd.png">
-<img src="https://bu.dusays.com/2024/02/04/65bf22518e4cd.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
-<p>Step7：等待 7 天，届时会有邮件通知
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf2276da3f8.png">
-<img src="https://bu.dusays.com/2024/02/04/65bf2276da3f8.png" alt="image.png"  />
-</a>
-</div>
-
-
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2024/02/04/65bf22be5f869.png">
-<img src="https://bu.dusays.com/2024/02/04/65bf22be5f869.png" alt="image.png"  />
-</a>
-</div>
-
-</p>
-<p>Step8：解压数据的密码就是Step6中设置的密码</p>
-<h1 id="转换数据">转换数据</h1>
-<p>借助这个工具即可完成转换：https://github.com/CTHRU/Hitrava</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>所有运动数据聚合到STRAVA</title>
-      <link>https://xancoding.cn/posts/2024-01-10-10-00-46/</link>
-      <pubDate>Wed, 10 Jan 2024 10:00:47 +0800</pubDate>
-      
-      <guid>https://xancoding.cn/posts/2024-01-10-10-00-46/</guid>
-      <description>&lt;h1 id=&#34;todo-list&#34;&gt;TODO LIST&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 把悦跑圈的数据导入到STRAVA（没有心率的数据）&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 在我的网站上跑 &lt;a href=&#34;https://github.com/yihong0618/running_page/blob/master/README-CN.md&#34;&gt;running_page&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 我的running_page无法正常运行&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 导出华为运动健康的历史数据&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 华为运动健康的历史数据经过转换后，导入STRAVA&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入高驰后，不用再使用悦跑圈。将悦跑圈的新的数据导出为GPX_OUT，再导入STRAVA&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 购入IGPSPORT BSC200码表后，即可同步骑行数据到STRAVA上&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 疑问：骑行数据能否正常显示呢？可以&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;一些问题&#34;&gt;一些问题&lt;/h1&gt;
-&lt;p&gt;我可以从STRAVA同步数据，但是这些数据是没有心率的&lt;/p&gt;
-&lt;p&gt;我还可以从悦跑圈同步数据，这些数据是有心率的&lt;/p&gt;
-&lt;p&gt;我的做法是，把 &lt;code&gt;run_page\data.db&lt;/code&gt; 删除，再把数据下载到本地&lt;/p&gt;
-&lt;h1 id=&#34;骑行&#34;&gt;骑行🚴‍♂️&lt;/h1&gt;
-&lt;p&gt;IGPSPORT BS200 码表可以绑定STRAVA，自动同步骑行数据&lt;/p&gt;
-&lt;p&gt;在我购买码表前，先暂时直接使用STRAVA记录骑行数据&lt;/p&gt;
-&lt;h1 id=&#34;跑步&#34;&gt;跑步🏃‍&lt;/h1&gt;
-&lt;p&gt;现在我的数据分布在 华为运动健康，高驰COROS，悦跑圈 和 STRAVA 上，我准备把所有的数据聚合到STRAVA上&lt;/p&gt;
-&lt;h2 id=&#34;悦跑圈&#34;&gt;悦跑圈&lt;/h2&gt;
-&lt;p&gt;除了 华为运动健康的历史数据，包含所有的跑步数据&lt;/p&gt;
-&lt;p&gt;悦跑圈可以绑定高驰和华为运动健康。&lt;/p&gt;
-&lt;p&gt;对于高驰COROS，数据都是自动同步的，不用再操心&lt;/p&gt;
-&lt;p&gt;对于华为运动健康，悦跑圈只支持同步绑定后产生的数据，绑定之前的数据无法同步
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://bu.dusays.com/2024/01/10/659dffa386800.jpg&#34;&gt;
-&lt;img src=&#34;https://bu.dusays.com/2024/01/10/659dffa386800.jpg&#34; alt=&#34;578e24940b10f63b803cd205a8ccd21.jpg&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-将华为运动健康的数据导出：https://www.fitconverter.com/convert/export/huawei&lt;br&gt;
-不过，申请后，并不能马上拿到，需要等待一段时间。并且，最多只能拿到近5年的数据，再久远的数据，就没办法了&lt;br&gt;
-还有一点很重要，那就是华为运动健康导出的数据是&lt;code&gt;json&lt;/code&gt;格式的，并不能直接导入别的app，还需要通过转换工具进行转换后，才能导入，下面有两款转换工具：&lt;a href=&#34;https://www.toutiao.com/article/7260290208145637929/?wid=1704813615145&#34;&gt;# 华为、小米运动记录转换后导入高驰、佳明效果展示及工具使用教程&lt;/a&gt; 和 &lt;a href=&#34;https://cthru.hopto.org/hitrava-web-app/#zip&#34;&gt;Hitrava&lt;/a&gt; ，第一款需要付费，第二款是免费的，需要自己看看&lt;a href=&#34;https://github.com/CTHRU/Hitrava?tab=readme-ov-file#how-to-convert-your-health-activities-and-import-them-in-strava&#34;&gt;github&lt;/a&gt;来搞懂如何使用&lt;/p&gt;
-&lt;h2 id=&#34;高驰coros&#34;&gt;高驰COROS&lt;/h2&gt;
-&lt;p&gt;高驰可以绑定STRAVA&lt;/p&gt;
-&lt;p&gt;高驰的数据可以直接同步到STRAVA上&lt;/p&gt;
-&lt;p&gt;不过，好像也是只能自动同步绑定后的数据。&lt;/p&gt;
-&lt;h2 id=&#34;华为运动健康&#34;&gt;华为运动健康&lt;/h2&gt;
-&lt;p&gt;华为运动健康不能绑定STRAVA&lt;/p&gt;
-&lt;p&gt;现在我的高驰手表坏了，暂时先使用华为运动健康记录数据。而华为运动健康的数据是可以直接同步到悦跑圈上的。等我重新买了高驰之后，只要将悦跑圈上的数据全部同步到STRAVA上，就可以了&lt;/p&gt;
-&lt;h2 id=&#34;strava&#34;&gt;STRAVA&lt;/h2&gt;
-&lt;p&gt;所有的运动数据，不过从悦跑圈导入的数据，心率都丢失了&lt;/p&gt;
-</description>
-      <content:encoded><![CDATA[<h1 id="todo-list">TODO LIST</h1>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> 把悦跑圈的数据导入到STRAVA（没有心率的数据）</li>
-<li><input checked="" disabled="" type="checkbox"> 在我的网站上跑 <a href="https://github.com/yihong0618/running_page/blob/master/README-CN.md">running_page</a></li>
-<li><input checked="" disabled="" type="checkbox"> 我的running_page无法正常运行</li>
-<li><input checked="" disabled="" type="checkbox"> 导出华为运动健康的历史数据</li>
-<li><input checked="" disabled="" type="checkbox"> 华为运动健康的历史数据经过转换后，导入STRAVA</li>
-<li><input disabled="" type="checkbox"> 购入高驰后，不用再使用悦跑圈。将悦跑圈的新的数据导出为GPX_OUT，再导入STRAVA</li>
-<li><input checked="" disabled="" type="checkbox"> 购入IGPSPORT BSC200码表后，即可同步骑行数据到STRAVA上</li>
-<li><input checked="" disabled="" type="checkbox"> 疑问：骑行数据能否正常显示呢？可以</li>
-</ul>
-<h1 id="一些问题">一些问题</h1>
-<p>我可以从STRAVA同步数据，但是这些数据是没有心率的</p>
-<p>我还可以从悦跑圈同步数据，这些数据是有心率的</p>
-<p>我的做法是，把 <code>run_page\data.db</code> 删除，再把数据下载到本地</p>
-<h1 id="骑行">骑行🚴‍♂️</h1>
-<p>IGPSPORT BS200 码表可以绑定STRAVA，自动同步骑行数据</p>
-<p>在我购买码表前，先暂时直接使用STRAVA记录骑行数据</p>
-<h1 id="跑步">跑步🏃‍</h1>
-<p>现在我的数据分布在 华为运动健康，高驰COROS，悦跑圈 和 STRAVA 上，我准备把所有的数据聚合到STRAVA上</p>
-<h2 id="悦跑圈">悦跑圈</h2>
-<p>除了 华为运动健康的历史数据，包含所有的跑步数据</p>
-<p>悦跑圈可以绑定高驰和华为运动健康。</p>
-<p>对于高驰COROS，数据都是自动同步的，不用再操心</p>
-<p>对于华为运动健康，悦跑圈只支持同步绑定后产生的数据，绑定之前的数据无法同步
-
-<div class="post-img-view">
-<a data-fancybox="gallery" href="https://bu.dusays.com/2024/01/10/659dffa386800.jpg">
-<img src="https://bu.dusays.com/2024/01/10/659dffa386800.jpg" alt="578e24940b10f63b803cd205a8ccd21.jpg"  />
-</a>
-</div>
-
-
-将华为运动健康的数据导出：https://www.fitconverter.com/convert/export/huawei<br>
-不过，申请后，并不能马上拿到，需要等待一段时间。并且，最多只能拿到近5年的数据，再久远的数据，就没办法了<br>
-还有一点很重要，那就是华为运动健康导出的数据是<code>json</code>格式的，并不能直接导入别的app，还需要通过转换工具进行转换后，才能导入，下面有两款转换工具：<a href="https://www.toutiao.com/article/7260290208145637929/?wid=1704813615145"># 华为、小米运动记录转换后导入高驰、佳明效果展示及工具使用教程</a> 和 <a href="https://cthru.hopto.org/hitrava-web-app/#zip">Hitrava</a> ，第一款需要付费，第二款是免费的，需要自己看看<a href="https://github.com/CTHRU/Hitrava?tab=readme-ov-file#how-to-convert-your-health-activities-and-import-them-in-strava">github</a>来搞懂如何使用</p>
-<h2 id="高驰coros">高驰COROS</h2>
-<p>高驰可以绑定STRAVA</p>
-<p>高驰的数据可以直接同步到STRAVA上</p>
-<p>不过，好像也是只能自动同步绑定后的数据。</p>
-<h2 id="华为运动健康">华为运动健康</h2>
-<p>华为运动健康不能绑定STRAVA</p>
-<p>现在我的高驰手表坏了，暂时先使用华为运动健康记录数据。而华为运动健康的数据是可以直接同步到悦跑圈上的。等我重新买了高驰之后，只要将悦跑圈上的数据全部同步到STRAVA上，就可以了</p>
-<h2 id="strava">STRAVA</h2>
-<p>所有的运动数据，不过从悦跑圈导入的数据，心率都丢失了</p>
-]]></content:encoded>
-    </item>
-    
+    <lastBuildDate>Sat, 16 Sep 2023 15:08:59 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>联想R7000外接3个显示器</title>
       <link>https://xancoding.cn/posts/2023-09-16-15-08-58/</link>
@@ -873,7 +519,7 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
       <pubDate>Sun, 30 Apr 2023 09:43:31 +0800</pubDate>
       
       <guid>https://xancoding.cn/posts/2023-04-30-09-43-31/</guid>
-      <description>&lt;h1 id=&#34;bloghttpsgithubcomxancodingxancodinggithubio&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/Xancoding.github.io&#34;&gt;Blog&lt;/a&gt;&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;blog&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/Xancoding.github.io&#34;&gt;Blog&lt;/a&gt;&lt;/h1&gt;
 &lt;h1 id=&#34;搭建工具&#34;&gt;搭建工具&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Hugo &amp;amp; GitHub Pages &amp;amp; GitHub Action &amp;amp; Twikoo&lt;/code&gt;&lt;/li&gt;
@@ -1034,7 +680,7 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;li&gt;&lt;a href=&#34;https://shaohanyun.top/posts/env/hugo_mathjax/&#34;&gt;# Hugo博客添加LaTeX语法支持&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-      <content:encoded><![CDATA[<h1 id="bloghttpsgithubcomxancodingxancodinggithubio"><a href="https://github.com/Xancoding/Xancoding.github.io">Blog</a></h1>
+      <content:encoded><![CDATA[<h1 id="blog"><a href="https://github.com/Xancoding/Xancoding.github.io">Blog</a></h1>
 <h1 id="搭建工具">搭建工具</h1>
 <ul>
 <li><code>Hugo &amp; GitHub Pages &amp; GitHub Action &amp; Twikoo</code></li>
@@ -5706,7 +5352,7 @@ export {
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/72/&#34;&gt;AcWing Django 框架课&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;warofwarlockhttpsgithubcomxancodingwarofwarlock&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/WarOfWarlock&#34;&gt;WarOfWarlock&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;warofwarlock&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/WarOfWarlock&#34;&gt;WarOfWarlock&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;搭建工具&#34;&gt;搭建工具&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;HTML &amp;amp; CSS &amp;amp; JavaScript &amp;amp; Django&lt;/code&gt;&lt;/li&gt;
@@ -6176,8 +5822,7 @@ MEDIA_URL = &amp;#39;/media/&amp;#39;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;若修改&lt;code&gt;static文件夹&lt;/code&gt;下的相关文件，需在&lt;code&gt;~/acapp&lt;/code&gt;下执行&lt;code&gt;./scripts/compress_game_js.sh&lt;/code&gt;来打包文件&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;若修改&lt;code&gt;static文件夹&lt;/code&gt;下的相关文件，需在&lt;code&gt;~/acapp&lt;/code&gt;下执行&lt;code&gt;./scripts/compress_game_js.sh&lt;/code&gt;来打包文件&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;前端的模块化引入&#34;&gt;前端的模块化引入&lt;/h2&gt;
 &lt;p&gt;由于在 &lt;code&gt;html&lt;/code&gt; 代码部分，是将整个 &lt;code&gt;game.js&lt;/code&gt; 文件引入&lt;/p&gt;
 &lt;p&gt;这样会导致在 &lt;code&gt;game.js&lt;/code&gt; 中定义的变量，会变成整个网页的 &lt;strong&gt;全局变量&lt;/strong&gt;（之后可能会引起变量重名的诸多问题）&lt;/p&gt;
@@ -6273,8 +5918,7 @@ MEDIA_URL = &amp;#39;/media/&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;requestAnimationFrame(AC_GAME_ANIMATION);   &lt;span style=&#34;color:#007f7f&#34;&gt;// JS的API，可以调用1帧里面的函数。(有些浏览器的一秒帧数不一定相等)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;接下来所有的一切游戏，都是基于这个引擎的基类完成的&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;接下来所有的一切游戏，都是基于这个引擎的基类完成的&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;实现游戏地图功能&#34;&gt;实现游戏地图功能&lt;/h2&gt;
 &lt;p&gt;目标：实现一个每一秒都在渲染的纯黑背景&lt;/p&gt;
 &lt;p&gt;虽然现阶段要实现的地图较为简单，但为了后期的拓展性，故还是考虑新建一个文件夹来完成&lt;/p&gt;
@@ -6752,22 +6396,19 @@ MEDIA_URL = &amp;#39;/media/&amp;#39;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Nginx是一款自由的、开源的、高性能的HTTP服务器和反向代理服务器&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Nginx可以作为一个HTTP服务器进行网站的发布处理，另外Nginx可以作为反向代理进行负载均衡的实现&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Nginx中HttpUwsgiModule的作用是与uWSGI服务器进行交换&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nginx中HttpUwsgiModule的作用是与uWSGI服务器进行交换&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;uwsgi是什么&#34;&gt;uWSGI是什么？&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;uWSGI是一个全功能的HTTP服务器，实现了WSGI、uwsgi、http等协议&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;它要做的就是把HTTP协议转化成语言支持的网络协议。比如把HTTP协议转化成WSGI协议，让Python可以直接使用&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;WSGI协议是Python 语言定义的 Web 服务器和 Web 应用程序或框架之间的一种简单而通用的接口&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;简单来说uWSGI就是用来沟通nginx和django的一座桥梁&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;简单来说uWSGI就是用来沟通nginx和django的一座桥梁&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;nginxuwsgidiango-工作流程&#34;&gt;Nginx+uWSGI+Diango 工作流程&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;&lt;code&gt;nginx&lt;/code&gt; 是对外的服务接口，外部浏览器通过&lt;code&gt;url&lt;/code&gt;访问&lt;code&gt;nginx&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;code&gt;nginx&lt;/code&gt; 接收到浏览器发送过来的&lt;code&gt;http&lt;/code&gt;请求，将包进行解析&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;分析&lt;code&gt;url&lt;/code&gt;，如果是静态文件请求就直接访问用户给&lt;code&gt;nginx&lt;/code&gt;配置的静态文件目录，直接返回用户请求的静态文件&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;如果不是静态文件，而是一个动态的请求，那么&lt;code&gt;nginx&lt;/code&gt;就将请求转发给&lt;code&gt;uwsgi&lt;/code&gt;，&lt;code&gt;uwsgi&lt;/code&gt; 接收到请求之后将包进行处理，处理成&lt;code&gt;wsgi&lt;/code&gt;可以接受的格式，并发给&lt;code&gt;wsgi&lt;/code&gt;，&lt;code&gt;wsgi&lt;/code&gt; 根据请求调用应用程序的某个文件，某个文件的某个函数，最后处理完将返回值再次交给&lt;code&gt;wsgi&lt;/code&gt;，&lt;code&gt;wsgi&lt;/code&gt;将返回值进行打包，打包成&lt;code&gt;uwsgi&lt;/code&gt;能够接收的格式，&lt;code&gt;uwsgi&lt;/code&gt;接收&lt;code&gt;wsgi&lt;/code&gt; 发送的请求，并转发给&lt;code&gt;nginx&lt;/code&gt;, &lt;code&gt;nginx&lt;/code&gt;最终将返回值返回给浏览器&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;如果不是静态文件，而是一个动态的请求，那么&lt;code&gt;nginx&lt;/code&gt;就将请求转发给&lt;code&gt;uwsgi&lt;/code&gt;，&lt;code&gt;uwsgi&lt;/code&gt; 接收到请求之后将包进行处理，处理成&lt;code&gt;wsgi&lt;/code&gt;可以接受的格式，并发给&lt;code&gt;wsgi&lt;/code&gt;，&lt;code&gt;wsgi&lt;/code&gt; 根据请求调用应用程序的某个文件，某个文件的某个函数，最后处理完将返回值再次交给&lt;code&gt;wsgi&lt;/code&gt;，&lt;code&gt;wsgi&lt;/code&gt;将返回值进行打包，打包成&lt;code&gt;uwsgi&lt;/code&gt;能够接收的格式，&lt;code&gt;uwsgi&lt;/code&gt;接收&lt;code&gt;wsgi&lt;/code&gt; 发送的请求，并转发给&lt;code&gt;nginx&lt;/code&gt;, &lt;code&gt;nginx&lt;/code&gt;最终将返回值返回给浏览器&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;uwsgi服务的开启关闭&#34;&gt;uwsgi服务的开启&amp;amp;&amp;amp;关闭&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;在&lt;code&gt;~/acapp&lt;/code&gt;启动uwsgi服务：&lt;strong&gt;&lt;code&gt;uwsgi --ini scripts/uwsgi.ini&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
@@ -6888,8 +6529,7 @@ echo &amp;#34;yes&amp;#34; | python3 manage.py collectstatic
 &lt;hr&gt;
 &lt;h3 id=&#34;客户端请求与django响应流程&#34;&gt;客户端请求与Django响应流程&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;用户在客户端通过&lt;code&gt;$.ajax&lt;/code&gt;发送请求，根据&lt;code&gt;urls&lt;/code&gt;路由到对应的&lt;code&gt;views&lt;/code&gt;中的函数，处理&lt;code&gt;request&lt;/code&gt;后返回&lt;code&gt;JsonResponse&lt;/code&gt; 至客户端&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;用户在客户端通过&lt;code&gt;$.ajax&lt;/code&gt;发送请求，根据&lt;code&gt;urls&lt;/code&gt;路由到对应的&lt;code&gt;views&lt;/code&gt;中的函数，处理&lt;code&gt;request&lt;/code&gt;后返回&lt;code&gt;JsonResponse&lt;/code&gt; 至客户端&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;前期准备工作&#34;&gt;前期准备工作&lt;/h3&gt;
 &lt;p&gt;做开发，先开启调试模式，如果不开启，服务器一旦运行错误，就只返回 &lt;code&gt;Error&lt;/code&gt; 报错
 &lt;code&gt;settings.py&lt;/code&gt;&lt;/p&gt;
@@ -6914,8 +6554,8 @@ echo &amp;#34;yes&amp;#34; | python3 manage.py collectstatic
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#007f7f&#34;&gt;# 用于存储用户的头像的url&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#007f7f&#34;&gt;# 指定每个player数据展示在前台的数据&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;def&lt;/span&gt; __str__(self):
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;str&lt;/span&gt;(self.user)    &lt;span style=&#34;color:#007f7f&#34;&gt;# 展示用户的用户名&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;def&lt;/span&gt; __str__(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;self&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;str&lt;/span&gt;(&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;self&lt;/span&gt;.user)    &lt;span style=&#34;color:#007f7f&#34;&gt;# 展示用户的用户名&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;将定义的表，注册到后台 &lt;code&gt;admin&lt;/code&gt; 页面中&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;game/admin.py&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...
@@ -6940,8 +6580,7 @@ echo &amp;#34;yes&amp;#34; | python3 manage.py collectstatic
 &lt;p&gt;&lt;strong&gt;y总&lt;/strong&gt; 已经提前写好了 &lt;strong&gt;ACAPP&lt;/strong&gt; 的接口，如果用户用的是 &lt;strong&gt;ACAPP&lt;/strong&gt; 访问，则在新建对象 &lt;strong&gt;ac_game&lt;/strong&gt; 时，会额外传递一个参数&lt;/p&gt;
 &lt;p&gt;我们只需按照这个接口去完成扩充即可&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;之后写小程序之类的同理，额外传一个接口&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;之后写小程序之类的同理，额外传一个接口&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;code&gt;js/zbase.js&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;class&lt;/span&gt; AcGame {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    constructor(id, AcWingOS) {
@@ -7617,12 +7256,10 @@ echo &amp;#34;yes&amp;#34; | python3 manage.py collectstatic
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;redisஐ&#34;&gt;Redisஐ&lt;/h2&gt;
 &lt;h3 id=&#34;redis是什么&#34;&gt;Redis是什么？&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;code&gt;Redis&lt;/code&gt; 是一款内存高速缓存数据库&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;Redis&lt;/code&gt; 是一款内存高速缓存数据库&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;为什么要使用redis&#34;&gt;为什么要使用Redis?&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;我们目前用的是&lt;code&gt;Django&lt;/code&gt;自带的数据库&lt;code&gt;Sqlite&lt;/code&gt;。&lt;code&gt;Django&lt;/code&gt;是很容易将数据库迁移到&lt;code&gt;mySQL&lt;/code&gt;的。但是存储效率不如&lt;code&gt;redis&lt;/code&gt;，因为&lt;code&gt;redis&lt;/code&gt;是内存数据库，所以调用东西都非常快，存的是一个一个的&lt;code&gt;&amp;lt;key, value&amp;gt;&lt;/code&gt;，而且是单线程的&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;我们目前用的是&lt;code&gt;Django&lt;/code&gt;自带的数据库&lt;code&gt;Sqlite&lt;/code&gt;。&lt;code&gt;Django&lt;/code&gt;是很容易将数据库迁移到&lt;code&gt;mySQL&lt;/code&gt;的。但是存储效率不如&lt;code&gt;redis&lt;/code&gt;，因为&lt;code&gt;redis&lt;/code&gt;是内存数据库，所以调用东西都非常快，存的是一个一个的&lt;code&gt;&amp;lt;key, value&amp;gt;&lt;/code&gt;，而且是单线程的&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;在django中集成redis&#34;&gt;在Django中集成Redis&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;安装 &lt;code&gt;django_redis&lt;/code&gt;&lt;/li&gt;
@@ -7702,8 +7339,7 @@ In [13]:
 &lt;p&gt;&lt;strong&gt;用户点击&lt;code&gt;同意&lt;/code&gt;后，重定向至&lt;code&gt;redirect_uri&lt;/code&gt;链接，返回参数为&lt;code&gt;code&lt;/code&gt;和&lt;code&gt;state&lt;/code&gt;，通过&lt;code&gt;urls &amp;amp; views&lt;/code&gt;调用&lt;code&gt;receive_code&lt;/code&gt;函数&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;若验证&lt;code&gt;state&lt;/code&gt;失败，直接重定向至初始界面&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;若验证&lt;code&gt;state&lt;/code&gt;成功，将&lt;code&gt;appid &amp;amp; code &amp;amp; secret&lt;/code&gt;发送至&lt;code&gt;AcWing服务器&lt;/code&gt;，申请授权令牌&lt;code&gt;access_token&lt;/code&gt;和用户的&lt;code&gt;openid&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;若申请令牌成功，将&lt;code&gt;access_token &amp;amp; openid&lt;/code&gt;发送至&lt;code&gt;AcWing服务器&lt;/code&gt;，得到用户信息，创建并登录用户，最后重定向至初始界面&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;若申请令牌成功，将&lt;code&gt;access_token &amp;amp; openid&lt;/code&gt;发送至&lt;code&gt;AcWing服务器&lt;/code&gt;，得到用户信息，创建并登录用户，最后重定向至初始界面&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;acapp端acwing一键登录ஐ&#34;&gt;AcApp端AcWing一键登录ஐ&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/blog/content/12467/&#34;&gt;6.3 AcApp端AcWing一键登录 | 讲义&lt;/a&gt;&lt;/li&gt;
@@ -7983,8 +7619,7 @@ In [13]:
 &lt;h3 id=&#34;django_channels是什么&#34;&gt;Django_channels是什么？&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Django_Channels 是一个为Django 提供异步扩展的库，通常主要用来提供WebSocket 支持和后台任务&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;code&gt;WSS&lt;/code&gt; 是 &lt;code&gt;Web Socket&lt;/code&gt; 协议的安全模式，支持 &lt;code&gt;C/S&lt;/code&gt; 下的双向通信（HTTP协议只支持单向通信）&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;WSS&lt;/code&gt; 是 &lt;code&gt;Web Socket&lt;/code&gt; 协议的安全模式，支持 &lt;code&gt;C/S&lt;/code&gt; 下的双向通信（HTTP协议只支持单向通信）&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;配置django_channels&#34;&gt;配置Django_channels&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;安装 &lt;code&gt;channels_redis&lt;/code&gt;&lt;/li&gt;
@@ -9621,7 +9256,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 <li><a href="https://www.acwing.com/activity/content/punch_the_clock/72/">AcWing Django 框架课</a></li>
 </ul>
 <hr>
-<h2 id="warofwarlockhttpsgithubcomxancodingwarofwarlock"><a href="https://github.com/Xancoding/WarOfWarlock">WarOfWarlock</a></h2>
+<h2 id="warofwarlock"><a href="https://github.com/Xancoding/WarOfWarlock">WarOfWarlock</a></h2>
 <h3 id="搭建工具">搭建工具</h3>
 <ul>
 <li><code>HTML &amp; CSS &amp; JavaScript &amp; Django</code></li>
@@ -10091,8 +9726,7 @@ MEDIA_URL = &#39;/media/&#39;
 </ul>
 <hr>
 <blockquote>
-<p><strong>若修改<code>static文件夹</code>下的相关文件，需在<code>~/acapp</code>下执行<code>./scripts/compress_game_js.sh</code>来打包文件</strong></p>
-</blockquote>
+<p><strong>若修改<code>static文件夹</code>下的相关文件，需在<code>~/acapp</code>下执行<code>./scripts/compress_game_js.sh</code>来打包文件</strong></p></blockquote>
 <h2 id="前端的模块化引入">前端的模块化引入</h2>
 <p>由于在 <code>html</code> 代码部分，是将整个 <code>game.js</code> 文件引入</p>
 <p>这样会导致在 <code>game.js</code> 中定义的变量，会变成整个网页的 <strong>全局变量</strong>（之后可能会引起变量重名的诸多问题）</p>
@@ -10188,8 +9822,7 @@ MEDIA_URL = &#39;/media/&#39;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>requestAnimationFrame(AC_GAME_ANIMATION);   <span style="color:#007f7f">// JS的API，可以调用1帧里面的函数。(有些浏览器的一秒帧数不一定相等)
 </span></span></span></code></pre></div><blockquote>
-<p><strong>接下来所有的一切游戏，都是基于这个引擎的基类完成的</strong></p>
-</blockquote>
+<p><strong>接下来所有的一切游戏，都是基于这个引擎的基类完成的</strong></p></blockquote>
 <h2 id="实现游戏地图功能">实现游戏地图功能</h2>
 <p>目标：实现一个每一秒都在渲染的纯黑背景</p>
 <p>虽然现阶段要实现的地图较为简单，但为了后期的拓展性，故还是考虑新建一个文件夹来完成</p>
@@ -10667,22 +10300,19 @@ MEDIA_URL = &#39;/media/&#39;
 <blockquote>
 <p><strong>Nginx是一款自由的、开源的、高性能的HTTP服务器和反向代理服务器</strong></p>
 <p><strong>Nginx可以作为一个HTTP服务器进行网站的发布处理，另外Nginx可以作为反向代理进行负载均衡的实现</strong></p>
-<p><strong>Nginx中HttpUwsgiModule的作用是与uWSGI服务器进行交换</strong></p>
-</blockquote>
+<p><strong>Nginx中HttpUwsgiModule的作用是与uWSGI服务器进行交换</strong></p></blockquote>
 <h2 id="uwsgi是什么">uWSGI是什么？</h2>
 <blockquote>
 <p><strong>uWSGI是一个全功能的HTTP服务器，实现了WSGI、uwsgi、http等协议</strong></p>
 <p><strong>它要做的就是把HTTP协议转化成语言支持的网络协议。比如把HTTP协议转化成WSGI协议，让Python可以直接使用</strong></p>
 <p><strong>WSGI协议是Python 语言定义的 Web 服务器和 Web 应用程序或框架之间的一种简单而通用的接口</strong></p>
-<p><strong>简单来说uWSGI就是用来沟通nginx和django的一座桥梁</strong></p>
-</blockquote>
+<p><strong>简单来说uWSGI就是用来沟通nginx和django的一座桥梁</strong></p></blockquote>
 <h2 id="nginxuwsgidiango-工作流程">Nginx+uWSGI+Diango 工作流程</h2>
 <blockquote>
 <p><strong><code>nginx</code> 是对外的服务接口，外部浏览器通过<code>url</code>访问<code>nginx</code></strong></p>
 <p><strong><code>nginx</code> 接收到浏览器发送过来的<code>http</code>请求，将包进行解析</strong></p>
 <p><strong>分析<code>url</code>，如果是静态文件请求就直接访问用户给<code>nginx</code>配置的静态文件目录，直接返回用户请求的静态文件</strong></p>
-<p><strong>如果不是静态文件，而是一个动态的请求，那么<code>nginx</code>就将请求转发给<code>uwsgi</code>，<code>uwsgi</code> 接收到请求之后将包进行处理，处理成<code>wsgi</code>可以接受的格式，并发给<code>wsgi</code>，<code>wsgi</code> 根据请求调用应用程序的某个文件，某个文件的某个函数，最后处理完将返回值再次交给<code>wsgi</code>，<code>wsgi</code>将返回值进行打包，打包成<code>uwsgi</code>能够接收的格式，<code>uwsgi</code>接收<code>wsgi</code> 发送的请求，并转发给<code>nginx</code>, <code>nginx</code>最终将返回值返回给浏览器</strong></p>
-</blockquote>
+<p><strong>如果不是静态文件，而是一个动态的请求，那么<code>nginx</code>就将请求转发给<code>uwsgi</code>，<code>uwsgi</code> 接收到请求之后将包进行处理，处理成<code>wsgi</code>可以接受的格式，并发给<code>wsgi</code>，<code>wsgi</code> 根据请求调用应用程序的某个文件，某个文件的某个函数，最后处理完将返回值再次交给<code>wsgi</code>，<code>wsgi</code>将返回值进行打包，打包成<code>uwsgi</code>能够接收的格式，<code>uwsgi</code>接收<code>wsgi</code> 发送的请求，并转发给<code>nginx</code>, <code>nginx</code>最终将返回值返回给浏览器</strong></p></blockquote>
 <h2 id="uwsgi服务的开启关闭">uwsgi服务的开启&amp;&amp;关闭</h2>
 <ul>
 <li>在<code>~/acapp</code>启动uwsgi服务：<strong><code>uwsgi --ini scripts/uwsgi.ini</code></strong></li>
@@ -10803,8 +10433,7 @@ echo &#34;yes&#34; | python3 manage.py collectstatic
 <hr>
 <h3 id="客户端请求与django响应流程">客户端请求与Django响应流程</h3>
 <blockquote>
-<p><strong>用户在客户端通过<code>$.ajax</code>发送请求，根据<code>urls</code>路由到对应的<code>views</code>中的函数，处理<code>request</code>后返回<code>JsonResponse</code> 至客户端</strong></p>
-</blockquote>
+<p><strong>用户在客户端通过<code>$.ajax</code>发送请求，根据<code>urls</code>路由到对应的<code>views</code>中的函数，处理<code>request</code>后返回<code>JsonResponse</code> 至客户端</strong></p></blockquote>
 <h3 id="前期准备工作">前期准备工作</h3>
 <p>做开发，先开启调试模式，如果不开启，服务器一旦运行错误，就只返回 <code>Error</code> 报错
 <code>settings.py</code></p>
@@ -10829,8 +10458,8 @@ echo &#34;yes&#34; | python3 manage.py collectstatic
 </span></span><span style="display:flex;"><span>    <span style="color:#007f7f"># 用于存储用户的头像的url</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#007f7f"># 指定每个player数据展示在前台的数据</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">def</span> __str__(self):
-</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">str</span>(self.user)    <span style="color:#007f7f"># 展示用户的用户名</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">def</span> __str__(<span style="color:#fff;font-weight:bold">self</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">str</span>(<span style="color:#fff;font-weight:bold">self</span>.user)    <span style="color:#007f7f"># 展示用户的用户名</span>
 </span></span></code></pre></div><p>将定义的表，注册到后台 <code>admin</code> 页面中</p>
 <p><code>game/admin.py</code></p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>...
@@ -10855,8 +10484,7 @@ echo &#34;yes&#34; | python3 manage.py collectstatic
 <p><strong>y总</strong> 已经提前写好了 <strong>ACAPP</strong> 的接口，如果用户用的是 <strong>ACAPP</strong> 访问，则在新建对象 <strong>ac_game</strong> 时，会额外传递一个参数</p>
 <p>我们只需按照这个接口去完成扩充即可</p>
 <blockquote>
-<p><strong>之后写小程序之类的同理，额外传一个接口</strong></p>
-</blockquote>
+<p><strong>之后写小程序之类的同理，额外传一个接口</strong></p></blockquote>
 <p><code>js/zbase.js</code></p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">export</span> <span style="color:#fff;font-weight:bold">class</span> AcGame {
 </span></span><span style="display:flex;"><span>    constructor(id, AcWingOS) {
@@ -11532,12 +11160,10 @@ echo &#34;yes&#34; | python3 manage.py collectstatic
 </span></span></code></pre></div><h2 id="redisஐ">Redisஐ</h2>
 <h3 id="redis是什么">Redis是什么？</h3>
 <blockquote>
-<p><strong><code>Redis</code> 是一款内存高速缓存数据库</strong></p>
-</blockquote>
+<p><strong><code>Redis</code> 是一款内存高速缓存数据库</strong></p></blockquote>
 <h3 id="为什么要使用redis">为什么要使用Redis?</h3>
 <blockquote>
-<p><strong>我们目前用的是<code>Django</code>自带的数据库<code>Sqlite</code>。<code>Django</code>是很容易将数据库迁移到<code>mySQL</code>的。但是存储效率不如<code>redis</code>，因为<code>redis</code>是内存数据库，所以调用东西都非常快，存的是一个一个的<code>&lt;key, value&gt;</code>，而且是单线程的</strong></p>
-</blockquote>
+<p><strong>我们目前用的是<code>Django</code>自带的数据库<code>Sqlite</code>。<code>Django</code>是很容易将数据库迁移到<code>mySQL</code>的。但是存储效率不如<code>redis</code>，因为<code>redis</code>是内存数据库，所以调用东西都非常快，存的是一个一个的<code>&lt;key, value&gt;</code>，而且是单线程的</strong></p></blockquote>
 <h3 id="在django中集成redis">在Django中集成Redis</h3>
 <ol>
 <li>安装 <code>django_redis</code></li>
@@ -11617,8 +11243,7 @@ In [13]:
 <p><strong>用户点击<code>同意</code>后，重定向至<code>redirect_uri</code>链接，返回参数为<code>code</code>和<code>state</code>，通过<code>urls &amp; views</code>调用<code>receive_code</code>函数</strong></p>
 <p><strong>若验证<code>state</code>失败，直接重定向至初始界面</strong></p>
 <p><strong>若验证<code>state</code>成功，将<code>appid &amp; code &amp; secret</code>发送至<code>AcWing服务器</code>，申请授权令牌<code>access_token</code>和用户的<code>openid</code></strong></p>
-<p><strong>若申请令牌成功，将<code>access_token &amp; openid</code>发送至<code>AcWing服务器</code>，得到用户信息，创建并登录用户，最后重定向至初始界面</strong></p>
-</blockquote>
+<p><strong>若申请令牌成功，将<code>access_token &amp; openid</code>发送至<code>AcWing服务器</code>，得到用户信息，创建并登录用户，最后重定向至初始界面</strong></p></blockquote>
 <h2 id="acapp端acwing一键登录ஐ">AcApp端AcWing一键登录ஐ</h2>
 <ul>
 <li><a href="https://www.acwing.com/blog/content/12467/">6.3 AcApp端AcWing一键登录 | 讲义</a></li>
@@ -11898,8 +11523,7 @@ In [13]:
 <h3 id="django_channels是什么">Django_channels是什么？</h3>
 <blockquote>
 <p><strong>Django_Channels 是一个为Django 提供异步扩展的库，通常主要用来提供WebSocket 支持和后台任务</strong></p>
-<p><strong><code>WSS</code> 是 <code>Web Socket</code> 协议的安全模式，支持 <code>C/S</code> 下的双向通信（HTTP协议只支持单向通信）</strong></p>
-</blockquote>
+<p><strong><code>WSS</code> 是 <code>Web Socket</code> 协议的安全模式，支持 <code>C/S</code> 下的双向通信（HTTP协议只支持单向通信）</strong></p></blockquote>
 <h3 id="配置django_channels">配置Django_channels</h3>
 <ol>
 <li>安装 <code>channels_redis</code></li>
