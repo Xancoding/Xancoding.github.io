@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tech on Xan&#39;s Blog</title>
-    <link>https://xancoding.cn/tags/tech/</link>
+    <link>https://xancoding.github.io/tags/tech/</link>
     <description>Recent content in Tech on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 16 Sep 2023 15:08:59 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Sep 2023 15:08:59 +0800</lastBuildDate><atom:link href="https://xancoding.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>联想R7000外接3个显示器</title>
-      <link>https://xancoding.cn/posts/2023-09-16-15-08-58/</link>
+      <link>https://xancoding.github.io/posts/2023-09-16-15-08-58/</link>
       <pubDate>Sat, 16 Sep 2023 15:08:59 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-09-16-15-08-58/</guid>
+      <guid>https://xancoding.github.io/posts/2023-09-16-15-08-58/</guid>
       <description>&lt;p&gt;联想r7000 自带 HDMI 接口一个 和 Type-c 接口一个&lt;/p&gt;
 &lt;p&gt;HDMI 接口直连 24 寸 显示器&lt;/p&gt;
 &lt;p&gt;Type-c 接口 直连 10.5 寸 便携触摸屏&lt;/p&gt;
@@ -45,10 +45,10 @@
     
     <item>
       <title>C&#43;&#43; Project</title>
-      <link>https://xancoding.cn/posts/2023-05-29-17-24-38/</link>
+      <link>https://xancoding.github.io/posts/2023-05-29-17-24-38/</link>
       <pubDate>Mon, 29 May 2023 17:24:38 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-05-29-17-24-38/</guid>
+      <guid>https://xancoding.github.io/posts/2023-05-29-17-24-38/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1bd4y1D7on/?spm_id_from=333.788&amp;amp;vd_source=ae16ff6478eb15c1b87880540263910b&#34;&gt;# C/C++项目实战（前置知识）&lt;/a&gt;
 &lt;ul&gt;
@@ -315,10 +315,10 @@
     
     <item>
       <title>ICS-PA</title>
-      <link>https://xancoding.cn/posts/2023-05-08-17-40-45/</link>
+      <link>https://xancoding.github.io/posts/2023-05-08-17-40-45/</link>
       <pubDate>Mon, 08 May 2023 17:40:45 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-05-08-17-40-45/</guid>
+      <guid>https://xancoding.github.io/posts/2023-05-08-17-40-45/</guid>
       <description>&lt;h1 id=&#34;pa0---世界诞生的前夜-开发环境配置&#34;&gt;PA0 - 世界诞生的前夜: 开发环境配置&lt;/h1&gt;
 &lt;p&gt;在执行下述命令：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;apt-get install libsdl2-dev        # a library used later
@@ -515,10 +515,10 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
     
     <item>
       <title>Blog</title>
-      <link>https://xancoding.cn/posts/2023-04-30-09-43-31/</link>
+      <link>https://xancoding.github.io/posts/2023-04-30-09-43-31/</link>
       <pubDate>Sun, 30 Apr 2023 09:43:31 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-04-30-09-43-31/</guid>
+      <guid>https://xancoding.github.io/posts/2023-04-30-09-43-31/</guid>
       <description>&lt;h1 id=&#34;blog&#34;&gt;&lt;a href=&#34;https://github.com/Xancoding/Xancoding.github.io&#34;&gt;Blog&lt;/a&gt;&lt;/h1&gt;
 &lt;h1 id=&#34;搭建工具&#34;&gt;搭建工具&lt;/h1&gt;
 &lt;ul&gt;
@@ -845,10 +845,10 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
     
     <item>
       <title>C&#43;&#43; Sort Function &amp; Priority Queue</title>
-      <link>https://xancoding.cn/posts/2023-04-24-14-17-47/</link>
+      <link>https://xancoding.github.io/posts/2023-04-24-14-17-47/</link>
       <pubDate>Mon, 24 Apr 2023 14:17:47 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2023-04-24-14-17-47/</guid>
+      <guid>https://xancoding.github.io/posts/2023-04-24-14-17-47/</guid>
       <description>&lt;p&gt;当使用 &lt;code&gt;sort函数&lt;/code&gt; 和 &lt;code&gt;Priority_queue优先队列&lt;/code&gt; 时， &lt;code&gt;Container&lt;/code&gt; 中的元素会被自动排序&lt;/p&gt;
 &lt;p&gt;当待排列的元素为一个对象时，我们既可以通过自定义比较函数，也可以通过重载运算符来达到目的。&lt;/p&gt;
 &lt;p&gt;下面我们对 Object 的讨论都基于下述 &lt;code&gt;Person&lt;/code&gt; 类&lt;/p&gt;
@@ -1067,10 +1067,10 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
     
     <item>
       <title>计算机系统基础</title>
-      <link>https://xancoding.cn/posts/2022-11-15-21-37-17/</link>
+      <link>https://xancoding.github.io/posts/2022-11-15-21-37-17/</link>
       <pubDate>Tue, 15 Nov 2022 21:37:17 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2022-11-15-21-37-17/</guid>
+      <guid>https://xancoding.github.io/posts/2022-11-15-21-37-17/</guid>
       <description>&lt;h1 id=&#34;计算机系统基础一程序的表示转换与链接&#34;&gt;计算机系统基础(一)——程序的表示、转换与链接&lt;/h1&gt;
 &lt;h2 id=&#34;原码移码补码&#34;&gt;原码&amp;amp;移码&amp;amp;补码&lt;/h2&gt;
 &lt;ol&gt;
@@ -1357,10 +1357,10 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
     
     <item>
       <title>AcWing Web 应用课</title>
-      <link>https://xancoding.cn/posts/2022-11-02-15-49-03/</link>
+      <link>https://xancoding.github.io/posts/2022-11-02-15-49-03/</link>
       <pubDate>Wed, 02 Nov 2022 15:49:03 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2022-11-02-15-49-03/</guid>
+      <guid>https://xancoding.github.io/posts/2022-11-02-15-49-03/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_web/&#34;&gt;AcWing Web 应用课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/1150/&#34;&gt;AcWing Web 应用课&lt;/a&gt;
@@ -5343,10 +5343,10 @@ export {
     
     <item>
       <title>WarOfWarlock--AcWing Django 框架课</title>
-      <link>https://xancoding.cn/posts/2022-10-29-18-23-59/</link>
+      <link>https://xancoding.github.io/posts/2022-10-29-18-23-59/</link>
       <pubDate>Sat, 29 Oct 2022 18:23:59 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2022-10-29-18-23-59/</guid>
+      <guid>https://xancoding.github.io/posts/2022-10-29-18-23-59/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_django/&#34;&gt;AcWing Django 框架课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/72/&#34;&gt;AcWing Django 框架课&lt;/a&gt;&lt;/li&gt;
@@ -13159,10 +13159,10 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
     
     <item>
       <title>Hello World</title>
-      <link>https://xancoding.cn/posts/2022-10-12-07-27-58/</link>
+      <link>https://xancoding.github.io/posts/2022-10-12-07-27-58/</link>
       <pubDate>Wed, 12 Oct 2022 07:27:58 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2022-10-12-07-27-58/</guid>
+      <guid>https://xancoding.github.io/posts/2022-10-12-07-27-58/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;int&lt;/span&gt; main() {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    printf(&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;Hello, World&amp;#34;&lt;/span&gt;);
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt;(&lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;0&lt;/span&gt;);

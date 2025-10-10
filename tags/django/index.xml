@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Django on Xan&#39;s Blog</title>
-    <link>https://xancoding.cn/tags/django/</link>
+    <link>https://xancoding.github.io/tags/django/</link>
     <description>Recent content in Django on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 29 Oct 2022 18:23:59 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Oct 2022 18:23:59 +0800</lastBuildDate><atom:link href="https://xancoding.github.io/tags/django/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WarOfWarlock--AcWing Django 框架课</title>
-      <link>https://xancoding.cn/posts/2022-10-29-18-23-59/</link>
+      <link>https://xancoding.github.io/posts/2022-10-29-18-23-59/</link>
       <pubDate>Sat, 29 Oct 2022 18:23:59 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2022-10-29-18-23-59/</guid>
+      <guid>https://xancoding.github.io/posts/2022-10-29-18-23-59/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_django/&#34;&gt;AcWing Django 框架课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/activity/content/punch_the_clock/72/&#34;&gt;AcWing Django 框架课&lt;/a&gt;&lt;/li&gt;

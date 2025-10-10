@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>时间管理 on Xan&#39;s Blog</title>
-    <link>https://xancoding.cn/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</link>
+    <link>https://xancoding.github.io/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</link>
     <description>Recent content in 时间管理 on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 14 Oct 2022 16:07:09 +0800</lastBuildDate><atom:link href="https://xancoding.cn/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Oct 2022 16:07:09 +0800</lastBuildDate><atom:link href="https://xancoding.github.io/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manage-time</title>
-      <link>https://xancoding.cn/posts/2022-10-14-16-07-09/</link>
+      <link>https://xancoding.github.io/posts/2022-10-14-16-07-09/</link>
       <pubDate>Fri, 14 Oct 2022 16:07:09 +0800</pubDate>
       
-      <guid>https://xancoding.cn/posts/2022-10-14-16-07-09/</guid>
+      <guid>https://xancoding.github.io/posts/2022-10-14-16-07-09/</guid>
       <description>&lt;h1 id=&#34;todo清单&#34;&gt;Todo清单&lt;/h1&gt;
 &lt;p&gt;我目前在用的时间管理软件是&lt;code&gt;Todo清单&lt;/code&gt;，优势在于多设备云端同步（需要付费使用）、具备番茄钟功能、可以用来安排每日的待办清单&lt;/p&gt;
 &lt;h2 id=&#34;安排好你的待办清单&#34;&gt;安排好你的待办清单&lt;/h2&gt;
