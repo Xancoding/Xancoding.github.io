@@ -157,7 +157,7 @@ PDF翻译
 EPUB翻译&lt;/p&gt;
 &lt;h2 id=&#34;vimium-c---all-by-keyboard--pdf-viewer-for-vimium-c&#34;&gt;Vimium C - All by Keyboard &amp;amp; PDF Viewer for Vimium C&lt;/h2&gt;
 &lt;p&gt;它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面&lt;/p&gt;
-&lt;p&gt;这个插件我已经有一篇&lt;a href=&#34;https://xancoding.cn/posts/vimium/&#34;&gt;文章&lt;/a&gt;进行更为详细的讲解了，这里就不再展开来说了&lt;/p&gt;
+&lt;p&gt;这个插件我已经有一篇&lt;a href=&#34;https://xancoding.github.io/posts/vimium/&#34;&gt;文章&lt;/a&gt;进行更为详细的讲解了，这里就不再展开来说了&lt;/p&gt;
 &lt;h2 id=&#34;github-相关的浏览器插件&#34;&gt;&lt;code&gt;Github&lt;/code&gt; 相关的浏览器插件&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;octotree&lt;/code&gt; 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;enchanced github&lt;/code&gt; 可查看单个文件的大小，下载单个文件&lt;/p&gt;
@@ -581,7 +581,7 @@ PDF翻译
 EPUB翻译</p>
 <h2 id="vimium-c---all-by-keyboard--pdf-viewer-for-vimium-c">Vimium C - All by Keyboard &amp; PDF Viewer for Vimium C</h2>
 <p>它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面</p>
-<p>这个插件我已经有一篇<a href="https://xancoding.cn/posts/vimium/">文章</a>进行更为详细的讲解了，这里就不再展开来说了</p>
+<p>这个插件我已经有一篇<a href="https://xancoding.github.io/posts/vimium/">文章</a>进行更为详细的讲解了，这里就不再展开来说了</p>
 <h2 id="github-相关的浏览器插件"><code>Github</code> 相关的浏览器插件</h2>
 <p><code>octotree</code> 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率</p>
 <p><code>enchanced github</code> 可查看单个文件的大小，下载单个文件</p>
@@ -2644,7 +2644,8 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
       
       <guid>https://xancoding.github.io/posts/2023-04-30-09-33-09/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;采取三分化训练模式，意思是三天以内训练全身，中间也可以比较自由的加入休息日&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;采取三分化训练模式，意思是三天以内训练全身，中间也可以比较自由的加入休息日&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;day-1chest--triceps&#34;&gt;Day 1：Chest &amp;amp; Triceps&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;热身：着重注意胸部肩部颈部以及下背部，热身时间不要超过5分钟。&lt;/li&gt;
@@ -2923,7 +2924,8 @@ export AM_HOME=/home/xan/Desktop/ics2022/abstract-machine
 &lt;/ul&gt;
 </description>
       <content:encoded><![CDATA[<blockquote>
-<p><strong>采取三分化训练模式，意思是三天以内训练全身，中间也可以比较自由的加入休息日</strong></p></blockquote>
+<p><strong>采取三分化训练模式，意思是三天以内训练全身，中间也可以比较自由的加入休息日</strong></p>
+</blockquote>
 <h2 id="day-1chest--triceps">Day 1：Chest &amp; Triceps</h2>
 <ol>
 <li>热身：着重注意胸部肩部颈部以及下背部，热身时间不要超过5分钟。</li>
@@ -7783,7 +7785,7 @@ export {
       <guid>https://xancoding.github.io/posts/2022-10-30-15-28-22/</guid>
       <description>&lt;h1 id=&#34;blog&#34;&gt;Blog&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://xancoding.cn/posts/2023-04-30-09-43-31/&#34;&gt;Blog&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://xancoding.github.io/posts/2023-04-30-09-43-31/&#34;&gt;Blog&lt;/a&gt;
 前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
@@ -7824,7 +7826,7 @@ export {
 </description>
       <content:encoded><![CDATA[<h1 id="blog">Blog</h1>
 <ul>
-<li><a href="https://xancoding.cn/posts/2023-04-30-09-43-31/">Blog</a>
+<li><a href="https://xancoding.github.io/posts/2023-04-30-09-43-31/">Blog</a>
 前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。</li>
 </ul>
 <h1 id="obsidian">Obsidian</h1>
@@ -8346,7 +8348,8 @@ MEDIA_URL = &amp;#39;/media/&amp;#39;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;若修改&lt;code&gt;static文件夹&lt;/code&gt;下的相关文件，需在&lt;code&gt;~/acapp&lt;/code&gt;下执行&lt;code&gt;./scripts/compress_game_js.sh&lt;/code&gt;来打包文件&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;若修改&lt;code&gt;static文件夹&lt;/code&gt;下的相关文件，需在&lt;code&gt;~/acapp&lt;/code&gt;下执行&lt;code&gt;./scripts/compress_game_js.sh&lt;/code&gt;来打包文件&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;前端的模块化引入&#34;&gt;前端的模块化引入&lt;/h2&gt;
 &lt;p&gt;由于在 &lt;code&gt;html&lt;/code&gt; 代码部分，是将整个 &lt;code&gt;game.js&lt;/code&gt; 文件引入&lt;/p&gt;
 &lt;p&gt;这样会导致在 &lt;code&gt;game.js&lt;/code&gt; 中定义的变量，会变成整个网页的 &lt;strong&gt;全局变量&lt;/strong&gt;（之后可能会引起变量重名的诸多问题）&lt;/p&gt;
@@ -8442,7 +8445,8 @@ MEDIA_URL = &amp;#39;/media/&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;requestAnimationFrame(AC_GAME_ANIMATION);   &lt;span style=&#34;color:#007f7f&#34;&gt;// JS的API，可以调用1帧里面的函数。(有些浏览器的一秒帧数不一定相等)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;接下来所有的一切游戏，都是基于这个引擎的基类完成的&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;接下来所有的一切游戏，都是基于这个引擎的基类完成的&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;实现游戏地图功能&#34;&gt;实现游戏地图功能&lt;/h2&gt;
 &lt;p&gt;目标：实现一个每一秒都在渲染的纯黑背景&lt;/p&gt;
 &lt;p&gt;虽然现阶段要实现的地图较为简单，但为了后期的拓展性，故还是考虑新建一个文件夹来完成&lt;/p&gt;
@@ -8920,19 +8924,22 @@ MEDIA_URL = &amp;#39;/media/&amp;#39;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Nginx是一款自由的、开源的、高性能的HTTP服务器和反向代理服务器&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Nginx可以作为一个HTTP服务器进行网站的发布处理，另外Nginx可以作为反向代理进行负载均衡的实现&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Nginx中HttpUwsgiModule的作用是与uWSGI服务器进行交换&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Nginx中HttpUwsgiModule的作用是与uWSGI服务器进行交换&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;uwsgi是什么&#34;&gt;uWSGI是什么？&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;uWSGI是一个全功能的HTTP服务器，实现了WSGI、uwsgi、http等协议&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;它要做的就是把HTTP协议转化成语言支持的网络协议。比如把HTTP协议转化成WSGI协议，让Python可以直接使用&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;WSGI协议是Python 语言定义的 Web 服务器和 Web 应用程序或框架之间的一种简单而通用的接口&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;简单来说uWSGI就是用来沟通nginx和django的一座桥梁&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;简单来说uWSGI就是用来沟通nginx和django的一座桥梁&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;nginxuwsgidiango-工作流程&#34;&gt;Nginx+uWSGI+Diango 工作流程&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;&lt;code&gt;nginx&lt;/code&gt; 是对外的服务接口，外部浏览器通过&lt;code&gt;url&lt;/code&gt;访问&lt;code&gt;nginx&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;code&gt;nginx&lt;/code&gt; 接收到浏览器发送过来的&lt;code&gt;http&lt;/code&gt;请求，将包进行解析&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;分析&lt;code&gt;url&lt;/code&gt;，如果是静态文件请求就直接访问用户给&lt;code&gt;nginx&lt;/code&gt;配置的静态文件目录，直接返回用户请求的静态文件&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;如果不是静态文件，而是一个动态的请求，那么&lt;code&gt;nginx&lt;/code&gt;就将请求转发给&lt;code&gt;uwsgi&lt;/code&gt;，&lt;code&gt;uwsgi&lt;/code&gt; 接收到请求之后将包进行处理，处理成&lt;code&gt;wsgi&lt;/code&gt;可以接受的格式，并发给&lt;code&gt;wsgi&lt;/code&gt;，&lt;code&gt;wsgi&lt;/code&gt; 根据请求调用应用程序的某个文件，某个文件的某个函数，最后处理完将返回值再次交给&lt;code&gt;wsgi&lt;/code&gt;，&lt;code&gt;wsgi&lt;/code&gt;将返回值进行打包，打包成&lt;code&gt;uwsgi&lt;/code&gt;能够接收的格式，&lt;code&gt;uwsgi&lt;/code&gt;接收&lt;code&gt;wsgi&lt;/code&gt; 发送的请求，并转发给&lt;code&gt;nginx&lt;/code&gt;, &lt;code&gt;nginx&lt;/code&gt;最终将返回值返回给浏览器&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;如果不是静态文件，而是一个动态的请求，那么&lt;code&gt;nginx&lt;/code&gt;就将请求转发给&lt;code&gt;uwsgi&lt;/code&gt;，&lt;code&gt;uwsgi&lt;/code&gt; 接收到请求之后将包进行处理，处理成&lt;code&gt;wsgi&lt;/code&gt;可以接受的格式，并发给&lt;code&gt;wsgi&lt;/code&gt;，&lt;code&gt;wsgi&lt;/code&gt; 根据请求调用应用程序的某个文件，某个文件的某个函数，最后处理完将返回值再次交给&lt;code&gt;wsgi&lt;/code&gt;，&lt;code&gt;wsgi&lt;/code&gt;将返回值进行打包，打包成&lt;code&gt;uwsgi&lt;/code&gt;能够接收的格式，&lt;code&gt;uwsgi&lt;/code&gt;接收&lt;code&gt;wsgi&lt;/code&gt; 发送的请求，并转发给&lt;code&gt;nginx&lt;/code&gt;, &lt;code&gt;nginx&lt;/code&gt;最终将返回值返回给浏览器&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;uwsgi服务的开启关闭&#34;&gt;uwsgi服务的开启&amp;amp;&amp;amp;关闭&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;在&lt;code&gt;~/acapp&lt;/code&gt;启动uwsgi服务：&lt;strong&gt;&lt;code&gt;uwsgi --ini scripts/uwsgi.ini&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
@@ -9053,7 +9060,8 @@ echo &amp;#34;yes&amp;#34; | python3 manage.py collectstatic
 &lt;hr&gt;
 &lt;h3 id=&#34;客户端请求与django响应流程&#34;&gt;客户端请求与Django响应流程&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;用户在客户端通过&lt;code&gt;$.ajax&lt;/code&gt;发送请求，根据&lt;code&gt;urls&lt;/code&gt;路由到对应的&lt;code&gt;views&lt;/code&gt;中的函数，处理&lt;code&gt;request&lt;/code&gt;后返回&lt;code&gt;JsonResponse&lt;/code&gt; 至客户端&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;用户在客户端通过&lt;code&gt;$.ajax&lt;/code&gt;发送请求，根据&lt;code&gt;urls&lt;/code&gt;路由到对应的&lt;code&gt;views&lt;/code&gt;中的函数，处理&lt;code&gt;request&lt;/code&gt;后返回&lt;code&gt;JsonResponse&lt;/code&gt; 至客户端&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;前期准备工作&#34;&gt;前期准备工作&lt;/h3&gt;
 &lt;p&gt;做开发，先开启调试模式，如果不开启，服务器一旦运行错误，就只返回 &lt;code&gt;Error&lt;/code&gt; 报错
 &lt;code&gt;settings.py&lt;/code&gt;&lt;/p&gt;
@@ -9104,7 +9112,8 @@ echo &amp;#34;yes&amp;#34; | python3 manage.py collectstatic
 &lt;p&gt;&lt;strong&gt;y总&lt;/strong&gt; 已经提前写好了 &lt;strong&gt;ACAPP&lt;/strong&gt; 的接口，如果用户用的是 &lt;strong&gt;ACAPP&lt;/strong&gt; 访问，则在新建对象 &lt;strong&gt;ac_game&lt;/strong&gt; 时，会额外传递一个参数&lt;/p&gt;
 &lt;p&gt;我们只需按照这个接口去完成扩充即可&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;之后写小程序之类的同理，额外传一个接口&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;之后写小程序之类的同理，额外传一个接口&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;code&gt;js/zbase.js&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;class&lt;/span&gt; AcGame {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    constructor(id, AcWingOS) {
@@ -9780,10 +9789,12 @@ echo &amp;#34;yes&amp;#34; | python3 manage.py collectstatic
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;redisஐ&#34;&gt;Redisஐ&lt;/h2&gt;
 &lt;h3 id=&#34;redis是什么&#34;&gt;Redis是什么？&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;&lt;code&gt;Redis&lt;/code&gt; 是一款内存高速缓存数据库&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;Redis&lt;/code&gt; 是一款内存高速缓存数据库&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;为什么要使用redis&#34;&gt;为什么要使用Redis?&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;我们目前用的是&lt;code&gt;Django&lt;/code&gt;自带的数据库&lt;code&gt;Sqlite&lt;/code&gt;。&lt;code&gt;Django&lt;/code&gt;是很容易将数据库迁移到&lt;code&gt;mySQL&lt;/code&gt;的。但是存储效率不如&lt;code&gt;redis&lt;/code&gt;，因为&lt;code&gt;redis&lt;/code&gt;是内存数据库，所以调用东西都非常快，存的是一个一个的&lt;code&gt;&amp;lt;key, value&amp;gt;&lt;/code&gt;，而且是单线程的&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;我们目前用的是&lt;code&gt;Django&lt;/code&gt;自带的数据库&lt;code&gt;Sqlite&lt;/code&gt;。&lt;code&gt;Django&lt;/code&gt;是很容易将数据库迁移到&lt;code&gt;mySQL&lt;/code&gt;的。但是存储效率不如&lt;code&gt;redis&lt;/code&gt;，因为&lt;code&gt;redis&lt;/code&gt;是内存数据库，所以调用东西都非常快，存的是一个一个的&lt;code&gt;&amp;lt;key, value&amp;gt;&lt;/code&gt;，而且是单线程的&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;在django中集成redis&#34;&gt;在Django中集成Redis&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;安装 &lt;code&gt;django_redis&lt;/code&gt;&lt;/li&gt;
@@ -9863,7 +9874,8 @@ In [13]:
 &lt;p&gt;&lt;strong&gt;用户点击&lt;code&gt;同意&lt;/code&gt;后，重定向至&lt;code&gt;redirect_uri&lt;/code&gt;链接，返回参数为&lt;code&gt;code&lt;/code&gt;和&lt;code&gt;state&lt;/code&gt;，通过&lt;code&gt;urls &amp;amp; views&lt;/code&gt;调用&lt;code&gt;receive_code&lt;/code&gt;函数&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;若验证&lt;code&gt;state&lt;/code&gt;失败，直接重定向至初始界面&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;若验证&lt;code&gt;state&lt;/code&gt;成功，将&lt;code&gt;appid &amp;amp; code &amp;amp; secret&lt;/code&gt;发送至&lt;code&gt;AcWing服务器&lt;/code&gt;，申请授权令牌&lt;code&gt;access_token&lt;/code&gt;和用户的&lt;code&gt;openid&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;若申请令牌成功，将&lt;code&gt;access_token &amp;amp; openid&lt;/code&gt;发送至&lt;code&gt;AcWing服务器&lt;/code&gt;，得到用户信息，创建并登录用户，最后重定向至初始界面&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;若申请令牌成功，将&lt;code&gt;access_token &amp;amp; openid&lt;/code&gt;发送至&lt;code&gt;AcWing服务器&lt;/code&gt;，得到用户信息，创建并登录用户，最后重定向至初始界面&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;acapp端acwing一键登录ஐ&#34;&gt;AcApp端AcWing一键登录ஐ&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.acwing.com/blog/content/12467/&#34;&gt;6.3 AcApp端AcWing一键登录 | 讲义&lt;/a&gt;&lt;/li&gt;
@@ -10143,7 +10155,8 @@ In [13]:
 &lt;h3 id=&#34;django_channels是什么&#34;&gt;Django_channels是什么？&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Django_Channels 是一个为Django 提供异步扩展的库，通常主要用来提供WebSocket 支持和后台任务&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;code&gt;WSS&lt;/code&gt; 是 &lt;code&gt;Web Socket&lt;/code&gt; 协议的安全模式，支持 &lt;code&gt;C/S&lt;/code&gt; 下的双向通信（HTTP协议只支持单向通信）&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;WSS&lt;/code&gt; 是 &lt;code&gt;Web Socket&lt;/code&gt; 协议的安全模式，支持 &lt;code&gt;C/S&lt;/code&gt; 下的双向通信（HTTP协议只支持单向通信）&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;配置django_channels&#34;&gt;配置Django_channels&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;安装 &lt;code&gt;channels_redis&lt;/code&gt;&lt;/li&gt;
@@ -12250,7 +12263,8 @@ MEDIA_URL = &#39;/media/&#39;
 </ul>
 <hr>
 <blockquote>
-<p><strong>若修改<code>static文件夹</code>下的相关文件，需在<code>~/acapp</code>下执行<code>./scripts/compress_game_js.sh</code>来打包文件</strong></p></blockquote>
+<p><strong>若修改<code>static文件夹</code>下的相关文件，需在<code>~/acapp</code>下执行<code>./scripts/compress_game_js.sh</code>来打包文件</strong></p>
+</blockquote>
 <h2 id="前端的模块化引入">前端的模块化引入</h2>
 <p>由于在 <code>html</code> 代码部分，是将整个 <code>game.js</code> 文件引入</p>
 <p>这样会导致在 <code>game.js</code> 中定义的变量，会变成整个网页的 <strong>全局变量</strong>（之后可能会引起变量重名的诸多问题）</p>
@@ -12346,7 +12360,8 @@ MEDIA_URL = &#39;/media/&#39;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>requestAnimationFrame(AC_GAME_ANIMATION);   <span style="color:#007f7f">// JS的API，可以调用1帧里面的函数。(有些浏览器的一秒帧数不一定相等)
 </span></span></span></code></pre></div><blockquote>
-<p><strong>接下来所有的一切游戏，都是基于这个引擎的基类完成的</strong></p></blockquote>
+<p><strong>接下来所有的一切游戏，都是基于这个引擎的基类完成的</strong></p>
+</blockquote>
 <h2 id="实现游戏地图功能">实现游戏地图功能</h2>
 <p>目标：实现一个每一秒都在渲染的纯黑背景</p>
 <p>虽然现阶段要实现的地图较为简单，但为了后期的拓展性，故还是考虑新建一个文件夹来完成</p>
@@ -12824,19 +12839,22 @@ MEDIA_URL = &#39;/media/&#39;
 <blockquote>
 <p><strong>Nginx是一款自由的、开源的、高性能的HTTP服务器和反向代理服务器</strong></p>
 <p><strong>Nginx可以作为一个HTTP服务器进行网站的发布处理，另外Nginx可以作为反向代理进行负载均衡的实现</strong></p>
-<p><strong>Nginx中HttpUwsgiModule的作用是与uWSGI服务器进行交换</strong></p></blockquote>
+<p><strong>Nginx中HttpUwsgiModule的作用是与uWSGI服务器进行交换</strong></p>
+</blockquote>
 <h2 id="uwsgi是什么">uWSGI是什么？</h2>
 <blockquote>
 <p><strong>uWSGI是一个全功能的HTTP服务器，实现了WSGI、uwsgi、http等协议</strong></p>
 <p><strong>它要做的就是把HTTP协议转化成语言支持的网络协议。比如把HTTP协议转化成WSGI协议，让Python可以直接使用</strong></p>
 <p><strong>WSGI协议是Python 语言定义的 Web 服务器和 Web 应用程序或框架之间的一种简单而通用的接口</strong></p>
-<p><strong>简单来说uWSGI就是用来沟通nginx和django的一座桥梁</strong></p></blockquote>
+<p><strong>简单来说uWSGI就是用来沟通nginx和django的一座桥梁</strong></p>
+</blockquote>
 <h2 id="nginxuwsgidiango-工作流程">Nginx+uWSGI+Diango 工作流程</h2>
 <blockquote>
 <p><strong><code>nginx</code> 是对外的服务接口，外部浏览器通过<code>url</code>访问<code>nginx</code></strong></p>
 <p><strong><code>nginx</code> 接收到浏览器发送过来的<code>http</code>请求，将包进行解析</strong></p>
 <p><strong>分析<code>url</code>，如果是静态文件请求就直接访问用户给<code>nginx</code>配置的静态文件目录，直接返回用户请求的静态文件</strong></p>
-<p><strong>如果不是静态文件，而是一个动态的请求，那么<code>nginx</code>就将请求转发给<code>uwsgi</code>，<code>uwsgi</code> 接收到请求之后将包进行处理，处理成<code>wsgi</code>可以接受的格式，并发给<code>wsgi</code>，<code>wsgi</code> 根据请求调用应用程序的某个文件，某个文件的某个函数，最后处理完将返回值再次交给<code>wsgi</code>，<code>wsgi</code>将返回值进行打包，打包成<code>uwsgi</code>能够接收的格式，<code>uwsgi</code>接收<code>wsgi</code> 发送的请求，并转发给<code>nginx</code>, <code>nginx</code>最终将返回值返回给浏览器</strong></p></blockquote>
+<p><strong>如果不是静态文件，而是一个动态的请求，那么<code>nginx</code>就将请求转发给<code>uwsgi</code>，<code>uwsgi</code> 接收到请求之后将包进行处理，处理成<code>wsgi</code>可以接受的格式，并发给<code>wsgi</code>，<code>wsgi</code> 根据请求调用应用程序的某个文件，某个文件的某个函数，最后处理完将返回值再次交给<code>wsgi</code>，<code>wsgi</code>将返回值进行打包，打包成<code>uwsgi</code>能够接收的格式，<code>uwsgi</code>接收<code>wsgi</code> 发送的请求，并转发给<code>nginx</code>, <code>nginx</code>最终将返回值返回给浏览器</strong></p>
+</blockquote>
 <h2 id="uwsgi服务的开启关闭">uwsgi服务的开启&amp;&amp;关闭</h2>
 <ul>
 <li>在<code>~/acapp</code>启动uwsgi服务：<strong><code>uwsgi --ini scripts/uwsgi.ini</code></strong></li>
@@ -12957,7 +12975,8 @@ echo &#34;yes&#34; | python3 manage.py collectstatic
 <hr>
 <h3 id="客户端请求与django响应流程">客户端请求与Django响应流程</h3>
 <blockquote>
-<p><strong>用户在客户端通过<code>$.ajax</code>发送请求，根据<code>urls</code>路由到对应的<code>views</code>中的函数，处理<code>request</code>后返回<code>JsonResponse</code> 至客户端</strong></p></blockquote>
+<p><strong>用户在客户端通过<code>$.ajax</code>发送请求，根据<code>urls</code>路由到对应的<code>views</code>中的函数，处理<code>request</code>后返回<code>JsonResponse</code> 至客户端</strong></p>
+</blockquote>
 <h3 id="前期准备工作">前期准备工作</h3>
 <p>做开发，先开启调试模式，如果不开启，服务器一旦运行错误，就只返回 <code>Error</code> 报错
 <code>settings.py</code></p>
@@ -13008,7 +13027,8 @@ echo &#34;yes&#34; | python3 manage.py collectstatic
 <p><strong>y总</strong> 已经提前写好了 <strong>ACAPP</strong> 的接口，如果用户用的是 <strong>ACAPP</strong> 访问，则在新建对象 <strong>ac_game</strong> 时，会额外传递一个参数</p>
 <p>我们只需按照这个接口去完成扩充即可</p>
 <blockquote>
-<p><strong>之后写小程序之类的同理，额外传一个接口</strong></p></blockquote>
+<p><strong>之后写小程序之类的同理，额外传一个接口</strong></p>
+</blockquote>
 <p><code>js/zbase.js</code></p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">export</span> <span style="color:#fff;font-weight:bold">class</span> AcGame {
 </span></span><span style="display:flex;"><span>    constructor(id, AcWingOS) {
@@ -13684,10 +13704,12 @@ echo &#34;yes&#34; | python3 manage.py collectstatic
 </span></span></code></pre></div><h2 id="redisஐ">Redisஐ</h2>
 <h3 id="redis是什么">Redis是什么？</h3>
 <blockquote>
-<p><strong><code>Redis</code> 是一款内存高速缓存数据库</strong></p></blockquote>
+<p><strong><code>Redis</code> 是一款内存高速缓存数据库</strong></p>
+</blockquote>
 <h3 id="为什么要使用redis">为什么要使用Redis?</h3>
 <blockquote>
-<p><strong>我们目前用的是<code>Django</code>自带的数据库<code>Sqlite</code>。<code>Django</code>是很容易将数据库迁移到<code>mySQL</code>的。但是存储效率不如<code>redis</code>，因为<code>redis</code>是内存数据库，所以调用东西都非常快，存的是一个一个的<code>&lt;key, value&gt;</code>，而且是单线程的</strong></p></blockquote>
+<p><strong>我们目前用的是<code>Django</code>自带的数据库<code>Sqlite</code>。<code>Django</code>是很容易将数据库迁移到<code>mySQL</code>的。但是存储效率不如<code>redis</code>，因为<code>redis</code>是内存数据库，所以调用东西都非常快，存的是一个一个的<code>&lt;key, value&gt;</code>，而且是单线程的</strong></p>
+</blockquote>
 <h3 id="在django中集成redis">在Django中集成Redis</h3>
 <ol>
 <li>安装 <code>django_redis</code></li>
@@ -13767,7 +13789,8 @@ In [13]:
 <p><strong>用户点击<code>同意</code>后，重定向至<code>redirect_uri</code>链接，返回参数为<code>code</code>和<code>state</code>，通过<code>urls &amp; views</code>调用<code>receive_code</code>函数</strong></p>
 <p><strong>若验证<code>state</code>失败，直接重定向至初始界面</strong></p>
 <p><strong>若验证<code>state</code>成功，将<code>appid &amp; code &amp; secret</code>发送至<code>AcWing服务器</code>，申请授权令牌<code>access_token</code>和用户的<code>openid</code></strong></p>
-<p><strong>若申请令牌成功，将<code>access_token &amp; openid</code>发送至<code>AcWing服务器</code>，得到用户信息，创建并登录用户，最后重定向至初始界面</strong></p></blockquote>
+<p><strong>若申请令牌成功，将<code>access_token &amp; openid</code>发送至<code>AcWing服务器</code>，得到用户信息，创建并登录用户，最后重定向至初始界面</strong></p>
+</blockquote>
 <h2 id="acapp端acwing一键登录ஐ">AcApp端AcWing一键登录ஐ</h2>
 <ul>
 <li><a href="https://www.acwing.com/blog/content/12467/">6.3 AcApp端AcWing一键登录 | 讲义</a></li>
@@ -14047,7 +14070,8 @@ In [13]:
 <h3 id="django_channels是什么">Django_channels是什么？</h3>
 <blockquote>
 <p><strong>Django_Channels 是一个为Django 提供异步扩展的库，通常主要用来提供WebSocket 支持和后台任务</strong></p>
-<p><strong><code>WSS</code> 是 <code>Web Socket</code> 协议的安全模式，支持 <code>C/S</code> 下的双向通信（HTTP协议只支持单向通信）</strong></p></blockquote>
+<p><strong><code>WSS</code> 是 <code>Web Socket</code> 协议的安全模式，支持 <code>C/S</code> 下的双向通信（HTTP协议只支持单向通信）</strong></p>
+</blockquote>
 <h3 id="配置django_channels">配置Django_channels</h3>
 <ol>
 <li>安装 <code>channels_redis</code></li>
@@ -15694,7 +15718,8 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;p&gt;思考以下几点：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1. 有哪些工作需要完成？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2.我有多少时间可以用来完成这些工作？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;3.工作事项是否有逻辑顺序以及优先级&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;3.工作事项是否有逻辑顺序以及优先级&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;每一天你都会受到很多的干扰，看到APP上的一个个红点，消息通知从屏幕上弹出。注意力在一次次的查看信息中被逐渐消磨，时间也变得碎片化，难以静下心来专注于某件事。有些干扰无可避免，但只要愿意付出努力，大部分的干扰可以得到排除。&lt;/p&gt;
 &lt;p&gt;白天我会尽量避免受到干扰，所有的社交软件，它们是工作效率的最大杀手。我控制自己在上午以及下午的大块时间中忽略来自社交网络的信息，将消息的查看集中在中午以及晚上的特定时间，做一个统一的查看。&lt;/p&gt;
 &lt;p&gt;每天的晚上，我会花些的时间，把第二天的工作做个大致的安排，写到待办事项中，第二天再用番茄工作法进行专注执行。记得让自己的计划保持比较高的自由度，要留有足够的时间余量。&lt;/p&gt;
@@ -15703,7 +15728,8 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;blockquote&gt;
 &lt;p&gt;它的基本思路是：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;你规划出打算一天之内完成的工作，然后设置一个时长25分钟的定时器，去完成计划中的第一项任务；在这25分钟之内，你只专注于这一项任务，心无旁骛。一旦有干扰，可以用各种方法屏蔽掉干扰，但是通常你要努力保证自己完全不被打扰。总之，你不希望自己的专注的工作状态被打断。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;在25分钟结束的时候，设置一个5分钟的定时器，休息一下。这就是所谓的一个“番茄钟”。每4个番茄钟后，你都需要休息一会儿，通常为15分钟。&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;在25分钟结束的时候，设置一个5分钟的定时器，休息一下。这就是所谓的一个“番茄钟”。每4个番茄钟后，你都需要休息一会儿，通常为15分钟。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;值得注意的是，使用番茄工作法所要做的并不只是集中注意力25分钟这么简单。通过使用番茄工作法，你可以&lt;strong&gt;高效跟踪自己一天完成的番茄钟的数量&lt;/strong&gt;，并为此设定目标。开始的几天，你可能无法对自己能完成的工作做一个很好的估计。但相信在使用番茄工作法一段时间后，你可以做到较为准确的估计，并能完成通过番茄钟的数量，评估自己完成的工作。&lt;/p&gt;
 &lt;p&gt;通过使用番茄钟，你可以&lt;strong&gt;定量的描述自己的工作状态&lt;/strong&gt;，而不再像过去那样只是凭借感觉。你可以把每周看作是由有限个番茄钟组成的，知道了自己一周大概能完成的番茄钟的数量后，你也会认识到应该如何通过设置任务的优先级，来&lt;strong&gt;合理分配自己的时间&lt;/strong&gt;。你不会再过高的幻想自己会在一周的时间里完成超出自己实际许多的任务，并在每周结束时，因未能完成而感到沮丧。&lt;/p&gt;
 &lt;p&gt;
@@ -15739,7 +15765,8 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 <p>思考以下几点：</p>
 <p><strong>1. 有哪些工作需要完成？</strong></p>
 <p><strong>2.我有多少时间可以用来完成这些工作？</strong></p>
-<p><strong>3.工作事项是否有逻辑顺序以及优先级</strong></p></blockquote>
+<p><strong>3.工作事项是否有逻辑顺序以及优先级</strong></p>
+</blockquote>
 <p>每一天你都会受到很多的干扰，看到APP上的一个个红点，消息通知从屏幕上弹出。注意力在一次次的查看信息中被逐渐消磨，时间也变得碎片化，难以静下心来专注于某件事。有些干扰无可避免，但只要愿意付出努力，大部分的干扰可以得到排除。</p>
 <p>白天我会尽量避免受到干扰，所有的社交软件，它们是工作效率的最大杀手。我控制自己在上午以及下午的大块时间中忽略来自社交网络的信息，将消息的查看集中在中午以及晚上的特定时间，做一个统一的查看。</p>
 <p>每天的晚上，我会花些的时间，把第二天的工作做个大致的安排，写到待办事项中，第二天再用番茄工作法进行专注执行。记得让自己的计划保持比较高的自由度，要留有足够的时间余量。</p>
@@ -15748,7 +15775,8 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 <blockquote>
 <p>它的基本思路是：</p>
 <p><strong>你规划出打算一天之内完成的工作，然后设置一个时长25分钟的定时器，去完成计划中的第一项任务；在这25分钟之内，你只专注于这一项任务，心无旁骛。一旦有干扰，可以用各种方法屏蔽掉干扰，但是通常你要努力保证自己完全不被打扰。总之，你不希望自己的专注的工作状态被打断。</strong></p>
-<p><strong>在25分钟结束的时候，设置一个5分钟的定时器，休息一下。这就是所谓的一个“番茄钟”。每4个番茄钟后，你都需要休息一会儿，通常为15分钟。</strong></p></blockquote>
+<p><strong>在25分钟结束的时候，设置一个5分钟的定时器，休息一下。这就是所谓的一个“番茄钟”。每4个番茄钟后，你都需要休息一会儿，通常为15分钟。</strong></p>
+</blockquote>
 <p>值得注意的是，使用番茄工作法所要做的并不只是集中注意力25分钟这么简单。通过使用番茄工作法，你可以<strong>高效跟踪自己一天完成的番茄钟的数量</strong>，并为此设定目标。开始的几天，你可能无法对自己能完成的工作做一个很好的估计。但相信在使用番茄工作法一段时间后，你可以做到较为准确的估计，并能完成通过番茄钟的数量，评估自己完成的工作。</p>
 <p>通过使用番茄钟，你可以<strong>定量的描述自己的工作状态</strong>，而不再像过去那样只是凭借感觉。你可以把每周看作是由有限个番茄钟组成的，知道了自己一周大概能完成的番茄钟的数量后，你也会认识到应该如何通过设置任务的优先级，来<strong>合理分配自己的时间</strong>。你不会再过高的幻想自己会在一周的时间里完成超出自己实际许多的任务，并在每周结束时，因未能完成而感到沮丧。</p>
 <p>
@@ -15788,7 +15816,8 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;这个时代不缺信息，因为信息太多了，缺的是时间&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h1 id=&#34;rss&#34;&gt;RSS&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/349349861&#34;&gt;知道RSS的人越少，我就越希望它能被人知道！&lt;/a&gt;&lt;/li&gt;
@@ -15870,7 +15899,8 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
       <content:encoded><![CDATA[<blockquote>
 <p><strong>这个时代不缺信息，因为信息太多了，缺的是时间</strong></p>
 <p><strong>整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子</strong></p>
-<p><strong>获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息</strong></p></blockquote>
+<p><strong>获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息</strong></p>
+</blockquote>
 <h1 id="rss">RSS</h1>
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/349349861">知道RSS的人越少，我就越希望它能被人知道！</a></li>
@@ -16002,7 +16032,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
       
       <guid>https://xancoding.github.io/about/</guid>
       <description>&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
-&lt;p&gt;𝑯𝒊, 𝑰&amp;rsquo;𝒎 ✨ &lt;a href=&#34;https://xancoding.cn/&#34;&gt;𝐗𝐚𝐧&lt;/a&gt; ✨,𝐚 𝐂𝐒 𝐬𝐭𝐮𝐝𝐞𝐧𝐭 𝐟𝐫𝐨𝐦 𝐍𝐂𝐄𝐏𝐔.&lt;/p&gt;
+&lt;p&gt;𝑯𝒊, 𝑰&amp;rsquo;𝒎 ✨ &lt;a href=&#34;https://xancoding.github.io/&#34;&gt;𝐗𝐚𝐧&lt;/a&gt; ✨,𝐚 𝐂𝐒 𝐬𝐭𝐮𝐝𝐞𝐧𝐭 𝐟𝐫𝐨𝐦 𝐍𝐂𝐄𝐏𝐔.&lt;/p&gt;
 &lt;p&gt;𝐌𝐲 ❤ 𝐡𝐨𝐛𝐛𝐢𝐞𝐬 ❤ 𝐚𝐫𝐞 𝐑𝐮𝐧𝐧𝐢𝐧𝐠, 𝐇𝐢𝐤𝐢𝐧𝐠, 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲, 𝐇𝐢𝐬𝐭𝐨𝐫𝐲 𝐚𝐧𝐝 𝐏𝐬𝐲𝐜𝐡𝐨𝐥𝐨𝐠𝐲.&lt;/p&gt;
 &lt;h1 id=&#34;motto&#34;&gt;Motto&lt;/h1&gt;
 &lt;ol&gt;
@@ -16042,7 +16072,7 @@ https://app2433.acapp.acwing.com.cn/static/js/dist/game-版本号.js
 &lt;/div&gt;
 </description>
       <content:encoded><![CDATA[<h1 id="about-me">About me</h1>
-<p>𝑯𝒊, 𝑰&rsquo;𝒎 ✨ <a href="https://xancoding.cn/">𝐗𝐚𝐧</a> ✨,𝐚 𝐂𝐒 𝐬𝐭𝐮𝐝𝐞𝐧𝐭 𝐟𝐫𝐨𝐦 𝐍𝐂𝐄𝐏𝐔.</p>
+<p>𝑯𝒊, 𝑰&rsquo;𝒎 ✨ <a href="https://xancoding.github.io/">𝐗𝐚𝐧</a> ✨,𝐚 𝐂𝐒 𝐬𝐭𝐮𝐝𝐞𝐧𝐭 𝐟𝐫𝐨𝐦 𝐍𝐂𝐄𝐏𝐔.</p>
 <p>𝐌𝐲 ❤ 𝐡𝐨𝐛𝐛𝐢𝐞𝐬 ❤ 𝐚𝐫𝐞 𝐑𝐮𝐧𝐧𝐢𝐧𝐠, 𝐇𝐢𝐤𝐢𝐧𝐠, 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲, 𝐇𝐢𝐬𝐭𝐨𝐫𝐲 𝐚𝐧𝐝 𝐏𝐬𝐲𝐜𝐡𝐨𝐥𝐨𝐠𝐲.</p>
 <h1 id="motto">Motto</h1>
 <ol>

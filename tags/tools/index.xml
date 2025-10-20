@@ -157,7 +157,7 @@ PDF翻译
 EPUB翻译&lt;/p&gt;
 &lt;h2 id=&#34;vimium-c---all-by-keyboard--pdf-viewer-for-vimium-c&#34;&gt;Vimium C - All by Keyboard &amp;amp; PDF Viewer for Vimium C&lt;/h2&gt;
 &lt;p&gt;它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面&lt;/p&gt;
-&lt;p&gt;这个插件我已经有一篇&lt;a href=&#34;https://xancoding.cn/posts/vimium/&#34;&gt;文章&lt;/a&gt;进行更为详细的讲解了，这里就不再展开来说了&lt;/p&gt;
+&lt;p&gt;这个插件我已经有一篇&lt;a href=&#34;https://xancoding.github.io/posts/vimium/&#34;&gt;文章&lt;/a&gt;进行更为详细的讲解了，这里就不再展开来说了&lt;/p&gt;
 &lt;h2 id=&#34;github-相关的浏览器插件&#34;&gt;&lt;code&gt;Github&lt;/code&gt; 相关的浏览器插件&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;octotree&lt;/code&gt; 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;enchanced github&lt;/code&gt; 可查看单个文件的大小，下载单个文件&lt;/p&gt;
@@ -581,7 +581,7 @@ PDF翻译
 EPUB翻译</p>
 <h2 id="vimium-c---all-by-keyboard--pdf-viewer-for-vimium-c">Vimium C - All by Keyboard &amp; PDF Viewer for Vimium C</h2>
 <p>它提供了类Vim操作来控制浏览器网页。熟练掌握后，可以脱离鼠标，只使用键盘浏览页面</p>
-<p>这个插件我已经有一篇<a href="https://xancoding.cn/posts/vimium/">文章</a>进行更为详细的讲解了，这里就不再展开来说了</p>
+<p>这个插件我已经有一篇<a href="https://xancoding.github.io/posts/vimium/">文章</a>进行更为详细的讲解了，这里就不再展开来说了</p>
 <h2 id="github-相关的浏览器插件"><code>Github</code> 相关的浏览器插件</h2>
 <p><code>octotree</code> 可以树形结构查看Github仓库中的文件，减少了多级目录的查看，提高效率</p>
 <p><code>enchanced github</code> 可查看单个文件的大小，下载单个文件</p>
@@ -1255,7 +1255,7 @@ EPUB翻译</p>
       <guid>https://xancoding.github.io/posts/2022-10-30-15-28-22/</guid>
       <description>&lt;h1 id=&#34;blog&#34;&gt;Blog&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://xancoding.cn/posts/2023-04-30-09-43-31/&#34;&gt;Blog&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;https://xancoding.github.io/posts/2023-04-30-09-43-31/&#34;&gt;Blog&lt;/a&gt;
 前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
@@ -1296,7 +1296,7 @@ EPUB翻译</p>
 </description>
       <content:encoded><![CDATA[<h1 id="blog">Blog</h1>
 <ul>
-<li><a href="https://xancoding.cn/posts/2023-04-30-09-43-31/">Blog</a>
+<li><a href="https://xancoding.github.io/posts/2023-04-30-09-43-31/">Blog</a>
 前前后后花了大概是有一个月的时间，把这个博客从零到有，再到功能的补充完善，到目前已经是一个很满意的状态，自我感觉投入的时间确实也是很值得的。建立这个博客，作为我对外输出的一个途径，也可以算是我的学习笔记的存放处，再加上我一些有感悟的点，想要记录下来的内容，都是写在这上面。</li>
 </ul>
 <h1 id="obsidian">Obsidian</h1>
@@ -1346,7 +1346,8 @@ EPUB翻译</p>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;这个时代不缺信息，因为信息太多了，缺的是时间&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h1 id=&#34;rss&#34;&gt;RSS&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/349349861&#34;&gt;知道RSS的人越少，我就越希望它能被人知道！&lt;/a&gt;&lt;/li&gt;
@@ -1428,7 +1429,8 @@ EPUB翻译</p>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>这个时代不缺信息，因为信息太多了，缺的是时间</strong></p>
 <p><strong>整个互联网正在充斥着流量内容，而我们得学会如何从垃圾中找到金子</strong></p>
-<p><strong>获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息</strong></p></blockquote>
+<p><strong>获取信息的方式最好是主动的，摆脱算法和机器的喂养，自己去挖掘有价值的信息</strong></p>
+</blockquote>
 <h1 id="rss">RSS</h1>
 <ul>
 <li><a href="https://zhuanlan.zhihu.com/p/349349861">知道RSS的人越少，我就越希望它能被人知道！</a></li>
