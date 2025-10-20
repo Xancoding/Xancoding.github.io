@@ -2,7 +2,7 @@
 
 ## About
 
-[Xan's Blog](https://zagxuy.github.io) Powered by [Hugo](https://gohugo.io/) & [PaperMod](https://github.com/adityatelange/hugo-PaperMod/)
+[Xan's Blog](https://xancoding.github.io) Powered by [Hugo](https://gohugo.io/) & [PaperMod](https://github.com/adityatelange/hugo-PaperMod/)
 
 ## Install
 
