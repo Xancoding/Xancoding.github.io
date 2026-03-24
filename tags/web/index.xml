@@ -6,12 +6,14 @@
     <description>Recent content in Web on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <managingEditor>zag.zj.cn@gmail.com (Xan)</managingEditor>
+    <webMaster>zag.zj.cn@gmail.com (Xan)</webMaster>
     <lastBuildDate>Wed, 02 Nov 2022 15:49:03 +0800</lastBuildDate><atom:link href="https://xancoding.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AcWing Web 应用课</title>
       <link>https://xancoding.github.io/posts/2022-11-02-15-49-03/</link>
       <pubDate>Wed, 02 Nov 2022 15:49:03 +0800</pubDate>
-      
+      <author>zag.zj.cn@gmail.com (Xan)</author>
       <guid>https://xancoding.github.io/posts/2022-11-02-15-49-03/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.colopen-blog.com/Engineer/acw_web/&#34;&gt;AcWing Web 应用课 | Colopen&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
@@ -46,7 +48,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;VSCode&lt;/code&gt; 自动生成缺省的 &lt;code&gt;HTML&lt;/code&gt; 代码框架&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-HTML&#34; data-lang=&#34;HTML&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-HTML&#34; data-lang=&#34;HTML&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0f0;font-weight:bold&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;font-weight:bold&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#007f7f&#34;&gt;lang&lt;/span&gt;=&lt;span style=&#34;color:#0ff;font-weight:bold&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -2035,7 +2037,7 @@ export {
 <ul>
 <li><code>VSCode</code> 自动生成缺省的 <code>HTML</code> 代码框架</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">&lt;!DOCTYPE html&gt;</span>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">&lt;!DOCTYPE html&gt;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>&lt;<span style="font-weight:bold">html</span> <span style="color:#007f7f">lang</span>=<span style="color:#0ff;font-weight:bold">&#34;en&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>

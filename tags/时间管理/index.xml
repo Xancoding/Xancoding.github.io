@@ -6,12 +6,14 @@
     <description>Recent content in 时间管理 on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <managingEditor>zag.zj.cn@gmail.com (Xan)</managingEditor>
+    <webMaster>zag.zj.cn@gmail.com (Xan)</webMaster>
     <lastBuildDate>Fri, 14 Oct 2022 16:07:09 +0800</lastBuildDate><atom:link href="https://xancoding.github.io/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manage-time</title>
       <link>https://xancoding.github.io/posts/2022-10-14-16-07-09/</link>
       <pubDate>Fri, 14 Oct 2022 16:07:09 +0800</pubDate>
-      
+      <author>zag.zj.cn@gmail.com (Xan)</author>
       <guid>https://xancoding.github.io/posts/2022-10-14-16-07-09/</guid>
       <description>&lt;h1 id=&#34;todo清单&#34;&gt;Todo清单&lt;/h1&gt;
 &lt;p&gt;我目前在用的时间管理软件是&lt;code&gt;Todo清单&lt;/code&gt;，优势在于多设备云端同步（需要付费使用）、具备番茄钟功能、可以用来安排每日的待办清单&lt;/p&gt;

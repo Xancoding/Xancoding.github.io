@@ -5,6 +5,8 @@
     <link>https://xancoding.github.io/series/</link>
     <description>Recent content in Series on Xan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="https://xancoding.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <managingEditor>zag.zj.cn@gmail.com (Xan)</managingEditor>
+    <webMaster>zag.zj.cn@gmail.com (Xan)</webMaster><atom:link href="https://xancoding.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
