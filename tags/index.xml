@@ -8,33 +8,13 @@
     <language>zh-cn</language>
     <managingEditor>zag.zj.cn@gmail.com (Xan)</managingEditor>
     <webMaster>zag.zj.cn@gmail.com (Xan)</webMaster>
-    <lastBuildDate>Sat, 09 Sep 2023 09:46:05 +0800</lastBuildDate><atom:link href="https://xancoding.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hobby</title>
-      <link>https://xancoding.github.io/tags/hobby/</link>
-      <pubDate>Sat, 09 Sep 2023 09:46:05 +0800</pubDate>
-      <author>zag.zj.cn@gmail.com (Xan)</author>
-      <guid>https://xancoding.github.io/tags/hobby/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
+    <lastBuildDate>Thu, 07 Sep 2023 17:57:15 +0800</lastBuildDate><atom:link href="https://xancoding.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Life</title>
       <link>https://xancoding.github.io/tags/life/</link>
-      <pubDate>Sat, 09 Sep 2023 09:46:05 +0800</pubDate>
+      <pubDate>Thu, 07 Sep 2023 17:57:15 +0800</pubDate>
       <author>zag.zj.cn@gmail.com (Xan)</author>
       <guid>https://xancoding.github.io/tags/life/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Tools</title>
-      <link>https://xancoding.github.io/tags/tools/</link>
-      <pubDate>Sat, 09 Sep 2023 09:46:05 +0800</pubDate>
-      <author>zag.zj.cn@gmail.com (Xan)</author>
-      <guid>https://xancoding.github.io/tags/tools/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -55,6 +35,16 @@
       <pubDate>Thu, 07 Sep 2023 17:57:15 +0800</pubDate>
       <author>zag.zj.cn@gmail.com (Xan)</author>
       <guid>https://xancoding.github.io/tags/self/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://xancoding.github.io/tags/tools/</link>
+      <pubDate>Thu, 07 Sep 2023 17:57:15 +0800</pubDate>
+      <author>zag.zj.cn@gmail.com (Xan)</author>
+      <guid>https://xancoding.github.io/tags/tools/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
