@@ -8,11 +8,21 @@
     <language>zh-cn</language>
     <managingEditor>zag.zj.cn@gmail.com (Xan)</managingEditor>
     <webMaster>zag.zj.cn@gmail.com (Xan)</webMaster>
-    <lastBuildDate>Thu, 07 Sep 2023 17:57:15 +0800</lastBuildDate><atom:link href="https://xancoding.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Aug 2023 09:25:10 +0800</lastBuildDate><atom:link href="https://xancoding.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://xancoding.github.io/tags/books/</link>
+      <pubDate>Wed, 09 Aug 2023 09:25:10 +0800</pubDate>
+      <author>zag.zj.cn@gmail.com (Xan)</author>
+      <guid>https://xancoding.github.io/tags/books/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>Life</title>
       <link>https://xancoding.github.io/tags/life/</link>
-      <pubDate>Thu, 07 Sep 2023 17:57:15 +0800</pubDate>
+      <pubDate>Wed, 09 Aug 2023 09:25:10 +0800</pubDate>
       <author>zag.zj.cn@gmail.com (Xan)</author>
       <guid>https://xancoding.github.io/tags/life/</guid>
       <description></description>
@@ -20,41 +30,11 @@
     </item>
     
     <item>
-      <title>Productivity</title>
-      <link>https://xancoding.github.io/tags/productivity/</link>
-      <pubDate>Thu, 07 Sep 2023 17:57:15 +0800</pubDate>
-      <author>zag.zj.cn@gmail.com (Xan)</author>
-      <guid>https://xancoding.github.io/tags/productivity/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
       <title>Self</title>
       <link>https://xancoding.github.io/tags/self/</link>
-      <pubDate>Thu, 07 Sep 2023 17:57:15 +0800</pubDate>
-      <author>zag.zj.cn@gmail.com (Xan)</author>
-      <guid>https://xancoding.github.io/tags/self/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Tools</title>
-      <link>https://xancoding.github.io/tags/tools/</link>
-      <pubDate>Thu, 07 Sep 2023 17:57:15 +0800</pubDate>
-      <author>zag.zj.cn@gmail.com (Xan)</author>
-      <guid>https://xancoding.github.io/tags/tools/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Books</title>
-      <link>https://xancoding.github.io/tags/books/</link>
       <pubDate>Wed, 09 Aug 2023 09:25:10 +0800</pubDate>
       <author>zag.zj.cn@gmail.com (Xan)</author>
-      <guid>https://xancoding.github.io/tags/books/</guid>
+      <guid>https://xancoding.github.io/tags/self/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -75,6 +55,26 @@
       <pubDate>Sun, 30 Apr 2023 09:43:31 +0800</pubDate>
       <author>zag.zj.cn@gmail.com (Xan)</author>
       <guid>https://xancoding.github.io/tags/tech/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Productivity</title>
+      <link>https://xancoding.github.io/tags/productivity/</link>
+      <pubDate>Mon, 14 Nov 2022 15:56:45 +0800</pubDate>
+      <author>zag.zj.cn@gmail.com (Xan)</author>
+      <guid>https://xancoding.github.io/tags/productivity/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://xancoding.github.io/tags/tools/</link>
+      <pubDate>Sun, 30 Oct 2022 15:28:22 +0800</pubDate>
+      <author>zag.zj.cn@gmail.com (Xan)</author>
+      <guid>https://xancoding.github.io/tags/tools/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
